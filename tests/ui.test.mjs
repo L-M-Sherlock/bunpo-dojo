@@ -5,8 +5,9 @@ import ts from 'typescript';
 import {JSDOM} from 'jsdom';
 import {createElement} from 'react';
 import cards from '../src/data/cards.json' with {type:'json'};
+import verbRoleFocus from '../src/data/verb-role-focus.json' with {type:'json'};
 import {newProfile,startSession,STORAGE_KEY,targetKey,exportProfile} from '../src/lib/engine.mjs';
-import {trackingSkillIdForCard} from '../src/lib/catalog.mjs';
+import {PAIR_CLASSIFICATION_SOURCE_BY_SKILL,PAIR_GROUP_BY_SKILL,trackingSkillIdForCard} from '../src/lib/catalog.mjs';
 import {orderedOptions} from '../src/lib/option-order.mjs';
 import {withVerbRoleCatalog,withPotentialRoleCatalog} from './fixtures/verb-role.mjs';
 const dom=new JSDOM('<html><body></body></html>',{url:'http://localhost/bunpo-dojo/',pretendToBeVisual:true});
@@ -94,12 +95,14 @@ test('the course library makes categories gating and concrete pairs a non-gating
   const group=v.getByText('自动 -u（五段）／ 他动 -eru（一段）').closest('.pair-group'),progress=group.querySelector('.pair-category-progress');assert.match(progress.textContent,/代表词对 0\/3 · 独立作答 0\/5 · 自动词待覆盖 · 他动词待覆盖/);assert.match(progress.textContent,/达标还需：独立作答 5 次 · 答对 3 个新场景 · 覆盖 3 组新代表词对 · 答对自动词场景 · 答对他动词场景/);assert.equal(/intransitive|transitive|context/.test(progress.textContent),false);assert.equal(progress.querySelector('progress').getAttribute('aria-label'),'自动 -u（五段）／ 他动 -eru（一段）掌握进度');
 });
 
-test('the pair course renders the source categories and labels pair questions with their category',async()=>{
+test('the pair course keeps source categories in the library and reveals a question category only after answering',async()=>{
   window.history.replaceState(null,'','/bunpo-dojo/#/library');let v=mount();assert.equal(v.container.querySelectorAll('.pair-group').length,25);
   assert.equal(v.queryByText(/原文第 \d+ 类/),null);assert.ok(v.getByText('自动 -aru（五段）／ 他动 -eru（一段）'));assert.ok(v.getByText('自动词与他动词同形（均为五段）'));assert.equal(v.getAllByText('补充例词').length,7);assert.equal(v.getAllByText(/含补充例词 1 组/).length,4);assert.ok(v.getByText(/含补充例词 3 组/));
   const source=[...v.getAllByRole('link')].find(link=>link.textContent.includes('哈呀《日语自动词与他动词的所有对应形式》'));assert.ok(source);assert.equal(source.getAttribute('href'),'https://zhuanlan.zhihu.com/p/58662766');
-  cleanup();localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/#/practice');seed('pairs');v=mount();assert.ok(v.getByText(/自他词形 · 自动 -aru（五段）／ 他动 -eru（一段）/));
-  cleanup();localStorage.clear();const supplemental=cards.find(card=>card.skillId==='verb.find'),profile=startSession(newProfile(),[supplemental],{courses:['pairs']});localStorage.setItem(STORAGE_KEY,JSON.stringify(profile));v=mount([supplemental]);assert.ok(v.getByText(/自他词形 · 自动 -aru（五段）／ 他动 -eru（一段） · 补充例词/));
+  cleanup();localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/#/practice');const profile=seed('pairs'),card=cards.find(candidate=>candidate.id===profile.session.cardId),group=PAIR_GROUP_BY_SKILL.get(card.skillId);v=mount();assert.equal(v.container.querySelector('.question-kicker').textContent.includes(group.label),false);assert.equal(v.container.querySelector('.question-kicker').textContent.includes('自他词形'),false);
+  fireEvent.click(optionButton(v,card,card.options.find(option=>card.answerIds.includes(option.id))));await waitFor(()=>assert.equal(v.getByRole('button',{name:/检查答案/}).disabled,false));fireEvent.click(v.getByRole('button',{name:/检查答案/}));
+  await waitFor(()=>assert.equal(v.container.querySelector('.feedback .pair-pattern-feedback')?.textContent,`词形对应：${group.label}${PAIR_CLASSIFICATION_SOURCE_BY_SKILL.get(card.skillId)==='article'?'':' · 补充例词'}`));
+  cleanup();localStorage.clear();const supplemental=cards.find(candidate=>candidate.skillId==='verb.find'),supplementalProfile=startSession(newProfile(),[supplemental],{courses:['pairs']});localStorage.setItem(STORAGE_KEY,JSON.stringify(supplementalProfile));v=mount([supplemental]);assert.equal(v.container.querySelector('.question-kicker').textContent.includes('自他词形'),false);assert.equal(v.container.querySelector('.question-kicker').textContent.includes(PAIR_GROUP_BY_SKILL.get(supplemental.skillId).label),false);
 });
 
 test('a safe lexical typo stays editable and does not create a score or retest',async()=>{
@@ -144,6 +147,17 @@ test('verb-role presents a full Japanese sentence and Chinese category options, 
     assert.ok(v.getByText('查看自他类别的判断依据'));
     for(const label of v.container.querySelectorAll('.feedback details b'))assert.equal(label.lang,'');
   });
+});
+
+test('real verb-role questions highlight the complete inflected target in the sentence',async()=>{
+  for(const id of ['verb.refcfa.01','verb.refbva.02','verb.refboa.04','verb.refbra.04','verb.refbxa.02']){
+    cleanup();localStorage.clear();const c=cards.find(card=>card.id===id);seedRole(c);const v=mount([c]),sentence=v.container.querySelector('.exercise-card .sentence'),focused=[...sentence.querySelectorAll('.focus-verb')].map(node=>sentenceText(node)).join('');
+    assert.equal(focused,verbRoleFocus[id],id);assert.equal(sentenceText(sentence),c.before.map(part=>part.text).join('')+c.after.map(part=>part.text).join(''),id);
+  }
+  cleanup();localStorage.clear();const c=cards.find(card=>card.id==='verb.refbra.04');seedRole(c);const v=mount([c]),sentence=v.container.querySelector('.exercise-card .sentence');
+  assert.equal(sentence.querySelector('.focus-verb ruby').textContent,'縮ちぢ');assert.equal(sentence.querySelector('.focus-verb').previousElementSibling.textContent,'分ぶん');
+  fireEvent.click(v.getByRole('button',{name:'隐藏注音'}));await waitFor(()=>assert.equal(v.container.querySelectorAll('.exercise-card .sentence rt').length,0));
+  const hiddenSentence=v.container.querySelector('.exercise-card .sentence'),hiddenFocus=[...hiddenSentence.querySelectorAll('.focus-verb')].map(node=>sentenceText(node)).join('');assert.equal(sentenceText(hiddenSentence).includes('二ページ分縮めた'),true);assert.equal(hiddenFocus,'縮めた');
 });
 
 test('verb-role input accepts each Chinese category and displays category feedback with consistent full sentences',async()=>{

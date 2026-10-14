@@ -30,5 +30,9 @@
     "singleChoice": 827,
     "positionCoverage": "50% / 50%"
   },
+  "verbRoleFocus": {
+    "cards": 83,
+    "highlighted": 83
+  },
   "errors": []
 }

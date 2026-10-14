@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import rawCards from "./data/cards.json";
+import rawVerbRoleFocus from "./data/verb-role-focus.json";
 import { COURSES, ADAPTIVE_COURSE_IDS, PAIR_COUNT, PAIR_GROUPS, PAIR_GROUP_BY_SKILL, PAIR_CLASSIFICATION_SOURCE_BY_SKILL, SKILL_BY_ID, TRACKED_SKILLS, TRACKED_SKILL_BY_ID, trackingSkillIdForCard, SOURCE_URLS, sourceLabel } from "./lib/catalog.mjs";
 import {
   newProfile,
@@ -27,6 +28,7 @@ import { orderedOptions } from "./lib/option-order.mjs";
 import type { Card, Part, Profile, Mode, AnswerMode } from "./types";
 
 const DEFAULT_CARDS = rawCards as Card[];
+const VERB_ROLE_FOCUS = rawVerbRoleFocus as Record<string, string>;
 const exclusive = navigator.locks
   ? async <T,>(fn: () => Promise<T>): Promise<T> =>
       (await navigator.locks.request(`${STORAGE_KEY}-write`, fn)) as T
@@ -37,6 +39,11 @@ const rate = (n: number, d: number) =>
 const coverageLabels: Record<string, string> = {
   intransitive: "答对自动词场景",
   transitive: "答对他动词场景",
+};
+const focusKanjiReading = (focus?: Card["focusVerb"]) => {
+  if (!focus) return undefined;
+  const suffix = focus.text.match(/[ぁ-ゖァ-ヺー]+$/u)?.[0] ?? "";
+  return suffix && focus.reading.endsWith(suffix) ? focus.reading.slice(0, -suffix.length) : focus.reading;
 };
 function gapLabels(skill: (typeof TRACKED_SKILLS)[number], stats?: Profile["bySkill"][string]) {
   const gaps = masteryGaps(skill, stats);
@@ -55,21 +62,38 @@ const selectionReasonCopy = {
   consolidation: ["巩固练习", "所选课程的目标已经达标，本题用于轮换复习。"],
   continuation: ["继续作答", "这是升级前已经显示的题目，原始出题原因没有保存。"],
 } as const;
-function Japanese({ parts, reading }: { parts: Part[]; reading: boolean }) {
+function Japanese({ parts, reading, highlight, highlightReading }: { parts: Part[]; reading: boolean; highlight?: string; highlightReading?: string }) {
+  const aligned = parts.flatMap((part) => usageSentenceParts(part)),
+    fullText = aligned.map((part) => part.text).join(""),
+    highlightStart = highlight ? fullText.indexOf(highlight) : -1,
+    highlightEnd = highlightStart < 0 ? -1 : highlightStart + highlight!.length,
+    located = aligned.reduce<Array<{part: Part; index: number; start: number; end: number}>>((rows, part, index) => {
+      const start = rows.at(-1)?.end ?? 0;
+      return [...rows, {part, index, start, end: start + part.text.length}];
+    }, []);
+  const renderPart = (part: Part) => part.reading && reading ? (
+    <ruby>{part.text}<rt>{part.reading}</rt></ruby>
+  ) : part.text;
   return (
     <span lang="ja">
-      {parts
-        .flatMap((part) => usageSentenceParts(part))
-        .map((part: Part, i: number) =>
-          part.reading && reading ? (
-            <ruby key={i}>
-              {part.text}
-              <rt>{part.reading}</rt>
-            </ruby>
-          ) : (
-            <span key={i}>{part.text}</span>
-          ),
-        )}
+      {located.flatMap(({part, index, start, end}) => {
+        if(highlightStart<0||end<=highlightStart||start>=highlightEnd)return <span key={index}>{renderPart(part)}</span>;
+        if(highlightStart<=start&&end<=highlightEnd)return <strong className="focus-verb" key={index}>{renderPart(part)}</strong>;
+        const localStart=Math.max(0,highlightStart-start),localEnd=Math.min(part.text.length,highlightEnd-start),result=[];
+        if(part.reading&&reading){
+          const readingStart=highlightReading&&localEnd===part.text.length?part.reading.lastIndexOf(highlightReading):-1;
+          if(readingStart>=0){
+            if(localStart)result.push(<ruby key={`${index}-before`}>{part.text.slice(0,localStart)}<rt>{part.reading.slice(0,readingStart)}</rt></ruby>);
+            result.push(<strong className="focus-verb" key={`${index}-focus`}><ruby>{part.text.slice(localStart,localEnd)}<rt>{part.reading.slice(readingStart)}</rt></ruby></strong>);
+            return result;
+          }
+          return <strong className="focus-verb" key={index}>{renderPart(part)}</strong>;
+        }
+        if(localStart)result.push(<span key={`${index}-before`}>{part.text.slice(0,localStart)}</span>);
+        result.push(<strong className="focus-verb" key={`${index}-focus`}>{part.text.slice(localStart,localEnd)}</strong>);
+        if(localEnd<part.text.length)result.push(<span key={`${index}-after`}>{part.text.slice(localEnd)}</span>);
+        return result;
+      })}
     </span>
   );
 }
@@ -102,7 +126,7 @@ function Sentence({
   if (card.exerciseType === "verb-role")
     return (
       <p className="sentence" lang="ja">
-        <Japanese parts={[...card.before, ...card.after]} reading={reading} />
+        <Japanese parts={[...card.before, ...card.after]} reading={reading} highlight={VERB_ROLE_FOCUS[card.id]} highlightReading={focusKanjiReading(card.focusVerb)} />
       </p>
     );
   const answer = card.options.find((o) => card.answerIds.includes(o.id))!;
@@ -1151,11 +1175,6 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                       ? "选出符合场景的表达"
                       : "填写符合场景的表达"}
                   </span>
-                  {card.courseId === "pairs" && pairGroup && (
-                    <span className="pair-group-kicker">
-                      {pairClassificationSource === "article" ? `自他词形 · ${pairGroup.label}` : `自他词形 · ${pairGroup.label} · 补充例词`}
-                    </span>
-                  )}
                 </div>
                 <p className="scene">
                   <small>场景</small>
@@ -1319,6 +1338,14 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                             : "输入未匹配本题已审核的表达。先对照完整句，系统不会凭拼写猜测你的错因。"
                           : card.explanation}
                     </p>
+                    {card.courseId === "pairs" && pairGroup && (
+                      <p className="pair-pattern-feedback">
+                        <b>词形对应：</b>
+                        {pairClassificationSource === "article"
+                          ? pairGroup.label
+                          : `${pairGroup.label} · 补充例词`}
+                      </p>
+                    )}
                     <Sentence card={card} revealed reading={reading} />
                     <p className="translation">{card.translation}</p>
                     {card.answerIds.length > 1 && (

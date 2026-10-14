@@ -508,6 +508,14 @@ button:not(.primary):not(.text-button):not(.options button):not(
   letter-spacing: 0.02em;
   font-weight: 400;
 }
+.sentence .focus-verb {
+  color: var(--red);
+  font-weight: 650;
+}
+.sentence .focus-verb rt {
+  color: var(--red);
+  font-weight: 500;
+}
 .sentence mark {
   color: var(--green);
   background: #dfeadabb;
