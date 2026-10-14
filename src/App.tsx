@@ -62,8 +62,8 @@ const selectionReasonCopy = {
   consolidation: ["巩固练习", "所选课程的目标已经达标，本题用于轮换复习。"],
   continuation: ["继续作答", "这是升级前已经显示的题目，原始出题原因没有保存。"],
 } as const;
-function Japanese({ parts, reading, highlight, highlightReading }: { parts: Part[]; reading: boolean; highlight?: string; highlightReading?: string }) {
-  const aligned = parts.flatMap((part) => usageSentenceParts(part)),
+function Japanese({ parts, reading, highlight, highlightReading, omitLeadingPunctuation = false }: { parts: Part[]; reading: boolean; highlight?: string; highlightReading?: string; omitLeadingPunctuation?: boolean }) {
+  const aligned = parts.flatMap((part, index) => usageSentenceParts(part, {omitLeadingPunctuation: omitLeadingPunctuation && index === 0})),
     fullText = aligned.map((part) => part.text).join(""),
     highlightStart = highlight ? fullText.indexOf(highlight) : -1,
     highlightEnd = highlightStart < 0 ? -1 : highlightStart + highlight!.length,
@@ -132,16 +132,6 @@ function Sentence({
   const answer = card.options.find((o) => card.answerIds.includes(o.id))!;
   const punctuation =
     card.after[0]?.text.match(/^[。、！？!?」』）]+/u)?.[0] ?? "";
-  const after = punctuation
-    ? [
-        {
-          ...card.after[0],
-          text: card.after[0].text.slice(punctuation.length),
-          reading: card.after[0].reading?.slice(punctuation.length),
-        },
-        ...card.after.slice(1),
-      ]
-    : card.after;
   return (
     <p className="sentence" lang="ja">
       <Japanese parts={card.before} reading={reading} />
@@ -158,7 +148,7 @@ function Sentence({
         )}
         {punctuation}
       </span>
-      <Japanese parts={after} reading={reading} />
+      <Japanese parts={card.after} reading={reading} omitLeadingPunctuation={Boolean(punctuation)} />
     </p>
   );
 }

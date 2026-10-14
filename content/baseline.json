@@ -4,7 +4,7 @@
   "sourceCommit": "67459b9b500ad660f0225f55d736789616f91025",
   "scopeCount": 858,
   "previousBaseline": "content/versions/article-v2/baseline.json",
-  "change": "用户要求文章全部词例；25组160行原含括号双读法，165个精确词对，补147知识点588题，目标858题。原始854范围及部分接入状态另留快照。2026-10-14 补录25种词形模式，将7组站内高频词对归类，并用冻结的JPDBv2㋕与Jiten Global数据重排各模式内的例词；词对范围与题卡不变",
+  "change": "用户要求文章全部词例；25组160行原含括号双读法，165个精确词对，补147知识点588题，目标858题。原始854范围及部分接入状态另留快照。2026-10-14 补录25种词形模式，将7组站内高频词对归类，并用冻结的JPDBv2㋕与Jiten Global数据重排各模式内的例词；随后将全部在用日语字段改为显式词界注音布局；词对范围与题卡不变",
   "referencesSha256": {
     "content/references/haya-pairs.json": "97bd06464baba55146ceb7480643e9498016c939edd527ad7a00e00b11ffee2d",
     "content/references/site-pair-classification.json": "24c8246bda318a4571e66495232687406e9356bf1314b147ddb02d415d8dfafe",
@@ -12,6 +12,7 @@
     "content/references/pair-frequency-order.json": "6fe6469fae83b32b8521c80a3887e8aecea79276aff0fb015652468df469b91d",
     "content/references/pair-frequency-aliases.json": "359eea7c569efca13b93e039ba4b667d3b10f7b7da6a035c02d0d75bc9970694",
     "content/references/PAIR_FREQUENCY_NOTICE.md": "40470c6708e2a630e6808027070eb32b1e2666d90e62560f1c82c202bc87c843",
+    "src/data/ruby-layouts.json": "e228438ea79b781f2c6ed7b5a792835017492a578ba95b262a256f42d7e0dc59",
     "content/references/haya-scope-review.json": "5b3b4bc2bdcedbaa503fb0dfcccd614dcb58f7dd93a25a2db640f6045a85b0ab",
     "content/references/haya-iru-followup.json": "6205666b0351a12232c7c93d67e10c5a49d9d14d47e6f949a7636a4fc19c0997"
   },

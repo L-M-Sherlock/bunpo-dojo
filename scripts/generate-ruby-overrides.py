@@ -1,30 +1,47 @@
 #!/usr/bin/env python3
-"""Generate reviewed-at-build-time ruby segmentation candidates.
+"""Generate explicit, word-boundary-aware ruby layouts for active cards.
+
+The output is display metadata. It never changes authored card text or readings.
+Sudachi C supplies word-boundary candidates offline; authored readings remain
+authoritative. Ambiguous alignments fail instead of silently guessing.
 
 Run with:
-  uv run --no-project --with 'fugashi[unidic-lite]' \
+  uv run --no-project \
+    --with 'sudachipy==0.6.10' \
+    --with 'sudachidict-core==20250825' \
     python scripts/generate-ruby-overrides.py
-
-The browser never runs a tokenizer. This script only supplies explicit display
-segments for authored readings that the conservative runtime splitter cannot
-align uniquely.
 """
 
 from __future__ import annotations
 
 import argparse
 import functools
+import importlib.metadata
 import json
 import re
 import unicodedata
+from dataclasses import dataclass
 from pathlib import Path
 
-from fugashi import Tagger
+from sudachipy import dictionary, tokenizer
 
 
 HAN = re.compile(r"[\u3400-\u9fff々〇]")
 GROUPS = re.compile(r"[\u3400-\u9fff々〇]+|[^\u3400-\u9fff々〇]+")
-PUNCTUATION = set("、。!?！？「」『』()（）：:；;")
+PUNCTUATION = set("、。,.!?！？「」『』()（）：:；;…")
+
+# A word-internal kana anchor is ambiguous only in this active vocabulary.
+INTERNAL_LAYOUTS = {
+    ("飲み水", "のみみず"): [
+        {"text": "飲", "reading": "の"},
+        {"text": "み"},
+        {"text": "水", "reading": "みず"},
+    ],
+}
+
+# Counters/lexicalized quantities whose readings contain sound changes or whose
+# Sudachi boundary is smaller than the learner-facing word.
+FORCED_WORDS = {"一晩", "一曲", "千字", "二十字"}
 
 
 def normalize(text: str) -> str:
@@ -34,38 +51,6 @@ def normalize(text: str) -> str:
         for char in text
     )
     return re.sub(r"\s", "", text).replace(",", "、").replace(".", "。")
-
-
-def unpunctuated(text: str) -> str:
-    return "".join(char for char in normalize(text) if char not in PUNCTUATION)
-
-
-def runtime_can_split(text: str, reading: str) -> bool:
-    groups = GROUPS.findall(text)
-
-    def attempt(key) -> bool:
-        if any(
-            0 < index < len(groups) - 1
-            and not HAN.search(group)
-            and not key(group)
-            and HAN.search(groups[index - 1])
-            and HAN.search(groups[index + 1])
-            for index, group in enumerate(groups)
-        ):
-            return False
-        pattern = "".join(
-            "(.+?)" if HAN.search(group) else re.escape(key(group))
-            for group in groups
-        )
-        greedy = "".join(
-            "(.+)" if HAN.search(group) else re.escape(key(group))
-            for group in groups
-        )
-        shortest = re.fullmatch(pattern, key(reading))
-        longest = re.fullmatch(greedy, key(reading))
-        return bool(shortest and longest and shortest.groups() == longest.groups())
-
-    return attempt(normalize) or attempt(unpunctuated)
 
 
 def distance(left: str, right: str) -> int:
@@ -84,75 +69,183 @@ def distance(left: str, right: str) -> int:
     return previous[-1]
 
 
-def token_reading(token) -> str:
-    kana = getattr(token.feature, "kana", None)
-    return normalize(kana or token.surface)
+@dataclass(frozen=True)
+class Unit:
+    surface: str
+    expected: str
+    pos: tuple[str, ...]
+
+    @property
+    def has_han(self) -> bool:
+        return bool(HAN.search(self.surface))
 
 
-def align_tokens(text: str, reading: str, tagger: Tagger):
-    tokens = list(tagger(text))
-    normalized_reading = normalize(reading)
+def combine(units: list[Unit]) -> Unit:
+    return Unit(
+        "".join(unit.surface for unit in units),
+        "".join(unit.expected for unit in units),
+        units[0].pos,
+    )
+
+
+def is_counter(unit: Unit) -> bool:
+    return (
+        len(unit.pos) > 2
+        and unit.pos[2] == "助数詞可能"
+        or unit.pos[0] == "接尾辞"
+        and len(unit.pos) > 2
+        and unit.pos[2] in {"助数詞", "一般"}
+    )
+
+
+def merge_units(morphemes) -> list[Unit]:
+    raw = [
+        Unit(m.surface(), normalize(m.reading_form() or m.surface()), m.part_of_speech())
+        for m in morphemes
+    ]
+    result: list[Unit] = []
+    index = 0
+    while index < len(raw):
+        item = raw[index]
+        forced = None
+        for end in range(min(len(raw), index + 4), index + 1, -1):
+            if "".join(unit.surface for unit in raw[index:end]) in FORCED_WORDS:
+                forced = end
+                break
+        if forced:
+            result.append(combine(raw[index:forced]))
+            index = forced
+            continue
+        # 第 + numeral is one ordinal marker; the following noun stays separate.
+        if item.surface == "第" and index + 1 < len(raw) and raw[index + 1].pos[:2] == ("名詞", "数詞"):
+            members = [item]
+            index += 1
+            while index < len(raw) and raw[index].pos[:2] == ("名詞", "数詞"):
+                members.append(raw[index])
+                index += 1
+            result.append(combine(members))
+            continue
+        # Numerals and their counter/date/time suffix form one semantic unit.
+        if item.pos[:2] == ("名詞", "数詞"):
+            members = [item]
+            index += 1
+            while index < len(raw) and raw[index].pos[:2] == ("名詞", "数詞"):
+                members.append(raw[index])
+                index += 1
+            if index < len(raw) and is_counter(raw[index]):
+                members.append(raw[index])
+                index += 1
+            result.append(combine(members))
+            continue
+        # Sudachi sometimes exposes productive prefixes/suffixes separately.
+        if item.pos[0] == "接頭辞" and index + 1 < len(raw):
+            result.append(combine([item, raw[index + 1]]))
+            index += 2
+            continue
+        if item.pos[0] == "接尾辞" and result:
+            result[-1] = combine([result[-1], item])
+            index += 1
+            continue
+        result.append(item)
+        index += 1
+    return result
+
+
+def align_units(text: str, reading: str, units: list[Unit]):
+    target = normalize(reading)
 
     @functools.lru_cache(maxsize=None)
     def solve(index: int, position: int):
-        if index == len(tokens):
-            return (0, 0, []) if position == len(normalized_reading) else None
-        token = tokens[index]
-        surface = token.surface
-        surface_key = normalize(surface)
-        contains_kanji = bool(HAN.search(surface))
+        if index == len(units):
+            return ((0, 0, 0), ((),)) if position == len(target) else None
+        unit = units[index]
         candidates = []
-        if not contains_kanji:
-            if normalized_reading.startswith(surface_key, position):
-                tail = solve(index + 1, position + len(surface_key))
-                if tail:
-                    candidates.append((tail[0], tail[1], [(surface, None, None)] + tail[2]))
-            if surface_key and all(char in PUNCTUATION for char in surface_key):
-                tail = solve(index + 1, position)
-                if tail:
-                    candidates.append((tail[0], tail[1] + 1, [(surface, None, None)] + tail[2]))
-        else:
-            expected = token_reading(token)
-            remaining_kanji = sum(
-                1 for later in tokens[index + 1 :] if HAN.search(later.surface)
-            )
-            latest = len(normalized_reading) - remaining_kanji
-            for end in range(position + 1, latest + 1):
-                assigned = normalized_reading[position:end]
+        if not unit.has_han:
+            surface = normalize(unit.surface)
+            advances = []
+            if target.startswith(surface, position):
+                advances.append((position + len(surface), 0))
+            if surface and all(char in PUNCTUATION for char in surface):
+                advances.append((position, 1))
+            for end, punctuation_penalty in advances:
                 tail = solve(index + 1, end)
                 if tail:
-                    edit_cost = distance(assigned, expected)
+                    score, solutions = tail
                     candidates.append(
                         (
-                            edit_cost + tail[0],
-                            abs(len(assigned) - len(expected)) + tail[1],
-                            [(surface, assigned, expected)] + tail[2],
+                            (score[0], score[1] + punctuation_penalty, score[2]),
+                            tuple(((unit.surface, None),) + solution for solution in solutions),
                         )
                     )
-        return min(candidates, key=lambda item: (item[0], item[1])) if candidates else None
+        else:
+            minimum_remaining = sum(1 for later in units[index + 1 :] if later.has_han)
+            latest = len(target) - minimum_remaining
+            for end in range(position + 1, latest + 1):
+                assigned = target[position:end]
+                if any(char in PUNCTUATION for char in assigned):
+                    continue
+                tail = solve(index + 1, end)
+                if not tail:
+                    continue
+                score, solutions = tail
+                exact = int(assigned == unit.expected)
+                local = (
+                    distance(assigned, unit.expected),
+                    abs(len(assigned) - len(unit.expected)),
+                    -exact,
+                )
+                candidates.append(
+                    (
+                        tuple(local[i] + score[i] for i in range(3)),
+                        tuple(((unit.surface, assigned),) + solution for solution in solutions),
+                    )
+                )
+        if not candidates:
+            return None
+        best_score = min(score for score, _ in candidates)
+        best = []
+        for score, solutions in candidates:
+            if score == best_score:
+                for solution in solutions:
+                    if solution not in best:
+                        best.append(solution)
+                    if len(best) > 1:
+                        break
+            if len(best) > 1:
+                break
+        return best_score, tuple(best)
 
     result = solve(0, 0)
     if not result:
-        raise ValueError(f"Tokenizer alignment failed: {text} / {reading}")
-    return result[2]
+        raise ValueError(f"Sudachi alignment failed: {text} / {reading}")
+    _, solutions = result
+    if len(solutions) != 1:
+        raise ValueError(f"Sudachi alignment is ambiguous: {text} / {reading} / {solutions}")
+    return solutions[0]
 
 
-def split_token(surface: str, reading: str):
+def split_word(surface: str, reading: str):
+    manual = INTERNAL_LAYOUTS.get((surface, reading))
+    if manual:
+        return manual
     groups = GROUPS.findall(surface)
-    if sum(bool(HAN.search(group)) for group in groups) != 1:
+    if len(groups) == 1:
         return [{"text": surface, "reading": reading}]
-    pattern = "".join(
-        "(.+?)" if HAN.search(group) else re.escape(normalize(group))
-        for group in groups
-    )
-    match = re.fullmatch(pattern, reading)
-    if not match:
-        return [{"text": surface, "reading": reading}]
-    captured = iter(match.groups())
+
+    def attempt(capture: str):
+        pattern = "".join(
+            capture if HAN.search(group) else re.escape(normalize(group))
+            for group in groups
+        )
+        return re.fullmatch(pattern, reading)
+
+    shortest = attempt("(.+?)")
+    longest = attempt("(.+)")
+    if not shortest or not longest or shortest.groups() != longest.groups():
+        raise ValueError(f"Word-internal alignment is ambiguous: {surface} / {reading}")
+    captured = iter(shortest.groups())
     return [
-        {"text": group, "reading": next(captured)}
-        if HAN.search(group)
-        else {"text": group}
+        {"text": group, "reading": next(captured)} if HAN.search(group) else {"text": group}
         for group in groups
     ]
 
@@ -167,74 +260,49 @@ def compact(parts):
     return result
 
 
-def merge_contiguous_kanji_tokens(aligned):
-    """Keep compounds/counters together so sound changes stay on one ruby."""
-    result = []
-    index = 0
-    while index < len(aligned):
-        surface, reading, expected = aligned[index]
-        pure_kanji = bool(surface) and all(HAN.fullmatch(char) for char in surface)
-        if not pure_kanji:
-            result.append((surface, reading))
-            index += 1
-            continue
-        run = []
-        while index < len(aligned):
-            item = aligned[index]
-            if not item[0] or not all(HAN.fullmatch(char) for char in item[0]):
-                break
-            run.append(item)
-            index += 1
-        # Keep separate tokens when each authored reading has the same span as
-        # UniDic (including same-length sound changes such as 百=ひゃっ). If a
-        # reading boundary drifts into the next token (光=ひか / 回線=りかいせん),
-        # merge only the shortest block whose cumulative lengths realign.
-        block = []
-        authored_length = expected_length = 0
-        for item in run:
-            block.append(item)
-            authored_length += len(item[1])
-            expected_length += len(item[2])
-            if authored_length == expected_length:
-                if len(block) == 1:
-                    result.append((block[0][0], block[0][1]))
-                else:
-                    result.append(("".join(x[0] for x in block), "".join(x[1] for x in block)))
-                block = []
-                authored_length = expected_length = 0
-        if block:
-            result.append(("".join(x[0] for x in block), "".join(x[1] for x in block)))
-    return result
+def collect_parts(cards):
+    unique = {}
+    for card in cards:
+        parts = [*card.get("before", []), *card.get("after", [])]
+        if card.get("exerciseType") == "verb-role":
+            if card.get("focusVerb"):
+                parts.append(card["focusVerb"])
+        else:
+            parts.extend(card.get("options", []))
+        for part in parts:
+            text, reading = part.get("text", ""), part.get("reading")
+            if reading and HAN.search(text):
+                unique[(text, reading)] = None
+    return sorted(unique)
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--cards", default="src/data/cards.json")
-    parser.add_argument("--output", default="src/data/ruby-overrides.json")
+    parser.add_argument("--output", default="src/data/ruby-layouts.json")
     args = parser.parse_args()
     cards = json.loads(Path(args.cards).read_text())
-    candidates = {}
-    for card in cards:
-        for field in ("before", "after"):
-            for part in card.get(field, []):
-                text = part.get("text", "")
-                reading = part.get("reading")
-                if not reading or len([g for g in GROUPS.findall(text) if HAN.search(g)]) < 2:
-                    continue
-                if runtime_can_split(text, reading):
-                    continue
-                candidates[(text, reading)] = None
-
-    tagger = Tagger()
+    tagger = dictionary.Dictionary().create()
     rows = []
-    for text, reading in sorted(candidates):
-        aligned = merge_contiguous_kanji_tokens(align_tokens(text, reading, tagger))
+    for text, reading in collect_parts(cards):
+        units = merge_units(tagger.tokenize(text, tokenizer.Tokenizer.SplitMode.C))
+        aligned = align_units(text, reading, units)
         parts = []
         for surface, assigned in aligned:
-            parts.extend(split_token(surface, assigned) if assigned else [{"text": surface}])
+            parts.extend(split_word(surface, assigned) if assigned else [{"text": surface}])
         rows.append({"text": text, "reading": reading, "parts": compact(parts)})
-    Path(args.output).write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n")
-    print(json.dumps({"cards": len(cards), "overrides": len(rows)}, ensure_ascii=False))
+    result = {
+        "version": 1,
+        "policy": "word-boundary-ruby",
+        "generator": {
+            "sudachipy": importlib.metadata.version("SudachiPy"),
+            "sudachidictCore": importlib.metadata.version("SudachiDict-core"),
+        },
+        "cards": len(cards),
+        "layouts": rows,
+    }
+    Path(args.output).write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    print(json.dumps({"cards": len(cards), "layouts": len(rows)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
