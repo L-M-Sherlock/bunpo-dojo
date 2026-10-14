@@ -1,0 +1,223 @@
+[
+  {
+    "id": "verb.start.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.start.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.end.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.end.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.decide.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.decide.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.change.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

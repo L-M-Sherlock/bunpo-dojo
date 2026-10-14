@@ -1,0 +1,148 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.existence.04",
+      "hash": "0d494430db80fa8d291d911adbb6ae3c0157884f6680ae445e8a5069fdd4fd3b",
+      "fullSentences": ["机の引き出しに予備の鍵があります。"],
+      "status": "approved",
+      "reason": "同事告知备用钥匙的位置，抽屉是钥匙的存在地点；「机の引き出しに予備の鍵があります」自然。",
+      "answerSet": "仅ni正确；de无法在あります存在句中标钥匙所在，e只表移动方向而本句没有移动。",
+      "readings": "机つくえ、引き出しひきだし、予備よび、鍵かぎ均正确；へ作助词读え，句号对应。",
+      "translation": "“桌子抽屉里有备用钥匙”准确译出存在关系，未加入开会或寻找动作。",
+      "options": "ni标correct准确；de和e在本句均不能表达钥匙所在，ungrammatical及各自说明成立。"
+    },
+    {
+      "id": "particle.existence.05",
+      "hash": "b3f66fd1db052f170eb73a12a7e5e96c00fbbcccec2736b61bc50543056ee6cb",
+      "fullSentences": ["地下駐車場に車が二台あります。"],
+      "status": "approved",
+      "reason": "保安确认车库内车辆数量，日语用あります陈述两辆车的所在，场景和完整句吻合。",
+      "answerSet": "仅ni正确；de若标巡检活动需另有活动谓语，e表示驶向停车场而非车辆已在那里。",
+      "readings": "地下駐車場ちかちゅうしゃじょう、車くるま、二台にだい读音正确；へ作助词读え，句段标点对应。",
+      "translation": "“地下停车场里有两辆车”准确对应あります，未把场景中的巡检或停放动作译成句中谓语。",
+      "options": "ni的correct与存在地点一致；de和e分别误用活动地点与移动方向，标ungrammatical的具体解释准确。"
+    },
+    {
+      "id": "particle.existence.06",
+      "hash": "c6d7fc33895a2622812a3d0ad45e8a5755ef59ca651f3be1681c660acdad0c78",
+      "fullSentences": ["飼育ケースにカブトムシが一匹います。"],
+      "status": "approved",
+      "reason": "喂食前清点饲育箱中的独角仙，活物存在谓语います与地点に搭配自然。",
+      "answerSet": "仅ni正确；e不是所在标记，de可标喂食或观察的活动地点但不能替代本句活物所在的に。",
+      "readings": "飼育しいく、ケース、カブトムシ、一匹いっぴき、います均正确；へ助词读え，片假名与标点保持一致。",
+      "translation": "“饲育箱里有一只独角仙”准确译出数量、活物和位置，未增添喂食动作。",
+      "options": "ni标correct准确；e和de在本句均不能与います表达独角仙所在，其ungrammatical判定和解释成立。"
+    },
+    {
+      "id": "particle.existence.07",
+      "hash": "3b6e97db5d9f03c62b1187748909985f47b89a9fac08038685d9e8e522773a06",
+      "fullSentences": ["診察室に担当医がいます。"],
+      "status": "approved",
+      "reason": "询问负责治疗的医生是否在诊察室，完整句用います报告人物所在，句义自然。",
+      "answerSet": "仅ni正确；de要配合诊察等活动谓语，e要配合移动谓语，本句两者都没有。",
+      "readings": "診察室しんさつしつ、担当医たんとうい、います均正确；へ的助词读音え及句号对应。",
+      "translation": "“主治医生在诊察室”在该患者询问自己负责医生的语境中对应担当医がいます，未加入诊疗动作。",
+      "options": "ni标correct准确；de不能给います标人物所在，e不能表示已在诊察室，两个ungrammatical选项的解释具体。"
+    },
+    {
+      "id": "particle.existence.08",
+      "hash": "28a84d1141dea7e45c7f705f1c3eb5e3e462eb9b81019dec529927912b85fa94",
+      "fullSentences": ["駅前に交番があります。"],
+      "status": "approved",
+      "reason": "回答游客询问派出所位置，駅前に交番があります是自然的建筑位置说明。",
+      "answerSet": "仅ni正确；e需要朝某处移动，de需要在车站前发生的活动，本句均无此类谓语。",
+      "readings": "駅前えきまえ、交番こうばん、あります准确；へ作方向助词实际读え。",
+      "translation": "“车站前有派出所”完整对应駅前に交番があります，未把路人的指路动作译进句子。",
+      "options": "ni的correct与建筑物所在一致；e和de不能替代存在地点的に，两个ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.existence.09",
+      "hash": "b21efb90417325b22e08503c47fb60c4a6acb70b2041d51fcfebc4d209fcb977",
+      "fullSentences": ["棚に紙の地図があります。"],
+      "status": "approved",
+      "reason": "值班员寻找纸地图，句子直接报告地图在架子上；棚に与あります自然。",
+      "answerSet": "仅ni正确；de标查看地图等活动地点但本句没有活动，e表示朝架子移动而あります无移动义。",
+      "readings": "棚たな、紙かみ、地図ちず、あります正确；へ作助词读え，句号对应。",
+      "translation": "“架子上有纸质地图”准确传达棚に紙の地図があります，没有添加停电后的找图动作。",
+      "options": "ni的correct准确；de和e分别是活动地点与移动方向，代入此存在句不成立，ungrammatical解释成立。"
+    },
+    {
+      "id": "particle.existence.10",
+      "hash": "1fbe997a3c63bd720c2755ad535ab45f590bfb9d16d621eefdf9229749d94d3e",
+      "fullSentences": ["公園の北側に小さな池があります。"],
+      "status": "approved",
+      "reason": "向散步者指出小池塘的位置，公园北侧是池塘存在地点，完整句自然。",
+      "answerSet": "仅ni正确；de可标北侧发生的活动，e可标朝北侧移动，但两者不能接本句あります表示池塘所在。",
+      "readings": "公園こうえん、北側きたがわ、小さなちいさな、池いけ正确；へ读え，句段对应。",
+      "translation": "“公园北侧有一个小池塘”准确译出地点、小的性质和池塘存在。",
+      "options": "ni正确；de和e在本句分别欠缺活动与移动谓语，均不能说明池塘位置，ungrammatical判定及解释成立。"
+    },
+    {
+      "id": "particle.activity.01",
+      "hash": "6836117bdbb61d497c0d24bc6b7aa88b137ea6c3e18225c1d23b0ec508790196",
+      "fullSentences": ["図書館で新しい小説を読みます。"],
+      "status": "approved",
+      "reason": "读书会成员先在图书馆读小说，読みます是阅读动作，図書館で表示该动作发生处，完整句自然。",
+      "answerSet": "仅de正确；ni只能在改成存在句或其他特定结构时标地点，e需前往图书馆的移动谓语。",
+      "readings": "図書館としょかん、新しいあたらしい、小説しょうせつ、読みますよみます正确；へ作为助词读え。",
+      "translation": "“在图书馆读一部新小说”对应阅读动作及对象，未加入下周交流感想。",
+      "options": "de的correct准确；ni与e均不能在此句直接标阅读发生地点，ungrammatical及解释成立。"
+    },
+    {
+      "id": "particle.activity.02",
+      "hash": "02d870c27e79e29bf1a21f837997413362fed14082ab7977d5a02f9b57981a83",
+      "fullSentences": ["体育館でバドミントンのダブルスを練習します。"],
+      "status": "approved",
+      "reason": "体育馆是羽毛球双打练习的举办地点，練習します与体育館で搭配自然；集合只是场景背景。",
+      "answerSet": "仅de正确；ni不能替練習します标活动发生地点，e只能指向体育馆移动而本句没有移动。",
+      "readings": "体育館たいいくかん、バドミントン、ダブルス、練習れんしゅう正确；片假名与标点对应，へ作助词读え。",
+      "translation": "“在体育馆练习羽毛球双打”准确对应日语句，没有把周末或集合硬加进译文。",
+      "options": "de的correct准确；ni和e分别误用存在地点与方向标记，ungrammatical及各自解释成立。"
+    },
+    {
+      "id": "particle.activity.03",
+      "hash": "5c19d371b6d3f415ab269332bdc9cf4faaa78306b3760826fbe04bbdffbb4b2d",
+      "fullSentences": ["工房で職人が木の椅子を修理しています。"],
+      "status": "approved",
+      "reason": "木工师傅在工坊修木椅，修理しています明确是正在进行的动作，工房で自然标出发生地点。",
+      "answerSet": "仅de正确；e表示移动方向，ni表示存在地点，都不能在本句标修理活动处。",
+      "readings": "工房こうぼう、職人しょくにん、木き、椅子いす、修理しゅうり及しています对应正确；へ作助词读え。",
+      "translation": "译文保留师傅、工坊、木椅及正在修理的体貌；未把场景中椅子摇晃这一背景误译为句子内容。",
+      "options": "de的correct准确；e和ni在修理动作前均不能表示活动地点，ungrammatical说明分别指出方向和存在关系。"
+    },
+    {
+      "id": "particle.activity.04",
+      "hash": "2862fae4ac268ead18c01774b8159e39aa0fafb27fa3af78977d689e35bacdb9",
+      "fullSentences": ["今週末は市民ホールで防災講演会があります。"],
+      "status": "approved",
+      "reason": "防灾讲座是本周末举行的活动，市民会馆是举办地点；活动事件あります前使用で，完整句自然。",
+      "answerSet": "仅de正确；ni对应静态物品存在地点而不能代入此讲座举行义，e没有移动谓语可搭配。",
+      "readings": "今週末こんしゅうまつ、市民しみん、ホール、防災ぼうさい、講演会こうえんかい均正确；へ助词读え，标点一致。",
+      "translation": "“本周末市民会馆有一场防灾讲座”准确传达时间、地点和事件，没有暗示讲座是静物。",
+      "options": "de标correct准确；ni在此无法把讲演会表达为举办事件，e也无移动意义，两个ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.activity.05",
+      "hash": "dbb8555d214f2354399f9f5f7253030bd6a0bee18e46b26e4b9047a1674d81c9",
+      "fullSentences": ["今度の日曜日は運動公園で少年野球の大会があります。"],
+      "status": "revise",
+      "reason": "日语句和活动地点で自然，答案也清楚；但译文把今度の日曜日固定成“下周日”，又把大会写成“一场比赛”，时间和赛事规模都比日语句更窄，需改为“接下来的星期日运动公园将举办少年棒球赛事”等。",
+      "answerSet": "仅de正确；e要求移动谓语，ni不能在这句中标赛事举办地点，二者不构成其他可接受答案。",
+      "readings": "今度こんど、日曜日にちようび、運動公園うんどうこうえん、少年野球しょうねんやきゅう、大会たいかい、あります均正确；へ助词读え，标点对应。",
+      "translation": "“下周日”在当前周内语境可能晚于今度の日曜日所指的即将到来的周日；“一场少棒比赛”也容易被读成单场对阵，而大会是赛事／大会。请修正译文的这两处。",
+      "options": "de的correct准确；e与ni在此活动事件あります前分别不能表示移动方向或静态存在地点，两个ungrammatical解释成立。"
+    },
+    {
+      "id": "particle.activity.06",
+      "hash": "df3abb2076fb94fbdd13b24db2a3b5c96b18380de76f502fe87c88fe7eacff63",
+      "fullSentences": ["台所で祖母がサバを焼いています。"],
+      "status": "approved",
+      "reason": "祖母正在厨房烤鲭鱼，焼いています表示进行中的烹饪动作，台所で自然标出动作地点。",
+      "answerSet": "仅de正确；e需朝厨房移动的谓语，ni不能给本句的烤鱼动作标发生地点。",
+      "readings": "台所だいどころ、祖母そぼ、サバ、焼いていますやいています准确；へ作助词读え，片假名和句号对应。",
+      "translation": "“祖母正在厨房烤鲭鱼”准确译出施事、地点、对象与进行状态，未多译或漏译。",
+      "options": "de的correct与活动地点一致；e和ni在当前谓语下不能充当动作地点，两个ungrammatical解释分别对应方向与存在关系。"
+    }
+  ]
+}

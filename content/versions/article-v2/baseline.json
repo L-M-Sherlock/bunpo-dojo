@@ -1,0 +1,8 @@
+{
+  "scopeSha256": "0d3e608c67206c21feb358d276509dc88d67b7bd7a1dbbee228a945c331d0e7a",
+  "requirementsSha256": "3c97f92df499b044c7c8ecc83ec316839cbc60fd4ea1cf4220afe9786a3c6ad7",
+  "sourceCommit": "67459b9b500ad660f0225f55d736789616f91025",
+  "scopeCount": 270,
+  "previousBaseline": "content/versions/location-v1/baseline.json",
+  "change": "用户要求移除location课程へ候选并分别新增10题に与で"
+}

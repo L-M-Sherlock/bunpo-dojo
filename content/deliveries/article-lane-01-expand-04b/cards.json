@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refeba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "lexicalKey": "food-writer-refines-palate",
+    "scene": "美食记者比较各地风味，逐渐提升味觉鉴赏力。",
+    "before": [
+      {
+        "text": "料理記者は各地の郷土料理を食べ歩き、舌を",
+        "reading": "りょうりきしゃはかくちのきょうどりょうりをたべあるき、したを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "肥やした",
+        "reading": "こやした",
+        "verdict": "correct",
+        "explanation": "「舌を肥やす」表示通过品尝经验提升味觉鉴赏力；记者主动培养的是自己的味觉。"
+      },
+      {
+        "id": "b",
+        "text": "肥えた",
+        "reading": "こえた",
+        "verdict": "ungrammatical",
+        "explanation": "「肥える」可以表示味觉变得敏锐，但须说「舌が肥える」；此处「舌を」标出宾语，不能接自动词「肥えた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "美食记者走访各地品尝乡土料理，提升了自己的味觉鉴赏力。",
+    "explanation": "记者通过不断品尝培养鉴别风味的能力，句中的舌是他主动培养的对象。",
+    "hint": "留意句中的「を」把哪个部分标成主动作用的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "shop-automatic-shutter-closes",
+    "scene": "营业结束后，商店的自动卷帘门缓缓落下。",
+    "before": [
+      {
+        "text": "閉店後、店の自動シャッターがゆっくり",
+        "reading": "へいてんご、みせのじどうシャッターがゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉じた",
+        "reading": "とじた",
+        "verdict": "correct",
+        "explanation": "自动卷帘门自行合上，是门本身发生关闭变化；「シャッターが」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "閉ざした",
+        "reading": "とざした",
+        "verdict": "ungrammatical",
+        "explanation": "「閉ざす」表示施事把某物严密关上或隔绝；此句没有「シャッターを」这样的宾语，不能用主动他动词「閉ざした」描述门自行合上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店铺打烊后，自动卷帘门缓缓合上。",
+    "explanation": "句子描写卷帘门自身缓缓关闭，没有写谁把门关上。",
+    "hint": "看「が」标出的卷帘门是动作的对象，还是自行发生变化的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "missed-deadline-closes-training-opportunity",
+    "scene": "候选人错过报名截止日，失去参加本年度海外研修的机会。",
+    "before": [
+      {
+        "text": "申込期限を逃した彼は、今年度の海外研修に参加する道を自ら",
+        "reading": "もうしこみきげんをのがしたかれは、こんねんどのかいがいけんしゅうにさんかするみちをみずから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉ざした",
+        "reading": "とざした",
+        "verdict": "correct",
+        "explanation": "「道を閉ざす」表示断绝某种机会或前途；他错过报名期限，失去了参加今年海外研修的可能。"
+      },
+      {
+        "id": "b",
+        "text": "閉じた",
+        "reading": "とじた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「閉じる」通常写门、书等物理闭合，也可表示结束营业或集会；此处的「道」指参加研修的机会，不是需要合上的实体道路。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "错过报名截止日后，他断送了参加本年度海外研修的机会。",
+    "explanation": "他错过报名截止日，参加本年度研修的途径随之断绝；这里的「道」指机会。",
+    "hint": "看这里的「道」指一条实体道路，还是通往目标的机会。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "sleepy-child-eyelids-close",
+    "scene": "听绘本时，困倦的孩子眼皮渐渐合上。",
+    "before": [
+      {
+        "text": "絵本を読んでもらっているうちに、眠そうな子どものまぶたが少しずつ",
+        "reading": "えほんをよんでもらっているうちに、ねむそうなこどものまぶたがすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉じていった",
+        "reading": "とじていった",
+        "verdict": "correct",
+        "explanation": "孩子越来越困，眼皮逐渐自行合上；「まぶたが」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "閉ざしていった",
+        "reading": "とざしていった",
+        "verdict": "ungrammatical",
+        "explanation": "「閉ざす」是主动把某物关严或隔绝，通常需要「～を」表示对象；此句的「まぶたが」是自行合上的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "听人读绘本时，困倦的孩子眼皮一点点合上。",
+    "explanation": "困意加深后，孩子的眼皮逐渐闭合；句子写的是自身发生的变化。",
+    "hint": "留意眼皮在句中是自行发生变化，还是被某人主动关上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "blizzard-isolates-mountain-village",
+    "scene": "暴风雪持续，山间村落多日与外界隔绝。",
+    "before": [
+      {
+        "text": "吹雪が続き、山あいの集落は何日も外界から",
+        "reading": "ふぶきがつづき、やまあいのしゅうらくはなんにちもがいかいから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉ざされた",
+        "reading": "とざされた",
+        "verdict": "correct",
+        "explanation": "村落因暴风雪与外界隔断，表达的是被封闭、阻断联系；「閉ざす」的被动形式符合这一关系。"
+      },
+      {
+        "id": "b",
+        "text": "閉じられた",
+        "reading": "とじられた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「閉じる」可表示把门、书等合上；此处不是某个开着的物体被关上，而是整个村落因暴雪与外界隔绝。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暴风雪持续不断，山间村落与外界隔绝了好几天。",
+    "explanation": "暴雪阻断了村落与外界的联系，句子采用「閉ざす」的被动形式描述这种隔绝。",
+    "hint": "看暴风雪造成的是一般的闭合，还是村落与外界之间的通路被切断。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refhaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "evacuation-shelter-drinking-water-runs-out",
+    "scene": "补给车迟迟未到，避难所分发的饮用水在天亮前用完。",
+    "before": [
+      {
+        "text": "給水車の到着が遅れ、避難所で配る飲料水が夜明け前に",
+        "reading": "きゅうすいしゃのとうちゃくがおくれ、ひなんじょでくばるいんりょうすいがよあけまえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "correct",
+        "explanation": "饮用水数量减少到没有了，是存量自身耗尽；「飲料水が」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "ungrammatical",
+        "explanation": "「尽くす」表示施事把某物全部用尽或倾尽，宾语用「を」；此句的饮用水是以「が」标记的耗尽主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "供水车迟迟未到，避难所分发的饮用水在天亮前用完了。",
+    "explanation": "句子写避难所的饮用水存量最终归零，并没有写某人主动把水用尽。",
+    "hint": "判断饮用水是存量自行耗尽，还是有人把水作为对象全部用完。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refhaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "search-team-uses-every-means",
+    "scene": "搜索队竭尽办法寻找一名失踪登山者。",
+    "before": [
+      {
+        "text": "行方不明の登山者を捜し出すため、捜索隊はあらゆる手を",
+        "reading": "ゆくえふめいのとざんしゃをさがしだすため、そうさくたいはあらゆるてを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "correct",
+        "explanation": "「あらゆる手を尽くす」表示把能想到的办法都用上；捜索队主动采取这些办法。"
+      },
+      {
+        "id": "b",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "ungrammatical",
+        "explanation": "「尽きる」表示资源、办法等自行用完，通常说「手が尽きる」；此处「手を」是捜索队主动用尽的对象，不能接「尽きた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了找出失踪的登山者，搜索队用尽了所有办法。",
+    "explanation": "搜索队主动尝试了能够想到的办法，「手」是其竭力使用的对象。",
+    "hint": "看「手」是自行耗尽，还是由搜索队主动全部用上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refhaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "bus-ride-conversation-topics-run-out",
+    "scene": "长途巴士上聊了一路，抵达目的地时已没有新话题。",
+    "before": [
+      {
+        "text": "長距離バスで友人と話し続けたが、目的地に着くころには話題が",
+        "reading": "ちょうきょりバスでゆうじんとはなしつづけたが、もくてきちにつくころにはわだいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "correct",
+        "explanation": "「話題が尽きる」表示可谈的话题不再有了；这里是话题本身结束。"
+      },
+      {
+        "id": "b",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "ungrammatical",
+        "explanation": "「尽くす」表示某人把对象全部用完或把事情做到极致，需要一个施事和「を」宾语；这里「話題が」是耗尽的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "我们在长途巴士上一直聊天，但到达目的地时话题已经聊完了。",
+    "explanation": "交谈到目的地时，可谈的内容已没有了；话题自身是结束的一方。",
+    "hint": "看话题是自行告一段落，还是有人把话题作为对象全部谈尽。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

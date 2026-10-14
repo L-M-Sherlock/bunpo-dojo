@@ -1,0 +1,717 @@
+[
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.04",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "spare-key-in-drawer",
+    "scene": "开会前找不到备用钥匙，同事说它在桌子抽屉里。",
+    "before": [
+      {
+        "text": "机の引き出し",
+        "reading": "つくえのひきだし"
+      }
+    ],
+    "after": [
+      {
+        "text": "予備の鍵があります。",
+        "reading": "よびのかぎがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出备用钥匙存在的位置。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；这里的ある陈述钥匙在抽屉里，不是抽屉里的活动或事件。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向或目的地；本句的あります表示静态存在，没有移动谓语。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "桌子抽屉里有备用钥匙。",
+    "explanation": "句子报告钥匙的所在，用に标记存在地点。",
+    "hint": "先判断句子是在报告钥匙所在，还是描述某个动作发生处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.05",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "cars-in-garage",
+    "scene": "保安巡检地下停车场，确认里面停着两辆车。",
+    "before": [
+      {
+        "text": "地下駐車場",
+        "reading": "ちかちゅうしゃじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "車が二台あります。",
+        "reading": "くるまがにだいあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标巡检等活动发生地点；本句陈述两辆车存在于停车场，不是在说停车场里进行的动作。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示朝停车场移动；あります在这里表示车辆所在，没有移动含义。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出两辆车所在的停车场。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "地下停车场里有两辆车。",
+    "explanation": "车作为存在物，其所在地点用に标出。",
+    "hint": "注意谓语表达的是车辆所在，还是在该处进行的行为。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.06",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "beetle-in-rearing-case",
+    "scene": "喂独角仙前，孩子数一数饲育箱里的虫。",
+    "before": [
+      {
+        "text": "飼育ケース",
+        "reading": "しいくケース"
+      }
+    ],
+    "after": [
+      {
+        "text": "カブトムシが一匹います。",
+        "reading": "カブトムシがいっぴきいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示移动方向；います在这里说独角仙所在，不表示它正移向饲育箱。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出活物独角仙存在于饲育箱中。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标观察、喂食等动作或事件发生的地点；本句直接说明独角仙所在。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "饲育箱里有一只独角仙。",
+    "explanation": "活物所在的地点由に标出。",
+    "hint": "区分生物所在的地点与观察、喂食等活动发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.07",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "doctor-in-exam-room",
+    "scene": "患者询问护士，自己的主治医生现在是否在诊察室。",
+    "before": [
+      {
+        "text": "診察室",
+        "reading": "しんさつしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "担当医がいます。",
+        "reading": "たんとういがいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标问诊等动作发生地点；本句说明主治医生在哪里，不是在说诊察室里做什么。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出主治医生当前所在的诊察室。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示朝某处移动；います在这里表示医生已经在诊察室里。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "主治医生在诊察室。",
+    "explanation": "句子回答医生在哪里，用に标记所在地点。",
+    "hint": "看句子是在回答人物在哪里，还是说他在那里做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.08",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "police-box-by-station",
+    "scene": "初次到站的游客问派出所在哪里，路人指向车站前。",
+    "before": [
+      {
+        "text": "駅前",
+        "reading": "えきまえ"
+      }
+    ],
+    "after": [
+      {
+        "text": "交番があります。",
+        "reading": "こうばんがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出派出所这座建筑存在于车站前。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向或目的地；あります在此陈述派出所的位置，不表示有人前往车站前。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标车站前发生的活动或事件；本句说的是派出所建筑的所在。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "车站前有派出所。",
+    "explanation": "派出所作为建筑物的存在地点用に表示。",
+    "hint": "辨别句子要指出建筑在哪里，还是要指出某个活动发生在哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.09",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "paper-map-on-shelf",
+    "scene": "停电后值班员要找纸地图，同事说它在架子上。",
+    "before": [
+      {
+        "text": "棚",
+        "reading": "たな"
+      }
+    ],
+    "after": [
+      {
+        "text": "紙の地図があります。",
+        "reading": "かみのちずがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示朝架子移动；本句说纸地图已经放在架子上，没有移动谓语。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标在架子处进行的动作；本句用あります陈述地图的存在位置。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出纸地图所在的架子。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "架子上有纸质地图。",
+    "explanation": "纸地图存在于架子上，用に标出所在。",
+    "hint": "判断地点是物品的所在处，还是某个动作进行的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.10",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "pond-north-of-park",
+    "scene": "散步的人问池塘的位置，同伴指向公园北侧。",
+    "before": [
+      {
+        "text": "公園の北側",
+        "reading": "こうえんのきたがわ"
+      }
+    ],
+    "after": [
+      {
+        "text": "小さな池があります。",
+        "reading": "ちいさないけがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标在公园北侧进行的活动或发生的事件；本句指出池塘本身的位置。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出小池塘存在于公园北侧。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标朝公园北侧移动；あります表示池塘在那里，不表示移动。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "公园北侧有一个小池塘。",
+    "explanation": "池塘的存在地点由に标出。",
+    "hint": "留意句子报告的是池塘所在，还是人在那里进行的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.01",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "read-novel-in-library",
+    "scene": "读书会成员先在图书馆读一部新小说，下周再交流感想。",
+    "before": [
+      {
+        "text": "図書館",
+        "reading": "としょかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "新しい小説を読みます。",
+        "reading": "あたらしいしょうせつをよみます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出阅读动作发生的图书馆。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标人或物的存在地点或移动目的地；本句的読みます是阅读动作，地点应标活动发生处。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向；本句说在图书馆读小说，没有前往图书馆的移动谓语。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "在图书馆读一部新小说。",
+    "explanation": "阅读动作发生在图书馆，动作地点用で标记。",
+    "hint": "判断图书馆是书的所在处，还是阅读动作进行的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.02",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "practice-doubles-in-gym",
+    "scene": "羽毛球社团周末练习双打，队员约好在体育馆集合。",
+    "before": [
+      {
+        "text": "体育館",
+        "reading": "たいいくかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "バドミントンのダブルスを練習します。",
+        "reading": "バドミントンのダブルスをれんしゅうします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に表示所在地点或移动终点；这里的練習します表达在体育馆进行的练习活动。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出羽毛球双打练习发生的地点。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向或目的地；句子没有前往体育馆的谓语。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "在体育馆练习羽毛球双打。",
+    "explanation": "体育馆是练习活动发生的地点，用で标记。",
+    "hint": "看谓语表达的是所在状态、移动，还是在某处练习。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.03",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "repair-chair-in-workshop",
+    "scene": "木工师傅正在工坊修理一把摇晃的木椅。",
+    "before": [
+      {
+        "text": "工房",
+        "reading": "こうぼう"
+      }
+    ],
+    "after": [
+      {
+        "text": "職人が木の椅子を修理しています。",
+        "reading": "しょくにんがきのいすをしゅうりしています。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示朝工坊移动；当前句说修理动作正在工坊进行。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出木工师傅修理木椅的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标人或物所在；本句不是说师傅在哪里，而是说修理活动在哪里进行。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "木工师傅正在工坊修理木椅。",
+    "explanation": "修理动作发生在工坊，用で标明活动地点。",
+    "hint": "分清师傅的所在地点与修椅动作发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.04",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "disaster-lecture-at-civic-hall",
+    "scene": "社区周报写明，本周末的防灾讲座在市民会馆举行。",
+    "before": [
+      {
+        "text": "今週末は市民ホール",
+        "reading": "こんしゅうまつはしみんホール"
+      }
+    ],
+    "after": [
+      {
+        "text": "防災講演会があります。",
+        "reading": "ぼうさいこうえんかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标人或物的存在地点；这里说讲座作为活动将在会馆举行，活动地点用で。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标防灾讲座这一活动举行的市民会馆。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向或目的地；讲座是在会馆举行，不是向会馆移动。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "本周末市民会馆有一场防灾讲座。",
+    "explanation": "ある在此表示活动举行，活动发生的地点用で。",
+    "hint": "先辨认句中名词是在某处存在的物品，还是将在那里举行的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.05",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "youth-baseball-tournament-at-park",
+    "scene": "少棒队家长看赛事日历，周日比赛将在运动公园举行。",
+    "before": [
+      {
+        "text": "今度の日曜日は運動公園",
+        "reading": "こんどのにちようびはうんどうこうえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "少年野球の大会があります。",
+        "reading": "しょうねんやきゅうのたいかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示移动目的地；本句报告比赛在运动公园举行，没有移动谓语。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标少年棒球赛这一活动举行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标物品或人物的存在地点；这里运动公园是比赛这一活动的举办地，用で。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "下周日运动公园有一场少棒比赛。",
+    "explanation": "少年棒球赛是将在当地举行的活动，地点用で标记。",
+    "hint": "区分比赛活动的举办地点与人或物静态存在的位置。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.06",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "grill-mackerel-in-kitchen",
+    "scene": "晚餐准备烤鲭鱼，祖母正在厨房料理。",
+    "before": [
+      {
+        "text": "台所",
+        "reading": "だいどころ"
+      }
+    ],
+    "after": [
+      {
+        "text": "祖母がサバを焼いています。",
+        "reading": "そぼがサバをやいています。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出祖母烤鲭鱼这一动作发生的厨房。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向；焼いています表示正在烤鱼，不表示向厨房移动。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标食材或人物的存在地点；本句说明烤鱼动作在哪里进行，应使用动作地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "祖母正在厨房烤鲭鱼。",
+    "explanation": "烤鱼动作在厨房进行，用で标出活动地点。",
+    "hint": "根据谓语判断厨房是存在地点，还是烹饪动作的发生处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

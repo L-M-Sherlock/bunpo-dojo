@@ -1,0 +1,78 @@
+{
+  "author": "/root",
+  "source": "work/content/location-20261013/existing-existence/change.draft.json",
+  "at": "2026-10-13T16:07:46.590Z",
+  "count": 10,
+  "cards": [
+    {
+      "id": "particle.existence.01",
+      "hash": "09e465d89cc45b290504c769688a8186bc921867575f4209c2ce3ecd92de0719",
+      "fullSentences": [
+        "冷蔵庫に卵が二個あります。"
+      ]
+    },
+    {
+      "id": "particle.existence.02",
+      "hash": "9d89633a0b0dd62b4ce5c7790f7abb2aa5fb543c456f198b35ca313b67145ff7",
+      "fullSentences": [
+        "水槽に金魚が三匹います。"
+      ]
+    },
+    {
+      "id": "particle.existence.03",
+      "hash": "c97a77bc5173d00db75043f254f94f93a9a1f02710e4939a9411350b8a97f618",
+      "fullSentences": [
+        "休憩室に店長がいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.04",
+      "hash": "7ca1ee6119909152bebff956d806aceefe6ef6af6a29dc729284272002f5942b",
+      "fullSentences": [
+        "机の引き出しに予備の鍵があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.05",
+      "hash": "347d3b61b8910a8cf4827dc3ebd1a868f8422fac34d23b423315a7ea9316c2ea",
+      "fullSentences": [
+        "地下駐車場に車が二台あります。"
+      ]
+    },
+    {
+      "id": "particle.existence.06",
+      "hash": "4cdddf1f6bcb92eda30ca293cb8b5ff74aaff5a34e415b732837fdd74410d4b3",
+      "fullSentences": [
+        "飼育ケースにカブトムシが一匹います。"
+      ]
+    },
+    {
+      "id": "particle.existence.07",
+      "hash": "5d9ab6ee4f18561d2bd674ea37e2e0174fb2f6d373b88140e791724181643f17",
+      "fullSentences": [
+        "診察室に担当医がいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.08",
+      "hash": "eec3341a67c56850ea5c8323e1742b5b9162a4b676042abdbd1d7179c01bb278",
+      "fullSentences": [
+        "駅前に交番があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.09",
+      "hash": "9a296d18967aeb15a3503ffb0ea9bb0f5db9b440f35be627c40f4a5ad4e63e55",
+      "fullSentences": [
+        "棚に紙の地図があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.10",
+      "hash": "aacae6ef43538ed589ea1526dd6dbc66b679583dc70cd348daf6f6143bb6be33",
+      "fullSentences": [
+        "公園の北側に小さな池があります。"
+      ]
+    }
+  ]
+}

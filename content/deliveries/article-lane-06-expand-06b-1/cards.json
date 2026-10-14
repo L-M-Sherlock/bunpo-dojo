@@ -1,0 +1,141 @@
+[
+  {
+    "id": "verb.reftaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftaa",
+    "familyId": "verb.reftaa",
+    "lexicalKey": "hem-skirt-folded-cloth-with-waiting-pins",
+    "scene": "改短裙摆时，把几枚珠针插进折起的布料里。",
+    "before": [
+      {
+        "text": "スカートの裾上げで、折り返した布に待ち針を何本か",
+        "reading": "スカートのすそあげで、おりかえしたぬのにまちばりをなんぼんか"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "刺した",
+        "reading": "さした",
+        "verdict": "correct",
+        "explanation": "把珠针插进布料以临时固定裙边；针是「を」标出的动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "刺さった",
+        "reading": "ささった",
+        "verdict": "ungrammatical",
+        "explanation": "刺さる描述针等物品自身扎进布里的变化；这里的「待ち針を」是动作对象，不能接这个自动词形式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "改短裙摆时，把几枚珠针插进折起的布料里。",
+    "explanation": "缝纫者把珠针插入布料，珠针是动作作用的对象。",
+    "hint": "留意句中「待ち針を」标出的是被怎样处理的物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refwaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "limited-edition-booklet-stock-depleted-by-orders",
+    "scene": "线上书店的限定版册子订单不断涌入，库存卖光了。",
+    "before": [
+      {
+        "text": "オンライン書店では限定版の冊子の注文が相次ぎ、在庫が",
+        "reading": "オンラインしょてんではげんていばんのさっしのちゅうもんがあいつぎ、ざいこが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくなった",
+        "reading": "なくなった",
+        "verdict": "correct",
+        "explanation": "库存以「在庫が」作变化主体，因订单接连涌入而耗尽。"
+      },
+      {
+        "id": "b",
+        "text": "なくした",
+        "reading": "なくした",
+        "verdict": "ungrammatical",
+        "explanation": "なくす表示施事弄丢某物或使对象消失；这里的「在庫が」是变化主体，不是「在庫を」标出的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在线书店的限定版册子订单接连不断，库存售罄了。",
+    "explanation": "订单接连到来后库存变为零，句子描述库存自身的变化。",
+    "hint": "根据「在庫が」和订单接连到来的情形，判断库存经历了什么变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refwaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "lost-library-card-and-requested-replacement",
+    "scene": "图书馆借书卡不见后，读者到柜台申请补办。",
+    "before": [
+      {
+        "text": "図書館の貸出カードを",
+        "reading": "としょかんのかしだしカードを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、カウンターで再発行を申し込んだ。",
+        "reading": "、カウンターでさいはっこうをもうしこんだ。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくし",
+        "reading": "なくし",
+        "verdict": "correct",
+        "explanation": "读者把借书卡弄丢后申请补发，「貸出カードを」标明被弄丢的对象。"
+      },
+      {
+        "id": "b",
+        "text": "なくなり",
+        "reading": "なくなり",
+        "verdict": "ungrammatical",
+        "explanation": "なくなる以物品为变化主体，如「貸出カードがなくなる」；这里的「貸出カードを」是被遗失的对象，不能接这个自动词形式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "弄丢图书馆借书卡后，到柜台申请了补发。",
+    "explanation": "句中省略了弄丢卡片的人，图书馆借书卡是被遗失的对象。",
+    "hint": "看「貸出カードを」在句中表示的是消失的主体还是被遗失的物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refbpa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "半年观测计划制定",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "立てる",
+      "reading": "たてる"
+    },
+    "scene": "调查队进山前，负责人制定了按日安排的观测计划。",
+    "before": [
+      {
+        "text": "調査隊は、山に入る前に日ごとの観測計画を立てた。",
+        "reading": "ちょうさたいは、やまにはいるまえにひごとのかんそくけいかくをたてた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「立つ」表示主体自身站立或出现；本句是调查队制定观测计划，计划是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "调查队主动拟定计划，「観測計画を」是立てる直接作用的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "调查队在进山前制定了按日安排的观测计划。",
+    "explanation": "调查队主动制定计划，计划是被建立的对象。",
+    "hint": "留意计划在句中是自行出现，还是由调查队主动制定。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbva.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbva",
+    "familyId": "verb.refbva",
+    "lexicalKey": "山间连日降雨停止",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "止む",
+      "reading": "やむ"
+    },
+    "scene": "山间小镇连下多日的雨在傍晚停了。",
+    "before": [
+      {
+        "text": "山間の町で何日も降り続いた雨が、夕方になって止んだ。",
+        "reading": "さんかんのまちでなんにちもふりつづいたあめが、ゆうがたになってやんだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "雨自身从持续降落变为停止；「雨が」是变化状态的主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「止める」表示某个主体让对象停止；本句没有人让雨停下，而是在叙述降雨自然结束。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山间小镇连续下了多日的雨，到傍晚停了。",
+    "explanation": "降雨本身由持续状态转为停止。",
+    "hint": "留意是谁让某事停下，或是哪种现象自身停止。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbva.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbva",
+    "familyId": "verb.refbva",
+    "lexicalKey": "手腕疼痛暂停练琴",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "止める",
+      "reading": "やめる"
+    },
+    "scene": "钢琴家的手腕疼痛，医生建议他暂时停下当天的练习。",
+    "before": [
+      {
+        "text": "手首に痛みが出たピアニストは、医師の助言を受けてその日の練習を途中でやめた。",
+        "reading": "てくびにいたみがでたピアニストは、いしのじょげんをうけてそのひのれんしゅうをとちゅうでやめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「止む」描述现象自行停止；句中ピアニスト根据医生建议主动停止练习，练习是他停止的对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "ピアニスト主动停下当天的练习，「練習を」是止める的对象；这里按固定读音读やめた。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "手腕开始疼痛的钢琴家听从医生建议，中途停止了当天的练习。",
+    "explanation": "钢琴家主动停止一项活动，练习是被停止的对象。",
+    "hint": "注意练习是自己结束，还是有人主动中止这项活动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbva.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbva",
+    "familyId": "verb.refbva",
+    "lexicalKey": "防灾广播警报声停止",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "止む",
+      "reading": "やむ"
+    },
+    "scene": "避难指示解除后，防灾广播中持续鸣响的警报声停了。",
+    "before": [
+      {
+        "text": "避難指示が解除されると、防災無線から鳴っていたサイレンが止んだ。",
+        "reading": "ひなんしじがかいじょされると、ぼうさいむせんからなっていたサイレンがやんだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "警报声本身结束鸣响；「サイレンが」是停止状态的主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「止める」会表示某个施事让警报停止；本句把警报声作为自然停止的对象，没有写由谁关闭它。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "避难指示解除后，防灾广播里响着的警报声停了。",
+    "explanation": "句子描写警报声自身停止，而非某人关闭广播。",
+    "hint": "辨别停下的是警报声本身，还是有人对设备采取了操作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbva.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbva",
+    "familyId": "verb.refbva",
+    "lexicalKey": "停止每晚晩酌",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "止める",
+      "reading": "やめる"
+    },
+    "scene": "体检结果出来后，父亲停止了每晚的晚酌。",
+    "before": [
+      {
+        "text": "父は健康診断の結果を受けて、毎晩の晩酌をやめた。",
+        "reading": "ちちはけんこうしんだんのけっかをうけて、まいばんのばんしゃくをやめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「止む」表示事物自然停止；本句是父亲主动结束每晚饮酒的习惯，晩酌是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "父亲根据体检结果主动停止晚酌，「晩酌を」是他终止的活动；此处固定读やめた。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "父亲根据体检结果，停止了每晚的晚酌。",
+    "explanation": "父亲主动停止一项习惯，晚酌是被停止的活动。",
+    "hint": "留意晚酌是自然结束，还是父亲作出停止的决定。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcda",
+    "familyId": "verb.refcda",
+    "lexicalKey": "台风中阳台旗帜撕裂",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "裂ける",
+      "reading": "さける"
+    },
+    "scene": "台风强风把晾在阳台的旗子吹裂了一道口。",
+    "before": [
+      {
+        "text": "台風の風にあおられ、ベランダに干していた旗が縦に大きく裂けた。",
+        "reading": "たいふうのかぜにあおられ、ベランダにほしていたはたがたてにおおきくさけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "旗受到强风影响后自身裂开；「旗が」是发生破裂的主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「裂く」表示施事主动把薄物撕开；本句描述的是旗受风后自行裂损，没有人在撕旗。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "旗子被台风吹动，在阳台上晾着时纵向裂开了一大口。",
+    "explanation": "旗是受风后裂开的主体，句子没有描写人为撕扯。",
+    "hint": "看旗是自身破裂，还是有人主动把它撕开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcda",
+    "familyId": "verb.refcda",
+    "lexicalKey": "撕鸡肉做沙拉",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "裂く",
+      "reading": "さく"
+    },
+    "scene": "厨师把煮熟的鸡肉沿纹理撕细，准备做沙拉。",
+    "before": [
+      {
+        "text": "ゆでた鶏肉を、料理人はサラダ用に繊維に沿って細かく裂いた。",
+        "reading": "ゆでたとりにくを、りょうりにんはサラダようにせんいにそってこまかくさいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「裂ける」表示鸡肉自身破开；本句料理人主动把鸡肉撕成细条，鸡肉是被处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "料理人沿着鸡肉纹理主动撕开它，「鶏肉を」是动作直接作用的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "料理人把煮熟的鸡肉沿着纹理撕成细条，准备做沙拉。",
+    "explanation": "料理人主动撕开鸡肉，鸡肉是动作的对象。",
+    "hint": "留意鸡肉是自行裂开，还是被人按纹理撕开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcda",
+    "familyId": "verb.refcda",
+    "lexicalKey": "登山包肩带根部裂开",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "裂ける",
+      "reading": "さける"
+    },
+    "scene": "徒步山路时，背包肩带被岩角磨到，根部裂开。",
+    "before": [
+      {
+        "text": "登山道を歩いていると、岩角にこすれたザックの肩ひもが根元から裂けた。",
+        "reading": "とざんどうをあるいていると、いわかどにこすれたザックのかたひもがねもとからさけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "被岩角磨损后，肩带本身从根部裂开；「肩ひもが」是破裂主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「裂く」表示某个施事撕开肩带；本句写的是肩带受摩擦后自行裂开，没有人主动撕扯。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "走在登山道上时，背包肩带被岩角磨到，从根部裂开了。",
+    "explanation": "肩带受到摩擦后自行破裂，是状态变化的主体。",
+    "hint": "分辨肩带是受到磨损而破裂，还是有人主动把它撕开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcda",
+    "familyId": "verb.refcda",
+    "lexicalKey": "撕开画纸做手工",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "裂く",
+      "reading": "さく"
+    },
+    "scene": "孩子把画错的图画纸撕成长条，用来做手工。",
+    "before": [
+      {
+        "text": "子どもは、描き損じた画用紙を細長く裂いて工作に使った。",
+        "reading": "こどもは、かきそんじたがようしをほそながくさいてこうさくにつかった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「裂ける」描述纸张自身破裂；此句里孩子有意把画纸撕成长条，画纸是被处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "孩子主动撕开画纸并将纸条用于手工，「画用紙を」是动作对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "孩子把画错的图画纸撕成长条，用来做手工。",
+    "explanation": "孩子主动对画纸施加撕扯动作。",
+    "hint": "注意画纸是自己破裂，还是孩子主动把它撕开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcia",
+    "familyId": "verb.refcia",
+    "lexicalKey": "海风剥落旧门红漆",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥げる",
+      "reading": "はげる"
+    },
+    "scene": "常年受海风侵蚀的旧门，红漆零星剥落，露出木胎。",
+    "before": [
+      {
+        "text": "潮風にさらされた古い門では、赤い塗装がところどころ剥げ、木地が見えていた。",
+        "reading": "しおかぜにさらされたふるいもんでは、あかいとそうがところどころはげ、きじがみえていた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "红漆本身逐处剥落，「塗装が」是从门表面脱落的主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「剥ぐ」表示施事把覆盖物剥下来；本句描述海风长期侵蚀后，漆层自行剥落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "常年受海风吹袭的旧门上，红色涂漆零星剥落，露出了木胎。",
+    "explanation": "红漆层自身脱落，露出下面的木质表面。",
+    "hint": "分辨涂层是自行剥落，还是有人主动把它剥下来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcia",
+    "familyId": "verb.refcia",
+    "lexicalKey": "雕刻前剥除圆木树皮",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥ぐ",
+      "reading": "はぐ"
+    },
+    "scene": "木工匠人为雕刻去皮，用刀具剥掉圆木的树皮。",
+    "before": [
+      {
+        "text": "木材加工の職人は、彫刻用の丸太から樹皮を刃物で剥いだ。",
+        "reading": "もくざいかこうのしょくにんは、ちょうこくようのまるたからじゅひをはものではいだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「剥げる」表示树皮或涂层自行脱落；本句是职人主动从圆木上剥下树皮。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "职人用刀具去除树皮，「樹皮を」是被剥除的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "木材加工的师傅用刀具剥掉了雕刻用圆木的树皮。",
+    "explanation": "职人主动剥下树皮，树皮是动作直接作用的对象。",
+    "hint": "留意树皮是自行脱落，还是职人主动将它从树干上剥下。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcia",
+    "familyId": "verb.refcia",
+    "lexicalKey": "腕表金镀层因摩擦剥落",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥げる",
+      "reading": "はげる"
+    },
+    "scene": "每天佩戴的腕表，表带镀金处因摩擦磨掉了。",
+    "before": [
+      {
+        "text": "毎日身につけていた腕時計は、ベルトの金メッキが摩擦で剥げていた。",
+        "reading": "まいにちみにつけていたうでどけいは、ベルトのきんメッキがまさつではげていた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "摩擦使镀金层自行磨损剥落，「金メッキが」是脱落的表层。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「剥ぐ」会表示某人把镀层有意剥下；这里镀层因长期摩擦自行脱落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "每天佩戴的腕表，其表带上的金镀层因摩擦而剥落了。",
+    "explanation": "金镀层因磨损自行脱落，并非有人把它剥下来。",
+    "hint": "观察表带上的镀层是怎样离开表面的。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcia",
+    "familyId": "verb.refcia",
+    "lexicalKey": "护士揭开伤者肩上湿毯",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥ぐ",
+      "reading": "はぐ"
+    },
+    "scene": "避难所里为处理伤口，护士轻轻掀开伤者肩上的湿毯。",
+    "before": [
+      {
+        "text": "避難所で傷を手当てするため、看護師は負傷者の肩から濡れた毛布をそっと剥いだ。",
+        "reading": "ひなんじょできずをてあてするため、かんごしはふしょうしゃのかたからぬれたもうふをそっとはいだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「剥げる」描述表层自行脱落；此处护士主动把盖在伤者肩上的毛毯掀开。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "护士主动从伤者肩上移开湿毛毯，「毛布を」是被剥除的覆盖物。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "在避难所为处理伤口，护士轻轻掀开了伤者肩上的湿毛毯。",
+    "explanation": "护士主动移开毛毯以处理伤口，毛毯是动作对象。",
+    "hint": "分清毛毯是自行脱落，还是护士主动把它移开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "lexicalKey": "山顶等待初日出时天亮",
+    "scene": "守在山顶等待初日出的人们眺望东方时，天色渐亮。",
+    "before": [
+      {
+        "text": "山頂で初日の出を待つ人々が東の空を眺めているうちに、夜が",
+        "reading": "さんちょうではつひのでをまつひとびとがひがしのそらをながめているうちに、よるが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "明けた",
+        "reading": "あけた",
+        "verdict": "correct",
+        "explanation": "等待日出的人们眺望东方时，夜间这一时段结束并迎来清晨。"
+      },
+      {
+        "id": "b",
+        "text": "明かした",
+        "reading": "あかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「明かす」可表示揭示秘密或熬过一夜；此处主语是夜，表达的是夜晚结束，不是夜晚揭示了什么或某人熬夜。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在山顶等待初日出的人们眺望东方时，天亮了。",
+    "explanation": "夜这一时段结束，进入早晨。",
+    "hint": "留意句子描述的是夜晚结束，还是某人揭示秘密或熬过一夜。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "lexicalKey": "记者会公开设备故障原因",
+    "scene": "调查报告发布后，新闻发言人在记者会上公开了设备故障原因。",
+    "before": [
+      {
+        "text": "調査報告書の公表後、広報担当者は記者会見で機器故障の原因を",
+        "reading": "ちょうさほうこくしょのこうひょうご、こうほうたんとうしゃはきしゃかいけんでききこしょうのげんいんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "明かした",
+        "reading": "あかした",
+        "verdict": "correct",
+        "explanation": "发言人把调查确认的设备故障原因公开，「原因を」是被揭示的内容。"
+      },
+      {
+        "id": "b",
+        "text": "明けた",
+        "reading": "あけた",
+        "verdict": "ungrammatical",
+        "explanation": "「明ける」表示夜晚或某段时期结束，不能承接「原因を」作为公开内容的直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调查报告发布后，新闻发言人在记者会上公开了设备故障的原因。",
+    "explanation": "发言人主动公开了原先未知的原因，原因是动作对象。",
+    "hint": "留意故障原因是自然结束的时段，还是被公开的信息。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "lexicalKey": "九州梅雨季于上周末结束",
+    "scene": "气象台称，九州地区的梅雨季于上周末结束。",
+    "before": [
+      {
+        "text": "気象台によると、九州地方では先週末に梅雨が",
+        "reading": "きしょうだいによると、きゅうしゅうちほうではせんしゅうまつにつゆが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "明けた",
+        "reading": "あけた",
+        "verdict": "correct",
+        "explanation": "梅雨这一时期结束；「梅雨が明ける」是自然的季节表达。"
+      },
+      {
+        "id": "b",
+        "text": "明かした",
+        "reading": "あかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「明かす」可表示公开信息或熬过夜晚；这里说的是梅雨季自身结束，并非梅雨揭示了内容或有人熬过梅雨。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "据气象台称，九州地区的梅雨季于上周末结束了。",
+    "explanation": "这里的「明ける」表示一个季节时段结束。",
+    "hint": "判断梅雨是自然结束的时期，还是被某人揭示的内容。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

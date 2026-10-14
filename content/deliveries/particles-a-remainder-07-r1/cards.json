@@ -1,0 +1,226 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.07",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "boy-dismounts-bicycle-before-crosswalk",
+    "scene": "少年骑到人行横道前下车，准备推着自行车过马路。",
+    "before": [
+      {
+        "text": "少年は横断歩道の前で自転車",
+        "reading": "しょうねんはおうだんほどうのまえでじてんしゃ"
+      }
+    ],
+    "after": [
+      {
+        "text": "降ります。",
+        "reading": "おります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を标出少年从自行车上下来的交通工具，是降りる的离开对象。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から也可以标明少年从自行车下来，以自行车为来源。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "这里是从自行车下来；自転車に乗る才表示骑上自行车，に不能标下车来源。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "少年在人行横道前下了自行车。",
+    "explanation": "降りる表示离开自行车时，自転車后可以接を或から。",
+    "hint": "看少年正在骑上自行车还是从自行车下来。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.08",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "guests-leave-inn-after-checkout",
+    "scene": "住客办理退房后带上行李，离开旅馆去车站。",
+    "before": [
+      {
+        "text": "宿泊客はチェックアウト後、旅館",
+        "reading": "しゅくはくきゃくはチェックアウトご、りょかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から表示住客从旅馆离开的起点。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を也能标出出る所离开的旅馆。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に通常表示移动的到达地点；退房后此处的旅馆是离开的地方。"
+      }
+    ],
+    "answerIds": [
+      "kara",
+      "wo"
+    ],
+    "translation": "住客退房后离开旅馆。",
+    "explanation": "旅馆是出る的离开处所，可用を或から标出。",
+    "hint": "判断旅馆是住客离开的起点，还是要前往的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.09",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "club-members-leave-school-gate-after-practice",
+    "scene": "晚间训练结束，社团成员从校门离开校园回家。",
+    "before": [
+      {
+        "text": "部員たちは練習後、校門",
+        "reading": "ぶいんたちはれんしゅうご、こうもん"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を指出成员离开校园时经过并离开的校门。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から也可以把校门标成离开的起点，符合训练后离校的场景。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "这里说明成员离开校门；に表示到达地点，不能替代离开处所标记。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "社团成员训练后从校门离开。",
+    "explanation": "出る所离开的校门可由を或から标记。",
+    "hint": "判断校门是成员离校的起点还是回家的目的地。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.10",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "last-customer-leaves-shop-at-closing",
+    "scene": "闭店时间到了，最后一位顾客结完账走出商店。",
+    "before": [
+      {
+        "text": "閉店時刻になり、最後の客は店",
+        "reading": "へいてんじこくになり、さいごのきゃくはみせ"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から明确标出最后一位顾客离开的商店。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を也可用于出る表示离开处所，店を出る与店から出る都符合场景。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "本句要说顾客从商店出去；に通常表示到达点，不能标这里的离开起点。"
+      }
+    ],
+    "answerIds": [
+      "kara",
+      "wo"
+    ],
+    "translation": "闭店时，最后一位顾客走出商店。",
+    "explanation": "店是顾客离开的处所，を和から都能表示这一关系。",
+    "hint": "关注顾客是离开商店还是前往商店。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

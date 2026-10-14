@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refrbb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "lexicalKey": "帰る/帰す",
+    "scene": "远征队员发烧就诊后，教练让他回到宿舍",
+    "before": [
+      {
+        "text": "遠征先で発熱した選手を、監督は診察後に宿舎へ",
+        "reading": "えんせいさきではつねつしたせんしゅを、かんとくはしんさつごにしゅくしゃへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "帰した",
+        "reading": "かえした",
+        "verdict": "correct",
+        "explanation": "教练安排发烧的选手回宿舍，「選手を」是被送回去的人。"
+      },
+      {
+        "id": "b",
+        "text": "帰った",
+        "reading": "かえった",
+        "verdict": "ungrammatical",
+        "explanation": "「選手を」标出教练安排回去的对象；自动词「帰る」描述主体自己返回，不能在这里承接这个直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "远征途中发烧的选手接受诊察后，教练把他送回了宿舍。",
+    "explanation": "教练让选手回到宿舍，选手是接受安排并返回的人。",
+    "hint": "留意「選手を」标出的对象，以及谁安排了他的返程。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refria.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "微风吹入展厅，展台上的小风车开始缓缓转动",
+    "before": [
+      {
+        "text": "窓から入った風で、展示台の小さな風車がゆっくり",
+        "reading": "まどからはいったかぜで、てんじだいのちいさなかざぐるまがゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回り始めた",
+        "reading": "まわりはじめた",
+        "verdict": "correct",
+        "explanation": "风车受吹入展厅的风影响，开始绕自身轴转动。"
+      },
+      {
+        "id": "b",
+        "text": "回し始めた",
+        "reading": "まわしはじめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「回す」表示主语使另一个对象转动；这里写的是风车自身开始转动，没有写它转动别的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从窗户吹进的风让展台上的小风车缓缓转了起来。",
+    "explanation": "句子描述风车自身开始转动，没有写风车带动其他对象。",
+    "hint": "分辨句中发生转动的是风车自身，还是风车带动的另一个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refria.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "技术员为调节管道流量，将阀门稍微向顺时针方向转动",
+    "before": [
+      {
+        "text": "配管の流量を調整するため、技師はバルブを時計回りに少し",
+        "reading": "はいかんのりゅうりょうをちょうせいするため、ぎしはバルブをとけいまわりにすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回った",
+        "reading": "まわった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「回る」也可用「を」标出移动路径；若用在这里，会表示技师沿顺时针方向在阀门周围移动，不是转动阀门。"
+      },
+      {
+        "id": "b",
+        "text": "回した",
+        "reading": "まわした",
+        "verdict": "correct",
+        "explanation": "技师使阀门转动以调节管道流量，「バルブを」是被转动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "技术员为调节管道流量，将阀门稍稍向顺时针方向转动了。",
+    "explanation": "技师主动转动阀门来调节流量，阀门是动作的对象。",
+    "hint": "判断「バルブを」在这里表示移动的路径，还是被转动的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refria.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "停水通知的回览板上午在社区内传了一圈",
+    "before": [
+      {
+        "text": "断水の予定を知らせる回覧板が、朝のうちに町内を",
+        "reading": "だんすいのよていをしらせるかいらんばんが、あさのうちにちょうないを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回った",
+        "reading": "まわった",
+        "verdict": "correct",
+        "explanation": "写有停水安排的回览板在上午于社区内传阅，回览板本身经过各处。"
+      },
+      {
+        "id": "b",
+        "text": "回した",
+        "reading": "まわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「回す」表示主语使另一个对象流转；这里写的是回览板本身在社区内传递。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "告知停水安排的回览板上午在社区内传了一圈。",
+    "explanation": "句子写回览板本身在社区内传阅，不是它让另一个对象流转。",
+    "hint": "留意回览板是经过社区各处的对象，还是让别的对象流转的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

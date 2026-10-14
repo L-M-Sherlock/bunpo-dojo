@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.refska.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "lexicalKey": "会议资料页数缩减",
+    "scene": "为节省印刷纸张，事务局把会议资料页数缩减了三成。",
+    "before": [
+      {
+        "text": "紙を節約するため、事務局は会議資料のページ数を三割",
+        "reading": "かみをせつやくするため、じむきょくはかいぎしりょうのページすうをさんわり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "減らした",
+        "reading": "へらした",
+        "verdict": "correct",
+        "explanation": "事务局主动压缩会议资料的页数，「ページ数を」标出被减少的对象。"
+      },
+      {
+        "id": "b",
+        "text": "減った",
+        "reading": "へった",
+        "verdict": "ungrammatical",
+        "explanation": "「減る」以数量本身为变化主体；这里「ページ数を」标出直接对象，不能接「減った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为节省纸张，事务局把会议资料的页数减少了三成。",
+    "explanation": "句中由事务局主动调整页数，页数是被减少的对象。",
+    "hint": "留意「ページ数を」标出的数量在句中是变化主体还是调整对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftda",
+    "familyId": "verb.reftda",
+    "lexicalKey": "牧场体验骑乘",
+    "scene": "在牧场体验骑马时，孩子在工作人员扶持下跨坐到小马背上。",
+    "before": [
+      {
+        "text": "乗馬体験で、子どもが係員に支えられながらポニーに",
+        "reading": "じょうばたいけんで、こどもがかかりいんにささえられながらポニーに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "跨がった",
+        "reading": "またがった",
+        "verdict": "correct",
+        "explanation": "孩子在工作人员扶持下跨坐到小马身上，「ポニーに」标出骑乘对象。"
+      },
+      {
+        "id": "b",
+        "text": "跨いだ",
+        "reading": "またいだ",
+        "verdict": "ungrammatical",
+        "explanation": "「跨ぐ」表示抬腿越过某物，通常以「を」引出越过对象；本句的「ポニーに」与该词搭配不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在骑马体验中，孩子在工作人员扶持下跨坐在小马背上。",
+    "explanation": "「ポニーに」表示孩子跨坐其上的骑乘对象。",
+    "hint": "留意「ポニーに」连接的是骑乘对象，还是抬腿越过的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftda",
+    "familyId": "verb.reftda",
+    "lexicalKey": "专业杂志校对跨月",
+    "scene": "专业杂志校对工作跨越月底，延续到了次月。",
+    "before": [
+      {
+        "text": "専門誌の校正作業は、月を",
+        "reading": "せんもんしのこうせいさぎょうは、つきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "続いた。",
+        "reading": "つづいた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "跨いで",
+        "reading": "またいで",
+        "verdict": "correct",
+        "explanation": "「月を跨いで」表示校对工作越过月界，延续到另一个月份。"
+      },
+      {
+        "id": "b",
+        "text": "跨がって",
+        "reading": "またがって",
+        "verdict": "ungrammatical",
+        "explanation": "表示某项工作持续跨越一段时期时，「跨がる」以「に」连接期间；本句用「月を」标出越过的界线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "专业杂志的校对工作跨月持续了。",
+    "explanation": "「月を」标出校对工作跨过的时间界线。",
+    "hint": "观察时间界线与持续期间分别怎样和动词连接。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftda",
+    "familyId": "verb.reftda",
+    "lexicalKey": "山间铁路线跨县延伸",
+    "scene": "山区的一条铁路线延伸至相邻两县。",
+    "before": [
+      {
+        "text": "山あいを走るこの鉄道路線は、隣り合う二つの県に",
+        "reading": "やまあいをはしるこのてつどうろせんは、となりあうふたつのけんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "跨がっている",
+        "reading": "またがっている",
+        "verdict": "correct",
+        "explanation": "铁路线的覆盖范围延伸到相邻两县，「二つの県に」标出它跨越覆盖的区域。"
+      },
+      {
+        "id": "b",
+        "text": "跨いでいる",
+        "reading": "またいでいる",
+        "verdict": "ungrammatical",
+        "explanation": "「跨ぐ」以「を」标出被越过的地域；这里用「に」表示线路所延伸覆盖的范围。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "这条穿行于山间的铁路线横跨相邻两县。",
+    "explanation": "铁路线本身延伸并覆盖到两个县，句中用「に」标出范围。",
+    "hint": "判断铁路线与两个县的关系：它是跨越边界的对象，还是延伸覆盖的范围。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftda",
+    "familyId": "verb.reftda",
+    "lexicalKey": "町屋工房门槛",
+    "scene": "来客跨过町屋改建工房的门槛进入室内。",
+    "before": [
+      {
+        "text": "町家を改装した工房を訪れた客は、玄関の敷居を",
+        "reading": "まちやをかいそうしたこうぼうをおとずれたきゃくは、げんかんのしきいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "中に入った。",
+        "reading": "なかにはいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "跨いで",
+        "reading": "またいで",
+        "verdict": "correct",
+        "explanation": "来客跨过玄关门槛进入工房，「敷居を」标出身体越过的对象。"
+      },
+      {
+        "id": "b",
+        "text": "跨がって",
+        "reading": "またがって",
+        "verdict": "ungrammatical",
+        "explanation": "「跨がる」以「に」连接骑乘或延伸的对象；本句要表达越过以「敷居を」标出的门槛。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "来客跨过玄关门槛，走进了由町屋改建的工房。",
+    "explanation": "「敷居を」标出进入时跨过的门槛，后文说明移动方向。",
+    "hint": "结合「敷居を」和「中に入った」，判断这里描写的是越过边界还是跨坐其上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

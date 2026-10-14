@@ -1,0 +1,18 @@
+[
+  {
+    "id": "particle.existence.16",
+    "fullSentence": "窓辺に観葉植物があります。",
+    "sceneRationale": "办公室搬完家具后，员工确认窗边摆着绿植；窓辺是植物摆放和存在的地点。",
+    "alternativeReadings": "で可标搬动或摆放绿植的动作地点；本句没有这些动作，只说植物在哪里，故用に。",
+    "readingCheck": "窓辺まどべ、観葉植物かんようしょくぶつ、あります；汉字读音和句号对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.18",
+    "fullSentence": "玄関先に宅配便の箱があります。",
+    "sceneRationale": "家人下班回家看到包裹已放在玄关前，场景问的是箱子目前所在，不是投递动作在哪里发生。",
+    "alternativeReadings": "で可标快递员投递箱子的地点；本句不含投递动作，あります报告箱子存在于玄关前，故选に。",
+    "readingCheck": "玄関先げんかんさき、宅配便たくはいびん、箱はこ、あります；汉字、假名及句号与正文吻合。",
+    "unresolvedQuestions": "无。"
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_03",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-03.draft.json",
+  "at": "2026-10-13T18:28:03.238Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refbqa.04",
+      "hash": "0e7cefc916e613cf91676eba7d8f01ee6b670159abb0bd3494989face1f1e7f2",
+      "fullSentences": [
+        "出版社は初版と改訂版で、表紙の色を違えました。"
+      ]
+    },
+    {
+      "id": "verb.refbwa.01",
+      "hash": "aa06ca356e2ce841a28a2b65bcb6fa1540da95d2c52d977727f05a90a6785902",
+      "fullSentences": [
+        "湿った倉庫に置かれた木製の額縁が、湿気で歪みました。"
+      ]
+    },
+    {
+      "id": "verb.refbwa.02",
+      "hash": "638305dc2db1c5eadcdd4f44ae3a2c49e3bfc49e6ef90d2bfea31929f606b8f6",
+      "fullSentences": [
+        "作業員は薄いアルミ板を歪めました。"
+      ]
+    },
+    {
+      "id": "verb.refbwa.03",
+      "hash": "c0bd7f084777afc397b6a95667be4159bfaa872ed71be689dcb4be4be3135d90",
+      "fullSentences": [
+        "広角レンズで撮った写真では、建物の端が歪んで見えました。"
+      ]
+    },
+    {
+      "id": "verb.refbwa.04",
+      "hash": "cd730e835daf58be0cc7fd84a2abc351e7cc072c50c6fc7dbdbb42974070690c",
+      "fullSentences": [
+        "報告書の作成者は資料の数値を一部書き換え、調査結果を歪めました。"
+      ]
+    },
+    {
+      "id": "verb.refcea.01",
+      "hash": "6d68671fc127596adf413e267158edf23c735a95a7910094565b1f1f89d49856",
+      "fullSentences": [
+        "角砂糖が温かいコーヒーに少しずつ溶けました。"
+      ]
+    },
+    {
+      "id": "verb.refcea.02",
+      "hash": "b8c8a2d51b35f52bcbd54b4685b625425859e35d25d47bcb0eb73ec6eb991687",
+      "fullSentences": [
+        "料理人は茶碗蒸し用の卵を溶きました。"
+      ]
+    },
+    {
+      "id": "verb.refcea.03",
+      "hash": "ad7dffeb640af91c169df5450af62cd81ce673a66c98f8234a0b014350185f84",
+      "fullSentences": [
+        "春の日差しで池の氷が溶けました。"
+      ]
+    },
+    {
+      "id": "verb.refcea.04",
+      "hash": "9bcb4b11e99f8ec61607ece3b3bf2b59e9bf09797666af09dc4a9fc26221c789",
+      "fullSentences": [
+        "調理実習で、生徒は水に食塩を溶きました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.01",
+      "hash": "7eb2696f65b4267185a1d37a9b91aca006b9a237f79c2d985205274519fb83ed",
+      "fullSentences": [
+        "鍋で加熱したトウモロコシの粒が、次々と弾けました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.02",
+      "hash": "d2bdf082aca7c8a914d37944bf8b94459b8c1360039fa650cc6d199ebfa05b99",
+      "fullSentences": [
+        "子どもは指先で小石を弾きました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.03",
+      "hash": "4ee073f7d5baacccae59009d03c2b463cb997016a04e2ef990fd1b328588c251",
+      "fullSentences": [
+        "シャボン玉が針に触れた瞬間、弾けました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.04",
+      "hash": "607d1ea22f2c945638166ad3016326c8c5adf1f5be0f19c2fea6b2f145dccd58",
+      "fullSentences": [
+        "撥水剤を塗った布は、実験で水滴を弾きました。"
+      ]
+    },
+    {
+      "id": "verb.refdba.01",
+      "hash": "470f4345579d33ddeb7d7ead452f7a2f36fcfe28b3568e3b140b1982f8ea5267",
+      "fullSentences": [
+        "留守中に水やりができず、鉢植えのバジルが枯れました。"
+      ]
+    },
+    {
+      "id": "verb.refdba.02",
+      "hash": "31533cfc5c3b782a87e1ea268af143a952754f440a846e47ba2e9883b6845225",
+      "fullSentences": [
+        "園芸店の店員は、除草剤で歩道脇の雑草を枯らしました。"
+      ]
+    },
+    {
+      "id": "verb.refdba.03",
+      "hash": "46aab391c997a263fe337a7a8d21d70ed38b63dfda9a5301bbc139d497ae2770",
+      "fullSentences": [
+        "虫害で庭木の枝が枯れました。"
+      ]
+    }
+  ]
+}

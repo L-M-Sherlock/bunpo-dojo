@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refiha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiha",
+    "familyId": "verb.refiha",
+    "lexicalKey": "剧场播放入场提醒",
+    "scene": "开演前，工作人员通过大厅音箱播放入场提醒。",
+    "before": [
+      {
+        "text": "開演前、係員はホールのスピーカーで入場案内を",
+        "reading": "かいえんまえ、かかりいんはホールのスピーカーでにゅうじょうあんないを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "流した",
+        "reading": "ながした",
+        "verdict": "correct",
+        "explanation": "工作人员通过音箱播放入场提醒；「入場案内を」标出被播放的内容。"
+      },
+      {
+        "id": "b",
+        "text": "流れた",
+        "reading": "ながれた",
+        "verdict": "ungrammatical",
+        "explanation": "「流れる」描述内容自身传出时应由「入場案内が」作主体；这里「入場案内を」是播放内容的宾语，不能接自动词「流れた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开演前，工作人员通过大厅音箱播放了入场提醒。",
+    "explanation": "工作人员播放入场提醒，「入場案内を」指出动作所涉及的内容。",
+    "hint": "留意句中谁在播放，以及入场提醒在句中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refkaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "lexicalKey": "旧道在石碑前分岔",
+    "scene": "山中旧道在石碑前分岔，右边小路通往垭口茶屋。",
+    "before": [
+      {
+        "text": "山中の旧道は石碑の手前で二手に",
+        "reading": "さんちゅうのきゅうどうはせきひのてまえでふたてに"
+      }
+    ],
+    "after": [
+      {
+        "text": "、右の道は峠の茶屋へ続いている。",
+        "reading": "、みぎのみちはとうげのちゃやへつづいている。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "分かれ",
+        "reading": "わかれ",
+        "verdict": "correct",
+        "explanation": "旧道自身在石碑前分成两条路；它是发生分岔的主体。"
+      },
+      {
+        "id": "b",
+        "text": "分け",
+        "reading": "わけ",
+        "verdict": "meaning-mismatch",
+        "explanation": "「分ける」表示主体把某个对象分成几部分；本句写的是道路本身分岔，没有道路在分配其他对象的情境。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山里的旧道在石碑前分成两岔，右边的路通往垭口茶屋。",
+    "explanation": "发生分岔的是旧道本身，后句指出右边道路的去向。",
+    "hint": "判断句子是在描写道路自身分岔，还是有主体把别的对象分开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refkaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "lexicalKey": "按填写情况整理申请表",
+    "scene": "报名处工作人员将填完和未填的申请表分开叠放。",
+    "before": [
+      {
+        "text": "受付係は、提出された申込書を記入済みのものと未記入のものに",
+        "reading": "うけつけがかりは、ていしゅつされたもうしこみしょをきにゅうずみのものとみきにゅうのものに"
+      }
+    ],
+    "after": [
+      {
+        "text": "重ねた。",
+        "reading": "かさねた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "分けて",
+        "reading": "わけて",
+        "verdict": "correct",
+        "explanation": "工作人员按填写情况将申请表分成两类，「申込書を」标出被分类的对象。"
+      },
+      {
+        "id": "b",
+        "text": "分かれて",
+        "reading": "わかれて",
+        "verdict": "ungrammatical",
+        "explanation": "「分かれる」描述申请表自身分成不同类别，需由「申込書が」作主体；本句用「申込書を」标出工作人员分类的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接待员把提交的申请表分成已填写和未填写两类，分别叠放起来。",
+    "explanation": "接待员主动整理申请表，「申込書を」指出被分组处理的对象。",
+    "hint": "观察申请表是由接待员分类，还是申请表自身分成不同类别。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refkaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "lexicalKey": "散场观众按交通方式分流",
+    "scene": "演出结束后，观众按返家方式分成乘电车和开车的两拨。",
+    "before": [
+      {
+        "text": "終演後、観客は電車で帰る人と車で帰る人に",
+        "reading": "しゅうえんご、かんきゃくはでんしゃでかえるひととくるまでかえるひとに"
+      }
+    ],
+    "after": [
+      {
+        "text": "、会場を後にした。",
+        "reading": "、かいじょうをあとにした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "分かれて",
+        "reading": "わかれて",
+        "verdict": "correct",
+        "explanation": "观众自身分成乘电车回家和开车回家的两群，之后离开会场。"
+      },
+      {
+        "id": "b",
+        "text": "分けて",
+        "reading": "わけて",
+        "verdict": "meaning-mismatch",
+        "explanation": "「分ける」表示主体把某个对象分配到类别；本句写的是观众自身分成两群，并未安排观众去分类另一对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "演出结束后，观众分成乘电车回家和开车回家的两拨，离开了会场。",
+    "explanation": "句子描述观众自身分成两群并离场，不是观众把另一个对象分组。",
+    "hint": "留意分成两群的是观众自身，还是观众把另一个对象分了组。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refbqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "pair": {
+      "id": "verb.refbqa",
+      "intransitive": "違う",
+      "intransitiveReading": "ちがう",
+      "transitive": "違える",
+      "transitiveReading": "ちがえる",
+      "meaning": "辨析「違う／違える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 17
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbwa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "pair": {
+      "id": "verb.refbwa",
+      "intransitive": "歪む",
+      "intransitiveReading": "ゆがむ",
+      "transitive": "歪める",
+      "transitiveReading": "ゆがめる",
+      "meaning": "辨析「歪む／歪める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 23
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbwa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "pair": {
+      "id": "verb.refbwa",
+      "intransitive": "歪む",
+      "intransitiveReading": "ゆがむ",
+      "transitive": "歪める",
+      "transitiveReading": "ゆがめる",
+      "meaning": "辨析「歪む／歪める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 23
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbwa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "pair": {
+      "id": "verb.refbwa",
+      "intransitive": "歪む",
+      "intransitiveReading": "ゆがむ",
+      "transitive": "歪める",
+      "transitiveReading": "ゆがめる",
+      "meaning": "辨析「歪む／歪める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 23
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbwa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "pair": {
+      "id": "verb.refbwa",
+      "intransitive": "歪む",
+      "intransitiveReading": "ゆがむ",
+      "transitive": "歪める",
+      "transitiveReading": "ゆがめる",
+      "meaning": "辨析「歪む／歪める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 23
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "pair": {
+      "id": "verb.refcea",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「溶ける／溶く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "pair": {
+      "id": "verb.refcea",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「溶ける／溶く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "pair": {
+      "id": "verb.refcea",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「溶ける／溶く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "pair": {
+      "id": "verb.refcea",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「溶ける／溶く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "pair": {
+      "id": "verb.refdba",
+      "intransitive": "枯れる",
+      "intransitiveReading": "かれる",
+      "transitive": "枯らす",
+      "transitiveReading": "からす",
+      "meaning": "辨析「枯れる／枯らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "pair": {
+      "id": "verb.refdba",
+      "intransitive": "枯れる",
+      "intransitiveReading": "かれる",
+      "transitive": "枯らす",
+      "transitiveReading": "からす",
+      "meaning": "辨析「枯れる／枯らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "pair": {
+      "id": "verb.refdba",
+      "intransitive": "枯れる",
+      "intransitiveReading": "かれる",
+      "transitive": "枯らす",
+      "transitiveReading": "からす",
+      "meaning": "辨析「枯れる／枯らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

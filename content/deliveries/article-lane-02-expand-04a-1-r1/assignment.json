@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refdaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "pair": {
+      "id": "verb.refdaa",
+      "intransitive": "明ける",
+      "intransitiveReading": "あける",
+      "transitive": "明かす",
+      "transitiveReading": "あかす",
+      "meaning": "辨析「明ける／明かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

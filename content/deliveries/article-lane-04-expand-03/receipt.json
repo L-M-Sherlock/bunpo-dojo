@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_04_recovery",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-03.draft.json",
+  "at": "2026-10-13T19:55:53.643Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refbra.04",
+      "hash": "a76e0193be0d01913ca477edb6bf30b3eeec978f1d0635edab2200e0e7a0325b",
+      "fullSentences": [
+        "編集者は締め切り前に、原稿を二ページ分縮めた。"
+      ]
+    },
+    {
+      "id": "verb.refbxa.01",
+      "hash": "836e09afae4b34c16f57691dede9226ca020745a5361fa9cb9c11ff7e84f2b8d",
+      "fullSentences": [
+        "山道を歩いていると、リュックの肩ベルトが少し緩んだ。"
+      ]
+    },
+    {
+      "id": "verb.refbxa.02",
+      "hash": "6e95e21071c7a64133af035911359aa8bfceff0051ab6d7985542421f94e40e9",
+      "fullSentences": [
+        "犬が苦しくならないように、飼い主は首輪を一段緩めた。"
+      ]
+    },
+    {
+      "id": "verb.refbxa.03",
+      "hash": "e4b38b521f60072eeee882ad0942eb7bd09512db91d621f54d141325fa5021a5",
+      "fullSentences": [
+        "長年使っている戸棚の取っ手が、少しずつ緩んできた。"
+      ]
+    },
+    {
+      "id": "verb.refbxa.04",
+      "hash": "311c5e64a7633a52e62a1ad7d279f7f588e0258fa85055e8f50b516d575b42bf",
+      "fullSentences": [
+        "部品を取り外す前に、整備士は機械の駆動ベルトを少し緩めた。"
+      ]
+    },
+    {
+      "id": "verb.refceb.01",
+      "hash": "fbdfa995aa0b0f99eeb43c6edc4c2408d2225e2efc83e9301bb140762f8d9ca6",
+      "fullSentences": [
+        "強い波でロープが揺れ、船を岸につないでいた結び目が解けた。"
+      ]
+    },
+    {
+      "id": "verb.refceb.02",
+      "hash": "890096278fdbb3fc6e7a1b6bffb6d2344b59e9ab7d24f83fe0ac7e179ce09156",
+      "fullSentences": [
+        "受験生は試験終了までに、最後の数学の問題を解いた。"
+      ]
+    },
+    {
+      "id": "verb.refceb.03",
+      "hash": "08708ad02bfae23abf816b3a00bf58b477b178a15bb53ee0d5cd9fd28a166c4c",
+      "fullSentences": [
+        "話し合いを重ねるうち、担当者と住民の間にあった誤解が解けた。"
+      ]
+    },
+    {
+      "id": "verb.refceb.04",
+      "hash": "da0adac3ae9eadf2f84fb52d224a9f08e60bdecedf72ef72d432bbd621d7e740",
+      "fullSentences": [
+        "図書館で古文書を調べていた研究員は、手紙に残された簡単な暗号を解いた。"
+      ]
+    },
+    {
+      "id": "verb.refcka.01",
+      "hash": "c785150c846a8ad67c073b5d978ac74cb1e6b25f44edf39591f2dd85ccf3a3ea",
+      "fullSentences": [
+        "日焼けした肩の皮が、数日後に少しずつ剥けてきた。"
+      ]
+    },
+    {
+      "id": "verb.refcka.02",
+      "hash": "1a3cae79577b09450b2c9d3668328eb3bb88d69fdbe499856166d759b438fbd6",
+      "fullSentences": [
+        "料理人は煮物の下ごしらえとして、里芋の皮を包丁で剥いた。"
+      ]
+    },
+    {
+      "id": "verb.refcka.03",
+      "hash": "e54643042dbb765c31dac69a6e65764e8288fd8751a1f9f52c4dc651b62f8843",
+      "fullSentences": [
+        "冷水で冷やしたゆで卵は、殻がきれいに剥けた。"
+      ]
+    },
+    {
+      "id": "verb.refcka.04",
+      "hash": "85688d9f6099c19cb48d328a822b35a8cbb31242fbd5b07f65634a8bc4e29bc1",
+      "fullSentences": [
+        "遠足の休憩中、子どもはバナナの皮を手で剥いた。"
+      ]
+    },
+    {
+      "id": "verb.refdca.01",
+      "hash": "1132bb0b3c028ce7411254ce6220b95b10ce73e6406d3d31754de82ad0620754",
+      "fullSentences": [
+        "フライパンを火にかけたまま電話に出ていたら、餃子の底が焦げてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refdca.02",
+      "hash": "0d23ad295e455b6426f36ceb1c38441d5eb3b2d62d3964df3d1cb251fc37bd26",
+      "fullSentences": [
+        "料理人は、弱火で砂糖を焦がしてカラメルソースを作った。"
+      ]
+    },
+    {
+      "id": "verb.refdca.03",
+      "hash": "7d31a21d55c132a8959eb9ab46922eaa349c65ef8de185260568af2a0a232a0e",
+      "fullSentences": [
+        "高温のアイロンを長く当てたため、シャツの袖口が焦げてしまった。"
+      ]
+    }
+  ]
+}

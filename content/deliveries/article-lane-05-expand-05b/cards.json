@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refoaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "lexicalKey": "bookshelf-stability-check",
+    "scene": "家具店员工检查组装书架稳不稳，双手前后摇晃架体。",
+    "before": [
+      {
+        "text": "組み立てた本棚の安定を確かめるため、家具店の店員は棚全体を両手で前後に",
+        "reading": "くみたてたほんだなのあんていをたしかめるため、かぐてんのてんいんはたなぜんたいをりょうてでぜんごに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺すった",
+        "reading": "ゆすった",
+        "verdict": "correct",
+        "explanation": "店员是摇动架子的施事，「棚全体を」标明被双手摇动的对象，符合「揺する」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "揺れた",
+        "reading": "ゆれた",
+        "verdict": "ungrammatical",
+        "explanation": "「揺れる」描述架子自身晃动，不能接在表示被摇动对象的「棚全体を」之后。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "家具店的店员为了确认组装好的书架是否稳固，双手前后摇晃了整个架子。",
+    "explanation": "店员主动摇动书架来检查稳定性，书架是动作对象。",
+    "hint": "判断句中书架是自己发生晃动，还是被店员施加了摇动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "lexicalKey": "plaintiff-favorable-verdict",
+    "scene": "漫长审理结束后，地方法院作出有利于原告的判决。",
+    "before": [
+      {
+        "text": "長い審理を経て、地方裁判所から原告に有利な判決が",
+        "reading": "ながいしんりをへて、ちほうさいばんしょからげんこくにゆうりなはんけつが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下った",
+        "reading": "くだった",
+        "verdict": "correct",
+        "explanation": "「判決が」是本句发生的结果，法院用「から」标出判决的来源，符合判决「下る」的表达。"
+      },
+      {
+        "id": "b",
+        "text": "下した",
+        "reading": "くだした",
+        "verdict": "ungrammatical",
+        "explanation": "「下す」表示机构或人作出判决，需把作出判决者作为施事、把判决作为对象；本句以「判決が」作主体，句式不相容。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经过漫长审理，地方法院作出了有利于原告的判决。",
+    "explanation": "句子描述判决从法院作出并落到案件中，不以法院为动作主体。",
+    "hint": "留意句子的中心是判决作为结果出现，还是机构作为施事作出判决。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "lexicalKey": "court-issues-verdict",
+    "scene": "审判长审查证据后，向被告作出有罪判决。",
+    "before": [
+      {
+        "text": "裁判長は、証拠を吟味したうえで、被告に有罪の判決を",
+        "reading": "さいばんちょうは、しょうこをぎんみしたうえで、ひこくにゆうざいのはんけつを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下した",
+        "reading": "くだした",
+        "verdict": "correct",
+        "explanation": "审判长是作出判决的施事，「判決を」标明被作出的裁判结果，符合「下す」的搭配。"
+      },
+      {
+        "id": "b",
+        "text": "下った",
+        "reading": "くだった",
+        "verdict": "ungrammatical",
+        "explanation": "「下る」描写判决自身作为主体出现，不能把这里以「判決を」标出的裁判结果当作直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "审判长审查证据后，对被告作出了有罪判决。",
+    "explanation": "审判长作出判决，被告是判决所针对的一方。",
+    "hint": "观察谁是作出裁判结果的施事，以及判决在句中如何标记。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "lexicalKey": "overseas-transfer-order",
+    "scene": "财年末，总部发出调往海外分公司的调令。",
+    "before": [
+      {
+        "text": "年度末、本社から海外支社への異動辞令が",
+        "reading": "ねんどまつ、ほんしゃからかいがいししゃへのいどうじれいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下った",
+        "reading": "くだった",
+        "verdict": "correct",
+        "explanation": "「異動辞令が」是从总部下达的文书，句子以调令自身为主体，符合「下る」的表达。"
+      },
+      {
+        "id": "b",
+        "text": "下した",
+        "reading": "くだした",
+        "verdict": "ungrammatical",
+        "explanation": "「下す」要让发布者作施事、把调令作对象；本句用「本社から」标出来源，并以「辞令が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调往海外分公司的调令在财年末从总部下达。",
+    "explanation": "句子描写调令从总部下达，而不是由总部作为主语执行某个动作。",
+    "hint": "留意人事文书在句中是收到的结果，还是发布者施加动作的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "lexicalKey": "coastal-evacuation-order",
+    "scene": "水位达到警戒线后，市对策本部向沿岸居民下达避难令。",
+    "before": [
+      {
+        "text": "川の水位が警戒線に達したため、市の災害対策本部は沿岸住民に避難命令を",
+        "reading": "かわのみずいがけいかいせんにたっしたため、しのさいがいたいさくほんぶはえんがんじゅうみんにひなんめいれいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下した",
+        "reading": "くだした",
+        "verdict": "correct",
+        "explanation": "市的灾害对策本部是发布者，「避難命令を」是它下达的命令，符合「下す」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "下った",
+        "reading": "くだった",
+        "verdict": "ungrammatical",
+        "explanation": "「下る」描写命令自身下达或传来；本句让对策本部作施事，并用「を」标明发布的命令。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "河流水位达到警戒线后，市灾害对策本部向沿岸居民下达了避难命令。",
+    "explanation": "对策本部向居民发布命令，命令是动作对象。",
+    "hint": "找出本句的发布者、命令内容和接收方分别承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "lexicalKey": "temporary-creek-bridge",
+    "scene": "登山队沿涨水溪流上的临时桥逐一走到对岸。",
+    "before": [
+      {
+        "text": "雨で増水した沢に架けられた仮設の橋を、登山者たちは一人ずつ慎重に",
+        "reading": "あめでぞうすいしたさわにかけられたかせつのはしを、とざんしゃたちはひとりずつしんちょうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "渡った",
+        "reading": "わたった",
+        "verdict": "correct",
+        "explanation": "登山者们自己从溪流一侧走到另一侧；「橋を」在这里标出经过的路线。"
+      },
+      {
+        "id": "b",
+        "text": "渡した",
+        "reading": "わたした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「渡す」可以表示把人或物送到另一侧，也可用于把桥架过水面；本句的桥已经架好，登山者是沿桥通行，并未传送物品或架桥。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨水使山溪涨水后，登山者们沿着架在溪上的临时桥，一个接一个小心地走到对岸。",
+    "explanation": "登山者本人沿桥从溪流一侧移动到另一侧。",
+    "hint": "判断登山者是在沿一条路线移动，还是把某个人或物送到另一边。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "lexicalKey": "museum-original-handover",
+    "scene": "展览准备时，馆员把资料原件交给保管负责人。",
+    "before": [
+      {
+        "text": "展示の準備を終えた学芸員は、資料の原本を保管担当者に",
+        "reading": "てんじのじゅんびをおえたがくげいいんは、しりょうのげんぽんをほかんたんとうしゃに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "渡した",
+        "reading": "わたした",
+        "verdict": "correct",
+        "explanation": "馆员是交接资料的施事，「資料の原本を」是交给保管负责人的物品，「担当者に」标出接收方。"
+      },
+      {
+        "id": "b",
+        "text": "渡った",
+        "reading": "わたった",
+        "verdict": "ungrammatical",
+        "explanation": "「渡る」可描述物品自身转到某人手中，但本句以「学芸員」为施事并用「資料の原本を」标出被交接的物品，不能改用自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "馆员完成展览准备后，把资料原件交给了保管负责人。",
+    "explanation": "馆员把资料原件交给接收方，物品是动作对象。",
+    "hint": "确认谁发出交接动作、哪件物品被交接，以及谁接收物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "lexicalKey": "island-research-ferry",
+    "scene": "调查小组乘坐早晚运行的联络船，从本土前往离岛。",
+    "before": [
+      {
+        "text": "調査チームは朝夕だけ運航する連絡船に乗り、本土から離島へ",
+        "reading": "ちょうさチームはあさゆうだけうんこうするれんらくせんにのり、ほんどからりとうへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "渡った",
+        "reading": "わたった",
+        "verdict": "correct",
+        "explanation": "调查小组乘船亲自从本土前往离岛，句子描述人员移动到另一处。"
+      },
+      {
+        "id": "b",
+        "text": "渡した",
+        "reading": "わたした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「渡す」表示施事把人或物送到另一侧；本句中的调查小组是乘船移动的人，并没有把别的对象送往离岛。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调查小组乘坐只在早晚运行的联络船，从本土前往了离岛。",
+    "explanation": "调查小组自己乘船跨海到达离岛。",
+    "hint": "注意本句的主语是乘船移动的人员，还是把其他对象送往目的地的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

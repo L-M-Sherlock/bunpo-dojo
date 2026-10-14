@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refsda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "lexicalKey": "pitcher-varies-pitches-between-inside-and-outside-corners",
+    "scene": "投手变换落点，把球分投向好球区内角和外角。",
+    "before": [
+      {
+        "text": "投手は内角と外角に球を",
+        "reading": "とうしゅはないかくとがいかくにたまを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "散らした",
+        "reading": "ちらした",
+        "verdict": "correct",
+        "explanation": "投手改变球的落点，「球を」标出被分投到内角和外角的对象。"
+      },
+      {
+        "id": "b",
+        "text": "散った",
+        "reading": "ちった",
+        "verdict": "ungrammatical",
+        "explanation": "「散る」描述对象自行散开，不能把「球を」作为直接对象；若写球自行散开，应以「球が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "投手把球分别投向内角和外角。",
+    "explanation": "投手是改变落点的人，球是被分投到不同位置的对象。",
+    "hint": "判断句中是谁在改变落点，以及「球」是动作对象还是自行散开的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "lexicalKey": "distant-thunder-sounds-beside-lakeshore",
+    "scene": "湖边，远处响起雷声。",
+    "before": [
+      {
+        "text": "湖畔で、遠くの雷が",
+        "reading": "こはんで、とおくのかみなりが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "鳴った",
+        "reading": "なった",
+        "verdict": "correct",
+        "explanation": "「雷が」是发出声音的主体，句子写远处雷声响起，符合「鳴る」的发声义。"
+      },
+      {
+        "id": "b",
+        "text": "鳴らした",
+        "reading": "ならした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「鳴らす」表示让某个声音发出；这里的雷本身就是响起的声音，没有让其他对象发声的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "湖边，远处响起了雷声。",
+    "explanation": "雷声本身是发声主体，没有施事让另一对象发声。",
+    "hint": "看雷声本身是在响，还是它让另一个对象发出声音。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "lexicalKey": "student-rings-teachers-front-door-chime",
+    "scene": "学生到老师家拜访时，按响玄关门铃。",
+    "before": [
+      {
+        "text": "先生の家を訪ねた学生は、玄関のチャイムを",
+        "reading": "せんせいのいえをたずねたがくせいは、げんかんのチャイムを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "鳴らした",
+        "reading": "ならした",
+        "verdict": "correct",
+        "explanation": "学生是按门铃的人，「チャイムを」是被按响的对象，符合「鳴らす」的使其发声义。"
+      },
+      {
+        "id": "b",
+        "text": "鳴った",
+        "reading": "なった",
+        "verdict": "ungrammatical",
+        "explanation": "「鳴る」把发声的对象作为主体，不能将「チャイムを」作直接对象；门铃自行响起时应说「チャイムが鳴った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "拜访老师家的学生按响了玄关的门铃。",
+    "explanation": "学生让门铃发声，门铃是直接作用对象。",
+    "hint": "留意「チャイム」是被学生按响的对象，还是自行响起的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "lexicalKey": "hungry-students-stomach-growls-during-exam",
+    "scene": "午前考试时，饥饿学生的肚子咕咕叫。",
+    "before": [
+      {
+        "text": "昼前の試験中、空腹の学生のお腹がぐうっと",
+        "reading": "ひるまえのしけんちゅう、くうふくのがくせいのおなかがぐうっと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "鳴った",
+        "reading": "なった",
+        "verdict": "correct",
+        "explanation": "「お腹が」是咕咕作响的主体，句子描写饥饿学生的肚子发出声音。"
+      },
+      {
+        "id": "b",
+        "text": "鳴らした",
+        "reading": "ならした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「鳴らす」表示让对象发声；本句写肚子自身咕咕响，并没有肚子让其他对象响的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "午前的考试进行中，饥饿学生的肚子咕咕叫了起来。",
+    "explanation": "句中肚子本身发出声响，是「鳴る」的主体。",
+    "hint": "关注咕咕作响的是学生的肚子本身，还是肚子让别的东西响。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.reffaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "shop-automatic-shutter-closes",
+    "scene": "营业结束后，商店的自动卷帘门缓缓落下。",
+    "before": [
+      {
+        "text": "閉店後、店の自動シャッターがゆっくり",
+        "reading": "へいてんご、みせのじどうシャッターがゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉じた",
+        "reading": "とじた",
+        "verdict": "correct",
+        "explanation": "自动卷帘门自行合上，是门本身发生关闭变化；「シャッターが」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "閉ざした",
+        "reading": "とざした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「閉ざす」可省略宾语；若把「自動シャッターが」读作施事，就是卷帘门缓缓封住别的对象，与卷帘门自身合上的场景不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店铺打烊后，自动卷帘门缓缓合上。",
+    "explanation": "句子写卷帘门自身缓缓合上；若把「が」标记的主语读作「閉ざす」的施事并省略宾语，就是门封住别物，不符合自身闭合的场景。",
+    "hint": "看「が」标出的卷帘门是动作的对象，还是自行发生变化的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "lexicalKey": "sleepy-child-eyelids-close",
+    "scene": "听绘本时，困倦的孩子眼皮渐渐合上。",
+    "before": [
+      {
+        "text": "絵本を読んでもらっているうちに、眠そうな子どものまぶたが少しずつ",
+        "reading": "えほんをよんでもらっているうちに、ねむそうなこどものまぶたがすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉じていった",
+        "reading": "とじていった",
+        "verdict": "correct",
+        "explanation": "孩子越来越困，眼皮逐渐自行合上；「まぶたが」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "閉ざしていった",
+        "reading": "とざしていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「閉ざす」可省略宾语；若以「まぶたが」作施事，就表示眼皮逐渐封住别的对象，与眼皮自身合上的场景不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "听人读绘本时，困倦的孩子眼皮一点点合上。",
+    "explanation": "句子写孩子眼皮逐渐自行合上；若让「まぶたが」作「閉ざす」的施事并省略宾语，就会变成眼皮封住别物，不是自身闭合。",
+    "hint": "留意眼皮在句中是自行发生变化，还是被某人主动关上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refhaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "evacuation-shelter-drinking-water-runs-out",
+    "scene": "补给车迟迟未到，避难所分发的饮用水在天亮前用完。",
+    "before": [
+      {
+        "text": "給水車の到着が遅れ、避難所で配る飲料水が夜明け前に",
+        "reading": "きゅうすいしゃのとうちゃくがおくれ、ひなんじょでくばるいんりょうすいがよあけまえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "correct",
+        "explanation": "饮用水数量减少到没有了，是存量自身耗尽；「飲料水が」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「尽くす」可省略宾语；若把「飲料水が」读作施事，就是水用尽别的对象，而不是饮用水存量自身耗尽。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "供水车迟迟未到，避难所分发的饮用水在天亮前用完了。",
+    "explanation": "句子写避难所饮用水存量耗尽；若把「飲料水が」读作「尽くす」的施事并省略宾语，就是水用尽别物，不是水自身耗尽。",
+    "hint": "判断饮用水是存量自行耗尽，还是有人把水作为对象全部用完。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refhaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "bus-ride-conversation-topics-run-out",
+    "scene": "长途巴士上聊了一路，抵达目的地时已没有新话题。",
+    "before": [
+      {
+        "text": "長距離バスで友人と話し続けたが、目的地に着くころには話題が",
+        "reading": "ちょうきょりバスでゆうじんとはなしつづけたが、もくてきちにつくころにはわだいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "correct",
+        "explanation": "「話題が尽きる」表示可谈的话题不再有了；这里是话题本身结束。"
+      },
+      {
+        "id": "b",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「尽くす」可省略宾语；若让「話題が」作施事，就会变成话题用尽别的对象，而非可谈内容自身耗尽。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在长途巴士上一直与朋友交谈，但快到目的地时话题已经聊完了。",
+    "explanation": "句子写可谈话题耗尽；若把「話題が」看作「尽くす」的施事并省略宾语，就是话题用尽别物，不是话题本身告罄。",
+    "hint": "看话题是自行告一段落，还是有人把话题作为对象全部谈尽。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

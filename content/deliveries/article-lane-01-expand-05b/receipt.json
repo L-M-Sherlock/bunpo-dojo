@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_01_repair",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-05b.draft.json",
+  "at": "2026-10-14T02:06:15.037Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refjba.04",
+      "hash": "4075e09f70ff9e626b232292e11123aa5f99789618d4b32ff9f36015b861abf3",
+      "fullSentences": [
+        "閉館後、学芸員は展示台を壁際に寄せて通路を広くした。"
+      ]
+    },
+    {
+      "id": "verb.refqaa.01",
+      "hash": "0d1382e6b2d2d13e53ff6731b1a451437bdabdbb801218c013121d0831dffc20",
+      "fullSentences": [
+        "閉店後の無人の店内では、隣の喫茶店のラジオの時報はかすかに聞こえていた。"
+      ]
+    },
+    {
+      "id": "verb.refqaa.02",
+      "hash": "ed2fe935554f2e5a18891aaba44588abb122b1c61ec77c1675d2ea3d0887b554",
+      "fullSentences": [
+        "大会前の調整について、記者は選手の説明を遮らずに最後まで聞いた。"
+      ]
+    },
+    {
+      "id": "verb.refqaa.03",
+      "hash": "3254c3cb1a8bb672301e62ad1939e07c4fd3b25bb56adc08c757a7adaf45753c",
+      "fullSentences": [
+        "荷を下ろす船員がいる甲板でも、岸壁の出航案内は意識せずともよく聞こえた。"
+      ]
+    },
+    {
+      "id": "verb.refqaa.04",
+      "hash": "9fdaee66ec213f2b815a71a194950552a229111881077c6e194d2839557bf796",
+      "fullSentences": [
+        "面談では、相談員は来訪者の希望を遮らずに最後まで聞いた。"
+      ]
+    },
+    {
+      "id": "verb.refrea.01",
+      "hash": "916f4e898a8e66f48e789346f6d119dc16d01a8d5c9961e5466d1eaee7b12bf7",
+      "fullSentences": [
+        "夜間、一般車の通行が止まった海底トンネル内を、保守用の無人点検車が低速で通った。"
+      ]
+    },
+    {
+      "id": "verb.refrea.02",
+      "hash": "f560ea8cdb0f710652c93a35bd4700b5a619466324da9805eac9a2f6c6c3bbfb",
+      "fullSentences": [
+        "館員は予約名簿を確認し、見学者を一人ずつ奥の閲覧室へ通した。"
+      ]
+    },
+    {
+      "id": "verb.refrea.03",
+      "hash": "a2200774491c668195921c537946a40e26db95aa8a7f5f53d1498a728fb519aa",
+      "fullSentences": [
+        "初めて来校した留学生は、図書室への道を探しながら職員室の前を静かに通った。"
+      ]
+    }
+  ]
+}

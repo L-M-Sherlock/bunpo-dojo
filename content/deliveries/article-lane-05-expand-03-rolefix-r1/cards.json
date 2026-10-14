@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refcfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "取る",
+      "reading": "とる"
+    },
+    "lexicalKey": "mechanic-saves-last-emergency-battery",
+    "scene": "整备员把最后一节电池留作应急，没有取走，而是打开了另一只箱子。",
+    "before": [
+      {
+        "text": "整備士は、非常用に残す最後の電池を棚から取らず、別の箱を開けた。",
+        "reading": "せいびしは、ひじょうようにのこすさいごのでんちをたなからとらず、べつのはこをあけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句中不是电池自行离开架子；整备员有意把电池留作应急。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "最後の電池を是整备员本可取下的对象，否定形表示他有意不取。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "整备人员没有从架上取走留作应急的最后一节电池，而是打开了另一只箱子。",
+    "explanation": "焦点词取る以电池为对象，句中否定了取电池的动作；后续说明整备员打开了另一只箱子。",
+    "hint": "看电池是否自行脱落，还是有人有意把它留在架上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

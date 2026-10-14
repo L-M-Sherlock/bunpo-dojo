@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refsda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "pair": {
+      "id": "verb.refsda",
+      "intransitive": "散る",
+      "intransitiveReading": "ちる",
+      "transitive": "散らす",
+      "transitiveReading": "ちらす",
+      "meaning": "辨析「散る／散らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

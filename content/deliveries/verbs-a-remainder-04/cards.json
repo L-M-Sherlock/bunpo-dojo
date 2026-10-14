@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.enter.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "入る・入れる",
+    "scene": "泡茶时，妈妈把茶叶放进茶壶。",
+    "before": [
+      {
+        "text": "母は急須に茶葉を",
+        "reading": "はははきゅうすにちゃばを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入れました",
+        "reading": "いれました",
+        "verdict": "correct",
+        "explanation": "妈妈把茶叶放进茶壶，茶叶是移动对象，符合他动词入れる。"
+      },
+      {
+        "id": "b",
+        "text": "入りました",
+        "reading": "はいりました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「茶葉を」标出被放入的对象；自动词入る描述茶叶自身进入，不能接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "妈妈把茶叶放进了茶壶。",
+    "explanation": "入れる（いれる）表示妈妈把茶叶放进急須。",
+    "hint": "判断茶叶是自行进入容器，还是有人把茶叶放进去。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.enter.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "入る・入れる",
+    "scene": "窗户开着时，猫悄悄溜进了房间。",
+    "before": [
+      {
+        "text": "窓が開いている間に、猫はこっそり部屋に",
+        "reading": "まどがあいているあいだに、ねこはこっそりへやに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入りました",
+        "reading": "はいりました",
+        "verdict": "correct",
+        "explanation": "猫自己进入房间，是移动主体，房间是目的地。"
+      },
+      {
+        "id": "b",
+        "text": "入れました",
+        "reading": "いれました",
+        "verdict": "meaning-mismatch",
+        "explanation": "入れました可表示有人把猫带进房间；这里说的是猫趁窗户开着自己溜进去。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "窗户开着时，猫悄悄溜进了房间。",
+    "explanation": "入る（はいる）表示猫自身移动到房间里面。",
+    "hint": "看猫是自己进入房间，还是被人带进房间。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.enter.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "入る・入れる",
+    "scene": "爸爸把买回来的冷冻食品放进冷冻室。",
+    "before": [
+      {
+        "text": "父は買ってきた冷凍食品を冷凍庫に",
+        "reading": "ちちはかってきたれいとうしょくひんをれいとうこに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入れました",
+        "reading": "いれました",
+        "verdict": "correct",
+        "explanation": "爸爸把冷冻食品放进冷冻室，食品是被移动的对象。"
+      },
+      {
+        "id": "b",
+        "text": "入りました",
+        "reading": "はいりました",
+        "verdict": "ungrammatical",
+        "explanation": "「冷凍食品を」是直接对象；自动词入る不能按该词义接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "爸爸把买回来的冷冻食品放进了冷冻室。",
+    "explanation": "入れる（いれる）表示爸爸主动把食品放进冷冻库。",
+    "hint": "确认冷冻食品是被放进去的对象，以及是谁实施了动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.enter.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "入る・入れる",
+    "scene": "暴雨后，水从墙缝渗进地下室。",
+    "before": [
+      {
+        "text": "大雨の後、壁のすき間から水が地下室に",
+        "reading": "おおあめのあと、かべのすきまからみずがちかしつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入りました",
+        "reading": "はいりました",
+        "verdict": "correct",
+        "explanation": "水从墙缝自行流进地下室，是移动主体。"
+      },
+      {
+        "id": "b",
+        "text": "入れました",
+        "reading": "いれました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，水会成为把别的东西带入地下室的施事；这里是水自身进入地下室。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暴雨后，水从墙缝渗进了地下室。",
+    "explanation": "入る（はいる）表示水自身从墙缝进入地下室。",
+    "hint": "看是水自己流进地下室，还是有施事把某物放进去。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.exit.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "出る・出す",
+    "scene": "闭会后，参会者离开了会场。",
+    "before": [
+      {
+        "text": "閉会後、参加者が会場から",
+        "reading": "へいかいご、さんかしゃがかいじょうから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出ました",
+        "reading": "でました",
+        "verdict": "correct",
+        "explanation": "参会者自身从会场离开，参加者是移动主体。"
+      },
+      {
+        "id": "b",
+        "text": "出しました",
+        "reading": "だしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "出す可表示参会者从会场拿出或发出某个对象；本句说的是参会者本人离开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭会后，参会者离开了会场。",
+    "explanation": "出る（でる）表示参会者从会场离开。",
+    "hint": "区分参会者自己离开会场，与参会者把某物带出会场。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

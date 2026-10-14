@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_02",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-03.draft.json",
+  "at": "2026-10-13T19:37:47.883Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refbpa.04",
+      "hash": "5bdcd63bb44e7c325cae67a031dd51eca8539a02a6438d630183fc34df0d77ba",
+      "fullSentences": [
+        "調査隊は、山に入る前に日ごとの観測計画を立てた。"
+      ]
+    },
+    {
+      "id": "verb.refbva.01",
+      "hash": "7a4d7a69f3444bac8c95f0d49959d6065e9d024370d3dc770438a7958378181d",
+      "fullSentences": [
+        "山間の町で何日も降り続いた雨が、夕方になって止んだ。"
+      ]
+    },
+    {
+      "id": "verb.refbva.02",
+      "hash": "0117ac4b52e282b0c2ac4c582c445ec80a1794807f6d2a0ee786f3951d864faf",
+      "fullSentences": [
+        "手首に痛みが出たピアニストは、医師の助言を受けてその日の練習を途中でやめた。"
+      ]
+    },
+    {
+      "id": "verb.refbva.03",
+      "hash": "d9239e58a5679a77572a17c7a781c37c1c866241f327ea34fb3bdb5ae79bd2fa",
+      "fullSentences": [
+        "避難指示が解除されると、防災無線から鳴っていたサイレンが止んだ。"
+      ]
+    },
+    {
+      "id": "verb.refbva.04",
+      "hash": "ee58b709665081116d2dc32674b91396c10fe33cb5bf05d232c20c0b93e700a9",
+      "fullSentences": [
+        "父は健康診断の結果を受けて、毎晩の晩酌をやめた。"
+      ]
+    },
+    {
+      "id": "verb.refcda.01",
+      "hash": "a44c25c8da15bd86fb8ac6b7659132b8e44bb1bdc2411ff6cb4b72bfd5861955",
+      "fullSentences": [
+        "台風の風にあおられ、ベランダに干していた旗が縦に大きく裂けた。"
+      ]
+    },
+    {
+      "id": "verb.refcda.02",
+      "hash": "b803faeb7c83485541c7d0e3d7c3d7872d9f8b99c7f4889363f7516f405f9b41",
+      "fullSentences": [
+        "ゆでた鶏肉を、料理人はサラダ用に繊維に沿って細かく裂いた。"
+      ]
+    },
+    {
+      "id": "verb.refcda.03",
+      "hash": "e8b8ee91090311b66de3204abea9064078761e7abdf960d60393aa16b434482c",
+      "fullSentences": [
+        "登山道を歩いていると、岩角にこすれたザックの肩ひもが根元から裂けた。"
+      ]
+    },
+    {
+      "id": "verb.refcda.04",
+      "hash": "582d763e4ae8806a715e0ce071f6a25af0dc8be8ce82b83027ca4a4fd98354d7",
+      "fullSentences": [
+        "子どもは、描き損じた画用紙を細長く裂いて工作に使った。"
+      ]
+    },
+    {
+      "id": "verb.refcia.01",
+      "hash": "3b33b7ac8c66cb9b6e4c99f84f4f3e07ca42f36db450dd978c25b5119b1f3f1d",
+      "fullSentences": [
+        "潮風にさらされた古い門では、赤い塗装がところどころ剥げ、木地が見えていた。"
+      ]
+    },
+    {
+      "id": "verb.refcia.02",
+      "hash": "228fe35f43e0990ebfe49885e7073a644edabd769a93e09fe816ecfaf3363892",
+      "fullSentences": [
+        "木材加工の職人は、彫刻用の丸太から樹皮を刃物で剥いだ。"
+      ]
+    },
+    {
+      "id": "verb.refcia.03",
+      "hash": "cb052e20f4097f97e36eb2156e6d5ade084720f988d07e11243d30c9dd884e11",
+      "fullSentences": [
+        "毎日身につけていた腕時計は、ベルトの金メッキが摩擦で剥げていた。"
+      ]
+    },
+    {
+      "id": "verb.refcia.04",
+      "hash": "3cfdd000c0c9b3c2d0c7461aff243305121405b698865ae10222eb1d6a94f3e7",
+      "fullSentences": [
+        "避難所で傷を手当てするため、看護師は負傷者の肩から濡れた毛布をそっと剥いだ。"
+      ]
+    },
+    {
+      "id": "verb.refdaa.01",
+      "hash": "554cf45018ffa9801297b0f6c5518de87ea13ba285efb492f95495fcf9804590",
+      "fullSentences": [
+        "山頂で初日の出を待つ人々が東の空を眺めているうちに、夜が明けた。"
+      ]
+    },
+    {
+      "id": "verb.refdaa.02",
+      "hash": "4da7bc96de92d1a99c8598e6a2da35c20d409e3ed4b7ff430003de913813df91",
+      "fullSentences": [
+        "調査報告書の公表後、広報担当者は記者会見で機器故障の原因を明かした。"
+      ]
+    },
+    {
+      "id": "verb.refdaa.03",
+      "hash": "8e199af3fca16210226cd473e9ce34a92bb0cee8ba4e488d905825bc5ccf1f78",
+      "fullSentences": [
+        "気象台によると、九州地方では先週末に梅雨が明けた。"
+      ]
+    }
+  ]
+}

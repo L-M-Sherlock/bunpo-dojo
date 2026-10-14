@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_05",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-04.draft.json",
+  "at": "2026-10-13T19:55:53.907Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refdda.04",
+      "hash": "fea8b33d033f27b0c978a5597df88ae013303c7e3f0a816ae7caeef33440e96f",
+      "fullSentences": [
+        "調理員は、熱いスープを早く冷ますため、浅いバットに移した。"
+      ]
+    },
+    {
+      "id": "verb.refdja.01",
+      "hash": "a5e126f16b5e667b888ecb57d04ca5798b1a90f7b99af13ff651d4da7ab09b98",
+      "fullSentences": [
+        "校庭では、強い横風を受けた旗がポールの先で大きく揺れていた。"
+      ]
+    },
+    {
+      "id": "verb.refdja.02",
+      "hash": "5d55d76ed1ef03384e7b2e715158833cc1d419e8f76798438cefb4165630b4e4",
+      "fullSentences": [
+        "父親は、昼寝中の赤ん坊を起こさないよう、ゆりかごを静かに揺らした。"
+      ]
+    },
+    {
+      "id": "verb.refdja.03",
+      "hash": "bf33b3f657f2ef5f48b4d09a383016b757bb811660b3a8fb4ff278a9944e9b47",
+      "fullSentences": [
+        "湾内に停泊中の小舟が、細かな波にゆっくり揺れていた。"
+      ]
+    },
+    {
+      "id": "verb.refdja.04",
+      "hash": "1c8fed754db781124c26f3aa44764bb7ea7653863f28abc6c570e9afa51bdf0d",
+      "fullSentences": [
+        "足場板が固定されているか確かめるため、作業員は端を手で揺らした。"
+      ]
+    },
+    {
+      "id": "verb.refefa.01",
+      "hash": "76907f0d1b1ebc02a19429e6a3f67701c30cb36371fbe4e7720c0231a02bf053",
+      "fullSentences": [
+        "連日の雨のあと、用水路の水量が一晩で大幅に増えた。"
+      ]
+    },
+    {
+      "id": "verb.refefa.02",
+      "hash": "a3fca52f7b01b21b8e67697649eaff6fc52946463a023bb6dc69a5701a3a366a",
+      "fullSentences": [
+        "書店の店長は、試験前に参考書の在庫を増やした。"
+      ]
+    },
+    {
+      "id": "verb.refefa.03",
+      "hash": "b9c201d4bcba4c7ca7e43007753423dc6677b437465772a32f61ec2467548c48",
+      "fullSentences": [
+        "新しいバス路線が開通してから、週末に図書館を訪れる人が増えた。"
+      ]
+    },
+    {
+      "id": "verb.refefa.04",
+      "hash": "f84d8b796310faafdcba5f5f78719df1831abf0d4b2f3d5d9f6a6ff38c5f0ab2",
+      "fullSentences": [
+        "雨の日に備えて、受付係は玄関に傘立てを一つ増やした。"
+      ]
+    },
+    {
+      "id": "verb.refgca.01",
+      "hash": "89e3bca3b767b4b28f5eed4ac3b2c25d53f7d208d78d12d71ead2e22972291b4",
+      "fullSentences": [
+        "路線バスが終点に着くと、乗客たちはバスから順番に降りた。"
+      ]
+    },
+    {
+      "id": "verb.refgca.02",
+      "hash": "18e94dbec81db92c685a5a0b5be611e28d7d64b24e0effe22a91b454b149c423",
+      "fullSentences": [
+        "運転手は、重い木箱をトラックの荷台から地面に降ろした。"
+      ]
+    },
+    {
+      "id": "verb.refgca.03",
+      "hash": "446a2924e8f353519fb6d5f46b9212076dc304c6b96b3f1534c296da32550190",
+      "fullSentences": [
+        "登山者は、山頂の避難小屋から麓の登山口まで降りた。"
+      ]
+    },
+    {
+      "id": "verb.refgca.04",
+      "hash": "5c8d0f34ee4a76fd3863e0fdb8716ea5268538c7964a33633cb750bd756384b9",
+      "fullSentences": [
+        "倉庫係は、高い棚から予備の照明器具を台車に降ろした。"
+      ]
+    },
+    {
+      "id": "verb.refida.01",
+      "hash": "20cc77c80359666cf2bee1e9462dedf6d12113f86e53069b43363d56b446ebd6",
+      "fullSentences": [
+        "満杯の湯のみから、お茶がテーブルに零れた。"
+      ]
+    },
+    {
+      "id": "verb.refida.02",
+      "hash": "9574c16cde304da48917ba0fea73a430c6429e97ea533e0ce7da4a7db97b8eed",
+      "fullSentences": [
+        "事務員は、瓶に入ったインクを机に零さないよう、その瓶を両手で運んだ。"
+      ]
+    },
+    {
+      "id": "verb.refida.03",
+      "hash": "645b23fea35462e5e4f9c574730f973f450a40f0d8b63feb4cd2e107b7ec8dc3",
+      "fullSentences": [
+        "映画の終盤、観客の目から涙が零れた。"
+      ]
+    }
+  ]
+}

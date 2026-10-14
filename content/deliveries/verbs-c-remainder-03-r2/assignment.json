@@ -1,0 +1,19 @@
+[
+  {
+    "id": "verb.continue.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "intransitive"
+  }
+]

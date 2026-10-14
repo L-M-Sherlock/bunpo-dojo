@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refeca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "lexicalKey": "老桥损伤的居民访谈",
+    "scene": "调查员为记录老桥损伤，花了两周走访附近居民。",
+    "before": [
+      {
+        "text": "調査員は古い橋の損傷を記録に残すため、周辺住民への聞き取り調査に丸二週間を",
+        "reading": "ちょうさいんはふるいはしのそんしょうをきろくにのこすため、しゅうへんじゅうみんへのききとりちょうさにまるにしゅうかんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "費やした",
+        "reading": "ついやした",
+        "verdict": "correct",
+        "explanation": "调查员把两周用于居民访谈；「丸二週間を」标出被投入调查的时长。"
+      },
+      {
+        "id": "b",
+        "text": "費えた",
+        "reading": "ついえた",
+        "verdict": "ungrammatical",
+        "explanation": "「費える」描述财物减少或时间徒然流逝，不能在这里把「丸二週間を」作为调查员主动投入的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调查员为把老桥的损伤记录下来，在走访周边居民的调查上整整花了两周。",
+    "explanation": "两周是调查员主动用于访谈的时长，作为动作对象标为「を」。",
+    "hint": "留意两周是被投入调查的时长，还是自行徒然流逝的时间。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "lexicalKey": "石墙缝隙的雨后野草",
+    "scene": "雨停后阳光回来，石墙缝隙里的野草一下子蹿高了。",
+    "before": [
+      {
+        "text": "雨が上がって日差しが戻ると、石垣の隙間に生えた雑草が一気に",
+        "reading": "あめがあがってひざしがもどると、いしがきのすきまにはえたざっそうがいっきに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "伸びた",
+        "reading": "のびた",
+        "verdict": "correct",
+        "explanation": "雨后得到日照，杂草自身继续生长；「雑草が」是长度变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "伸ばした",
+        "reading": "のばした",
+        "verdict": "ungrammatical",
+        "explanation": "「伸ばす」需要让某个对象变长的施事与对象；本句的「雑草が」标出自然生长的主体，句中没有被伸长的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨停后阳光回来，长在石墙缝隙里的野草一下子长高了。",
+    "explanation": "野草本身因雨后的日照而生长，句子描述的是自然发生的变化。",
+    "hint": "判断句子在写野草自身的变化，还是某个施事拉长了对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "lexicalKey": "午睡猫舒展前爪",
+    "scene": "午睡醒来的猫在窗边舒展前爪后，慢慢走开。",
+    "before": [
+      {
+        "text": "昼寝から目を覚ました猫は、窓辺で前足を大きく",
+        "reading": "ひるねからめをさましたねこは、まどべでまえあしをおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "伸ばした",
+        "reading": "のばした",
+        "verdict": "correct",
+        "explanation": "猫主动把前爪伸展开；「前足を」是被伸展的身体部位。"
+      },
+      {
+        "id": "b",
+        "text": "伸びた",
+        "reading": "のびた",
+        "verdict": "ungrammatical",
+        "explanation": "「伸びる」描述爪子自身变长，应用「前足が」标出变化主体；本句用「前足を」标明猫主动伸展的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从午睡中醒来的猫在窗边大大地伸展了前爪。",
+    "explanation": "猫主动伸展前爪，「前足を」指出被它伸展的对象。",
+    "hint": "留意前爪是自行变长，还是猫主动伸展的身体部位。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "lexicalKey": "每周复习后英语平均分上升",
+    "scene": "一个班级坚持每周复习单词测验后，英语平均分比上月提高了十分。",
+    "before": [
+      {
+        "text": "単語テストの復習を毎週続けたクラスでは、英語の平均点が前月より十点",
+        "reading": "たんごテストのふくしゅうをまいしゅうつづけたクラスでは、えいごのへいきんてんがぜんげつよりじゅってん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "伸びた",
+        "reading": "のびた",
+        "verdict": "correct",
+        "explanation": "复习持续一段时间后，英语平均分自身上升；「平均点が」标出变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "伸ばした",
+        "reading": "のばした",
+        "verdict": "ungrammatical",
+        "explanation": "「伸ばす」是让分数提高的他动词，通常把「平均点」标为「を」的对象；本句用「平均点が」描述分数自身上升。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "坚持每周复习单词测验的班级，英语平均分比上个月提高了十分。",
+    "explanation": "复习后平均分本身上升，句子没有把分数写成被某人提高的对象。",
+    "hint": "看平均分是变化的主体，还是被某人提高的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,370 @@
+[
+  {
+    "id": "verb.refdca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "露营时，孩子把棉花糖在炭火上烤焦了",
+    "before": [
+      {
+        "text": "キャンプの炭火で、子どもはマシュマロを",
+        "reading": "キャンプのすみびで、こどもはマシュマロを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦がした",
+        "reading": "こがした",
+        "verdict": "correct",
+        "explanation": "孩子主动把棉花糖烤焦了，「棉花糖を」是动作直接作用的对象。"
+      },
+      {
+        "id": "b",
+        "text": "焦げた",
+        "reading": "こげた",
+        "verdict": "ungrammatical",
+        "explanation": "「棉花糖を」标出动作对象，自动词「焦げた」不能接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "露营时，孩子把棉花糖在炭火上烤焦了。",
+    "explanation": "孩子主动让棉花糖烧焦，棉花糖是动作的对象。",
+    "hint": "留意句中孩子对棉花糖做了什么，以及棉花糖前的格助词。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "lexicalKey": "漏れる/漏らす",
+    "scene": "清晨时，地下管道接缝处漏水了",
+    "before": [
+      {
+        "text": "明け方、地下の配管の継ぎ目から水が",
+        "reading": "あけがた、ちかのはいかんのつぎめからみずが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "漏れた",
+        "reading": "もれた",
+        "verdict": "correct",
+        "explanation": "水从管道接缝处漏出，水是发生泄漏的一方，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "漏らした",
+        "reading": "もらした",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示某人或某种因素使东西泄出；本句描写的是水从接缝处漏出。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "清晨时，地下管道的接缝处漏水了。",
+    "explanation": "句子描写地下管道接缝处发生漏水，没有写出主动放出水的施事。",
+    "hint": "看句子描述的是水从接缝处漏出，还是有人让水流出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "lexicalKey": "漏れる/漏らす",
+    "scene": "负责人在记者会上不慎泄露了尚未公布的调查结果",
+    "before": [
+      {
+        "text": "担当者は、発表前の調査結果を記者会見でうっかり",
+        "reading": "たんとうしゃは、はっぴょうまえのちょうさけっかをきしゃかいけんでうっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "漏らした",
+        "reading": "もらした",
+        "verdict": "correct",
+        "explanation": "负责人不慎泄露调查结果，「調査結果を」是被透露的信息。"
+      },
+      {
+        "id": "b",
+        "text": "漏れた",
+        "reading": "もれた",
+        "verdict": "ungrammatical",
+        "explanation": "「調査結果を」表示信息是泄露对象，自动词「漏れた」不能支配这个を格对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "负责人在记者会上不慎泄露了尚未公布的调查结果。",
+    "explanation": "负责人是透露信息的一方，调查结果是被泄露的内容。",
+    "hint": "确认句中的负责人是在透露信息，还是调查结果自行泄出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "lexicalKey": "漏れる/漏らす",
+    "scene": "即使关上会议室的门，走廊的谈话声仍传进室内",
+    "before": [
+      {
+        "text": "会議室のドアを閉めても、廊下の話し声が中に",
+        "reading": "かいぎしつのドアをしめても、ろうかのはなしごえがなかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "漏れてくる",
+        "reading": "もれてくる",
+        "verdict": "correct",
+        "explanation": "走廊里的说话声传进室内，是声音从外向内漏入的现象。"
+      },
+      {
+        "id": "b",
+        "text": "漏らしてくる",
+        "reading": "もらしてくる",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人让声音或信息传出；本句描写的是谈话声自行传进会议室。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "即使关上会议室的门，走廊里的谈话声仍会传进室内。",
+    "explanation": "门关上后，走廊的声音仍传进会议室，句子描写声音自身传播。",
+    "hint": "注意说话声是传进会议室，还是有人把它向外传出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "lexicalKey": "漏れる/漏らす",
+    "scene": "听到公布结果后，男子在观众席不由得叹了口气",
+    "before": [
+      {
+        "text": "発表の結果を聞いた男性は、客席で思わずため息を",
+        "reading": "はっぴょうのけっかをきいただんせいは、きゃくせきでおもわずためいきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "漏らした",
+        "reading": "もらした",
+        "verdict": "correct",
+        "explanation": "男子不由得发出叹息，「ため息を」是发出的声音，符合他动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "漏れた",
+        "reading": "もれた",
+        "verdict": "ungrammatical",
+        "explanation": "「ため息を」表示发出的内容，自动词「漏れた」不能接在这个を格对象之后。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "听到公布结果后，男子在观众席不由得叹了口气。",
+    "explanation": "男子发出了叹息，叹息是从他口中流露出来的内容。",
+    "hint": "找出男子发出的内容，以及句子中谁发出了它。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "慢慢吃晚饭时，桌上的汤凉了下来",
+    "before": [
+      {
+        "text": "夕食をゆっくり食べている間に、テーブルのスープが",
+        "reading": "ゆうしょくをゆっくりたべているあいだに、テーブルのスープが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷えてしまった",
+        "reading": "ひえてしまった",
+        "verdict": "correct",
+        "explanation": "汤在用餐期间自然变凉，属于温度下降的变化。"
+      },
+      {
+        "id": "b",
+        "text": "冷やしてしまった",
+        "reading": "ひやしてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人主动把某物冷却；本句只描写桌上的汤逐渐变凉。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "慢慢吃晚饭时，桌上的汤凉了下来。",
+    "explanation": "汤在吃饭期间自然降温，句子没有写出有人主动冷却它。",
+    "hint": "判断汤的温度是自然下降，还是有人主动把它冷却。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "母亲把待客用的麦茶瓶放进冰箱冰镇",
+    "before": [
+      {
+        "text": "母は来客用に、麦茶のボトルを冷蔵庫で",
+        "reading": "はははらいきゃくように、むぎちゃのボトルをれいぞうこで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷やした",
+        "reading": "ひやした",
+        "verdict": "correct",
+        "explanation": "母亲主动把麦茶瓶放在冰箱里冷却，瓶中饮品是被冷却的对象。"
+      },
+      {
+        "id": "b",
+        "text": "冷えた",
+        "reading": "ひえた",
+        "verdict": "ungrammatical",
+        "explanation": "「麦茶のボトルを」表示被冷却的对象，自动词「冷えた」不能接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲把待客用的麦茶瓶放进冰箱冰镇了。",
+    "explanation": "母亲主动冷却麦茶瓶，为待客做准备，瓶中饮品是动作对象。",
+    "hint": "留意母亲是否主动调节了瓶中饮品的温度。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "坐在长椅上的男子受秋夜冷风吹拂，双手渐渐冷了起来",
+    "before": [
+      {
+        "text": "秋の夜風にさらされ、ベンチに座っていた男性の手が",
+        "reading": "あきのよかぜにさらされ、ベンチにすわっていただんせいのてが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷えてきた",
+        "reading": "ひえてきた",
+        "verdict": "correct",
+        "explanation": "男子的手受到秋夜冷风影响而渐渐变冷，属于自身状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "冷やしてきた",
+        "reading": "ひやしてきた",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示某人主动冷却某个对象；本句写的是男子的手逐渐变冷。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "坐在长椅上的男子受秋夜冷风吹拂，双手渐渐冷了起来。",
+    "explanation": "男子的双手在冷风中逐渐降温，句子没有写出主动冷却它们的人。",
+    "hint": "分辨双手是在冷风中逐渐变冷，还是有人有意让它们降温。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "id": "verb.reftca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "pair": {
+      "id": "verb.reftca",
+      "intransitive": "塞がる",
+      "intransitiveReading": "ふさがる",
+      "transitive": "塞ぐ",
+      "transitiveReading": "ふさぐ",
+      "meaning": "辨析「塞がる／塞ぐ」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.hiraku.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "pair": {
+      "id": "verb.hiraku",
+      "intransitive": "開く",
+      "intransitiveReading": "ひらく",
+      "transitive": "開く",
+      "transitiveReading": "ひらく",
+      "meaning": "辨析「開く／開く」的角色与对象",
+      "count": 4,
+      "articleGroup": 25,
+      "articleRow": 1,
+      "exerciseType": "verb-role"
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.hiraku.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "pair": {
+      "id": "verb.hiraku",
+      "intransitive": "開く",
+      "intransitiveReading": "ひらく",
+      "transitive": "開く",
+      "transitiveReading": "ひらく",
+      "meaning": "辨析「開く／開く」的角色与对象",
+      "count": 4,
+      "articleGroup": 25,
+      "articleRow": 1,
+      "exerciseType": "verb-role"
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.hiraku.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "pair": {
+      "id": "verb.hiraku",
+      "intransitive": "開く",
+      "intransitiveReading": "ひらく",
+      "transitive": "開く",
+      "transitiveReading": "ひらく",
+      "meaning": "辨析「開く／開く」的角色与对象",
+      "count": 4,
+      "articleGroup": 25,
+      "articleRow": 1,
+      "exerciseType": "verb-role"
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  }
+]

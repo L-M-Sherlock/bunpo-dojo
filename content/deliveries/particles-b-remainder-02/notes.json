@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.time.02",
+    "fullCorrectSentences": [
+      "博物館の受付は、明日は午前九時に開きます。"
+    ],
+    "sceneRationale": "博物馆接待处安排在明天上午九点开放；「明日」是相对时间词，具体钟点是空格所标记的时点。",
+    "otherReadings": "「で」可表示所需时间、期限等，但不能表达接待处在上午九点开始开放。「明日」作为相对时间词本身不需要「に」，句中用「は」提示话题。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记接待处开放的具体时刻", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "时长／期限等关系，不是固定开始时刻", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：博物館（はくぶつかん）、受付（うけつけ）、明日（あした）、午前九時（ごぜんくじ）、開きます（あきます）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.03",
+    "fullCorrectSentences": [
+      "野外上映会は六月二十日に行われます。"
+    ],
+    "sceneRationale": "户外放映会的具体举办日期是6月20日。",
+    "otherReadings": "日期在此处表示活动举行的时点；「で」不能把六月二十日标作这一举行日期。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记放映会举行的日期", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "不表示此处活动举行的日期", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：野外上映会（やがいじょうえいかい）、六月二十日（ろくがつはつか）、行われます（おこなわれます）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.04",
+    "fullCorrectSentences": [
+      "工場では、設備の定期点検を三月三十一日に行います。"
+    ],
+    "sceneRationale": "工厂把设备定期检查排在3月31日，日期是实际实施检查的时点。",
+    "otherReadings": "「で」可表示方法、场所或所需时长；本句要标出设备检查安排在哪一天。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记设备检查的具体日期", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可表手段／场所／时长，但不表达本句的检查日期", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：工場（こうじょう）、設備（せつび）、定期点検（ていきてんけん）、三月三十一日（さんがつさんじゅういちにち）、行います（おこないます）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.05",
+    "fullCorrectSentences": [
+      "工場見学の送迎バスは、金曜日の午前八時四十五分に正門を出ます。"
+    ],
+    "sceneRationale": "工厂参观班车有明确的星期和发车时刻，并从正门出发。",
+    "otherReadings": "「で」若表示所需时长或期限，会形成不同时间关系；此处说的是班车实际出发的时间点。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记班车出发的具体时间点", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "时长／期限关系，与发车时刻不同", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：工場見学（こうじょうけんがく）、送迎バス（そうげいバス）、金曜日（きんようび）、午前八時四十五分（ごぜんはちじよんじゅうごふん）、正門（せいもん）、出ます（でます）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.06",
+    "fullCorrectSentences": [
+      "夏祭りの花火は午後七時十分に始まる。"
+    ],
+    "sceneRationale": "夏日祭烟火安排在晚上7点10分开始；这里是活动的起始时刻。",
+    "otherReadings": "「で」可表示完成某事所需的时间等，但本句标记的是烟火节目开始的具体钟点。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记烟火节目开始的具体时刻", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "时长等关系，不是节目开始的钟点", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：夏祭り（なつまつり）、花火（はなび）、午後七時十分（ごごしちじじゅっぷん）、始まる（はじまる）。",
+    "unresolvedQuestions": []
+  }
+]

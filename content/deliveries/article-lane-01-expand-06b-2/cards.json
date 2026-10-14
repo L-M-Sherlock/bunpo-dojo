@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.reftba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "lexicalKey": "mother-fills-bread-with-cheese-and-tomato-on-hike",
+    "scene": "晨间徒步休息时，母亲把芝士和番茄片夹进自带面包。",
+    "before": [
+      {
+        "text": "朝のハイキングで休憩したとき、母は持参したパンにチーズと薄切りのトマトを",
+        "reading": "あさのハイキングできゅうけいしたとき、はははじさんしたパンにチーズとうすぎりのトマトを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "挟んだ",
+        "reading": "はさんだ",
+        "verdict": "correct",
+        "explanation": "母亲把芝士和薄番茄片放进面包中间；「チーズと薄切りのトマトを」是被夹入的对象。"
+      },
+      {
+        "id": "b",
+        "text": "挟まった",
+        "reading": "はさまった",
+        "verdict": "ungrammatical",
+        "explanation": "「挟まる」描述主体自身被夹住，不能接这里表示直接对象的「チーズと薄切りのトマトを」；若说馅料夹在面包中，应为「チーズとトマトがパンに挟まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "晨间徒步休息时，母亲把芝士和薄番茄片夹进自带的面包里。",
+    "explanation": "母亲主动把馅料放到面包中间，「チーズと薄切りのトマトを」标出被夹入的对象。",
+    "hint": "观察谁把哪些馅料夹入面包，以及助词标出的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refxaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "lexicalKey": "dust-accumulates-on-unused-piano-keys",
+    "scene": "久未使用的钢琴键盘上，落着薄薄一层灰尘。",
+    "before": [
+      {
+        "text": "使われなくなった古いピアノの鍵盤に、白いほこりが薄く",
+        "reading": "つかわれなくなったふるいピアノのけんばんに、しろいほこりがうすく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "積もっていた",
+        "reading": "つもっていた",
+        "verdict": "correct",
+        "explanation": "灰尘自然落在键盘上并逐渐累积；「ほこりが」是堆积的主体。"
+      },
+      {
+        "id": "b",
+        "text": "積んでいた",
+        "reading": "つんでいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「積む」通常表示施事把物品叠放或装载；此处没有堆叠灰尘的施事，描述的是灰尘自身累积。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "久未使用的旧钢琴键盘上，积着一层薄薄的白灰。",
+    "explanation": "句子描写白灰自然积在键盘上的状态，不是有人把灰尘叠放起来。",
+    "hint": "判断灰尘是自行累积，还是施事把物品一层层叠起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refxaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "lexicalKey": "movers-load-boxes-onto-truck",
+    "scene": "搬家当天，工作人员把纸箱逐个装上卡车货台。",
+    "before": [
+      {
+        "text": "引っ越しの日、作業員は段ボール箱をトラックの荷台に順番に",
+        "reading": "ひっこしのひ、さぎょういんはダンボールばこをトラックのにだいにじゅんばんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "積んだ",
+        "reading": "つんだ",
+        "verdict": "correct",
+        "explanation": "工作人员主动把纸箱装上卡车货台；「段ボール箱を」标记了被装载的物品。"
+      },
+      {
+        "id": "b",
+        "text": "積もった",
+        "reading": "つもった",
+        "verdict": "ungrammatical",
+        "explanation": "「積もる」描述物品自身积聚，不能接这里作为直接对象的「段ボール箱を」；若说纸箱积在货台上，应以「段ボール箱が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬家当天，工作人员把纸箱逐个装上卡车货台。",
+    "explanation": "工作人员把纸箱装载到货台上，「段ボール箱を」是动作的直接对象。",
+    "hint": "留意谁在装载，以及哪样物品被放上货台。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refxaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "lexicalKey": "employee-grievances-accumulate-over-unexplained-policy",
+    "scene": "新评价制度迟迟没有说明，职场中员工的不满逐渐累积。",
+    "before": [
+      {
+        "text": "新しい評価制度の説明がないまま数か月が過ぎ、職場には社員の不平が",
+        "reading": "あたらしいひょうかせいどのせつめいがないまますうかげつがすぎ、しょくばにはしゃいんのふへいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "積もっていた",
+        "reading": "つもっていた",
+        "verdict": "correct",
+        "explanation": "制度说明长期缺失，员工的不平逐渐积聚；「不平が」是增加累积的主体。"
+      },
+      {
+        "id": "b",
+        "text": "積んでいた",
+        "reading": "つんでいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「積む」表示施事把东西堆放、装载或积累经验；此处写的是员工的不平逐渐增加，没有堆放对象的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "新评价制度一直没有说明，几个月过去，员工的不满在职场逐渐累积起来。",
+    "explanation": "员工的不平随时间不断增加，「不平が」是累积的内容主体。",
+    "hint": "看句子写的是不满逐渐增多，还是有人把东西层层堆起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

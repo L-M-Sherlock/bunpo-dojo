@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_03",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-01.draft.json",
+  "at": "2026-10-13T17:49:08.787Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refaea.04",
+      "hash": "aec1ffad25c1162ac82e6ac108a3a6fb0d90ecfe856e1068cde91ee40446c0f7",
+      "fullSentences": [
+        "小林さんは秋に社内の昇格試験を受けます。"
+      ]
+    },
+    {
+      "id": "verb.refala.01",
+      "hash": "60e5e5776743bc94e64483ca44a9f6148671148bc5babe243fcd80addeebfb6f",
+      "fullSentences": [
+        "突然の質問を聞くと、彼の表情が一瞬固まりました。"
+      ]
+    },
+    {
+      "id": "verb.refala.02",
+      "hash": "6637b6d0c89e4baff4b64e9f5064b2f7a4f194bdb3fce95c932fdccb31fe7bd9",
+      "fullSentences": [
+        "作業員が紫外線を当て、透明な樹脂を固めました。"
+      ]
+    },
+    {
+      "id": "verb.refala.03",
+      "hash": "3b82fb6ef29a1256ca74ce9a5b83f01de834ded6a306d73bca895583d687929a",
+      "fullSentences": [
+        "議論を重ねた結果、来年度の方針が固まりました。"
+      ]
+    },
+    {
+      "id": "verb.refala.04",
+      "hash": "6e8ad160f854ba966348f2078774adeb7141a513f8e714982352c6623c07c85a",
+      "fullSentences": [
+        "設計チームは現場の寸法を確認し、橋の補強計画を固めました。"
+      ]
+    },
+    {
+      "id": "verb.refaua.01",
+      "hash": "33398cc783d3c6ca979d5315d64dc39302322330467219ab9b28effa2d90d8e5",
+      "fullSentences": [
+        "閉館を知らせる放送が終わると、閲覧室の話し声が静まりました。"
+      ]
+    },
+    {
+      "id": "verb.refaua.02",
+      "hash": "7108da7ace50f3f908b5e7dbdd42d3510789b8424b70838d79eb8eeece70be3a",
+      "fullSentences": [
+        "議長は呼びかけを続け、会場のざわめきを静めました。"
+      ]
+    },
+    {
+      "id": "verb.refaua.03",
+      "hash": "0e84fa9496b71732e50559968bbe9ba98e15c18afe1170c8f17d8ff9c27bd198",
+      "fullSentences": [
+        "台風が通り過ぎると、港の波が静まりました。"
+      ]
+    },
+    {
+      "id": "verb.refaua.04",
+      "hash": "7759680d2bf22d44d7bf4f2270e903210817b5d9bf332ec032896d6fea6ef104",
+      "fullSentences": [
+        "先生は緊張している生徒に深呼吸を促し、その心を静めました。"
+      ]
+    },
+    {
+      "id": "verb.refaaaa.01",
+      "hash": "b2340edd88c6c47964f1a15376f8a3b659c0b8544379dd79933c1460ff2cb32b",
+      "fullSentences": [
+        "選手の入場が近づき、観客の期待が高まりました。"
+      ]
+    },
+    {
+      "id": "verb.refaaaa.02",
+      "hash": "ca2892b4e464e4f66e9cdd60f44e0bead9d8cfb4411a9648bf1f9266f863e1be",
+      "fullSentences": [
+        "コーチは練習前にその日の目標を共有し、選手の集中力を高めました。"
+      ]
+    },
+    {
+      "id": "verb.refaaaa.03",
+      "hash": "4ebbdd2e9a9cfd24f2d639faca9acef9241ea2873a3e946072143af6c299508d",
+      "fullSentences": [
+        "新しい展示が新聞で紹介され、地域の人々の関心が高まっています。"
+      ]
+    },
+    {
+      "id": "verb.refaaaa.04",
+      "hash": "d56a9183e9e08d34f0eb30697e8e41688b8836599c79272f0c8494a14e3d5de0",
+      "fullSentences": [
+        "研究チームは測定手順を見直し、測定の精度を高めました。"
+      ]
+    },
+    {
+      "id": "verb.refaaga.01",
+      "hash": "0a74c293c0d3bbc1186d1bff44158179551ab942383e4d30e02e8ce44abfa3d0",
+      "fullSentences": [
+        "午後から雨脚が強まったため、学校の運動会は一時中断となりました。"
+      ]
+    },
+    {
+      "id": "verb.refaaga.02",
+      "hash": "1b0594c785e0b51a195980973b34a9b746bea0b0ec4f7f4eafbcd6b81d618524",
+      "fullSentences": [
+        "港の管理者は台風接近に備え、立入禁止区域の監視を強めました。"
+      ]
+    },
+    {
+      "id": "verb.refaaga.03",
+      "hash": "a50e061053babb8a4e4d916f9a464618396ad209de92fac20ad8deccd2c4b990",
+      "fullSentences": [
+        "物価の上昇が続き、生活費への不安が強まっています。"
+      ]
+    }
+  ]
+}

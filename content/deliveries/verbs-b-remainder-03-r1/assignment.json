@@ -1,0 +1,19 @@
+[
+  {
+    "id": "verb.stop.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "transitive"
+  }
+]

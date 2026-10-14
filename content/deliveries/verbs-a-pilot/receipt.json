@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/pilot.draft.json",
+  "at": "2026-10-13T11:11:04.824Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.open.01",
+      "hash": "ae530d9a1e821932dc4346e41aaa3f294855af0b8c57ba4c44b58a3484a1905b",
+      "fullSentences": [
+        "人が近づくと、駅の自動ドアが開きます。"
+      ]
+    },
+    {
+      "id": "verb.open.02",
+      "hash": "3e3c4cd0679ecf3ada147d3f497040b40e75671829167e2b039fca4d43df3e66",
+      "fullSentences": [
+        "休業明けの今日は、店が九時に開きます。"
+      ]
+    },
+    {
+      "id": "verb.open.03",
+      "hash": "dba221ea76d24372a637053ed2b6090a5d5e799712a03a1b3dbead4dcee8d6a9",
+      "fullSentences": [
+        "店員は換気のため、厨房の窓を開けました。"
+      ]
+    }
+  ]
+}

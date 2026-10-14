@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refbsa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "lexicalKey": "white-flower-hair-ornament",
+    "scene": "成人礼前，美发师把白色花饰别在女儿头发上。",
+    "before": [
+      {
+        "text": "美容師は、成人式に出る娘の髪に白い花飾りを",
+        "reading": "びようしは、せいじんしきにでるむすめのかみにしろいはなかざりを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "付けた",
+        "reading": "つけた",
+        "verdict": "correct",
+        "explanation": "美容師把白色花饰固定在女儿头发上，花飾りを是附加到髪上的对象。"
+      },
+      {
+        "id": "b",
+        "text": "付いた",
+        "reading": "ついた",
+        "verdict": "ungrammatical",
+        "explanation": "付く描述东西自行附着，不能接本句以「を」标出的白色花饰作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "美容师把白色花饰别在参加成人礼的女儿头发上。",
+    "explanation": "付ける（つける）表示施事把花饰附加到头发上。",
+    "hint": "判断花饰是自行附着，还是美容师主动把它固定到头发上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "lexicalKey": "snow-load-breaks-cedar-twig",
+    "scene": "雪压之下，杉树小枝从中段折断，落在斜坡上。",
+    "before": [
+      {
+        "text": "雪の重みで、杉の小枝が途中から",
+        "reading": "ゆきのおもみで、すぎのこえだがとちゅうから"
+      }
+    ],
+    "after": [
+      {
+        "text": "斜面に落ちた。",
+        "reading": "しゃめんにおちた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "折れて",
+        "reading": "おれて",
+        "verdict": "correct",
+        "explanation": "杉の小枝が是受雪重压而断裂的主体，之后落到斜坡上。"
+      },
+      {
+        "id": "b",
+        "text": "折って",
+        "reading": "おって",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词主动义理解，小枝会成为折断别物的施事；这里说的是枝条自身断开并落下。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "杉树小枝受雪重压，从中段折断后落在斜坡上。",
+    "explanation": "折れる（おれる）描述枝条自身断裂；雪的重量是原因。",
+    "hint": "看句中发生断裂的是枝条本身，还是枝条在折断别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "lexicalKey": "curator-handles-signed-original-carefully",
+    "scene": "馆员为保护签名原件，查阅时小心处理，没有折页角。",
+    "before": [
+      {
+        "text": "学芸員は、署名入りの原本を傷めないよう、閲覧中はページの角を",
+        "reading": "がくげいいんは、しょめいいりのげんぽんをいためないよう、えつらんちゅうはページのかどを"
+      }
+    ],
+    "after": [
+      {
+        "text": "扱った。",
+        "reading": "あつかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "折らずに",
+        "reading": "おらずに",
+        "verdict": "correct",
+        "explanation": "馆员为保护原件，主动避免把页角折起来；ページの角を是被避免折叠的对象。"
+      },
+      {
+        "id": "b",
+        "text": "折れずに",
+        "reading": "おれずに",
+        "verdict": "meaning-mismatch",
+        "explanation": "按折る的可能否定理解，会表示无法折页角；本场景说的是馆员有意不折，以免损坏原件。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "馆员为免损坏签名原件，查阅期间没有折页角。",
+    "explanation": "折る以馆员为施事、页角为对象，否定形式表达他有意避免折叠。",
+    "hint": "区分有意避免折页角和没有能力折页角这两种情况。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "lexicalKey": "typhoon-breaks-warehouse-gutter",
+    "scene": "台风过后，仓库檐沟从根部断裂，垂挂在檐边。",
+    "before": [
+      {
+        "text": "台風が通り過ぎたあと、倉庫の雨どいが根元から",
+        "reading": "たいふうがとおりすぎたあと、そうこのあまどいがねもとから"
+      }
+    ],
+    "after": [
+      {
+        "text": "軒先に垂れ下がっていた。",
+        "reading": "のきさきにたれさがっていた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "折れて",
+        "reading": "おれて",
+        "verdict": "correct",
+        "explanation": "倉庫の雨どいが是折断后垂下的主体，台风过境给出发生变化的背景。"
+      },
+      {
+        "id": "b",
+        "text": "折って",
+        "reading": "おって",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词主动义理解，檐沟会成为折断别物的施事；句中描述的是檐沟自身从根部断开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "台风过后，仓库的檐沟从根部折断，垂挂在檐边。",
+    "explanation": "折れる表示檐沟自身断裂，垂下是断裂后的状态。",
+    "hint": "看句子描写的是檐沟自身断裂，还是它主动折断别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "lexicalKey": "manual-instructs-cardboard-fold",
+    "scene": "说明书要求沿标记线把厚纸对折。",
+    "before": [
+      {
+        "text": "説明書には、「厚紙を印の線に沿って二つに",
+        "reading": "せつめいしょには、「あつがみをしるしのせんにそってふたつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "」と書いてある。",
+        "reading": "」とかいてある。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "折ってください",
+        "reading": "おってください",
+        "verdict": "correct",
+        "explanation": "说明书要求读者主动把厚纸对折，厚紙を是折叠对象。"
+      },
+      {
+        "id": "b",
+        "text": "折れてください",
+        "reading": "おれてください",
+        "verdict": "meaning-mismatch",
+        "explanation": "按可能形理解会成为“请能够对折”的能力请求；说明书这里要求实际执行折纸步骤。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "说明书上写着：“请沿标记线把厚纸对折。”",
+    "explanation": "折る是把厚纸折叠的动作，符合说明书中的操作指令。",
+    "hint": "判断说明书是在指示实际折纸，还是在谈能否折纸。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "lexicalKey": "wind-peels-sign-protection-sheet",
+    "scene": "大风把路牌保护膜从边缘掀起，吹落到人行道上。",
+    "before": [
+      {
+        "text": "強風にさらされた看板の保護シートが端から",
+        "reading": "きょうふうにさらされたかんばんのほごシートがはしから"
+      }
+    ],
+    "after": [
+      {
+        "text": "、舗道に飛ばされた。",
+        "reading": "、ほどうにとばされた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "取れて",
+        "reading": "とれて",
+        "verdict": "correct",
+        "explanation": "保護シートが是从路牌脱落的主体，之后被风吹到人行道。"
+      },
+      {
+        "id": "b",
+        "text": "取って",
+        "reading": "とって",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词主动义理解，保护膜会成为拿取别物的施事；这里是保护膜自身脱落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经强风吹袭的路牌保护膜从边缘脱落，被吹到人行道上。",
+    "explanation": "取れる（とれる）可表示贴附物从原处脱离。",
+    "hint": "观察发生脱离的是保护膜本身，还是有人拿走了另一件东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "lexicalKey": "orchard-manager-leaves-green-persimmons",
+    "scene": "果园管理员把未成熟的柿子留在树上，决定今天不采摘。",
+    "before": [
+      {
+        "text": "果樹園の管理人は、まだ青い柿の実を木に残すため、今日は",
+        "reading": "かじゅえんのかんりにんは、まだあおいかきのみをきにのこすため、きょうは"
+      }
+    ],
+    "after": [
+      {
+        "text": "ことにした。",
+        "reading": "ことにした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "取らない",
+        "reading": "とらない",
+        "verdict": "correct",
+        "explanation": "管理员主动决定把青柿留在树上，柿の実を是本来可以采摘的对象。"
+      },
+      {
+        "id": "b",
+        "text": "取れない",
+        "reading": "とれない",
+        "verdict": "meaning-mismatch",
+        "explanation": "取れる的可能否定表示不能采摘；本场景说的是管理员决定暂不采摘，并非无法采摘。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "果园管理员为了把尚未成熟的柿子留在树上，决定今天不采摘。",
+    "explanation": "取る表示管理员主动采摘果实；否定形在这里表达有意不采。",
+    "hint": "区分主动决定不采摘与因为做不到而无法采摘。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "lexicalKey": "doorknob-comes-off-at-base",
+    "scene": "住户用力拉门后，玄关门把手从根部脱落。",
+    "before": [
+      {
+        "text": "ドアを強く引いたら、玄関のドアノブが根元から",
+        "reading": "ドアをつよくひいたら、げんかんのドアノブがねもとから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "取れてしまった",
+        "reading": "とれてしまった",
+        "verdict": "correct",
+        "explanation": "ドアノブが是从根部脱落的部件，强拉门是发生脱落的背景。"
+      },
+      {
+        "id": "b",
+        "text": "取ってしまった",
+        "reading": "とってしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，把手会成为拿走其他物件的施事；这里是把手自身脱落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "用力拉门后，玄关的门把手从根部脱落了。",
+    "explanation": "取れる描述门把手从原处脱开，しまった带有意外发生的语气。",
+    "hint": "看句中是门把手自身脱落，还是有人拿走了别的物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "lexicalKey": "mechanic-saves-last-emergency-battery",
+    "scene": "整备员把最后一节电池留作应急，没有取走，而是打开了另一只箱子。",
+    "before": [
+      {
+        "text": "整備士は、非常用に残す最後の電池を棚から",
+        "reading": "せいびしは、ひじょうようにのこすさいごのでんちをたなから"
+      }
+    ],
+    "after": [
+      {
+        "text": "、別の箱を開けた。",
+        "reading": "、べつのはこをあけた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "取らず",
+        "reading": "とらず",
+        "verdict": "correct",
+        "explanation": "整備士有意把最后一节电池留作应急，没有从架上取走。"
+      },
+      {
+        "id": "b",
+        "text": "取れず",
+        "reading": "とれず",
+        "verdict": "meaning-mismatch",
+        "explanation": "按可能否定理解，会表示整备士无法取下电池；本句说的是他有意保留电池，改开另一只箱子。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "整备人员没有从架上取走留作应急的最后一节电池，而是打开了另一只箱子。",
+    "explanation": "取らず是施事有意不取，后句说明他转而打开了别的箱子。",
+    "hint": "判断电池是无法取下，还是整备员有意把它留作备用。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "lexicalKey": "round-rolls-brown-in-oven",
+    "scene": "烤炉中，圆面包表面逐渐变成金黄。",
+    "before": [
+      {
+        "text": "オーブンの中で、丸パンの表面がきつね色に",
+        "reading": "オーブンのなかで、まるパンのひょうめんがきつねいろに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焼けてきた",
+        "reading": "やけてきた",
+        "verdict": "correct",
+        "explanation": "表面が自身呈现出金黄色，描述烘烤过程中颜色逐渐变化。"
+      },
+      {
+        "id": "b",
+        "text": "焼いてきた",
+        "reading": "やいてきた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，面包表面会成为烤制别物的施事；句中是面包表面自身变色。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烤箱里的圆面包表面逐渐烤成金黄色。",
+    "explanation": "焼ける描述面包表面受热后呈现金黄色的变化。",
+    "hint": "看句子说的是面包表面发生变化，还是表面在烤制别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "lexicalKey": "chef-stews-mackerel-by-request",
+    "scene": "应客人希望，料理长没有烤鲭鱼，而改用炖煮方式。",
+    "before": [
+      {
+        "text": "料理長は、客の希望に合わせてサバを",
+        "reading": "りょうりちょうは、きゃくのきぼうにあわせてサバを"
+      }
+    ],
+    "after": [
+      {
+        "text": "煮付けにした。",
+        "reading": "につけにした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焼かずに",
+        "reading": "やかずに",
+        "verdict": "correct",
+        "explanation": "料理长应客人要求，没有烤鲭鱼，而是把它做成煮付料理。"
+      },
+      {
+        "id": "b",
+        "text": "焼けずに",
+        "reading": "やけずに",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词可能否定理解，会表示无法烤鲭鱼；本句说的是料理长选择了另一种烹调方式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "料理长应客人要求，没有烤鲭鱼，而是改用酱煮的方式处理。",
+    "explanation": "焼く表示主动烤制；本句否定烤制这一做法，改用煮付け。",
+    "hint": "区分料理长主动选择不烤，与料理长无法烤制。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "lexicalKey": "sunset-burns-western-sky-red",
+    "scene": "日落时，夕阳下的西边天空通红。",
+    "before": [
+      {
+        "text": "夕日を受けて、西の空が真っ赤に",
+        "reading": "ゆうひをうけて、にしのそらがまっかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焼けていた",
+        "reading": "やけていた",
+        "verdict": "correct",
+        "explanation": "西の空が是在夕阳映照下呈红色的主体，表示天空自身变红。"
+      },
+      {
+        "id": "b",
+        "text": "焼いていた",
+        "reading": "やいていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，西边的天空会成为烤制别物的施事；这里描写的是天空受夕阳映红。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夕阳映照下，西边的天空烧成了一片通红。",
+    "explanation": "焼ける也可形容天空受日光映照而变红。",
+    "hint": "看句中变红的是西边的天空本身，还是天空正在烤制别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcla.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "lexicalKey": "recipe-instructs-grilling-mackerel",
+    "scene": "食谱要求预热烤箱，再从鱼皮一面开始充分烤熟鲭鱼。",
+    "before": [
+      {
+        "text": "説明書には、「オーブンを予熱し、サバを皮目から十分に",
+        "reading": "せつめいしょには、「オーブンをよねつし、サバをかわめからじゅうぶんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "」と書いてある。",
+        "reading": "」とかいてある。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焼いてください",
+        "reading": "やいてください",
+        "verdict": "correct",
+        "explanation": "说明书指示读者主动烤鲭鱼，サバを是烹烤对象。"
+      },
+      {
+        "id": "b",
+        "text": "焼けてください",
+        "reading": "やけてください",
+        "verdict": "meaning-mismatch",
+        "explanation": "按可能形理解会成为要求“请能够烤制”；说明书是在指示实际烹饪步骤。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "说明书上写着：“请预热烤箱，再从鱼皮一面开始把鲭鱼充分烤熟。”",
+    "explanation": "焼く是说明书要求执行的烹饪动作；焼ける的可能义不构成这条操作指令。",
+    "hint": "辨别食谱是在指示实际烤鱼，还是在谈能否烤鱼。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "lexicalKey": "miso-soup-cools-during-conversation",
+    "scene": "谈话期间，桌上的味噌汤凉了。",
+    "before": [
+      {
+        "text": "卓上に置いた味噌汁が、話し込んでいる間に",
+        "reading": "たくじょうにおいたみそしるが、はなしこんでいるあいだに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷めてしまった",
+        "reading": "さめてしまった",
+        "verdict": "correct",
+        "explanation": "味噌汁が是温度自然下降的主体，谈话期间汤凉了。"
+      },
+      {
+        "id": "b",
+        "text": "冷ましてしまった",
+        "reading": "さましてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，味噌汤会成为给别物降温的施事；本句说的是汤自身凉下来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "桌上的味噌汤在交谈期间凉了。",
+    "explanation": "冷める（さめる）表示热汤的温度自然下降。",
+    "hint": "看句中是汤自身降温，还是有人用汤给别的东西降温。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "lexicalKey": "mother-cools-fresh-egg-roll",
+    "scene": "家长把刚煎好的玉子烧放在盘子里冷却，再装进便当盒。",
+    "before": [
+      {
+        "text": "母親は、焼きたての卵焼きを皿に置いて",
+        "reading": "ははおやは、やきたてのたまごやきをさらにおいて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷ました",
+        "reading": "さました",
+        "verdict": "correct",
+        "explanation": "母親主动让刚煎好的玉子烧降温，卵焼きを是被冷却的对象。"
+      },
+      {
+        "id": "b",
+        "text": "冷めた",
+        "reading": "さめた",
+        "verdict": "ungrammatical",
+        "explanation": "冷める是不带直接宾语的自动词，不能接本句以「を」标出的玉子烧。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲把刚煎好的玉子烧放在盘子里冷却。",
+    "explanation": "冷ます（さます）以母亲为施事、以玉子烧为对象，表示主动使它降温。",
+    "hint": "找出主动让食物降温的人，以及被冷却的食物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "lexicalKey": "bathwater-cools-before-bath",
+    "scene": "等候入浴时，重新烧热的浴缸水已经完全凉了。",
+    "before": [
+      {
+        "text": "沸かし直した風呂の湯が、入浴を待つ間にすっかり",
+        "reading": "わかしなおしたふろのゆが、にゅうよくをまつあいだにすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷めていた",
+        "reading": "さめていた",
+        "verdict": "correct",
+        "explanation": "風呂の湯が是等待期间自然降温的主体，已经完全凉了。"
+      },
+      {
+        "id": "b",
+        "text": "冷ましていた",
+        "reading": "さましていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，浴缸水会成为正在给别物降温的施事；此处是浴缸水自身变凉。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "重新烧热的浴缸水在等待入浴期间已经完全凉了。",
+    "explanation": "冷める描述热水自身的温度下降，すっかり强调已经完全凉下来。",
+    "hint": "关注浴缸水自身是否降温，以及温度变化发生的时间段。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

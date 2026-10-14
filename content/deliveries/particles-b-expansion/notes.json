@@ -1,0 +1,349 @@
+[
+  {
+    "id": "particle.path.04",
+    "fullCorrectSentences": [
+      "駅の西口から東口へは、雨の日でも商店街を通り抜けるのが近道だ。"
+    ],
+    "sceneRationale": "场景明确问从车站西口到东口应穿过哪一段路线，商店街是被穿行的空间。",
+    "otherReadings": "「で」可以表示商店街内某项活动发生的地点；这不同于把商店街标作西口到东口穿行路线的「を」。这里按路线关系作答。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出西口到东口之间穿行的商店街路线",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "表示活动地点，但不标穿过商店街的路线",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：駅（えき）、西口（にしぐち）、東口（ひがしぐち）、雨（あめ）、商店街（しょうてんがい）、通り抜ける（とおりぬける）。标点、分段及「を」「で」读音均核对正确。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.05",
+    "fullCorrectSentences": [
+      "雨が強まる前に薬を届けるため、配達員は小さな川を渡って対岸の診療所へ向かった。"
+    ],
+    "sceneRationale": "配送员为及时送药，从小河一侧前往对岸诊疗所；小河是实际横越的水域。",
+    "otherReadings": "「で」可以标河边等待等活动地点；如果只替换本句的渡河路径标记，就不能明确表示小河是被横越的水域。本题按明确渡河这一关系选择「を」，不把地点「で」的一般用法判为错误。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出从此岸到对岸横越的小河",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "可标河边活动地点，但不标明被横越的水域",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：雨（あめ）、強まる（つよまる）、薬（くすり）、届ける（とどける）、配達員（はいたついん）、小さな川（ちいさなかわ）、渡って（わたって）、対岸（たいがん）、診療所（しんりょうじょ）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.06",
+    "fullCorrectSentences": [
+      "日の出前に、二人は北側の登山道を登り切って山小屋に着いた。"
+    ],
+    "sceneRationale": "两名登山者在日出前沿北侧登山道登到山小屋；场景要求说明实际采用的上山路线。",
+    "otherReadings": "「北側の登山道で登る」可把登山道读为登山活动发生的地点；它不同于把登山道标作登到山小屋的路径。这里聚焦实际登攀线路。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出登到山小屋所走的北侧登山路线",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "将登山道作为登山活动地点，不突出路线角色",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：日の出（ひので）、二人（ふたり）、北側（きたがわ）、登山道（とざんどう）、登り切って（のぼりきって）、山小屋（やまごや）、着いた（ついた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.07",
+    "fullCorrectSentences": [
+      "作業員は部品を積んだ台車を押し、倉庫の間を進んで検査棟へ運んだ。"
+    ],
+    "sceneRationale": "作业员推动装零件的手推车，经仓库之间的空隙前往检验栋；空隙是推车的行进路线。",
+    "otherReadings": "「倉庫の間で進む」可表示移动发生在仓库之间；本题重点是手推车沿夹道前往检验栋的行进空间，而非只说明地点。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出手推车经过仓库间并前往检验栋的路线",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "标出移动发生地点，不承担此处所需的经过路线关系",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：作業員（さぎょういん）、部品（ぶひん）、積んだ（つんだ）、台車（だいしゃ）、押し（おし）、倉庫（そうこ）、間（あいだ）、進んで（すすんで）、検査棟（けんさとう）、運んだ（はこんだ）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.08",
+    "fullCorrectSentences": [
+      "市民マラソンでは、先頭の選手が市場前から海岸通りを走り抜け、灯台の折り返し地点へ向かった。"
+    ],
+    "sceneRationale": "比赛赛程从市场前沿海岸大道延伸至灯塔折返点，句子叙述领先选手沿指定赛段奔跑。",
+    "otherReadings": "「海岸通りで走る」是自然的活动地点读法，可表示跑步发生在海岸大道；它没有以路径格标记说明选手从市场前沿该街跑过。赛道路线用「を」表示。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出跑者穿过的海岸大道赛段",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "标出跑步活动发生地点，不标出所跑过的赛道",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：市民（しみん）、先頭（せんとう）、選手（せんしゅ）、市場前（いちばまえ）、海岸通り（かいがんどおり）、走り抜け（はしりぬけ）、灯台（とうだい）、折り返し地点（おりかえしちてん）、向かった（むかった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.09",
+    "fullCorrectSentences": [
+      "観光案内板の赤い線に従い、参加者は川沿いの遊歩道を歩いて旧港の展望台へ向かった。"
+    ],
+    "sceneRationale": "红线明确标出沿河步道通往旧港观景台的步行路线，参加者按该线前进。",
+    "otherReadings": "「遊歩道で歩く」能表示步行发生地点；红线指定的是通往旧港观景台的路线，因此本题需要将步道标为行进路径。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出红线指定的沿河步行路线",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "将步道作为步行活动的地点，不标出红线指示的经过路线",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：観光案内板（かんこうあんないばん）、赤い線（あかいせん）、従い（したがい）、参加者（さんかしゃ）、川沿い（かわぞい）、遊歩道（ゆうほどう）、歩いて（あるいて）、旧港（きゅうこう）、展望台（てんぼうだい）、向かった（むかった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.path.10",
+    "fullCorrectSentences": [
+      "霧が出る前に、巡回員は森を抜け、谷の向こうの避難小屋に着いた。"
+    ],
+    "sceneRationale": "巡逻员须在起雾前穿越森林，到达山谷另一侧的避难小屋；森林是连接起点与目的地的行进空间。",
+    "otherReadings": "「で」可表示活动发生地点；但句子中的「森を抜け」明确表示穿过森林到达另一侧，本题强调的是被穿过的路线，不是某活动所在地点。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "meaning": "标出巡逻员穿过森林到达另一侧避难小屋的路线",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "meaning": "标出活动发生的地点，不将森林标为被穿过的路线",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：霧（きり）、出る（でる）、前（まえ）、巡回員（じゅんかいいん）、森（もり）、抜け（ぬけ）、谷（たに）、向こう（むこう）、避難小屋（ひなんごや）、着いた（ついた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.01",
+    "fullCorrectSentences": [
+      "閉館前、司書は新人のアルバイトに職員証を渡した。"
+    ],
+    "sceneRationale": "闭馆前，司书把员工证交给新兼职生；兼职生是物品的接收者。",
+    "otherReadings": "「新人のアルバイトと」と会把兼职生读成共同递交者，接收者未明示；此场景中兼职生接收员工证。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出员工证的接收者",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "meaning": "表示与兼职生一起递交员工证，接收者未明示",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：閉館前（へいかんまえ）、司書（ししょ）、新人（しんじん）、アルバイト、職員証（しょくいんしょう）、渡した（わたした）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.02",
+    "fullCorrectSentences": [
+      "本部の担当者は、更新版の地図を各支所に送った。",
+      "本部の担当者は、更新版の地図を各支所へ送った。"
+    ],
+    "sceneRationale": "发件人位于总部，各支所是更新版地图的收件单位。",
+    "otherReadings": "「に」标明各支所为接收者和到达点；「へ」标明寄送方向，两者在这个发送场景中都可用，所以两个选项均正确。「で」会把各支所解释为发送发生地点，与总部向支所寄送的情境不同。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标明地图的接收单位和寄送到达点",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "meaning": "标明地图寄送的方向／目的地",
+        "verdict": "correct"
+      },
+      {
+        "id": "c",
+        "text": "で",
+        "reading": "で",
+        "meaning": "标示发送动作发生地点，而非各支所作为收件方",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "两种正确完整句分别核读：「本部の担当者は、更新版の地図を各支所に送った。」「本部の担当者は、更新版の地図を各支所へ送った。」本部（ほんぶ）、担当者（たんとうしゃ）、更新版（こうしんばん）、地図（ちず）、各支所（かくししょ）、送った（おくった）；选项「に」「へ」「で」读音正确。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.03",
+    "fullCorrectSentences": [
+      "研修担当者は、新人に業務用端末の操作方法を教えた。"
+    ],
+    "sceneRationale": "培训员传授的是业务终端的操作方法，新员工是接收这项知识的人。",
+    "otherReadings": "「新人を教える」单独使用时可表示培训新人本人；但把「に」直接换成「を」会让新人和操作方法同时带「を」，在当前句型中不成立。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出操作方法的学习者／信息接收者",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "meaning": "与后文的「操作方法を」造成双重宾语；「新人を教える」单独是另一结构",
+        "verdict": "ungrammatical"
+      }
+    ],
+    "readingCheck": "逐句核读：研修担当者（けんしゅうたんとうしゃ）、新人（しんじん）、業務用端末（ぎょうむようたんまつ）、操作方法（そうさほうほう）、教えた（おしえた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.04",
+    "fullCorrectSentences": [
+      "転入者は市の窓口で、保育園の申請手順について担当職員に相談した。",
+      "転入者は市の窓口で、保育園の申請手順について担当職員と相談した。"
+    ],
+    "sceneRationale": "新迁入居民就申请手续向负责人员寻求建议；这既可表述为向该人员咨询，也可表述为与该人员商量。",
+    "otherReadings": "「に」把负责人员表为请教对象；「と」把他表为共同商量的对话伙伴。居民就手续咨询负责人员时，两种表达都自然，故答案集合保留两者。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出向其请教的负责人员",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "meaning": "标出共同讨论申请手续的对话伙伴",
+        "verdict": "correct"
+      }
+    ],
+    "readingCheck": "两种正确完整句分别核读：「転入者は市の窓口で、保育園の申請手順について担当職員に相談した。」「転入者は市の窓口で、保育園の申請手順について担当職員と相談した。」転入者（てんにゅうしゃ）、窓口（まどぐち）、保育園（ほいくえん）、申請手順（しんせいてじゅん）、担当職員（たんとうしょくいん）、相談した（そうだんした）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.05",
+    "fullCorrectSentences": [
+      "学芸員は館長に修復前後の写真を見せた。"
+    ],
+    "sceneRationale": "馆长是策展员展示修复前后照片的观看者，不是与策展员共同展示照片的人。",
+    "otherReadings": "「館長と」とすると馆长是共同展示照片的人，接收照片的第三者没有明示；本场景中馆长本人是照片观看者。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出照片展示对象／观看者",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "meaning": "表示与馆长共同展示照片，而非把馆长标为接收者",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：学芸員（がくげいいん）、館長（かんちょう）、修復前後（しゅうふくぜんご）、写真（しゃしん）、見せた（みせた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.06",
+    "fullCorrectSentences": [
+      "夜勤の看護師は、患者の呼吸状態が急に悪化したことを当直医に伝えた。"
+    ],
+    "sceneRationale": "夜班护士将患者呼吸状态恶化的信息报告给值班医生；医生是信息的接收者。",
+    "otherReadings": "「当直医と」とすると护士与医生共同向某个未说明的人传达信息；本场景里医生本人接收病情报告。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出病情信息的接收者",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "meaning": "表示与医生共同传达信息，未标明报告接收者",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：夜勤（やきん）、看護師（かんごし）、患者（かんじゃ）、呼吸状態（こきゅうじょうたい）、急に（きゅうに）、悪化した（あっかした）、当直医（とうちょくい）、伝えた（つたえた）。",
+    "unresolvedQuestions": []
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_4b1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-04b-1.draft.json",
+  "at": "2026-10-14T02:08:27.468Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refeca.04",
+      "hash": "b52de671401fabfb198152bbc0d1a82e41aecdda3c7f682473ad6da12f82d07b",
+      "fullSentences": [
+        "調査員は古い橋の損傷を記録に残すため、周辺住民への聞き取り調査に丸二週間を費やした。"
+      ]
+    },
+    {
+      "id": "verb.reffba.01",
+      "hash": "3d839464fc68e003421cdc1e9127e81e45f87894f9bbc32aa96ffdb89cb6be8c",
+      "fullSentences": [
+        "雨が上がって日差しが戻ると、石垣の隙間に生えた雑草が一気に伸びた。"
+      ]
+    },
+    {
+      "id": "verb.reffba.02",
+      "hash": "981822fc5bb6b85be50112f57e7f4bffd83c9a0f8e7ec323742f9afc5b3c737e",
+      "fullSentences": [
+        "昼寝から目を覚ました猫は、窓辺で前足を大きく伸ばした。"
+      ]
+    },
+    {
+      "id": "verb.reffba.03",
+      "hash": "320b56c698a743cb5546bd26420c5b1138306f390acf534cf492a0139db9583d",
+      "fullSentences": [
+        "単語テストの復習を毎週続けたクラスでは、英語の平均点が前月より十点伸びた。"
+      ]
+    }
+  ]
+}

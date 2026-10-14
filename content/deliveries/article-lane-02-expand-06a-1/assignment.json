@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refrfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "pair": {
+      "id": "verb.refrfa",
+      "intransitive": "灯る",
+      "intransitiveReading": "ともる",
+      "transitive": "灯す",
+      "transitiveReading": "ともす",
+      "meaning": "辨析「灯る／灯す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "pair": {
+      "id": "verb.refsda",
+      "intransitive": "散る",
+      "intransitiveReading": "ちる",
+      "transitive": "散らす",
+      "transitiveReading": "ちらす",
+      "meaning": "辨析「散る／散らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "pair": {
+      "id": "verb.refsda",
+      "intransitive": "散る",
+      "intransitiveReading": "ちる",
+      "transitive": "散らす",
+      "transitiveReading": "ちらす",
+      "meaning": "辨析「散る／散らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "pair": {
+      "id": "verb.refsda",
+      "intransitive": "散る",
+      "intransitiveReading": "ちる",
+      "transitive": "散らす",
+      "transitiveReading": "ちらす",
+      "meaning": "辨析「散る／散らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refdga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "pair": {
+      "id": "verb.refdga",
+      "intransitive": "慣れる",
+      "intransitiveReading": "なれる",
+      "transitive": "慣らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「慣れる／慣らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  }
+]

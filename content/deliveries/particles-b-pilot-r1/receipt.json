@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/pilot-r1.draft.json",
+  "at": "2026-10-13T11:36:21.011Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "particle.path.01",
+      "hash": "5d196312d542ba085ff1e5d9c244ff5ba9247ebc4861cf956c89918526c90d2b",
+      "fullSentences": [
+        "夜間工事で地上の入口が閉まり、駅員は地下通路を通って客を南口まで案内した。"
+      ]
+    },
+    {
+      "id": "particle.path.02",
+      "hash": "edcd86934eeab173ee0b68e6c28dc57e780d1c0a7e086696cd15e54d0e5f9811",
+      "fullSentences": [
+        "技師は工具を抱え、本土から沖の島まで海を渡った。"
+      ]
+    },
+    {
+      "id": "particle.path.03",
+      "hash": "d90d13741ab9d35420be073c3da4d8401de55a3a63d667d3890c41b821d9d791",
+      "fullSentences": [
+        "土砂崩れで旧道が塞がり、作業員は迂回路のトンネルを通り抜けて、山の反対側へ出た。"
+      ]
+    }
+  ]
+}

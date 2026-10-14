@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refaama.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "pair": {
+      "id": "verb.refaama",
+      "intransitive": "深まる",
+      "intransitiveReading": "ふかまる",
+      "transitive": "深める",
+      "transitiveReading": "ふかめる",
+      "meaning": "辨析「深まる／深める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 39
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaama.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "pair": {
+      "id": "verb.refaama",
+      "intransitive": "深まる",
+      "intransitiveReading": "ふかまる",
+      "transitive": "深める",
+      "transitiveReading": "ふかめる",
+      "meaning": "辨析「深まる／深める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 39
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "pair": {
+      "id": "verb.refbia",
+      "intransitive": "沈む",
+      "intransitiveReading": "しずむ",
+      "transitive": "沈める",
+      "transitiveReading": "しずめる",
+      "meaning": "辨析「沈む／沈める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refboa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "pair": {
+      "id": "verb.refboa",
+      "intransitive": "揃う",
+      "intransitiveReading": "そろう",
+      "transitive": "揃える",
+      "transitiveReading": "そろえる",
+      "meaning": "辨析「揃う／揃える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 15
+    },
+    "direction": "intransitive"
+  }
+]

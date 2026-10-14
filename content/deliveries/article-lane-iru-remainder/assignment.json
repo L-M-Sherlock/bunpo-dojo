@@ -1,0 +1,24 @@
+[
+  {
+    "id": "verb.iru.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.iru",
+    "familyId": "verb.iru",
+    "pair": {
+      "id": "verb.iru",
+      "intransitive": "入る",
+      "intransitiveReading": "いる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "入る读いる的惯用用法，与入れる的对象关系",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 3,
+      "exerciseType": "verb-role",
+      "usageBoundary": "自动词方向采用常用惯用表达気に入る等里的いる读法；他动词方向用正常放入，不造気に入れる，也不把文语いる泛用为普通はいる。"
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  }
+]

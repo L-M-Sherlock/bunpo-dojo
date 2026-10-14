@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refxaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "lexicalKey": "movers-load-boxes-onto-truck",
+    "scene": "搬家当天，工作人员把纸箱逐个装上卡车货台。",
+    "before": [
+      {
+        "text": "引っ越しの日、作業員は段ボール箱をトラックの荷台に順番に",
+        "reading": "ひっこしのひ、さぎょういんはだんボールばこをトラックのにだいにじゅんばんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "積んだ",
+        "reading": "つんだ",
+        "verdict": "correct",
+        "explanation": "工作人员主动把纸箱装上卡车货台；「段ボール箱を」标记了被装载的物品。"
+      },
+      {
+        "id": "b",
+        "text": "積もった",
+        "reading": "つもった",
+        "verdict": "ungrammatical",
+        "explanation": "「積もる」描述物品自身积聚，不能接这里作为直接对象的「段ボール箱を」；若说纸箱积在货台上，应以「段ボール箱が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬家当天，工作人员把纸箱逐个装上卡车货台。",
+    "explanation": "工作人员把纸箱装载到货台上，「段ボール箱を」是动作的直接对象。",
+    "hint": "留意谁在装载，以及哪样物品被放上货台。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-04b-1.draft.json",
+  "at": "2026-10-14T01:41:22.116Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refeea.04",
+      "hash": "728f21e687d0b26f0bf54daa3a3b51249883848b9685048b69cdbd4e780e6f8f",
+      "fullSentences": [
+        "夜、母親は熱のある息子の額を濡れたタオルで冷やした。"
+      ]
+    },
+    {
+      "id": "verb.refgaa.01",
+      "hash": "1eccb258e419f84cb97af25f7adcb1feb4dc8e0c6b660190ffea32b32bb9798c",
+      "fullSentences": [
+        "単独登山をしていた女性は、山頂近くのテントで眠り、夜明け前に起きた。"
+      ]
+    },
+    {
+      "id": "verb.refgaa.02",
+      "hash": "2fef67d08cf0c0043aa763f9c8ceada884261a5ac39cf13c75b1347b7f65915c",
+      "fullSentences": [
+        "ホテルの係員は、早朝の便に乗る客を電話で起こした。"
+      ]
+    },
+    {
+      "id": "verb.refgaa.03",
+      "hash": "f6d5fffc3f34464fc3e9b0b0c0a0c3edd24b1fd4849ab8b7cc40033f13452c53",
+      "fullSentences": [
+        "夜勤中、工場の監視システムに一時的な不具合が起きた。"
+      ]
+    }
+  ]
+}

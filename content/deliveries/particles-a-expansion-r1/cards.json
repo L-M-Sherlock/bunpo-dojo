@@ -1,0 +1,57 @@
+[
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.05",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "youth-baseball-tournament-at-park",
+    "scene": "少棒队家长看赛事日历，周日比赛将在运动公园举行。",
+    "before": [
+      {
+        "text": "今度の日曜日は運動公園",
+        "reading": "こんどのにちようびはうんどうこうえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "少年野球の大会があります。",
+        "reading": "しょうねんやきゅうのたいかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示移动目的地；本句报告比赛在运动公园举行，没有移动谓语。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标少年棒球赛这一活动举行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标物品或人物的存在地点；这里运动公园是比赛这一活动的举办地，用で。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "接下来的星期日，运动公园将举行少年棒球赛事。",
+    "explanation": "少年棒球赛是将在当地举行的活动，地点用で标记。",
+    "hint": "区分比赛活动的举办地点与人或物静态存在的位置。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

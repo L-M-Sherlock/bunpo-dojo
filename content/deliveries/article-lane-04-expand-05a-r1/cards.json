@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refnaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "lexicalKey": "見える/見る",
+    "scene": "剧场停电后，安全出口标识仍隐约可见",
+    "before": [
+      {
+        "text": "劇場が停電したあとも、非常口の表示だけがかすかに",
+        "reading": "げきじょうがていでんしたあとも、ひじょうぐちのひょうじだけがかすかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見た",
+        "reading": "みた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見る」表示观察者主动看某物；本句「表示だけが」中的「が」标出可见主体，标识不是观看者。"
+      },
+      {
+        "id": "b",
+        "text": "見えた",
+        "reading": "みえた",
+        "verdict": "correct",
+        "explanation": "剧场停电后出口标识仍能从暗处辨认，符合自然可见的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "剧场停电后，只有安全出口的标识还隐约可见。",
+    "explanation": "句子描述的是出口标识在停电后仍留在可视范围内，不是标识主动观看。",
+    "hint": "判断句子是在描述标识能否进入视野，还是有人有意观看标识。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

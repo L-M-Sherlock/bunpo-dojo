@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04_5b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-05b-1.draft.json",
+  "at": "2026-10-14T02:07:40.333Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refnaa.04",
+      "hash": "b0d78bfc43a66c0b0ab79169c212173dbe2851325583dd0b5bae54904346f2c8",
+      "fullSentences": [
+        "天文台の講師は、観測記録を取るため、望遠鏡で土星をじっくり見た。"
+      ]
+    },
+    {
+      "id": "verb.refrbb.01",
+      "hash": "2770cf3c7f4271ce5e90669da3b552bf72a36f0affe3f5f6480f304e307224b9",
+      "fullSentences": [
+        "夜間巡回を終えた駅員は、始発前に詰所へ帰った。"
+      ]
+    },
+    {
+      "id": "verb.refrbb.02",
+      "hash": "10e81a479a59c17d6f532f342a6651ed6d199b7022d4267d04b0cce56ecfc75c",
+      "fullSentences": [
+        "台風が近づいたため、顧問は部員たちを普段より早く帰した。"
+      ]
+    },
+    {
+      "id": "verb.refrbb.03",
+      "hash": "89e933e0c98fa5f65afc0fd2b0c9775b5feb8bd8948aa339fd77b2c62b8ec212",
+      "fullSentences": [
+        "夜市の見物を終えた旅行客は、終電の前に滞在中の宿へ帰った。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_particles_a",
+  "source": "work/content/particles-a/pilot.draft.json",
+  "at": "2026-10-13T11:12:02.966Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "particle.existence.01",
+      "hash": "6b9afb8bed7f76107581ccb24182211f93ae54fbaf2ba827d394af77139ae876",
+      "fullSentences": [
+        "冷蔵庫に卵が二個あります。"
+      ]
+    },
+    {
+      "id": "particle.existence.02",
+      "hash": "22f0f06a87cfadbe0469f86c97c75fdb2566c60db285fea397ccb0362d4e7450",
+      "fullSentences": [
+        "水槽に金魚が三匹います。"
+      ]
+    },
+    {
+      "id": "particle.existence.03",
+      "hash": "87bdd0ef69be2df4d132cf121d9ab4e5d826be15b3b2374dec11b8a8f03862ff",
+      "fullSentences": [
+        "休憩室に店長がいます。"
+      ]
+    }
+  ]
+}

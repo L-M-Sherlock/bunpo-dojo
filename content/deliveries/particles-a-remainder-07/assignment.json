@@ -1,0 +1,58 @@
+[
+  {
+    "id": "particle.leave.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  }
+]

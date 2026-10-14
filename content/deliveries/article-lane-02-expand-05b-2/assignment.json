@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refraa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "pair": {
+      "id": "verb.refraa",
+      "intransitive": "移る",
+      "intransitiveReading": "うつる",
+      "transitive": "移す",
+      "transitiveReading": "うつす",
+      "meaning": "辨析「移る／移す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "pair": {
+      "id": "verb.refrfa",
+      "intransitive": "灯る",
+      "intransitiveReading": "ともる",
+      "transitive": "灯す",
+      "transitiveReading": "ともす",
+      "meaning": "辨析「灯る／灯す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "pair": {
+      "id": "verb.refrfa",
+      "intransitive": "灯る",
+      "intransitiveReading": "ともる",
+      "transitive": "灯す",
+      "transitiveReading": "ともす",
+      "meaning": "辨析「灯る／灯す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "pair": {
+      "id": "verb.refrfa",
+      "intransitive": "灯る",
+      "intransitiveReading": "ともる",
+      "transitive": "灯す",
+      "transitiveReading": "ともす",
+      "meaning": "辨析「灯る／灯す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  }
+]

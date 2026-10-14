@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refifa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "lexicalKey": "landscaper-pulls-dead-cherry-tree-away-from-walkway",
+    "scene": "园艺师用绳索把倾向人行道的枯樱树放倒。",
+    "before": [
+      {
+        "text": "造園業者は、歩道側に傾いた枯れた桜の木をロープで安全な方向へ",
+        "reading": "ぞうえんぎょうしゃは、ほどうがわにかたむいたかれたさくらのきをロープであんぜんなほうこうへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "倒した",
+        "reading": "たおした",
+        "verdict": "correct",
+        "explanation": "造园业者主动把树放倒；「桜の木を」标出受此动作影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "倒れた",
+        "reading": "たおれた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「桜の木を」是被放倒的对象，不能接描述树自身倒下的「倒れた」；若写树自行倒下，应改用「桜の木が倒れた」一类结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "造园业者用绳索把朝人行道倾斜的枯樱树放倒到安全方向。",
+    "explanation": "句子写造园业者把树放倒，「桜の木を」是被处理的对象。",
+    "hint": "确认句中谁实施动作，以及哪个对象因此改变了姿势。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjaa",
+    "familyId": "verb.refjaa",
+    "lexicalKey": "field-trip-pupils-board-stopped-streetcar",
+    "scene": "远足返程的学生依次登上停在站前的有轨电车。",
+    "before": [
+      {
+        "text": "遠足帰りの児童たちは、駅前に停車した路面電車に順番に",
+        "reading": "えんそくがえりのじどうたちは、えきまえにていしゃしたろめんでんしゃにじゅんばんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乗った",
+        "reading": "のった",
+        "verdict": "correct",
+        "explanation": "児童たち自身が乘客として依次上车；句子描述的是他们乘坐电车。"
+      },
+      {
+        "id": "b",
+        "text": "乗せた",
+        "reading": "のせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "乗せる表示让其他乘客或物品搭上车，即使省略对象也仍是使其搭乘；这里児童たちは自己依次登车。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "远足返程的学生们依次登上停在站前的有轨电车。",
+    "explanation": "「児童たちは」是依次搭车的乘客，不是把其他对象送上电车的人。",
+    "hint": "判断学生们是车上的乘客，还是在安排其他对象上车。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjaa",
+    "familyId": "verb.refjaa",
+    "lexicalKey": "rescuers-board-injured-angler-on-rescue-boat",
+    "scene": "河边受伤的钓客由救援队员送上救助艇。",
+    "before": [
+      {
+        "text": "川で足を痛めた釣り人を、救助隊員が救助艇に",
+        "reading": "かわであしをいためたつりびとを、きゅうじょたいいんがきゅうじょていに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乗せた",
+        "reading": "のせた",
+        "verdict": "correct",
+        "explanation": "救助队员把伤了脚的钓客安置上救助艇；「釣り人を」标出被送上艇的乘客。"
+      },
+      {
+        "id": "b",
+        "text": "乗った",
+        "reading": "のった",
+        "verdict": "ungrammatical",
+        "explanation": "「釣り人を」在本句中是被送上艇的人，不能接表示救助队员自己登艇的「乗った」；改用乗る时，乘艇者应作「が」所示主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "救援队员把在河边伤了脚的钓客送上了救助艇。",
+    "explanation": "救援队员让受伤钓客登上救助艇，「釣り人を」是被搭载的人。",
+    "hint": "看谁登上救助艇，以及谁把这位乘客送上艇。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjaa",
+    "familyId": "verb.refjaa",
+    "lexicalKey": "boy-rides-skateboard-during-first-practice",
+    "scene": "第一次练习时，男孩戴着头盔在广场上滑滑板。",
+    "before": [
+      {
+        "text": "少年は初めての練習で、ヘルメットをかぶって広場でスケートボードに",
+        "reading": "しょうねんははじめてのれんしゅうで、ヘルメットをかぶってひろばでスケートボードに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乗った",
+        "reading": "のった",
+        "verdict": "correct",
+        "explanation": "少年自己踩上滑板并练习；这里描述他本人骑滑板。"
+      },
+      {
+        "id": "b",
+        "text": "乗せた",
+        "reading": "のせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "乗せる可表示把其他人或物放上滑板；本句说少年自己在广场上滑行，并未把别的对象放上板。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "男孩第一次练习时戴着头盔，在广场上滑起了滑板。",
+    "explanation": "句子描述男孩本人练习滑板，「少年は」是骑乘者。",
+    "hint": "判断句子描写的是少年本人骑乘，还是他让另一个对象上板。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

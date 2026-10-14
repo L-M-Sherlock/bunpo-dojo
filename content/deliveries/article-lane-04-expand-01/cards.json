@@ -1,0 +1,740 @@
+[
+  {
+    "id": "verb.refafa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "lexicalKey": "埋まる/埋める",
+    "scene": "休假前，园艺社的学生把郁金香球根埋进花坛",
+    "before": [
+      {
+        "text": "休み前に、園芸部の生徒は花壇にチューリップの球根を",
+        "reading": "やすみまえに、えんげいぶのせいとはかだんにチューリップのきゅうこんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "埋めた",
+        "reading": "うめた",
+        "verdict": "correct",
+        "explanation": "学生が球根を土の中に入れる場面で、球根をが直接の対象です。"
+      },
+      {
+        "id": "b",
+        "text": "埋まった",
+        "reading": "うまった",
+        "verdict": "ungrammatical",
+        "explanation": "「球根を」は動作の対象を示すため、対象を取らない「埋まった」にはつながりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "休假前，园艺社的学生把郁金香球根埋进了花坛。",
+    "explanation": "学生把球根放进土里，球根是动作直接作用的对象。",
+    "hint": "留意句中谁在动手，以及什么被放进土里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refama.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "lexicalKey": "被さる/被せる",
+    "scene": "风吹过时，长长的刘海落到额头上",
+    "before": [
+      {
+        "text": "風が吹くたび、伸びた前髪が額に",
+        "reading": "かぜがふくたび、のびたまえがみがひたいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "被さった",
+        "reading": "かぶさった",
+        "verdict": "correct",
+        "explanation": "前髪そのものが額に垂れかかる変化を表しています。"
+      },
+      {
+        "id": "b",
+        "text": "被せた",
+        "reading": "かぶせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを上から載せる動作です。前髪が額に落ちかかるという場面とは役割が合いません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "每当风吹过，长长的刘海就落到额头上。",
+    "explanation": "句子描写前髪自然垂落到额头上的状态变化。",
+    "hint": "判断刘海是发生位置变化的一方，还是在主动把别的东西放上去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refama.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "lexicalKey": "被さる/被せる",
+    "scene": "搬运雕塑前，工作人员给它盖上防雨布",
+    "before": [
+      {
+        "text": "係の人は、搬入前の彫刻に雨よけのシートを",
+        "reading": "かかりのひとは、はんにゅうまえのちょうこくにあまよけのシートを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "被せた",
+        "reading": "かぶせた",
+        "verdict": "correct",
+        "explanation": "係の人がシートを彫刻の上に載せています。シートをが直接の対象です。"
+      },
+      {
+        "id": "b",
+        "text": "被さった",
+        "reading": "かぶさった",
+        "verdict": "ungrammatical",
+        "explanation": "「シートを」と対象を示す形なので、物が自然に覆いかぶさる「被さった」にはつながりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在雕塑上盖了防雨布。",
+    "explanation": "工作人员主动把防雨布放到雕塑上，シート是被放置的物品。",
+    "hint": "确认句子里是谁拿起布，以及布放到了什么物品上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refama.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "lexicalKey": "被さる/被せる",
+    "scene": "午后低云罩住山顶，登山道随之看不见",
+    "before": [
+      {
+        "text": "午後になると、低い雲が山頂に",
+        "reading": "ごごになると、ひくいくもがさんちょうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "、登山道が見えなくなった。",
+        "reading": "、とざんどうがみえなくなった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "被さって",
+        "reading": "かぶさって",
+        "verdict": "correct",
+        "explanation": "雲が山頂の上に覆いかぶさる様子を表します。"
+      },
+      {
+        "id": "b",
+        "text": "被せて",
+        "reading": "かぶせて",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを山頂に載せる動作です。雲が山頂にかかって視界を遮る場面とは役割が異なります。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "到了下午，低云罩住山顶，登山道变得看不见了。",
+    "explanation": "主句以低云为主语，描写云层自然覆盖山顶。",
+    "hint": "看云层是覆盖到山顶的一方，还是有人把某种物品放上去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refama.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "lexicalKey": "被さる/被せる",
+    "scene": "出门前，母亲把毛线帽戴到孩子头上",
+    "before": [
+      {
+        "text": "出かける前に、母親は子どもの頭に毛糸の帽子を",
+        "reading": "でかけるまえに、ははおやはこどものあたまにけいとのぼうしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "被せた",
+        "reading": "かぶせた",
+        "verdict": "correct",
+        "explanation": "母親が帽子を子どもの頭に載せています。帽子をが動作の対象です。"
+      },
+      {
+        "id": "b",
+        "text": "被さった",
+        "reading": "かぶさった",
+        "verdict": "ungrammatical",
+        "explanation": "ここでは「帽子を」と対象を示しています。頭に自然に覆いかぶさる様子を表す形はこの文型に入りません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "出门前，母亲给孩子戴上了毛线帽。",
+    "explanation": "句中母亲主动把帽子放到孩子头上。",
+    "hint": "辨认句中戴帽子的人和被放到头上的物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refavb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "lexicalKey": "締まる/締める",
+    "scene": "技师转动扳手后，固定车轮的螺栓逐渐紧固",
+    "before": [
+      {
+        "text": "整備士がレンチを回すと、車輪を固定するボルトが最後まで",
+        "reading": "せいびしがレンチをまわすと、しゃりんをこていするボルトがさいごまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "締まった",
+        "reading": "しまった",
+        "verdict": "correct",
+        "explanation": "レンチを回した結果、ボルトが緩みのない状態になりました。"
+      },
+      {
+        "id": "b",
+        "text": "締めた",
+        "reading": "しめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを締める動作です。ボルト自身が別の物を締めるという役割はこの場面にありません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "技师转动扳手后，固定车轮的螺栓完全拧紧了。",
+    "explanation": "扳手的转动使螺栓进入没有松动的状态，句子聚焦螺栓本身的变化。",
+    "hint": "注意被拧紧的部件是动作的对象，还是句子的变化主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refavb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "lexicalKey": "締まる/締める",
+    "scene": "登山者出发前把背包腰带收紧",
+    "before": [
+      {
+        "text": "登山者は出発前に、リュックの腰ベルトをきつく",
+        "reading": "とざんしゃはしゅっぱつまえに、リュックのこしベルトをきつく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "締めた",
+        "reading": "しめた",
+        "verdict": "correct",
+        "explanation": "登山者が腰ベルトを引き、緩まないように固定した場面です。"
+      },
+      {
+        "id": "b",
+        "text": "締まった",
+        "reading": "しまった",
+        "verdict": "ungrammatical",
+        "explanation": "「腰ベルトを」が直接の対象を示すため、自動詞の「締まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者出发前把背包的腰带收紧了。",
+    "explanation": "登山者主动拉紧腰带，腰带是被调整的对象。",
+    "hint": "找出谁在调整腰带，以及哪个部件被收紧。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refavb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "lexicalKey": "締まる/締める",
+    "scene": "货物吊起后，绳结在重量牵拉下变得更紧",
+    "before": [
+      {
+        "text": "荷物を吊り上げると、ロープの結び目が重みでさらに",
+        "reading": "にもつをつりあげると、ロープのむすびめがおもみでさらに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "締まった",
+        "reading": "しまった",
+        "verdict": "correct",
+        "explanation": "荷重がかかったことで、結び目自体の緩みがなくなりました。"
+      },
+      {
+        "id": "b",
+        "text": "締めた",
+        "reading": "しめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは結び目が別の物を締める動作になります。ここでは結び目が荷重で締まる変化を描いています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "吊起货物后，绳结因重量而进一步绷紧了。",
+    "explanation": "重量令绳结本身收紧，句子描述的是结的变化。",
+    "hint": "分辨绳结承受拉力后发生变化，还是主动收紧了其他东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refavb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "lexicalKey": "締まる/締める",
+    "scene": "合奏前，吉他手看着调音器，将音高偏低的琴弦拧紧",
+    "before": [
+      {
+        "text": "合奏の前、ギター奏者はチューナーの表示を見ながら、低くなった弦を少し",
+        "reading": "がっそうのまえ、ギターそうしゃはチューナーのひょうじをみながら、ひくくなったげんをすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "締めた",
+        "reading": "しめた",
+        "verdict": "correct",
+        "explanation": "奏者が弦を調整して、張りを強くする動作をしています。"
+      },
+      {
+        "id": "b",
+        "text": "締まった",
+        "reading": "しまった",
+        "verdict": "ungrammatical",
+        "explanation": "「弦を」が調整する対象を示しており、自動詞の「締まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "合奏前，吉他手看着调音器的显示，把音高偏低的琴弦稍稍拧紧了。",
+    "explanation": "吉他手主动调整琴弦的松紧，以改变弦的张力。",
+    "hint": "留意调音者主动调整的部件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "lexicalKey": "助かる/助ける",
+    "scene": "车祸后，现场护士紧急处置，受伤孩子保住了性命",
+    "before": [
+      {
+        "text": "交通事故に遭った子どもの命が、現場に居合わせた看護師の応急処置で",
+        "reading": "こうつうじこにあったこどものいのちが、げんばにいあわせたかんごしのおうきゅうしょちで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "助かった",
+        "reading": "たすかった",
+        "verdict": "correct",
+        "explanation": "命が危険な状態を免れたことを述べています。"
+      },
+      {
+        "id": "b",
+        "text": "助けた",
+        "reading": "たすけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらだと命が誰かを救う側になります。ここでは子どもの命が救われた結果を表します。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "遭遇交通事故的孩子在现场护士的急救下保住了性命。",
+    "explanation": "「命が」を主语，说明孩子的性命脱离危险。",
+    "hint": "判断句子描写的是性命得以保全，还是性命在救助别人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "lexicalKey": "助かる/助ける",
+    "scene": "海滩监视员把救生圈投给险些溺水的少年",
+    "before": [
+      {
+        "text": "海水浴場で溺れかけた少年を、監視員が浮き輪を投げて",
+        "reading": "かいすいよくじょうでおぼれかけたしょうねんを、かんしいんがうきわをなげて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "助けた",
+        "reading": "たすけた",
+        "verdict": "correct",
+        "explanation": "監視員が少年を救助しました。「少年を」が対象を表しています。"
+      },
+      {
+        "id": "b",
+        "text": "助かった",
+        "reading": "たすかった",
+        "verdict": "ungrammatical",
+        "explanation": "「少年を」と対象を示しているため、危険を免れる側を主語に取る形には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "海水浴场的监视员把救生圈投给险些溺水的少年，救了他。",
+    "explanation": "监视员采取行动救助少年，少年是被救助的对象。",
+    "hint": "找出投出救生圈的人，以及他要救的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "lexicalKey": "助かる/助ける",
+    "scene": "学费减免后，学生家庭的经济负担轻了不少",
+    "before": [
+      {
+        "text": "学費の一部が免除され、学生の家計が",
+        "reading": "がくひのいちぶがめんじょされ、がくせいのかけいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "助かった",
+        "reading": "たすかった",
+        "verdict": "correct",
+        "explanation": "家計への負担が軽くなったことを表す「助かる」の用法です。"
+      },
+      {
+        "id": "b",
+        "text": "助けた",
+        "reading": "たすけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらだと家計が誰かを助ける側になります。ここでは家計が負担の軽減を受けた側です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "部分学费得到减免，学生家庭的经济负担因此减轻了不少。",
+    "explanation": "句子说的是学生家庭的经济负担减轻，属于得到帮助后轻松一些的情境。",
+    "hint": "看家计是在帮助别人，还是它本身得到了减轻负担的好处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "lexicalKey": "助かる/助ける",
+    "scene": "居民不清楚申请手续，市政府窗口的咨询员为他提供帮助",
+    "before": [
+      {
+        "text": "申請方法が分からず困っていた住民を、市役所の相談員が窓口で",
+        "reading": "しんせいほうほうがわからずこまっていたじゅうみんを、しやくしょのそうだんいんがまどぐちで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "助けた",
+        "reading": "たすけた",
+        "verdict": "correct",
+        "explanation": "相談員が住民を手伝い、困りごとを解決するのを助けています。"
+      },
+      {
+        "id": "b",
+        "text": "助かった",
+        "reading": "たすかった",
+        "verdict": "ungrammatical",
+        "explanation": "「住民を」と助ける対象を示しているため、危険や負担を免れた側を表す形には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市政府窗口的咨询员帮助了一位不清楚申请方法、因此发愁的居民。",
+    "explanation": "相談員主动协助居民解决申请手续方面的困难。",
+    "hint": "找出窗口中实际出手帮忙的人，以及接受帮助的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "lexicalKey": "連なる/連ねる",
+    "scene": "白色风力发电机沿山丘脊线延伸到远处",
+    "before": [
+      {
+        "text": "丘の稜線に沿って、白い発電用の風車が遠くまで",
+        "reading": "おかのりょうせんにそって、しろいはつでんようのふうしゃがとおくまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "連なっていた",
+        "reading": "つらなっていた",
+        "verdict": "correct",
+        "explanation": "風車が稜線沿いに一列になって続く様子を表します。"
+      },
+      {
+        "id": "b",
+        "text": "連ねていた",
+        "reading": "つらねていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを一列に配置する動作です。風車が自分で別の物を並べる場面ではありません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "白色风车沿着山丘的脊线一直延伸到远处。",
+    "explanation": "句子描写多台风车沿山脊连续排列的状态。",
+    "hint": "观察风车自身是排列成线，还是在把别的东西排成一列。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "lexicalKey": "連なる/連ねる",
+    "scene": "市支援队把装载物资的卡车排在供水车后，开往受灾地",
+    "before": [
+      {
+        "text": "市の支援隊は、給水車の後ろに物資を積んだトラックを",
+        "reading": "しのしえんたいは、きゅうすいしゃのうしろにぶっしをつんだトラックを"
+      }
+    ],
+    "after": [
+      {
+        "text": "被災地へ向かった。",
+        "reading": "ひさいちへむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "連ねて",
+        "reading": "つらねて",
+        "verdict": "correct",
+        "explanation": "支援隊が複数のトラックを給水車の後ろに一列に並べています。"
+      },
+      {
+        "id": "b",
+        "text": "連なって",
+        "reading": "つらなって",
+        "verdict": "ungrammatical",
+        "explanation": "「トラックを」と配置する対象を示しているため、自動詞の形では文がつながりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市的支援队把装载物资的卡车排在供水车后，驶向受灾地区。",
+    "explanation": "支援隊がトラックを一列に並べて移動する場面です。",
+    "hint": "注意支援队是否在安排车辆的位置。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "lexicalKey": "連なる/連ねる",
+    "scene": "河谷里，许多小村落沿河道一处接一处",
+    "before": [
+      {
+        "text": "川沿いの谷には、小さな集落がいくつも",
+        "reading": "かわぞいのたにには、ちいさなしゅうらくがいくつも"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "連なっていた",
+        "reading": "つらなっていた",
+        "verdict": "correct",
+        "explanation": "谷に沿って複数の集落が続いている状態を表します。"
+      },
+      {
+        "id": "b",
+        "text": "連ねていた",
+        "reading": "つらねていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを列にして置く動作です。集落が自然に川沿いへ続く描写とは役割が異なります。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "河谷一带沿着河道延伸着好几处小村落。",
+    "explanation": "集落が川沿いに続いている地形の様子を描いています。",
+    "hint": "見るのは集落が自然に続く配置か、誰かが集落を並べる動作かです。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

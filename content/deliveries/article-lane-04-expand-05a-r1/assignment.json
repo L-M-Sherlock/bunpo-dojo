@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refnaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "pair": {
+      "id": "verb.refnaa",
+      "intransitive": "見える",
+      "intransitiveReading": "みえる",
+      "transitive": "見る",
+      "transitiveReading": "みる",
+      "meaning": "辨析「見える／見る」的角色与对象",
+      "count": 4,
+      "articleGroup": 14,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refraa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "lexicalKey": "术后转送患者到病房",
+    "scene": "手术结束后，护士把患者送到病房的单人间。",
+    "before": [
+      {
+        "text": "手術後、看護師は患者を病棟の個室へ",
+        "reading": "しゅじゅつご、かんごしはかんじゃをびょうとうのこしつへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "移した",
+        "reading": "うつした",
+        "verdict": "correct",
+        "explanation": "护士把患者转到病房，「患者を」标明被移动的人，是动作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "移った",
+        "reading": "うつった",
+        "verdict": "ungrammatical",
+        "explanation": "「移る」表示主体自身改变位置；本句的「患者を」是护士转送的对象，不能由自动词「移った」承接。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "手术后，护士把患者转到了病房的单人间。",
+    "explanation": "护士主动转送患者，「患者を」指出动作直接作用的对象。",
+    "hint": "留意患者是护士转送的对象，还是句中自己换了地点。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "lexicalKey": "停电时医院应急灯亮起",
+    "scene": "医院停电时，走廊里的应急灯自动亮起。",
+    "before": [
+      {
+        "text": "停電が起きると、病院の廊下にある非常灯が自動で",
+        "reading": "ていでんがおきると、びょういんのろうかにあるひじょうとうがじどうで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "灯った",
+        "reading": "ともった",
+        "verdict": "correct",
+        "explanation": "停电时应急灯自身亮起，「非常灯が」是变亮的主体。"
+      },
+      {
+        "id": "b",
+        "text": "灯した",
+        "reading": "ともした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「灯す」表示某个主体点亮灯火；本句说的是应急灯自动亮起，没有写由它点亮的另一个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "发生停电时，医院走廊里的应急灯自动亮了起来。",
+    "explanation": "应急灯在停电时自动变亮，是自身状态发生变化。",
+    "hint": "判断句子是在描述灯自身亮起，还是某个主体点亮了其他东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "lexicalKey": "祭典前夜点燃参道石灯笼",
+    "scene": "祭典前夜，工作人员点燃神社参道上排列的石灯笼。",
+    "before": [
+      {
+        "text": "祭りの前夜、係員は神社の参道に並ぶ石灯籠に火を",
+        "reading": "まつりのぜんや、かかりいんはじんじゃのさんどうにならぶいしどうろうにひを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "灯した",
+        "reading": "ともした",
+        "verdict": "correct",
+        "explanation": "工作人员为参道石灯笼点火，「火を」标明被点燃的灯火。"
+      },
+      {
+        "id": "b",
+        "text": "灯った",
+        "reading": "ともった",
+        "verdict": "ungrammatical",
+        "explanation": "「灯る」表示灯火自身燃起；本句的「火を」是点燃对象，不能与自动词「灯った」搭配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "祭典前夜，工作人员点燃了神社参道上排列的石灯笼。",
+    "explanation": "工作人员主动点燃灯笼里的火，「火を」是动作对象。",
+    "hint": "留意句中是谁点火，以及火在句中是动作的对象还是自行燃起的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "lexicalKey": "日落后海边步道路灯亮起",
+    "scene": "日落后，海边步道的路灯一齐亮起。",
+    "before": [
+      {
+        "text": "日が暮れると、海沿いの遊歩道に街灯が一斉に",
+        "reading": "ひがくれると、うみぞいのゆうほどうにがいとうがいっせいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "灯った",
+        "reading": "ともった",
+        "verdict": "correct",
+        "explanation": "天黑后，路灯自身一齐亮起；「街灯が」是变亮的主体。"
+      },
+      {
+        "id": "b",
+        "text": "灯した",
+        "reading": "ともした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「灯す」表示某个主体点亮灯火；本句以路灯为自身亮起的主体，没有描述它点亮其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "日落后，海边步道的路灯一齐亮了起来。",
+    "explanation": "句子描述天黑后路灯自身亮起，没有写出点亮它们的施事。",
+    "hint": "注意路灯是自行进入明亮状态，还是作为主体去点亮别的灯火。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

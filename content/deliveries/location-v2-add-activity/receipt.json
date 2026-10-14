@@ -1,0 +1,78 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/location-20261013/activity/add.draft.json",
+  "at": "2026-10-13T16:18:01.568Z",
+  "count": 10,
+  "cards": [
+    {
+      "id": "particle.activity.11",
+      "hash": "61d15defadc912d9667922dcd304652c5cfb06a901d742f3ec02b9fd43489e32",
+      "fullSentences": [
+        "係員は峠の案内所で登山者の相談に応じます。"
+      ]
+    },
+    {
+      "id": "particle.activity.12",
+      "hash": "1ce8ffb71f789eeb4b0d4bee8b4ad61a198d98d6c802973c8b9665a568fc9fbb",
+      "fullSentences": [
+        "登山者たちは山小屋の軒下で濡れた登山靴を乾かします。"
+      ]
+    },
+    {
+      "id": "particle.activity.13",
+      "hash": "d4d4c53b3dde008faf6a35017e310cb33928be0b35bee6be047906af27cabc1f",
+      "fullSentences": [
+        "親子は地区センターの工作室で紙のランタンを作ります。"
+      ]
+    },
+    {
+      "id": "particle.activity.14",
+      "hash": "417c3bea5cab42573c4ffdc3ef4c53a69b35889a197e46a5f984ebfac0a49680",
+      "fullSentences": [
+        "漁協の職員は港の荷さばき場で空の魚箱を洗います。"
+      ]
+    },
+    {
+      "id": "particle.activity.15",
+      "hash": "1cdce6721b8b0e6de92128b716c79680a0980406ed51045957d11d5dcec0d637",
+      "fullSentences": [
+        "園芸部の生徒は学校の温室でトマトの苗の成長を観察します。"
+      ]
+    },
+    {
+      "id": "particle.activity.16",
+      "hash": "7a6a9dc7adfde66c246e673500e31275ce7b21a6e7b98755e22985d5670a07d5",
+      "fullSentences": [
+        "技師は町工場の検査室で試作品の厚さを測ります。"
+      ]
+    },
+    {
+      "id": "particle.activity.17",
+      "hash": "24e4f6106dcf808305d0a4de87753feb5ce4cbf9ac0b29786bfd30e5a54be58d",
+      "fullSentences": [
+        "来月、市立美術館で若手版画家の作品展があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.18",
+      "hash": "1f39c9838d4bedee6c2b50c0dce5ad1ac95b6036afd388f2ace2fc394d391c79",
+      "fullSentences": [
+        "今夜、川沿いの広場で野外映画会があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.19",
+      "hash": "47236094367bb0d9ae1e53663b10853c034d97a71be655177175bd9918c3a1ef",
+      "fullSentences": [
+        "係員はホテルのフロントで宿泊客の名前を聞きます。"
+      ]
+    },
+    {
+      "id": "particle.activity.20",
+      "hash": "3366b2f7de2078f5f7e5dbb8174347aa3eb1089c12acfceba748ad5c14c772da",
+      "fullSentences": [
+        "消防署の訓練場で隊員たちがホースの接続を確かめます。"
+      ]
+    }
+  ]
+}

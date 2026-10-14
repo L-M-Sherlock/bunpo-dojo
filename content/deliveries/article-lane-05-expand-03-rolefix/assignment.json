@@ -1,0 +1,319 @@
+[
+  {
+    "id": "verb.refbsa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "pair": {
+      "id": "verb.refbsa",
+      "intransitive": "付く",
+      "intransitiveReading": "つく",
+      "transitive": "付ける",
+      "transitiveReading": "つける",
+      "meaning": "辨析「付く／付ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 19
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "pair": {
+      "id": "verb.refcaa",
+      "intransitive": "折れる",
+      "intransitiveReading": "おれる",
+      "transitive": "折る",
+      "transitiveReading": "おる",
+      "meaning": "辨析「折れる／折る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 1
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "pair": {
+      "id": "verb.refcaa",
+      "intransitive": "折れる",
+      "intransitiveReading": "おれる",
+      "transitive": "折る",
+      "transitiveReading": "おる",
+      "meaning": "辨析「折れる／折る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 1
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "pair": {
+      "id": "verb.refcaa",
+      "intransitive": "折れる",
+      "intransitiveReading": "おれる",
+      "transitive": "折る",
+      "transitiveReading": "おる",
+      "meaning": "辨析「折れる／折る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 1
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcaa",
+    "familyId": "verb.refcaa",
+    "pair": {
+      "id": "verb.refcaa",
+      "intransitive": "折れる",
+      "intransitiveReading": "おれる",
+      "transitive": "折る",
+      "transitiveReading": "おる",
+      "meaning": "辨析「折れる／折る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 1
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "pair": {
+      "id": "verb.refcfa",
+      "intransitive": "取れる",
+      "intransitiveReading": "とれる",
+      "transitive": "取る",
+      "transitiveReading": "とる",
+      "meaning": "辨析「取れる／取る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 6
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "pair": {
+      "id": "verb.refcfa",
+      "intransitive": "取れる",
+      "intransitiveReading": "とれる",
+      "transitive": "取る",
+      "transitiveReading": "とる",
+      "meaning": "辨析「取れる／取る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 6
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "pair": {
+      "id": "verb.refcfa",
+      "intransitive": "取れる",
+      "intransitiveReading": "とれる",
+      "transitive": "取る",
+      "transitiveReading": "とる",
+      "meaning": "辨析「取れる／取る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 6
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "pair": {
+      "id": "verb.refcfa",
+      "intransitive": "取れる",
+      "intransitiveReading": "とれる",
+      "transitive": "取る",
+      "transitiveReading": "とる",
+      "meaning": "辨析「取れる／取る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 6
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "pair": {
+      "id": "verb.refcla",
+      "intransitive": "焼ける",
+      "intransitiveReading": "やける",
+      "transitive": "焼く",
+      "transitiveReading": "やく",
+      "meaning": "辨析「焼ける／焼く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 12
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "pair": {
+      "id": "verb.refcla",
+      "intransitive": "焼ける",
+      "intransitiveReading": "やける",
+      "transitive": "焼く",
+      "transitiveReading": "やく",
+      "meaning": "辨析「焼ける／焼く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 12
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "pair": {
+      "id": "verb.refcla",
+      "intransitive": "焼ける",
+      "intransitiveReading": "やける",
+      "transitive": "焼く",
+      "transitiveReading": "やく",
+      "meaning": "辨析「焼ける／焼く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 12
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcla.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcla",
+    "familyId": "verb.refcla",
+    "pair": {
+      "id": "verb.refcla",
+      "intransitive": "焼ける",
+      "intransitiveReading": "やける",
+      "transitive": "焼く",
+      "transitiveReading": "やく",
+      "meaning": "辨析「焼ける／焼く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 12
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refdda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "pair": {
+      "id": "verb.refdda",
+      "intransitive": "冷める",
+      "intransitiveReading": "さめる",
+      "transitive": "冷ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「冷める／冷ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "pair": {
+      "id": "verb.refdda",
+      "intransitive": "冷める",
+      "intransitiveReading": "さめる",
+      "transitive": "冷ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「冷める／冷ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "pair": {
+      "id": "verb.refdda",
+      "intransitive": "冷める",
+      "intransitiveReading": "さめる",
+      "transitive": "冷ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「冷める／冷ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

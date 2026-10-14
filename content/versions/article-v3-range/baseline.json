@@ -1,0 +1,12 @@
+{
+  "scopeSha256": "d52662f5a27269df57e2a1dbe7c517aae3ebce037a6b481481aa0ec5f72991eb",
+  "requirementsSha256": "0a30bd17adbde32f25f320fac64ed6ac103deab3d129ab15bad976178a08f7d5",
+  "sourceCommit": "67459b9b500ad660f0225f55d736789616f91025",
+  "scopeCount": 854,
+  "previousBaseline": "content/versions/article-v2/baseline.json",
+  "change": "用户要求自他词最后并覆盖哈呀文章全部词例；按25类160行164组配对补146个知识点，每个新词对两方向各2场景",
+  "referencesSha256": {
+    "content/references/haya-pairs.json": "e4bc85e670fb8a86b6ab02285a124e59da4a08bea07d7502663b78f76d9fa738",
+    "content/references/haya-scope-review.json": "5b3b4bc2bdcedbaa503fb0dfcccd614dcb58f7dd93a25a2db640f6045a85b0ab"
+  }
+}

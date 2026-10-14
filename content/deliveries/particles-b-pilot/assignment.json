@@ -1,0 +1,44 @@
+[
+  {
+    "id": "particle.path.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  }
+]

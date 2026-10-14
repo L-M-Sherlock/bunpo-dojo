@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_4a2",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-04a-2.draft.json",
+  "at": "2026-10-14T02:23:06.935Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refdga.04",
+      "hash": "8f6ebf5c929e495ff640e27bc6fe6e183a7107aeedf29fb25d135bf7abd714f8",
+      "fullSentences": [
+        "コールセンターの先輩は、予約変更の模擬電話を使って新人を実際の問い合わせ対応に慣らした。"
+      ]
+    },
+    {
+      "id": "verb.refeca.01",
+      "hash": "4471098d70a5488450a8cf7c40a2cc676d3b33159a53fde8ad56ea60bae9e14d",
+      "fullSentences": [
+        "古民家保存会では、秋の長雨で屋根の雨漏りが再発し、応急修繕が続くうちに災害用の積立金が費えた。"
+      ]
+    },
+    {
+      "id": "verb.refeca.02",
+      "hash": "7a894b76641f81dc0e9f9aa630e3c75c5a393b18f6aab10f78e838b8c9ae2e0b",
+      "fullSentences": [
+        "市は、旧庁舎の耐震改修に今年度の修繕予算の大半を費やした。"
+      ]
+    },
+    {
+      "id": "verb.refeca.03",
+      "hash": "4dadc58aa692c94642b24b4e5dc56ec3a56c91c746a8ace10bce9efba3cb0a71",
+      "fullSentences": [
+        "復元調査の報告書には、古い図面の照合に手間取り、調査時間がいたずらに費えたとある。"
+      ]
+    }
+  ]
+}

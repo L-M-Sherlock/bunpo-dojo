@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_06",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-03.draft.json",
+  "at": "2026-10-13T19:22:55.964Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refbta.04",
+      "hash": "b7367e55460110f50bed5e8ec609687d81a98f061599bf3454f79e89ef26cce3",
+      "fullSentences": [
+        "図書館員は、入院中の子どもが予約した絵本を病室まで届けた。"
+      ]
+    },
+    {
+      "id": "verb.refcba.01",
+      "hash": "f474a86a6db4d0e2e62fbe7dafe611ec3d631c79cef4157743b74053aec3135b",
+      "fullSentences": [
+        "大雨の夜、落雷で山小屋への電話回線が切れた。"
+      ]
+    },
+    {
+      "id": "verb.refcba.02",
+      "hash": "e334a09c631d14459ba0267cb4a8485e76d4155c57e47602f161c3e65bead3bf",
+      "fullSentences": [
+        "展示係は、厚い段ボールをカッターで切ったので、展示用の窓を作った。"
+      ]
+    },
+    {
+      "id": "verb.refcba.03",
+      "hash": "8dbe003b9f1da44ac13b09e1a34b3317343eeca97b9782a8e901ecc8fd771c70",
+      "fullSentences": [
+        "会員証の有効期限が今月末で切れる。"
+      ]
+    },
+    {
+      "id": "verb.refcba.04",
+      "hash": "a03958f510cb68dac1095708beaf1a846ed64d6b42a5a205b70188b0191e8959",
+      "fullSentences": [
+        "パン職人は、焼きたてのバゲットを客の人数分に切ったので、朝食に出した。"
+      ]
+    },
+    {
+      "id": "verb.refcga.01",
+      "hash": "f35e3ade89bd97574552520321773cc766d880579b290d61fd6706f33403d627",
+      "fullSentences": [
+        "ぐらついていた子どもの乳歯が、りんごをかんだ拍子に自然に抜けた。"
+      ]
+    },
+    {
+      "id": "verb.refcga.02",
+      "hash": "d73be79e4588ba51c2aeecd479e2db7d3d9bb5ccfaf767ec98af39dfc7b2baf1",
+      "fullSentences": [
+        "修理担当者は、錆びついたネジを専用工具で抜いたので、棚板を新しいものに替えた。"
+      ]
+    },
+    {
+      "id": "verb.refcga.03",
+      "hash": "c4be95ec52b6795faa95182c5c97e5992c87b7d46b2eb1cdbd63c341eb45cca6",
+      "fullSentences": [
+        "古い窓枠の隙間から、暖房で暖まった空気が夜のうちに抜けてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refcga.04",
+      "hash": "a9c08d83d669ed830ef7cfeeed6d95ea8b88e860d2716f77a5d800b4ac7ed0b2",
+      "fullSentences": [
+        "自転車の選手は、最後の坂で先行する二人を抜いたので、三位に入った。"
+      ]
+    },
+    {
+      "id": "verb.refcma.01",
+      "hash": "c79e8e091f754503f4cfd3e03b6561503a22f16faf6f10356defe3f95aad7f1b",
+      "fullSentences": [
+        "空気を入れすぎた風船が、夜中に自然に破れた。"
+      ]
+    },
+    {
+      "id": "verb.refcma.02",
+      "hash": "df17f87b83574b25863c856bb51484fe5f74fd79aca4b18ee53bbc0966db65cf",
+      "fullSentences": [
+        "受取人は、届いた封筒の封を破ったので、手紙を取り出せた。"
+      ]
+    },
+    {
+      "id": "verb.refcma.03",
+      "hash": "a635d60b58ef847162fe9268abea72dfcbcbc5d18736cf99f18b38b18d3482b3",
+      "fullSentences": [
+        "作業ズボンの膝の布が、低い枝に引っかかって破れた。"
+      ]
+    },
+    {
+      "id": "verb.refcma.04",
+      "hash": "7b08bb98f006466151e643da72bec9ac18d713fbdad9ed5490cad49d65c177ed",
+      "fullSentences": [
+        "試合後半、ホームチームは新しい作戦で相手の守備を破ったので、逆転の機会を作った。"
+      ]
+    },
+    {
+      "id": "verb.refddb.01",
+      "hash": "3c2f19eea49bc8ff8c41bf06a3585fb9c70bda70e6993744aa7c4a1828aee596",
+      "fullSentences": [
+        "山小屋で仮眠中の登山者は、遠くの雷鳴で眠りから醒めた。"
+      ]
+    },
+    {
+      "id": "verb.refddb.02",
+      "hash": "c381539c1a5ea7f996bf0b0cf12d16eca3c29d997ab52e5c7b8179418f7864a3",
+      "fullSentences": [
+        "始業のベルが、休憩室でうたた寝していた警備員の目を醒ました。"
+      ]
+    },
+    {
+      "id": "verb.refddb.03",
+      "hash": "34442c94e3dc350fbc654ee4a3edfcf2ee05bc9db11d02f7711f790e134fdbbc",
+      "fullSentences": [
+        "宿で一晩休んだあと、飲み過ぎた登山客の酔いがすっかり醒めた。"
+      ]
+    }
+  ]
+}

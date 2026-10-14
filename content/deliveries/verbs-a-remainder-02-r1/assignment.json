@@ -1,0 +1,19 @@
+[
+  {
+    "id": "verb.break.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "transitive"
+  }
+]

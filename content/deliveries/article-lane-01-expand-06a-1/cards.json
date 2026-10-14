@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refrea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "lexicalKey": "technician-routes-signal-cable-through-conduit",
+    "scene": "检修时需把新信号线引入天花板夹层的配管。",
+    "before": [
+      {
+        "text": "設備点検のため、技術者は新しい信号線を天井裏の配管に",
+        "reading": "せつびてんけんのため、ぎじゅつしゃはあたらしいしんごうせんをてんじょううらのはいかんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "通した",
+        "reading": "とおした",
+        "verdict": "correct",
+        "explanation": "技术人员把信号线引入配管；「信号線を」标出被引入的对象。"
+      },
+      {
+        "id": "b",
+        "text": "通った",
+        "reading": "とおった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「通る」写事物自身经过路线；这里的技术人员是施事，信号线是被引入配管的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为检查设备，技术人员把新信号线穿过天花板夹层中的管道。",
+    "explanation": "技术人员引导信号线通过配管，信号线是受处理的对象。",
+    "hint": "观察句中谁在操作，以及哪样东西被引入配管。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "lexicalKey": "bath-towel-dries-beside-bathroom-window",
+    "scene": "湿浴巾挂在浴室窗边后逐渐干了。",
+    "before": [
+      {
+        "text": "昨夜洗ったバスタオルが、浴室の窓辺に干されているうちに",
+        "reading": "ゆうべあらったバスタオルが、よくしつのまどべにほされているうちに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乾いた",
+        "reading": "かわいた",
+        "verdict": "correct",
+        "explanation": "句子描述浴巾自身失去水分而变干；「バスタオルが」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "乾かした",
+        "reading": "かわかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「乾かす」表示施事使某个对象变干；若用在此处，浴巾会成为使别的东西变干的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "昨晚洗过的浴巾挂在浴室窗边时干了。",
+    "explanation": "「バスタオルが」标记变干的主体，句子写的是浴巾自身的状态变化。",
+    "hint": "判断句子写的是浴巾自身发生什么变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "lexicalKey": "person-dries-hair-before-work",
+    "scene": "出门上班前用吹风机吹干头发。",
+    "before": [
+      {
+        "text": "出勤前、私はドライヤーで髪を",
+        "reading": "しゅっきんまえ、わたしはドライヤーでかみを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乾かした",
+        "reading": "かわかした",
+        "verdict": "correct",
+        "explanation": "「髪を」标出被吹干的对象，「私」是用吹风机处理头发的施事。"
+      },
+      {
+        "id": "b",
+        "text": "乾いた",
+        "reading": "かわいた",
+        "verdict": "ungrammatical",
+        "explanation": "「乾く」描述对象自身变干，不能接这里表示直接对象的「髪を」；要说头发变干应使用「髪が乾く」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "上班前，我用吹风机吹干了头发。",
+    "explanation": "句子由「私」主动处理头发，「髪を」是被吹干的对象。",
+    "hint": "留意「髪」在动词前的助词，以及动作是谁做的。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "lexicalKey": "calligraphy-ink-dries-before-paper-is-stacked",
+    "scene": "书法课上新写的墨迹干透前，作品不能叠放。",
+    "before": [
+      {
+        "text": "書道教室では、先生が書き上げた半紙の墨が",
+        "reading": "しょどうきょうしつでは、せんせいがかきあげたはんしのすみが"
+      }
+    ],
+    "after": [
+      {
+        "text": "まで、作品を重ねずに並べておく。",
+        "reading": "まで、さくひんをかさねずにならべておく。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乾く",
+        "reading": "かわく",
+        "verdict": "correct",
+        "explanation": "「墨が」是水分逐渐消失的主体；作品要等墨迹自身变干后再叠放。"
+      },
+      {
+        "id": "b",
+        "text": "乾かす",
+        "reading": "かわかす",
+        "verdict": "meaning-mismatch",
+        "explanation": "「乾かす」表示施事使对象变干；此处「墨が」是发生变化的主体，并非使别的对象变干的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "书法教室里，老师写好的半纸上的墨迹干之前，会把作品分开放着。",
+    "explanation": "句子写的是半纸上的墨迹自然失去水分后才能叠放。",
+    "hint": "留意墨迹是变干的一方，还是施力使其他对象变干的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

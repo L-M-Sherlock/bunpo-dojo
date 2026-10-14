@@ -1,0 +1,189 @@
+[
+  {
+    "id": "verb.refpaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "lexicalKey": "grandmother-puts-health-wish-into-grandchild-scarf",
+    "scene": "祖母把祝愿孙辈健康的心意寄托在送出的围巾里。",
+    "before": [
+      {
+        "text": "祖母は、孫に贈るマフラーに健康を願う思いを",
+        "reading": "そぼは、まごにおくるマフラーにけんこうをねがうおもいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "籠めた",
+        "reading": "こめた",
+        "verdict": "correct",
+        "explanation": "祖母把祝愿孙辈健康的心意融进围巾；「思いを」标出被注入的内容，「マフラーに」标出承载它的物品。"
+      },
+      {
+        "id": "b",
+        "text": "籠もった",
+        "reading": "こもった",
+        "verdict": "ungrammatical",
+        "explanation": "籠もる描述心意等内容留存在某处，通常由内容作「が」标记的主体；本句由祖母实施动作，并用「思いを」标出所注入的内容。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "祖母把祝愿孙辈健康的心意融进了要送给孙辈的围巾里。",
+    "explanation": "祖母把「健康を願う思い」作为内容放进围巾，句中表达的是注入心意的动作。",
+    "hint": "留意句中祖母处理的是什么内容，以及围巾承担什么位置。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "lexicalKey": "gust-blows-empty-can-along-alley",
+    "scene": "阵风把空罐吹过巷道，它最后停在墙边。",
+    "before": [
+      {
+        "text": "強風にあおられた空き缶が路地を",
+        "reading": "きょうふうにあおられたあきかんがろじを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、壁際で止まった。",
+        "reading": "、かべぎわでとまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "転がって",
+        "reading": "ころがって",
+        "verdict": "correct",
+        "explanation": "空罐是沿巷道移动的主体，后文也继续叙述它停在墙边；転がる描述物体自行滚动。"
+      },
+      {
+        "id": "b",
+        "text": "転がして",
+        "reading": "ころがして",
+        "verdict": "meaning-mismatch",
+        "explanation": "転がす表示施力使另一个对象滚动；本句把空罐写成被风吹动并自行移动的主体，没有写它使其他物体滚动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被强风吹动的空罐沿巷道滚到墙边，停了下来。",
+    "explanation": "空罐自身沿路移动并停下，强风是使它动起来的外力。",
+    "hint": "确认空罐是自行移动的主体，还是某个施力者让另一对象移动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "lexicalKey": "children-roll-snowball-for-snowman-base",
+    "scene": "雪停后的院子里，孩子把雪球做成雪人的底座。",
+    "before": [
+      {
+        "text": "子どもたちは庭の雪の上で雪玉を",
+        "reading": "こどもたちはにわのゆきのうえでゆきだまを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、雪だるまの土台にした。",
+        "reading": "、ゆきだるまのどだいにした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "転がして",
+        "reading": "ころがして",
+        "verdict": "correct",
+        "explanation": "孩子们让「雪玉を」在雪地上滚动，并把它做成雪人的底座；雪球是他们施加动作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "転がって",
+        "reading": "ころがって",
+        "verdict": "ungrammatical",
+        "explanation": "転がる描述主体自身滚动，雪球应作「が」标记的主体；本句已有「子どもたちは」作动作主体，并以「雪玉を」标出被滚动的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子们在院子的雪地上滚动雪球，把它做成雪人的底座。",
+    "explanation": "孩子们是动作施事，「雪玉を」是被滚动并做成底座的雪球。",
+    "hint": "确认雪球是被孩子们处理的对象，还是句中自行移动的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "lexicalKey": "clay-ball-rolls-down-tilted-board",
+    "scene": "工房里，圆粘土团沿斜板滚到接料盘前停住。",
+    "before": [
+      {
+        "text": "丸めた粘土の玉が、傾けた板の上をゆっくり",
+        "reading": "まるめたねんどのたまが、かたむけたいたのうえをゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "受け皿の手前で止まった。",
+        "reading": "うけざらのてまえでとまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "転がって",
+        "reading": "ころがって",
+        "verdict": "correct",
+        "explanation": "粘土团是沿斜板滚动、随后停在接料盘前的主体；这里写的是它自身的移动。"
+      },
+      {
+        "id": "b",
+        "text": "転がして",
+        "reading": "ころがして",
+        "verdict": "meaning-mismatch",
+        "explanation": "転がす表示某个施事使对象滚动；本句的「粘土の玉が」是自行移动并停下的主体，没有另一个被它滚动的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "揉圆的粘土团沿着斜板滚动，停在接料盘前。",
+    "explanation": "句子把粘土团作为移动主体，倾斜的板面是它滚动的路径。",
+    "hint": "判断粘土团是自身沿板面移动，还是它在使别的对象移动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

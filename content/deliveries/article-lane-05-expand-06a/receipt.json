@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_05_next",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-06a.draft.json",
+  "at": "2026-10-14T01:53:44.862Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refrka.04",
+      "hash": "9ee630d93f78c79340e2d9502b15b2b49095df0032945c70a459ff8d2cc39bc4",
+      "fullSentences": [
+        "点検を終えた整備士は、修理を依頼した客に自転車を渡した。"
+      ]
+    },
+    {
+      "id": "verb.refsga.01",
+      "hash": "05664fbdb8702cb91b0dcb30e9e7190868f9f03601a91dcf0ab492f065b2e677",
+      "fullSentences": [
+        "夏の夜、山あいの集落に雷鳴が轟いた。"
+      ]
+    },
+    {
+      "id": "verb.refsga.02",
+      "hash": "fc3f330f193f45a19b633758ae2b58f5643f8ab153ce0429739a085c01a85f2e",
+      "fullSentences": [
+        "林道を駆け上がったラリーカーは、エンジンの爆音を山あいに轟かして走り去った。"
+      ]
+    },
+    {
+      "id": "verb.refsga.03",
+      "hash": "224380f28a2373f88d620209bda2ac61cb801708c38603c9cd64c42266608ec8",
+      "fullSentences": [
+        "海難救助で何度も表彰された島の消防団の名は、やがて全国に轟いた。"
+      ]
+    },
+    {
+      "id": "verb.refsga.04",
+      "hash": "338e78852e2d8f0ac946939b4a16e592df0985be775ee5619f0f07eb66aafbd5",
+      "fullSentences": [
+        "無名の高校は、全国大会での優勝を機に、その名を一躍全国に轟かした。"
+      ]
+    },
+    {
+      "id": "verb.refsma.01",
+      "hash": "f0f66455ea8cfe7033ccce52448d4f49087e36218e93e0859bdb7ebfd97b2e7b",
+      "fullSentences": [
+        "濃霧で分岐の標識が見えず、登山者たちは山中で道に迷った。"
+      ]
+    },
+    {
+      "id": "verb.refsma.02",
+      "hash": "7d0d4c90da164f2dfb2d5a3c3700cb160580379390bd78eeae5e63855d12ac9c",
+      "fullSentences": [
+        "閉鎖中の通路へ向く古い矢印を残した仮設案内板は、初めて来た客を迷わした。"
+      ]
+    },
+    {
+      "id": "verb.refsma.03",
+      "hash": "0d3b6b66d610db49a4139a7aa71f839ffd8223547dda03c7da67c9ab5a4e38f6",
+      "fullSentences": [
+        "駅に近い宿と温泉のある宿のどちらを予約するか、家族は最後まで迷った。"
+      ]
+    }
+  ]
+}

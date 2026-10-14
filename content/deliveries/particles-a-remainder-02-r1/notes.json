@@ -1,0 +1,42 @@
+[
+  {
+    "id": "particle.destination.02",
+    "fullSentence": "年末、単身赴任中の父は自宅へ帰ります。／年末、単身赴任中の父は自宅に帰ります。",
+    "sceneRationale": "父亲平时在外地工作，年底休假回家团聚；自宅是帰る的目的地。",
+    "alternativeReadings": "帰る的目的地可用へ或に，两者都符合这段回家的情境。から会把自宅解释成出发点，与场景中的返回方向相反。",
+    "readingCheck": "単身赴任中たんしんふにんちゅう、父ちち、年末ねんまつ、自宅じたく、帰りますかえります；目标助词へ读え，句段reading与正文书写对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.destination.03",
+    "fullSentence": "私は入口で待っています。画家が画廊に来ます。／私は入口で待っています。画家が画廊へ来ます。",
+    "sceneRationale": "说话人在画廊入口等预约来访者，画廊是画家从别处赶来的终点。",
+    "alternativeReadings": "以等候者为视点，画家来画廊的目的地可用に或へ；から会把画廊变为出发处，不符合预约来访的场景。",
+    "readingCheck": "私わたし、入口いりぐち、待っていますまっています、画家がか、画廊がろう、来ますきます；段落reading已只保留正文中的假名读法，へ作为助词读え，标点一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.destination.04",
+    "fullSentence": "母は来週、眼科へ行きます。／母は来週、眼科に行きます。",
+    "sceneRationale": "年度眼科检查通知已经收到，母亲下周要前往眼科；眼科是行く的目的地。",
+    "alternativeReadings": "行く的目的地可以由へ或に标出，两者都表达去眼科。から将眼科解释为出发地，和场景不符。",
+    "readingCheck": "母はは、来週らいしゅう、眼科がんか、行きますいきます；目标助词独立填入，へ读え，标点一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.destination.05",
+    "fullSentence": "返却期限の日、高校生は市立図書館に行きます。／返却期限の日、高校生は市立図書館へ行きます。",
+    "sceneRationale": "借书到期的高中生放学后去市立图书馆还书，图书馆是出行终点。",
+    "alternativeReadings": "に与へ都可以标行く的目的地。から会表示从图书馆出发，不能表达本场景中的去图书馆。",
+    "readingCheck": "返却期限へんきゃくきげん、高校生こうこうせい、市立図書館しりつとしょかん、行きますいきます；目标助词不预填在段落reading中，へ读え，标点对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.destination.06",
+    "fullSentence": "試験が終わると、寮生は学生寮へ帰ります。／試験が終わると、寮生は学生寮に帰ります。",
+    "sceneRationale": "住校生考完试后回自己的宿舍，学生寮是帰る所指的返回目的地。",
+    "alternativeReadings": "帰る的目的地使用へ和に都自然。から会把学生寮变成离开的起点，改变场景所述的方向。",
+    "readingCheck": "試験しけん、終わるおわる、寮生りょうせい、学生寮がくせいりょう、帰りますかえります；正确句均在槽位仅插入一个目标助词，へ读え，句段reading标点对应。",
+    "unresolvedQuestions": "无。"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/remainder-03.draft.json",
+  "at": "2026-10-13T12:17:38.856Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.fall.02",
+      "hash": "216e54c633d8a58e789a79de1835ee785c3f02e1c467de751a4e90df102e1a1e",
+      "fullSentences": [
+        "子どもはゴムボールを地面に落としました。"
+      ]
+    },
+    {
+      "id": "verb.fall.03",
+      "hash": "a2855c10591ba90992b2ab79c9171619fec0632de6d97e3364039e940aa43dc4",
+      "fullSentences": [
+        "熟した柿が重みで木から落ちました。"
+      ]
+    },
+    {
+      "id": "verb.fall.04",
+      "hash": "a91c7750099efa2f95ae216bdc93755e4e119fc4d510ea701b8c62a4559589f5",
+      "fullSentences": [
+        "祖父はお盆を運んでいる途中で、湯呑みを床に落としました。"
+      ]
+    },
+    {
+      "id": "verb.fall.05",
+      "hash": "71193bfc2da2d9ff29e16d4f9edac0ebb095d29f618252e2519fc43a5ab67b9a",
+      "fullSentences": [
+        "午後に気温が上がり、軒先のつららが落ちました。"
+      ]
+    },
+    {
+      "id": "verb.enter.01",
+      "hash": "235795e87aadfbf2362b58874dfa280da33454a07b7ecce09b20b6f2f7cd4f36",
+      "fullSentences": [
+        "雨を避けて、配達員が休憩所に入りました。"
+      ]
+    }
+  ]
+}

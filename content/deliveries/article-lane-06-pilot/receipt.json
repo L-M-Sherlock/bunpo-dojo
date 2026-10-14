@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_06",
+  "source": "work/content/article-pairs-20261014/lane-06/pilot.draft.json",
+  "at": "2026-10-13T17:11:44.242Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refaha.01",
+      "hash": "9954baa491d56daea924b14e0b483f1438072c0975a9a7319e7e3c8fdb44e215",
+      "fullSentences": [
+        "一泊分の着替えが、小さなボストンバッグ一つに全部収まった。"
+      ]
+    },
+    {
+      "id": "verb.refaha.02",
+      "hash": "c1ba84edf9c5384bb1079a31c4920cd32df2c73a82e1c1efbe833e0dd27c2696",
+      "fullSentences": [
+        "編集者は、見出しを二十字以内に収めた。"
+      ]
+    },
+    {
+      "id": "verb.refaha.03",
+      "hash": "518ac2a2b8de310baf17ea7cfcfb41a144374cf1dd0fd4d01b34d6fb464a0e9b",
+      "fullSentences": [
+        "何度も話し合ったあと、隣人同士の争いがようやく収まった。"
+      ]
+    }
+  ]
+}

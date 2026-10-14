@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_microrepair",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-06a-1-r1.draft.json",
+  "at": "2026-10-14T02:57:37.025Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refria.04",
+      "hash": "7e4587108bf14f1cee67a6f50351e815babb29a6b4c84f360bec75a66493ce6f",
+      "fullSentences": [
+        "被写体にピントを合わせるため、撮影者はレンズのフォーカスリングを少し回した。"
+      ]
+    },
+    {
+      "id": "verb.refsfa.02",
+      "hash": "90c740228706fdc1823cabf6559d675a6c2ba3a42151af16a7080abe6bd86a31",
+      "fullSentences": [
+        "搬入車が通れるよう、管理人は入口をふさいでいた自転車を壁際へ退かした。"
+      ]
+    }
+  ]
+}

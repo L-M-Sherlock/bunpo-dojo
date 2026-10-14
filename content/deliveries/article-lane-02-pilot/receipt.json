@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_02",
+  "source": "work/content/article-pairs-20261014/lane-02/pilot.draft.json",
+  "at": "2026-10-13T17:17:33.643Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refada.01",
+      "hash": "95cfa3d9efe39a2acc88731c0c70cf610f45312988c51e8415718487214f3b52",
+      "fullSentences": [
+        "十月から、寮の規則が改まった。"
+      ]
+    },
+    {
+      "id": "verb.refada.02",
+      "hash": "9ce18f193dc34f209f4a3b8151b37661963b971efba867923f8ff4c95c6cf4b8",
+      "fullSentences": [
+        "監査の指摘を受け、委員会は個人情報の保存期間を定めた内規を改めた。"
+      ]
+    },
+    {
+      "id": "verb.refada.03",
+      "hash": "e381ec9cbb06782fd7fe91d6b0437c06f0a0111fbc09c8b6b7c5841351935a3d",
+      "fullSentences": [
+        "社長が会議室に入ると、雑談していた社員の態度が改まった。"
+      ]
+    }
+  ]
+}

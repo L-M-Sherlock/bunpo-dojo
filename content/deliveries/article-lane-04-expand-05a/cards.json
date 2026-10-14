@@ -1,0 +1,371 @@
+[
+  {
+    "id": "verb.refica.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "lexicalKey": "汚れる/汚す（けがれる/けがす）",
+    "scene": "无根据的中伤玷污了记者的名誉",
+    "before": [
+      {
+        "text": "根拠のない中傷が、記者の名誉を",
+        "reading": "こんきょのないちゅうしょうが、きしゃのめいよを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚れた",
+        "reading": "けがれた",
+        "verdict": "ungrammatical",
+        "explanation": "「名誉を」标出受影响的对象；自动词「汚れる」不能在这里接这个直接对象。"
+      },
+      {
+        "id": "b",
+        "text": "汚した",
+        "reading": "けがした",
+        "verdict": "correct",
+        "explanation": "中伤玷污了记者的名誉，「名誉を」是被损及的抽象对象，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "毫无根据的中伤玷污了记者的名誉。",
+    "explanation": "中伤是造成名誉受损的事由，名誉是受影响的对象。",
+    "hint": "注意句中是什么造成了名誉受损，以及受影响的是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refija.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "lexicalKey": "離れる/離す",
+    "scene": "出航汽笛响起后，渡轮缓缓驶离岸壁",
+    "before": [
+      {
+        "text": "出航の汽笛が鳴ると、フェリーは岸壁からゆっくり",
+        "reading": "しゅっこうのきてきがなると、フェリーはがんぺきからゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "離した",
+        "reading": "はなした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「離す」表示让某个对象与所在处分开；本句描写的是渡轮自身离开岸壁。"
+      },
+      {
+        "id": "b",
+        "text": "離れた",
+        "reading": "はなれた",
+        "verdict": "correct",
+        "explanation": "渡轮自身缓缓离开岸壁，主语「フェリー」发生位置变化。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "出航汽笛响起后，渡轮缓缓离开岸壁。",
+    "explanation": "句子写的是渡轮自身驶离岸壁，没有写它移动或释放其他对象。",
+    "hint": "确认句中发生位移的是渡轮本身，还是它另行移动的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refija.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "lexicalKey": "離れる/離す",
+    "scene": "为腾出通道，工作人员把手推车从墙边挪开了一些",
+    "before": [
+      {
+        "text": "通路を空けるため、係員は台車を壁から少し",
+        "reading": "つうろをあけるため、かかりいんはだいしゃをかべからすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "離れた",
+        "reading": "はなれた",
+        "verdict": "ungrammatical",
+        "explanation": "「台車を」是被移动的直接对象；自动词「離れる」不能在这里承接它。"
+      },
+      {
+        "id": "b",
+        "text": "離した",
+        "reading": "はなした",
+        "verdict": "correct",
+        "explanation": "工作人员主动把手推车从墙边挪开，「台車を」是被移动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了腾出通道，工作人员把手推车从墙边挪开了一些。",
+    "explanation": "工作人员主动移动手推车，使它与墙边保持距离。",
+    "hint": "留意是谁采取了移动动作，以及「台車を」标出的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refija.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "lexicalKey": "離れる/離す",
+    "scene": "雷声响起时，受惊的小狗没有离开主人身边",
+    "before": [
+      {
+        "text": "雷鳴が響くと、怖がった子犬は飼い主のそばから",
+        "reading": "らいめいがひびくと、こわがったこいぬはかいぬしのそばから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "離れなかった",
+        "reading": "はなれなかった",
+        "verdict": "correct",
+        "explanation": "小狗自己没有离开主人的身边，句子描述的是主体未发生位置变化。"
+      },
+      {
+        "id": "b",
+        "text": "離さなかった",
+        "reading": "はなさなかった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「離す」表示不让某个对象分开或放开某物；本句说的是小狗自身没有离开主人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雷声响起时，受惊的小狗没有离开主人身边。",
+    "explanation": "受惊的小狗留在主人身边，句子没有写小狗让某个对象保持分开或抓住某物。",
+    "hint": "看句子写的是小狗自身的位置，还是小狗对另一个对象做了什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refija.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "lexicalKey": "離れる/離す",
+    "scene": "停好车后，司机将双手从方向盘上移开，随后查看导航",
+    "before": [
+      {
+        "text": "駐車場で車を止め、運転手はハンドルから両手を",
+        "reading": "ちゅうしゃじょうでくるまをとめ、うんてんしゅはハンドルからりょうてを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、カーナビを確認した。",
+        "reading": "、カーナビをかくにんした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "離れて",
+        "reading": "はなれて",
+        "verdict": "ungrammatical",
+        "explanation": "「両手を」标出司机移开的对象；自动词「離れる」不能在这里承接这个直接对象。"
+      },
+      {
+        "id": "b",
+        "text": "離して",
+        "reading": "はなして",
+        "verdict": "correct",
+        "explanation": "司机把双手从方向盘上移开，随后查看导航；「両手を」是移动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "司机把车停在停车场后，将双手从方向盘上移开，随后查看车载导航。",
+    "explanation": "司机主动将双手从方向盘上移开，再查看导航设备。",
+    "hint": "留意「ハンドルから」表示移开的起点，以及「両手を」标出的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refnaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "lexicalKey": "見える/見る",
+    "scene": "雨停后，观景台的视野里显出海湾对岸的灯塔",
+    "before": [
+      {
+        "text": "雨が上がると、展望台から湾の向こうの灯台が",
+        "reading": "あめがあがると、てんぼうだいからわんのむこうのとうだいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見た",
+        "reading": "みた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見る」表示观察者主动看某物；本句的「灯台が」是视野中的对象，不是观看者。"
+      },
+      {
+        "id": "b",
+        "text": "見えた",
+        "reading": "みえた",
+        "verdict": "correct",
+        "explanation": "雨停后，灯塔从观景台的视野中显现出来，符合自然可见的情形。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "雨停后，从观景台望去，海湾对岸的灯塔映入眼帘。",
+    "explanation": "灯塔是视野中显现的对象，句子没有写它主动观看什么。",
+    "hint": "分辨句中的灯塔是视觉对象，还是主动观看事物的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refnaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "lexicalKey": "見える/見る",
+    "scene": "读完解说牌后，参观者仔细看了一幅画",
+    "before": [
+      {
+        "text": "来館者は解説パネルを読み終えてから、一枚の絵をじっくり",
+        "reading": "らいかんしゃはかいせつパネルをよみおえてから、いちまいのえをじっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見た",
+        "reading": "みた",
+        "verdict": "correct",
+        "explanation": "参观者读完说明后有意仔细观看画作，「絵を」是观看的对象。"
+      },
+      {
+        "id": "b",
+        "text": "見えた",
+        "reading": "みえた",
+        "verdict": "ungrammatical",
+        "explanation": "「絵を」标出被观看的直接对象；自动词「見える」不能在这里接这个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "参观者读完解说牌后，仔细看了一幅画。",
+    "explanation": "参观者有意观看一幅画，画作是观看动作的对象。",
+    "hint": "留意句中谁有意进行观看，以及「絵を」标出的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refnaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "lexicalKey": "見える/見る",
+    "scene": "剧场停电后，安全出口标识仍隐约可见",
+    "before": [
+      {
+        "text": "劇場が停電したあとも、非常口の表示だけがかすかに",
+        "reading": "げきじょうがていでんしたあとも、ひじょうぐちのひょうじだけがかすかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見た",
+        "reading": "みた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見る」表示观察者主动看某物；本句的「表示だけは」是仍可见的标识，不是观看者。"
+      },
+      {
+        "id": "b",
+        "text": "見えた",
+        "reading": "みえた",
+        "verdict": "correct",
+        "explanation": "剧场停电后出口标识仍能从暗处辨认，符合自然可见的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "剧场停电后，只有安全出口的标识还隐约可见。",
+    "explanation": "句子描述的是出口标识在停电后仍留在可视范围内，不是标识主动观看。",
+    "hint": "判断句子是在描述标识能否进入视野，还是有人有意观看标识。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

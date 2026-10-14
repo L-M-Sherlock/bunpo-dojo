@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-04.draft.json",
+  "at": "2026-10-13T12:39:56.394Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.means.02",
+      "hash": "9f9132e2a74fe5ee68d14ce051b6260095a738ddf383dba6bda56d93ef5513df",
+      "fullSentences": [
+        "幹事は、割り勘の一人分を電卓で計算した。"
+      ]
+    },
+    {
+      "id": "particle.means.03",
+      "hash": "3f5d382b4436e52e7b770e13d4df4465ed0a3759e47b5acc9c55037b31d4307d",
+      "fullSentences": [
+        "患者は救急車で市立病院に搬送された。"
+      ]
+    },
+    {
+      "id": "particle.means.04",
+      "hash": "b0484ca0b6d678d30239613146eb6c85910cd12c3bf284ec7ca33b2dd6b978f8",
+      "fullSentences": [
+        "画家は白い壁に、幅の広い刷毛で下地を塗った。"
+      ]
+    },
+    {
+      "id": "particle.means.05",
+      "hash": "689370f1d4539621c393305ce51f3e90a09ca9fb88956ed49ca570a575e19086",
+      "fullSentences": [
+        "旅行者は大きなスーツケースを宿泊先に宅配便で送った。"
+      ]
+    },
+    {
+      "id": "particle.means.06",
+      "hash": "caa436e64fd7c317c935c455002b484eb7d23874a4c03dbe9cf719fc2afacdf7",
+      "fullSentences": [
+        "大工は金づちで板に釘を打ち込んだ。"
+      ]
+    }
+  ]
+}

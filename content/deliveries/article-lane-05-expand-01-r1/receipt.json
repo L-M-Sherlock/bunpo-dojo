@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_05",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-01-r1.draft.json",
+  "at": "2026-10-13T18:36:33.526Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refaaca.01",
+      "hash": "fcceaaa88a5e7dba04c132f7f01134eb51c949c160c765d69472d29dc7bf269f",
+      "fullSentences": [
+        "夕立のあと、駐輪場のくぼみに雨水が溜まっていた。"
+      ]
+    },
+    {
+      "id": "verb.refaaca.03",
+      "hash": "994ee916cc64f3f78ade238fdf3dbf4d02b2f878dc8a283220af0137bb637081",
+      "fullSentences": [
+        "文化祭について未返信の問い合わせが広報係に溜まっていた。"
+      ]
+    }
+  ]
+}

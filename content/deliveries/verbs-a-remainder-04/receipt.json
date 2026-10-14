@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/remainder-04.draft.json",
+  "at": "2026-10-13T12:17:38.979Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.enter.02",
+      "hash": "6fc7fbbcce7764192f951ebce9658099f3df089b3ad9bc91391bef1ae9c2cd53",
+      "fullSentences": [
+        "母は急須に茶葉を入れました。"
+      ]
+    },
+    {
+      "id": "verb.enter.03",
+      "hash": "c4602f6728cea06f5fa8387b48c7979e3cf8b56e566a248974c90e58caec47d3",
+      "fullSentences": [
+        "窓が開いている間に、猫はこっそり部屋に入りました。"
+      ]
+    },
+    {
+      "id": "verb.enter.04",
+      "hash": "72a1211c5a0565e873ce1d3b5b2e80d6a1837e3a014dbdbf1c7c8cb4a9e0901c",
+      "fullSentences": [
+        "父は買ってきた冷凍食品を冷凍庫に入れました。"
+      ]
+    },
+    {
+      "id": "verb.enter.05",
+      "hash": "dd7bda777acd0473b890dfb267e4a2eed01b107f62e641f856e274713595c6cd",
+      "fullSentences": [
+        "大雨の後、壁のすき間から水が地下室に入りました。"
+      ]
+    },
+    {
+      "id": "verb.exit.01",
+      "hash": "348e0710f2f7bcff21a7387698ac6db47885790c6979fcf5ffa9a3484272a754",
+      "fullSentences": [
+        "閉会後、参加者が会場から出ました。"
+      ]
+    }
+  ]
+}

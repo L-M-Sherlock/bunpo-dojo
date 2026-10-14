@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refjba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "lexicalKey": "curator-moves-display-stand",
+    "scene": "闭馆后，馆员把展台移到墙边，腾出通道。",
+    "before": [
+      {
+        "text": "閉館後、学芸員は展示台を壁際に",
+        "reading": "へいかんご、がくげいいんはてんじだいをかべぎわに"
+      }
+    ],
+    "after": [
+      {
+        "text": "通路を広くした。",
+        "reading": "つうろをひろくした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "寄せて",
+        "reading": "よせて",
+        "verdict": "correct",
+        "explanation": "「寄せる」表示把对象移近某处；馆员将「展示台」挪到墙边，以拓宽通道。"
+      },
+      {
+        "id": "b",
+        "text": "寄って",
+        "reading": "よって",
+        "verdict": "ungrammatical",
+        "explanation": "「寄る」表示主体自身靠近某处；这里「展示台を」是被馆员移动的对象，不能接不带对象的「寄って」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭馆后，馆员把展台挪到墙边，拓宽了通道。",
+    "explanation": "馆员主动把展台移近墙边；「展示台を」标记了被移动的对象。",
+    "hint": "判断展台是自行靠近墙边，还是馆员把它挪到墙边。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refqaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "lexicalKey": "empty-shop-hears-neighbor-radio",
+    "scene": "闭店后店内无人，隔壁咖啡馆的报时声仍隐约传来。",
+    "before": [
+      {
+        "text": "閉店後の無人の店内では、隣の喫茶店のラジオの時報はかすかに",
+        "reading": "へいてんごのむじんのてんないでは、となりのきっさてんのラジオのじほうはかすかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "聞こえていた",
+        "reading": "きこえていた",
+        "verdict": "correct",
+        "explanation": "报时声自然传入店内；「聞こえる」写的是声音能被听见，不要求有人专心收听。"
+      },
+      {
+        "id": "b",
+        "text": "聞いていた",
+        "reading": "きいていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "若把「時報は」看作「聞く」的对象，句子会表示某个省略的听者在收听报时；场景写的是空店里声音自然传来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店铺打烊后，空无一人的店内仍隐约传来隔壁咖啡馆收音机的报时声。",
+    "explanation": "「聞こえる」表示声音自然进入听觉；「聞く」则会让省略的听者成为收听者，不合空店中声音自行传来的场景。",
+    "hint": "判断这里写的是声音自然传来，还是有人把注意力放在报时声上收听。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refqaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "lexicalKey": "reporter-listens-to-athlete-explanation",
+    "scene": "采访中，记者没有打断选手，听完了赛前调整的说明。",
+    "before": [
+      {
+        "text": "大会前の調整について、記者は選手の説明を遮らずに最後まで",
+        "reading": "たいかいまえのちょうせいについて、きしゃはせんしゅのせつめいをさえぎらずにさいごまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "聞いた",
+        "reading": "きいた",
+        "verdict": "correct",
+        "explanation": "记者作为听者，主动听完了选手的说明；「説明を」是「聞く」的对象。"
+      },
+      {
+        "id": "b",
+        "text": "聞こえた",
+        "reading": "きこえた",
+        "verdict": "ungrammatical",
+        "explanation": "「聞こえる」表示声音自然可闻，通常以声音作「が」格主体；这里「説明を」是记者主动听取的对象，不能接「聞こえた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "谈到赛前调整时，记者没有打断选手，把说明听到了最后。",
+    "explanation": "句子描写记者主动听取选手的说明；「選手の説明を」是听取对象。",
+    "hint": "判断记者是在主动听取选手的说明，还是只描述说明声自然可闻。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refqaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "lexicalKey": "harbor-announcement-audible-on-deck",
+    "scene": "船员忙着卸货，岸边的开航广播不留心也能在甲板上听清。",
+    "before": [
+      {
+        "text": "荷を下ろす船員がいる甲板でも、岸壁の出航案内は意識せずともよく",
+        "reading": "にをおろすせんいんがいるかんぱんでも、がんぺきのしゅっこうあんないはいしきせずともよく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "聞こえた",
+        "reading": "きこえた",
+        "verdict": "correct",
+        "explanation": "广播即使在忙于卸货的甲板上也清楚可闻；「聞こえる」表示声音自然传来。"
+      },
+      {
+        "id": "b",
+        "text": "聞いた",
+        "reading": "きいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "若把「出航案内は」读作「聞く」的对象，句子会表示有人主动收听广播；这里强调的是即使不留意也听得见。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在忙着卸货的船员所在甲板上，岸边的开航广播即使不留心也清晰可闻。",
+    "explanation": "句子写广播自然传入忙碌船员所在的甲板；若用「聞く」，会转为有人主动收听广播。",
+    "hint": "判断广播是自然传入听觉，还是有人专心收听了它。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refqaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "lexicalKey": "counselor-listens-to-client-wishes",
+    "scene": "面谈时，咨询员让来访者说完，认真听取他的希望。",
+    "before": [
+      {
+        "text": "面談では、相談員は来訪者の希望を遮らずに最後まで",
+        "reading": "めんだんでは、そうだんいんはらいほうしゃのきぼうをさえぎらずにさいごまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "聞いた",
+        "reading": "きいた",
+        "verdict": "correct",
+        "explanation": "咨询员作为听者，认真听完了来访者表达的希望；「希望を」是听取对象。"
+      },
+      {
+        "id": "b",
+        "text": "聞こえた",
+        "reading": "きこえた",
+        "verdict": "ungrammatical",
+        "explanation": "「聞こえる」表示声音自然可闻；这里「希望を」是咨询员主动听取的对象，不能用「聞こえた」承接。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "面谈时，咨询员没有打断来访者，把他的希望听到了最后。",
+    "explanation": "咨询员主动听取来访者的希望；「来訪者の希望を」是「聞く」的对象。",
+    "hint": "判断咨询员是在主动听取来访者的希望，还是只描述话语自然可闻。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "lexicalKey": "uncrewed-inspection-car-crosses-tunnel",
+    "scene": "夜间停运检修时，无人检测车缓慢穿过海底隧道。",
+    "before": [
+      {
+        "text": "夜間、一般車の通行が止まった海底トンネル内を、保守用の無人点検車が低速で",
+        "reading": "やかん、いっぱんしゃのつうこうがとまったかいていトンネルないを、ほしゅようのむじんてんけんしゃがていそくで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "通った",
+        "reading": "とおった",
+        "verdict": "correct",
+        "explanation": "无人检测车自身从海底隧道内通过；车辆是移动主体。"
+      },
+      {
+        "id": "b",
+        "text": "通した",
+        "reading": "とおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「通す」会让车辆成为施事，表示它让另一个对象通过隧道；这里移动的是检测车本身。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜间停止普通车辆通行进行检修时，无人检测车缓慢穿过了海底隧道。",
+    "explanation": "句子写无人检测车自身通过隧道；「通す」则表示施事让别的对象通过。",
+    "hint": "判断通过隧道的是检测车本身，还是检测车让另一个对象通过。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "lexicalKey": "librarian-guides-visitors-into-reading-room",
+    "scene": "馆员核对预约名单后，逐一领访客进入阅览室。",
+    "before": [
+      {
+        "text": "館員は予約名簿を確認し、見学者を一人ずつ奥の閲覧室へ",
+        "reading": "かんいんはよやくめいぼをかくにんし、けんがくしゃをひとりずつおくのえつらんしつへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "通した",
+        "reading": "とおした",
+        "verdict": "correct",
+        "explanation": "馆员确认名单后，让访客逐一进入阅览室；「見学者を」是被引入的对象。"
+      },
+      {
+        "id": "b",
+        "text": "通った",
+        "reading": "とおった",
+        "verdict": "ungrammatical",
+        "explanation": "「通る」表示访客自身通过某处，应以访客作主体；此处「見学者を」是馆员引入的对象，须用「通す」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "馆员核对预约名单后，逐一领访客进入里面的阅览室。",
+    "explanation": "馆员是让访客进入阅览室的施事；访客是「通す」的对象。",
+    "hint": "判断是访客自己通过入口，还是馆员把访客引入阅览室。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "lexicalKey": "new-student-passes-staff-room",
+    "scene": "首次来校的留学生独自寻找图书室，安静地经过职员室前。",
+    "before": [
+      {
+        "text": "初めて来校した留学生は、図書室への道を探しながら職員室の前を静かに",
+        "reading": "はじめてらいこうしたりゅうがくせいは、としょしつへのみちをさがしながらしょくいんしつのまえをしずかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "通った",
+        "reading": "とおった",
+        "verdict": "correct",
+        "explanation": "留学生自己沿职员室前的走廊经过；「職員室の前を」标记行经的路线。"
+      },
+      {
+        "id": "b",
+        "text": "通した",
+        "reading": "とおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「通す」会表示留学生让另一个人或物经过此处；本句写的是留学生本人寻找图书室并经过职员室前。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "第一次来校的留学生一边寻找图书室的路，一边安静地经过了职员室前。",
+    "explanation": "句子写留学生本人沿走廊经过职员室前；「通す」会变成他让别的对象通过。",
+    "hint": "判断经过职员室前的是留学生本人，还是留学生让另一个对象通过。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

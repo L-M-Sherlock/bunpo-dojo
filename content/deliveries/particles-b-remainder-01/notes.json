@@ -1,0 +1,75 @@
+[
+  {
+    "id": "particle.recipient.07",
+    "fullCorrectSentences": [
+      "大学合格祝いとして、祖母は孫に腕時計を贈った。",
+      "大学合格祝いとして、祖母は孫へ腕時計を贈った。"
+    ],
+    "sceneRationale": "奶奶将腕表作为大学录取贺礼送给孙子；孙子是礼物的接收者。",
+    "otherReadings": "「に」标出礼物接收者；「へ」标出礼物送达的方向，两者在本场景都成立。「と」则会把祖母和孙子读成共同赠送者，接收者没有说明。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标出腕表的接收者", "verdict": "correct"},
+      {"id": "b", "text": "へ", "reading": "え", "meaning": "标出礼物送达的方向／对象", "verdict": "correct"},
+      {"id": "c", "text": "と", "reading": "と", "meaning": "表示祖母与孙子共同赠送腕表", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "两种正确完整句分别核读：「大学合格祝いとして、祖母は孫に腕時計を贈った。」「大学合格祝いとして、祖母は孫へ腕時計を贈った。」核对大学合格祝い（だいがくごうかくいわい）、祖母（そぼ）、孫（まご）、腕時計（うでどけい）、贈った（おくった）；独立选项「へ」记录其发音「え」。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.08",
+    "fullCorrectSentences": [
+      "避難訓練の係員は、参加者に会場図を配った。"
+    ],
+    "sceneRationale": "疏散演练开始前，工作人员将会场图分发给参加者；参加者是图的接收者。",
+    "otherReadings": "「参加者と」と会把参加者读成与工作人员一起向第三者分发会场图的人；本场景中参加者收到地图。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标出会场图的接收者", "verdict": "correct"},
+      {"id": "b", "text": "と", "reading": "と", "meaning": "表示与参加者一起分发会场图", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：避難訓練（ひなんくんれん）、係員（かかりいん）、参加者（さんかしゃ）、会場図（かいじょうず）、配った（くばった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.09",
+    "fullCorrectSentences": [
+      "終電が運休になり、駅員は乗客に代行バスの乗り場を知らせた。"
+    ],
+    "sceneRationale": "末班车停运后，站务员告知乘客接驳巴士的乘车点；乘客接收这条信息。",
+    "otherReadings": "「乗客と」と会把站务员与乘客读成共同向未说明的第三者告知乘车点；场景中的乘客是信息接收者。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标出乘车点信息的接收者", "verdict": "correct"},
+      {"id": "b", "text": "と", "reading": "と", "meaning": "表示与乘客共同告知第三者", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：終電（しゅうでん）、運休（うんきゅう）、駅員（えきいん）、乗客（じょうきゃく）、代行バス（だいこうバス）、乗り場（のりば）、知らせた（しらせた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.recipient.10",
+    "fullCorrectSentences": [
+      "出張先の父は、宿に着いてから母に電話した。",
+      "出張先の父は、宿に着いてから母と電話した。"
+    ],
+    "sceneRationale": "出差中的父亲抵达旅馆后与母亲通话；母亲既可表为拨打电话的对象，也可表为电话交谈的另一方。",
+    "otherReadings": "「に」着眼于父亲拨给谁；「と」着眼于与谁通话。这里两者都描述父亲和母亲之间的同一通电话，因此都列为正确。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标出拨打电话的对象", "verdict": "correct"},
+      {"id": "b", "text": "と", "reading": "と", "meaning": "标出电话交谈的另一方", "verdict": "correct"}
+    ],
+    "readingCheck": "两种正确完整句分别核读：「出張先の父は、宿に着いてから母に電話した。」「出張先の父は、宿に着いてから母と電話した。」核对出張先（しゅっちょうさき）、父（ちち）、宿（やど）、着いて（ついて）、母（はは）、電話した（でんわした）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.01",
+    "fullCorrectSentences": [
+      "児童館の読み聞かせ会は、土曜日の午後三時に始まります。"
+    ],
+    "sceneRationale": "故事会安排在星期六下午三点这一具体时刻开始，题目标注的是时点而非时长。",
+    "otherReadings": "「で」可用于所需时间或期限，例如完成一项活动用了多久；此句明确说活动在三点开始，因此「で」不表达所需时点。像「明日」「昨日」这样的相对时间词通常可不接「に」，本题不把这种用法推广到具体钟点。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记活动开始的具体时点", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可表示时长／期限，但不符合此处的固定开始时刻", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：児童館（じどうかん）、読み聞かせ会（よみきかせかい）、土曜日（どようび）、午後三時（ごごさんじ）、始まります（はじまります）。",
+    "unresolvedQuestions": []
+  }
+]

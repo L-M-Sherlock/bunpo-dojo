@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_03_recovery",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-04.draft.json",
+  "at": "2026-10-13T19:55:53.779Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refdba.04",
+      "hash": "7fbcfcc923c04452a46e24dd8b5d7377714214c5fb04635b99735cb2dd3de88b",
+      "fullSentences": [
+        "植え替えの際に根を傷め、盆栽愛好家は黒松を枯らしました。"
+      ]
+    },
+    {
+      "id": "verb.refdha.01",
+      "hash": "94a1e09ecbe8418ffe1ca12a14ba2201ce93d9dcf38fd80e8c6c7f66d79e509b",
+      "fullSentences": [
+        "強風で柵が倒れ、子馬が牧場の外へ逃げました。"
+      ]
+    },
+    {
+      "id": "verb.refdha.02",
+      "hash": "ccef84ef02be9ac0291583fa68dd257da22be6fcce911dd02f101ce3bd904a3d",
+      "fullSentences": [
+        "保護施設の職員は、治療を終えたキツネを山へ逃がしました。"
+      ]
+    },
+    {
+      "id": "verb.refdha.03",
+      "hash": "61fde90bfab93a42f19daa756caa54cc60f4f70a06a98ee53d2c47c93937da06",
+      "fullSentences": [
+        "火災報知器が鳴ると、客たちは非常口から建物の外へ逃げました。"
+      ]
+    },
+    {
+      "id": "verb.refdha.04",
+      "hash": "b46f243c4b317ea3ef22217b96ab4038bb59ea52d41d2344fd275b4f46243d31",
+      "fullSentences": [
+        "警備員は一瞬目を離した隙に、侵入者を逃がしてしまいました。"
+      ]
+    },
+    {
+      "id": "verb.refeda.01",
+      "hash": "3e8a639b8cb5609961c51951359c15bb9c77bdadfa9ddbb3951bd04a764e44e5",
+      "fullSentences": [
+        "雨上がり、石垣のすき間にシダが生えました。"
+      ]
+    },
+    {
+      "id": "verb.refeda.02",
+      "hash": "4073ee52f0821806221843e53a3c26e20305697709ab6d35575c22a7cd3bb4db",
+      "fullSentences": [
+        "映画の役作りのため、俳優は口ひげを生やしました。"
+      ]
+    },
+    {
+      "id": "verb.refeda.03",
+      "hash": "1fb301a3d0967398206e8804f599ef3be660ac1ee92244244a56f96b2b38a169",
+      "fullSentences": [
+        "手術のために刈った犬の毛が、数か月後にまた生えました。"
+      ]
+    },
+    {
+      "id": "verb.refeda.04",
+      "hash": "4e5da8f9bd9ac671bb5cf532b27430f96f532940bbe2d8a77d6a324728616904",
+      "fullSentences": [
+        "庭師は庭石に苔を生やしました。"
+      ]
+    },
+    {
+      "id": "verb.reffca.01",
+      "hash": "dcf491be35ad525f4b221e902fe46c5368ac348710f2a88839553ea8b191ae3a",
+      "fullSentences": [
+        "干潮のあと、潮が満ちました。"
+      ]
+    },
+    {
+      "id": "verb.reffca.02",
+      "hash": "137518171bff4148b513605166dd328e33329998b7871b2daec6c4441bd652d2",
+      "fullSentences": [
+        "実験の前に、研究員はフラスコを蒸留水で満たしました。"
+      ]
+    },
+    {
+      "id": "verb.reffca.03",
+      "hash": "8906520e52e552e03be36c324183bfb3f8a6ac58e9a3a02b5fef5dca52a89486",
+      "fullSentences": [
+        "合格者が発表されると、会場は安堵のため息に満ちました。"
+      ]
+    },
+    {
+      "id": "verb.reffca.04",
+      "hash": "c2f27d9fd4fca094dd498c0a4ea5cbf87477b86fae7535e7138b71a0b00168f1",
+      "fullSentences": [
+        "企画チームは、利用者の要望をすべて満たしました。"
+      ]
+    },
+    {
+      "id": "verb.refiba.01",
+      "hash": "c87e4accabda5efd146b9e6cbd07e4d9e59af5271f88579a98d01e66b91d6df2",
+      "fullSentences": [
+        "来客の足音を聞くと、猫はソファの下に隠れました。"
+      ]
+    },
+    {
+      "id": "verb.refiba.02",
+      "hash": "7a4b7a54c70e7544f9fb7fc48887622d3714e5e0ebba65507c4010d2086338e6",
+      "fullSentences": [
+        "展示の準備中、学芸員は傷んだ収蔵品を来場者の目から隠しました。"
+      ]
+    },
+    {
+      "id": "verb.refiba.03",
+      "hash": "3952abe2768f371b30211c56af3290695bfda1bacafcd8f35947ab4972a1695f",
+      "fullSentences": [
+        "人の気配を感じた鹿の群れが、木立の陰に隠れました。"
+      ]
+    }
+  ]
+}

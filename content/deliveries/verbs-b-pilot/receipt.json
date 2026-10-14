@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/pilot.draft.json",
+  "at": "2026-10-13T11:15:46.537Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.start.01",
+      "hash": "7ffec41c51904805f8acc29d69cc727c3e114781f7fa2f75a48b69ac40746463",
+      "fullSentences": [
+        "会社説明会が十時に始まりました。"
+      ]
+    },
+    {
+      "id": "verb.start.02",
+      "hash": "6408d62a2d8b680c2b55b0c97add7e57477524eb6922b0072bf1b92a6f2d5abb",
+      "fullSentences": [
+        "司会者が授賞式を始めました。"
+      ]
+    },
+    {
+      "id": "verb.start.03",
+      "hash": "35dafddb8f62c8252ab4b5bb2d708ba35ffe5c3f17e3231947a5890153a0c761",
+      "fullSentences": [
+        "新路線の運行が来月から始まります。"
+      ]
+    }
+  ]
+}

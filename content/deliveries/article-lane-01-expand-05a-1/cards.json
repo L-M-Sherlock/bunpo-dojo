@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refhaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "lexicalKey": "rescue-team-delivers-water-to-blackout-area",
+    "scene": "救援队尝试各种办法向停电地区送水。",
+    "before": [
+      {
+        "text": "停電した地域へ飲み水を届けるため、救援隊はあらゆる手を",
+        "reading": "ていでんしたちいきへのみみずをとどけるため、きゅうえんたいはあらゆるてを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "尽くした",
+        "reading": "つくした",
+        "verdict": "correct",
+        "explanation": "救援队把可行办法都用上了；「あらゆる手を尽くす」正表示为达成目的采取各种办法。"
+      },
+      {
+        "id": "b",
+        "text": "尽きた",
+        "reading": "つきた",
+        "verdict": "ungrammatical",
+        "explanation": "「尽きる」表示手段本身耗尽，通常说「手が尽きた」；此处「手を」是被采用的办法，不能接「尽きた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了把饮用水送到停电地区，救援队用尽了各种办法。",
+    "explanation": "句中救援队把各种办法用于送水行动，「手」是行动者采用的手段。",
+    "hint": "判断句子写的是采用各种办法，还是可用办法已经耗尽。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "lexicalKey": "wet-cardboard-box-crushed-under-heavy-cargo",
+    "scene": "仓库里淋湿的纸箱被重物压扁了。",
+    "before": [
+      {
+        "text": "倉庫では、雨に濡れたダンボール箱が重い荷物の下敷きになり、すっかり",
+        "reading": "そうこでは、あめにぬれたダンボールばこがおもいにもつのしたじきになり、すっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潰れていた",
+        "reading": "つぶれていた",
+        "verdict": "correct",
+        "explanation": "纸箱处在重物下面，形状自身被压扁；句子描写的是纸箱发生的变化和留下的状态。"
+      },
+      {
+        "id": "b",
+        "text": "潰していた",
+        "reading": "つぶしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「潰す」表示某个施事把对象压扁；若用在这里，会把纸箱说成压坏别的东西的一方，而句中纸箱自身被重物压扁。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "仓库里，淋湿的纸箱被压在重物下，已经完全扁了。",
+    "explanation": "「ダンボール箱が」是形状发生变化的主体，重物使纸箱自身变扁。",
+    "hint": "留意纸箱是发生形变的对象，还是主动压坏别的东西的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "lexicalKey": "long-running-stationery-shop-goes-out-of-business",
+    "scene": "长期亏损的老文具店去年停止营业。",
+    "before": [
+      {
+        "text": "長年赤字が続いていた商店街の老舗文房具店は、昨年",
+        "reading": "ながねんあかじがつづいていたしょうてんがいのしにせぶんぼうぐてんは、さくねん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潰れた",
+        "reading": "つぶれた",
+        "verdict": "correct",
+        "explanation": "长期亏损的文具店自身经营失败并倒闭；「店は潰れる」可表达店铺歇业倒闭。"
+      },
+      {
+        "id": "b",
+        "text": "潰した",
+        "reading": "つぶした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「潰す」表示某个施事使店铺或其他对象倒闭；这里写的是文具店自身经营不下去，不是它使别的对象倒闭。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "长期亏损的商店街老文具店去年倒闭了。",
+    "explanation": "句子把经营失败的文具店作为变化主体，描述它自身停止营业。",
+    "hint": "看清句子描述的是店铺自身的经营结果，还是店铺对别的对象造成的结果。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "lexicalKey": "cook-crushes-ripe-banana-for-pancakes",
+    "scene": "料理人用叉背把成熟的香蕉压碎，准备拌入松饼面糊。",
+    "before": [
+      {
+        "text": "パンケーキの生地に混ぜるため、料理人は熟したバナナをフォークの背で",
+        "reading": "パンケーキのきじにまぜるため、りょうりにんはじゅくしたバナナをフォークのせで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潰した",
+        "reading": "つぶした",
+        "verdict": "correct",
+        "explanation": "料理人用叉背主动压碎香蕉；「バナナを」标记了被处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "潰れた",
+        "reading": "つぶれた",
+        "verdict": "ungrammatical",
+        "explanation": "「潰れる」表示香蕉自身被压扁，通常说「バナナが潰れた」；此处「バナナを」是料理人动作的对象，不能接「潰れた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了拌入松饼面糊，厨师用叉背把成熟的香蕉压碎了。",
+    "explanation": "料理人对香蕉施加动作，香蕉是被压碎的对象，所以句子使用「潰す」。",
+    "hint": "观察谁施加动作，以及香蕉在句中的格助词。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "mixed.09",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "unit": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.11",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "unit": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

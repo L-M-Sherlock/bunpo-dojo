@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-02.draft.json",
+  "at": "2026-10-13T12:39:56.210Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.time.02",
+      "hash": "72e8ceb6cc4a836db451be990a7c5e8bd7bbf47c1d4dd93724a62430446ef092",
+      "fullSentences": [
+        "博物館の受付は、明日は午前九時に開きます。"
+      ]
+    },
+    {
+      "id": "particle.time.03",
+      "hash": "bb697bc301804fdf7df43985e248134e95fcb5e79b97be08d58c86419e701ba3",
+      "fullSentences": [
+        "野外上映会は六月二十日に行われます。"
+      ]
+    },
+    {
+      "id": "particle.time.04",
+      "hash": "8527c33767d9758bf11edfa78dd85d69a4c63b9f8633729739136db328825f04",
+      "fullSentences": [
+        "工場では、設備の定期点検を三月三十一日に行います。"
+      ]
+    },
+    {
+      "id": "particle.time.05",
+      "hash": "6744903f576b66345fe605079367639b9d1275c908e35a21f325d20754d514a5",
+      "fullSentences": [
+        "工場見学の送迎バスは、金曜日の午前八時四十五分に正門を出ます。"
+      ]
+    },
+    {
+      "id": "particle.time.06",
+      "hash": "9656006cca8d72778b1228c7e89388a35e7a9dc095ae35356b05faa6bf06d5e3",
+      "fullSentences": [
+        "夏祭りの花火は午後七時十分に始まる。"
+      ]
+    }
+  ]
+}

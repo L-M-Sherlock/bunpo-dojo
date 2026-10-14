@@ -1,0 +1,98 @@
+[
+  {
+    "id": "particle.existence.16",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "houseplant-by-office-window",
+    "scene": "办公室搬完家具后，员工确认窗边摆着一盆绿植。",
+    "before": [
+      {
+        "text": "窓辺",
+        "reading": "まどべ"
+      }
+    ],
+    "after": [
+      {
+        "text": "観葉植物があります。",
+        "reading": "かんようしょくぶつがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出绿植摆放并存在的窗边位置。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标活动或事件发生的地点；这里是观察绿植的所在处，不是窗边的活动。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "窗边有观叶植物。",
+    "explanation": "绿植存在于窗边，用に标记位置。",
+    "hint": "留意句子说的是绿植在哪里，还是有人在窗边做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.18",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "delivery-box-at-front-door",
+    "scene": "下班回家时，家人发现玄关前放着快递箱。",
+    "before": [
+      {
+        "text": "玄関先",
+        "reading": "げんかんさき"
+      }
+    ],
+    "after": [
+      {
+        "text": "宅配便の箱があります。",
+        "reading": "たくはいびんのはこがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で可以标投递等动作发生的地点；本句只说快递箱已经在玄关前。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に指出快递箱静态放置的玄关前位置。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "玄关前有快递箱。",
+    "explanation": "快递箱的存在地点用に标出。",
+    "hint": "判断句子是在报告箱子目前在哪里，还是讲投递动作在哪里发生。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

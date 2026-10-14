@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.remain.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "pair": {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.line.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.line.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.line.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.line.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "transitive"
+  }
+]

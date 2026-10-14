@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refiaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "lexicalKey": "共同作业失误追责",
+    "scene": "共同作业出了问题，被追责的他显露出任性一面。",
+    "before": [
+      {
+        "text": "共同作業の失敗で責任を問われた彼は、隠していたわがままな本性を",
+        "reading": "きょうどうさぎょうのしっぱいでせきにんをとわれたかれは、かくしていたわがままなほんしょうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "現した",
+        "reading": "あらわした",
+        "verdict": "correct",
+        "explanation": "被追问责任时，他显露出藏着的任性本性；「本性を」是「現す」显露出来的对象。"
+      },
+      {
+        "id": "b",
+        "text": "現れた",
+        "reading": "あらわれた",
+        "verdict": "ungrammatical",
+        "explanation": "「現れる」表示本性自身显现，通常说「本性が現れる」；不能接本句的直接对象标记「本性を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "共同作业出了问题，被追究责任的他显露出了藏着的任性本性。",
+    "explanation": "句中由他显露出本性，「本性を」是动作作用的对象。",
+    "hint": "留意句中谁承受追问，以及「本性」在句子中的格关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiha",
+    "familyId": "verb.refiha",
+    "lexicalKey": "融雪流入谷底小溪",
+    "scene": "山坡上的融雪水流向谷底的小溪。",
+    "before": [
+      {
+        "text": "山の斜面から、雪解け水が谷底の小川へ",
+        "reading": "やまのしゃめんから、ゆきどけみずがたにぞこのおがわへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "流れている",
+        "reading": "ながれている",
+        "verdict": "correct",
+        "explanation": "融雪水本身沿坡流向小溪，是移动的主体；「流れる」描述水自行流动。"
+      },
+      {
+        "id": "b",
+        "text": "流している",
+        "reading": "ながしている",
+        "verdict": "meaning-mismatch",
+        "explanation": "「流す」表示主体排出或使某物流动；本句写融雪水自身移动，没有融雪水排放其他对象的关系。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山坡上的融雪水流向谷底的小溪。",
+    "explanation": "融雪水是自行流动的主体，句子指出了它流向的小溪。",
+    "hint": "观察句中移动的是融雪水本身，还是有主体让别的东西流动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiha",
+    "familyId": "verb.refiha",
+    "lexicalKey": "毕业典礼上听致辞落泪",
+    "scene": "毕业典礼上听到恩师最后的致辞后，一名毕业生默默流泪。",
+    "before": [
+      {
+        "text": "卒業式で恩師の最後の挨拶を聞いた卒業生は、静かに涙を",
+        "reading": "そつぎょうしきでおんしのさいごのあいさつをきいたそつぎょうせいは、しずかになみだを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "流した",
+        "reading": "ながした",
+        "verdict": "correct",
+        "explanation": "毕业生听完致辞后流下眼泪；「涙を流す」是自然的搭配，「涙を」标出流出的对象。"
+      },
+      {
+        "id": "b",
+        "text": "流れた",
+        "reading": "ながれた",
+        "verdict": "ungrammatical",
+        "explanation": "自动词「流れる」描述眼泪自行流动，需说「涙が流れる」；不能保留本句的「涙を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "听了恩师在毕业典礼上的最后致辞后，一名毕业生静静地流下了眼泪。",
+    "explanation": "毕业生主动流泪，眼泪是动作所涉及的对象。",
+    "hint": "留意「涙」是句中发生移动的主体，还是动作作用的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiha",
+    "familyId": "verb.refiha",
+    "lexicalKey": "剧场播放四重奏录音",
+    "scene": "开演前，小剧场里静静传来弦乐四重奏的录音。",
+    "before": [
+      {
+        "text": "開演前の小劇場では、弦楽四重奏の録音が静かに",
+        "reading": "かいえんまえのしょうげきじょうでは、げんがくしじゅうそうのろくおんがしずかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "流れていた",
+        "reading": "ながれていた",
+        "verdict": "correct",
+        "explanation": "录音中的四重奏声在剧场里传出；句子把传出的声音内容作为「流れる」的主体。"
+      },
+      {
+        "id": "b",
+        "text": "流していた",
+        "reading": "ながしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「流す」表示操作方播放某段录音；此处是「録音が」作主体，描写声音传出，角色关系不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开演前的小剧场里，弦乐四重奏的录音静静地播放着。",
+    "explanation": "录音中的声音在剧场里传出，句子把它作为流动的主体来描写。",
+    "hint": "看句中「が」标出的对象是什么，再辨别是否另有主体对声音采取操作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

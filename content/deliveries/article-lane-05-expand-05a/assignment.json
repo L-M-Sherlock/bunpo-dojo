@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refida.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "pair": {
+      "id": "verb.refida",
+      "intransitive": "零れる",
+      "intransitiveReading": "こぼれる",
+      "transitive": "零す",
+      "transitiveReading": "こぼす",
+      "meaning": "辨析「零れる／零す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refika.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "pair": {
+      "id": "verb.refika",
+      "intransitive": "汚れる",
+      "intransitiveReading": "よごれる",
+      "transitive": "汚す",
+      "transitiveReading": "よごす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refika.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "pair": {
+      "id": "verb.refika",
+      "intransitive": "汚れる",
+      "intransitiveReading": "よごれる",
+      "transitive": "汚す",
+      "transitiveReading": "よごす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refika.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "pair": {
+      "id": "verb.refika",
+      "intransitive": "汚れる",
+      "intransitiveReading": "よごれる",
+      "transitive": "汚す",
+      "transitiveReading": "よごす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refika.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "pair": {
+      "id": "verb.refika",
+      "intransitive": "汚れる",
+      "intransitiveReading": "よごれる",
+      "transitive": "汚す",
+      "transitiveReading": "よごす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refoaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "pair": {
+      "id": "verb.refoaa",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺する",
+      "transitiveReading": "ゆする",
+      "meaning": "辨析「揺れる／揺する」的角色与对象",
+      "count": 4,
+      "articleGroup": 15,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refoaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "pair": {
+      "id": "verb.refoaa",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺する",
+      "transitiveReading": "ゆする",
+      "meaning": "辨析「揺れる／揺する」的角色与对象",
+      "count": 4,
+      "articleGroup": 15,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refoaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "pair": {
+      "id": "verb.refoaa",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺する",
+      "transitiveReading": "ゆする",
+      "meaning": "辨析「揺れる／揺する」的角色与对象",
+      "count": 4,
+      "articleGroup": 15,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

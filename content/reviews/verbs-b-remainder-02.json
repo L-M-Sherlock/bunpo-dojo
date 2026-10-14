@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.gather.02", "hash": "e7bb246e80a590d9840b033f1e47a66d19fd9007fc13505c05d540fb1694b2c6", "fullSentences": ["調査員が住民の意見を集めました。"], "status": "approved",
+      "reason": "调查员收集居民意见，調査員が为施事、意見を为对象，集める符合 transitive 分配；完整句自然。",
+      "answerSet": "a 唯一正确；b 集まる不能把「住民の意見を」当作直接宾语。",
+      "readings": "調査員＝ちょうさいん、住民＝じゅうみん、意見＝いけん；集めました＝あつめました、集まりました＝あつまりました。",
+      "translation": "译文准确说调查员汇集居民意见，未把防洪方案写进句子直译。",
+      "options": "a correct 准确；b ungrammatical 对当前固定句段成立，若说意见汇聚须写「意見が集まりました」。"
+    },
+    {
+      "id": "verb.gather.03", "hash": "bd3b0ff3588bfc9e18fcdce3e2e7c3ae7cf45d402f8a277099d32b4bebbe3de6", "fullSentences": ["避難者が公民館に集まりました。"], "status": "approved",
+      "reason": "避难者聚到公民馆，避難者が为聚集的人群、公民館に为地点，集まる符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表示避难者自身集合；b 会把避难者当成召集其他人的施事。",
+      "readings": "避難者＝ひなんしゃ、公民館＝こうみんかん；集まりました＝あつまりました、集めました＝あつめました。",
+      "translation": "译文准确表达避难者聚到公民馆，没有擅加落石或撤离过程。",
+      "options": "a correct 准确；b meaning-mismatch 准确，集める即便省略对象也不表示主语自己聚集。"
+    },
+    {
+      "id": "verb.gather.04", "hash": "161d53c70db2a0e59f668e83d064e6f571d01b10292f5d8a048f8a60ba2b12c5", "fullSentences": ["図書館員が町の古い地図を集めました。"], "status": "approved",
+      "reason": "图书馆员收集旧地图，館員が为施事、地図を为对象，集める符合 transitive 分配；完整句自然。",
+      "answerSet": "a 唯一正确；b 集まる不能把「古い地図を」作为直接宾语。",
+      "readings": "図書館員＝としょかんいん、町＝まち、古い＝ふるい、地図＝ちず；集めました＝あつめました、集まりました＝あつまりました。",
+      "translation": "译文准确表示图书馆员收集镇上的旧地图，未添加地方史展这一场景背景。",
+      "options": "a correct 准确；b ungrammatical 对当前固定句段成立，若说地图自行汇集须改「地図が集まりました」。"
+    },
+    {
+      "id": "verb.gather.05", "hash": "715adf996a0da41e0423fe1c51ff3ce5f3a4b3e2f556a4f14719120a3d620544", "fullSentences": ["校舎の取り壊しを前に、卒業生が校庭に集まりました。"], "status": "approved",
+      "reason": "校舍拆除前毕业生聚到校庭，時間背景、集合人群和地点均自然，集まる符合 intransitive 分配。",
+      "answerSet": "a 唯一表示毕业生自己聚集；b 会把毕业生读作召集其他对象的施事。",
+      "readings": "校舎＝こうしゃ、取り壊し＝とりこわし、前＝まえ、卒業生＝そつぎょうせい、校庭＝こうてい；集まりました＝あつまりました、集めました＝あつめました。",
+      "translation": "译文准确表达校舍拆除前毕业生聚在校庭，未将拍照留念误写入译文。",
+      "options": "a correct 准确；b meaning-mismatch 准确，集める省略宾语时仍指毕业生收集或召集别的对象。"
+    },
+    {
+      "id": "verb.stop.01", "hash": "48ecc1d9297825b0352df7e679f6212ff6cdc976bef61657022b1797fe2d3b90", "fullSentences": ["出航前にフェリーのエンジンが止まりました。"], "status": "approved",
+      "reason": "渡轮出航前发动机停止，エンジンが是停转主体，止まる符合 intransitive 分配；句子与离港准备背景相容。",
+      "answerSet": "a 唯一表示发动机本身停转；b 会使发动机成为停止另一个对象的施事。",
+      "readings": "出航前＝しゅっこうまえ，フェリー、エンジン保留片假名；止まりました＝とまりました、止めました＝とめました。",
+      "translation": "译文准确表达渡轮出航前发动机停下，未擅加突然、船员检查或停转原因。",
+      "options": "a correct 准确；b meaning-mismatch 准确，止める可省略对象但不能表达发动机自身停转。"
+    }
+  ]
+}

@@ -1,0 +1,613 @@
+[
+  {
+    "id": "verb.lower.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "lexicalKey": "aquarium-heater-temperature",
+    "scene": "水箱水温偏高，饲养员把加热器设定温度调低一度。",
+    "before": [
+      {
+        "text": "水槽の水温が高かったので、飼育員はヒーターの設定温度を一度",
+        "reading": "すいそうのすいおんがたかかったので、しいくいんはヒーターのせっていおんどをいちど"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下げた",
+        "reading": "さげた",
+        "verdict": "correct",
+        "explanation": "饲养员主动调低加热器的设定温度；「設定温度を」是受影响的对象，用他动词「下げる」。"
+      },
+      {
+        "id": "b",
+        "text": "下がった",
+        "reading": "さがった",
+        "verdict": "ungrammatical",
+        "explanation": "「下がる」表示温度自身降低；此句把设定温度标为「を」宾语，不能接自动词。若说设定温度自行下降，应改成「設定温度が下がった」，这不是当前句干。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "水槽水温偏高，所以饲养员把加热器的设定温度调低了一度。",
+    "explanation": "这里写的是饲养员主动改变加热器的设定温度。",
+    "hint": "判断句子是在说温度自行变化，还是有人主动调节设定。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.lower.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "lexicalKey": "mountain-air-temperature",
+    "scene": "日落后，山间气温骤降。",
+    "before": [
+      {
+        "text": "日が沈むと、山あいの気温が急に",
+        "reading": "ひがしずむと、やまあいのきおんがきゅうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下がった",
+        "reading": "さがった",
+        "verdict": "correct",
+        "explanation": "山间气温本身骤然变低，用自动词「下がる」描述变化。"
+      },
+      {
+        "id": "b",
+        "text": "下げた",
+        "reading": "さげた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「下げる」表示某个施事使别的东西变低；它在上下文已明确时可以省略宾语，但本场景只写气温自身骤降，没有被气温降低的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "太阳落山后，山间气温骤然下降。",
+    "explanation": "句子的变化主体是山间气温，重点是气温变低。",
+    "hint": "看看句中有没有被某个施事调低的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.return.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "lexicalKey": "team-leader-seat",
+    "scene": "组长接完工作电话后，回到了自己的工位。",
+    "before": [
+      {
+        "text": "仕事の電話を終えた係長が自分の席に",
+        "reading": "しごとのでんわをおえたかかりちょうがじぶんのせきに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "戻った",
+        "reading": "もどった",
+        "verdict": "correct",
+        "explanation": "回到工位的是组长本人，以「係長が」标记的移动主体用自动词「戻る」。"
+      },
+      {
+        "id": "b",
+        "text": "戻した",
+        "reading": "もどした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「戻す」表示某人把东西放回原处；宾语在上下文明确时可以省略，但这样会读成组长把某个东西放回工位，不是组长本人回到工位。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "组长结束工作电话后，回到了自己的工位。",
+    "explanation": "句子描述组长本人移动回原来的座位。",
+    "hint": "注意移动回工位的是人，还是被放回工位的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.return.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "lexicalKey": "warehouse-cart",
+    "scene": "员工用完手推车，把它放回仓库原位。",
+    "before": [
+      {
+        "text": "社員は借りた台車を倉庫の定位置に",
+        "reading": "しゃいんはかりただいしゃをそうこのていいちに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "戻した",
+        "reading": "もどした",
+        "verdict": "correct",
+        "explanation": "员工把手推车放回指定位置，台车是动作对象，用他动词「戻す」。"
+      },
+      {
+        "id": "b",
+        "text": "戻った",
+        "reading": "もどった",
+        "verdict": "ungrammatical",
+        "explanation": "此句把台车标为直接宾语「台車を」；「戻る」描述主体自行返回，不能在这个句干中带「台車を」。若说台车自行回到原位，应写「台車が定位置に戻った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "员工把借来的手推车放回仓库的固定位置。",
+    "explanation": "员工执行放回动作，手推车是被放回的对象。",
+    "hint": "看台车在句中是自己返回，还是员工把它送回原位。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.return.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "lexicalKey": "refunded-amount-account",
+    "scene": "重复扣款的钱款经银行退款后回到了账户。",
+    "before": [
+      {
+        "text": "銀行の返金処理が終わると、二重に引き落とされた代金が口座に",
+        "reading": "ぎんこうのへんきんしょりがおわると、にじゅうにひきおとされただいきんがこうざに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "戻った",
+        "reading": "もどった",
+        "verdict": "correct",
+        "explanation": "被重复扣除的钱款回到账户，句子描述钱款自身返回原处，用自动词「戻る」。"
+      },
+      {
+        "id": "b",
+        "text": "戻した",
+        "reading": "もどした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「戻す」可以省略上下文已知的宾语，但此时「代金が」会成为把别的东西送回账户的施事；本场景中钱款本身才是回到账户的对象。若由银行执行，应说「銀行が代金を口座に戻した」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "银行退款处理完成后，重复扣除的钱款回到了账户。",
+    "explanation": "句子说明钱款重新回到原账户，没有写银行以「代金を」为对象执行放回动作。",
+    "hint": "留意账户里重新出现的是钱款本身，还是某人放回去的钱款。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.return.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "lexicalKey": "gallery-lighting-setting",
+    "scene": "闭馆后，工作人员把展厅灯光调回常规亮度。",
+    "before": [
+      {
+        "text": "閉館後、係員は展示室の照明を通常の明るさに",
+        "reading": "へいかんご、かかりいんはてんじしつのしょうめいをつうじょうのあかるさに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "戻した",
+        "reading": "もどした",
+        "verdict": "correct",
+        "explanation": "工作人员主动把照明恢复到通常亮度，照明是被调回原状态的对象，用他动词「戻す」。"
+      },
+      {
+        "id": "b",
+        "text": "戻った",
+        "reading": "もどった",
+        "verdict": "ungrammatical",
+        "explanation": "这里以「照明を」标记被调整的对象；「戻る」描述照明自身恢复状态，需改成「照明が通常の明るさに戻った」，不能接当前的「を」句干。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭馆后，工作人员把展厅照明调回了常规亮度。",
+    "explanation": "工作人员执行恢复设置的动作，照明亮度是被恢复的内容。",
+    "hint": "判断句子写的是工作人员调回设置，还是照明亮度自行恢复。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.return.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "lexicalKey": "autonomous-shuttle-garage",
+    "scene": "园区无人小巴送客后自动返回车库。",
+    "before": [
+      {
+        "text": "乗客を降ろした自動運転バスが、そのまま車庫に",
+        "reading": "じょうきゃくをおろしたじどううんてんバスが、そのまましゃこに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "戻った",
+        "reading": "もどった",
+        "verdict": "correct",
+        "explanation": "无人小巴本身驶回车库，移动主体用自动词「戻る」。"
+      },
+      {
+        "id": "b",
+        "text": "戻した",
+        "reading": "もどした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「戻す」在宾语可从上下文恢复时允许省略，但会表示小巴把某个物品送回车库；此场景说的是小巴自身自动驶回。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "无人小型巴士让乘客下车后，自动驶回车库。",
+    "explanation": "本题焦点是小巴自身返回车库，不是小巴运送某物返回。",
+    "hint": "看回到车库的是小巴本身，还是它运送的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.repair.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "lexicalKey": "blender-function",
+    "scene": "更换零件后，原本停转的搅拌机恢复了正常。",
+    "before": [
+      {
+        "text": "部品を交換すると、動かなくなっていたミキサーが",
+        "reading": "ぶひんをこうかんすると、うごかなくなっていたミキサーが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "直った",
+        "reading": "なおった",
+        "verdict": "correct",
+        "explanation": "搅拌机本身恢复到能正常工作的状态，用自动词「直る」。"
+      },
+      {
+        "id": "b",
+        "text": "直した",
+        "reading": "なおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「直す」可在宾语明确时省略它，但此时「ミキサーが」会成为修理者；场景中的搅拌机是恢复正常的物品，不是修理别的东西的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "更换零件后，原本不能运转的搅拌机修好了。",
+    "explanation": "句子强调搅拌机由故障状态恢复正常。",
+    "hint": "想想句子是在说物品恢复正常，还是某个施事修理了别的东西。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.repair.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "lexicalKey": "bicycle-chain",
+    "scene": "自行车链条脱落，修车师傅当场把它修好了。",
+    "before": [
+      {
+        "text": "自転車のチェーンが外れたので、整備士がその場で",
+        "reading": "じてんしゃのチェーンがはずれたので、せいびしがそのばで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "直した",
+        "reading": "なおした",
+        "verdict": "correct",
+        "explanation": "修车师傅把前文提到的链条修好；「直す」的宾语「チェーン」可从前句恢复，因此这里省略宾语并不影响语法。"
+      },
+      {
+        "id": "b",
+        "text": "直った",
+        "reading": "なおった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「直る」描述主语自身恢复；套入此句会读成「整備士が直った」（修车师傅本人恢复了），不符合链条脱落后由师傅维修的场景。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "自行车链条脱落后，修车师傅当场把它修好了。",
+    "explanation": "链条是前句已出现的修理对象，后句由修车师傅把它修好。",
+    "hint": "前一句已经提到需要处理的物品；再看后一句由谁执行修理。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.repair.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "lexicalKey": "old-camera-function",
+    "scene": "清理电池触点后，闲置已久的老相机又能使用了。",
+    "before": [
+      {
+        "text": "電池の接点を掃除すると、長く使えなかった古いカメラがまた",
+        "reading": "でんちのせってんをそうじすると、ながくつかえなかったふるいカメラがまた"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "直った",
+        "reading": "なおった",
+        "verdict": "correct",
+        "explanation": "清理触点后，相机本身重新恢复功能，用自动词「直る」。"
+      },
+      {
+        "id": "b",
+        "text": "直した",
+        "reading": "なおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「直す」的宾语可以因上下文明确而省略，但当前以「古いカメラが」标记的是恢复功能的相机；若用他动词，会把相机说成修理别的东西的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "清理电池触点后，久未能用的老相机又修好了。",
+    "explanation": "触点清理后，相机恢复可用状态；句子没有把相机当作修理者。",
+    "hint": "区分恢复正常的相机和执行修理动作的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.repair.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "lexicalKey": "phone-charging-port",
+    "scene": "手机无法充电，维修技师修好了充电接口。",
+    "before": [
+      {
+        "text": "修理店の技師が、スマートフォンの充電端子を",
+        "reading": "しゅうりてんのぎしが、スマートフォンのじゅうでんたんしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "直した",
+        "reading": "なおした",
+        "verdict": "correct",
+        "explanation": "维修技师修理手机的充电接口；「充電端子を」是被修理的对象，用他动词「直す」。"
+      },
+      {
+        "id": "b",
+        "text": "直った",
+        "reading": "なおった",
+        "verdict": "ungrammatical",
+        "explanation": "此句把充电接口标为「を」宾语；自动词「直る」描述它自身恢复，需要改为「充電端子が直った」，不能接当前句干。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "维修店的技师修好了智能手机的充电接口。",
+    "explanation": "这里写技师实施维修，充电接口是动作对象。",
+    "hint": "看充电接口是修理者的动作对象，还是自身恢复正常。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.repair.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "lexicalKey": "office-printer-function",
+    "scene": "反复重启几次后，办公室打印机终于恢复了工作。",
+    "before": [
+      {
+        "text": "何度か再起動すると、業務用プリンターがようやく",
+        "reading": "なんどかさいきどうすると、ぎょうむようプリンターがようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "直った",
+        "reading": "なおった",
+        "verdict": "correct",
+        "explanation": "几次重启后，打印机自身恢复到能正常工作的状态，用自动词「直る」。"
+      },
+      {
+        "id": "b",
+        "text": "直した",
+        "reading": "なおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「直す」可以省略可由上下文还原的宾语；但若用在这里，就会读成打印机修好了别的东西。场景只说打印机本身恢复工作，没有这样的修理对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "重启几次后，商用打印机终于修好了。",
+    "explanation": "打印机是恢复正常的设备，不是修理别的物品的施事。",
+    "hint": "判断谓语描述的是打印机的状态变化，还是打印机修理其他对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.find.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "lexicalKey": "spare-key",
+    "scene": "找了好几天，备用钥匙终于在前台抽屉里找到了。",
+    "before": [
+      {
+        "text": "何日も探していた合鍵が、受付カウンターの引き出しの中でようやく",
+        "reading": "なんにちもさがしていたあいかぎが、うけつけカウンターのひきだしのなかでようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見つかった",
+        "reading": "みつかった",
+        "verdict": "correct",
+        "explanation": "备用钥匙是最终被发现的物品，用自动词「見つかる」表示它找到了。"
+      },
+      {
+        "id": "b",
+        "text": "見つけた",
+        "reading": "みつけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見つける」表示某个发现者找到东西，宾语明确时可以省略；但此处「合鍵が」把钥匙标成句中主体，若用「見つけた」便会读成钥匙发现了别的东西，不是钥匙被找到。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "找了好几天的备用钥匙，终于在前台柜台的抽屉里找到了。",
+    "explanation": "句子把备用钥匙作为被发现的对象来陈述。",
+    "hint": "看钥匙是发现别的东西的主体，还是最终出现的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

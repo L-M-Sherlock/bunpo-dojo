@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.destination.07",
+      "hash": "0218b242d262ba6637cc8d2a1928b324429effb25f2ffca173cf84c4f37d0e83",
+      "fullSentences": ["旅行客は秋に金沢へ行きます。", "旅行客は秋に金沢に行きます。"],
+      "status": "approved",
+      "reason": "秋天去金泽游览，金沢是行く的目的地；去掉预填助词后两条完整句均自然。",
+      "answerSet": "e与ni都正确，金沢へ行きます和金沢に行きます均符合场景；kara会改成从金泽出发。",
+      "readings": "旅行客りょこうきゃく、秋あき、金沢かなざわ、行きますいきます正确；句段按书面假名，候选へ注发音え但仍写へ。",
+      "translation": "“旅客秋天要去金泽”同时对应两句；旅馆与兼六园只在场景中。",
+      "options": "e、ni均标correct并列入answerIds；kara的meaning-mismatch准确说明起点义与目的地冲突。"
+    },
+    {
+      "id": "particle.destination.08",
+      "hash": "ef28afbeaa169b7d673125e5b2845af123cbc0c716d028fdf023ad5c53a4d42b",
+      "fullSentences": ["担当医が病室に来ます。", "担当医が病室へ来ます。"],
+      "status": "approved",
+      "reason": "患者在病房等待医生来查看，病室是来ます的终点；两条助词句均自然且视点明确。",
+      "answerSet": "ni与e都正确；kara会表示医生从病室来，与患者所在病房的等候情境相反。",
+      "readings": "担当医たんとうい、病室びょうしつ、来ますきます正确；槽外没有助词，へ候选的发音注え不改变书面答案。",
+      "translation": "“担当医生要来病房”对应に／へ两句，未把护士转述或查看动作擅自加入日语内容。",
+      "options": "ni与e的correct及answerIds完整；kara标meaning-mismatch而非语法错误，解释清楚。"
+    },
+    {
+      "id": "particle.destination.09",
+      "hash": "bb6e5a1c4fa1ca0407d5e059965d48527ff75ad54bba55d921b46a6f4ecf8e6e",
+      "fullSentences": ["夜勤が終わって、看護師は早朝に自宅に帰ります。", "夜勤が終わって、看護師は早朝に自宅へ帰ります。"],
+      "status": "approved",
+      "reason": "夜班结束后护士清晨回家，自宅是帰ります的终点；に与へ两句自然，时间顺序一致。",
+      "answerSet": "ni、e均正确；kara把自宅改成出发处，与下班回家相反。",
+      "readings": "夜勤やきん、終わっておわって、看護師かんごし、早朝そうちょう、自宅じたく、帰りますかえります均准确；へ候选注发音え，句段标点对应。",
+      "translation": "“夜班结束后，护士清晨回家”准确保留时间、主体与方向；乘车休息仅是场景。",
+      "options": "ni与e均标correct且收录，kara的meaning-mismatch准确指出从家出发的相反关系。"
+    },
+    {
+      "id": "particle.destination.10",
+      "hash": "f9bf15e706a93a7cbdd543d0a6589be0e1435af6ca342c1dede2d9045f51dc4b",
+      "fullSentences": ["朝礼の場所が体育館に変わり、児童は体育館へ行きます。", "朝礼の場所が体育館に変わり、児童は体育館に行きます。"],
+      "status": "approved",
+      "reason": "晨会地点改为体育馆后学生前往该处，前句に是变化结果，目标槽中的へ／に是行く的目的地；两句均自然。",
+      "answerSet": "e、ni均正确；kara会把第二个体育館解释为出发点，与前往新晨会地点相反。",
+      "readings": "朝礼ちょうれい、場所ばしょ、体育館たいいくかん、変わりかわり、児童じどう、行きますいきます正确；前句に在reading中保留，目标候选へ注发音え。",
+      "translation": "“晨会地点改到体育馆后，学生们前往体育馆”准确传达两分句，没有额外把下雨译成句内原因。",
+      "options": "e、ni均标correct并收录；kara的起点解释与目标目的地冲突，meaning-mismatch合理。"
+    },
+    {
+      "id": "particle.board.01",
+      "hash": "52f2f61036cf19711af038809cdc1f7ed5b221f9cd9febac3c46c0ab1038c39a",
+      "fullSentences": ["旅行客は空港でシャトルバスに乗ります。"],
+      "status": "approved",
+      "reason": "机场旅客乘接驳巴士，シャトルバス是乗る的搭乘对象；槽后只含乗ります，完整句自然。",
+      "answerSet": "仅ni正确；wo不能在标准搭乘义下标乘坐的巴士。",
+      "readings": "旅行客りょこうきゃく、空港くうこう、シャトルバス、乗りますのります正确；片假名保留、句号对应，独立を若注发音お仍须输入を。",
+      "translation": "“旅客在机场乘坐接驳巴士”准确对应全文；排队和市区方向只作场景背景。",
+      "options": "ni的correct与搭乘对象一致；wo标ungrammatical并限定为本句乗る搭乘关系，没有误伤其他动词的を用法。"
+    }
+  ]
+}

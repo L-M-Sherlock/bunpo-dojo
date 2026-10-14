@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_04_recovery",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-04a.draft.json",
+  "at": "2026-10-14T01:28:18.628Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refdca.04",
+      "hash": "f6c2c380a2e43310f720e7396d8f7a3eaafcb25529d4453719567481d0b6a561",
+      "fullSentences": [
+        "キャンプの炭火で、子どもはマシュマロを焦がした。"
+      ]
+    },
+    {
+      "id": "verb.refdia.01",
+      "hash": "00ca6326c200d60245936128eb70aa3289895ef1fb0fb8801f1d8e19774c6d22",
+      "fullSentences": [
+        "明け方、地下の配管の継ぎ目から水が漏れた。"
+      ]
+    },
+    {
+      "id": "verb.refdia.02",
+      "hash": "9ad6bccab65ae27d514aef2a3727a04798022dd9e1cbd7174f4645ee182fcdcf",
+      "fullSentences": [
+        "担当者は、発表前の調査結果を記者会見でうっかり漏らした。"
+      ]
+    },
+    {
+      "id": "verb.refdia.03",
+      "hash": "743207d01f2dab645bb2e047c1ba0f4aa80a37bfc2411a538005b960fe291c3c",
+      "fullSentences": [
+        "会議室のドアを閉めても、廊下の話し声が中に漏れてくる。"
+      ]
+    },
+    {
+      "id": "verb.refdia.04",
+      "hash": "2a1fbb91020086e7d147f0822088f0537865ecd0ff0143b8dbed522c88406bd7",
+      "fullSentences": [
+        "発表の結果を聞いた男性は、客席で思わずため息を漏らした。"
+      ]
+    },
+    {
+      "id": "verb.refeea.01",
+      "hash": "68f85690359eef94a5541cb125ca432dca4c78d0d0355b8bdfda0952530943dd",
+      "fullSentences": [
+        "夕食をゆっくり食べている間に、テーブルのスープが冷えてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refeea.02",
+      "hash": "8ac58fbdaf58d048e949529d66ed88a0338f0e3d3e84276c54ca4b16d797f514",
+      "fullSentences": [
+        "母は来客用に、麦茶のボトルを冷蔵庫で冷やした。"
+      ]
+    },
+    {
+      "id": "verb.refeea.03",
+      "hash": "83875009b7422d3b3a4f16f7c70384f960cecce16fbdbcc097d40386493d6cf8",
+      "fullSentences": [
+        "秋の夜風にさらされ、ベンチに座っていた男性の手が冷えてきた。"
+      ]
+    }
+  ]
+}

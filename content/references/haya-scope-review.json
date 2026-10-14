@@ -1,0 +1,98 @@
+{
+  "role": "independent-language-scope-review",
+  "reviewedAt": "2026-10-14",
+  "sourceArticle": "https://zhuanlan.zhihu.com/p/58662766",
+  "basis": [
+    "source/inventory-a.json",
+    "source/inventory-b.json",
+    "source/inventory-c.json",
+    "docs/content-authoring.md"
+  ],
+  "coverage": {
+    "groups": 25,
+    "sourceRows": 160,
+    "sensePairsAfterVariantSplit": 164,
+    "splitRows": ["1-22", "3-5", "4-4", "18-2"],
+    "decision": "三份清单的全部160行均留在待覆盖范围；四行斜线汉字按对应读音及词义各拆两对。改正显示拼写不等于删掉原文例项，也不把同形异读或不同义项并为一题。"
+  },
+  "issues": [
+    {
+      "rows": ["2-3"],
+      "current": "入る（はいる）／入れる（いれる）",
+      "finding": "原图假名（は）いる是括号标法，现代词条和题目正文应写はいる；不可把读音定为いる。",
+      "authorNote": "以人或物进入、放入同一空间等可比义项出题，核对が／を格。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E5%85%A5%E3%82%8B_%28%E3%81%AF%E3%81%84%E3%82%8B%29/"]
+    },
+    {
+      "rows": ["5-5", "7-2"],
+      "current": "冷える／冷やす；落ちる／落とす",
+      "finding": "冷す、落す是原图省写，不作为教材正文的常规字形；假名读音仍分别为ひやす、おとす。",
+      "authorNote": "冷やす与冷ます另有温度状态差别；落とす既可有意使落下，也可指失手掉落，场景不要强加意图。",
+      "sources": ["https://dictionary.goo.ne.jp/srch/all/%E3%81%B2%E3%82%84%E3%81%99/m0u/", "https://dictionary.goo.ne.jp/word/%E8%90%BD%E3%81%99/"]
+    },
+    {
+      "rows": ["16-1"],
+      "current": "籠もる／籠める（こもる／こめる）；按句子自然度也可用こもる／込める",
+      "finding": "篭是籠的俗字。籠もる有待在里面、气味或心意充满等义；籠める／込める有装入、注入感情等义，不可只凭字形视为普遍的直接致使关系。",
+      "authorNote": "若用心意题材，要明确主语和对象：心がこもる、心を込める等；不要硬造『把人籠める使其籠もる』的现代日常句。",
+      "sources": ["https://dictionary.goo.ne.jp/word/kanji/%E7%B1%A0/", "https://dictionary.goo.ne.jp/word/%E8%BE%BC%E3%82%81%E3%82%8B/", "https://dictionary.goo.ne.jp/word/%E5%BF%83%E3%81%8C%E7%B1%A0%E3%82%82%E3%82%8B/"]
+    },
+    {
+      "rows": ["17-1", "3-8"],
+      "current": "聞こえる／聞く；ねじれる／ねじる（汉字可用捩れる／捩じる）",
+      "finding": "聞える省去词内こ；题面宜写聞こえる。捩れる、捩じる的假名读音分别为ねじれる、ねじる，词典收录其汉字写法，但标为表外字；普通教学题可统一用假名，不误认捩じる中的じ为多余读音。",
+      "authorNote": "聞こえる／聞く的关系是声音自然入耳与主动听，不能写成『某人听了所以声音听得见』的机械因果。捩组保持同一物理扭曲义项，勿混入比喻的性格扭曲。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E8%81%9E%E3%81%88%E3%82%8B/", "https://dictionary.goo.ne.jp/thsrs/1023/meaning/m0u/", "https://dictionary.goo.ne.jp/word/%E6%8D%A9%E3%82%8C%E3%82%8B_%28%E3%81%AD%E3%81%98%E3%82%8C%E3%82%8B%29/", "https://dictionary.goo.ne.jp/word/kanji/%E6%8D%A9/"]
+    },
+    {
+      "rows": ["25-1"],
+      "current": "開く（ひらく）／開く（ひらく）",
+      "finding": "这一行确有同字同读的自他两用；可按课程允许的verb-role类别判断题覆盖，不能做两个文字完全相同的挖空候选。",
+      "authorNote": "用『花が開く／本を開く』等角色清楚的独立句；另有2-2的開く（あく）／開ける（あける），两组不可混读。",
+      "sources": ["https://dictionary.goo.ne.jp/thsrs/16355/meaning/m0u/"]
+    },
+    {
+      "rows": ["9-3", "9-11"],
+      "current": "汚れる（けがれる）／汚す（けがす）；汚れる（よごれる）／汚す（よごす）",
+      "finding": "同一汉字承载两套读音及语义。けがれる偏纯洁、神圣、名誉受损；よごれる偏物理污渍。两行都保留，不能用脏衣服场景完成けがれる，也不能用名誉受损替代よごれる。",
+      "authorNote": "逐句注明reading；けがす的对象应与けがれる的抽象／宗教义一致。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E6%B1%9A%E3%82%8C%E3%82%8B_%28%E3%81%91%E3%81%8C%E3%82%8C%E3%82%8B%29/", "https://kotobank.jp/word/%E6%B1%9A%E3%82%8C%E3%82%8B-489621"]
+    },
+    {
+      "rows": ["2-11", "19-6"],
+      "current": "退く（しりぞく）／退ける（しりぞける）；退く（どく）／退かす（どかす）",
+      "finding": "前者可为后退、退职、击退等；后者的どく是挪开所占位置。分别保留，不能以让路／挪椅子的题替代しりぞく／しりぞける。",
+      "authorNote": "两个退く必须显式注音；しりぞける可用击退、拒斥等自然对象，どかす用挪开人或物。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E9%80%80%E3%81%8F_%28%E3%81%A9%E3%81%8F%29/", "https://dictionary.goo.ne.jp/word/%E9%80%80%E3%81%91%E3%82%8B_%28%E3%81%97%E3%82%8A%E3%81%9E%E3%81%91%E3%82%8B%29/"]
+    },
+    {
+      "rows": ["4-4"],
+      "current": "冷める／冷ます；醒める／醒ます（必要时依当代常用写法用覚める／覚ます）",
+      "finding": "冷字组是热物降温或热情冷却；醒字组是睡眠、醉意、迷蒙状态解除。不能用把咖啡放凉的句子完成醒ます，也不能用醒酒句完成冷ます。",
+      "authorNote": "醒ます是词典所列写法，但常用词形也可写覚ます；若保留原图醒字，注音须为さます，并让语境明确。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E8%A6%9A%E3%81%BE%E3%81%99/", "https://dictionary.goo.ne.jp/thsrs/13002/meaning/m0u/"]
+    },
+    {
+      "rows": ["18-7", "2-19"],
+      "current": "治る／治す；付く／付ける",
+      "finding": "原文治组须覆盖疾病、伤口恢复及治疗等治字义，既有直る／直す的修理题不能抵充。付组须覆盖附着、附加等付字义，电灯或电器『つく』即使同读也不能抵充。",
+      "authorNote": "可用病気が治る／病気を治す，ほこりが付く／印を付ける等明确对象；不把同音异字的既有卡算入文章范围。",
+      "sources": ["https://dictionary.goo.ne.jp/thsrs/629/meaning/m0u/", "https://dictionary.goo.ne.jp/word/%E4%BB%98%E3%81%8F_%28%E3%81%A4%E3%81%8F%29/", "https://dictionary.goo.ne.jp/word/%E4%BB%98%E3%81%91%E3%82%8B_%28%E3%81%A4%E3%81%91%E3%82%8B%29/"]
+    },
+    {
+      "rows": ["1-17"],
+      "current": "極まる（きわまる）／極める（きわめる）",
+      "finding": "两词均有『达到极点』相关义，但现代典型搭配并不保证同一宾语可简单改が／を互换；极める还有精通、彻底研究等义，不等于极まる。此行保留，练习须逐句核实自然搭配。",
+      "authorNote": "不要用『某人把悲伤極める，所以悲伤極まる』之类人为致使句；若自然句难获证据，交独立语言审核标待核实而非删除范围。",
+      "sources": ["https://www.kanjipedia.jp/kotoba/0001580000", "https://dictionary.goo.ne.jp/word/%E6%A5%B5%E3%82%81%E3%82%8B/"]
+    },
+    {
+      "rows": ["1-5", "19-5", "14-1"],
+      "current": "受かる／受ける；照る／照らす；見える／見る",
+      "finding": "受ける是参加考试，受かる是合格结果；照る是日光照耀，照らす是光源照亮某物；見える是自然可见／看得见，見る是有意观看。它们不是一律把同一事件改写为人为致使的成对动作。",
+      "authorNote": "分别设计能辨方向及格的真实句，保留来源配对；受ける不保证受かる，見る不保证见得到，照らす不要写成『把太阳照得照る』。",
+      "sources": ["https://dictionary.goo.ne.jp/word/%E5%8F%97%E3%81%8B%E3%82%8B/", "https://dictionary.goo.ne.jp/thsrs/13352/meaning/m0u/", "https://dictionary.goo.ne.jp/thsrs/13358/meaning/m0u/", "https://dictionary.goo.ne.jp/word/%E8%A6%8B%E3%81%88%E3%82%8B_%28%E3%81%BF%E3%81%88%E3%82%8B%29/"]
+    }
+  ],
+  "generalAuthoringNote": "以上仅核实文章来源范围和高风险义项，不等于逐卡语言批准。对每个来源行仍须分别审核完整句、reading、选项正确集合和自然度；同音、近义或共同汉字不能单独证明某卡覆盖了该行。"
+}

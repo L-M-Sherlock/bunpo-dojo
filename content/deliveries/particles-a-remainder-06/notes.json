@@ -1,0 +1,42 @@
+[
+  {
+    "id": "particle.leave.02",
+    "fullSentence": "会議が終わり、職員は会議室を出ます。／会議が終わり、職員は会議室から出ます。",
+    "sceneRationale": "会议结束，职员离开会议室并锁门；会议室是出る动作的起点处所。",
+    "alternativeReadings": "を和から都能标离开的会议室。に通常标到达地点；若说会議室に入る才是进入会议室，不能表达本句的离开。",
+    "readingCheck": "会議かいぎ、終わりおわり、職員しょくいん、会議室かいぎしつ、出ますでます；逗号、句号及助词reading对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.leave.03",
+    "fullSentence": "乗客は着陸後、飛行機を降ります。／乗客は着陸後、飛行機から降ります。",
+    "sceneRationale": "飞机已经落地停稳，乘客接下来离开飞机；飛行機是降りる所离开的交通工具。",
+    "alternativeReadings": "降りる所离开的交通工具可用を或から标记。に用于搭乘对象，如飛行機に乗る，不能在这里表示下飞机。",
+    "readingCheck": "乗客じょうきゃく、着陸後ちゃくりくご、飛行機ひこうき、降りますおります；逗号、句号及假名对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.leave.04",
+    "fullSentence": "大学生は朝、自宅を出ます。／大学生は朝、自宅から出ます。",
+    "sceneRationale": "大学生为赶早课离开家去搭公交，自宅是出发点，不是返回目的地。",
+    "alternativeReadings": "を和から都能标出离家起点。に若接自宅会指向到家，例如自宅に帰る，与本题离家方向不同。",
+    "readingCheck": "大学生だいがくせい、朝あさ、自宅じたく、出ますでます；日语标点与reading对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.leave.05",
+    "fullSentence": "子どもたちは水泳教室の後、プールを出ます。／子どもたちは水泳教室の後、プールから出ます。",
+    "sceneRationale": "游泳课结束后，孩子们离开泳池去更衣室冲洗；泳池是出る的起点处所。",
+    "alternativeReadings": "プールを出る与プールから出る都能表达从泳池出来。に通常表示到达点，不能将泳池标成离开处所。",
+    "readingCheck": "子どもたちこどもたち、水泳教室すいえいきょうしつ、後あと、プール、出ますでます；片假名、助词和句号对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.leave.06",
+    "fullSentence": "上映が終わると、観客は映画館を出ます。／上映が終わると、観客は映画館から出ます。",
+    "sceneRationale": "电影散场后，观众从电影院走出并准备去车站；电影院是离开处所。",
+    "alternativeReadings": "を和から都可表示离开电影院。に通常指移动到达地点或参加对象，不适合表示此句的离开起点。",
+    "readingCheck": "上映じょうえい、終わるおわる、観客かんきゃく、映画館えいがかん、出ますでます；句段及标点一致。",
+    "unresolvedQuestions": "无。"
+  }
+]

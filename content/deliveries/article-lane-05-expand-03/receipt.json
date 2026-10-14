@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_05",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-03.draft.json",
+  "at": "2026-10-13T19:10:37.010Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refbsa.04",
+      "hash": "5da414d4dc946914e0d64b91cee8670ed07796e7aa7093608b3ce151e728075f",
+      "fullSentences": [
+        "美容師は、成人式に出る娘の髪に白い花飾りを付けた。"
+      ]
+    },
+    {
+      "id": "verb.refcaa.01",
+      "hash": "7eba1532bf31df567306606d93adcb994efda7bd65542f1fb7cd09eb467c5ec1",
+      "fullSentences": [
+        "雪の重みで、杉の小枝が途中から折れて斜面に落ちた。"
+      ]
+    },
+    {
+      "id": "verb.refcaa.02",
+      "hash": "668453daf6dec2cf51aa2806448d77d1665c0de0968528527abe4837e0fa5d63",
+      "fullSentences": [
+        "学芸員は、署名入りの原本を傷めないよう、閲覧中はページの角を折らずに扱った。"
+      ]
+    },
+    {
+      "id": "verb.refcaa.03",
+      "hash": "d3fcd4daa853c515973d59b5e9101c1ca0315e57834ad3095d4d24414aeb7e4e",
+      "fullSentences": [
+        "台風が通り過ぎたあと、倉庫の雨どいが根元から折れて軒先に垂れ下がっていた。"
+      ]
+    },
+    {
+      "id": "verb.refcaa.04",
+      "hash": "ce5f9efa5fe21a9bde8b5c545b9ded095cd5ab5a41e83d7eda07f90457389ddd",
+      "fullSentences": [
+        "説明書には、「厚紙を印の線に沿って二つに折ってください」と書いてある。"
+      ]
+    },
+    {
+      "id": "verb.refcfa.01",
+      "hash": "249b63b40de52583bfa13014deb49391254e448f0a00b7c7183a7f245d7b5a50",
+      "fullSentences": [
+        "強風にさらされた看板の保護シートが端から取れて、舗道に飛ばされた。"
+      ]
+    },
+    {
+      "id": "verb.refcfa.02",
+      "hash": "fa65fb69bcdd8da9a88644f0309d0dadf331596b6d3bd47eeafab9b01247f4f9",
+      "fullSentences": [
+        "果樹園の管理人は、まだ青い柿の実を木に残すため、今日は取らないことにした。"
+      ]
+    },
+    {
+      "id": "verb.refcfa.03",
+      "hash": "464bfe00c63e4430cc35dc74f70c2f8c24930c74935b378c056be5af1da32157",
+      "fullSentences": [
+        "ドアを強く引いたら、玄関のドアノブが根元から取れてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refcfa.04",
+      "hash": "1d1bee56c0ff46405c4f2af14a7e7ca7cf4168c4fb69ccda8fdc031f19c2dff1",
+      "fullSentences": [
+        "整備士は、非常用に残す最後の電池を棚から取らず、別の箱を開けた。"
+      ]
+    },
+    {
+      "id": "verb.refcla.01",
+      "hash": "054976922fcf7bd02f537f3ae82ab3d2a6a44714dda0d77436c9555e24e510f2",
+      "fullSentences": [
+        "オーブンの中で、丸パンの表面がきつね色に焼けてきた。"
+      ]
+    },
+    {
+      "id": "verb.refcla.02",
+      "hash": "f1c6a8d96ea0689226f4b1b9f65ce9015b1bc792cd45d1b024e7d5a153230a96",
+      "fullSentences": [
+        "料理長は、客の希望に合わせてサバを焼かずに煮付けにした。"
+      ]
+    },
+    {
+      "id": "verb.refcla.03",
+      "hash": "b204c6f1d5a3a4fab9709b533641dc8de6abca4caa299cf02b621c9cb496df30",
+      "fullSentences": [
+        "夕日を受けて、西の空が真っ赤に焼けていた。"
+      ]
+    },
+    {
+      "id": "verb.refcla.04",
+      "hash": "828627dcd52e7e302b4f8ca3bccdf341b1a8e90f7d9a86270e0ff7bf51604ef1",
+      "fullSentences": [
+        "説明書には、「オーブンを予熱し、サバを皮目から十分に焼いてください」と書いてある。"
+      ]
+    },
+    {
+      "id": "verb.refdda.01",
+      "hash": "a6657e0049365be36679335f3dbf6233f314d5ccadf3778844a1ae0c24ca7b64",
+      "fullSentences": [
+        "卓上に置いた味噌汁が、話し込んでいる間に冷めてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refdda.02",
+      "hash": "1392070a8e41aa0af616ec6f7c658f2989bef71009ee2b1a9722c5fbb0c38f68",
+      "fullSentences": [
+        "母親は、焼きたての卵焼きを皿に置いて冷ました。"
+      ]
+    },
+    {
+      "id": "verb.refdda.03",
+      "hash": "b005d4117022927fa53d906239c0840cc3d21cd2df91520a433671c0709b54f5",
+      "fullSentences": [
+        "沸かし直した風呂の湯が、入浴を待つ間にすっかり冷めていた。"
+      ]
+    }
+  ]
+}

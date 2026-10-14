@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refeba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "pair": {
+      "id": "verb.refeba",
+      "intransitive": "肥える",
+      "intransitiveReading": "こえる",
+      "transitive": "肥やす",
+      "transitiveReading": "こやす",
+      "meaning": "辨析「肥える／肥やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "pair": {
+      "id": "verb.reffaa",
+      "intransitive": "閉じる",
+      "intransitiveReading": "とじる",
+      "transitive": "閉ざす",
+      "transitiveReading": "とざす",
+      "meaning": "辨析「閉じる／閉ざす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reffaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "pair": {
+      "id": "verb.reffaa",
+      "intransitive": "閉じる",
+      "intransitiveReading": "とじる",
+      "transitive": "閉ざす",
+      "transitiveReading": "とざす",
+      "meaning": "辨析「閉じる／閉ざす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "pair": {
+      "id": "verb.reffaa",
+      "intransitive": "閉じる",
+      "intransitiveReading": "とじる",
+      "transitive": "閉ざす",
+      "transitiveReading": "とざす",
+      "meaning": "辨析「閉じる／閉ざす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reffaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffaa",
+    "familyId": "verb.reffaa",
+    "pair": {
+      "id": "verb.reffaa",
+      "intransitive": "閉じる",
+      "intransitiveReading": "とじる",
+      "transitive": "閉ざす",
+      "transitiveReading": "とざす",
+      "meaning": "辨析「閉じる／閉ざす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refhaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "pair": {
+      "id": "verb.refhaa",
+      "intransitive": "尽きる",
+      "intransitiveReading": "つきる",
+      "transitive": "尽くす",
+      "transitiveReading": "つくす",
+      "meaning": "辨析「尽きる／尽くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 8,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refhaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "pair": {
+      "id": "verb.refhaa",
+      "intransitive": "尽きる",
+      "intransitiveReading": "つきる",
+      "transitive": "尽くす",
+      "transitiveReading": "つくす",
+      "meaning": "辨析「尽きる／尽くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 8,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refhaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "pair": {
+      "id": "verb.refhaa",
+      "intransitive": "尽きる",
+      "intransitiveReading": "つきる",
+      "transitive": "尽くす",
+      "transitiveReading": "つくす",
+      "meaning": "辨析「尽きる／尽くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 8,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

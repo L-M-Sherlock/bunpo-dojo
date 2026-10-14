@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refiga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "lexicalKey": "child-crushes-empty-can",
+    "scene": "孩子把喝完饮料的空罐踩扁，准备放进资源垃圾袋。",
+    "before": [
+      {
+        "text": "子どもは、飲み終えた空き缶を資源ごみの袋に入れる前に、足で",
+        "reading": "こどもは、のみおえたあきかんをしげんごみのふくろにいれるまえに、あしで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潰した",
+        "reading": "つぶした",
+        "verdict": "correct",
+        "explanation": "孩子用脚对空罐施力压扁，符合对物品施力压扁的「潰す」。"
+      },
+      {
+        "id": "b",
+        "text": "潰れた",
+        "reading": "つぶれた",
+        "verdict": "ungrammatical",
+        "explanation": "「潰れる」表示物品本身变扁；但「空き缶を」把空罐标作动作对象，不能接这个自动词词形。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子把喝完饮料的空罐放进资源垃圾袋前，先用脚压扁了。",
+    "explanation": "句中孩子是施事，空罐是被压扁的对象，符合他动词「潰す」的用法。",
+    "hint": "确认句中谁对空罐施力，以及空罐承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "lexicalKey": "woman-approaches-window",
+    "scene": "雨声突然变大，她走到窗边查看庭院状况。",
+    "before": [
+      {
+        "text": "雨音が急に強まると、彼女は庭の様子を確かめようと窓辺に",
+        "reading": "あまおとがきゅうにつよまると、かのじょはにわのようすをたしかめようとまどべに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "寄った",
+        "reading": "よった",
+        "verdict": "correct",
+        "explanation": "她本人朝窗边移动，句子写的是接近某处的「寄る」。"
+      },
+      {
+        "id": "b",
+        "text": "寄せた",
+        "reading": "よせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「寄せる」表示把某个对象移近某处；这里写她自己走近窗边，没有被她移动的物品。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨声突然变大，她走到窗边确认庭院的情况。",
+    "explanation": "朝窗边移动的是她本人，句子没有描写她把别的物品移到窗边。",
+    "hint": "看清朝窗边移动的是她本人，还是她把另一个对象移过去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "lexicalKey": "staff-moves-bicycles-aside",
+    "scene": "工作人员为留出通道，把几辆自行车挪到墙边。",
+    "before": [
+      {
+        "text": "通路を広く保つため、係員は自転車を壁際に",
+        "reading": "つうろをひろくたもつため、かかりいんはじてんしゃをかべぎわに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "寄せた",
+        "reading": "よせた",
+        "verdict": "correct",
+        "explanation": "工作人员把自行车移到墙边，车辆是被移近墙边的对象。"
+      },
+      {
+        "id": "b",
+        "text": "寄った",
+        "reading": "よった",
+        "verdict": "ungrammatical",
+        "explanation": "「寄る」表示移动者自身靠近某处，通常说「自転車が壁際に寄る」；本句用「自転車を」标记被工作人员移动的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为保持通道宽敞，工作人员把自行车挪到靠墙处。",
+    "explanation": "係員把自行车移近墙边，句中有明确的施事和被移动对象。",
+    "hint": "判断自行车是自己靠近墙边，还是工作人员把它挪过去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refjba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "lexicalKey": "unmanned-boat-nears-pier",
+    "scene": "无人小船受强侧风推动，漂到栈桥旁边。",
+    "before": [
+      {
+        "text": "強い横風に押され、無人の小舟が桟橋のすぐそばまで",
+        "reading": "つよいよこかぜにおされ、むじんのこぶねがさんばしのすぐそばまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "寄った",
+        "reading": "よった",
+        "verdict": "correct",
+        "explanation": "小舟在侧风推动下移近栈桥，是小舟本身接近某处的「寄る」。"
+      },
+      {
+        "id": "b",
+        "text": "寄せた",
+        "reading": "よせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「寄せる」表示施事把某个对象移近；这里的小舟无人操控，是被风推动的移动主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被强侧风吹动，无人的小船靠近了栈桥。",
+    "explanation": "小舟在风力作用下靠近栈桥，没有施事主动移动另一个对象。",
+    "hint": "分清小舟是移动主体，还是某个施事正在移动其他对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

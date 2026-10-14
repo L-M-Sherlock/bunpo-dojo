@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refjba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "pair": {
+      "id": "verb.refjba",
+      "intransitive": "寄る",
+      "intransitiveReading": "よる",
+      "transitive": "寄せる",
+      "transitiveReading": "よせる",
+      "meaning": "辨析「寄る／寄せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

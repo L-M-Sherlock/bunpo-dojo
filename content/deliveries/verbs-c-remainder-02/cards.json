@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.sell.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "lexicalKey": "local-author-book",
+    "scene": "站前书店在专题书台销售本地作家的新书。",
+    "before": [
+      {
+        "text": "駅前の書店が、地元作家の新刊を特設台で",
+        "reading": "えきまえのしょてんが、じもとさっかのしんかんをとくせつだいで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "売った",
+        "reading": "うった",
+        "verdict": "correct",
+        "explanation": "书店把本地作家的新书摆上专题台出售；「新刊を」是出售对象，用他动词「売る」。"
+      },
+      {
+        "id": "b",
+        "text": "売れた",
+        "reading": "うれた",
+        "verdict": "ungrammatical",
+        "explanation": "「売れる」表示商品售出，商品通常作「が」主语；此句已经用「新刊を」标记书店出售的商品，不能在该宾语结构中接自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "站前书店在专题书台出售本地作家的新书。",
+    "explanation": "句子写书店主动出售新书，商品是店铺出售的对象。",
+    "hint": "看句子是在写商品售出的结果，还是店铺执行出售动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.sell.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "lexicalKey": "local-jam-stock",
+    "scene": "打烊前，货架上剩下的本地果酱全部售出。",
+    "before": [
+      {
+        "text": "閉店前、棚に残っていた地元産のジャムがすべて",
+        "reading": "へいてんまえ、たなにのこっていたじもとさんのジャムがすべて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "売れた",
+        "reading": "うれた",
+        "verdict": "correct",
+        "explanation": "货架上剩余的果酱全部售出，以商品「ジャムが」作变化主体，用自动词「売れる」。"
+      },
+      {
+        "id": "b",
+        "text": "売った",
+        "reading": "うった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「売る」的商品宾语可在上下文已知时省略；但此句的「ジャムが」会把果酱读成出售者，变成果酱卖了别的东西，而不是果酱售出。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "打烊前，货架上剩下的本地果酱全部售出了。",
+    "explanation": "本题关注剩余商品售出的结果，没有把果酱写成出售者。",
+    "hint": "注意果酱是售出的商品，还是做出售动作的主体。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.sell.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "lexicalKey": "market-apples",
+    "scene": "早市摊主把刚采摘的苹果装袋出售。",
+    "before": [
+      {
+        "text": "朝市の出店者が、採れたてのりんごを袋に詰めて",
+        "reading": "あさいちのしゅってんしゃが、とれたてのりんごをふくろにつめて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "売った",
+        "reading": "うった",
+        "verdict": "correct",
+        "explanation": "摊主把苹果装袋后出售；「りんごを」是摊主出售的对象，用他动词「売る」。"
+      },
+      {
+        "id": "b",
+        "text": "売れた",
+        "reading": "うれた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「りんごを」在句中属于「袋に詰めて」；接「売れた」时主语「出店者が」可以被解读为摊主卖得红火或走红，但不是摊主把苹果卖出。场景明确写的是出售苹果。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "早市摊主把刚采摘的苹果装袋出售。",
+    "explanation": "摊主主动出售商品，苹果是动作对象。",
+    "hint": "句中已经标出了摊主和他出售的商品，按这个角色关系选词。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.continue.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "neighborhood-cleanup",
+    "scene": "社区清扫活动一直持续到中午。",
+    "before": [
+      {
+        "text": "町内の清掃活動が昼まで",
+        "reading": "ちょうないのせいそうかつどうがひるまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "correct",
+        "explanation": "清扫活动本身延续到中午，用自动词「続く」描述活动持续。"
+      },
+      {
+        "id": "b",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「続ける」表示某个施事继续某项活动，宾语可由上下文省略；此处「清掃活動が」是持续的活动，若改用他动词会把活动说成继续了别的事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "社区的清扫活动一直持续到中午。",
+    "explanation": "句子报告活动持续的时间，没有写某人继续另一项活动。",
+    "hint": "判断是活动本身持续，还是有人主动把活动继续下去。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.continue.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "film-shooting",
+    "scene": "即使进度落后，导演仍继续拍摄电影。",
+    "before": [
+      {
+        "text": "予定より遅れても、監督は映画の撮影を",
+        "reading": "よていよりおくれても、かんとくはえいがのさつえいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "correct",
+        "explanation": "导演即使遇到进度延误，也主动继续电影拍摄；「撮影を」是被继续的活动，用他动词「続ける」。"
+      },
+      {
+        "id": "b",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "ungrammatical",
+        "explanation": "「続く」表示活动自身持续；此句用「撮影を」标记直接宾语，且「監督は」是施事。若要写拍摄本身持续，应改为「撮影が続いた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "即使比计划进度落后，导演仍继续拍摄电影。",
+    "explanation": "导演是继续拍摄活动的施事，拍摄是他持续进行的内容。",
+    "hint": "留意「監督は」和「撮影を」分别标明的角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

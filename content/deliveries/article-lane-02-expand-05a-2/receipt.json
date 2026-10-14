@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_5a2_recovery",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-05a-2.draft.json",
+  "at": "2026-10-14T02:46:18.677Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refiha.04",
+      "hash": "0f4a55e2f7e99033881b6fd304143ebcc5013eb0f7c8c433b45a0ee722a0491a",
+      "fullSentences": [
+        "開演前、係員はホールのスピーカーで入場案内を流した。"
+      ]
+    },
+    {
+      "id": "verb.refkaa.01",
+      "hash": "d500c75322a279d2b7aa56fc6c18cd573039b41d56d531248726e4b9492ed4e7",
+      "fullSentences": [
+        "山中の旧道は石碑の手前で二手に分かれ、右の道は峠の茶屋へ続いている。"
+      ]
+    },
+    {
+      "id": "verb.refkaa.02",
+      "hash": "a6de31beb49a67c95fea382965c937c9eb64dd32459d83a9102f9ace0395a3f2",
+      "fullSentences": [
+        "受付係は、提出された申込書を記入済みのものと未記入のものに分けて重ねた。"
+      ]
+    },
+    {
+      "id": "verb.refkaa.03",
+      "hash": "55f1bc754c866a69bd1ea3efd530c9b0cdd9de6e68283515a5e2ee70acf74a73",
+      "fullSentences": [
+        "終演後、観客は電車で帰る人と車で帰る人に分かれて、会場を後にした。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_05",
+  "source": "work/content/article-pairs-20261014/lane-05/pilot.draft.json",
+  "at": "2026-10-13T17:10:31.729Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refaga.01",
+      "hash": "cf949ee24f69ac1791e33bf327e89f342273f3c7d5b97f54c2574a9908cf6196",
+      "fullSentences": [
+        "池の南側では、石灯籠の脇に松の木が植わっている。"
+      ]
+    },
+    {
+      "id": "verb.refaga.02",
+      "hash": "4ea4c528330b4f10400549ae32e3c3346c834f258b1bb9252dcd647a1b9a7393",
+      "fullSentences": [
+        "造園業者は、正門脇の花壇に校章と同じ色のパンジーの苗を植えた。"
+      ]
+    },
+    {
+      "id": "verb.refaga.03",
+      "hash": "99a5471b8f48580b2d3a6ebc04dad4758a0b7a8adc07fef411cc284f8814edea",
+      "fullSentences": [
+        "道路拡張前、旧診療所の東側には、屋根より高いクスノキが植わっていた。"
+      ]
+    }
+  ]
+}

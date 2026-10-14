@@ -1,0 +1,42 @@
+[
+  {
+    "id": "verb.continue.03",
+    "fullCorrectSentence": "港の花火大会は最終日の夜九時まで続いた。",
+    "sceneConstraint": "烟花大会是延续到最后一天晚上九点的活动本身；没有写一个施事继续其他内容，适合用「続く」。",
+    "possibleOtherReadingsAndHandling": "「続ける」要求施事继续某项活动或内容。若改成「続けた」，就需要一个继续活动的人及相应对象；当前「花火大会は」指活动本身，不能表达该场景。",
+    "readingCheck": "核对为港＝みなと、花火大会＝はなびたいかい、最終日＝さいしゅうび、夜九時＝よるくじ；正确项続いた＝つづいた，错项続けた＝つづけた。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.continue.04",
+    "fullCorrectSentence": "休憩の合図が鳴っても、参加者たちは討論を続けた。",
+    "sceneConstraint": "休息信号响起时，参与者仍主动继续讨论；参与者是施事，「討論を」是被继续的活动。",
+    "possibleOtherReadingsAndHandling": "「続く」可用于活动自身延续，但不能承接当前直接宾语「討論を」。若只报告讨论持续，应改成「討論が続いた」并去掉当前的施事结构；本题场景明确写参与者主动继续。",
+    "readingCheck": "核对为休憩＝きゅうけい、合図＝あいず、鳴っても＝なっても、参加者＝さんかしゃ、討論＝とうろん；続けた＝つづけた，错项続いた＝つづいた。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.remain.01",
+    "fullCorrectSentence": "閉店時、棚にはパンが二つ残った。",
+    "sceneConstraint": "打烊时面包仍是货架上的剩余商品；「パンが二つ」标出留下来的物品，不是留下其他物品的施事。",
+    "possibleOtherReadingsAndHandling": "「残す」可省略上下文已知的宾语，但用在此处会把面包读成留下某物的主体；句中没有这样的对象，场景关注的是面包仍在货架上。",
+    "readingCheck": "核对为閉店時＝へいてんじ、棚＝たな、パン保留片假名、二つ＝ふたつ；正确项残った＝のこった，错项残した＝のこした。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.remain.02",
+    "fullCorrectSentence": "避難する前に、住民はペット用の水を三日分残した。",
+    "sceneConstraint": "居民在撤离前主动为宠物留下水；居民是施事，三天份的水是留下的对象。",
+    "possibleOtherReadingsAndHandling": "「残る」表示水本身剩下，需把水标为主语，如「水が残った」；当前句用「水を」标直接宾语，并明确居民执行留下的动作，因此不能选自动词。",
+    "readingCheck": "核对为避難＝ひなん、住民＝じゅうみん、ペット保留片假名、用＝よう、水＝みず、三日分＝みっかぶん；正确项残した＝のこした，错项残った＝のこった。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.remain.03",
+    "fullCorrectSentence": "改修後の講堂には、古い舞台幕が一枚だけ残った。",
+    "sceneConstraint": "礼堂翻修后，仍保留下来的是一幅旧舞台幕；舞台幕是剩余物品，没有主动留下别物的施事。",
+    "possibleOtherReadingsAndHandling": "「残す」可以省略可由上下文恢复的宾语，但当前句会把舞台幕解释为留下某件东西的主体；场景说的是它本身仍在礼堂。",
+    "readingCheck": "核对为改修後＝かいしゅうご、講堂＝こうどう、古い＝ふるい、舞台幕＝ぶたいまく、一枚＝いちまい；正确项残った＝のこった，错项残した＝のこした。",
+    "unresolvedQuestions": []
+  }
+]

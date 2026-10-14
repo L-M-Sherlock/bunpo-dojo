@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refsja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "lexicalKey": "staff-sounds-drum-before-performance",
+    "scene": "开演前，工作人员敲响太鼓作为提示。",
+    "before": [
+      {
+        "text": "係員は、開演前に合図として太鼓を一度",
+        "reading": "かかりいんは、かいえんまえにあいずとしてたいこをいちど"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "鳴らした",
+        "reading": "ならした",
+        "verdict": "correct",
+        "explanation": "「係員は」是发声的人，「太鼓を」标出被奏响的乐器；「鳴らす」表示使物体发声。"
+      },
+      {
+        "id": "b",
+        "text": "鳴った",
+        "reading": "なった",
+        "verdict": "ungrammatical",
+        "explanation": "「鳴る」表示太鼓自身发声，不能在这里与直接对象「太鼓を」搭配；描写太鼓自行响起时应说「太鼓が鳴った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在开演前敲了一次鼓作为提示。",
+    "explanation": "工作人员主动使太鼓发声，太鼓是被奏响的对象。",
+    "hint": "观察发声者和「太鼓」的格关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "lexicalKey": "rockfall-blocks-mountain-pass",
+    "scene": "昨夜落石堵住山路，早上车辆仍无法通行。",
+    "before": [
+      {
+        "text": "昨夜の落石で峠道が",
+        "reading": "さくやのらくせきでとうげみちが"
+      }
+    ],
+    "after": [
+      {
+        "text": "ため、朝になっても車は通れなかった。",
+        "reading": "ため、あさになってもくるまはとおれなかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "塞がった",
+        "reading": "ふさがった",
+        "verdict": "correct",
+        "explanation": "「峠道が」是发生堵塞的道路，「落石で」说明原因；句子写山路自身变得不通。"
+      },
+      {
+        "id": "b",
+        "text": "塞いだ",
+        "reading": "ふさいだ",
+        "verdict": "meaning-mismatch",
+        "explanation": "「塞ぐ」把施事写成挡住别的东西的一方，通常以「峠道を」标出受阻道路；这里的「峠道が」是自身受到阻塞的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "昨夜的落石堵住了山路，因此到了早上车辆仍无法通行。",
+    "explanation": "落石造成阻塞，峠道自身是处于受阻状态的对象。",
+    "hint": "留意山路是处于受阻状态的一方，还是主动挡住别的事物的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "lexicalKey": "seal-window-frame-gap-with-tape",
+    "scene": "管理员用胶带封住窗框缝隙，防止漏风。",
+    "before": [
+      {
+        "text": "管理人は、すきま風が入らないように窓枠の隙間をテープで",
+        "reading": "かんりにんは、すきまかぜがはいらないようにまどわくのすきまをテープで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "塞いだ",
+        "reading": "ふさいだ",
+        "verdict": "correct",
+        "explanation": "管理员用胶带主动封住缝隙，「隙間を」标出被处理的部位。"
+      },
+      {
+        "id": "b",
+        "text": "塞がった",
+        "reading": "ふさがった",
+        "verdict": "ungrammatical",
+        "explanation": "「塞がる」描写缝隙自行闭合，不能把「隙間を」当作直接对象；若写缝隙闭合，应说「隙間が塞がった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "管理员用胶带封住窗框的缝隙，防止漏风。",
+    "explanation": "管理人主动封闭缝隙，「隙間を」指出动作直接作用的对象。",
+    "hint": "找出句中实施封堵的人，以及被处理的部位。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "lexicalKey": "leaves-clog-gutter-outlet",
+    "scene": "檐沟积满落叶，排水口堵塞后雨水无法流动。",
+    "before": [
+      {
+        "text": "雨どいに落ち葉がたまって、排水口が完全に",
+        "reading": "あまどいにおちばがたまって、はいすいこうがかんぜんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "ため、雨水が流れなくなった。",
+        "reading": "ため、あまみずがながれなくなった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "塞がった",
+        "reading": "ふさがった",
+        "verdict": "correct",
+        "explanation": "「排水口が」是因落叶堆积而受阻的部位，句子描述排水口自身进入堵塞状态。"
+      },
+      {
+        "id": "b",
+        "text": "塞いだ",
+        "reading": "ふさいだ",
+        "verdict": "meaning-mismatch",
+        "explanation": "「塞ぐ」会把「排水口が」读成阻挡别的对象的一方；本句写的是排水口被落叶堵住。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "檐沟里积了落叶，排水口因此完全堵塞，雨水无法流动。",
+    "explanation": "落叶是造成堵塞的原因，排水口是进入堵塞状态的主体。",
+    "hint": "判断排水口是在受阻的一方，还是在阻挡别的东西的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

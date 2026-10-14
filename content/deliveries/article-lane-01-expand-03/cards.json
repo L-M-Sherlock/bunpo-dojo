@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refboa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "lexicalKey": "shirts-arranged-by-color",
+    "scene": "开店前，店员把新款衬衫按颜色陈列在货架上。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "揃える",
+      "reading": "そろえる"
+    },
+    "before": [
+      {
+        "text": "開店前、店員の手で新作のシャツが色別に棚へ揃えられている。",
+        "reading": "かいてんまえ、てんいんのてでしんさくのシャツがいろべつにたなへそろえられている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "新款衬衫不是自行到齐；句子明确说店员按颜色把它们陈列在货架上。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "店员是整理货品的施事，衬衫是被摆放和配齐的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "开店前，店员按颜色把新款衬衫陈列在货架上。",
+    "explanation": "句子写店员整理衬衫并将它们按颜色陈列，词条在这里表示施事对对象进行安排。",
+    "hint": "留意句中谁整理货品，以及衬衫处于什么位置。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbua.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "lexicalKey": "viewroom-window-faces-sea",
+    "scene": "展望室的大窗朝向海面。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "向く",
+      "reading": "むく"
+    },
+    "before": [
+      {
+        "text": "展望室の大きな窓は海に向いている。",
+        "reading": "てんぼうしつのおおきなまどはうみにむいている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "大窗本身朝向海面，句子描述窗户所处的方向，没有施事把别的对象转向海面。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「向ける」表示把某物转向目标；本句写的是窗户自身面朝海面。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "展望室的大窗朝向海面。",
+    "explanation": "「窓は海に向いている」说明窗户自身的朝向。",
+    "hint": "判断变化或方向关系属于窗户本身，还是有人把某物转向海面。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbua.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "lexicalKey": "host-aims-mic-at-questioner",
+    "scene": "观众席有人提问时，主持人把手持麦克风转向提问者。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "向ける",
+      "reading": "むける"
+    },
+    "before": [
+      {
+        "text": "質問が出ると、司会者は手持ちのマイクを客席の質問者へ向けた。",
+        "reading": "しつもんがでると、しかいしゃはてもちのマイクをきゃくせきのしつもんしゃへむけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子不是描述麦克风自身朝向某处，而是主持人把麦克风转向提问者。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "司会者是施事，手持麦克风是被转向客席提问者的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "有人提问时，主持人把手持麦克风转向观众席的提问者。",
+    "explanation": "主持人主动调整麦克风的方向，麦克风是动作对象。",
+    "hint": "看清句中是谁改变方向，以及哪个对象被转向提问者。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbua.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "lexicalKey": "steep-path-unsuitable-for-wheelchair",
+    "scene": "这段坡道太陡，不适合轮椅通行。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "向く",
+      "reading": "むく"
+    },
+    "before": [
+      {
+        "text": "この坂道は勾配が急で、車いすでの移動には向かない。",
+        "reading": "このさかみちはこうばいがきゅうで、くるまいすでのいどうにはむかない。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "坂道自身不适合轮椅通行；句子说明其性质或适用方向。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「向ける」表示施事把对象转向目标；这里没有施事调整坡道或轮椅方向。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "这段坡道坡度很陡，不适合轮椅通行。",
+    "explanation": "句子评价坡道自身是否适合轮椅移动。",
+    "hint": "考虑句子是在说明坡道的性质，还是有人把某物转向一个目标。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbua.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "lexicalKey": "budget-directed-to-school-route-safety",
+    "scene": "地方政府把有限预算的一部分投向上学路照明建设。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "向ける",
+      "reading": "むける"
+    },
+    "before": [
+      {
+        "text": "自治体によって、限られた予算の一部が通学路の照明設置に向けられた。",
+        "reading": "じちたいによって、かぎられたよさんのいちぶがつうがくろのしょうめいせっちにむけられた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子并非预算自行朝向某处；地方政府把一部分预算分配到照明建设。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "有限预算作为被分配的对象，由自治体导向通学路照明项目。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "地方政府将有限预算的一部分投入了上学路照明建设。",
+    "explanation": "句子写自治体把预算导向一个用途，预算是动作对象。",
+    "hint": "观察预算如何与项目发生关系，以及是谁将预算分配过去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "shells-crumble-on-rocky-shore",
+    "scene": "礁石海岸上，贝壳被反复拍打后碎在沙地上。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕ける",
+      "reading": "くだける"
+    },
+    "before": [
+      {
+        "text": "波に何度も打ちつけられた貝殻は、岩場のくぼみに細かく砕けている。",
+        "reading": "なみになんどもうちつけられたかいがらは、いわばのくぼみにこまかくくだけている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "贝壳自身碎裂成小片，句子没有人或工具直接把贝壳砸碎。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「砕く」要求施事对对象实施破碎动作；这里贝壳处于碎裂后的状态。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被海浪反复拍打的贝壳，在礁石凹处碎成了小片。",
+    "explanation": "贝壳是受波浪影响而碎裂的对象，句子没有写出直接砸碎它的施事。",
+    "hint": "辨认贝壳是自行碎裂的主体，还是被人或工具砸碎的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "cook-crushes-peppercorns",
+    "scene": "为释放胡椒香气，厨师用研钵将胡椒粒磨碎。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕く",
+      "reading": "くだく"
+    },
+    "before": [
+      {
+        "text": "料理人は胡椒の粒をすり鉢で細かく砕いた。",
+        "reading": "りょうりにんはこしょうのつぶをすりばちでこまかくくだいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "胡椒粒不是自行碎裂；厨师用研钵对胡椒粒实施了破碎动作。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "料理人是施事，胡椒粒是被研钵弄碎的直接对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "厨师用研钵把胡椒粒磨碎，以释放香气。",
+    "explanation": "厨师主动把胡椒粒加工成细碎状态。",
+    "hint": "看胡椒粒是自行碎裂，还是厨师把它弄碎。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "limestone-crumbles-through-weathering",
+    "scene": "山路旁的石灰岩在反复冻融中逐渐碎裂。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕ける",
+      "reading": "くだける"
+    },
+    "before": [
+      {
+        "text": "山道沿いの石灰岩は、凍結と融解を繰り返して少しずつ砕けていく。",
+        "reading": "さんどうぞいのせっかいがんは、とうけつとゆうかいをくりかえしてすこしずつくだけていく。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "石灰岩在冻融作用下逐渐自身破碎，句子将岩石作为变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「砕く」表示有人或工具把石灰岩弄碎；此处写的是岩石受自然作用而碎裂。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山路旁的石灰岩在反复冻融中逐渐碎裂。",
+    "explanation": "温度变化使石灰岩自身逐渐破碎，没有人为破碎的施事。",
+    "hint": "判断石灰岩是形变的主体，还是被人为破碎的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "crew-breaks-concrete-wall",
+    "scene": "施工人员用重型机械拆碎旧混凝土围墙。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕く",
+      "reading": "くだく"
+    },
+    "before": [
+      {
+        "text": "工事区画を広げるため、作業員は重機で古いコンクリート塀を砕いた。",
+        "reading": "こうじくかくをひろげるため、さぎょういんはじゅうきでふるいコンクリートへいをくだいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "围墙不是自行碎裂；作业员用重型机械主动破坏它。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "作业员是施事，旧混凝土围墙是重型机械破碎的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了扩大施工区域，作业人员用重型机械拆碎了旧混凝土围墙。",
+    "explanation": "作业人员通过重型机械对围墙实施破碎动作。",
+    "hint": "对照作业员、机械和围墙各自承担的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "lexicalKey": "stored-hose-twisted",
+    "scene": "取出收纳袋里的水管后发现中段扭结，出水不畅。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "捩れる",
+      "reading": "ねじれる"
+    },
+    "before": [
+      {
+        "text": "収納袋から出したホースは、途中で強く捩れて水が流れにくくなった。",
+        "reading": "しゅうのうぶくろからだしたホースは、とちゅうでつよくねじれてみずがながれにくくなった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "水管自身发生扭曲，导致水流不畅；句子没有写有人扭动水管去操作其他对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「捩じる」表示施事扭拧一个对象；本句焦点是水管本身处于扭曲状态。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从收纳袋取出的水管中段严重扭曲，导致水流不畅。",
+    "explanation": "句子描述水管自身弯扭后的状态。",
+    "hint": "判断变形的是水管本身，还是有人主动扭动了某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "lexicalKey": "guest-wrings-wet-towel",
+    "scene": "洗澡后，客人在洗手台上把湿毛巾拧干。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "捩じる",
+      "reading": "ねじる"
+    },
+    "before": [
+      {
+        "text": "入浴後、客は濡れたタオルを洗面台の上で強く捩じって水を切った。",
+        "reading": "にゅうよくご、きゃくはぬれたタオルをせんめんだいのうえでつよくねじってみずをきった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "毛巾没有自行扭曲；客人有意扭拧它以挤出水分。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "客人是执行扭拧动作的施事，毛巾是直接对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "洗澡后，客人在洗手台上用力拧干湿毛巾。",
+    "explanation": "客人主动把湿毛巾扭拧以挤出水分。",
+    "hint": "看毛巾是变化主体，还是客人用力扭拧的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "lexicalKey": "wooden-box-lid-warps",
+    "scene": "木箱盖因干燥不均扭曲，已经无法合上。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "捩れる",
+      "reading": "ねじれる"
+    },
+    "before": [
+      {
+        "text": "乾燥のむらで、木箱のふたが端から少しずつ捩れて、閉まらなくなった。",
+        "reading": "かんそうのむらで、きばこのふたがはしからすこしずつねじれて、しまらなくなった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "木箱盖因干燥不均自身发生扭曲，后果是无法合上。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子没有写木箱盖扭动其他对象；盖子是发生形变的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "由于干燥不均，木箱盖从边缘起逐渐扭曲，无法合上。",
+    "explanation": "盖子自身变形后无法闭合，没有施事用它扭拧别物。",
+    "hint": "观察木箱盖是扭曲的主体，还是扭动其他对象的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "lexicalKey": "wire-twisted-around-signpost",
+    "scene": "工作人员用铁丝将标牌固定在柱子上。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "捩じる",
+      "reading": "ねじる"
+    },
+    "before": [
+      {
+        "text": "看板を柱に固定するため、作業員は針金の両端をペンチで捩じった。",
+        "reading": "かんばんをはしらにこていするため、さぎょういんははりがねのりょうたんをペンチでねじった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "铁丝两端不是自行扭曲；作业员用钳子把它们扭在一起。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "作业员主动扭拧铁丝两端，铁丝两端是动作对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了把标牌固定在柱子上，工作人员用钳子扭紧了铁丝两端。",
+    "explanation": "作业员用钳子主动扭拧铁丝两端来固定标牌。",
+    "hint": "确认是谁用钳子施力，以及受到扭拧的是哪个部分。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcna.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "lexicalKey": "vase-has-cracked",
+    "scene": "花瓶从架子上掉下，撞到硬地后瓶身裂开。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "割れる",
+      "reading": "われる"
+    },
+    "before": [
+      {
+        "text": "棚から落ちた花瓶は、硬い床に当たって胴に細いひびが入り、割れている。",
+        "reading": "たなからおちたかびんは、かたいゆかにあたってどうにほそいひびがはいり、われている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "花瓶处于瓶身裂开的状态，句子把花瓶作为发生破裂变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子没有施事拿工具打破花瓶；它描述的是花瓶自身裂开的状态。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从架子上掉下的花瓶撞到硬地后，瓶身出现细裂纹并裂开了。",
+    "explanation": "花瓶本身呈现破裂状态，句中没有把它写成施事打破别物。",
+    "hint": "看句子描述的是花瓶自身的状态，还是有人打破某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcna.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "lexicalKey": "cook-cracks-egg-on-bowl",
+    "scene": "厨师把一枚鸡蛋磕在碗沿上打破。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "割る",
+      "reading": "わる"
+    },
+    "before": [
+      {
+        "text": "料理人は卵を一つ、ボウルの縁に当てて割った。",
+        "reading": "りょうりにんはたまごをひとつ、ボウルのふちにあててわった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "鸡蛋不是自行裂开；厨师把鸡蛋磕在碗沿上使它破开。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "料理人是施事，鸡蛋是他磕破的直接对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "厨师把一枚鸡蛋磕在碗沿上打破了。",
+    "explanation": "厨师主动对鸡蛋施力，使蛋壳裂开。",
+    "hint": "判断鸡蛋是自行破裂，还是厨师施力使它破开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "lexicalKey": "spring-pond-ice-cracks",
+    "scene": "初春升温后，池塘靠岸的冰面多处裂开。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "割れる",
+      "reading": "われる"
+    },
+    "before": [
+      {
+        "text": "春先の池では、気温が上がるにつれて岸近くの氷があちこちで割れている。",
+        "reading": "はるさきのいけでは、きおんがあがるにつれてきしちかくのこおりがあちこちでわれている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "岸边冰面处于多处裂开的状态；冰面自身是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子没有人或工具把冰面打破，而是温度变化使冰面自身开裂。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "初春气温回升后，池塘靠岸处的冰面多处裂开了。",
+    "explanation": "句子描述池冰在升温条件下自身出现裂开的状态。",
+    "hint": "观察冰面是自行开裂的一方，还是被人打破的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

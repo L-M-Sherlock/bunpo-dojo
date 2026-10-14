@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refrka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "pair": {
+      "id": "verb.refrka",
+      "intransitive": "渡る",
+      "intransitiveReading": "わたる",
+      "transitive": "渡す",
+      "transitiveReading": "わたす",
+      "meaning": "辨析「渡る／渡す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "pair": {
+      "id": "verb.refsga",
+      "intransitive": "轟く",
+      "intransitiveReading": "とどろく",
+      "transitive": "轟かす",
+      "transitiveReading": "とどろかす",
+      "meaning": "辨析「轟く／轟かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "pair": {
+      "id": "verb.refsga",
+      "intransitive": "轟く",
+      "intransitiveReading": "とどろく",
+      "transitive": "轟かす",
+      "transitiveReading": "とどろかす",
+      "meaning": "辨析「轟く／轟かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "pair": {
+      "id": "verb.refsga",
+      "intransitive": "轟く",
+      "intransitiveReading": "とどろく",
+      "transitive": "轟かす",
+      "transitiveReading": "とどろかす",
+      "meaning": "辨析「轟く／轟かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "pair": {
+      "id": "verb.refsga",
+      "intransitive": "轟く",
+      "intransitiveReading": "とどろく",
+      "transitive": "轟かす",
+      "transitiveReading": "とどろかす",
+      "meaning": "辨析「轟く／轟かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsma.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "pair": {
+      "id": "verb.refsma",
+      "intransitive": "迷う",
+      "intransitiveReading": "まよう",
+      "transitive": "迷わす",
+      "transitiveReading": "まよわす",
+      "meaning": "辨析「迷う／迷わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 13
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsma.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "pair": {
+      "id": "verb.refsma",
+      "intransitive": "迷う",
+      "intransitiveReading": "まよう",
+      "transitive": "迷わす",
+      "transitiveReading": "まよわす",
+      "meaning": "辨析「迷う／迷わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 13
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "pair": {
+      "id": "verb.refsma",
+      "intransitive": "迷う",
+      "intransitiveReading": "まよう",
+      "transitive": "迷わす",
+      "transitiveReading": "まよわす",
+      "meaning": "辨析「迷う／迷わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 13
+    },
+    "direction": "intransitive"
+  }
+]

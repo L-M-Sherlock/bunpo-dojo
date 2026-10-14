@@ -1,0 +1,37 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/remainder-03.draft.json",
+  "at": "2026-10-13T13:07:10.565Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "mixed.27",
+      "hash": "bad4e2f255225809b896a3f40988202b0968dd6b8e900942a5cc3e7a93f6a353",
+      "fullSentences": [
+        "受付係は来場者に整理券を配り、参加者は講堂で静かに待った。"
+      ]
+    },
+    {
+      "id": "mixed.28",
+      "hash": "49b6afe1472f3fb3459b422c5fddd0be27ac5832db117f50ee7ce4e950cb40d4",
+      "fullSentences": [
+        "案内係は資料館で見学者の地図を配り、団体客は午後、隣の植物園に行った。",
+        "案内係は資料館で見学者の地図を配り、団体客は午後、隣の植物園へ行った。"
+      ]
+    },
+    {
+      "id": "mixed.29",
+      "hash": "45dcd62045f72efffd8ffb0c92ee8e9b0b0636db46f62cfd81e0e35fd848c469",
+      "fullSentences": [
+        "添乗員は駅前でツアー客の人数を確かめ、観光客はロープウェイに乗った。"
+      ]
+    },
+    {
+      "id": "mixed.30",
+      "hash": "5369eb9397e433fb9ec85a7de78b0cec9b10fec1a1463db6480de5c502b86076",
+      "fullSentences": [
+        "社員は受付で同僚に挨拶し、午後六時に会社を出た。"
+      ]
+    }
+  ]
+}

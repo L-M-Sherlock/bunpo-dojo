@@ -1,0 +1,242 @@
+[
+  {
+    "id": "particle.purpose.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "鯖を買いに行く",
+    "scene": "母亲去鲜鱼店买晚饭用的鲭鱼。",
+    "before": [
+      {
+        "text": "母は鮮魚店へ、夕飯用の鯖を買い",
+        "reading": "はははせんぎょてんへ、ゆうはんようのさばをかい"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「買い」は「買う」の連用形で、「に行く」とつながって魚を買う目的を表します。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「鯖を買いを行った」となり、「を」が重なって目的の形になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲去鲜鱼店买晚饭用的鲭鱼。",
+    "explanation": "「買い」后接「に行った」，说明母亲去鲜鱼店的目的。",
+    "hint": "判断买鲭鱼是母亲前往鲜鱼店要做的目的动作，还是句中的另一个宾语。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "コーヒーを飲みに行く",
+    "scene": "下班后，同事去车站前的咖啡馆喝咖啡。",
+    "before": [
+      {
+        "text": "同僚は駅前の喫茶店へコーヒーを飲み",
+        "reading": "どうりょうはえきまえのきっさてんへコーヒーをのみ"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「飲み」は「飲む」の連用形で、「に行く」と続いてコーヒーを飲む目的を示します。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「コーヒーを飲みを行った」となり、目的を表す構文になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "同事去车站前的咖啡馆喝咖啡。",
+    "explanation": "同事前往咖啡馆的目的是喝咖啡，用「飲み＋に行く」表示。",
+    "hint": "咖啡馆是目的地；再判断喝咖啡在句中表示什么关系。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "公園へ走りに行く",
+    "scene": "周末，妹妹去河边公园跑步。",
+    "before": [
+      {
+        "text": "週末、妹は川沿いの公園へ走り",
+        "reading": "しゅうまつ、いもうとはかわぞいのこうえんへはしり"
+      }
+    ],
+    "after": [
+      {
+        "text": "行く。",
+        "reading": "いく。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「走り」は「走る」の連用形で、走ることを公園へ行く目的として示します。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「走りを行く」となり、連用形で目的を表す形になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "周末，妹妹去河边公园跑步。",
+    "explanation": "跑步是妹妹前往公园的目的，连用形「走り」后接「に行く」。",
+    "hint": "区分妹妹前往的地点和她到那里要做的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "小包を出しに郵便局へ行く",
+    "scene": "哥哥午休时去邮局寄小包裹。",
+    "before": [
+      {
+        "text": "兄は昼休みに郵便局へ小包を出し",
+        "reading": "あにはひるやすみにゆうびんきょくへこづつみをだし"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「出し」は「出す」の連用形で、郵便局へ行く目的を示します。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「小包を出しを行った」となり、目的を表す形になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "哥哥午休时去邮局寄小包裹。",
+    "explanation": "哥哥去邮局是为了寄出小包裹，用「出し＋に行った」连接目的和移动。",
+    "hint": "小包裹是寄出的对象；寄包裹这件事说明哥哥为什么去邮局。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "予約の客を迎えに入口へ行く",
+    "scene": "店长到店门口迎接预约来访的客人。",
+    "before": [
+      {
+        "text": "店長は予約の客を迎え",
+        "reading": "てんちょうはよやくのきゃくをむかえ"
+      }
+    ],
+    "after": [
+      {
+        "text": "店の入口へ行った。",
+        "reading": "みせのいりぐちへいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「迎え」は「迎える」の連用形で、店長が入口へ行く目的を表します。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「客を迎えを店の入口へ行った」となり、目的の構文になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店长到店门口迎接预约的客人。",
+    "explanation": "店长去入口的目的是迎接预约客人，用「迎え＋に行く」表示。",
+    "hint": "判断迎接客人是店长前往入口的目的，还是另一个宾语标记。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

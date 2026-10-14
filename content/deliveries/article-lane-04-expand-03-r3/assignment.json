@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refdca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "pair": {
+      "id": "verb.refdca",
+      "intransitive": "焦げる",
+      "intransitiveReading": "こげる",
+      "transitive": "焦がす",
+      "transitiveReading": "こがす",
+      "meaning": "辨析「焦げる／焦がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.purpose.02",
+    "fullCorrectSentences": [
+      "母は鮮魚店へ、夕飯用の鯖を買いに行った。"
+    ],
+    "sceneRationale": "母亲前往鲜鱼店，购买晚饭用的鲭鱼是此行目的。",
+    "otherReadings": "「買い」是「買う」的连用形；「に行く」把购买鲭鱼表为移动目的。若插入「を」，会与已有的「鯖を」形成重复标记。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "接连用形，表示去鲜鱼店买鲭鱼的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "与「鯖を」重复，不能组成目的表达", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：母（はは）、鮮魚店（せんぎょてん）、夕飯用（ゆうはんよう）、鯖（さば）、買い（かい）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.03",
+    "fullCorrectSentences": [
+      "同僚は駅前の喫茶店へコーヒーを飲みに行った。"
+    ],
+    "sceneRationale": "同事前往车站前咖啡馆，喝咖啡是此行目的。",
+    "otherReadings": "「飲み」是「飲む」的连用形，后接「に行く」表示前往咖啡馆的目的。「を」会与前面的「コーヒーを」重复。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "表示去咖啡馆喝咖啡的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "与「コーヒーを」形成重复宾语标记", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：同僚（どうりょう）、駅前（えきまえ）、喫茶店（きっさてん）、コーヒー、飲み（のみ）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.04",
+    "fullCorrectSentences": [
+      "週末、妹は川沿いの公園へ走りに行く。"
+    ],
+    "sceneRationale": "妹妹周末前往河边公园，跑步是她去公园要做的活动。",
+    "otherReadings": "「走り」是「走る」的连用形；「走りに行く」表示为了跑步而去公园。此处不是把「走り」作为名词宾语再用「を」标记。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "表示前往公园跑步的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "不能接在连用形后表示这一移动目的", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：週末（しゅうまつ）、妹（いもうと）、川沿い（かわぞい）、公園（こうえん）、走り（はしり）、行く（いく）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.05",
+    "fullCorrectSentences": [
+      "兄は昼休みに郵便局へ小包を出しに行った。"
+    ],
+    "sceneRationale": "哥哥在午休时前往邮局，寄出小包裹是出行目的。",
+    "otherReadings": "「出し」是「出す」的连用形，与「に行った」组合表示去邮局寄小包裹。「を」会与已有的「小包を」重复。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "表示前往邮局寄出小包裹的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "与「小包を」造成重复宾语标记", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：兄（あに）、昼休み（ひるやすみ）、郵便局（ゆうびんきょく）、小包（こづつみ）、出し（だし）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.06",
+    "fullCorrectSentences": [
+      "店長は予約の客を迎えに店の入口へ行った。"
+    ],
+    "sceneRationale": "店长前往店门口，目的是迎接预约来访的客人。",
+    "otherReadings": "「迎え」是「迎える」的连用形，「に行く」表示去入口迎接客人的目的。「を」会在「客を」之后再次把迎え标作宾语，不能形成此句型。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "表示去店门口迎接预约客人的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "与前面的「客を」重复，不能表示移动目的", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：店長（てんちょう）、予約（よやく）、客（きゃく）、迎え（むかえ）、店（みせ）、入口（いりぐち）、行った（いった）。",
+    "unresolvedQuestions": []
+  }
+]

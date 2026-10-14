@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refsha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "lexicalKey": "children-fly-folded-paper-planes-across-gym",
+    "scene": "放学后，孩子们把纸飞机放飞到体育馆另一端。",
+    "before": [
+      {
+        "text": "放課後の工作クラブで、子どもたちは自分たちで折った紙飛行機を体育館の反対側まで",
+        "reading": "ほうかごのこうさくクラブで、こどもたちはじぶんたちでおったかみひこうきをたいいくかんのはんたいがわまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "飛ばした",
+        "reading": "とばした",
+        "verdict": "correct",
+        "explanation": "「子どもたちは」是明确的施事，「紙飛行機を」标出被他们放飞的对象，句子表达孩子们让纸飞机飞到体育馆另一端。"
+      },
+      {
+        "id": "b",
+        "text": "飛んだ",
+        "reading": "とんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「飛ぶ」描写主体自身飞行；本句以「子どもたちは」作主语，并用「紙飛行機を」标出对象，不能用自动词「飛んだ」接成这个施事与对象结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "放学后，在手工社团里，孩子们把自己折的纸飞机放飞到体育馆另一端。",
+    "explanation": "「子どもたちは」明确指出放飞纸飞机的施事，「紙飛行機を」标出被放飞的对象，因此这里用他动词「飛ばす」。",
+    "hint": "看「子どもたちは」和「紙飛行機を」分别标出的角色，再判断动作由谁实施。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

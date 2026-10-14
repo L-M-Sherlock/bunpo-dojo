@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refica.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "pair": {
+      "id": "verb.refica",
+      "intransitive": "汚れる",
+      "intransitiveReading": "けがれる",
+      "transitive": "汚す",
+      "transitiveReading": "けがす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

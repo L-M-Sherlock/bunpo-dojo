@@ -1,0 +1,28 @@
+[
+  {
+    "id": "particle.recipient.01",
+    "fullCorrectSentences": [
+      "閉館前、司書は新人のアルバイトに職員証を渡した。"
+    ],
+    "sceneRationale": "闭馆前，司书把员工证交给新兼职生；兼职生是物品的接收者。",
+    "otherReadings": "「新人のアルバイトと」と会把兼职生读成共同递交者，接收者未明示；此场景中兼职生接收员工证。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "标出员工证的接收者",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "meaning": "表示与兼职生一起递交员工证，接收者未明示",
+        "verdict": "meaning-mismatch"
+      }
+    ],
+    "readingCheck": "逐句核读：閉館前（へいかんまえ）、司書（ししょ）、新人（しんじん）、アルバイト、職員証（しょくいんしょう）、渡した（わたした）。",
+    "unresolvedQuestions": []
+  }
+]

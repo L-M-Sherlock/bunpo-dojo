@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_03_repair",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-04-r1.draft.json",
+  "at": "2026-10-14T02:06:14.932Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refeda.03",
+      "hash": "6504cb62048fc251e065a428b2306bf037a9ab64f74e02c405fd725bef155d3f",
+      "fullSentences": [
+        "手術のために刈った犬の毛が、数か月後にまた生えました。"
+      ]
+    },
+    {
+      "id": "verb.refiba.03",
+      "hash": "c08d7c2c4f007710a8ce22ab8049017de5cfc5257e0e6b2fdbea83ffdb7c1dac",
+      "fullSentences": [
+        "人の気配を感じた鹿の群れが、木立の陰に隠れました。"
+      ]
+    }
+  ]
+}

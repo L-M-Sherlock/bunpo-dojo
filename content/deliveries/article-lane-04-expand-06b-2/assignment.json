@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refuaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "pair": {
+      "id": "verb.refuaa",
+      "intransitive": "滅ぶ",
+      "intransitiveReading": "ほろぶ",
+      "transitive": "滅ぼす",
+      "transitiveReading": "ほろぼす",
+      "meaning": "辨析「滅ぶ／滅ぼす」的角色与对象",
+      "count": 4,
+      "articleGroup": 21,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refuaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "pair": {
+      "id": "verb.refuaa",
+      "intransitive": "滅ぶ",
+      "intransitiveReading": "ほろぶ",
+      "transitive": "滅ぼす",
+      "transitiveReading": "ほろぼす",
+      "meaning": "辨析「滅ぶ／滅ぼす」的角色与对象",
+      "count": 4,
+      "articleGroup": 21,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

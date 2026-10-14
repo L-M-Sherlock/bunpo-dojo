@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-04.draft.json",
+  "at": "2026-10-13T12:17:39.245Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.board.02",
+      "hash": "a23b03984d62adbc44817c9de348f6e2330ec4e1de5419d5ea2e7cf1b400dedb",
+      "fullSentences": [
+        "旅行者は松本駅で特急列車にに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.03",
+      "hash": "72a96263615e07ca756eb0df03e02d676bff8b3a2cfca6355a2045ddfd427cdf",
+      "fullSentences": [
+        "帰省客は港でフェリーにに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.04",
+      "hash": "1ad3892ec021e592c48a808bb76ed7bfcdd0b3b195e43c48bb6558bb37210a55",
+      "fullSentences": [
+        "乗客は駅前でタクシーにに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.05",
+      "hash": "344f4361306daa5416f83702ee064ccc893e941ec7475faf634e76e61f28834c",
+      "fullSentences": [
+        "妹は公園でレンタサイクルにに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.06",
+      "hash": "c90e40bdeb382742c7ce7dd8cd70a4118cf997e7222091d2cc6724c99e597fd1",
+      "fullSentences": [
+        "社員は大阪空港で東京行きの飛行機にに乗ります。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.continue.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "platform-departure-melody-duration",
+    "scene": "列车驶离站台后，定时播放的发车音乐又响了十秒。",
+    "before": [
+      {
+        "text": "列車がホームを離れた後も、タイマーで自動再生された発車メロディが十秒ほど",
+        "reading": "れっしゃがホームをはなれたあとも、タイマーでじどうさいせいされたはっしゃメロディがじゅうびょうほど"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "correct",
+        "explanation": "以发车旋律为主语，表示它被计时器自动播放后自身持续了约十秒。"
+      },
+      {
+        "id": "b",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "ungrammatical",
+        "explanation": "「続ける」表示有人继续某项活动；这里「発車メロディが」把旋律标为主语，不能接他动词「続けた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "列车驶离站台后，定时自动播放的发车旋律还持续了约十秒。",
+    "explanation": "句子报告自动播放的旋律本身持续了多久，没有写人继续演奏或播放。",
+    "hint": "留意句中被标为主语的是旋律本身，还是继续活动的人。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

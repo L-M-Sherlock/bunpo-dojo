@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-03.draft.json",
+  "at": "2026-10-13T12:39:56.302Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.time.07",
+      "hash": "e6a2c483803187dea433d3587aa6af9a7d88157cf4bf547d524e204c14e55575",
+      "fullSentences": [
+        "市立植物園の温室は、四月十八日の午前九時に開きます。"
+      ]
+    },
+    {
+      "id": "particle.time.08",
+      "hash": "ff4ef9525a1c6a8a3a045254b97bf9b3988c2dc5b9a84258ffd51f7f5208a4e5",
+      "fullSentences": [
+        "山小屋で、目覚まし時計が午前五時三十分に鳴った。"
+      ]
+    },
+    {
+      "id": "particle.time.09",
+      "hash": "39edfd21efedbe392b1d777dfbc91ecb78a5043583ec5ad20a2c47fb9a71a9a1",
+      "fullSentences": [
+        "大学の後期授業は、九月二十五日に始まる。"
+      ]
+    },
+    {
+      "id": "particle.time.10",
+      "hash": "b889969b9dc858682e08362b21b13d41f2ae80ee3f766ebfadae3fc742bfacc6",
+      "fullSentences": [
+        "駅前の時計台は、毎晩午後十時に鐘を鳴らす。"
+      ]
+    },
+    {
+      "id": "particle.means.01",
+      "hash": "15a23e2fd1cb7b90352e8180ae0854998ebf7962603c8e0f81aff3c724dcd9e4",
+      "fullSentences": [
+        "父は新幹線で東京駅に向かった。"
+      ]
+    }
+  ]
+}

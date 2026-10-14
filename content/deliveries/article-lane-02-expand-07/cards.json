@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.hiraku.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "開く",
+      "reading": "ひらく"
+    },
+    "lexicalKey": "reader-opens-dictionary-to-check-reading",
+    "scene": "阅览室里，读者为确认生词读音而查阅辞典。",
+    "before": [
+      {
+        "text": "閲覧席で、利用者は読み方を調べるために辞典を開いた。",
+        "reading": "えつらんせきで、りようしゃはよみかたをしらべるためにじてんをひらいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「開く」描述花朵等主体自身打开；本句是读者打开辞典来查读音，辞典由「を」标出为对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "读者是实施开合动作的人，「辞典を」标明被打开的对象，符合查阅辞典的场景。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "在阅览席上，读者为了查读音而翻开了辞典。",
+    "explanation": "句子写读者主动打开辞典来查读音，辞典是被打开的对象。",
+    "hint": "留意是谁实施开合动作，以及句中哪一项是被打开的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

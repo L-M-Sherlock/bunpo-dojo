@@ -1,0 +1,140 @@
+[
+  {
+    "id": "verb.refdca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "露营时，孩子把棉花糖在炭火上烤焦了",
+    "before": [
+      {
+        "text": "キャンプの炭火で、子どもはマシュマロを",
+        "reading": "キャンプのすみびで、こどもはマシュマロを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦がした",
+        "reading": "こがした",
+        "verdict": "correct",
+        "explanation": "孩子主动把棉花糖烤焦了；「マシュマロを」中的を标出动作直接作用的对象。"
+      },
+      {
+        "id": "b",
+        "text": "焦げた",
+        "reading": "こげた",
+        "verdict": "ungrammatical",
+        "explanation": "句中的「マシュマロを」标出动作直接对象，不能接自动词「焦げた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "露营时，孩子把棉花糖在炭火上烤焦了。",
+    "explanation": "孩子主动把棉花糖烤焦，棉花糖是动作直接作用的对象。",
+    "hint": "留意句中孩子对棉花糖做了什么，以及棉花糖前的格助词。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "lexicalKey": "漏れる/漏らす",
+    "scene": "男子听到公布的结果后，在观众席不由得叹了口气",
+    "before": [
+      {
+        "text": "発表された結果を聞いた男性は、客席で思わずため息を",
+        "reading": "はっぴょうされたけっかをきいただんせいは、きゃくせきでおもわずためいきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "漏らした",
+        "reading": "もらした",
+        "verdict": "correct",
+        "explanation": "男子不由得发出叹息，「ため息を」是发出的声音，符合他动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "漏れた",
+        "reading": "もれた",
+        "verdict": "ungrammatical",
+        "explanation": "「ため息を」表示发出的内容，自动词「漏れた」不能接在这个を格对象之后。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "男子听到公布的结果后，在观众席不由得叹了口气。",
+    "explanation": "男子听到公布的结果后不由得发出叹息，叹息是从他口中流露出的内容。",
+    "hint": "找出男子发出的内容，以及句子中谁发出了它。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "母亲把待客用的麦茶瓶放进冰箱冰镇",
+    "before": [
+      {
+        "text": "母は来客用に、麦茶のボトルを冷蔵庫で",
+        "reading": "はははらいきゃくように、むぎちゃのボトルをれいぞうこで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷やした",
+        "reading": "ひやした",
+        "verdict": "correct",
+        "explanation": "「麦茶のボトルを」是冷却动作的直接对象；瓶中的麦茶随瓶一起冰镇。"
+      },
+      {
+        "id": "b",
+        "text": "冷えた",
+        "reading": "ひえた",
+        "verdict": "ungrammatical",
+        "explanation": "「麦茶のボトルを」标出直接对象，自动词「冷えた」不能接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲把待客用的麦茶瓶放进冰箱冰镇了。",
+    "explanation": "母亲为待客主动冷却麦茶瓶，瓶子是を格直接对象，瓶中麦茶随瓶一起冰镇。",
+    "hint": "留意母亲是否主动调节了瓶中饮品的温度。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

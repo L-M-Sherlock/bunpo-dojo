@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refjba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "lexicalKey": "unmanned-boat-nears-pier",
+    "scene": "无人小船受强侧风推动，漂到栈桥旁边。",
+    "before": [
+      {
+        "text": "強い横風に押され、無人の小舟が桟橋のすぐそばまで",
+        "reading": "つよいよこかぜにおされ、むじんのこぶねがさんばしのすぐそばまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "寄った",
+        "reading": "よった",
+        "verdict": "correct",
+        "explanation": "小舟在侧风推动下移近栈桥，是小舟本身接近某处的「寄る」。"
+      },
+      {
+        "id": "b",
+        "text": "寄せた",
+        "reading": "よせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「寄せる」表示施事把某个对象移近；这里的小舟无人操控，是被风推动的移动主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被强侧风推着，无人小船漂到了栈桥紧旁。",
+    "explanation": "小舟在风力作用下靠近栈桥，没有施事主动移动另一个对象。",
+    "hint": "分清小舟是移动主体，还是某个施事正在移动其他对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

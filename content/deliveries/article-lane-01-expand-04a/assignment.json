@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refcna.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "pair": {
+      "id": "verb.refcna",
+      "intransitive": "割れる",
+      "intransitiveReading": "われる",
+      "transitive": "割る",
+      "transitiveReading": "わる",
+      "meaning": "辨析「割れる／割る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "pair": {
+      "id": "verb.refdfa",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶かす",
+      "transitiveReading": "とかす",
+      "meaning": "辨析「溶ける／溶かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "pair": {
+      "id": "verb.refdfa",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶かす",
+      "transitiveReading": "とかす",
+      "meaning": "辨析「溶ける／溶かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "pair": {
+      "id": "verb.refdfa",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶かす",
+      "transitiveReading": "とかす",
+      "meaning": "辨析「溶ける／溶かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "pair": {
+      "id": "verb.refdfa",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶かす",
+      "transitiveReading": "とかす",
+      "meaning": "辨析「溶ける／溶かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "pair": {
+      "id": "verb.refeba",
+      "intransitive": "肥える",
+      "intransitiveReading": "こえる",
+      "transitive": "肥やす",
+      "transitiveReading": "こやす",
+      "meaning": "辨析「肥える／肥やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "pair": {
+      "id": "verb.refeba",
+      "intransitive": "肥える",
+      "intransitiveReading": "こえる",
+      "transitive": "肥やす",
+      "transitiveReading": "こやす",
+      "meaning": "辨析「肥える／肥やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "pair": {
+      "id": "verb.refeba",
+      "intransitive": "肥える",
+      "intransitiveReading": "こえる",
+      "transitive": "肥やす",
+      "transitiveReading": "こやす",
+      "meaning": "辨析「肥える／肥やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

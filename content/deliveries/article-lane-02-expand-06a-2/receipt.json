@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_6a2_recovery",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-06a-2.draft.json",
+  "at": "2026-10-14T02:45:33.990Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsda.04",
+      "hash": "f440dd24f01a1291bf469df5cdf02275c56a82484a9f6334b5cd1ff0dfa44399",
+      "fullSentences": [
+        "投手は内角と外角に球を散らした。"
+      ]
+    },
+    {
+      "id": "verb.refsja.01",
+      "hash": "2c28319a936ec2bfd37217d59d8371323ef3b5b32df6a98b4794bf08354dccd9",
+      "fullSentences": [
+        "湖畔で、遠くの雷が鳴った。"
+      ]
+    },
+    {
+      "id": "verb.refsja.02",
+      "hash": "311013a197f67e9e530ad6edef8331e8c4b665c58f2721ea2a0c45e0fe14c368",
+      "fullSentences": [
+        "先生の家を訪ねた学生は、玄関のチャイムを鳴らした。"
+      ]
+    },
+    {
+      "id": "verb.refsja.03",
+      "hash": "c1fbb25a99502648ea35580d700799548819980c31f4acc68bb044b5c919bfd7",
+      "fullSentences": [
+        "昼前の試験中、空腹の学生のお腹がぐうっと鳴った。"
+      ]
+    }
+  ]
+}

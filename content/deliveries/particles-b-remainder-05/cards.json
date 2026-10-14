@@ -1,0 +1,240 @@
+[
+  {
+    "id": "particle.means.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "地図で道を確かめる",
+    "scene": "登山者用地图核对到山间小屋的路线。",
+    "before": [
+      {
+        "text": "登山者は地図",
+        "reading": "とざんしゃはちず"
+      }
+    ],
+    "after": [
+      {
+        "text": "山小屋までの道を確かめた。",
+        "reading": "やまごやまでのみちをたしかめた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "地図是登山者查路线时使用的资料，用「で」标出手段。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把地图当作记录或标注内容的目标；此处登山者是查阅地图。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者用地图确认了前往山间小屋的路线。",
+    "explanation": "地图是确认路线时所用的资料，用「で」表示工具／手段。",
+    "hint": "判断登山者是在地图上记录路线，还是用地图查路线。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "定期船で診療所へ向かう",
+    "scene": "岛上居民乘定期船前往本土诊疗所。",
+    "before": [
+      {
+        "text": "離島の住民は、定期船",
+        "reading": "りとうのじゅうみんは、ていきせん"
+      }
+    ],
+    "after": [
+      {
+        "text": "本土の診療所に向かった。",
+        "reading": "ほんどのしんりょうじょにむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "定期船是岛上居民前往本土时使用的交通工具，用「で」表示方式。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把定期船读成移动目标或登乘对象；句中的目的地是本土诊疗所。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "岛上居民乘定期船前往本土的诊疗所。",
+    "explanation": "定期船是交通方式，诊疗所是目的地；这里分别用「で」和「に」表示。",
+    "hint": "分辨居民是乘什么前往，和最终要到达哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "無線機で本部に報告する",
+    "scene": "巡逻员用无线电向总部报告山体滑坡情况。",
+    "before": [
+      {
+        "text": "警備員は無線機",
+        "reading": "けいびいんはむせんき"
+      }
+    ],
+    "after": [
+      {
+        "text": "本部に土砂崩れの状況を報告した。",
+        "reading": "ほんぶにどしゃくずれのじょうきょうをほうこくした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "无线电是巡逻员传送报告所用的工具，用「で」标记。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把无线电读成报告的接收对象，但句中真正的接收方是「本部に」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "巡逻员用无线电向总部报告了山体滑坡的情况。",
+    "explanation": "无线电是传送报告的手段，总部是信息接收方。",
+    "hint": "注意句中已经标出谁接收报告，再判断无线电承担什么作用。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "ヘリコプターで集落に向かう",
+    "scene": "救援队乘直升机前往深山村落。",
+    "before": [
+      {
+        "text": "救援隊はヘリコプター",
+        "reading": "きゅうえんたいはヘリコプター"
+      }
+    ],
+    "after": [
+      {
+        "text": "山奥の集落に向かった。",
+        "reading": "やまおくのしゅうらくにむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "直升机是救援队前往村落所用的交通工具，用「で」表示。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把直升机读成移动目标；句中的目的地是山里的村落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "救援队乘直升机前往深山村落。",
+    "explanation": "直升机是交通方式，山里的村落是目的地；此处用「で」表示乘坐方式。",
+    "hint": "区分救援队乘坐的交通工具和前往的村落。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "本を返しに行く",
+    "scene": "姐姐去图书馆还书，归还书籍是这次外出的目的。",
+    "before": [
+      {
+        "text": "姉は図書館へ本を返し",
+        "reading": "あねはとしょかんへほんをかえし"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "动词连用形「返し」后接「に行く」，表示去图书馆的目的。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "换成「を」会形成「本を返しを行った」，重复标记宾语，不能表达去还书的目的。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "姐姐去图书馆还书。",
+    "explanation": "「返し」是「返す」的连用形，后接「に行く」表示外出的目的。",
+    "hint": "判断「返す」是姐姐去图书馆要做的目的动作，还是被当作另一个名词对象。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

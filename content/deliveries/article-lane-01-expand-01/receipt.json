@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_01_recovery",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-01.draft.json",
+  "at": "2026-10-13T18:28:03.115Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refaba.04",
+      "hash": "e51011dc4095b23e33600cd5218dea82dacc70a02ea6f52eaee1b9a21fe97b69",
+      "fullSentences": [
+        "食事の前に、冷蔵庫から出したスープを電子レンジで十分に温めた。"
+      ]
+    },
+    {
+      "id": "verb.refaja.01",
+      "hash": "599216294b562a79ca84f7b2876a54a54acb967780b6e3f709e2ae96739f3d32",
+      "fullSentences": [
+        "予約先の旅館から、到着時刻を尋ねる電話が掛かってきた。"
+      ]
+    },
+    {
+      "id": "verb.refaja.02",
+      "hash": "05b4287be67ec529a6a85af105ead141707cd5bc35819a3310708e239bc63193",
+      "fullSentences": [
+        "係員は出発時刻を確かめるため、予約者に電話を掛けた。"
+      ]
+    },
+    {
+      "id": "verb.refaja.03",
+      "hash": "bbe3efb0708957fd73202acc99d016ed6398edfe2c73894aa5a965fcf4b2da77",
+      "fullSentences": [
+        "小さな画廊に入ると、奥の白い壁に地元画家の風景画が掛かっていた。"
+      ]
+    },
+    {
+      "id": "verb.refaja.04",
+      "hash": "7c8c1a9d407b23c7b6dec00b6cca5a165679b604f5ae51d68c5b7c186fb87358",
+      "fullSentences": [
+        "母は洗ったエプロンを台所のフックに掛けた。"
+      ]
+    },
+    {
+      "id": "verb.refara.01",
+      "hash": "f774538125849a07887712da7b85cf537648432220be2552a3562dff63e55a85",
+      "fullSentences": [
+        "地域の防災訓練に、近所の高校生が加わった。"
+      ]
+    },
+    {
+      "id": "verb.refara.02",
+      "hash": "772b1d8705af1d66e2b8f2c6573c5f05ceccddaa978d0503185909360a800119",
+      "fullSentences": [
+        "カレーを仕上げるとき、料理人は刻んだパセリを加えた。"
+      ]
+    },
+    {
+      "id": "verb.refara.03",
+      "hash": "6ec0c049e8911e175254f5d551e750b4ebf8f40c245cc23c8b0d3a447222b532",
+      "fullSentences": [
+        "アンコールでは、客演のクラリネット奏者が弦楽四重奏に加わった。"
+      ]
+    },
+    {
+      "id": "verb.refara.04",
+      "hash": "0588003de55ff91f0cc70d47e4dc3280941f20ea472a87953b1d02460d65fdf1",
+      "fullSentences": [
+        "議事録係は欠席者から届いた意見を議事録に加えた。"
+      ]
+    },
+    {
+      "id": "verb.refaya.01",
+      "hash": "6559e4c84276b35e677d6d679e5ad6f7618d85a8d3ead9ea016ee0c91ca7f74a",
+      "fullSentences": [
+        "洞窟の奥へ進むにつれ、通路の幅が次第に狭まった。"
+      ]
+    },
+    {
+      "id": "verb.refaya.02",
+      "hash": "31dcbd7439a590c5a12640e4cf3a521757bf36111b15a0cdcbaa78b2a6da2202",
+      "fullSentences": [
+        "工事責任者は仮設柵を歩道側へ移し、通行できる幅を狭めた。"
+      ]
+    },
+    {
+      "id": "verb.refaya.03",
+      "hash": "b79e4f1debac966df8fc78e8b1e6f897f53f633e3cabd85c3975b5a20ea99e1c",
+      "fullSentences": [
+        "資料が増えるにつれて、調べる必要のある範囲が狭まっていった。"
+      ]
+    },
+    {
+      "id": "verb.refaya.04",
+      "hash": "142434e284419ed322bdf75ded14f45c386ebc9e3026eb70c1375c603fbb123e",
+      "fullSentences": [
+        "市は落石の危険が残る斜面を立ち入り禁止にし、歩行者が通れる区域を狭めた。"
+      ]
+    },
+    {
+      "id": "verb.refaaea.01",
+      "hash": "423c03d74e238d401a53b4d64703262145d88534715feeab5f1aa9d7a6fe7704",
+      "fullSentences": [
+        "山道の復旧が終わり、離れていた二つの集落が再び旧道で繋がった。"
+      ]
+    },
+    {
+      "id": "verb.refaaea.02",
+      "hash": "13fec99230a0f05858c2222d29196b4e7f73beb694554f5cc561bd9562ff346e",
+      "fullSentences": [
+        "登山者は短いロープを二本繋げて、テントを固定した。"
+      ]
+    },
+    {
+      "id": "verb.refaaea.03",
+      "hash": "d6f33fd62782b64107c5d70812d7081ebb5163ee58e7559a9ae3d2975a6185ca",
+      "fullSentences": [
+        "通信会社の点検が終わり、切れていた光回線が夕方に再び繋がった。"
+      ]
+    }
+  ]
+}

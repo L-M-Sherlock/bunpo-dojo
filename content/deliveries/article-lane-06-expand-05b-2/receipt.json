@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06_5b1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-05b-2.draft.json",
+  "at": "2026-10-14T02:13:56.821Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refrda.04",
+      "hash": "cc2b6cb1dfc4cf3612000f860e5498b38a25a634011f15e50e6f82bb1a7ee07c",
+      "fullSentences": [
+        "園児たちは、床に置いた大きなボールを転がして、前に並んだペットボトルのピンを倒した。"
+      ]
+    },
+    {
+      "id": "verb.refsba.01",
+      "hash": "7cde894126f9c8088608764d08dc00688f2cb2b337efe5a06cb11800404af5fb",
+      "fullSentences": [
+        "料理教室で砂糖を使わないケーキを試食した参加者は、その甘さに驚いた。"
+      ]
+    },
+    {
+      "id": "verb.refsba.02",
+      "hash": "974ad69d469a794dae44d4726d1868ce3d3957890dfa07be46c84eb5203143a7",
+      "fullSentences": [
+        "卒業生たちは恩師の退職祝いに短い映像を用意し、会場で上映して恩師を驚かせた。"
+      ]
+    },
+    {
+      "id": "verb.refsba.03",
+      "hash": "39b72c488524e9c7d38a1e91f614b97da2cd0e079b037e68995b1672d5f66aad",
+      "fullSentences": [
+        "山道を歩いていた旅行者は、茂みから鹿が飛び出したのを見て驚いた。"
+      ]
+    }
+  ]
+}

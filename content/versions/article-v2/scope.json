@@ -1,0 +1,309 @@
+{
+  "version": 2,
+  "baseCommit": "67459b9b500ad660f0225f55d736789616f91025",
+  "pairs": [
+    {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    }
+  ],
+  "particleSkills": [
+    {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に与で的存在/活动地点辨析",
+      "count": 20
+    },
+    {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 20
+    },
+    {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    },
+    {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    },
+    {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    },
+    {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    },
+    {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    },
+    {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    },
+    {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    },
+    {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  ],
+  "requirements": {
+    "verbs": 120,
+    "particles": 120,
+    "mixed": 30,
+    "total": 270
+  }
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refaea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "pair": {
+      "id": "verb.refaea",
+      "intransitive": "受かる",
+      "intransitiveReading": "うかる",
+      "transitive": "受ける",
+      "transitiveReading": "うける",
+      "meaning": "辨析「受かる／受ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "pair": {
+      "id": "verb.refaea",
+      "intransitive": "受かる",
+      "intransitiveReading": "うかる",
+      "transitive": "受ける",
+      "transitiveReading": "うける",
+      "meaning": "辨析「受かる／受ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "pair": {
+      "id": "verb.refaea",
+      "intransitive": "受かる",
+      "intransitiveReading": "うかる",
+      "transitive": "受ける",
+      "transitiveReading": "うける",
+      "meaning": "辨析「受かる／受ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  }
+]

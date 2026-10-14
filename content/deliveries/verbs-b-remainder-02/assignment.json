@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.gather.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.gather.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.gather.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.gather.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.stop.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaaia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "lexicalKey": "lecture-limited-to-basics",
+    "scene": "讲座时间有限，讲师只把讲解控制在基本事项的介绍范围内。",
+    "before": [
+      {
+        "text": "講師は、時間が限られていたため、説明を基本事項の紹介だけに",
+        "reading": "こうしは、じかんがかぎられていたため、せつめいをきほんじこうのしょうかいだけに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "留めた",
+        "reading": "とどめた",
+        "verdict": "correct",
+        "explanation": "讲师把说明限定在基本事项的介绍范围内，説明を是控制范围的对象。"
+      },
+      {
+        "id": "b",
+        "text": "留まった",
+        "reading": "とどまった",
+        "verdict": "ungrammatical",
+        "explanation": "留まる描述主体停留或限于某范围，不能接本句以「を」标出的説明作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "讲师因时间有限，把说明限定在基本事项的介绍范围内。",
+    "explanation": "留める（とどめる）可以表示把内容控制在某一范围内。",
+    "hint": "看讲师是在某处或某范围内停留，还是主动限定说明的范围。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "lexicalKey": "egg-cooks-after-boiling-water",
+    "scene": "厨房计时器响后，厨师确认锅里的鸡蛋已经煮熟。",
+    "before": [
+      {
+        "text": "湯が沸いてから八分後、卵が",
+        "reading": "ゆがわいてからはっぷんご、たまごが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "茹だった",
+        "reading": "ゆだった",
+        "verdict": "correct",
+        "explanation": "卵が是在热水中煮熟的主体，表示鸡蛋已经煮透。"
+      },
+      {
+        "id": "b",
+        "text": "茹でた",
+        "reading": "ゆでた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，鸡蛋会是煮其他东西的施事；这里说的是鸡蛋自身煮熟。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "热水沸腾后八分钟，鸡蛋煮熟了。",
+    "explanation": "茹だる（ゆだる）表示食物在热水中充分受热、煮熟。",
+    "hint": "判断句子说的是食材自身煮熟，还是有人实施煮食材的动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "lexicalKey": "cooking-class-blanches-broccoli",
+    "scene": "烹饪课教师为保留爽脆口感，只把西兰花短暂焯煮。",
+    "before": [
+      {
+        "text": "料理教室の講師は、ブロッコリーを短時間だけ",
+        "reading": "りょうりきょうしつのこうしは、ブロッコリーをたんじかんだけ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "茹でた",
+        "reading": "ゆでた",
+        "verdict": "correct",
+        "explanation": "料理教室の講師是实施动作的人，ブロッコリーを明确表示被煮的对象。"
+      },
+      {
+        "id": "b",
+        "text": "茹だった",
+        "reading": "ゆだった",
+        "verdict": "ungrammatical",
+        "explanation": "茹だる描述主体自身煮熟，不能接本句以「を」标出的西兰花作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烹饪课教师只把西兰花短暂地煮了一下。",
+    "explanation": "茹でる（ゆでる）以厨师为施事、以西兰花为对象，表示主动将食材煮熟。",
+    "hint": "找出实施烹煮动作的人，以及句中被处理的食材。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "lexicalKey": "edamame-cooks-in-salted-water",
+    "scene": "收获节食堂准备试吃，盐水锅里的毛豆已煮熟。",
+    "before": [
+      {
+        "text": "塩を入れた湯の中で、枝豆が",
+        "reading": "しおをいれたゆのなかで、えだまめが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "茹だった",
+        "reading": "ゆだった",
+        "verdict": "correct",
+        "explanation": "枝豆が是在盐水中煮熟的食材，表达它自身达到熟透状态。"
+      },
+      {
+        "id": "b",
+        "text": "茹でた",
+        "reading": "ゆでた",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词茹でる会把枝豆说成正在煮别的东西的施事；本句的枝豆是被煮熟的食材。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "毛豆在放了盐的热水里煮熟了。",
+    "explanation": "茹だる表示食材自身在热水中煮熟，不表示谁把它放进水里煮。",
+    "hint": "看枝豆在句中是煮熟的食材，还是煮其他东西的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "lexicalKey": "autumn-festival-boils-raw-peanuts",
+    "scene": "秋季祭典摊位的炊事组用盐水煮生花生。",
+    "before": [
+      {
+        "text": "秋祭りの調理班は、生の落花生を塩水で",
+        "reading": "あきまつりのちょうりはんは、なまのらっかせいをしおみずで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "茹でた",
+        "reading": "ゆでた",
+        "verdict": "correct",
+        "explanation": "调理组主动用盐水煮花生，落花生を是烹煮动作的直接对象。"
+      },
+      {
+        "id": "b",
+        "text": "茹だった",
+        "reading": "ゆだった",
+        "verdict": "ungrammatical",
+        "explanation": "茹だる是不带直接宾语的自动词，不能接本句以「を」标出的落花生。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "秋季祭典的炊事组用盐水煮了生花生。",
+    "explanation": "茹でる表示调理组把生花生放进盐水中煮。",
+    "hint": "辨认句中实施烹煮的人，以及被放进盐水处理的食材。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "lexicalKey": "fishing-line-catches-waterweed",
+    "scene": "浅滩垂钓时，鱼线缠上水草，钓者收线受阻。",
+    "before": [
+      {
+        "text": "浅瀬で、釣り糸が水草に",
+        "reading": "あさせで、つりいとがみずくさに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡んだ",
+        "reading": "からんだ",
+        "verdict": "correct",
+        "explanation": "釣り糸が是自行缠到水草上的主体，表示线与水草纠缠在一起。"
+      },
+      {
+        "id": "b",
+        "text": "絡めた",
+        "reading": "からめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，鱼线会是把某物缠到水草上的施事；这里说的是鱼线自身缠住水草。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "浅滩处，鱼线缠到了水草上。",
+    "explanation": "絡む（からむ）可表示线等长物自身缠到别的物体上。",
+    "hint": "观察发生缠绕的是鱼线自身，还是有施事把别的东西缠上去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "lexicalKey": "cook-coats-udon-with-sesame-sauce",
+    "scene": "上菜前，厨师把芝麻酱裹在热过的乌冬面上，再盛入器皿中。",
+    "before": [
+      {
+        "text": "料理人は、温めたうどんに胡麻だれを",
+        "reading": "りょうりにんは、あたためたうどんにごまだれを"
+      }
+    ],
+    "after": [
+      {
+        "text": "器に盛った。",
+        "reading": "うつわにもった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡めて",
+        "reading": "からめて",
+        "verdict": "correct",
+        "explanation": "料理人把芝麻酱均匀拌裹在乌冬面上，胡麻だれを是他加入并使其附着的对象。"
+      },
+      {
+        "id": "b",
+        "text": "絡んで",
+        "reading": "からんで",
+        "verdict": "ungrammatical",
+        "explanation": "絡む在此表示酱汁自身附着于面条，不能接本句以「を」标出的胡麻だれ作直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "厨师把芝麻酱拌裹在热过的乌冬面上，盛入器皿中。",
+    "explanation": "絡める可以表示施事把酱汁均匀附着到食物上。",
+    "hint": "判断酱汁是自行附着在面条上，还是厨师主动把酱汁裹到面上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "lexicalKey": "local-tax-in-overseas-expansion",
+    "scene": "公司制定海外拓展计划时，当地税制也牵涉其中。",
+    "before": [
+      {
+        "text": "海外展開の計画には、現地の税制が複雑に",
+        "reading": "かいがいてんかいのけいかくには、げんちのぜいせいがふくざつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡んでいる",
+        "reading": "からんでいる",
+        "verdict": "correct",
+        "explanation": "現地の税制が表示当地税制本身与计划有复杂关联。"
+      },
+      {
+        "id": "b",
+        "text": "絡めている",
+        "reading": "からめている",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词会表示某施事把某项内容编入另一事物；这里说的是当地税制本身与计划有牵连。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "当地税制与海外拓展计划有复杂的关联。",
+    "explanation": "絡む也可表示某项因素与事情紧密相关或牵涉其中。",
+    "hint": "看句子是在陈述一个因素与计划相关，还是有人主动把因素编进计划。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "lexicalKey": "guide-weaves-local-legends-into-walk",
+    "scene": "导览负责人把当地传说编进老街步行导览的解说中。",
+    "before": [
+      {
+        "text": "案内係は、古い港町の散策案内に地元の伝承を",
+        "reading": "あんないがかりは、ふるいみなとまちのさんさくあんないにじもとのでんしょうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "紹介した。",
+        "reading": "しょうかいした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡めて",
+        "reading": "からめて",
+        "verdict": "correct",
+        "explanation": "导览负责人把当地传说编入散步导览的解说中，伝承を是主动关联的内容。"
+      },
+      {
+        "id": "b",
+        "text": "絡んで",
+        "reading": "からんで",
+        "verdict": "ungrammatical",
+        "explanation": "本句把地元の伝承以「を」标为编入的内容，自动词絡む不能接这个直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "导览员把当地传说融入古老港镇的步行导览中介绍。",
+    "explanation": "絡める也可表示把一项内容与另一项内容关联起来。",
+    "hint": "判断当地传说是自行牵涉其中，还是导览员主动把它编入解说。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbma.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "lexicalKey": "audience-queue-moves-forward",
+    "scene": "场馆开始入场后，排队观众开始缓慢向前移动。",
+    "before": [
+      {
+        "text": "入場開始の案内が流れると、列が少しずつ前へ",
+        "reading": "にゅうじょうかいしのあんないがながれると、れつがすこしずつまえへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "始めた。",
+        "reading": "はじめた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "進み",
+        "reading": "すすみ",
+        "verdict": "correct",
+        "explanation": "列が是自身开始向前移动的主体，符合进む的移动义。"
+      },
+      {
+        "id": "b",
+        "text": "進め",
+        "reading": "すすめ",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词进める会表示队伍把某个对象往前推动；这里说的是队伍自身开始前进。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开始入场的通知传来后，队伍开始一点点向前移动。",
+    "explanation": "進む（すすむ）表示队伍自身朝前方移动。",
+    "hint": "看队伍是在自己向前移动，还是在推动另一个对象前进。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbma.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "lexicalKey": "chair-advances-meeting-to-next-agenda",
+    "scene": "问答环节结束后，议长把会议转到下一个议题。",
+    "before": [
+      {
+        "text": "議長は、質疑応答を終えて会議を次の議題へ",
+        "reading": "ぎちょうは、しつぎおうとうをおえてかいぎをつぎのぎだいへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "進めた",
+        "reading": "すすめた",
+        "verdict": "correct",
+        "explanation": "议长主动把会议推进到下一个议题，明示的对象是会議を。"
+      },
+      {
+        "id": "b",
+        "text": "進んだ",
+        "reading": "すすんだ",
+        "verdict": "ungrammatical",
+        "explanation": "会議を是此句中被推进的对象，不能接描述主体自行前进的自动词進む。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "议长结束问答环节后，把会议推进到下一个议题。",
+    "explanation": "進める以议长为施事、以会议为对象，表示主动推进会议流程。",
+    "hint": "找出是谁让会议进入下一个议题，以及会议在句中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "lexicalKey": "prototype-inspection-progresses",
+    "scene": "样机检查按计划推进，下午开始了耐久测试。",
+    "before": [
+      {
+        "text": "試作機の検査が予定どおり",
+        "reading": "しさくきのけんさがよていどおり"
+      }
+    ],
+    "after": [
+      {
+        "text": "、午後から耐久試験に入った。",
+        "reading": "、ごごからたいきゅうしけんにはいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "進み",
+        "reading": "すすみ",
+        "verdict": "correct",
+        "explanation": "検査が表示检查工作本身按计划取得进展，午後から进入下一项试验。"
+      },
+      {
+        "id": "b",
+        "text": "進め",
+        "reading": "すすめ",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词进める表示施事推进某个对象；这里的检查工作本身是在进展。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "样机检查按计划推进，下午开始了耐久测试。",
+    "explanation": "進む也能描述检查或工作进展，本句以検査が表示进展的事项。",
+    "hint": "判断正在取得进展的是检查工作本身，还是有人在推进另一项工作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "lexicalKey": "site-supervisor-advances-reinforcement-work",
+    "scene": "现场负责人结束屋顶检查后，优先推进加固工程。",
+    "before": [
+      {
+        "text": "現場監督は、屋根の点検を終えて、補強工事を先に",
+        "reading": "げんばかんとくは、やねのてんけんをおえて、ほきょうこうじをさきに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "進めた",
+        "reading": "すすめた",
+        "verdict": "correct",
+        "explanation": "现场负责人主动推进加固工程，補強工事を是被推进的工作。"
+      },
+      {
+        "id": "b",
+        "text": "進んだ",
+        "reading": "すすんだ",
+        "verdict": "ungrammatical",
+        "explanation": "進む是不带直接宾语的自动词，不能与本句以「を」标出的補強工事搭配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "现场负责人结束屋顶检查后，优先推进了加固工程。",
+    "explanation": "進める表示现场负责人让加固工程继续向前推进。",
+    "hint": "看加固工程是自行进展，还是负责人主动推动它继续进行。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbsa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "lexicalKey": "mud-sticks-to-rain-boots",
+    "scene": "菜地收工回屋后，长靴底部粘着湿泥。",
+    "before": [
+      {
+        "text": "畑から戻ると、長靴の底に泥が",
+        "reading": "はたけからもどると、ながぐつのそこにどろが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "付いていた",
+        "reading": "ついていた",
+        "verdict": "correct",
+        "explanation": "泥が是附着在靴底上的东西，描述泥已经粘上去的状态。"
+      },
+      {
+        "id": "b",
+        "text": "付けていた",
+        "reading": "つけていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，泥会成为把某物附到靴底上的施事；此处说的是泥自身粘在靴底。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从菜地回来时，长靴底部粘着泥。",
+    "explanation": "付く（つく）可表示泥等物质附着在物体表面。",
+    "hint": "判断泥是附着在靴底上的东西，还是主动把别物附上去的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbsa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "lexicalKey": "number-tag-added-to-nursery-pot",
+    "scene": "园艺管理员为区分同品种的幼苗，在花盆上加了编号牌。",
+    "before": [
+      {
+        "text": "園芸担当者は、同じ種類の苗を見分けるため、鉢に番号札を",
+        "reading": "えんげいたんとうしゃは、おなじしゅるいのなえをみわけるため、はちにばんごうふだを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "付けた",
+        "reading": "つけた",
+        "verdict": "correct",
+        "explanation": "担当者把编号牌附到花盆上，番号札を是添加到鉢上的对象。"
+      },
+      {
+        "id": "b",
+        "text": "付いた",
+        "reading": "ついた",
+        "verdict": "ungrammatical",
+        "explanation": "付く描述东西自行附着，不能接本句以「を」标出的番号札作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "园艺人员为了区分同一品种的幼苗，在花盆上加了编号牌。",
+    "explanation": "付ける（つける）表示施事把编号牌附加到花盆上。",
+    "hint": "找出主动添加标牌的人，以及被加到花盆上的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbsa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "lexicalKey": "blue-pen-mark-on-artbook-cover",
+    "scene": "画册封面上不慎留下蓝色笔迹。",
+    "before": [
+      {
+        "text": "画集の表紙に青いペンの跡が",
+        "reading": "がしゅうのひょうしにあおいペンのあとが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "付いてしまった",
+        "reading": "ついてしまった",
+        "verdict": "correct",
+        "explanation": "青いペンの跡が是留在封面上的痕迹，表示封面上不慎出现了笔迹。"
+      },
+      {
+        "id": "b",
+        "text": "付けてしまった",
+        "reading": "つけてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词主动义理解，笔迹会成为把某物附到封面上的施事；本句说的是笔迹留在封面上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "画册封面上不慎留下蓝色笔迹。",
+    "explanation": "付く也能表示痕迹留在表面上，本句的对象是笔迹本身。",
+    "hint": "看句中出现的是表面上的痕迹，还是某个施事留下痕迹的动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

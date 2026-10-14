@@ -1,0 +1,3952 @@
+[
+  {
+    "id": "verb.open.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.open.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.open.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.open.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.open.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.close.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.close.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.light.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.light.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.off.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.off.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.off.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.off.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.off.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.break.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.break.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.break.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.break.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.break.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.fall.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "pair": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.fall.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "pair": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.fall.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "pair": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.fall.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "pair": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.fall.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "pair": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.enter.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.enter.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.enter.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.enter.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.enter.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.exit.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.exit.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.exit.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.exit.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.exit.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.start.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.start.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.start.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.start.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.start.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.end.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.end.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.end.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "pair": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.decide.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.decide.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.decide.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "pair": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.change.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.change.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.change.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.change.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.change.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.gather.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.gather.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.gather.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.gather.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.gather.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.stop.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.stop.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.stop.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.stop.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.stop.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "pair": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.move.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "pair": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.move.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "pair": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.move.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "pair": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.move.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "pair": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.move.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "pair": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.raise.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.raise.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.raise.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.raise.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.raise.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.lower.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.lower.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.lower.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.lower.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.lower.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.return.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "pair": {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.return.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "pair": {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.return.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "pair": {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.return.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "pair": {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.return.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.return",
+    "familyId": "verb.return",
+    "pair": {
+      "id": "verb.return",
+      "intransitive": "戻る",
+      "intransitiveReading": "もどる",
+      "transitive": "戻す",
+      "transitiveReading": "もどす",
+      "meaning": "返回或放回",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.repair.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "pair": {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.repair.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "pair": {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.repair.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "pair": {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.repair.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "pair": {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.repair.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.repair",
+    "familyId": "verb.repair",
+    "pair": {
+      "id": "verb.repair",
+      "intransitive": "直る",
+      "intransitiveReading": "なおる",
+      "transitive": "直す",
+      "transitiveReading": "なおす",
+      "meaning": "修好物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.find.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "pair": {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.find.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "pair": {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.find.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "pair": {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.find.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "pair": {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.find.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "pair": {
+      "id": "verb.find",
+      "intransitive": "見つかる",
+      "intransitiveReading": "みつかる",
+      "transitive": "見つける",
+      "transitiveReading": "みつける",
+      "meaning": "找到物品",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.sell.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.sell.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.sell.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.sell.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.continue.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.continue.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.continue.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.continue.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.remain.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "pair": {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.remain.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "pair": {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.remain.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "pair": {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.remain.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "pair": {
+      "id": "verb.remain",
+      "intransitive": "残る",
+      "intransitiveReading": "のこる",
+      "transitive": "残す",
+      "transitiveReading": "のこす",
+      "meaning": "剩余或留下",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.line.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.line.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.line.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.line.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "pair": {
+      "id": "verb.line",
+      "intransitive": "並ぶ",
+      "intransitiveReading": "ならぶ",
+      "transitive": "並べる",
+      "transitiveReading": "ならべる",
+      "meaning": "排列物品",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.boil.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.boil.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.boil.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.boil.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "particle.existence.01",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.02",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.03",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.04",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.05",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.06",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.07",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.08",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.09",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.existence.10",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.01",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.02",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.03",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.04",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.05",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.06",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.07",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.08",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.09",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.activity.10",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.04",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.05",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.06",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.destination.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.04",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.05",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.06",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.board.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.04",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.05",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.06",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.leave.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.04",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.05",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.06",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.path.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.means.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.purpose.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    }
+  },
+  {
+    "id": "mixed.01",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "unit": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.02",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "unit": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.03",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "unit": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.04",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "unit": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.05",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "unit": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.06",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "unit": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.07",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "unit": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.08",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "unit": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.09",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "unit": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.10",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "unit": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.11",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "unit": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.12",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "unit": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.13",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "unit": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.14",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "unit": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.15",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "unit": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.16",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.17",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.18",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.19",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.20",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.21",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.22",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.23",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.24",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.25",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.26",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.27",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.28",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.29",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.30",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

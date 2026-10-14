@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refeea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "pair": {
+      "id": "verb.refeea",
+      "intransitive": "冷える",
+      "intransitiveReading": "ひえる",
+      "transitive": "冷やす",
+      "transitiveReading": "ひやす",
+      "meaning": "辨析「冷える／冷やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refaea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "lexicalKey": "受かる・受ける",
+    "scene": "放榜当天，佐藤在县立高中的录取名单上找到了自己的考号。",
+    "before": [
+      {
+        "text": "合格発表の日、佐藤さんは県立高校の入学試験に",
+        "reading": "ごうかくはっぴょうのひ、さとうさんはけんりつこうこうのにゅうがくしけんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "受かりました",
+        "reading": "うかりました",
+        "verdict": "correct",
+        "explanation": "「受かる」表示考试合格；「入学試験に」表示通过哪场考试，「佐藤さんは」将佐藤设为话题。"
+      },
+      {
+        "id": "b",
+        "text": "受けました",
+        "reading": "うけました",
+        "verdict": "ungrammatical",
+        "explanation": "「受ける」在此表示参加考试，考试作「を」标记；本句的「入学試験に」不能接这个用法。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "公布合格结果的那天，佐藤通过了县立高中的入学考试。",
+    "explanation": "句子叙述的是考试结果已合格，而不是参加考试的行为。",
+    "hint": "留意场景提供的是考试结果，还是应试过程。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

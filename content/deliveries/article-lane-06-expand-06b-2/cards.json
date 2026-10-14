@@ -1,0 +1,95 @@
+[
+  {
+    "id": "verb.refwaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "pond-surface-ice-disappears-after-warming",
+    "scene": "气温回升后，池面残留的冰层也完全消失了。",
+    "before": [
+      {
+        "text": "気温が上がった日、池の水面に残っていた氷がすっかり",
+        "reading": "きおんがあがったひ、いけのすいめんにのこっていたこおりがすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくなった",
+        "reading": "なくなった",
+        "verdict": "correct",
+        "explanation": "池面残留的冰是发生消失变化的主体，句子以「氷が」标出这个主体。"
+      },
+      {
+        "id": "b",
+        "text": "なくした",
+        "reading": "なくした",
+        "verdict": "ungrammatical",
+        "explanation": "なくす表示施事把对象弄丢或使其消失；这里的「氷が」是变化主体，不是由施事处理的「氷を」对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "气温回升那天，池塘水面残留的冰完全消失了。",
+    "explanation": "句子描述池面残冰自身消失，冰是变化的主体。",
+    "hint": "留意「氷が」标出的对象在句中经历了什么变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refwaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "hiker-loses-paper-map-at-trail-junction",
+    "scene": "登山者弄丢纸质地图，在岔路口停下脚步。",
+    "before": [
+      {
+        "text": "登山者は紙の地図を",
+        "reading": "とざんしゃはかみのちずを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、分岐点で足を止めた。",
+        "reading": "、ぶんきてんであしをとめた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくし",
+        "reading": "なくし",
+        "verdict": "correct",
+        "explanation": "「登山者は」是弄丢地图的人，「地図を」标出被弄丢的物品；他随后在岔路口停下脚步。"
+      },
+      {
+        "id": "b",
+        "text": "なくなり",
+        "reading": "なくなり",
+        "verdict": "ungrammatical",
+        "explanation": "なくなる描述物品自身不见，如「地図がなくなる」；这里的「地図を」是登山者弄丢的对象，不能接该自动词形。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者弄丢了纸质地图，在岔路口停下脚步。",
+    "explanation": "登山者是弄丢地图的人，纸质地图是动作所影响的对象。",
+    "hint": "看「登山者は」和「地図を」分别标出了谁与什么物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_c_fix",
+  "source": "work/content/verbs-c/remainder-03.draft.json",
+  "at": "2026-10-13T12:00:53.419Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.continue.03",
+      "hash": "3d23d84802a06d4d92ab135819c918f53cb11cdc9813273013708f69f396bf00",
+      "fullSentences": [
+        "港の花火大会は最終日の夜九時まで続いた。"
+      ]
+    },
+    {
+      "id": "verb.continue.04",
+      "hash": "f2ec3f1252fd6b93faa62f69a318b1c96e0a99e11a748aca14f7f03121dc74ff",
+      "fullSentences": [
+        "休憩の合図が鳴っても、参加者たちは討論を続けた。"
+      ]
+    },
+    {
+      "id": "verb.remain.01",
+      "hash": "da28d0e43e709c9a6af60a0d24d750620fb05571e9bd6a6823ede8a0ceee2d2e",
+      "fullSentences": [
+        "閉店時、棚にはパンが二つ残った。"
+      ]
+    },
+    {
+      "id": "verb.remain.02",
+      "hash": "6347f5bfac5fc88ea23b8a423f9999073c381c5acfc145326375c47c98204684",
+      "fullSentences": [
+        "避難する前に、住民はペット用の水を三日分残した。"
+      ]
+    },
+    {
+      "id": "verb.remain.03",
+      "hash": "8cc0eecd087b875ba57b32d54984fb8f94d578ebd605410867b7ceed5f799eb3",
+      "fullSentences": [
+        "改修後の講堂には、古い舞台幕が一枚だけ残った。"
+      ]
+    }
+  ]
+}

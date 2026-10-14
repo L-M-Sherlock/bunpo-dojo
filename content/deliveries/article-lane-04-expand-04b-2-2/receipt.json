@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_b22",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-04b-2-2.draft.json",
+  "at": "2026-10-14T01:53:44.488Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refica.02",
+      "hash": "c236991e5a9c31365f7a13e9adf1c5e5094d4847396984b52668555b0284b265",
+      "fullSentences": [
+        "卒業式の答辞を読む前に、代表は引用元を確かめ、母校の名を汚さないよう気を配った。"
+      ]
+    },
+    {
+      "id": "verb.refica.03",
+      "hash": "133e3c3039e1640e52f3e021dd510bcf26b77f2b831234bc860a10286a5624fd",
+      "fullSentences": [
+        "社殿で大声を出す参拝客を見かけても、神聖な場所が汚れないよう、神職は静粛を求めた。"
+      ]
+    }
+  ]
+}

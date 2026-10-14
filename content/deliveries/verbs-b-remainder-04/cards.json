@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.move.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "move-gallery-case-near-entrance",
+    "scene": "展厅调整动线后，工作人员把展柜挪到入口附近。",
+    "before": [
+      {
+        "text": "美術館の職員がガラスケースを入口の近くに",
+        "reading": "びじゅつかんのしょくいんがガラスケースをいりぐちのちかくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動かしました",
+        "reading": "うごかしました",
+        "verdict": "correct",
+        "explanation": "工作人员主动移动玻璃展柜，工作人员是施事，展柜是被移动的对象。"
+      },
+      {
+        "id": "b",
+        "text": "動きました",
+        "reading": "うごきました",
+        "verdict": "ungrammatical",
+        "explanation": "動く表示物体自身移动，不能在这里接「ガラスケースを」作直接宾语；若展柜自行移动，应写「ガラスケースが動きました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "美术馆工作人员把玻璃展柜移到了入口附近。",
+    "explanation": "工作人员执行了移动展柜的动作。",
+    "hint": "看展柜是被移动的物体，还是自己发生位移的主体。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.move.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "parking-sign-moves-in-wind",
+    "scene": "阵风吹来，停车场指示牌偏离了原位。",
+    "before": [
+      {
+        "text": "強風で駐車場の案内板が",
+        "reading": "きょうふうでちゅうしゃじょうのあんないばんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動きました",
+        "reading": "うごきました",
+        "verdict": "correct",
+        "explanation": "强风吹动指示牌，指示牌本身发生位移，動く表达物体移动。"
+      },
+      {
+        "id": "b",
+        "text": "動かしました",
+        "reading": "うごかしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "動かす表示施事移动某个对象；若用在这里，指示牌会成为移动别的东西的一方，而场景说的是指示牌被风吹动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "强风吹动了停车场的指示牌。",
+    "explanation": "句子报告指示牌自身被风吹得移动，没有写出人为移动它的人。",
+    "hint": "判断指示牌是发生位移的物体，还是移动其他物体的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.move.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "move-speaker-to-wall",
+    "scene": "为给通道让路，音响师把音箱移到了墙边。",
+    "before": [
+      {
+        "text": "音響担当者がスピーカーを壁際に",
+        "reading": "おんきょうたんとうしゃがスピーカーをかべぎわに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動かしました",
+        "reading": "うごかしました",
+        "verdict": "correct",
+        "explanation": "音响师主动把音箱移到墙边，音响师是施事，音箱是移动对象。"
+      },
+      {
+        "id": "b",
+        "text": "動きました",
+        "reading": "うごきました",
+        "verdict": "ungrammatical",
+        "explanation": "動く表示物体自身移动，不能在此把「スピーカーを」作为直接宾语；若说音箱自己移动，需改成「スピーカーが動きました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "音响师把音箱移到了墙边。",
+    "explanation": "句中明确写出音响师移动音箱以腾出通道。",
+    "hint": "辨认谁移动音箱，以及音箱在句中承担什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.move.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "clock-hands-move-after-battery",
+    "scene": "换上电池后，停摆的挂钟指针重新走起来。",
+    "before": [
+      {
+        "text": "電池を入れると、止まっていた壁時計の針が",
+        "reading": "でんちをいれると、とまっていたかべどけいのはりが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動きました",
+        "reading": "うごきました",
+        "verdict": "correct",
+        "explanation": "装入电池后，时钟指针本身开始移动，動く描述其发生位移。"
+      },
+      {
+        "id": "b",
+        "text": "動かしました",
+        "reading": "うごかしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "動かす表示施事移动某个对象；若用在这里，时钟指针会成为移动别的东西的一方，但场景说的是指针自己开始走动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "装入电池后，停摆的挂钟指针动了起来。",
+    "explanation": "句子写的是指针开始移动，不是某人移动了别的物体。",
+    "hint": "看指针是自行移动，还是被用来移动其他对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.raise.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "oven-temperature-rises-to-setting",
+    "scene": "烤箱预热时，内部温度升到了设定值。",
+    "before": [
+      {
+        "text": "予熱中にオーブンの温度が設定値まで",
+        "reading": "よねつちゅうにオーブンのおんどがせっていちまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "correct",
+        "explanation": "烤箱温度升到设定值，温度本身变高，上がる表达这一变化。"
+      },
+      {
+        "id": "b",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "meaning-mismatch",
+        "explanation": "上げる表示施事提高某项数值；若用在这里，温度会成为提高其他对象的一方，而场景说的是烤箱温度升高。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烤箱预热时，内部温度升到了设定值。",
+    "explanation": "句子描述温度变化本身，没有写出谁调高了温度。",
+    "hint": "判断温度是升高的数值，还是有人调高的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

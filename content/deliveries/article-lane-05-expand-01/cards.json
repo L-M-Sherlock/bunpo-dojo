@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "lexicalKey": "graduation-cherry-sapling",
+    "scene": "毕业纪念植树日，六年级学生在校园角落栽下樱花苗。",
+    "before": [
+      {
+        "text": "卒業記念に、六年生が校庭の隅に桜の苗木を",
+        "reading": "そつぎょうきねんに、ろくねんせいがこうていのすみにさくらのなえぎを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "植えた",
+        "reading": "うえた",
+        "verdict": "correct",
+        "explanation": "六年生是栽种者，桜の苗木以「を」标出动作对象，符合植える。"
+      },
+      {
+        "id": "b",
+        "text": "植わった",
+        "reading": "うわった",
+        "verdict": "ungrammatical",
+        "explanation": "植わる是自动词，不能把本句以「を」标出的桜の苗木作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "六年级学生为纪念毕业，在校园一角种下了樱花树苗。",
+    "explanation": "植える（うえる）表示施事把植物栽入某处；本句由学生实施种植。",
+    "hint": "辨认句中是谁实施种植，以及苗木在动作中承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refana.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "lexicalKey": "kite-string-streetlamp",
+    "scene": "暴雨后，风筝线缠上公园路灯，巡查员拉起了警示带。",
+    "before": [
+      {
+        "text": "大雨のあと、ほどけた凧糸が公園の街灯に",
+        "reading": "おおあめのあと、ほどけたたこいとがこうえんのがいとうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡まっていた",
+        "reading": "からまっていた",
+        "verdict": "correct",
+        "explanation": "凧糸が是缠绕状态的主体，说明线本身缠在路灯上。"
+      },
+      {
+        "id": "b",
+        "text": "絡めていた",
+        "reading": "からめていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，凧糸会是把某物缠到路灯上的施事；这里说的是线自身缠住了路灯。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "大雨过后，松开的风筝线缠在了公园的路灯上。",
+    "explanation": "絡まる（からまる）描述线自身缠绕到别的物体上的状态。",
+    "hint": "看句中是线自身发生缠绕，还是有施事把另一物缠上去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refana.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "lexicalKey": "hiker-rope-fallen-tree",
+    "scene": "登山者为拉起背包，把绳子绕在倒木上作临时固定。",
+    "before": [
+      {
+        "text": "登山者は、倒木にロープを",
+        "reading": "とざんしゃは、とうぼくにロープを"
+      }
+    ],
+    "after": [
+      {
+        "text": "荷物を引き上げた。",
+        "reading": "にもつをひきあげた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡めて",
+        "reading": "からめて",
+        "verdict": "correct",
+        "explanation": "登山者把ロープを缠绕在倒木上，再用它拉起行李，ロープ是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "絡まって",
+        "reading": "からまって",
+        "verdict": "ungrammatical",
+        "explanation": "络绕物以「を」标为对象时，需要他动词絡める；自动词絡まる不能接这个直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者把绳子缠在倒木上，将行李拉了上来。",
+    "explanation": "絡める（からめる）以登山者为施事、绳子为对象，表示把绳子缠到倒木上。",
+    "hint": "确认绳子是自己缠住倒木，还是登山者把绳子绕上去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refana.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "lexicalKey": "swimming-class-hair-comb",
+    "scene": "游泳课后，孩子的长发缠在梳子上，家长慢慢解开。",
+    "before": [
+      {
+        "text": "水泳教室の帰り、長い髪がコームに",
+        "reading": "すいえいきょうしつのかえり、ながいかみがコームに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡まっていた",
+        "reading": "からまっていた",
+        "verdict": "correct",
+        "explanation": "髪が是缠绕状态的主体，描述头发缠在梳子上的结果。"
+      },
+      {
+        "id": "b",
+        "text": "絡めていた",
+        "reading": "からめていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，头发会成为把某物缠到梳子上的施事；本场景讲的是头发自身缠住梳子。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "游泳课回家路上，长发缠在了梳子上。",
+    "explanation": "絡まる着眼于长发自身缠绕在梳子上的状态。",
+    "hint": "看句中是头发处于缠住的状态，还是它主动把别的东西缠起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refana.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "lexicalKey": "wisteria-trellis-training",
+    "scene": "温室园艺员把藤蔓引到棚架支柱上，帮助它攀援生长。",
+    "before": [
+      {
+        "text": "園芸担当者は、伸びた藤のつるを棚の支柱に",
+        "reading": "えんげいたんとうしゃは、のびたふじのつるをたなのしちゅうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "絡めた",
+        "reading": "からめた",
+        "verdict": "correct",
+        "explanation": "园艺员把藤蔓绕到棚架支柱上，藤のつる是被处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "絡まった",
+        "reading": "からまった",
+        "verdict": "ungrammatical",
+        "explanation": "本句以「を」标出被缠绕的藤蔓，自动词絡まる不能接这个直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "园艺员把长出的藤蔓缠到棚架支柱上。",
+    "explanation": "絡める表示施事把藤蔓缠到支柱上；藤蔓在句中是动作对象。",
+    "hint": "判断棚架上的藤蔓是自行缠住支柱，还是园艺员把它引到支柱上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refawa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "lexicalKey": "funnel-tapered-tube",
+    "scene": "实验室助手检查新漏斗，发现筒身朝尖端逐渐收窄。",
+    "before": [
+      {
+        "text": "漏斗の筒が、先端に向かって少しずつ",
+        "reading": "ろうとのつつが、せんたんにむかってすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "窄まっている",
+        "reading": "すぼまっている",
+        "verdict": "correct",
+        "explanation": "筒が是形状变化的主体，表示漏斗的筒身逐渐变窄。"
+      },
+      {
+        "id": "b",
+        "text": "窄めている",
+        "reading": "すぼめている",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，筒身会成为正在使别的东西变窄的施事；此处描述的是筒身自身的形状。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "漏斗的筒身正朝尖端逐渐收窄。",
+    "explanation": "窄まる（すぼまる）表示形状本身变窄。",
+    "hint": "观察变化发生在筒身本身，还是筒身正在改变别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refawa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "lexicalKey": "boy-purses-lips-to-whistle",
+    "scene": "少年准备吹口哨，先把双唇收拢。",
+    "before": [
+      {
+        "text": "少年は、口笛を吹く前に唇を",
+        "reading": "しょうねんは、くちぶえをふくまえにくちびるを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "窄めた",
+        "reading": "すぼめた",
+        "verdict": "correct",
+        "explanation": "少年主动收拢唇部，唇を是施加动作的对象，符合窄める。"
+      },
+      {
+        "id": "b",
+        "text": "窄まった",
+        "reading": "すぼまった",
+        "verdict": "ungrammatical",
+        "explanation": "窄まる描述主体自身变窄，不能接本句以「を」标出的唇部直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "少年在吹口哨前收拢了双唇。",
+    "explanation": "窄める（すぼめる）表示少年主动使唇部收拢变窄。",
+    "hint": "判断唇部是自行收窄，还是少年主动改变了唇部形状。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refawa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "lexicalKey": "tokkuri-narrow-mouth",
+    "scene": "陶艺馆员记录酒瓶器形，这只德利的瓶口向上收窄。",
+    "before": [
+      {
+        "text": "徳利の口が上に向かって",
+        "reading": "とっくりのくちがうえにむかって"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "窄まっている",
+        "reading": "すぼまっている",
+        "verdict": "correct",
+        "explanation": "徳利の口が是形状变化的主体，说明瓶口本身逐渐变窄。"
+      },
+      {
+        "id": "b",
+        "text": "窄めている",
+        "reading": "すぼめている",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，瓶口会成为使别的东西变窄的施事；本句记录的是瓶口自身的形状。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "德利的瓶口朝上逐渐收窄。",
+    "explanation": "窄まる表示德利的瓶口自身变窄，不表示有人在收拢别的物体。",
+    "hint": "看看句子记录的是器物本身的轮廓，还是某个施事改变了别物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refawa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "lexicalKey": "boy-hunches-shoulders-on-platform",
+    "scene": "站台寒风里，少年等待列车时缩起肩膀避风。",
+    "before": [
+      {
+        "text": "寒風の吹くホームで、少年は電車を待ちながら肩を",
+        "reading": "かんぷうのふくホームで、しょうねんはでんしゃをまちながらかたを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "窄めていた",
+        "reading": "すぼめていた",
+        "verdict": "correct",
+        "explanation": "少年主动缩起肩膀避风，肩を是他所改变的身体部位。"
+      },
+      {
+        "id": "b",
+        "text": "窄まっていた",
+        "reading": "すぼまっていた",
+        "verdict": "ungrammatical",
+        "explanation": "窄まる是主体自身变窄的自动词，不能接本句以「を」标出的肩膀直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "寒风吹拂的站台上，少年一边等电车一边缩起肩膀。",
+    "explanation": "窄める表示少年主动使肩膀收拢；寒风只是动作发生的背景。",
+    "hint": "分辨肩膀自身发生变化，还是少年有意缩起肩膀。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "rainwater-puddle-by-bike-shed",
+    "scene": "阵雨过后，停车棚旁的低洼处积起一摊雨水。",
+    "before": [
+      {
+        "text": "夕立のあと、駐輪場のくぼみに雨水が",
+        "reading": "ゆうだちのあと、ちゅうりんじょうのくぼみにあまみずが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜まっていた",
+        "reading": "たまっていた",
+        "verdict": "correct",
+        "explanation": "雨水が是聚集在低洼处的主体，表示雨水在原地积了起来。"
+      },
+      {
+        "id": "b",
+        "text": "溜めていた",
+        "reading": "ためていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，雨水会成为正在储存某物的施事；场景说的是雨水聚集在低处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "阵雨过后，停车场的低洼处积着雨水。",
+    "explanation": "溜まる（たまる）表示液体逐渐聚集并停留在一处。",
+    "hint": "找出逐渐聚在低处的东西，判断它是在积聚还是在储存别物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "rainwater-in-rooftop-tank",
+    "scene": "管理员把收集的雨水存入屋顶水箱，作为停水时的备用水。",
+    "before": [
+      {
+        "text": "管理人は、断水に備えて雨水を屋上のタンクに",
+        "reading": "かんりにんは、だんすいにそなえてあまみずをおくじょうのタンクに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜めている",
+        "reading": "ためている",
+        "verdict": "correct",
+        "explanation": "管理员把雨水存入水箱，雨水以「を」标为储存对象，符合溜める。"
+      },
+      {
+        "id": "b",
+        "text": "溜まっている",
+        "reading": "たまっている",
+        "verdict": "ungrammatical",
+        "explanation": "溜まる描述水自行聚集，不能接本句以「を」标出的雨水直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "管理员为了应对停水，正在把雨水存入屋顶水箱。",
+    "explanation": "溜める（ためる）表示施事把雨水收集起来并储存在水箱中。",
+    "hint": "判断句子说的是雨水自然聚集，还是管理员把雨水储存起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "festival-unanswered-inquiries",
+    "scene": "校庆报名临近截止，宣传组邮箱里还有许多未回复的咨询。",
+    "before": [
+      {
+        "text": "文化祭について未返信の問い合わせが広報係に",
+        "reading": "ぶんかさいについてみへんしんのといあわせがこうほうがかりに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜まっていた",
+        "reading": "たまっていた",
+        "verdict": "correct",
+        "explanation": "未返信の問い合わせが是逐渐积累的事物，広報係に表示积压的位置。"
+      },
+      {
+        "id": "b",
+        "text": "溜めていた",
+        "reading": "ためていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，問い合わせが会成为储存别物的施事；这里是咨询本身在宣传组积压。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "有关校庆的未回复咨询积压在宣传组。",
+    "explanation": "溜まる可以描述未处理的事项逐渐增多并积压。",
+    "hint": "看句中逐渐增加的是未回复的咨询，还是宣传组主动储存了某物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "nurses-avoid-fatigue-accumulation",
+    "scene": "护理站主任调整连班安排，减少护士连续值班以免累积疲劳。",
+    "before": [
+      {
+        "text": "主任は、看護師たちが疲れを",
+        "reading": "しゅにんは、かんごしたちがつかれを"
+      }
+    ],
+    "after": [
+      {
+        "text": "よう、連続勤務を減らした。",
+        "reading": "よう、れんぞくきんむをへらした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜めない",
+        "reading": "ためない",
+        "verdict": "correct",
+        "explanation": "看護師たちが是动作主体，疲れを是他们要避免积累的对象，符合溜める。"
+      },
+      {
+        "id": "b",
+        "text": "溜まらない",
+        "reading": "たまらない",
+        "verdict": "ungrammatical",
+        "explanation": "溜まる是不带直接宾语的自动词，不能与本句明确标为「を」的疲れ搭配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主任减少了护士们的连续排班，以免她们累积疲劳。",
+    "explanation": "溜める以护士为施事、以疲劳为对象，表示有意避免让疲劳不断累积。",
+    "hint": "辨认护士是在积累某种东西，还是某种东西自行聚集。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "lexicalKey": "researcher-stays-for-questions",
+    "scene": "报告结束后，研究员留在讲堂，等候听众提问。",
+    "before": [
+      {
+        "text": "発表を終えた研究員が、質問が出るまで講堂に",
+        "reading": "はっぴょうをおえたけんきゅういんが、しつもんがでるまでこうどうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "留まった",
+        "reading": "とどまった",
+        "verdict": "correct",
+        "explanation": "研究員が是留在讲堂的人，说明他本人没有离开。"
+      },
+      {
+        "id": "b",
+        "text": "留めた",
+        "reading": "とどめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词留める表示有人把某人或某物留在原处；这里的研究员本人是留在讲堂的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "报告结束后，研究员留在讲堂，直到有人提问。",
+    "explanation": "留まる（とどまる）表示研究员本人停留在讲堂。",
+    "hint": "看句中是研究员本人继续留在原处，还是他把另一对象留在那里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "lexicalKey": "photographer-records-market",
+    "scene": "旧市场即将拆除，摄影师用镜头记录它当时的样貌。",
+    "before": [
+      {
+        "text": "町の写真家は、解体前の市場の姿を記録に",
+        "reading": "まちのしゃしんかは、かいたいまえのいちばのすがたをきろくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "留めた",
+        "reading": "とどめた",
+        "verdict": "correct",
+        "explanation": "写真家把市场的样貌留存在记录中，市場の姿を是记录的对象。"
+      },
+      {
+        "id": "b",
+        "text": "留まった",
+        "reading": "とどまった",
+        "verdict": "ungrammatical",
+        "explanation": "留まる描述主体留在原处，不能接本句以「を」标出的市場の姿作为直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "当地摄影师把拆除前市场的样貌留存在记录中。",
+    "explanation": "留める（とどめる）表示把原有样貌保存在记录里。",
+    "hint": "辨认句中是样貌自行保留在某处，还是摄影师把它保存为记录。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "lexicalKey": "sightseeing-boat-waits-in-port",
+    "scene": "浓雾封港，游览船留在港内，等雾散后再出航。",
+    "before": [
+      {
+        "text": "濃霧が晴れるまで、遊覧船が港に",
+        "reading": "のうむがはれるまで、ゆうらんせんがみなとに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "留まっていた",
+        "reading": "とどまっていた",
+        "verdict": "correct",
+        "explanation": "遊覧船が是未离开港口的主体，表示游览船留在港内。"
+      },
+      {
+        "id": "b",
+        "text": "留めていた",
+        "reading": "とどめていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，游览船会是把另一对象留在港内的施事；本句要表达的是船自身留在港里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "游览船一直留在港内，直到浓雾散去。",
+    "explanation": "留まる表示游览船自身停留在港口；浓雾散去是停留的时间界限。",
+    "hint": "判断港内继续停留的是游览船本身，还是船把其他对象留在原地。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refifa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "lexicalKey": "landscaper-pulls-dead-cherry-tree-away-from-walkway",
+    "scene": "园艺师用绳索把倾向人行道的枯樱树放倒。",
+    "before": [
+      {
+        "text": "造園業者は、歩道側に傾いた枯れた桜の木をロープで安全な方向へ",
+        "reading": "ぞうえんぎょうしゃは、ほどうがわにかたむいたかれたさくらのきをロープであんぜんなほうこうへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "倒した",
+        "reading": "たおした",
+        "verdict": "correct",
+        "explanation": "造园业者主动把树放倒；「桜の木を」标出受此动作影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "倒れた",
+        "reading": "たおれた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「桜の木を」是被放倒的对象，不能接描述树自身倒下的「倒れた」；若写树自行倒下，应改用「桜の木が倒れた」一类结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "造园业者用绳索把朝人行道倾斜的枯樱树朝安全方向放倒。",
+    "explanation": "句子写造园业者把树放倒，「桜の木を」是被处理的对象。",
+    "hint": "确认句中谁实施动作，以及哪个对象因此改变了姿势。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

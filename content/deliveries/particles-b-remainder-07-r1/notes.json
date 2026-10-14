@@ -1,0 +1,106 @@
+[
+  {
+    "id": "particle.purpose.07",
+    "fullCorrectSentences": [
+      "写真家は夜明けの海辺へ日の出を撮りに行った。"
+    ],
+    "sceneRationale": "摄影师前往海边拍日出；拍摄日出是移动目的。",
+    "otherReadings": "「撮り」是「撮る」的连用形，与「に行く」结合表示去做拍摄；把「に」换成「を」会与前面的「日の出を」重复。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "表示去海边拍摄日出的目的",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "meaning": "与「日の出を」重复，不能构成目的表达",
+        "verdict": "ungrammatical"
+      }
+    ],
+    "readingCheck": "逐句核读：写真家（しゃしんか）、夜明け（よあけ）、海辺（うみべ）、日の出（ひので）、撮り（とり）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.08",
+    "fullCorrectSentences": [
+      "転校生は担任の先生に会いに職員室へ行った。"
+    ],
+    "sceneRationale": "转学生前往教职员室，见班主任是此行目的；班主任是会面对象，教职员室是目的地。",
+    "otherReadings": "「会い」是「会う」的连用形；此处的「に」连接会面目的与移动。「先生に」已标出会面对象，目的表达中的「に」则接在「会い」后。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "表示去教职员室见班主任的目的",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "meaning": "不能接在「会い」后表示移动目的",
+        "verdict": "ungrammatical"
+      }
+    ],
+    "readingCheck": "逐句核读：転校生（てんこうせい）、担任（たんにん）、先生（せんせい）、会い（あい）、職員室（しょくいんしつ）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.09",
+    "fullCorrectSentences": [
+      "観客は新作の舞台を見に劇場へ行った。"
+    ],
+    "sceneRationale": "观众前往剧场观看新剧，观看演出是移动目的。",
+    "otherReadings": "「見」是「見る」的连用形；「見に行く」表示去观看。把「に」改成「を」会与「舞台を」形成重复标记。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "表示去剧场观看新剧的目的",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "meaning": "与「舞台を」造成重复宾语标记",
+        "verdict": "ungrammatical"
+      }
+    ],
+    "readingCheck": "逐句核读：観客（かんきゃく）、新作（しんさく）、舞台（ぶたい）、見（み）、劇場（げきじょう）、行った（いった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.10",
+    "fullCorrectSentences": [
+      "留学生は毎週、地域の教室へ日本語を習いに行く。"
+    ],
+    "sceneRationale": "留学生每周去社区教室，学习日语是前往教室的目的。",
+    "otherReadings": "「習い」是「習う」的连用形；「に行く」标目的。「日本語を」标出学习的内容，不能在连用形后再加「を」表示目的。",
+    "optionAudit": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "meaning": "表示去教室学习日语的目的",
+        "verdict": "correct"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "meaning": "与「日本語を」重复，不能构成移动目的表达",
+        "verdict": "ungrammatical"
+      }
+    ],
+    "readingCheck": "逐句核读：留学生（りゅうがくせい）、毎週（まいしゅう）、地域（ちいき）、教室（きょうしつ）、日本語（にほんご）、習い（ならい）、行く（いく）。",
+    "unresolvedQuestions": []
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "reviewer": "/root/bunpo_review_relations",
+  "cards": [
+    {
+      "id": "particle.time.07",
+      "hash": "e6a2c483803187dea433d3587aa6af9a7d88157cf4bf547d524e204c14e55575",
+      "fullSentences": [
+        "市立植物園の温室は、四月十八日の午前九時に開きます。"
+      ],
+      "status": "approved",
+      "reason": "温室安排在四月十八日上午九点开放，具体日期加钟点作「開きます」发生时刻自然；提示未预填助词。",
+      "answerSet": "仅a「に」标开放时点；b「で」可表示场所等，但不能在此标上午九点这一时点。",
+      "readings": "市立植物園しりつしょくぶつえん、温室おんしつ、四月十八日しがつじゅうはちにち、午前九時ごぜんくじ、開きますあきます正确；标点对应。",
+      "translation": "译文准确包含市立植物园温室、4月18日及上午9点开放。",
+      "options": "a的correct、b的meaning-mismatch判断正确；b说明的地点／手段／时长均不是本句日期钟点关系。"
+    },
+    {
+      "id": "particle.time.08",
+      "hash": "ff4ef9525a1c6a8a3a045254b97bf9b3988c2dc5b9a84258ffd51f7f5208a4e5",
+      "fullSentences": [
+        "山小屋で、目覚まし時計が午前五時三十分に鳴った。"
+      ],
+      "status": "approved",
+      "reason": "山小屋是闹钟响铃地点，清晨五点半是发生时点；「午前五時三十分に鳴った」自然，句首已有地点で并未泄露目标に。",
+      "answerSet": "仅a「に」标具体响铃时刻；b「で」无法在此表示五点半响铃。",
+      "readings": "山小屋やまごや、目覚まし時計めざましどけい、午前五時三十分ごぜんごじさんじゅっぷん、鳴ったなった正确；三十分读さんじゅっぷん，标点对应。",
+      "translation": "译文准确表达山小屋里闹钟五点半响起，场景的登山队背景未被强加进译文。",
+      "options": "a的correct准确；b的meaning-mismatch与时长／期限的另一用法区分清楚。"
+    },
+    {
+      "id": "particle.time.09",
+      "hash": "39edfd21efedbe392b1d777dfbc91ecb78a5043583ec5ad20a2c47fb9a71a9a1",
+      "fullSentences": [
+        "大学の後期授業は、九月二十五日に始まる。"
+      ],
+      "status": "approved",
+      "reason": "大学後期授業九月二十五日开始，具体日历日期是始まる的时间点；日语完整句自然。",
+      "answerSet": "仅a「に」表示开课日期；b「で」不能将该日期标为本句开始时点。",
+      "readings": "大学だいがく、後期授業こうきじゅぎょう、九月二十五日くがつにじゅうごにち、始まるはじまる正确；标点对应。",
+      "translation": "译文的“下学期课程于9月25日开始”符合後期授業与日期。",
+      "options": "a的correct成立；b的meaning-mismatch没有误称で可表达此日期时点。"
+    },
+    {
+      "id": "particle.time.10",
+      "hash": "b889969b9dc858682e08362b21b13d41f2ae80ee3f766ebfadae3fc742bfacc6",
+      "fullSentences": [
+        "駅前の時計台は、毎晩午後十時に鐘を鳴らす。"
+      ],
+      "status": "approved",
+      "reason": "站前钟楼每天晚上十点鸣钟，「毎晩午後十時に鐘を鳴らす」自然；钟楼为动作主语，十点为重复的具体时点。",
+      "answerSet": "仅a「に」标每天鸣钟时刻；b「で」不表达这个具体钟点。",
+      "readings": "駅前えきまえ、時計台とけいだい、毎晩まいばん、午後十時ごごじゅうじ、鐘かね、鳴らすならす正确；标点对应。",
+      "translation": "译文准确保留站前钟楼每天晚上10点敲钟，没有错把钟楼当地点格。",
+      "options": "a的correct和b的meaning-mismatch成立；提示描述时点而未泄露目标助词。"
+    },
+    {
+      "id": "particle.means.01",
+      "hash": "15a23e2fd1cb7b90352e8180ae0854998ebf7962603c8e0f81aff3c724dcd9e4",
+      "fullSentences": [
+        "父は新幹線で東京駅に向かった。"
+      ],
+      "status": "revise",
+      "reason": "「父は新幹線で東京駅に向かった」以新干线为交通方式、东京站为目的地，句子和答案成立；但a、b两条选项explanation都是日语，须改为准确中文以匹配中文教学文案。",
+      "answerSet": "仅a「で」表示乘新干线这一交通方式；b「に」会把新干线误标为移动目标，并与已有「東京駅に」冲突，不符合场景。",
+      "readings": "父ちち、新幹線しんかんせん、東京駅とうきょうえき、向かったむかった正确；句段及标点对应。",
+      "translation": "译文准确表达父亲乘新干线前往东京站；槽外的「東京駅に」标目的地，不是预填目标手段助词。",
+      "options": "a的correct、b的meaning-mismatch语义判断正确；两条选项解释需从日语改为中文。"
+    }
+  ]
+}

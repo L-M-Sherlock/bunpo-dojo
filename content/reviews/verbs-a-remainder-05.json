@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.exit.02", "hash": "82b37042950744b17dd87e9a2ec37e122bf6df4f7fc8ecdb42654451d342df1f", "fullSentences": ["母は引き出しから予備の鍵を出しました。"], "status": "approved",
+      "reason": "妈妈从抽屉取出备用钥匙，母は为施事、鍵を为对象、引き出しから为来源，出す符合 transitive 分配；句子自然。",
+      "answerSet": "a 唯一适合「鍵を」直接对象的答案；b 出る不能接此宾语。",
+      "readings": "母＝はは、引き出し＝ひきだし、予備＝よび、鍵＝かぎ；出しました＝だしました、出ました＝でました，「母は」读音连写「ははは」正确。",
+      "translation": "译文准确保留妈妈、抽屉和备用钥匙三个要素。",
+      "options": "a correct 准确；b ungrammatical 对固定「鍵を」句干成立，钥匙自身出来需写「鍵が出ました」。"
+    },
+    {
+      "id": "verb.exit.03", "hash": "bd488c5c66e95cf8140e0b6ee78be2f696ac41b2026dd0c90fbbb2673f8df236", "fullSentences": ["始発のバスが定刻に車庫から出ました。"], "status": "approved",
+      "reason": "首班巴士按时从车库驶出，バスが为移动主体、車庫から为起点，出る符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表示巴士自身驶出；b 会把巴士当作拿出或送出另一对象的施事。",
+      "readings": "始発＝しはつ、定刻＝ていこく、車庫＝しゃこ；バス保留片假名，出ました＝でました、出しました＝だしました。",
+      "translation": "译文准确表达首班公交车准时驶出车库，没有增写乘客或行驶目的地。",
+      "options": "a correct 准确；b meaning-mismatch 准确，出す可省略宾语，但不能表示主语巴士自身出库。"
+    },
+    {
+      "id": "verb.exit.04", "hash": "f1045ce3ab77daf21fa0a0d94cf63d6ac31ea1ac66684a9aec1fcc48f9fc0b7d", "fullSentences": ["係員は倉庫から非常用の毛布を出しました。"], "status": "approved",
+      "reason": "工作人员从仓库取出应急毛毯，係員は为施事、毛布を为对象、倉庫から为来源，出す符合 transitive 分配。",
+      "answerSet": "a 唯一适合「毛布を」直接对象的答案；b 出る不能接此宾语。",
+      "readings": "係員＝かかりいん、倉庫＝そうこ、非常用＝ひじょうよう、毛布＝もうふ；出しました＝だしました、出ました＝でました。",
+      "translation": "译文准确表达工作人员从仓库取出应急毛毯，没有增写使用场合。",
+      "options": "a correct 准确；b ungrammatical 对固定句干成立，毛毯自行出来须改「毛布が出ました」。"
+    },
+    {
+      "id": "verb.exit.05", "hash": "cb7abb7f8dd7941d185390e13eeaf27aecfa9c1ad918fcff00372e8fa9845143", "fullSentences": ["鍋のふたの隙間から白い湯気が出ました。"], "status": "approved",
+      "reason": "白色蒸汽从锅盖缝隙冒出，湯気が为出来的主体、隙間から为路径起点，出る符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表示蒸汽自身冒出；b 会把蒸汽当作放出另一对象的施事。",
+      "readings": "鍋＝なべ、隙間＝すきま、白い＝しろい、湯気＝ゆげ；ふた用假名，出ました＝でました、出しました＝だしました。",
+      "translation": "译文准确包含白色蒸汽、锅盖缝隙和冒出方向，没有擅加沸腾程度。",
+      "options": "a correct 准确；b meaning-mismatch 准确。另一个可成立的句架是「鍋が湯気を出しました」，本题「湯気が」是冒出的主体。"
+    }
+  ]
+}

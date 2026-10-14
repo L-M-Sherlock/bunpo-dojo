@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refria.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "摄影师为对准被摄对象，转动镜头的对焦环",
+    "before": [
+      {
+        "text": "被写体にピントを合わせるため、撮影者はレンズのフォーカスリングを少し",
+        "reading": "ひしゃたいにピントをあわせるため、さつえいしゃはレンズのフォーカスリングをすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回った",
+        "reading": "まわった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「回る」也可用「を」标出行经路线；此处会表示摄影者绕着对焦环移动，不表示转动对焦环。"
+      },
+      {
+        "id": "b",
+        "text": "回した",
+        "reading": "まわした",
+        "verdict": "correct",
+        "explanation": "摄影者为了对焦而转动镜头上的对焦环，「フォーカスリングを」是被转动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了对准被摄对象，摄影者稍微转动了镜头的对焦环。",
+    "explanation": "摄影者主动转动对焦环来调整焦点。",
+    "hint": "留意句中使哪个部件发生转动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "lexicalKey": "退く/退かす",
+    "scene": "快递车经过狭窄通道，店员从通道中央移到墙边",
+    "before": [
+      {
+        "text": "宅配便の台車が通れるよう、通路にいた店員は壁際へ一歩",
+        "reading": "たくはいびんのだいしゃがとおれるよう、つうろにいたてんいんはかべぎわへいっぽ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退いた",
+        "reading": "どいた",
+        "verdict": "correct",
+        "explanation": "店员自己移到墙边给推车让出通道，符合「退く」的让开义。"
+      },
+      {
+        "id": "b",
+        "text": "退かした",
+        "reading": "どかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退かす」表示把另一个人或物移开；这里移动的是店员自己，情境没有被移开的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了让快递公司的手推车通过，站在通道里的店员往墙边让了一步。",
+    "explanation": "店员自己离开通道中央让路，句中没有另一个被移走的对象。",
+    "hint": "分辨移动的是句子主语本身，还是主语使别的人或物移位。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "lexicalKey": "退く/退かす",
+    "scene": "配送车进入前，管理员把挡住入口的自行车移到墙边",
+    "before": [
+      {
+        "text": "搬入車が通れるよう、管理人は入口をふさいでいた自転車を壁際へ",
+        "reading": "はんにゅうしゃがとおれるよう、かんりにんはでいりぐちをふさいでいたじてんしゃをかべぎわへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退いた",
+        "reading": "どいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退く」可用「を」标出离开的地点；放在这里会表示管理员离开自行车所在处走向墙边，自行车本身没有被移走。"
+      },
+      {
+        "id": "b",
+        "text": "退かした",
+        "reading": "どかした",
+        "verdict": "correct",
+        "explanation": "管理员把挡住入口的自行车移到墙边，符合「退かす」把物品移开的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了让运货车通过，管理员把堵住入口的自行车挪到了墙边。",
+    "explanation": "管理员主动移动自行车以清出入口，自行车是被移动的对象。",
+    "hint": "判断去到墙边的是管理员本人，还是入口处的自行车。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "lexicalKey": "退く/退かす",
+    "scene": "咖啡店员擦柜台时，客人从座位起身并向旁边让开",
+    "before": [
+      {
+        "text": "店員がカウンターを拭くため、客は椅子から立って少し横へ",
+        "reading": "てんいんがカウンターをふくため、きゃくはいすからたってすこしよこへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退いた",
+        "reading": "どいた",
+        "verdict": "correct",
+        "explanation": "客人从自己的座位旁移开，让出柜台周围的位置，符合「退く」的让开义。"
+      },
+      {
+        "id": "b",
+        "text": "退かした",
+        "reading": "どかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退かす」会表示客人把另一个人或物移到一旁；这里写的是客人自己起身让开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店员要擦柜台，客人便从椅子上站起来，向旁边让开了一点。",
+    "explanation": "句中移动位置的是客人自己，并没有写客人移动另一个对象。",
+    "hint": "留意起身后移动位置的人与是否存在被移动的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

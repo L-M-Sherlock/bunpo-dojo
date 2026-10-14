@@ -1,0 +1,16 @@
+[
+  {
+    "id": "particle.time.04",
+    "fullCorrectSentences": [
+      "工場では、設備の定期点検を三月三十一日に行います。"
+    ],
+    "sceneRationale": "工厂把设备定期检查排在3月31日，日期是实际实施检查的时点。",
+    "otherReadings": "「で」可表示方法、场所或所需时长；本句要标出设备检查安排在哪一天。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记设备检查的具体日期", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可表手段／场所／时长，但不表达本句的检查日期", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：工場（こうじょう）、設備（せつび）、定期点検（ていきてんけん）、三月三十一日（さんがつさんじゅういちにち）、行います（おこないます）。",
+    "unresolvedQuestions": []
+  }
+]

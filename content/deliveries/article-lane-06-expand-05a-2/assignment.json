@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refjaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjaa",
+    "familyId": "verb.refjaa",
+    "pair": {
+      "id": "verb.refjaa",
+      "intransitive": "乗る",
+      "intransitiveReading": "のる",
+      "transitive": "乗せる",
+      "transitiveReading": "のせる",
+      "meaning": "辨析「乗る／乗せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refpaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "pair": {
+      "id": "verb.refpaa",
+      "intransitive": "籠もる",
+      "intransitiveReading": "こもる",
+      "transitive": "籠める",
+      "transitiveReading": "こめる",
+      "meaning": "辨析「籠もる／籠める」的角色与对象",
+      "count": 4,
+      "articleGroup": 16,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refpaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "pair": {
+      "id": "verb.refpaa",
+      "intransitive": "籠もる",
+      "intransitiveReading": "こもる",
+      "transitive": "籠める",
+      "transitiveReading": "こめる",
+      "meaning": "辨析「籠もる／籠める」的角色与对象",
+      "count": 4,
+      "articleGroup": 16,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refpaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "pair": {
+      "id": "verb.refpaa",
+      "intransitive": "籠もる",
+      "intransitiveReading": "こもる",
+      "transitive": "籠める",
+      "transitiveReading": "こめる",
+      "meaning": "辨析「籠もる／籠める」的角色与对象",
+      "count": 4,
+      "articleGroup": 16,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

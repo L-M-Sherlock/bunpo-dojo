@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refdaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "lexicalKey": "讲演后研究者说明发现经过",
+    "scene": "讲演后的问答中，研究者谈起这项发现背后的经过。",
+    "before": [
+      {
+        "text": "研究者は講演後、聴衆からの質問に答え、発見に至った経緯を",
+        "reading": "けんきゅうしゃはこうえんご、ちょうしゅうからのしつもんにこたえ、はっけんにいたったけいいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "明かした",
+        "reading": "あかした",
+        "verdict": "correct",
+        "explanation": "研究者把发现形成的经过作为信息告诉听众，符合「明かす」揭示内容的用法。"
+      },
+      {
+        "id": "b",
+        "text": "明けた",
+        "reading": "あけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「明ける」可表示夜晚或一段时期结束；这里「経緯」是向听众传达的信息，句子表达的是揭示经过。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "研究者在讲演后回答听众提问，揭示了这项发现的形成经过。",
+    "explanation": "「経緯」是研究者向听众揭示的内容。",
+    "hint": "关注「経緯」在这里是被告知的内容，还是自然结束的时段。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "lexicalKey": "厨房新人熟悉处理整鱼步骤",
+    "scene": "厨房新人练习数周后，处理整鱼的步骤已能顺手完成。",
+    "before": [
+      {
+        "text": "厨房に配属された新人は、数週間の練習を経て、魚をおろす手順に",
+        "reading": "ちゅうぼうにはいぞくされたしんじんは、すうしゅうかんのれんしゅうをへて、さかなをおろすてじゅんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "慣れた",
+        "reading": "なれた",
+        "verdict": "correct",
+        "explanation": "新人本人经过练习逐渐适应了处理步骤，「手順に」标出他适应的对象。"
+      },
+      {
+        "id": "b",
+        "text": "慣らした",
+        "reading": "ならした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「慣らす」表示使某个对象适应；这里新人本人逐渐熟悉步骤，没有另一个被他调适的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "分到厨房的新人经过数周练习，适应了处理鱼的步骤。",
+    "explanation": "句子描写新人自身逐渐适应一套操作流程。",
+    "hint": "判断句子说的是新人自身逐渐适应流程，还是新人使另一个对象适应流程。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "lexicalKey": "收容小狗逐渐适应人声",
+    "scene": "收容站里，工作人员循序引导一只怕人的小狗接触人声。",
+    "before": [
+      {
+        "text": "保護施設の職員は、警戒心の強い子犬を人の声に少しずつ",
+        "reading": "ほごしせつのしょくいんは、けいかいしんのつよいこいぬをひとのこえにすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "慣れた",
+        "reading": "なれた",
+        "verdict": "ungrammatical",
+        "explanation": "「慣れる」要以逐渐习惯的对象作主体；此处「子犬を」标出工作人员调适的对象，不能接「慣れた」。"
+      },
+      {
+        "id": "b",
+        "text": "慣らした",
+        "reading": "ならした",
+        "verdict": "correct",
+        "explanation": "工作人员逐渐让小狗习惯人声，「子犬を」是被调适的对象，「人の声に」是适应的目标。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "收容机构工作人员循序渐进地让警戒心强的小狗习惯了人声。",
+    "explanation": "工作人员使小狗逐渐适应人声，小狗是动作所作用的对象。",
+    "hint": "注意小狗是被工作人员逐渐引导的对象，还是逐渐习惯声响的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "lexicalKey": "登山者适应山间小屋夜声",
+    "scene": "登山者在山间小屋住到第三天，夜间动静已不再影响睡眠。",
+    "before": [
+      {
+        "text": "山小屋に初めて泊まった登山者は、三日目には夜中の物音に",
+        "reading": "やまごやにはじめてとまったとざんしゃは、みっかめにはよなかのものおとに"
+      }
+    ],
+    "after": [
+      {
+        "text": "ため、朝まで眠れた。",
+        "reading": "ため、あさまでねむれた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "慣れた",
+        "reading": "なれた",
+        "verdict": "correct",
+        "explanation": "登山者本人逐渐适应了夜里的声响，因此后来能够睡到早晨。"
+      },
+      {
+        "id": "b",
+        "text": "慣らした",
+        "reading": "ならした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「慣らす」是使某个对象适应；这里说的是登山者本人对声响的反应逐渐改变，没有另一个被他调适的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "第一次住在山间小屋的登山者到第三天已习惯夜里的声响，能睡到早晨。",
+    "explanation": "夜里的声响是登山者本人逐渐适应的对象。",
+    "hint": "留意第三天改变了对夜间声响的反应的是谁。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

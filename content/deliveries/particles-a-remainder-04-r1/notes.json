@@ -1,0 +1,42 @@
+[
+  {
+    "id": "particle.board.02",
+    "fullSentence": "旅行者は松本駅で特急列車に乗ります。",
+    "sceneRationale": "旅行者在松本站台登上特急列车，特急列車是乗る的乘坐对象。",
+    "alternativeReadings": "标准日语用に标乘坐的列车。を可在バスを降りる中标离开的交通工具，但不能在本句乗る前标搭乘对象。",
+    "readingCheck": "旅行者りょこうしゃ、松本駅まつもとえき、特急列車とっきゅうれっしゃ、乗りますのります；目标に只由选项插入，槽后reading仅为动词。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.board.03",
+    "fullSentence": "帰省客は港でフェリーに乗ります。",
+    "sceneRationale": "返乡探亲者在港口准备搭渡轮前往离岛；フェリー是搭乘对象。",
+    "alternativeReadings": "搭乘渡轮用フェリーに乗る。を在フェリーを降りる等离开结构中可标交通工具，但不作此处乗る的对象标记。",
+    "readingCheck": "帰省客きせいきゃく、港みなと、フェリー、乗りますのります；目标助词由选项插入，片假名及句号与正文一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.board.04",
+    "fullSentence": "乗客は駅前でタクシーに乗ります。",
+    "sceneRationale": "末班车已开走，乘客改搭出租车；タクシー是乗る的乘坐对象。",
+    "alternativeReadings": "乘坐出租车时用タクシーに乗る。タクシーを乗る在标准日语中不能表达搭出租车；を可用于其他对象或离开处所的结构。",
+    "readingCheck": "乗客じょうきゃく、駅前えきまえ、タクシー、乗りますのります；段落reading只含目标助词以外的正文读音。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.board.05",
+    "fullSentence": "妹は公園でレンタサイクルに乗ります。",
+    "sceneRationale": "妹妹租好自行车后骑行环湖；レンタサイクル是实际跨上并骑乘的对象。",
+    "alternativeReadings": "骑乘某辆自行车说レンタサイクルに乗る。を不标乗る的车辆对象；助词を可在自行车を降りる中标离开的车辆。",
+    "readingCheck": "妹いもうと、公園こうえん、レンタサイクル、乗りますのります；目标助词单独由候选补入，片假名与正文一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.board.06",
+    "fullSentence": "社員は大阪空港で東京行きの飛行機に乗ります。",
+    "sceneRationale": "员工在大阪机场登上飞往东京的航班，飛行機是乗る的交通工具对象。",
+    "alternativeReadings": "乘飞机使用飛行機に乗る。を不能在标准日语中直接标登机对象；を可出现在飞机を降りる等离开表达中。",
+    "readingCheck": "社員しゃいん、大阪空港おおさかくうこう、東京行きとうきょうゆき、飛行機ひこうき、乗りますのります；目标助词不在槽后reading中重复。",
+    "unresolvedQuestions": "无。"
+  }
+]

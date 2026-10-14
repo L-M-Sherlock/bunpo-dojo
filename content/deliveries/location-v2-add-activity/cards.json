@@ -1,0 +1,482 @@
+[
+  {
+    "id": "particle.activity.11",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "answer-hikers-questions-at-pass-office",
+    "scene": "登山者咨询路线时，工作人员在山口服务点解答疑问。",
+    "before": [
+      {
+        "text": "係員は峠の案内所",
+        "reading": "かかりいんはとうげのあんないじょ"
+      }
+    ],
+    "after": [
+      {
+        "text": "登山者の相談に応じます。",
+        "reading": "とざんしゃのそうだんにおうじます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に通常标出静态存在地点或移动终点；本句没有存在或移动谓语，记录活动的地点用で。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出工作人员回应登山者咨询这一活动进行的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "工作人员在山口的服务点回应登山者的咨询。",
+    "explanation": "回应咨询的活动发生在服务点，活动地点用で标记。",
+    "hint": "判断案内所是回应咨询这一活动进行的地方，还是静态存在地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.12",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "dry-boots-under-mountain-hut-eaves",
+    "scene": "雨后，登山者在山间小屋檐下晾湿了的登山靴。",
+    "before": [
+      {
+        "text": "登山者たちは山小屋の軒下",
+        "reading": "とざんしゃたちはやまごやののきした"
+      }
+    ],
+    "after": [
+      {
+        "text": "濡れた登山靴を乾かします。",
+        "reading": "ぬれたとざんぐつをかわかします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で表示晾干登山靴这一动作发生的地方。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "这里说的是晾干动作在哪里进行；に可标存在地点或到达点，但本句没有这层关系。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "登山者们在山间小屋的屋檐下晾干湿登山靴。",
+    "explanation": "屋檐下是晾干动作的发生地点，用で标记。",
+    "hint": "看句子描写的是登山靴的所在处，还是晾干它们的动作发生处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.13",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "make-paper-lanterns-at-community-center",
+    "scene": "社区亲子活动中，家长和孩子一起制作纸灯笼。",
+    "before": [
+      {
+        "text": "親子は地区センターの工作室",
+        "reading": "おやこはちくセンターのこうさくしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "紙のランタンを作ります。",
+        "reading": "かみのランタンをつくります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "制作活动的进行地点用で标示；这里的に不能表达亲子制作纸灯笼的场所。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出亲子制作纸灯笼的工作室。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "家长和孩子在地区中心的工作室制作纸灯笼。",
+    "explanation": "制作发生在工作室，活动地点用で表示。",
+    "hint": "确认句子要补的是制作活动进行的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.14",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "pack-ice-at-fishery-wharf",
+    "scene": "渔获卸下后，渔协职员在作业场清洗空鱼箱。",
+    "before": [
+      {
+        "text": "漁協の職員は港の荷さばき場",
+        "reading": "ぎょきょうのしょくいんはみなとのにさばきじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "空の魚箱を洗います。",
+        "reading": "からのさかなばこをあらいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明职员清洗鱼箱这一作业进行的场所。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "港口作业场是清洗动作发生的地点；に在此不能表达这一活动场所。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "渔业合作社的职员在港口卸货场清洗空鱼箱。",
+    "explanation": "清洗作业在港口卸货场进行，地点用で标记。",
+    "hint": "判断卸货场是清洗活动发生的地方，还是静态存在地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.15",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "observe-tomato-growth-in-greenhouse",
+    "scene": "园艺社学生在温室观察番茄幼苗的生长情况。",
+    "before": [
+      {
+        "text": "園芸部の生徒は学校の温室",
+        "reading": "えんげいぶのせいとはがっこうのおんしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "トマトの苗の成長を観察します。",
+        "reading": "トマトのなえのせいちょうをかんさつします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "观察活动进行的地点在这里用で标示；句子没有表示存在或移动的谓语，不能用に表达这个活动地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で指出学生观察番茄苗生长的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "园艺社的学生在学校温室观察番茄苗的生长。",
+    "explanation": "观察活动在学校温室进行，活动地点用で表示。",
+    "hint": "判断温室是番茄苗静态存在的位置，还是学生观察它们的活动场所。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.16",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "measure-prototype-thickness-in-inspection-room",
+    "scene": "质量检验时，技术员在检验室测量试制品的厚度。",
+    "before": [
+      {
+        "text": "技師は町工場の検査室",
+        "reading": "ぎしはまちこうばのけんさしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "試作品の厚さを測ります。",
+        "reading": "しさくひんのあつさをはかります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出技术员测量试制品这一工作的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に通常表示所在地点或移动终点；这里说明测量工作在哪里进行，应使用で。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "技术员在小型工厂的检验室测量试制品的厚度。",
+    "explanation": "测量动作发生在检验室，地点用で标记。",
+    "hint": "按谓语判断检验室是测量工作的场所，还是静态所在处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.17",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "print-exhibition-at-city-museum",
+    "scene": "美术馆日程表列出下月青年版画家作品展的举办地点。",
+    "before": [
+      {
+        "text": "来月、市立美術館",
+        "reading": "らいげつ、しりつびじゅつかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "若手版画家の作品展があります。",
+        "reading": "わかてはんがかのさくひんてんがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "に也能表示展览在某处存在或设置；本句日程表说明展览举行的地点，用で标出活动场所。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出青年版画家作品展这一活动举行的美术馆。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "下个月，市立美术馆有青年版画家的作品展。",
+    "explanation": "这里的あります说明有展览活动举行，活动举办地点用で标记。",
+    "hint": "结合日程表判断句子是在报告活动举办地，还是展览项目在某处的存在。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.18",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "outdoor-film-night-at-riverside-square",
+    "scene": "社区海报写明，今晚的露天电影会在河畔广场举行。",
+    "before": [
+      {
+        "text": "今夜、川沿いの広場",
+        "reading": "こんや、かわぞいのひろば"
+      }
+    ],
+    "after": [
+      {
+        "text": "野外映画会があります。",
+        "reading": "やがいえいがかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で表示露天电影会这一活动举行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "に可表示某活动在某地存在；海报这里要说明电影会举行的场所，用で标活动发生地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "今晚，河畔广场有一场露天电影会。",
+    "explanation": "野外电影会是将在广场举行的活动，地点用で表示。",
+    "hint": "留意海报报告的是活动在哪里举行，而不是单说某地有什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.19",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "ask-guest-name-at-hotel-front-desk",
+    "scene": "办理入住时，酒店前台职员询问住客姓名。",
+    "before": [
+      {
+        "text": "係員はホテルのフロント",
+        "reading": "かかりいんはホテルのフロント"
+      }
+    ],
+    "after": [
+      {
+        "text": "宿泊客の名前を聞きます。",
+        "reading": "しゅくはくきゃくのなまえをききます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "询问住客姓名是前台职员进行的动作；动作地点用で标记。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出职员询问住客姓名的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "职员在酒店前台询问住客的姓名。",
+    "explanation": "询问动作发生在酒店前台，活动地点用で标记。",
+    "hint": "判断询问动作在哪里进行，而不是谁或什么静态存在于哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.20",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "check-hose-couplings-at-fire-training-ground",
+    "scene": "消防队员在训练场逐一核对水带接头的连接情况。",
+    "before": [
+      {
+        "text": "消防署の訓練場",
+        "reading": "しょうぼうしょのくんれんじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "隊員たちがホースの接続を確かめます。",
+        "reading": "たいいんたちがホースのせつぞくをたしかめます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明消防队员检查水带接头这一训练活动的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "本句说明核对工作在哪里进行；に在这里不能代替活动地点的で。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "消防署训练场上，队员们确认水带的连接情况。",
+    "explanation": "队员们在训练场进行检查，活动地点用で表示。",
+    "hint": "看谓语描述的是在哪里进行核对，而非谁或什么存在于哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

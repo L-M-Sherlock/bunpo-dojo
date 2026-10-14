@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mixed.17",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.18",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.19",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "unit": {
+      "id": "particle.board",
+      "courseId": "movement",
+      "title": "乘坐对象的に",
+      "objective": "乗る的车辆对象に对を",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.20",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "unit": {
+      "id": "particle.leave",
+      "courseId": "movement",
+      "title": "离开位置的を",
+      "objective": "降りる出る的离开位置を，不推广到所有を",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.21",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "unit": {
+      "id": "particle.path",
+      "courseId": "movement",
+      "title": "经过路径的を",
+      "objective": "通る渡る歩く等路径を对活动地点で；场景限定经过路径",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

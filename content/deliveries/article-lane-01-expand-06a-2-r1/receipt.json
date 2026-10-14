@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_01_repair",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-06a-2-r1.draft.json",
+  "at": "2026-10-14T02:15:24.229Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refsia.01",
+      "hash": "9e62c1765b1ea0da8040606a2f0ff58a04c676ea9aca3a46399abaad2d6cb709",
+      "fullSentences": [
+        "飼い猫を亡くした青年は、空になったケージを片付けながら静かに泣いた。"
+      ]
+    },
+    {
+      "id": "verb.refsia.02",
+      "hash": "1017f4f3bf3bab0d23f4249e28e0a237c6fcac7f77da49382cbe391d7bea6fb8",
+      "fullSentences": [
+        "映画の終盤で、主人公が亡き母の手紙を読む場面は、試写会の観客を泣かした。"
+      ]
+    }
+  ]
+}

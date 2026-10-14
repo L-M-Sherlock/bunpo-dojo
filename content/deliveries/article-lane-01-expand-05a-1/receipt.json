@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_5a1",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-05a-1.draft.json",
+  "at": "2026-10-14T01:53:44.581Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refhaa.04",
+      "hash": "f1171f022dcd726115cf6d7a4b53ac2ee73b70251c26f2be235e4d7bf596d1e1",
+      "fullSentences": [
+        "停電した地域へ飲み水を届けるため、救援隊はあらゆる手を尽くした。"
+      ]
+    },
+    {
+      "id": "verb.refiga.01",
+      "hash": "ca35a7a6779bbefcfea77cd8d0e88d947d385f1fffd87ac072c12dddecdb810a",
+      "fullSentences": [
+        "倉庫では、雨に濡れたダンボール箱が重い荷物の下敷きになり、すっかり潰れていた。"
+      ]
+    },
+    {
+      "id": "verb.refiga.03",
+      "hash": "80cf8a2650cd06e575fd8a515d08f6a325670ec7026022e9af0157ee848be3d2",
+      "fullSentences": [
+        "長年赤字が続いていた商店街の老舗文房具店は、昨年潰れた。"
+      ]
+    },
+    {
+      "id": "verb.refiga.02",
+      "hash": "86cbb16b2fc3555f322d2a31ddb2bf714f9406b020757702d0a2ee84aaaaf5e0",
+      "fullSentences": [
+        "パンケーキの生地に混ぜるため、料理人は熟したバナナをフォークの背で潰した。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.boil.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "kettle-water-boils",
+    "scene": "水壶里的水烧开了，值班员准备泡茶。",
+    "before": [
+      {
+        "text": "やかんの湯が",
+        "reading": "やかんのゆが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "correct",
+        "explanation": "水壶里的水本身达到沸腾状态，用自动词「沸く」。"
+      },
+      {
+        "id": "b",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「沸かす」的加热对象在上下文明确时可以省略；若用此形，「湯が」会成为使其他液体沸腾的施事，但当前场景说的是壶中水自身烧开，角色和意义不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "水壶里的水烧开了。",
+    "explanation": "句子报告水本身达到沸腾状态，没有写谁把它烧开。",
+    "hint": "判断水是在自己沸腾，还是有人把水烧开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.boil.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "pot-water-boils-for-udon",
+    "scene": "锅里的水烧开后，放入乌冬面煮。",
+    "before": [
+      {
+        "text": "鍋の湯が",
+        "reading": "なべのゆが"
+      }
+    ],
+    "after": [
+      {
+        "text": "ら、うどんを入れてゆでる。",
+        "reading": "ら、うどんをいれてゆでる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "correct",
+        "explanation": "锅里的水先达到沸腾状态，再放入乌冬面，用自动词「沸く」。"
+      },
+      {
+        "id": "b",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「沸かす」的加热对象在上下文明确时可以省略；若用此形，「鍋の湯が」会成为使其他液体沸腾的施事，但当前场景说的是锅中水自身烧开后再下乌冬面，角色和意义不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "锅里的水烧开后，放入乌冬面煮。",
+    "explanation": "水的沸腾是下乌冬面之前发生的状态变化。",
+    "hint": "看水是发生沸腾变化的主体，还是被人加热的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

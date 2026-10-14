@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "lexicalKey": "hand-warmer-fingertips",
+    "scene": "握住暖宝宝时，原本冰冷的指尖逐渐暖和起来。",
+    "before": [
+      {
+        "text": "使い捨てカイロを握っていると、冷えていた指先が少しずつ",
+        "reading": "つかいすてカイロをにぎっていると、ひえていたゆびさきがすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "温まった",
+        "reading": "あたたまった",
+        "verdict": "correct",
+        "explanation": "「指先が」标出状态变化的主体；握着暖宝宝时，指尖自身逐渐转暖，用自动词「温まる」。"
+      },
+      {
+        "id": "b",
+        "text": "温めた",
+        "reading": "あたためた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「指先が温めた」也可以是省略宾语的他动词句，但此时指尖是给别物加温的施事；本场景中指尖是被暖宝宝加温的身体部位，角色不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "握着暖宝宝时，原本冰冷的指尖逐渐暖和起来。",
+    "explanation": "句子描述的是指尖自身从冰冷状态转暖，指尖是变化主体。",
+    "hint": "结合「指先が」和握暖宝宝的情境，判断指尖在句中是状态变化的主体还是动作施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

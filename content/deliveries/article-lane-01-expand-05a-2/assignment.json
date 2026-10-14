@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refiga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "pair": {
+      "id": "verb.refiga",
+      "intransitive": "潰れる",
+      "intransitiveReading": "つぶれる",
+      "transitive": "潰す",
+      "transitiveReading": "つぶす",
+      "meaning": "辨析「潰れる／潰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refjba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "pair": {
+      "id": "verb.refjba",
+      "intransitive": "寄る",
+      "intransitiveReading": "よる",
+      "transitive": "寄せる",
+      "transitiveReading": "よせる",
+      "meaning": "辨析「寄る／寄せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refjba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "pair": {
+      "id": "verb.refjba",
+      "intransitive": "寄る",
+      "intransitiveReading": "よる",
+      "transitive": "寄せる",
+      "transitiveReading": "よせる",
+      "meaning": "辨析「寄る／寄せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refjba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "pair": {
+      "id": "verb.refjba",
+      "intransitive": "寄る",
+      "intransitiveReading": "よる",
+      "transitive": "寄せる",
+      "transitiveReading": "よせる",
+      "meaning": "辨析「寄る／寄せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

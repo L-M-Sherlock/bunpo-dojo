@@ -1,0 +1,187 @@
+[
+  {
+    "id": "verb.refrda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "lexicalKey": "kindergarteners-roll-ball-at-bottle-pin-game",
+    "scene": "幼儿园的滚球游戏中，孩子们把大球滚向前方的瓶子。",
+    "before": [
+      {
+        "text": "園児たちは、床に置いた大きなボールを",
+        "reading": "えんじたちは、ゆかにおいたおおきなボールを"
+      }
+    ],
+    "after": [
+      {
+        "text": "、前に並んだペットボトルのピンを倒した。",
+        "reading": "、まえにならんだペットボトルのピンをたおした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "転がして",
+        "reading": "ころがして",
+        "verdict": "correct",
+        "explanation": "孩子们让「大きなボールを」在地面上滚动；球是他们施加动作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "転がって",
+        "reading": "ころがって",
+        "verdict": "ungrammatical",
+        "explanation": "転がる描写主体自身移动，应由球作「が」标记的主体；本句已用「園児たちは」标出施事，并用「ボールを」标出被滚动的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "幼儿们滚动地上的大球，击倒了前方排成一列的塑料瓶球瓶。",
+    "explanation": "孩子们是让球滚动的施事，「大きなボールを」是被滚动的对象。",
+    "hint": "看孩子们是在让哪个对象移动，还是这个对象自己移动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "lexicalKey": "cooking-class-tasters-surprised-by-sugar-free-cake",
+    "scene": "烹饪课上，学员尝到无糖蛋糕后发现它格外甜。",
+    "before": [
+      {
+        "text": "料理教室で砂糖を使わないケーキを試食した参加者は、その甘さに",
+        "reading": "りょうりきょうしつでさとうをつかわないケーキをししょくしたさんかしゃは、そのあまさに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "驚いた",
+        "reading": "おどろいた",
+        "verdict": "correct",
+        "explanation": "参加者自身对蛋糕的甜味感到意外；「参加者は」是产生惊讶的人，「甘さに」指出触发感受的事物。"
+      },
+      {
+        "id": "b",
+        "text": "驚かせた",
+        "reading": "おどろかせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "驚かす表示让别人感到惊讶；本句写参加者自己对甜味作出反应，没有写他们使另一个人受惊。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烹饪课上，试吃无糖蛋糕的参加者对它的甜味感到惊讶。",
+    "explanation": "参加者是惊讶的体验者，蛋糕的甜味是引发惊讶的原因。",
+    "hint": "确认句子写的是参加者自己的感受，还是他们对别人造成的反应。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "lexicalKey": "graduates-surprise-teacher-at-retirement-celebration",
+    "scene": "恩师的退休庆祝会上，毕业生播放了为他秘密准备的短片。",
+    "before": [
+      {
+        "text": "卒業生たちは恩師の退職祝いに短い映像を用意し、会場で上映して恩師を",
+        "reading": "そつぎょうせいたちはおんしのたいしょくいわいにみじかいえいぞうをよういし、かいじょうでじょうえいしておんしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "驚かせた",
+        "reading": "おどろかせた",
+        "verdict": "correct",
+        "explanation": "毕业生准备并播放短片，使恩师感到意外；「恩師を」标出受到惊喜的人。"
+      },
+      {
+        "id": "b",
+        "text": "驚いた",
+        "reading": "おどろいた",
+        "verdict": "ungrammatical",
+        "explanation": "驚く描述主体自己受到惊吓或感到意外，不能接本句作为对象的「恩師を」；本句的施事是毕业生，受影响的人是恩师。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "毕业生们为恩师的退休庆祝会准备了一段短片，并在会场播放，让恩师大吃一惊。",
+    "explanation": "毕业生是引发惊讶的施事，恩师是被他们惊到的人。",
+    "hint": "留意「恩師を」表示的是受到动作影响的人，还是动作体验者。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "lexicalKey": "hiker-surprised-by-deer-leaping-from-bush",
+    "scene": "林间小路上，灌木里突然窜出的鹿让散步的旅人吃了一惊。",
+    "before": [
+      {
+        "text": "山道を歩いていた旅行者は、茂みから鹿が飛び出したのを見て",
+        "reading": "やまみちをあるいていたりょこうしゃは、しげみからしかがとびだしたのをみて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "驚いた",
+        "reading": "おどろいた",
+        "verdict": "correct",
+        "explanation": "旅人看到鹿突然窜出后自己感到惊讶；旅人是感受者，鹿的出现是触发事件。"
+      },
+      {
+        "id": "b",
+        "text": "驚かせた",
+        "reading": "おどろかせた",
+        "verdict": "meaning-mismatch",
+        "explanation": "驚かす表示旅人使另一个人感到意外；本句叙述旅人自己看到鹿后受惊，没有描述他让别人惊讶。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "走在山道上的旅人看到鹿从灌木丛中突然窜出，吃了一惊。",
+    "explanation": "旅人是看到意外情形后产生反应的人，不是使他人受惊的施事。",
+    "hint": "看句子的中心人物是自己受到惊讶，还是让其他人感到惊讶。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

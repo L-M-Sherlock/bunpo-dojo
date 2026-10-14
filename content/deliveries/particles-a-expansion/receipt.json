@@ -1,0 +1,99 @@
+{
+  "author": "/root/bunpo_particles_a",
+  "source": "work/content/particles-a/expansion.draft.json",
+  "at": "2026-10-13T11:38:26.635Z",
+  "count": 13,
+  "cards": [
+    {
+      "id": "particle.existence.04",
+      "hash": "0d494430db80fa8d291d911adbb6ae3c0157884f6680ae445e8a5069fdd4fd3b",
+      "fullSentences": [
+        "机の引き出しに予備の鍵があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.05",
+      "hash": "b3f66fd1db052f170eb73a12a7e5e96c00fbbcccec2736b61bc50543056ee6cb",
+      "fullSentences": [
+        "地下駐車場に車が二台あります。"
+      ]
+    },
+    {
+      "id": "particle.existence.06",
+      "hash": "c6d7fc33895a2622812a3d0ad45e8a5755ef59ca651f3be1681c660acdad0c78",
+      "fullSentences": [
+        "飼育ケースにカブトムシが一匹います。"
+      ]
+    },
+    {
+      "id": "particle.existence.07",
+      "hash": "3b6e97db5d9f03c62b1187748909985f47b89a9fac08038685d9e8e522773a06",
+      "fullSentences": [
+        "診察室に担当医がいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.08",
+      "hash": "28a84d1141dea7e45c7f705f1c3eb5e3e462eb9b81019dec529927912b85fa94",
+      "fullSentences": [
+        "駅前に交番があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.09",
+      "hash": "b21efb90417325b22e08503c47fb60c4a6acb70b2041d51fcfebc4d209fcb977",
+      "fullSentences": [
+        "棚に紙の地図があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.10",
+      "hash": "1fbe997a3c63bd720c2755ad535ab45f590bfb9d16d621eefdf9229749d94d3e",
+      "fullSentences": [
+        "公園の北側に小さな池があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.01",
+      "hash": "6836117bdbb61d497c0d24bc6b7aa88b137ea6c3e18225c1d23b0ec508790196",
+      "fullSentences": [
+        "図書館で新しい小説を読みます。"
+      ]
+    },
+    {
+      "id": "particle.activity.02",
+      "hash": "02d870c27e79e29bf1a21f837997413362fed14082ab7977d5a02f9b57981a83",
+      "fullSentences": [
+        "体育館でバドミントンのダブルスを練習します。"
+      ]
+    },
+    {
+      "id": "particle.activity.03",
+      "hash": "5c19d371b6d3f415ab269332bdc9cf4faaa78306b3760826fbe04bbdffbb4b2d",
+      "fullSentences": [
+        "工房で職人が木の椅子を修理しています。"
+      ]
+    },
+    {
+      "id": "particle.activity.04",
+      "hash": "2862fae4ac268ead18c01774b8159e39aa0fafb27fa3af78977d689e35bacdb9",
+      "fullSentences": [
+        "今週末は市民ホールで防災講演会があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.05",
+      "hash": "dbb8555d214f2354399f9f5f7253030bd6a0bee18e46b26e4b9047a1674d81c9",
+      "fullSentences": [
+        "今度の日曜日は運動公園で少年野球の大会があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.06",
+      "hash": "df3abb2076fb94fbdd13b24db2a3b5c96b18380de76f502fe87c88fe7eacff63",
+      "fullSentences": [
+        "台所で祖母がサバを焼いています。"
+      ]
+    }
+  ]
+}

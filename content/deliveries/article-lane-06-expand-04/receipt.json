@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_06",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-04.draft.json",
+  "at": "2026-10-13T19:55:54.033Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refddb.04",
+      "hash": "6af4162594e196b5dae97cb09641ab53e4033312c045813f8e47f73aec778abb",
+      "fullSentences": [
+        "友人は、酒に酔った彼を涼しい風に当てて、酔いを醒ました。"
+      ]
+    },
+    {
+      "id": "verb.refeaa.01",
+      "hash": "503ddefdbec9ce13de385af45575d201c70f48578b8d2b77d191d5bf909cbc19",
+      "fullSentences": [
+        "手術後の傷口は、三週間でようやく癒えた。"
+      ]
+    },
+    {
+      "id": "verb.refeaa.02",
+      "hash": "b5b32945a70a4b17cb648a91b2c1b428e96a24a64fc6580d6c3ac0ea9346caf9",
+      "fullSentences": [
+        "旅人は山あいの温泉にゆっくりつかり、長旅の疲れを癒した。"
+      ]
+    },
+    {
+      "id": "verb.refeaa.03",
+      "hash": "c25f69e5631c6f9b8957c20de90ea9e881373da6edfa8753abc97103af3d5188",
+      "fullSentences": [
+        "友人を亡くした悲しみは、数年たっても完全には癒えない。"
+      ]
+    },
+    {
+      "id": "verb.refeaa.04",
+      "hash": "47b82c8c53b44a86a33002b1dbfc94cc26322336991106495a1a84daddf34cc7",
+      "fullSentences": [
+        "支援員は、避難所で絵本を読み、不安を抱える子どもたちの心を癒した。"
+      ]
+    },
+    {
+      "id": "verb.refega.01",
+      "hash": "9cfb6150bf944d813f27f344a1437126a69b23c62f838b52261b631acc6e2f20",
+      "fullSentences": [
+        "停電の夜、宿の薪ストーブの火が静かに燃えていた。"
+      ]
+    },
+    {
+      "id": "verb.refega.02",
+      "hash": "454f9ed3c8083bb3580738fd68d3a961584a5c3d9a6411c77dbdbc3bd4cdbf30",
+      "fullSentences": [
+        "キャンプ場の管理人は、焚き火台で乾いた薪を燃やした。"
+      ]
+    },
+    {
+      "id": "verb.refega.03",
+      "hash": "0e18a7550d0d319656a7c811719aa8842b497ca2eb430e0da4acf1178ac80f0f",
+      "fullSentences": [
+        "防火試験では、布の端が数秒だけ燃えたが、炎はすぐに消えた。"
+      ]
+    },
+    {
+      "id": "verb.refega.04",
+      "hash": "26e6b53f431fc5aeb393611a9f810c7aa2b8b107f5808205f94fb894565dd7e8",
+      "fullSentences": [
+        "監督は、決勝戦を前に「最後まで闘志を燃やせ」と選手たちを鼓舞した。"
+      ]
+    },
+    {
+      "id": "verb.refgda.01",
+      "hash": "15d35b7dc235615b803df54a260cec30ec8259b6cfa0b4a820e0ad8bfcd0c5af",
+      "fullSentences": [
+        "夜祭りの片付けをしている間に、終電の時刻が過ぎていた。"
+      ]
+    },
+    {
+      "id": "verb.refgda.02",
+      "hash": "1a5f26768454a7567e8d33e3e2e69529ab4438bea5625a55492954d9f0ab7b68",
+      "fullSentences": [
+        "嵐がやむまで、登山者たちは山小屋で一晩を過ごした。"
+      ]
+    },
+    {
+      "id": "verb.refgda.03",
+      "hash": "2efec7568f0be8be8ae16cbb00970fc1f0ecfb4fcbf377fc0e6432d17ac8f3f8",
+      "fullSentences": [
+        "秋祭りの行列は、神社前の通りをゆっくり過ぎていった。"
+      ]
+    },
+    {
+      "id": "verb.refgda.04",
+      "hash": "a0fc851993dc15faf29a3e74fe91877d8f99eb4c9c899aac5137f4f470b0b01d",
+      "fullSentences": [
+        "退職後、父は毎朝畑で野菜を育てながら静かな日々を過ごした。"
+      ]
+    },
+    {
+      "id": "verb.refifa.01",
+      "hash": "1a9829224d08a5a972e685178d48458d385d9f51153ecac581f96c984bf178d2",
+      "fullSentences": [
+        "強風が吹いた翌朝、校庭の古いポプラの木が倒れていた。"
+      ]
+    },
+    {
+      "id": "verb.refifa.02",
+      "hash": "b8fe400fff8dae1c3669bcf9fce4c94ff507c5b880e6c7f19ff21bdb1e32582b",
+      "fullSentences": [
+        "対戦相手は粘り強い守備で優勝候補を倒した。"
+      ]
+    },
+    {
+      "id": "verb.refifa.03",
+      "hash": "9b1751ed798e02fccf3daf65d83e5f0c10dccf3b095beca21245ee8001589e94",
+      "fullSentences": [
+        "猛暑の中で長時間作業していた作業員が、日陰で意識を失って倒れた。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refaba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "pair": {
+      "id": "verb.refaba",
+      "intransitive": "温まる",
+      "intransitiveReading": "あたたまる",
+      "transitive": "温める",
+      "transitiveReading": "あたためる",
+      "meaning": "辨析「温まる／温める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "pair": {
+      "id": "verb.refaba",
+      "intransitive": "温まる",
+      "intransitiveReading": "あたたまる",
+      "transitive": "温める",
+      "transitiveReading": "あたためる",
+      "meaning": "辨析「温まる／温める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "pair": {
+      "id": "verb.refaba",
+      "intransitive": "温まる",
+      "intransitiveReading": "あたたまる",
+      "transitive": "温める",
+      "transitiveReading": "あたためる",
+      "meaning": "辨析「温まる／温める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

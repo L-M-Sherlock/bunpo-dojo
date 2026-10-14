@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refrda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "pair": {
+      "id": "verb.refrda",
+      "intransitive": "転がる",
+      "intransitiveReading": "ころがる",
+      "transitive": "転がす",
+      "transitiveReading": "ころがす",
+      "meaning": "辨析「転がる／転がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "pair": {
+      "id": "verb.refsba",
+      "intransitive": "驚く",
+      "intransitiveReading": "おどろく",
+      "transitive": "驚かす",
+      "transitiveReading": "おどろかす",
+      "meaning": "辨析「驚く／驚かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "pair": {
+      "id": "verb.refsba",
+      "intransitive": "驚く",
+      "intransitiveReading": "おどろく",
+      "transitive": "驚かす",
+      "transitiveReading": "おどろかす",
+      "meaning": "辨析「驚く／驚かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "pair": {
+      "id": "verb.refsba",
+      "intransitive": "驚く",
+      "intransitiveReading": "おどろく",
+      "transitive": "驚かす",
+      "transitiveReading": "おどろかす",
+      "meaning": "辨析「驚く／驚かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

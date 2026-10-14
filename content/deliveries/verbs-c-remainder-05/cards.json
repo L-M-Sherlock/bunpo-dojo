@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.boil.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "kettle-water-boils",
+    "scene": "水壶里的水烧开了，值班员准备泡茶。",
+    "before": [
+      {
+        "text": "やかんの湯が",
+        "reading": "やかんのゆが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "correct",
+        "explanation": "水壶里的水本身达到沸腾状态，用自动词「沸く」。"
+      },
+      {
+        "id": "b",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "ungrammatical",
+        "explanation": "「沸かす」表示施事把某物烧开；接在「湯が」后会让水变成使另一物沸腾的施事，但句中没有这样的对象，结构不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "水壶里的水烧开了。",
+    "explanation": "句子报告水本身达到沸腾状态，没有写谁把它烧开。",
+    "hint": "判断水是在自己沸腾，还是有人把水烧开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.boil.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "shopkeeper-boils-tea-water",
+    "scene": "店主准备给客人上茶，用水壶烧开了水。",
+    "before": [
+      {
+        "text": "客に茶を出す前に、店主はやかんで湯を",
+        "reading": "きゃくにちゃをだすまえに、てんしゅはやかんでゆを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "correct",
+        "explanation": "店主主动把水烧开，「湯を」是他加热的对象，用他动词「沸かす」。"
+      },
+      {
+        "id": "b",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "ungrammatical",
+        "explanation": "「沸く」描述水自身沸腾，不能承接这里的直接宾语「湯を」；若只报告水烧开，应说「湯が沸いた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "给客人上茶前，店主用水壶烧开了水。",
+    "explanation": "店主是烧水的施事，水是被烧开的对象。",
+    "hint": "留意店主和水分别是动作施事还是沸腾的主体。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.boil.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "pot-water-boils-for-udon",
+    "scene": "锅里的水烧开后，放入乌冬面煮。",
+    "before": [
+      {
+        "text": "鍋の湯が",
+        "reading": "なべのゆが"
+      }
+    ],
+    "after": [
+      {
+        "text": "ら、うどんを入れてゆでる。",
+        "reading": "ら、うどんをいれてゆでる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "correct",
+        "explanation": "锅里的水先达到沸腾状态，再放入乌冬面，用自动词「沸く」。"
+      },
+      {
+        "id": "b",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "ungrammatical",
+        "explanation": "「沸かす」需要施事把某物烧开；此处「湯が」是水本身，句中没有被加热的另一对象，结构不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "锅里的水烧开后，放入乌冬面煮。",
+    "explanation": "水的沸腾是下乌冬面之前发生的状态变化。",
+    "hint": "看水是发生沸腾变化的主体，还是被人加热的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.boil.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "lexicalKey": "festival-stall-boils-soup-water",
+    "scene": "文化节摊位要做味噌汤，工作人员用大锅烧水。",
+    "before": [
+      {
+        "text": "文化祭の模擬店で出す味噌汁を作るため、係員は大鍋で湯を",
+        "reading": "ぶんかさいのもぎてんでだすみそしるをつくるため、かかりいんはおおなべでゆを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沸かした",
+        "reading": "わかした",
+        "verdict": "correct",
+        "explanation": "工作人员为制作味噌汤而主动烧水，「湯を」是烧开的对象，用他动词「沸かす」。"
+      },
+      {
+        "id": "b",
+        "text": "沸いた",
+        "reading": "わいた",
+        "verdict": "ungrammatical",
+        "explanation": "「沸く」描述水自身沸腾，不能接句中的直接宾语「湯を」；若只说水开了，应以「湯が」作主语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为制作文化节摊位供应的味噌汤，工作人员用大锅烧开了水。",
+    "explanation": "工作人员执行烧水动作，水是为味噌汤加热的对象。",
+    "hint": "判断句子是在写水自己沸腾，还是工作人员把水烧开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

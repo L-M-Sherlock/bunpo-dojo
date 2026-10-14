@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.means.02",
+    "fullCorrectSentences": [
+      "幹事は、割り勘の一人分を電卓で計算した。"
+    ],
+    "sceneRationale": "负责人使用计算器核算每人应付金额；计算器是完成计算的工具。",
+    "otherReadings": "「電卓に」とすると计算器可能被理解为输入数字或把结果写入的对象；本句是用计算器进行核算。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标出核算时使用的工具", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把计算器作为输入／写入的目标，而非计算手段", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：幹事（かんじ）、割り勘（わりかん）、一人分（ひとりぶん）、電卓（でんたく）、計算した（けいさんした）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.03",
+    "fullCorrectSentences": [
+      "患者は救急車で市立病院に搬送された。"
+    ],
+    "sceneRationale": "患者被救护车送到市立医院；救护车是交通方式，医院是目的地。",
+    "otherReadings": "「救急車に」と会把救护车读为患者移动的目标或登乘对象；句中已用「市立病院へ」表示送达地点。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记救护车这一运输方式", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把救护车作为移动目标，而不是运送手段", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：患者（かんじゃ）、救急車（きゅうきゅうしゃ）、市立病院（しりつびょういん）、搬送された（はんそうされた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.04",
+    "fullCorrectSentences": [
+      "画家は白い壁に、幅の広い刷毛で下地を塗った。"
+    ],
+    "sceneRationale": "画家用宽刷子把底漆涂在白墙上；刷子是工具，白墙是涂料附着表面。",
+    "otherReadings": "「刷毛に下地を塗る」会把刷毛理解为底漆涂到的表面；场景中底漆涂在墙上，刷毛用于涂刷。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标出涂刷底漆所用的宽刷子", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把刷毛标成底漆附着的表面，与白墙这一目标不符", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：画家（がか）、白い（しろい）、壁（かべ）、幅（はば）、広い（ひろい）、刷毛（はけ）、下地（したじ）、塗った（ぬった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.05",
+    "fullCorrectSentences": [
+      "旅行者は大きなスーツケースを宿泊先に宅配便で送った。"
+    ],
+    "sceneRationale": "行李寄到住宿处，宅配便是采用的寄送方式。",
+    "otherReadings": "「宿泊先に」已标出收件目的地；如果「宅配便に」作受件方理解，目的地就会变成配送服务，而不符合此场景。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标出寄送行李使用的配送方式", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "会把配送服务当成寄送对象／目的地", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：旅行者（りょこうしゃ）、大きな（おおきな）、スーツケース、宿泊先（しゅくはくさき）、宅配便（たくはいびん）、送った（おくった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.06",
+    "fullCorrectSentences": [
+      "大工は金づちで板に釘を打ち込んだ。"
+    ],
+    "sceneRationale": "木匠用锤子把钉子敲进木板；锤子是工具，木板是钉入目标。",
+    "otherReadings": "「板に」已经表示钉子进入的目标表面；把「に」放在金づち后会把锤子误作目标，而不是敲击工具。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记打钉时使用的工具", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把锤子标作移动／作用目标，和木板这一目标混淆", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：大工（だいく）、金づち（かなづち）、板（いた）、釘（くぎ）、打ち込んだ（うちこんだ）。",
+    "unresolvedQuestions": []
+  }
+]

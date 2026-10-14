@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_01_recovery",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-03-r1.draft.json",
+  "at": "2026-10-13T19:37:47.751Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refcca.01",
+      "hash": "fe31fd373b691dd7df477363c624a6bd9c4ada7ca82fa14321b1a03d69b4d277",
+      "fullSentences": [
+        "波に何度も打ちつけられた貝殻は、岩場のくぼみに細かく砕けている。"
+      ]
+    },
+    {
+      "id": "verb.refcca.02",
+      "hash": "7eb4bcdeb635e394e5158f7841a6aa21245bcaa50a5334d0973f6a953d9f5cc6",
+      "fullSentences": [
+        "料理人は胡椒の粒をすり鉢で細かく砕いた。"
+      ]
+    },
+    {
+      "id": "verb.refcna.03",
+      "hash": "cad83886fa1a5adc0d2a970608d15583a7d0058913b18c291568723f058cfa5b",
+      "fullSentences": [
+        "春先の池では、気温が上がるにつれて岸近くの氷があちこちで割れている。"
+      ]
+    }
+  ]
+}

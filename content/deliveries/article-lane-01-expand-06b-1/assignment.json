@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsia",
+    "familyId": "verb.refsia",
+    "pair": {
+      "id": "verb.refsia",
+      "intransitive": "泣く",
+      "intransitiveReading": "なく",
+      "transitive": "泣かす",
+      "transitiveReading": "なかす",
+      "meaning": "辨析「泣く／泣かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reftba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "pair": {
+      "id": "verb.reftba",
+      "intransitive": "挟まる",
+      "intransitiveReading": "はさまる",
+      "transitive": "挟む",
+      "transitiveReading": "はさむ",
+      "meaning": "辨析「挟まる／挟む」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reftba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "pair": {
+      "id": "verb.reftba",
+      "intransitive": "挟まる",
+      "intransitiveReading": "はさまる",
+      "transitive": "挟む",
+      "transitiveReading": "はさむ",
+      "meaning": "辨析「挟まる／挟む」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reftba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "pair": {
+      "id": "verb.reftba",
+      "intransitive": "挟まる",
+      "intransitiveReading": "はさまる",
+      "transitive": "挟む",
+      "transitiveReading": "はさむ",
+      "meaning": "辨析「挟まる／挟む」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

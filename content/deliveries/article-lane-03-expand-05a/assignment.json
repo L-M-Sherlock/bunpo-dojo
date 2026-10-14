@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refiba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "pair": {
+      "id": "verb.refiba",
+      "intransitive": "隠れる",
+      "intransitiveReading": "かくれる",
+      "transitive": "隠す",
+      "transitiveReading": "かくす",
+      "meaning": "辨析「隠れる／隠す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "pair": {
+      "id": "verb.refiia",
+      "intransitive": "逃れる",
+      "intransitiveReading": "のがれる",
+      "transitive": "逃す",
+      "transitiveReading": "のがす",
+      "meaning": "辨析「逃れる／逃す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 9
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "pair": {
+      "id": "verb.refiia",
+      "intransitive": "逃れる",
+      "intransitiveReading": "のがれる",
+      "transitive": "逃す",
+      "transitiveReading": "のがす",
+      "meaning": "辨析「逃れる／逃す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "pair": {
+      "id": "verb.refiia",
+      "intransitive": "逃れる",
+      "intransitiveReading": "のがれる",
+      "transitive": "逃す",
+      "transitiveReading": "のがす",
+      "meaning": "辨析「逃れる／逃す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 9
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "pair": {
+      "id": "verb.refiia",
+      "intransitive": "逃れる",
+      "intransitiveReading": "のがれる",
+      "transitive": "逃す",
+      "transitiveReading": "のがす",
+      "meaning": "辨析「逃れる／逃す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refmaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "pair": {
+      "id": "verb.refmaa",
+      "intransitive": "捕まる",
+      "intransitiveReading": "つかまる",
+      "transitive": "捕まえる",
+      "transitiveReading": "つかまえる",
+      "meaning": "辨析「捕まる／捕まえる」的角色与对象",
+      "count": 4,
+      "articleGroup": 13,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refmaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "pair": {
+      "id": "verb.refmaa",
+      "intransitive": "捕まる",
+      "intransitiveReading": "つかまる",
+      "transitive": "捕まえる",
+      "transitiveReading": "つかまえる",
+      "meaning": "辨析「捕まる／捕まえる」的角色与对象",
+      "count": 4,
+      "articleGroup": 13,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refmaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "pair": {
+      "id": "verb.refmaa",
+      "intransitive": "捕まる",
+      "intransitiveReading": "つかまる",
+      "transitive": "捕まえる",
+      "transitiveReading": "つかまえる",
+      "meaning": "辨析「捕まる／捕まえる」的角色与对象",
+      "count": 4,
+      "articleGroup": 13,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

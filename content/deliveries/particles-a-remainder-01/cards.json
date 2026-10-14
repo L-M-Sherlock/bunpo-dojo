@@ -1,0 +1,278 @@
+[
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.07",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "photograph-orchids-at-botanical-garden",
+    "scene": "游客在植物园拍摄兰花，园方提醒大家关闭闪光灯。",
+    "before": [
+      {
+        "text": "見学者は植物園",
+        "reading": "けんがくしゃはしょくぶつえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "ランの写真を撮ります。",
+        "reading": "ランのしゃしんをとります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标存在地点或移动目的地；本句要标出拍照动作发生的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明参观者拍摄兰花的地点。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示移动方向；本句没有前往植物园的移动谓语。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "参观者在植物园拍摄兰花。",
+    "explanation": "拍照动作在植物园进行，活动地点用で标出。",
+    "hint": "判断植物园是活动发生的地点，还是人物所在或前往的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.08",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "interview-captain-at-port-museum",
+    "scene": "地方报社记者在渔港资料馆采访一位老船长。",
+    "before": [
+      {
+        "text": "記者は漁港の資料館",
+        "reading": "きしゃはぎょこうのしりょうかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "船長に話を聞きます。",
+        "reading": "せんちょうにはなしをききます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向；句子说记者在资料馆采访，没有表示前往那里的谓语。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明记者采访船长这一活动进行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "这里的に不能标采访活动发生处；它可用于人物存在地点或移动终点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "记者在渔港资料馆采访船长。",
+    "explanation": "采访是在资料馆进行的活动，地点用で表示。",
+    "hint": "找出记者进行采访的地点，而不是采访对象所在或移动的终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.09",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "make-udon-in-training-kitchen",
+    "scene": "烹饪课上，学员在实习厨房手打乌冬面。",
+    "before": [
+      {
+        "text": "生徒は調理室",
+        "reading": "せいとはちょうりしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "うどんを打ちます。",
+        "reading": "うどんをうちます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に不能在这里标手打乌冬面这一动作的进行地点；它常标存在位置或移动终点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で指出学员制作乌冬面的活动发生在实习厨房。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示前往方向；本句描述制作活动，没有移动谓语。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "学员在实习厨房手打乌冬面。",
+    "explanation": "制作乌冬面是发生在厨房里的活动，用で标地点。",
+    "hint": "注意句子说的是在哪里制作，而不是学员或乌冬面在哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.10",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "rehearse-new-piece-in-music-room",
+    "scene": "学校文化节前，吹奏乐部在音乐室合练新曲。",
+    "before": [
+      {
+        "text": "吹奏楽部は音楽室",
+        "reading": "すいそうがくぶはおんがくしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "新曲を合奏します。",
+        "reading": "しんきょくをがっそうします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出吹奏乐部合奏新曲的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标存在或移动的终点，不能在此句中标合奏活动的地点。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向；本句只说明合奏发生处，没有前往音乐室的谓语。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "吹奏乐部在音乐室合奏新曲。",
+    "explanation": "合奏动作在音乐室进行，活动地点用で表示。",
+    "hint": "判断音乐室是合奏活动的发生处，还是单纯的存在位置或目的地。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.01",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "sister-goes-to-hakone-next-week",
+    "scene": "姐姐计划下周去箱根泡温泉，已经订好住宿。",
+    "before": [
+      {
+        "text": "来週、姉は箱根",
+        "reading": "らいしゅう、あねははこね"
+      }
+    ],
+    "after": [
+      {
+        "text": "行きます。",
+        "reading": "いきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に可以标出姐姐前往的目的地箱根。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ也可以标出行く所指向的目的地，和に一样符合此处的场景。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把箱根说成出发地点；场景说姐姐下周要去箱根，箱根是目的地。"
+      }
+    ],
+    "answerIds": [
+      "ni",
+      "e"
+    ],
+    "translation": "姐姐下周要去箱根。",
+    "explanation": "行く指向目的地时，箱根后的に和へ都可以使用。",
+    "hint": "判断箱根在这句话里是出发地还是行く的目的地。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/expansion.draft.json",
+  "at": "2026-10-13T12:00:53.683Z",
+  "count": 13,
+  "cards": [
+    {
+      "id": "particle.path.04",
+      "hash": "3ee917949b2f224d516eb1dd9a0fb3341327dbef34e46257720fe37c5092a02b",
+      "fullSentences": [
+        "駅の西口から東口へは、雨の日でも商店街を通り抜けるのが近道だ。"
+      ]
+    },
+    {
+      "id": "particle.path.05",
+      "hash": "9338eacc941496ef307bca80708fb9202b13393e5bd2afeea36d04f7e38feb7a",
+      "fullSentences": [
+        "雨が強まる前に薬を届けるため、配達員は小さな川を渡って対岸の診療所へ向かった。"
+      ]
+    },
+    {
+      "id": "particle.path.06",
+      "hash": "5ad0f8dd1a19185dc226b755650dbc61d69170909c720cd31a2e860a182c944b",
+      "fullSentences": [
+        "日の出前に、二人は北側の登山道を登り切って山小屋に着いた。"
+      ]
+    },
+    {
+      "id": "particle.path.07",
+      "hash": "6a91ae11816efadd196d43d20680e0adb1c5e01cb53b4a13e058ff1259f00079",
+      "fullSentences": [
+        "作業員は部品を積んだ台車を押し、倉庫の間を進んで検査棟へ運んだ。"
+      ]
+    },
+    {
+      "id": "particle.path.08",
+      "hash": "a708116e4c6a56f3314b97a6bf6ddf49fc93823aeaff424034fc4dbc97758463",
+      "fullSentences": [
+        "市民マラソンでは、先頭の選手が市場前から海岸通りを走り抜け、灯台の折り返し地点へ向かった。"
+      ]
+    },
+    {
+      "id": "particle.path.09",
+      "hash": "ac148187318bbf0b3c77c1369757456e4bf07f400b2ed2447f87c38a62c39654",
+      "fullSentences": [
+        "観光案内板の赤い線に従い、参加者は川沿いの遊歩道を歩いて旧港の展望台へ向かった。"
+      ]
+    },
+    {
+      "id": "particle.path.10",
+      "hash": "f8a02dd63cec6b26efa00a2df904ee2eacd79d12d57c8180b4b15e05136442da",
+      "fullSentences": [
+        "霧が出る前に、巡回員は森を抜け、谷の向こうの避難小屋に着いた。"
+      ]
+    },
+    {
+      "id": "particle.recipient.01",
+      "hash": "5e79d1f0e61a90fbe10b93c0d9d6aca12646c4b1f8d758768b3d9798209b1d77",
+      "fullSentences": [
+        "閉館前、司書は新人のアルバイトに職員証を渡した。"
+      ]
+    },
+    {
+      "id": "particle.recipient.02",
+      "hash": "1f78dee6a8caff9e735bdba71eab163dfa49ab9bf89feb69075db6eba2c903ba",
+      "fullSentences": [
+        "本部の担当者は、更新版の地図を各支所に送った。",
+        "本部の担当者は、更新版の地図を各支所へ送った。"
+      ]
+    },
+    {
+      "id": "particle.recipient.03",
+      "hash": "d5639e16d8d9fd54f344ca040a77c155d9538cf15c4514433beed6d608496dbc",
+      "fullSentences": [
+        "研修担当者は、新人に業務用端末の操作方法を教えた。"
+      ]
+    },
+    {
+      "id": "particle.recipient.04",
+      "hash": "34b16687be8c8cf5d410b0274c1c1272ec61279bb6c1fca312e0e628d0016aa3",
+      "fullSentences": [
+        "転入者は市の窓口で、保育園の申請手順について担当職員に相談した。",
+        "転入者は市の窓口で、保育園の申請手順について担当職員と相談した。"
+      ]
+    },
+    {
+      "id": "particle.recipient.05",
+      "hash": "93b6ec7a6085de24c55319c686799bb22083ec5692b5a04c58054abccd2d78f0",
+      "fullSentences": [
+        "学芸員は館長に修復前後の写真を見せた。"
+      ]
+    },
+    {
+      "id": "particle.recipient.06",
+      "hash": "f652da764d4518663eb9e340e0e43a4b1b41dea5942a1a182a51c769c250d627",
+      "fullSentences": [
+        "夜勤の看護師は、患者の呼吸状態が急に悪化したことを当直医に伝えた。"
+      ]
+    }
+  ]
+}

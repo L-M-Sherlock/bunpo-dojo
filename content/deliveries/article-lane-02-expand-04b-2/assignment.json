@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.reffba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "pair": {
+      "id": "verb.reffba",
+      "intransitive": "伸びる",
+      "intransitiveReading": "のびる",
+      "transitive": "伸ばす",
+      "transitiveReading": "のばす",
+      "meaning": "辨析「伸びる／伸ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "pair": {
+      "id": "verb.refiaa",
+      "intransitive": "現れる",
+      "intransitiveReading": "あらわれる",
+      "transitive": "現す",
+      "transitiveReading": "あらわす",
+      "meaning": "辨析「現れる／現す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "pair": {
+      "id": "verb.refiaa",
+      "intransitive": "現れる",
+      "intransitiveReading": "あらわれる",
+      "transitive": "現す",
+      "transitiveReading": "あらわす",
+      "meaning": "辨析「現れる／現す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "pair": {
+      "id": "verb.refiaa",
+      "intransitive": "現れる",
+      "intransitiveReading": "あらわれる",
+      "transitive": "現す",
+      "transitiveReading": "あらわす",
+      "meaning": "辨析「現れる／現す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

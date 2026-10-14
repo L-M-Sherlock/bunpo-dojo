@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.board.07",
+      "hash": "d940fc0e0c10c708c071a25ae42c6efaa8b462e70f22ab2846be892e7ed05625",
+      "fullSentences": ["来館者は展望台行きのエレベーターに乗ります。"],
+      "status": "approved",
+      "reason": "访客乘开往观景层的电梯，エレベーターに乗ります自然，地点与乘坐对象明确。",
+      "answerSet": "仅ni正确；wo不能表示乗る所乘坐的电梯。",
+      "readings": "来館者らいかんしゃ、展望台てんぼうだい、行きいき、乗りますのります对应；目的地后接行き可读いき，此处读法可保留。片假名エレベーター及句号一致，を候选若记发音お仍写を。",
+      "translation": "“访客乘上前往观景层的电梯”准确对应全文，未加入按楼层等背景动作。",
+      "options": "ni的correct与乗る乘坐对象相符；wo在该搭乘义下不能直接标车辆，ungrammatical解释成立。"
+    },
+    {
+      "id": "particle.board.08",
+      "hash": "7e9bdb9fefb27d09b6bd6b35ad7a55b81d569f07ed7150eba7ff82f5be4521f5",
+      "fullSentences": ["観光客は山麓でロープウェイに乗ります。"],
+      "status": "approved",
+      "reason": "游客在山脚搭缆车，山麓で是登乘地点，ロープウェイに是交通工具对象，整句自然。",
+      "answerSet": "仅ni正确；wo不能直接表示此处乗る所乘坐的缆车。",
+      "readings": "観光客かんこうきゃく、山麓さんろく、ロープウェイ、乗りますのります准确；片假名和句号对应，を候选可注发音お但书写应为を。",
+      "translation": "“游客在山脚乘坐缆车”对应完整句，红叶与索道站排队仅在场景中。",
+      "options": "ni的correct及answerIds准确；wo的ungrammatical限定在乗る的乘坐对象上，未否认它在降りる中可用。"
+    },
+    {
+      "id": "particle.board.09",
+      "hash": "4de62d0d337f597b45fdbdfa1d93f056c72cf4a72fff77c88439fa1345cda7f1",
+      "fullSentences": ["出張者は東京駅で新大阪行きの新幹線に乗ります。"],
+      "status": "approved",
+      "reason": "出差者在东京站搭开往新大阪的新干线，修饰语与登乘动作搭配自然，に标搭乘对象。",
+      "answerSet": "仅ni正确；wo不能在这里给乗る标新干线为乘坐对象。",
+      "readings": "出張者しゅっちょうしゃ、東京駅とうきょうえき、新大阪行きしんおおさかいき、新幹線しんかんせん、乗りますのります对应正确；标点一致。",
+      "translation": "“出差者在东京站乘坐开往新大阪的新干线”保留地点、目的方向和交通工具，未增添检票动作。",
+      "options": "ni的correct准确；wo的ungrammatical解释限于乗る搭乘义，符合此句。"
+    },
+    {
+      "id": "particle.board.10",
+      "hash": "fc25c83fac37ddddee9f06126badb7f2b180ed584f6c1bbc47bfa2950ae40392",
+      "fullSentences": ["会社員は乗換駅で地下鉄に乗ります。"],
+      "status": "approved",
+      "reason": "上班族在换乘站搭地铁，乗換駅で与地下鉄に的地点及车辆角色清楚，完整句自然。",
+      "answerSet": "仅ni正确；wo不能在本句表示搭乘地铁。",
+      "readings": "会社員かいしゃいん、乗換駅のりかええき、地下鉄ちかてつ、乗りますのります准确；句号对应，を候选可注发音お但不作新答案。",
+      "translation": "“上班族在换乘站乘坐地铁”准确译出句子，继续去办公室只属背景。",
+      "options": "ni标correct及answerIds一致；wo在乗る搭乘对象前不成立，ungrammatical解释正确。"
+    },
+    {
+      "id": "particle.leave.01",
+      "hash": "0a6ed9ed07237797d2b2c0f3ee205fea6777d434c2d7a30e2b1a24921ea8ed87",
+      "fullSentences": ["乗客は市立美術館前で路線バスを降ります。", "乗客は市立美術館前で路線バスから降ります。"],
+      "status": "approved",
+      "reason": "乘客在美术馆前从公交车下来，路線バスを降ります和路線バスから降ります都自然，公交车是离开来源。",
+      "answerSet": "wo、kara均正确，分别标离开的交通工具与来源；ni会把巴士当作搭乘目标，不能表示下车。",
+      "readings": "乗客じょうきゃく、市立美術館前しりつびじゅつかんまえ、路線バスろせんバス、降りますおります正确；片假名及句号对应，独立を候选可注发音お但仍写を。",
+      "translation": "“乘客在市立美术馆前下公交车”准确对应两句；展览目的仅在场景。",
+      "options": "wo、kara均标correct且列入answerIds，集合完整；ni不能标离开公交车，其ungrammatical说明以バスに乗る作对比准确。"
+    }
+  ]
+}

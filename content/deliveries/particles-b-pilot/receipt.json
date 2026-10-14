@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/pilot.draft.json",
+  "at": "2026-10-13T11:15:46.624Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "particle.path.01",
+      "hash": "5d196312d542ba085ff1e5d9c244ff5ba9247ebc4861cf956c89918526c90d2b",
+      "fullSentences": [
+        "夜間工事で地上の入口が閉まり、駅員は地下通路を通って客を南口まで案内した。"
+      ]
+    },
+    {
+      "id": "particle.path.02",
+      "hash": "edcd86934eeab173ee0b68e6c28dc57e780d1c0a7e086696cd15e54d0e5f9811",
+      "fullSentences": [
+        "技師は工具を抱え、本土から沖の島まで海を渡った。"
+      ]
+    },
+    {
+      "id": "particle.path.03",
+      "hash": "45b89ae3655343562062e00f6e0d337437b5ded633100593d3a5e4deff39ed95",
+      "fullSentences": [
+        "中央階段が使えない避難訓練で、生徒は東棟から西棟まで渡り廊下を歩いた。"
+      ]
+    }
+  ]
+}

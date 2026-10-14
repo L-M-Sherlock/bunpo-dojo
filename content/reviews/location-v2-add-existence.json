@@ -1,0 +1,135 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "particle.existence.11",
+      "hash": "c99c578542fb27c2874a51ae75f77798793dc8725f8c6671bd445db16c21c181",
+      "fullSentences": [
+        "母のバッグの中に財布があります。"
+      ],
+      "status": "approved",
+      "reason": "出门前确认母亲包内钱包，句子以バッグの中指物品所在，情境具体；和旧题抽屉找钥匙的容器、人物及用途不同。",
+      "answerSet": "母のバッグの中に財布があります是本场景唯一自然完整句；で不能给あります标钱包所在。",
+      "readings": "母＝はは、バッグ保留片假名、中＝なか、財布＝さいふ；に／で与句号对应。",
+      "translation": "「母亲的手提包里有钱包」结合场景把バッグ译为手提包，钱包与包内位置均准确，没有加确认动作。",
+      "options": "ni correct 标钱包所在；de ungrammatical 对此静态存在句成立，包内没有作为谓语陈述的动作。提示准确聚焦所在与活动。"
+    },
+    {
+      "id": "particle.existence.12",
+      "hash": "37a10a222b400792fe0cdb6519b500b825897b920fd2a294090d90311ed5198b",
+      "fullSentences": [
+        "猫は食卓の下にいます。"
+      ],
+      "status": "approved",
+      "reason": "雷响后猫在餐桌下的发现情境自然，与旧题人物或鱼的容器位置不同；います只陈述猫的所在，未擅写躲藏动作。",
+      "answerSet": "猫は食卓の下にいます唯一表达所在；で不能在此给います标存在位置。",
+      "readings": "猫＝ねこ、食卓＝しょくたく、下＝した；に／で与句号对应。",
+      "translation": "「猫在餐桌下」准确，未把场景中的雷声或躲藏写入译文。",
+      "options": "ni correct 标猫所在；de ungrammatical 对当前只有います的句子成立。提示能区分猫的位置与其动作。"
+    },
+    {
+      "id": "particle.existence.13",
+      "hash": "85bd8a399ba46bac6ffd62621e744f5201a6a52b30979dc6940efbc454c0524d",
+      "fullSentences": [
+        "図書館のカウンターに司書がいます。"
+      ],
+      "status": "approved",
+      "reason": "学生还书时确认服务台是否有司书，カウンターに司書がいます自然；与旧题店长在休息室的角色和场景不同。",
+      "answerSet": "図書館のカウンターに司書がいます唯一陈述人在服务台；で不标います的所在。",
+      "readings": "図書館＝としょかん、カウンター保留片假名、司書＝ししょ；に／で与句号对应。",
+      "translation": "译文准确说图书馆服务台有图书管理员，未增写还书或工作动作。",
+      "options": "ni correct 标司书所在；de ungrammatical 对当前存在句成立，若说司书在柜台工作才用で。提示没有泄露选项文字。"
+    },
+    {
+      "id": "particle.existence.14",
+      "hash": "784eb249c8e4f5acd59c5c8f9bb5937baaf4452fa57cb593dfd2989b4c37674b",
+      "fullSentences": [
+        "玄関の傘立てに傘があります。"
+      ],
+      "status": "approved",
+      "reason": "雨停后看玄关伞架，傘立てに傘があります自然；场景中的一把和仍在均未强加到日语句或译文。",
+      "answerSet": "玄関の傘立てに傘があります唯一符合物品所在；で不能给あります标该位置。",
+      "readings": "玄関＝げんかん、傘立て＝かさたて、傘＝かさ；に／で与句号对应。",
+      "translation": "「玄关的伞架里有伞」对应完整句，未擅加数量或「还」。",
+      "options": "ni correct 标伞所在；de ungrammatical 对此存在句成立。提示把所在与收伞动作区分清楚。"
+    },
+    {
+      "id": "particle.existence.15",
+      "hash": "77997e83a34eabc69097dec80aa056ad32c58ff8ca06fc643999226c814c19e6",
+      "fullSentences": [
+        "充電器はソファの横にあります。"
+      ],
+      "status": "approved",
+      "reason": "手机没电时向朋友指出充电器位置，ソファの横にあります自然；与旧题容器、建筑位置题有明显情境差别。",
+      "answerSet": "充電器はソファの横にあります唯一陈述物品位置；で不能接此处的あります表示所在。",
+      "readings": "充電器＝じゅうでんき、ソファ保留片假名、横＝よこ；に／で与句号对应。",
+      "translation": "「充电器在沙发旁边」完整且未添加手机没电。",
+      "options": "ni correct 标充电器所在；de ungrammatical 对当前静态句成立。提示聚焦位置与活动场所。"
+    },
+    {
+      "id": "particle.existence.16",
+      "hash": "17906037f7435a0ea65d1b365a29303f4d913e13ec80cee33b60c77726555b42",
+      "fullSentences": [
+        "窓辺に観葉植物があります。"
+      ],
+      "status": "revise",
+      "reason": "窓辺に観葉植物があります是自然的窗边存在句，に唯一正确；但译文「一盆」从场景带入数量和盆栽形式，日语未明确这些信息。",
+      "answerSet": "窓辺に観葉植物があります唯一表达观叶植物所在；で不能给あります标存在位置。",
+      "readings": "窓辺＝まどべ、観葉植物＝かんようしょくぶつ；に／で与句号对应。",
+      "translation": "应将「窗边有一盆绿植」改为「窗边有观叶植物」或等效不限定数量的译法；日语没有一盆的量词。",
+      "options": "ni correct、de ungrammatical 均合理；de 适用于窗边摆放等动作的发生处，非当前存在谓语。提示准确。"
+    },
+    {
+      "id": "particle.existence.17",
+      "hash": "96216fe5dce33df2a41d9c28405b4ed7b0ff81fdb04901282c07ab97f00bbd68",
+      "fullSentences": [
+        "友達は駅の改札前にいます。"
+      ],
+      "status": "approved",
+      "reason": "约定时间到时指出先到朋友在检票口前，改札前にいます自然；人物关系和地点不同于旧题诊察室的医生。",
+      "answerSet": "友達は駅の改札前にいます唯一标朋友所在；で不能在这里接います作存在地点。",
+      "readings": "友達＝ともだち、駅＝えき、改札前＝かいさつまえ；に／で与句号对应。",
+      "translation": "「朋友在车站检票口前」准确；先到与等候是场景背景，没有擅加。",
+      "options": "ni correct 标朋友所在；de ungrammatical 对当前存在句成立。提示区分所在与等待活动。"
+    },
+    {
+      "id": "particle.existence.18",
+      "hash": "23421c75cbb637ae7d0aad05d0231f5621b46abf34bb7db8ed34cff3b9feb79d",
+      "fullSentences": [
+        "玄関先に宅配便の箱があります。"
+      ],
+      "status": "revise",
+      "reason": "玄関先に宅配便の箱があります自然，に唯一正确；但译文「一个」明确数量，而日语箱没有数量表达，场景也没有数量限定。",
+      "answerSet": "玄関先に宅配便の箱があります唯一表示快递箱在玄关前；で不能给あります标其所在。",
+      "readings": "玄関先＝げんかんさき、宅配便＝たくはいびん、箱＝はこ；に／で与句号对应。",
+      "translation": "建议把「玄关前有一个快递箱」改为「玄关前有快递包裹箱」等不限定数量的译法；不要从无数标记名词确定恰好一个。",
+      "options": "ni correct、de ungrammatical 对本句成立；投递动作可用で标地点，但句内没有投递谓语，提示对应此区别。"
+    },
+    {
+      "id": "particle.existence.19",
+      "hash": "906ec53a10d6f959b1a73724d3d74c9f1eeb54566bece237c9f3164840e06a8f",
+      "fullSentences": [
+        "郵便受けに手紙が一通あります。"
+      ],
+      "status": "approved",
+      "reason": "取信时发现邮箱内一封信，郵便受けに手紙が一通あります自然；一通计数明确，与旧题纸地图在架上不同。",
+      "answerSet": "郵便受けに手紙が一通あります唯一标信件所在；で不标あります的静态位置。",
+      "readings": "郵便受け＝ゆうびんうけ、手紙＝てがみ、一通＝いっつう；に／で与句号对应。",
+      "translation": "「邮箱里有一封信」准确保留一通的数量，没有添取信动作。",
+      "options": "ni correct 标信件所在；de ungrammatical 对当前存在句成立。提示准确区分信的位置与取信地点。"
+    },
+    {
+      "id": "particle.existence.20",
+      "hash": "eeda3791f9afd0f62d8b4872b29d5c4dd16d5c3345904bf8aead2d3a6877504a",
+      "fullSentences": [
+        "赤ちゃんはベビーカーの中にいます。"
+      ],
+      "status": "approved",
+      "reason": "父亲推婴儿车到阴凉处后确认宝宝仍在车内，ベビーカーの中にいます自然；句子只报告宝宝所在，场景不同于旧题人或动物在房间。",
+      "answerSet": "赤ちゃんはベビーカーの中にいます唯一表达宝宝在车内；で不能给います标存在地点。",
+      "readings": "赤ちゃん＝あかちゃん、ベビーカー保留片假名、中＝なか；に／で与句号对应。",
+      "translation": "「宝宝在婴儿车里」准确，没有把树荫、推车动作或「还」擅加进去。",
+      "options": "ni correct 标宝宝所在；de ungrammatical 对当前只有います的句子成立。提示聚焦所在与推车动作地点。"
+    }
+  ]
+}

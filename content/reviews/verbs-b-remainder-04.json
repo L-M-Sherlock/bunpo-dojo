@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.move.02", "hash": "b5a1bcbae93a9dbb16c0b2cf320e3c4a657dbbb32213aa278fc065a4d0fad681", "fullSentences": ["美術館の職員がガラスケースを入口の近くに動かしました。"], "status": "approved",
+      "reason": "美术馆工作人员将展柜移至入口附近，施事、被移动物与目标地点明确，動かす符合 transitive 分配。",
+      "answerSet": "a 唯一符合「ガラスケースを」直接对象的答案；b 動く不能将它接作直接宾语。",
+      "readings": "美術館＝びじゅつかん、職員＝しょくいん、入口＝いりぐち、近く＝ちかく；ガラスケース保留片假名，動かしました＝うごかしました、動きました＝うごきました。",
+      "translation": "译文准确保留美术馆工作人员、玻璃展柜与入口附近，未擅加调整动线这一背景。",
+      "options": "a correct 准确；b ungrammatical 对当前固定句段成立，展柜自身移动须写「ガラスケースが動きました」。"
+    },
+    {
+      "id": "verb.move.03", "hash": "8f527a6f20865eaba9b83faecfaf691c3b46e71c9786e1d7b477e039aa718947", "fullSentences": ["強風で駐車場の案内板が動きました。"], "status": "approved",
+      "reason": "强风造成停车场指示牌位移，案内板が为移动主体，動く符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表达指示牌本身移动；b 会把指示牌解释为移动另一对象的施事。",
+      "readings": "強風＝きょうふう、駐車場＝ちゅうしゃじょう、案内板＝あんないばん；動きました＝うごきました、動かしました＝うごかしました。",
+      "translation": "「强风吹动了停车场的指示牌」是对强風で…が動きました的自然中文因果转述，没有添加偏离原位的具体距离。",
+      "options": "a correct 准确；b meaning-mismatch 准确，動かす省略宾语的读法仍不能表达指示牌自身移动。"
+    },
+    {
+      "id": "verb.move.04", "hash": "35a3e65c8be92493e61a195a7c1c545f4a6b913c37ef66a02e9b408e209d393b", "fullSentences": ["音響担当者がスピーカーを壁際に動かしました。"], "status": "approved",
+      "reason": "音响负责人把音箱挪到墙边，施事、对象和目标地点明确，動かす符合 transitive 分配；完整句自然。",
+      "answerSet": "a 唯一符合「スピーカーを」直接对象的答案；b 動く不能接此直接宾语。",
+      "readings": "音響担当者＝おんきょうたんとうしゃ、壁際＝かべぎわ；スピーカー保留片假名，動かしました＝うごかしました、動きました＝うごきました。",
+      "translation": "译文准确表达音响师将音箱移到墙边；没有把让出通道这一场景动机加入直译。",
+      "options": "a correct 准确；b ungrammatical 对此固定句段成立，物体自身移动应改「スピーカーが動きました」。"
+    },
+    {
+      "id": "verb.move.05", "hash": "def27e880c7e1edce503faa50bb1afd63f53b7417d5d2a19c0ad52baeca24920", "fullSentences": ["電池を入れると、止まっていた壁時計の針が動きました。"], "status": "approved",
+      "reason": "装入电池后原先停着的挂钟指针开始移动，針が是移动主体，動く符合 intransitive 分配；条件接过去事件自然。",
+      "answerSet": "a 唯一表达指针自身移动；b 会使指针成为移动另一对象的施事。",
+      "readings": "電池＝でんち、入れる＝いれる、止まっていた＝とまっていた、壁時計＝かべどけい、針＝はり；動きました＝うごきました、動かしました＝うごかしました。",
+      "translation": "译文准确保留装入电池、原先停摆的挂钟指针重新动起来，没有擅加人为拨针。",
+      "options": "a correct 准确；b meaning-mismatch 准确，動かす省略宾语时也不表示主语指针自行移动。"
+    },
+    {
+      "id": "verb.raise.01", "hash": "d7e7a72aeb833ac2b758fc3844518dfb1b4c9fa111ad026b4a0e4868e13c6960", "fullSentences": ["予熱中にオーブンの温度が設定値まで上がりました。"], "status": "approved",
+      "reason": "烤箱预热时温度升至设定值，温度が为升高主体，上がる符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表达温度自身升高；b 会把温度当作提高另一数值的施事。",
+      "readings": "予熱中＝よねつちゅう、温度＝おんど、設定値＝せっていち；オーブン保留片假名，上がりました＝あがりました、上げました＝あげました。",
+      "translation": "译文准确表达预热中烤箱温度升至设定值，未混入有人调高设定值的意思。",
+      "options": "a correct 准确；b meaning-mismatch 准确，上げる省略宾语也不能表达主语温度自身上升。"
+    }
+  ]
+}

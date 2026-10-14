@@ -1,0 +1,36 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/remainder-05.draft.json",
+  "at": "2026-10-13T12:00:53.327Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.raise.02",
+      "hash": "79035a9bbacac32ef26c934e0c0714c7a4537f7ceed3c01a2673aa515cc0eca8",
+      "fullSentences": [
+        "音響担当者がホールのスピーカーの音量を上げました。"
+      ]
+    },
+    {
+      "id": "verb.raise.03",
+      "hash": "078997d2aa4f158c135cd68e807b0e53a3628d7ae6bdf7cd31d1d4b2d20931e3",
+      "fullSentences": [
+        "誰もつまみに触れていないのに、古いラジオの音量が急に上がりました。"
+      ]
+    },
+    {
+      "id": "verb.raise.04",
+      "hash": "9014b8089d07af9376a2b7adfdb9e629b276abdee29e5a2006938cbb99859b30",
+      "fullSentences": [
+        "パン職人がオーブンの温度を上げました。"
+      ]
+    },
+    {
+      "id": "verb.raise.05",
+      "hash": "ccce1d26566b948a6100bfc2dcd8c74ddbc4a9d71eb809859f8e9eb3607b2fff",
+      "fullSentences": [
+        "雲が切れて日が差すと、温室の温度が上がりました。"
+      ]
+    }
+  ]
+}

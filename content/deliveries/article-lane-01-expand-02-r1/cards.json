@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refaama.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "disaster-cause-discussion-deepens",
+    "scene": "多日访谈结束后，委员会对灾害原因的讨论有所深化。",
+    "before": [
+      {
+        "text": "連日の聞き取り調査を経て、委員会では災害の原因をめぐる議論が",
+        "reading": "れんじつのききとりちょうさをへて、いいんかいではさいがいのげんいんをめぐるぎろんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深まった",
+        "reading": "ふかまった",
+        "verdict": "correct",
+        "explanation": "围绕灾害原因的讨论本身变得深入；「議論が」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "深めた",
+        "reading": "ふかめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「深める」会把议论理解为加深某个对象的施事；场景写的是讨论自身逐渐深入。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经过连续多日的访谈调查后，委员会围绕灾害原因的讨论加深了。",
+    "explanation": "经过多日访谈后，委员会围绕灾害原因的讨论有所深化。",
+    "hint": "判断发生变化的是讨论本身，还是讨论在主动加深别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaama.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "mountain-station-silence",
+    "scene": "末班列车离站后，山间车站的寂静愈发深沉。",
+    "before": [
+      {
+        "text": "最終列車が去ったあと、山あいの駅では静けさがいっそう",
+        "reading": "さいしゅうれっしゃがさったあと、やまあいのえきではしずけさがいっそう"
+      }
+    ],
+    "after": [
+      {
+        "text": "いった。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深まって",
+        "reading": "ふかまって",
+        "verdict": "correct",
+        "explanation": "列车离开后，车站里的寂静本身逐渐加深；「静けさが」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "深めて",
+        "reading": "ふかめて",
+        "verdict": "meaning-mismatch",
+        "explanation": "「深める」なら静けさが何かを深くする側になりますが、ここでは静けさそのものが増しています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "末班列车离开后，山间车站的寂静愈发深沉。",
+    "explanation": "句子描写末班列车驶离后，车站已有的寂静进一步加深，不是人主动加深某个对象。",
+    "hint": "观察列车离开后改变的是车站的寂静，还是有人采取了加深行动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "lexicalKey": "retired-ship-artificial-reef",
+    "scene": "为把退役船用作人工鱼礁，地方政府将其沉入近海海底。",
+    "before": [
+      {
+        "text": "人工魚礁にする計画で、自治体は役目を終えた船を沖の海底に",
+        "reading": "じんこうぎょしょうにするけいかくで、じちたいはやくめをおえたふねをおきのかいていに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沈めた",
+        "reading": "しずめた",
+        "verdict": "correct",
+        "explanation": "地方政府有意把退役船沉到海底；「船を」是被沉放的对象。"
+      },
+      {
+        "id": "b",
+        "text": "沈んだ",
+        "reading": "しずんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「沈む」描述船自身下沉，应以「船が」作主体；这里的「船を」是直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了把退役船用作人工鱼礁，地方政府把船沉入近海海底。",
+    "explanation": "这项计划由地方政府执行，退役船是被放入海底的对象。",
+    "hint": "判断退役船是自己沉没，还是有人有意将它沉放。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refboa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "lexicalKey": "theater-cast-gathers-backstage",
+    "scene": "临近开演时，剧团全体演员已在后台到齐。",
+    "before": [
+      {
+        "text": "開演直前、劇団の出演者が全員楽屋に",
+        "reading": "かいえんちょくぜん、げきだんのしゅつえんしゃがぜんいんがくやに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揃った",
+        "reading": "そろった",
+        "verdict": "correct",
+        "explanation": "所有演员都聚到后台；「出演者が全員」是集合到齐的一方。"
+      },
+      {
+        "id": "b",
+        "text": "揃えた",
+        "reading": "そろえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「揃える」会表示演员们整理或配齐某个对象；场景写的是演员们自己到齐。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "临近开演时，剧团全体演员都已在后台到齐。",
+    "explanation": "句子报告的是所有演员集合到后台的结果，不是演员整理其他物品。",
+    "hint": "判断句子里的演员是集合到齐的一方，还是把别的东西配齐的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

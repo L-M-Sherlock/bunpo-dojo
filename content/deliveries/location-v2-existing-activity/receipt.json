@@ -1,0 +1,78 @@
+{
+  "author": "/root",
+  "source": "work/content/location-20261013/existing-activity/change.draft.json",
+  "at": "2026-10-13T16:07:46.687Z",
+  "count": 10,
+  "cards": [
+    {
+      "id": "particle.activity.01",
+      "hash": "d6587b7228e2d76802a83d018346a0ec84b16c4ac029e178b1437937d037ade7",
+      "fullSentences": [
+        "図書館で新しい小説を読みます。"
+      ]
+    },
+    {
+      "id": "particle.activity.02",
+      "hash": "39774a33cd4d47017af9ebf285fd56739a53c41d0a9f648a0e93c86e6cba906c",
+      "fullSentences": [
+        "体育館でバドミントンのダブルスを練習します。"
+      ]
+    },
+    {
+      "id": "particle.activity.03",
+      "hash": "b44f693b6b15557b7dfc87a7e52759100f1e54960b9b41b1c69aad31e0e614ca",
+      "fullSentences": [
+        "工房で職人が木の椅子を修理しています。"
+      ]
+    },
+    {
+      "id": "particle.activity.04",
+      "hash": "c1872f2ba5d8400617e2f2cb514c854e91bebeadcb124668a7e03df2c6daeee8",
+      "fullSentences": [
+        "今週末は市民ホールで防災講演会があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.05",
+      "hash": "33c672fd180fdc5bbb6e91792c15f3edd466e1fd77c5870f68801c7b195721ff",
+      "fullSentences": [
+        "今度の日曜日は運動公園で少年野球の大会があります。"
+      ]
+    },
+    {
+      "id": "particle.activity.06",
+      "hash": "cd195244e6a285fd8904d8b86c86b3c51fceceaf60d7aa71c0f25835c3a7f494",
+      "fullSentences": [
+        "台所で祖母がサバを焼いています。"
+      ]
+    },
+    {
+      "id": "particle.activity.07",
+      "hash": "36ddc522bdde05e40bc64fef3e0c0450d8dc976e1f2d58ce3d68219d7d0a21b8",
+      "fullSentences": [
+        "見学者は植物園でランの写真を撮ります。"
+      ]
+    },
+    {
+      "id": "particle.activity.08",
+      "hash": "2a6618607922dbb51abba07fd136d883184de641e6453b398e2e8205f289367c",
+      "fullSentences": [
+        "記者は漁港の資料館で船長に話を聞きます。"
+      ]
+    },
+    {
+      "id": "particle.activity.09",
+      "hash": "78c4d0c0819dcd8cf8c145626d83185cc52334040d761339ab77a146f2ef0778",
+      "fullSentences": [
+        "生徒は調理室でうどんを打ちます。"
+      ]
+    },
+    {
+      "id": "particle.activity.10",
+      "hash": "ed17d6d9670754d5efe527b3f3899d00d9d2122cda54f4d0429f43680743947f",
+      "fullSentences": [
+        "吹奏楽部は音楽室で新曲を合奏します。"
+      ]
+    }
+  ]
+}

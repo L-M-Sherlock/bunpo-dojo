@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/remainder-02.draft.json",
+  "at": "2026-10-13T12:17:38.708Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.break.02",
+      "hash": "84d8b11feb70018df75be68d0eccf53baf851132aa2c59e038d6e8d53410b4b4",
+      "fullSentences": [
+        "引っ越し中、作業員が花瓶を壊しました。"
+      ]
+    },
+    {
+      "id": "verb.break.03",
+      "hash": "5eb901b77ff7ce8ede2edbce2f6485c833ba31b99e8880e588df3304e81f1bec",
+      "fullSentences": [
+        "地震の揺れで、古い食器棚が壊れました。"
+      ]
+    },
+    {
+      "id": "verb.break.04",
+      "hash": "d4742566975852ed622765fe73fb4208c30691f26228f93ac182025d9108fc32",
+      "fullSentences": [
+        "弟は床に落とした古いラジオを壊しました。"
+      ]
+    },
+    {
+      "id": "verb.break.05",
+      "hash": "ef2823cec04822134b85c23865d377e675eba155f87e2aa015d7e9685e77b22a",
+      "fullSentences": [
+        "窓辺に置き忘れたスマートフォンが雨に濡れて壊れました。"
+      ]
+    },
+    {
+      "id": "verb.fall.01",
+      "hash": "fdf5139094d38c983401eb1b93f361aa181c688f42bb1932ce7d87d1a9ecf506",
+      "fullSentences": [
+        "作業台が揺れて、端に置いたスパナが床に落ちました。"
+      ]
+    }
+  ]
+}

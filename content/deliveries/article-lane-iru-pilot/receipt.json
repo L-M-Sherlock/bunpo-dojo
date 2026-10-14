@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_iru",
+  "source": "work/content/article-pairs-20261014/lane-iru/pilot.draft.json",
+  "at": "2026-10-14T01:28:18.850Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.iru.01",
+      "hash": "07a3292ea5e3b9e4040ca14697648b79190fabdc5a67969bfa548ff17e555745",
+      "fullSentences": [
+        "美咲さんはこの紺色のコートが気に入った。"
+      ]
+    },
+    {
+      "id": "verb.iru.02",
+      "hash": "1ffb9b1fe161407915b38ac09c090f7876f154d1fe52d5e9c2c9e216bc9f7cb5",
+      "fullSentences": [
+        "出発前に、姉は水筒をリュックのサイドポケットに入れた。"
+      ]
+    },
+    {
+      "id": "verb.iru.03",
+      "hash": "14befcadea1acae38d7d81a7e057b04497745852ea826d234b9b0417f403e033",
+      "fullSentences": [
+        "大学帰りに古書店に立ち寄った姉は、店内の暗い照明が気に入らなかった。"
+      ]
+    }
+  ]
+}

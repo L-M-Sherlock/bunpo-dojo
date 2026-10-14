@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.stop.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "driver-stops-bus-for-child",
+    "scene": "孩子突然跑进路上，司机及时停住巴士。",
+    "before": [
+      {
+        "text": "通学路で子どもが飛び出し、運転士がバスを",
+        "reading": "つうがくろでこどもがとびだし、うんてんしがバスを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "correct",
+        "explanation": "司机主动让巴士停下，司机是施事，巴士是停止运行的对象。"
+      },
+      {
+        "id": "b",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "ungrammatical",
+        "explanation": "止まる表示巴士自身停下，不能在这里接「バスを」作直接宾语；若报告巴士停下，应写「バスが止まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子跑上路时，司机停下了巴士。",
+    "explanation": "句子写出司机采取了让巴士停止的动作。",
+    "hint": "分清巴士自行停下与司机让巴士停下。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.stop.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "conveyor-stops-after-alarm",
+    "scene": "设备异常警报响起，输送带停下，工人前往检查。",
+    "before": [
+      {
+        "text": "異常を知らせる警報が鳴り、ベルトコンベヤーが",
+        "reading": "いじょうをしらせるけいほうがなり、ベルトコンベヤーが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "correct",
+        "explanation": "输送带本身停止运行，止まる表达设备自行停下。"
+      },
+      {
+        "id": "b",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "止める表示施事使某个对象停止；若使用此项，输送带会成为停止别的设备或动作的一方，还需补出对象，而场景说的是输送带自身停机。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "异常警报响起后，输送带停了下来。",
+    "explanation": "报警后停止运行的是输送带本身，句中没有写出让它停下的人。",
+    "hint": "判断输送带是停下的设备，还是使别的东西停止的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.stop.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "manager-stops-water-pump",
+    "scene": "检修管线前，管理员停掉了大楼的供水泵。",
+    "before": [
+      {
+        "text": "配管の点検前に、管理人がビルの給水ポンプを",
+        "reading": "はいかんのてんけんまえに、かんりにんがビルのきゅうすいポンプを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "correct",
+        "explanation": "管理员主动关闭供水泵，管理员是施事，泵是被停止运行的设备。"
+      },
+      {
+        "id": "b",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "ungrammatical",
+        "explanation": "止まる表示泵自行停止，不能在此把「給水ポンプを」作为直接宾语；要说泵停下，需改成「給水ポンプが止まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "检修管线前，管理员停掉了大楼的供水泵。",
+    "explanation": "句子明确写出管理员使供水泵停止运行。",
+    "hint": "查看句中的管理员和供水泵分别承担什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.stop.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "car-queue-stops-before-tollgate",
+    "scene": "前方事故造成拥堵，车队停在收费站前。",
+    "before": [
+      {
+        "text": "事故渋滞で車列が料金所の手前で",
+        "reading": "じこじゅうたいでしゃれつがりょうきんじょのてまえで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "correct",
+        "explanation": "车队因事故拥堵停在收费站前，止まる描述车队自身停下来。"
+      },
+      {
+        "id": "b",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "止める表示施事使某个对象停下；若使用此项，车队会成为让别的对象停止的施事，而场景说的是车队自身停住。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "事故拥堵中，车队停在了收费站前。",
+    "explanation": "车队是停下来的对象，没有写出谁让它停下。",
+    "hint": "确认车队本身是停住的，还是让别的对象停住的。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.move.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "bookshelf-moves-in-earthquake",
+    "scene": "地震后，靠墙的书架从原位移开。",
+    "before": [
+      {
+        "text": "地震で本棚が",
+        "reading": "じしんでほんだなが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動きました",
+        "reading": "うごきました",
+        "verdict": "correct",
+        "explanation": "地震使书架的位置发生移动，動く描述书架自身移动。"
+      },
+      {
+        "id": "b",
+        "text": "動かしました",
+        "reading": "うごかしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "動かす表示施事移动某个对象；若使用此项，书架会成为移动别的东西的一方，而场景说的是书架本身从原位移开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "地震使书架移动了。",
+    "explanation": "句子报告书架自身移动的结果，没有写出人为移动书架的人。",
+    "hint": "分辨书架本身移动，还是某人移动书架。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

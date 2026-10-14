@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refria.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "pair": {
+      "id": "verb.refria",
+      "intransitive": "回る",
+      "intransitiveReading": "まわる",
+      "transitive": "回す",
+      "transitiveReading": "まわす",
+      "meaning": "辨析「回る／回す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "pair": {
+      "id": "verb.refsfa",
+      "intransitive": "退く",
+      "intransitiveReading": "どく",
+      "transitive": "退かす",
+      "transitiveReading": "どかす",
+      "meaning": "辨析「退く／退かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "pair": {
+      "id": "verb.refsfa",
+      "intransitive": "退く",
+      "intransitiveReading": "どく",
+      "transitive": "退かす",
+      "transitiveReading": "どかす",
+      "meaning": "辨析「退く／退かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "pair": {
+      "id": "verb.refsfa",
+      "intransitive": "退く",
+      "intransitiveReading": "どく",
+      "transitive": "退かす",
+      "transitiveReading": "どかす",
+      "meaning": "辨析「退く／退かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  }
+]

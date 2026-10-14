@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "lexicalKey": "overnight-clothes-in-small-bag",
+    "scene": "出差一晚，检查换洗衣物是否装得进小旅行包。",
+    "before": [
+      {
+        "text": "一泊分の着替えが、小さなボストンバッグ一つに全部",
+        "reading": "いっぱくぶんのきがえが、ちいさなボストンバッグひとつにぜんぶ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "収まった",
+        "reading": "おさまった",
+        "verdict": "correct",
+        "explanation": "换洗衣物本身进入包的容量范围，句中也把衣物标为「が」所示的主体。"
+      },
+      {
+        "id": "b",
+        "text": "収めた",
+        "reading": "おさめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "収める表示某个施事把东西放入或收进某处；这里的衣物是进入范围的一方，不是在收纳别的东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一晚份的换洗衣物全都装进了一个小旅行包。",
+    "explanation": "句子报告衣物已全部进入包的容量范围，重点是物件与容器的关系。",
+    "hint": "确认衣物是进入容量范围的一方，还是把别的东西放进范围的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

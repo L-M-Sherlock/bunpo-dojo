@@ -1,0 +1,234 @@
+[
+  {
+    "id": "mixed.04",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "unit": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.05",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "unit": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.06",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "unit": {
+      "id": "verb.fall",
+      "intransitive": "落ちる",
+      "intransitiveReading": "おちる",
+      "transitive": "落とす",
+      "transitiveReading": "おとす",
+      "meaning": "物品掉落",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.07",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "unit": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.08",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "unit": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.09",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "unit": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.10",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "unit": {
+      "id": "verb.end",
+      "intransitive": "終わる",
+      "intransitiveReading": "おわる",
+      "transitive": "終える",
+      "transitiveReading": "おえる",
+      "meaning": "结束活动",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.11",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "unit": {
+      "id": "verb.decide",
+      "intransitive": "決まる",
+      "intransitiveReading": "きまる",
+      "transitive": "決める",
+      "transitiveReading": "きめる",
+      "meaning": "决定安排",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.12",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "unit": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.13",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "unit": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.14",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "unit": {
+      "id": "verb.stop",
+      "intransitive": "止まる",
+      "intransitiveReading": "とまる",
+      "transitive": "止める",
+      "transitiveReading": "とめる",
+      "meaning": "停止运行或动作",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.15",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "unit": {
+      "id": "verb.move",
+      "intransitive": "動く",
+      "intransitiveReading": "うごく",
+      "transitive": "動かす",
+      "transitiveReading": "うごかす",
+      "meaning": "移动物体",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.16",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

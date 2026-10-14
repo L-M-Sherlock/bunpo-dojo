@@ -1,0 +1,623 @@
+[
+  {
+    "id": "particle.path.04",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "商店街を通り抜ける",
+    "scene": "地图标出雨天从车站西口穿过商店街到东口的路线。",
+    "before": [
+      {
+        "text": "駅の西口から東口へは、雨の日でも商店街",
+        "reading": "えきのにしぐちからひがしぐちへは、あめのひでもしょうてんがい"
+      }
+    ],
+    "after": [
+      {
+        "text": "通り抜けるのが近道だ。",
+        "reading": "とおりぬけるのがちかみちだ。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "商店街是从西口穿行到东口所经过的空间，用「を」标出路线。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示活动发生地点；这里要说明从西口穿到东口经过商店街的路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从车站西口到东口，即使下雨，穿过商店街也是近路。",
+    "explanation": "「通り抜ける」明确表示穿行，商店街是从西口到东口所经过的路线。",
+    "hint": "判断商店街是穿行路线，还是活动发生的地点。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.05",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "小さな川を渡る",
+    "scene": "暴雨增强前，配送员要穿过小河把药送到对岸诊疗所。",
+    "before": [
+      {
+        "text": "雨が強まる前に薬を届けるため、配達員は小さな川",
+        "reading": "あめがつよまるまえにくすりをとどけるため、はいたついんはちいさなかわ"
+      }
+    ],
+    "after": [
+      {
+        "text": "渡って対岸の診療所へ向かった。",
+        "reading": "わたってたいがんのしんりょうじょへむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "小河是配送员从此岸到彼岸横越的水域，用「を」表示渡过的路径。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」能标河边活动地点；此句要指出配送员渡过哪片水域，而不是在哪里做活动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了赶在雨势增强前送药，配送员穿过小河，前往对岸的诊疗所。",
+    "explanation": "小河是配送员从此岸到彼岸横越的水域，用「を」标出。",
+    "hint": "句子强调渡河的路线，还是某项活动发生的地点？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.06",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "北側の登山道を登り切る",
+    "scene": "日出前，两名登山者沿北侧登山道登到山间小屋。",
+    "before": [
+      {
+        "text": "日の出前に、二人は北側の登山道",
+        "reading": "ひのでまえに、ふたりはきたがわのとざんどう"
+      }
+    ],
+    "after": [
+      {
+        "text": "登り切って山小屋に着いた。",
+        "reading": "のぼりきってやまごやについた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "登山道是两人登到山小屋所走的路线，用「を」标出。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可把登山道作为登山活动地点，但此句要说的是登到山小屋所走的路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "日出前，两名登山者爬完北侧登山道后到达山间小屋。",
+    "explanation": "登山道是到达山小屋时走过的上山路线，用「を」标路径。",
+    "hint": "把登山道理解为登山活动的地点，还是登到山小屋的路线？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.07",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "倉庫の間を進む",
+    "scene": "工人推着装零件的手推车，经仓库夹道送到检验栋。",
+    "before": [
+      {
+        "text": "作業員は部品を積んだ台車を押し、倉庫の間",
+        "reading": "さぎょういんはぶひんをつんだだいしゃをおし、そうこのあいだ"
+      }
+    ],
+    "after": [
+      {
+        "text": "進んで検査棟へ運んだ。",
+        "reading": "すすんでけんさとうへはこんだ。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "仓库之间的空隙是推车前往检验栋时经过的路线，用「を」标示。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「倉庫の間で」可表示移动发生的地点，但这里需要标出推车经过仓库间前往检验栋的路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工人推着装有零件的手推车，穿过仓库之间的通道送往检验栋。",
+    "explanation": "仓库之间的空隙是推车驶向检验栋时经过的空间，用「を」标路径。",
+    "hint": "判断仓库间是动作所在地点，还是推车驶向检验栋所经过的空间。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.08",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "海岸通りを走り抜ける",
+    "scene": "赛道沿海岸大道从市场前通向灯塔折返点。",
+    "before": [
+      {
+        "text": "市民マラソンでは、先頭の選手が市場前から海岸通り",
+        "reading": "しみんマラソンでは、せんとうのせんしゅがいちばまえからかいがんどおり"
+      }
+    ],
+    "after": [
+      {
+        "text": "走り抜け、灯台の折り返し地点へ向かった。",
+        "reading": "はしりぬけ、とうだいのおりかえしちてんへむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "海岸大道是市场前到折返点的比赛路段，选手沿该路段跑过，用「を」标路径。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「海岸通りで走る」可表示在海岸大道跑步，但这里问的是选手穿过的赛程路段。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市民马拉松中，领先的选手从市场前沿海岸大道跑过，前往灯塔处的折返点。",
+    "explanation": "海岸大道是赛程中跑者实际经过的路段，用「を」突出路线。",
+    "hint": "看海岸大道在赛程中是跑者经过的路段，还是只说明跑步活动发生在哪里。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.09",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "川沿いの遊歩道を歩く",
+    "scene": "导览图红线指示沿河步道通往旧港观景台。",
+    "before": [
+      {
+        "text": "観光案内板の赤い線に従い、参加者は川沿いの遊歩道",
+        "reading": "かんこうあんないばんのあかいせんにしたがい、さんかしゃはかわぞいのゆうほどう"
+      }
+    ],
+    "after": [
+      {
+        "text": "歩いて旧港の展望台へ向かった。",
+        "reading": "あるいてきゅうこうのてんぼうだいへむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "参加者沿红线指定的川边步道前往旧港，用「を」标出步行路线。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「遊歩道で歩く」可说步行活动发生在步道；本句要指出红线指定的经过路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "参加者按观光导览图上的红线，沿河边步道前往旧港观景台。",
+    "explanation": "红线标出的步道是前往旧港观景台的行走路线，用「を」标出。",
+    "hint": "这句话要表达的是沿哪条线走，还是只说在哪个地点步行？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.10",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "森を抜ける",
+    "scene": "雾起前，巡逻员穿过森林抵达山谷另一侧的小屋。",
+    "before": [
+      {
+        "text": "霧が出る前に、巡回員は森",
+        "reading": "きりがでるまえに、じゅんかいいんはもり"
+      }
+    ],
+    "after": [
+      {
+        "text": "抜け、谷の向こうの避難小屋に着いた。",
+        "reading": "ぬけ、たにのむこうのひなんごやについた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「抜ける」表示穿过森林到达另一侧，森林是实际经过的路径，用「を」标出。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示活动发生地点；此句说明的是巡逻员穿过森林到达另一侧的路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "起雾前，巡逻员穿过森林，抵达山谷另一侧的避难小屋。",
+    "explanation": "森林是巡逻员穿行到山谷另一侧时经过的空间，用「を」标路径。",
+    "hint": "这里的森林是行进经过的空间，还是巡逻活动发生的地点？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "新人のアルバイトに職員証を渡す",
+    "scene": "闭馆前，司书把员工证交给新来的兼职生。",
+    "before": [
+      {
+        "text": "閉館前、司書は新人のアルバイト",
+        "reading": "へいかんまえ、ししょはしんじんのアルバイト"
+      }
+    ],
+    "after": [
+      {
+        "text": "職員証を渡した。",
+        "reading": "しょくいんしょうをわたした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "兼职生是员工证的接收者，用「に」标出接收人。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把兼职生读作和司书一起递员工证的人，但场景中兼职生是收证者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭馆前，司书把员工证交给新来的兼职生。",
+    "explanation": "兼职生是员工证的接收者，用「に」标出接收人。",
+    "hint": "判断兼职生是收到图书卡的人，还是和司书一起递卡的人。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "各支所に地図を送る",
+    "scene": "总部把更新版地图寄给各支所，各支所是收件单位。",
+    "before": [
+      {
+        "text": "本部の担当者は、更新版の地図を各支所",
+        "reading": "ほんぶのたんとうしゃは、こうしんばんのちずをかくししょ"
+      }
+    ],
+    "after": [
+      {
+        "text": "送った。",
+        "reading": "おくった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标明各支所是地图的收件单位和寄送到达点。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "correct",
+        "explanation": "「へ」强调寄送方向；在本句中也能自然指向各支所，符合场景。"
+      },
+      {
+        "id": "c",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」会把各支所说成发送动作发生地点，但本题里地图从总部寄给各支所。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "总部负责人把更新版地图寄送给各分支机构。",
+    "explanation": "各支所是地图的发送目的地；「に」和「へ」都能自然表示这一寄送方向。",
+    "hint": "各支所在句中是地图的收件方，还是发送动作发生的地点？",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "新人に操作方法を教える",
+    "scene": "入职培训中，培训员教新员工业务终端的操作方法。",
+    "before": [
+      {
+        "text": "研修担当者は、新人",
+        "reading": "けんしゅうたんとうしゃは、しんじん"
+      }
+    ],
+    "after": [
+      {
+        "text": "業務用端末の操作方法を教えた。",
+        "reading": "ぎょうむようたんまつのそうさほうほうをおしえた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "操作方法是教的内容，新员工是接收这项知识的人，用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "换成「を」会得到两个「を」宾语的句子；这里应把新员工标为操作方法的接收者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "培训负责人把业务终端的操作方法教给了新员工。",
+    "explanation": "操作方法是教的内容，新员工是接收这项知识的人，用「に」标示。",
+    "hint": "区分「教什么」和「教给谁」这两个句子成分。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "担当職員に申請手順を相談する",
+    "scene": "新迁入居民向市政窗口工作人员咨询幼儿园手续。",
+    "before": [
+      {
+        "text": "転入者は市の窓口で、保育園の申請手順について担当職員",
+        "reading": "てんにゅうしゃはしのまどぐちで、ほいくえんのしんせいてじゅんについてたんとうしょくいん"
+      }
+    ],
+    "after": [
+      {
+        "text": "相談した。",
+        "reading": "そうだんした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」可把负责人员标为请教对象，居民向其咨询手续。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "correct",
+        "explanation": "「と」把负责人员标为共同商量手续的对话伙伴，本场景也成立。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "新迁入居民在市政窗口就幼儿园申请手续向负责人员咨询。",
+    "explanation": "该咨询既可用「に」把工作人员表为请教对象，也可用「と」表为商量伙伴。",
+    "hint": "工作人员是居民请教的对象；也想想句子是否能把他表为共同商量的对话伙伴。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "館長に修復写真を見せる",
+    "scene": "策展员把修复前后的照片展示给馆长确认。",
+    "before": [
+      {
+        "text": "学芸員は館長",
+        "reading": "がくげいいんはかんちょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "修復前後の写真を見せた。",
+        "reading": "しゅうふくぜんごのしゃしんをみせた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "馆长是接收照片展示的观看者，用「に」标出对象。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把馆长读作共同展示照片的人，但场景中馆长是观看者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "策展员把修复前后的照片给馆长看了。",
+    "explanation": "馆长是照片的展示对象，用「に」标出观看者。",
+    "hint": "判断馆长是在接收展示，还是和策展员一起向别人展示照片。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "当直医に急変を伝える",
+    "scene": "夜班护士把患者呼吸突然恶化的情况报告给值班医生。",
+    "before": [
+      {
+        "text": "夜勤の看護師は、患者の呼吸状態が急に悪化したことを当直医",
+        "reading": "やきんのかんごしは、かんじゃのこきゅうじょうたいがきゅうにあっかしたことをとうちょくい"
+      }
+    ],
+    "after": [
+      {
+        "text": "伝えた。",
+        "reading": "つたえた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "值班医生接收这条病情信息，用「に」标出报告对象。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把护士和医生读作共同向第三者传达信息的人，但场景里医生是报告接收者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜班护士把患者呼吸状态突然恶化的情况报告给值班医生。",
+    "explanation": "值班医生接收这条病情信息，用「に」标出报告对象。",
+    "hint": "看医生是护士共同传达信息的伙伴，还是接收病情报告的人。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

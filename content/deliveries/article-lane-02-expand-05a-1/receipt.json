@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_5a1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-05a-1.draft.json",
+  "at": "2026-10-14T02:23:07.044Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refiaa.04",
+      "hash": "5b57e614b14f7a5b90a0aa8ae0f61cc2d6f3e890df2b30b7be6d4a18f21903d8",
+      "fullSentences": [
+        "共同作業の失敗で責任を問われた彼は、隠していたわがままな本性を現した。"
+      ]
+    },
+    {
+      "id": "verb.refiha.01",
+      "hash": "68457bbf3a2a12a1bb57bdde648b37f78679f03970ef823c88833a9570efdca5",
+      "fullSentences": [
+        "山の斜面から、雪解け水が谷底の小川へ流れている。"
+      ]
+    },
+    {
+      "id": "verb.refiha.02",
+      "hash": "ccc895527bf6646a170abce2d7fb57574c00edee5de0a443b518d46c78bd1820",
+      "fullSentences": [
+        "卒業式で恩師の最後の挨拶を聞いた卒業生は、静かに涙を流した。"
+      ]
+    },
+    {
+      "id": "verb.refiha.03",
+      "hash": "0a8bb9974c68e46b4db205372d4055bdcaeff559574b81a50b7c6a417d30b976",
+      "fullSentences": [
+        "開演前の小劇場では、弦楽四重奏の録音が静かに流れていた。"
+      ]
+    }
+  ]
+}

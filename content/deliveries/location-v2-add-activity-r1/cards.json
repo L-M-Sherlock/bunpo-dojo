@@ -1,0 +1,98 @@
+[
+  {
+    "id": "particle.activity.14",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "wash-empty-fish-boxes-at-fishery-wharf",
+    "scene": "渔获卸下后，渔协职员在作业场清洗空鱼箱。",
+    "before": [
+      {
+        "text": "漁協の職員は港の荷さばき場",
+        "reading": "ぎょきょうのしょくいんはみなとのにさばきじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "空の魚箱を洗います。",
+        "reading": "からのぎょばこをあらいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明职员清洗鱼箱这一作业进行的场所。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "港口作业场是清洗动作发生的地点；に在此不能表达这一活动场所。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "渔业合作社的职员在港口卸货场清洗空鱼箱。",
+    "explanation": "清洗作业在港口卸货场进行，地点用で标记。",
+    "hint": "判断卸货场是清洗活动发生的地方，还是静态存在地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.activity.18",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "outdoor-film-night-at-riverside-square",
+    "scene": "社区海报写明，今晚的露天电影会在河畔广场举行。",
+    "before": [
+      {
+        "text": "今夜、川沿いの広場",
+        "reading": "こんや、かわぞいのひろば"
+      }
+    ],
+    "after": [
+      {
+        "text": "野外映画会があります。",
+        "reading": "やがいえいがかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で表示露天电影会这一活动举行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "に可表示某活动在某地存在；海报这里要说明电影会举行的场所，用で标活动发生地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "今晚，河畔广场有露天电影会。",
+    "explanation": "野外电影会是将在广场举行的活动，地点用で表示。",
+    "hint": "留意海报报告的是活动在哪里举行，而不是单说某地有什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

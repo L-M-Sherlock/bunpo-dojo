@@ -1,0 +1,57 @@
+[
+  {
+    "id": "mixed.28",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "botanical-garden-destination",
+    "scene": "导览员在资料馆给参观者发地图，游客下午去隔壁植物园。",
+    "before": [
+      {
+        "text": "案内係は資料館で見学者に地図を配り、団体客は午後、隣の植物園",
+        "reading": "あんないがかりはしりょうかんでけんがくしゃにちずをくばり、だんたいきゃくはごご、となりのしょくぶつえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标明团体游客到达的植物园，符合前往隔壁植物园的场景。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "correct",
+        "explanation": "「へ」标示朝植物园前进的方向；「行く」在这里也可用「へ」，与「に」都符合场景。"
+      },
+      {
+        "id": "c",
+        "text": "を",
+        "reading": "を",
+        "verdict": "meaning-mismatch",
+        "explanation": "「植物園を行く」可把园区读作行进途中经过的路线；场景说团体游客前往并抵达植物园，不是穿过园区。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "导览员在资料馆给参观者发地图，团体游客下午去了隔壁的植物园。",
+    "explanation": "导览员把地图发给参观者；团体游客移动的目的地是隔壁植物园，「に」和「へ」都能表达这一关系。",
+    "hint": "判断植物园是移动到达的目的地，还是途中经过的路线；目的地可有不同标记。",
+    "sourceIds": [
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

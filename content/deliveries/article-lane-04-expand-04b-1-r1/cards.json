@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refeea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "夜里，母亲用湿毛巾给发烧的儿子敷额头",
+    "before": [
+      {
+        "text": "夜、母親は熱のある息子の額を濡れたタオルで",
+        "reading": "よる、ははおやはねつのあるむすこのひたいをぬれたタオルで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷やした",
+        "reading": "ひやした",
+        "verdict": "correct",
+        "explanation": "母亲用湿毛巾主动给额头降温；「額を」标出被冷却的部位。"
+      },
+      {
+        "id": "b",
+        "text": "冷えた",
+        "reading": "ひえた",
+        "verdict": "ungrammatical",
+        "explanation": "「冷える」表示某物自身变冷；此处「額を」是被作用的直接对象，不能接「冷えた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜里，母亲用湿毛巾给发烧的儿子额头降温。",
+    "explanation": "句子写明母亲用湿毛巾处理儿子的额头，额头是被降温的对象。",
+    "hint": "留意谁使用了工具，以及哪个部位承受了降温动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

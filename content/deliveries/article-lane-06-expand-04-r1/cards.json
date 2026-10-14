@@ -1,0 +1,141 @@
+[
+  {
+    "id": "verb.refddb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "lexicalKey": "friend-helps-intoxicated-man-sober-up",
+    "scene": "朋友让喝醉的人吹凉风，酒意随后消退。",
+    "before": [
+      {
+        "text": "友人は、酒に酔った彼を涼しい風に当てて、酔いを",
+        "reading": "ゆうじんは、さけによったかれをすずしいかぜにあてて、よいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "醒ました",
+        "reading": "さました",
+        "verdict": "correct",
+        "explanation": "朋友让喝醉的他吹凉风，使酒意消退；「酔いを」是被消除的状态。"
+      },
+      {
+        "id": "b",
+        "text": "醒めた",
+        "reading": "さめた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「酔いを」标出朋友使之消退的对象，不能接描述酒意自行消退的醒める；若酒意自行消退，应让「酔いが」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "朋友让喝醉的他吹凉风，使他的醉意消退了。",
+    "explanation": "朋友采取行动使他的酒意消退；「酔いを醒ます」是这一意义的常见搭配。",
+    "hint": "确认句中谁采取行动，以及被消除的是哪一种状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refega.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "lexicalKey": "coach-urges-team-to-burn-fighting-spirit",
+    "scene": "主教练在决赛前鼓励队员们把斗志燃到最后。",
+    "before": [
+      {
+        "text": "監督は、決勝戦を前に「最後まで闘志を",
+        "reading": "かんとくは、けっしょうせんをまえに「さいごまでとうしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "」と選手たちを鼓舞した。",
+        "reading": "」とせんしゅたちをこぶした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "燃やせ",
+        "reading": "もやせ",
+        "verdict": "correct",
+        "explanation": "教练鼓励队员们持续保持斗志；命令句中「闘志を」是要燃起的对象。"
+      },
+      {
+        "id": "b",
+        "text": "燃えろ",
+        "reading": "もえろ",
+        "verdict": "ungrammatical",
+        "explanation": "这里「闘志を」标记被激起的对象，不能接不及物命令形「燃えろ」；若陈述斗志自身燃起，可说「闘志が燃える」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "决赛前，主教练鼓励队员们“把斗志燃到最后”。",
+    "explanation": "这里使用「闘志を燃やす」的比喻义，表示激起并保持斗志。",
+    "hint": "关注引用句中斗志是被鼓励燃起的对象，还是它自身作主语。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "lexicalKey": "festival-jugglers-procession-passes-shrine-street",
+    "scene": "秋祭队伍缓缓经过神社前。",
+    "before": [
+      {
+        "text": "秋祭りの行列は、神社の前をゆっくり",
+        "reading": "あきまつりのぎょうれつは、じんじゃのまえをゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "過ぎていった",
+        "reading": "すぎていった",
+        "verdict": "correct",
+        "explanation": "秋祭り的队伍缓缓经过神社前；「神社の前を」标出经过的地点。"
+      },
+      {
+        "id": "b",
+        "text": "過ごしていった",
+        "reading": "すごしていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "過ごす表示主体经历一段时间；本句写队伍经过神社前，不是在神社前度过时间。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "秋祭队伍缓缓经过神社前。",
+    "explanation": "「神社の前を過ぎる」表示队伍经过神社前；此处的「を」标出经过地点。",
+    "hint": "注意「神社の前を」表示经过的地点，而不是用来说明停留期间。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

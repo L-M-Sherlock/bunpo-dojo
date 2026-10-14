@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-05.draft.json",
+  "at": "2026-10-13T12:39:56.480Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.means.07",
+      "hash": "0e1f62f0a93075477250dc3cef00982ecce558b880301a37d10365c5cb292451",
+      "fullSentences": [
+        "登山者は地図で山小屋までの道を確かめた。"
+      ]
+    },
+    {
+      "id": "particle.means.08",
+      "hash": "f09c6ffe8254d5aebaf4784b6dbf5a7633fa7d3d3146fd6aedbd8ef3ba4c71e3",
+      "fullSentences": [
+        "離島の住民は、定期船で本土の診療所に向かった。"
+      ]
+    },
+    {
+      "id": "particle.means.09",
+      "hash": "aa39346b4200cdebd8d695690d0158c3dc19590f8198ee5f82f22ca9cbcff952",
+      "fullSentences": [
+        "警備員は無線機で本部に土砂崩れの状況を報告した。"
+      ]
+    },
+    {
+      "id": "particle.means.10",
+      "hash": "2c41f5181aa42dda8e1e218192e00e9f555616d25729099aa66471a3168b2d95",
+      "fullSentences": [
+        "救援隊はヘリコプターで山奥の集落に向かった。"
+      ]
+    },
+    {
+      "id": "particle.purpose.01",
+      "hash": "8dbc5957d92d9c57dce64dba897e0c0fc785c6382c4d5d0e8d5dee3039b5d699",
+      "fullSentences": [
+        "姉は図書館へ本を返しに行った。"
+      ]
+    }
+  ]
+}

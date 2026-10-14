@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.enter.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.enter.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.enter.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.enter.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "pair": {
+      "id": "verb.enter",
+      "intransitive": "入る",
+      "intransitiveReading": "はいる",
+      "transitive": "入れる",
+      "transitiveReading": "いれる",
+      "meaning": "进入或放入",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.exit.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "pair": {
+      "id": "verb.exit",
+      "intransitive": "出る",
+      "intransitiveReading": "でる",
+      "transitive": "出す",
+      "transitiveReading": "だす",
+      "meaning": "出来或取出",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-05-r1.draft.json",
+  "at": "2026-10-13T12:48:10.473Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.board.07",
+      "hash": "d940fc0e0c10c708c071a25ae42c6efaa8b462e70f22ab2846be892e7ed05625",
+      "fullSentences": [
+        "来館者は展望台行きのエレベーターに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.08",
+      "hash": "7e9bdb9fefb27d09b6bd6b35ad7a55b81d569f07ed7150eba7ff82f5be4521f5",
+      "fullSentences": [
+        "観光客は山麓でロープウェイに乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.09",
+      "hash": "4de62d0d337f597b45fdbdfa1d93f056c72cf4a72fff77c88439fa1345cda7f1",
+      "fullSentences": [
+        "出張者は東京駅で新大阪行きの新幹線に乗ります。"
+      ]
+    },
+    {
+      "id": "particle.board.10",
+      "hash": "fc25c83fac37ddddee9f06126badb7f2b180ed584f6c1bbc47bfa2950ae40392",
+      "fullSentences": [
+        "会社員は乗換駅で地下鉄に乗ります。"
+      ]
+    },
+    {
+      "id": "particle.leave.01",
+      "hash": "0a6ed9ed07237797d2b2c0f3ee205fea6777d434c2d7a30e2b1a24921ea8ed87",
+      "fullSentences": [
+        "乗客は市立美術館前で路線バスを降ります。",
+        "乗客は市立美術館前で路線バスから降ります。"
+      ]
+    }
+  ]
+}

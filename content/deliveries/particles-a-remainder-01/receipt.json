@@ -1,0 +1,44 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-01.draft.json",
+  "at": "2026-10-13T11:53:02.913Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.activity.07",
+      "hash": "a79e0b24e78b5ebee88eb0af5d26702e483aef738a75a201bbaf56640cb1d467",
+      "fullSentences": [
+        "見学者は植物園でランの写真を撮ります。"
+      ]
+    },
+    {
+      "id": "particle.activity.08",
+      "hash": "057f732e20ad9d515e7154e2c1e027510f0ecd5b05babcbdd5be02ac3772ef81",
+      "fullSentences": [
+        "記者は漁港の資料館で船長に話を聞きます。"
+      ]
+    },
+    {
+      "id": "particle.activity.09",
+      "hash": "53c58275574d141530ec9576a567f5c48f1598d7d63592cc4bb1c893c9927cd8",
+      "fullSentences": [
+        "生徒は調理室でうどんを打ちます。"
+      ]
+    },
+    {
+      "id": "particle.activity.10",
+      "hash": "769c76d2cee5dcdf2bb1e3f5ba7055a087772754a1a0cc5ca07f2fb6a7bf458a",
+      "fullSentences": [
+        "吹奏楽部は音楽室で新曲を合奏します。"
+      ]
+    },
+    {
+      "id": "particle.destination.01",
+      "hash": "bdf86cec08a4af543b473f581fa78307cf54443dfca78238c8d4f5b4488a812c",
+      "fullSentences": [
+        "来週、姉は箱根に行きます。",
+        "来週、姉は箱根へ行きます。"
+      ]
+    }
+  ]
+}

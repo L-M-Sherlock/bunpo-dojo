@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refsia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsia",
+    "familyId": "verb.refsia",
+    "lexicalKey": "coach-scolds-rookie-into-tears-after-defeat",
+    "scene": "败战后，教练因新人的失误严厉训斥他，惹得他哭了。",
+    "before": [
+      {
+        "text": "敗戦後、監督はミスをした新人選手を控室に呼び、厳しく叱って",
+        "reading": "はいせんご、かんとくはミスをしたしんじんせんしゅをひかえしつによび、きびしくしかって"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "泣かした",
+        "reading": "なかした",
+        "verdict": "correct",
+        "explanation": "教练严厉训斥失误的新人选手，使他哭了；「新人選手を」是哭泣动作所指向的对象。"
+      },
+      {
+        "id": "b",
+        "text": "泣いた",
+        "reading": "ないた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「泣く」描述主体自己哭；在本句中会变成教练自己哭，而不是新人选手被训斥后哭泣。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "败战后，教练把失误的新人选手叫到休息室，严厉训斥得他哭了。",
+    "explanation": "教练的训斥使新人选手哭泣，「新人選手を」标出受影响的人。",
+    "hint": "看清被叫去训斥的是谁，以及谁使他哭泣。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "lexicalKey": "old-ticket-is-caught-between-novel-pages",
+    "scene": "翻看旧小说寻找书签时，发现旧车票卡在书页间。",
+    "before": [
+      {
+        "text": "栞を探して古い小説をめくると、昔の切符がページの間に",
+        "reading": "しおりをさがしてふるいしょうせつをめくると、むかしのきっぷがページのあいだに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "挟まっていた",
+        "reading": "はさまっていた",
+        "verdict": "correct",
+        "explanation": "旧车票自身卡在两页之间；「切符が」标记了处于夹缝中的主体。"
+      },
+      {
+        "id": "b",
+        "text": "挟んでいた",
+        "reading": "はさんでいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「挟む」表示主体把某物夹在中间；这里的车票是被夹住的一方，并没有夹住其他东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "翻找书签、翻看旧小说时，发现一张旧车票夹在书页之间。",
+    "explanation": "句子描述车票处于书页间的夹缝中，而不是车票把别的东西夹住。",
+    "hint": "留意谁是夹在中间、受两侧物体限制的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "lexicalKey": "person-pinches-index-finger-in-sliding-cabinet-door",
+    "scene": "关储物柜滑门时，不慎把食指夹进门缝。",
+    "before": [
+      {
+        "text": "収納棚の引き戸を閉めた拍子に、私は人差し指を戸の隙間に",
+        "reading": "しゅうのうだなのひきどをしめたひょうしに、わたしはひとさしゆびをとのすきまに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "挟んでしまった",
+        "reading": "はさんでしまった",
+        "verdict": "correct",
+        "explanation": "「私」が食指を戸の隙間に夹住；「人差し指を」是施事处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "挟まってしまった",
+        "reading": "はさまってしまった",
+        "verdict": "ungrammatical",
+        "explanation": "「挟まる」描述主体被夹住，不能接这里表示直接对象的「人差し指を」；要说食指被夹，应为「人差し指が戸の隙間に挟まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "关储物柜的滑门时，我不慎把食指夹进了门缝。",
+    "explanation": "句中「私」主动关门并夹住食指，「人差し指を」标明受作用的对象。",
+    "hint": "关注谁把什么夹进门缝，以及对应的助词。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "lexicalKey": "spinach-fiber-is-stuck-between-back-teeth",
+    "scene": "午饭后发现菠菜纤维卡在后槽牙之间。",
+    "before": [
+      {
+        "text": "昼食後、奥歯にほうれん草の繊維が",
+        "reading": "ちゅうしょくご、おくばにほうれんそうのせんいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "ことに気づいた。",
+        "reading": "ことにきづいた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "挟まっている",
+        "reading": "はさまっている",
+        "verdict": "correct",
+        "explanation": "菠菜纤维自己卡在后槽牙之间；「繊維が」是处于夹缝中的主体。"
+      },
+      {
+        "id": "b",
+        "text": "挟んでいる",
+        "reading": "はさんでいる",
+        "verdict": "meaning-mismatch",
+        "explanation": "「挟む」表示主体主动夹住别的东西；此处纤维是卡住的对象，不是夹东西的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "午饭后，我发现菠菜纤维卡在后槽牙之间。",
+    "explanation": "菠菜纤维处于牙齿之间的夹缝中，句子描述的是它被卡住的状态。",
+    "hint": "留意纤维是卡在牙齿间，还是主动把别的东西夹在中间。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

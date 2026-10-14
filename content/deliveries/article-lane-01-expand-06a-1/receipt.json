@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_6a1",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-06a-1.draft.json",
+  "at": "2026-10-14T02:08:27.331Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refrea.04",
+      "hash": "e9f8a71e7164b24382f6fdc7a86a96f1eb6efb279bfbe263372f8be89c02c793",
+      "fullSentences": [
+        "設備点検のため、技術者は新しい信号線を天井裏の配管に通した。"
+      ]
+    },
+    {
+      "id": "verb.refsca.01",
+      "hash": "337354cad06aa66d532b360bdbe0ce4fa40faaf8a37c6b1294df68435e27557f",
+      "fullSentences": [
+        "昨夜洗ったバスタオルが、浴室の窓辺に干されているうちに乾いた。"
+      ]
+    },
+    {
+      "id": "verb.refsca.02",
+      "hash": "c8652169f9a00ec6d2c93f33ccc6358301d6e257660b82d7ec174f5e31c7be42",
+      "fullSentences": [
+        "出勤前、私はドライヤーで髪を乾かした。"
+      ]
+    },
+    {
+      "id": "verb.refsca.03",
+      "hash": "f285150779dfe1cab10aed4546fb18f67e7c0c375a3b20d4a84f42ba28561e9f",
+      "fullSentences": [
+        "書道教室では、先生が書き上げた半紙の墨が乾くまで、作品を重ねずに並べておく。"
+      ]
+    }
+  ]
+}

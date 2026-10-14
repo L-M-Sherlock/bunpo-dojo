@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.iru.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.iru",
+    "familyId": "verb.iru",
+    "lexicalKey": "入る（いる）・入れる（いれる）",
+    "scene": "试穿后，美咲觉得这件藏青色大衣很合心意。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "入る",
+      "reading": "いる"
+    },
+    "before": [
+      {
+        "text": "美咲さんはこの紺色のコートが気に入った。",
+        "reading": "みさきさんはこのこんいろのコートがきにいった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「気に入る」是现代常用惯用表达；美咲是体验者，合心意的大衣以「が」标出，句中没有把大衣放入某处的动作。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "本句说美咲喜欢这件大衣，不是把大衣移到某个范围内；「気に入る」中的「入る」读「いる」，不同于「入れる」的放入义。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "美咲喜欢这件藏青色大衣。",
+    "explanation": "「気に入る」表示某物合乎某人的喜好；本句的体验者是美咲，合心意的是「コート」，动词方向为自动词。",
+    "hint": "看谁产生了好感，以及哪一项以「が」标出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.iru.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.iru",
+    "familyId": "verb.iru",
+    "lexicalKey": "入る（いる）・入れる（いれる）",
+    "scene": "徒步出发前，姐姐正在整理水壶和背包侧袋。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "入れる",
+      "reading": "いれる"
+    },
+    "before": [
+      {
+        "text": "出発前に、姉は水筒をリュックのサイドポケットに入れた。",
+        "reading": "しゅっぱつまえに、あねはすいとうをリュックのサイドポケットにいれた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句中姐姐主动把水壶移到背包侧袋；「水筒を」标出被移动的物品，「サイドポケットに」标出放置处，符合他动词的对象关系。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「入れる」表示施事把物品放进某个范围；姐姐是动作执行者，水壶是「を」标记的对象，侧袋是目的位置。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "出发前，姐姐把水壶放进了背包侧袋。",
+    "explanation": "句子明确写出姐姐将水壶放进侧袋的动作；「水筒を」是动作对象，因此这里的「入れる」是他动词。",
+    "hint": "留意被移动的物品、放置位置和执行动作的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.iru.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.iru",
+    "familyId": "verb.iru",
+    "lexicalKey": "入る（いる）・入れる（いれる）",
+    "scene": "姐姐从大学回家途中顺路去了旧书店，不喜欢店内昏暗的灯光。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "入る",
+      "reading": "いる"
+    },
+    "before": [
+      {
+        "text": "大学帰りに古書店に立ち寄った姉は、店内の暗い照明が気に入らなかった。",
+        "reading": "だいがくがえりにこしょてんにたちよったあねは、てんないのくらいしょうめいがきにいらなかった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「気に入らない」是「気に入る」的否定形式；姐姐是体验者，昏暗的灯光是令她不满意的事物，句中没有放入动作。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "否定的是姐姐对灯光的喜好，不是把灯光移入某处；固定表达「気に入る」中的「入る」读「いる」，不表示普通进入。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "姐姐从大学回家途中顺路去了旧书店，不喜欢店内昏暗的灯光。",
+    "explanation": "本句用惯用表达「気に入る」说明姐姐不喜欢灯光；姐姐是体验者，灯光是令她不满意的事物，动词方向仍为自动词。",
+    "hint": "判断句中是在评价某物是否合意，还是在叙述把物品移入某处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

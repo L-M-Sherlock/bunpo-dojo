@@ -1,0 +1,48 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-02-r1.draft.json",
+  "at": "2026-10-13T12:17:39.786Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.destination.02",
+      "hash": "8d08727d87aaaf4acfb26684314ebecd13f0a1b507cb7e6be852d37543f16e19",
+      "fullSentences": [
+        "年末、単身赴任中の父は自宅へ帰ります。",
+        "年末、単身赴任中の父は自宅に帰ります。"
+      ]
+    },
+    {
+      "id": "particle.destination.03",
+      "hash": "106febab6a49301c0b6a276bd305783c3219db1999d16f11080758a464027d33",
+      "fullSentences": [
+        "私は入口で待っています。画家が画廊に来ます。",
+        "私は入口で待っています。画家が画廊へ来ます。"
+      ]
+    },
+    {
+      "id": "particle.destination.04",
+      "hash": "b917db512dc9bb85cb87e713ca4f1dc96f8f8243685f7cc7a8688c054c852464",
+      "fullSentences": [
+        "母は来週、眼科へ行きます。",
+        "母は来週、眼科に行きます。"
+      ]
+    },
+    {
+      "id": "particle.destination.05",
+      "hash": "babe5f28c0a9b07e9e81a2dfed5b5a8fd24795e27f31823945f47cb3f9220360",
+      "fullSentences": [
+        "返却期限の日、高校生は市立図書館に行きます。",
+        "返却期限の日、高校生は市立図書館へ行きます。"
+      ]
+    },
+    {
+      "id": "particle.destination.06",
+      "hash": "4b69a92736f87ffb77c8c3e6cdcc6a6a47232eeb3f7729f2453eb169f3ba6245",
+      "fullSentences": [
+        "試験が終わると、寮生は学生寮へ帰ります。",
+        "試験が終わると、寮生は学生寮に帰ります。"
+      ]
+    }
+  ]
+}

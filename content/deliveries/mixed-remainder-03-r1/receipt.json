@@ -1,0 +1,16 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/remainder-03-r1.draft.json",
+  "at": "2026-10-13T13:17:06.895Z",
+  "count": 1,
+  "cards": [
+    {
+      "id": "mixed.28",
+      "hash": "c26db11e74f021070152703b5a7f56e755e95745bd07e3439e09611ca439c141",
+      "fullSentences": [
+        "案内係は資料館で見学者に地図を配り、団体客は午後、隣の植物園に行った。",
+        "案内係は資料館で見学者に地図を配り、団体客は午後、隣の植物園へ行った。"
+      ]
+    }
+  ]
+}

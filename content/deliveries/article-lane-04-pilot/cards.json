@@ -1,0 +1,140 @@
+[
+  {
+    "id": "verb.refafa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "lexicalKey": "埋まる/埋める",
+    "scene": "台风雨后，后院挖出的坑积满了泥水",
+    "before": [
+      {
+        "text": "台風の雨で、裏庭に掘ってあった穴が泥水で",
+        "reading": "たいふうのあめで、うらにわにほってあったあながどろみずで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "埋まった",
+        "reading": "うまった",
+        "verdict": "correct",
+        "explanation": "穴本身因雨水而变满，句子写的是它发生的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "埋めた",
+        "reading": "うめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「埋めた」会让穴成为填东西的施事；这里穴是被泥水填满的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "台风雨水使后院挖好的坑积满了泥水。",
+    "explanation": "穴本身因泥水而被填满，重点是状态发生变化。",
+    "hint": "先判断句子是在描写坑的变化，还是有人主动处理坑。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refafa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "lexicalKey": "埋まる/埋める",
+    "scene": "地震后，社区居民带沙袋来到路面坑洞旁",
+    "before": [
+      {
+        "text": "町内会の人たちは、地震でできた道路の穴を土のうで",
+        "reading": "ちょうないかいのひとたちは、じしんでできたどうろのあなをどのうで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "埋めた",
+        "reading": "うめた",
+        "verdict": "correct",
+        "explanation": "社区居民是动手的人，穴を是他们用沙袋处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "埋まった",
+        "reading": "うまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「穴を」标明坑是处理对象；表示坑自身被填满的「埋まった」不能接这里的对象を。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "社区协会的人们用沙袋填上了地震造成的路坑。",
+    "explanation": "句子明确写出施工者和被处理的坑，动作由施工者施加到对象上。",
+    "hint": "找出谁在动手，以及句中哪个对象承受了处理。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refafa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "lexicalKey": "埋まる/埋める",
+    "scene": "毕业典礼散场后，车站前咖啡馆的空位陆续坐满",
+    "before": [
+      {
+        "text": "卒業式帰りの客が押し寄せ、駅前の喫茶店の空席が次々に",
+        "reading": "そつぎょうしきがえりのきゃくがおしよせ、えきまえのきっさてんのくうせきがつぎつぎに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "埋まった",
+        "reading": "うまった",
+        "verdict": "correct",
+        "explanation": "客人涌入后，空席一个接一个变成有人坐的状态。"
+      },
+      {
+        "id": "b",
+        "text": "埋めた",
+        "reading": "うめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「埋めた」会把空席说成填充者；本句中的空席是被客人占满的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "毕业典礼散场的客人涌来，车站前咖啡馆的空座位陆续坐满了客人。",
+    "explanation": "主句以空席为变化主体，描写它们逐渐被客人占满。",
+    "hint": "留意主句中的空位和前一小句涌入的客人分别处于什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

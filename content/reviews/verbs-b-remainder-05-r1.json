@@ -1,0 +1,16 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.raise.04",
+      "hash": "748b2b8812fc177d72f483c19252347cf877811babba952cd2e0ba8d2bea33ab",
+      "fullSentences": ["パン職人がオーブンの温度を上げました。"],
+      "status": "approved",
+      "reason": "面包师调高烤箱温度，パン職人が为施事、温度を为对象，上げる符合 transitive 分配；完整句自然。",
+      "answerSet": "a「上げました」唯一正确；b「上がりました」不能将「温度を」接作直接宾语。",
+      "readings": "修订后「パン職人」的 reading 为「パンしょくにん」，正确保留片假名；オーブン亦保留片假名，温度＝おんど、上げました＝あげました、上がりました＝あがりました。",
+      "translation": "译文准确表达面包师调高烤箱温度，没有把面团醒发完成这一场景背景擅加进去。",
+      "options": "a correct 准确；b ungrammatical 对当前「温度を」句架成立，若描述温度自身升高需改「温度が上がりました」。"
+    }
+  ]
+}

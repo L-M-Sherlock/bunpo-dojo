@@ -1,0 +1,135 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "particle.existence.01",
+      "hash": "09e465d89cc45b290504c769688a8186bc921867575f4209c2ce3ecd92de0719",
+      "fullSentences": [
+        "冷蔵庫に卵が二個あります。"
+      ],
+      "status": "approved",
+      "reason": "冷藏柜里有两个鸡蛋，是静态存在句；晚饭前清点只作场景背景，提示虽提移动方向但不误导当前に／で判断。",
+      "answerSet": "「冷蔵庫に卵が二個あります」唯一符合所在关系；で不能在此给あります标存在地点。",
+      "readings": "冷蔵庫＝れいぞうこ、卵＝たまご、二個＝にこ；に／で及句号书写、读音对应。",
+      "translation": "冰箱里有两个鸡蛋准确对应整句，没有擅加清点动作。",
+      "options": "ni correct：标鸡蛋所在。de ungrammatical：在此不能表示鸡蛋存在的地点；若说在冰箱处进行某动作才考虑で。"
+    },
+    {
+      "id": "particle.existence.02",
+      "hash": "9d89633a0b0dd62b4ce5c7790f7abb2aa5fb543c456f198b35ca313b67145ff7",
+      "fullSentences": [
+        "水槽に金魚が三匹います。"
+      ],
+      "status": "approved",
+      "reason": "鱼缸里有三条金鱼，います陈述活物所在；换水前数鱼是背景，句子和提示自然。",
+      "answerSet": "「水槽に金魚が三匹います」唯一符合场景；で不能给います标金鱼所在。",
+      "readings": "水槽＝すいそう、金魚＝きんぎょ、三匹＝さんびき；に／で及句号对应。",
+      "translation": "鱼缸里有三条金鱼忠实于完整句，没有把换水动作加入译文。",
+      "options": "ni correct：表示金鱼所在水槽。de ungrammatical：这里没有在水槽里进行的动作。"
+    },
+    {
+      "id": "particle.existence.03",
+      "hash": "c97a77bc5173d00db75043f254f94f93a9a1f02710e4939a9411350b8a97f618",
+      "fullSentences": [
+        "休憩室に店長がいます。"
+      ],
+      "status": "approved",
+      "reason": "店长在休息室的断定句自然，休憩室是人物所在，提示区分所在与活动。",
+      "answerSet": "「休憩室に店長がいます」唯一适合告诉新人店长所在；で不表示此处的存在地点。",
+      "readings": "休憩室＝きゅうけいしつ、店長＝てんちょう；に／で及句号对应。",
+      "translation": "店长在休息室准确译出句子；「现在」是场景语境，不必擅加到译文。",
+      "options": "ni correct：标店长所在。de ungrammatical：休息室并非当前句中的动作发生地。"
+    },
+    {
+      "id": "particle.existence.04",
+      "hash": "7ca1ee6119909152bebff956d806aceefe6ef6af6a29dc729284272002f5942b",
+      "fullSentences": [
+        "机の引き出しに予備の鍵があります。"
+      ],
+      "status": "approved",
+      "reason": "桌子抽屉里有备用钥匙，あります陈述钥匙位置；场景、整句和提示一致。",
+      "answerSet": "「机の引き出しに予備の鍵があります」唯一表示钥匙所在；で不适合此存在句。",
+      "readings": "机＝つくえ、引き出し＝ひきだし、予備＝よび、鍵＝かぎ；に／で及句号对应。",
+      "translation": "桌子抽屉里有备用钥匙准确，没有加入开会或寻找动作。",
+      "options": "ni correct：标钥匙所在。de ungrammatical：不能把抽屉当成此句中不存在的动作发生地。"
+    },
+    {
+      "id": "particle.existence.05",
+      "hash": "347d3b61b8910a8cf4827dc3ebd1a868f8422fac34d23b423315a7ea9316c2ea",
+      "fullSentences": [
+        "地下駐車場に車が二台あります。"
+      ],
+      "status": "approved",
+      "reason": "地下停车场里有两辆车是自然的存在句，车用あります、地点用に，巡检仅作背景。",
+      "answerSet": "「地下駐車場に車が二台あります」唯一符合车的所在；で不能给あります标该位置。",
+      "readings": "地下駐車場＝ちかちゅうしゃじょう、車＝くるま、二台＝にだい；に／で及句号对应。",
+      "translation": "地下停车场里有两辆车完整译出数量和地点，未擅加保安巡检。",
+      "options": "ni correct：标车辆所在。de ungrammatical：可标巡检地点，但句内谓语是あります而非巡检。"
+    },
+    {
+      "id": "particle.existence.06",
+      "hash": "4cdddf1f6bcb92eda30ca293cb8b5ff74aaff5a34e415b732837fdd74410d4b3",
+      "fullSentences": [
+        "飼育ケースにカブトムシが一匹います。"
+      ],
+      "status": "approved",
+      "reason": "饲育箱里有一只独角仙，います和一匹搭配自然，地点用に；喂食前是背景。",
+      "answerSet": "「飼育ケースにカブトムシが一匹います」唯一符合所在；で不能给います标独角仙的存在位置。",
+      "readings": "飼育＝しいく、ケース与カブトムシ保留片假名、一匹＝いっぴき；に／で及句号对应。",
+      "translation": "饲育箱里有一只独角仙准确，未添喂食动作。",
+      "options": "ni correct：标独角仙所在。de ungrammatical：观察或喂食可用で标场所，当前句没有这些动作。"
+    },
+    {
+      "id": "particle.existence.07",
+      "hash": "5d9ab6ee4f18561d2bd674ea37e2e0174fb2f6d373b88140e791724181643f17",
+      "fullSentences": [
+        "診察室に担当医がいます。"
+      ],
+      "status": "approved",
+      "reason": "主治医生在诊察室的断定句自然，診察室标人所在；提示区分所在与问诊动作。",
+      "answerSet": "「診察室に担当医がいます」唯一陈述医生所在；で不能标此处的存在地点。",
+      "readings": "診察室＝しんさつしつ、担当医＝たんとうい；に／で及句号对应。",
+      "translation": "主治医生在诊察室准确，患者问护士是句外背景。",
+      "options": "ni correct：标医生所在。de ungrammatical：可用于问诊等动作的场所，但此句只说います。"
+    },
+    {
+      "id": "particle.existence.08",
+      "hash": "eec3341a67c56850ea5c8323e1742b5b9162a4b676042abdbd1d7179c01bb278",
+      "fullSentences": [
+        "駅前に交番があります。"
+      ],
+      "status": "approved",
+      "reason": "车站前有交番是自然的建筑物存在句，駅前用に标位置；问路背景与提示吻合。",
+      "answerSet": "「駅前に交番があります」唯一表达派出所所在；で不能在此给あります标位置。",
+      "readings": "駅前＝えきまえ、交番＝こうばん；に／で及句号对应。",
+      "translation": "车站前有派出所准确，未擅加游客与路人。",
+      "options": "ni correct：标建筑所在。de ungrammatical：车站前并非此句所述活动地点。"
+    },
+    {
+      "id": "particle.existence.09",
+      "hash": "9a296d18967aeb15a3503ffb0ea9bb0f5db9b440f35be627c40f4a5ad4e63e55",
+      "fullSentences": [
+        "棚に紙の地図があります。"
+      ],
+      "status": "approved",
+      "reason": "架子上有纸质地图，棚に与あります自然地说明物品位置；停电找图只是背景。",
+      "answerSet": "「棚に紙の地図があります」唯一陈述地图所在；で不能给あります标此位置。",
+      "readings": "棚＝たな、紙＝かみ、地図＝ちず；に／で及句号对应。",
+      "translation": "架子上有纸质地图准确译出材质和地点，未加停电。",
+      "options": "ni correct：标地图所在。de ungrammatical：这里没有在架子处进行的动作。"
+    },
+    {
+      "id": "particle.existence.10",
+      "hash": "aacae6ef43538ed589ea1526dd6dbc66b679583dc70cd348daf6f6143bb6be33",
+      "fullSentences": [
+        "公園の北側に小さな池があります。"
+      ],
+      "status": "approved",
+      "reason": "公园北侧有一个小池塘，北側に与あります自然地标出位置，场景和提示相合。",
+      "answerSet": "「公園の北側に小さな池があります」唯一表达池塘所在；で不能给あります标此位置。",
+      "readings": "公園＝こうえん、北側＝きたがわ、小さな＝ちいさな、池＝いけ；に／で及句号对应。",
+      "translation": "公园北侧有一个小池塘准确译出位置、大小和存在事实。",
+      "options": "ni correct：标池塘所在。de ungrammatical：公园北侧在此不是某一动作或事件的发生地。"
+    }
+  ]
+}

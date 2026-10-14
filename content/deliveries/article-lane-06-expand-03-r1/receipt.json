@@ -1,0 +1,50 @@
+{
+  "author": "/root/article_author_06",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-03-r1.draft.json",
+  "at": "2026-10-14T01:28:18.776Z",
+  "count": 6,
+  "cards": [
+    {
+      "id": "verb.refcba.02",
+      "hash": "870bedf982ba6a768ebfd30fd03487d9a50b81c2c6ca50d68a017cf394dd7125",
+      "fullSentences": [
+        "展示係は、厚い段ボールをカッターで切って、展示用の窓を作った。"
+      ]
+    },
+    {
+      "id": "verb.refcba.04",
+      "hash": "b0c6b97f67d177ed9ca6f559340dd970c93ea1ea05b0da5c95d2c7560b3fd21b",
+      "fullSentences": [
+        "パン職人は、焼きたてのバゲットを客の人数分に切って、朝食に出した。"
+      ]
+    },
+    {
+      "id": "verb.refcga.02",
+      "hash": "a1e41379084d5d349a79f84762c74aca09d2c924a94ec15c67eaeade44c5284d",
+      "fullSentences": [
+        "修理担当者は、錆びついたネジを専用工具で抜いたので、棚板を新しいものに替えた。"
+      ]
+    },
+    {
+      "id": "verb.refcga.03",
+      "hash": "3b0e0e5559e89e1a033a1b19e3791685af210d3ce2034865bc201e3e20eeac07",
+      "fullSentences": [
+        "古い窓枠の隙間から、暖房で暖まった空気が夜のうちに抜けてしまった。"
+      ]
+    },
+    {
+      "id": "verb.refcga.04",
+      "hash": "7d4dda507fd324678c9eb0f1235acc970658e3541f1403c200f390044ba7f8b4",
+      "fullSentences": [
+        "自転車の選手は、最後の坂で前を走る二人の選手を抜いたので、三位に入った。"
+      ]
+    },
+    {
+      "id": "verb.refcma.04",
+      "hash": "a3ccaf0e31a2ed4005bd3f6c350910b046fccf7c0bf63e87e287c2511913f570",
+      "fullSentences": [
+        "試合後半、ホームチームは新しい作戦で相手の守備を破ったので、逆転の機会を作った。"
+      ]
+    }
+  ]
+}

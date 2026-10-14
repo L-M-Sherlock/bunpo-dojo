@@ -1,0 +1,16 @@
+[
+  {
+    "id": "particle.activity.05",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "unit": {
+      "id": "particle.activity",
+      "courseId": "location",
+      "title": "活动地点的で",
+      "objective": "在哪里做事；含一两条活动事件があります的对照",
+      "count": 10
+    }
+  }
+]

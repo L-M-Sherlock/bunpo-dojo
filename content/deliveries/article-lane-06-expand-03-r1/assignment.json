@@ -1,0 +1,116 @@
+[
+  {
+    "id": "verb.refcba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "pair": {
+      "id": "verb.refcba",
+      "intransitive": "切れる",
+      "intransitiveReading": "きれる",
+      "transitive": "切る",
+      "transitiveReading": "きる",
+      "meaning": "辨析「切れる／切る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "pair": {
+      "id": "verb.refcba",
+      "intransitive": "切れる",
+      "intransitiveReading": "きれる",
+      "transitive": "切る",
+      "transitiveReading": "きる",
+      "meaning": "辨析「切れる／切る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "pair": {
+      "id": "verb.refcga",
+      "intransitive": "抜ける",
+      "intransitiveReading": "ぬける",
+      "transitive": "抜く",
+      "transitiveReading": "ぬく",
+      "meaning": "辨析「抜ける／抜く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "pair": {
+      "id": "verb.refcga",
+      "intransitive": "抜ける",
+      "intransitiveReading": "ぬける",
+      "transitive": "抜く",
+      "transitiveReading": "ぬく",
+      "meaning": "辨析「抜ける／抜く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "pair": {
+      "id": "verb.refcga",
+      "intransitive": "抜ける",
+      "intransitiveReading": "ぬける",
+      "transitive": "抜く",
+      "transitiveReading": "ぬく",
+      "meaning": "辨析「抜ける／抜く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "pair": {
+      "id": "verb.refcma",
+      "intransitive": "破れる",
+      "intransitiveReading": "やぶれる",
+      "transitive": "破る",
+      "transitiveReading": "やぶる",
+      "meaning": "辨析「破れる／破る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 13
+    },
+    "direction": "transitive"
+  }
+]

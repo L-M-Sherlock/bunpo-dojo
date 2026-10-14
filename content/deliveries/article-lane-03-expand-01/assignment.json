@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "pair": {
+      "id": "verb.refaea",
+      "intransitive": "受かる",
+      "intransitiveReading": "うかる",
+      "transitive": "受ける",
+      "transitiveReading": "うける",
+      "meaning": "辨析「受かる／受ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refala.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refala",
+    "familyId": "verb.refala",
+    "pair": {
+      "id": "verb.refala",
+      "intransitive": "固まる",
+      "intransitiveReading": "かたまる",
+      "transitive": "固める",
+      "transitiveReading": "かためる",
+      "meaning": "辨析「固まる／固める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refala.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refala",
+    "familyId": "verb.refala",
+    "pair": {
+      "id": "verb.refala",
+      "intransitive": "固まる",
+      "intransitiveReading": "かたまる",
+      "transitive": "固める",
+      "transitiveReading": "かためる",
+      "meaning": "辨析「固まる／固める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 12
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refala.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refala",
+    "familyId": "verb.refala",
+    "pair": {
+      "id": "verb.refala",
+      "intransitive": "固まる",
+      "intransitiveReading": "かたまる",
+      "transitive": "固める",
+      "transitiveReading": "かためる",
+      "meaning": "辨析「固まる／固める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refala.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refala",
+    "familyId": "verb.refala",
+    "pair": {
+      "id": "verb.refala",
+      "intransitive": "固まる",
+      "intransitiveReading": "かたまる",
+      "transitive": "固める",
+      "transitiveReading": "かためる",
+      "meaning": "辨析「固まる／固める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 12
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaua.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaua",
+    "familyId": "verb.refaua",
+    "pair": {
+      "id": "verb.refaua",
+      "intransitive": "静まる",
+      "intransitiveReading": "しずまる",
+      "transitive": "静める",
+      "transitiveReading": "しずめる",
+      "meaning": "辨析「静まる／静める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 21
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaua.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaua",
+    "familyId": "verb.refaua",
+    "pair": {
+      "id": "verb.refaua",
+      "intransitive": "静まる",
+      "intransitiveReading": "しずまる",
+      "transitive": "静める",
+      "transitiveReading": "しずめる",
+      "meaning": "辨析「静まる／静める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 21
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaua.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaua",
+    "familyId": "verb.refaua",
+    "pair": {
+      "id": "verb.refaua",
+      "intransitive": "静まる",
+      "intransitiveReading": "しずまる",
+      "transitive": "静める",
+      "transitiveReading": "しずめる",
+      "meaning": "辨析「静まる／静める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 21
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaua.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaua",
+    "familyId": "verb.refaua",
+    "pair": {
+      "id": "verb.refaua",
+      "intransitive": "静まる",
+      "intransitiveReading": "しずまる",
+      "transitive": "静める",
+      "transitiveReading": "しずめる",
+      "meaning": "辨析「静まる／静める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 21
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaaa",
+    "familyId": "verb.refaaaa",
+    "pair": {
+      "id": "verb.refaaaa",
+      "intransitive": "高まる",
+      "intransitiveReading": "たかまる",
+      "transitive": "高める",
+      "transitiveReading": "たかめる",
+      "meaning": "辨析「高まる／高める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 27
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaaa",
+    "familyId": "verb.refaaaa",
+    "pair": {
+      "id": "verb.refaaaa",
+      "intransitive": "高まる",
+      "intransitiveReading": "たかまる",
+      "transitive": "高める",
+      "transitiveReading": "たかめる",
+      "meaning": "辨析「高まる／高める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 27
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaaa",
+    "familyId": "verb.refaaaa",
+    "pair": {
+      "id": "verb.refaaaa",
+      "intransitive": "高まる",
+      "intransitiveReading": "たかまる",
+      "transitive": "高める",
+      "transitiveReading": "たかめる",
+      "meaning": "辨析「高まる／高める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 27
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaaa",
+    "familyId": "verb.refaaaa",
+    "pair": {
+      "id": "verb.refaaaa",
+      "intransitive": "高まる",
+      "intransitiveReading": "たかまる",
+      "transitive": "高める",
+      "transitiveReading": "たかめる",
+      "meaning": "辨析「高まる／高める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 27
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaga",
+    "familyId": "verb.refaaga",
+    "pair": {
+      "id": "verb.refaaga",
+      "intransitive": "強まる",
+      "intransitiveReading": "つよまる",
+      "transitive": "強める",
+      "transitiveReading": "つよめる",
+      "meaning": "辨析「強まる／強める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 33
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaga",
+    "familyId": "verb.refaaga",
+    "pair": {
+      "id": "verb.refaaga",
+      "intransitive": "強まる",
+      "intransitiveReading": "つよまる",
+      "transitive": "強める",
+      "transitiveReading": "つよめる",
+      "meaning": "辨析「強まる／強める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 33
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaga",
+    "familyId": "verb.refaaga",
+    "pair": {
+      "id": "verb.refaaga",
+      "intransitive": "強まる",
+      "intransitiveReading": "つよまる",
+      "transitive": "強める",
+      "transitiveReading": "つよめる",
+      "meaning": "辨析「強まる／強める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 33
+    },
+    "direction": "intransitive"
+  }
+]

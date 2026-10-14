@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refaza.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "lexicalKey": "老人角色染灰发",
+    "scene": "为配合老人角色，发型师把主演的头发染成灰色。",
+    "before": [
+      {
+        "text": "老人役に合わせて、美容師は主演俳優の髪を灰色に",
+        "reading": "ろうじんやくにあわせて、びようしはしゅえんはいゆうのかみをはいいろに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "染めた",
+        "reading": "そめた",
+        "verdict": "correct",
+        "explanation": "发型师把主演的头发染成灰色，「髪を」标出着色的对象。"
+      },
+      {
+        "id": "b",
+        "text": "染まった",
+        "reading": "そまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里由美容师对头发实施染色，头发以「を」标为对象；自动词「染まる」不能这样承接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了配合老人角色，发型师把主演的头发染成了灰色。",
+    "explanation": "发型师主动改变头发颜色，头发是被染的对象。",
+    "hint": "留意发型师和主演头发各自的动作角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

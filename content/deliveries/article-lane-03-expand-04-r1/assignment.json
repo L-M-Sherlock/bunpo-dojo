@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refeda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "pair": {
+      "id": "verb.refeda",
+      "intransitive": "生える",
+      "intransitiveReading": "はえる",
+      "transitive": "生やす",
+      "transitiveReading": "はやす",
+      "meaning": "辨析「生える／生やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "pair": {
+      "id": "verb.refiba",
+      "intransitive": "隠れる",
+      "intransitiveReading": "かくれる",
+      "transitive": "隠す",
+      "transitiveReading": "かくす",
+      "meaning": "辨析「隠れる／隠す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

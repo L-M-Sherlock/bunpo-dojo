@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.refada.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "lexicalKey": "宿舍规则改订",
+    "scene": "新版宿舍规则已通知住户，十月起按新内容执行。",
+    "before": [
+      {
+        "text": "十月から、寮の規則が",
+        "reading": "じゅうがつから、りょうのきそくが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "改まった",
+        "reading": "あらたまった",
+        "verdict": "correct",
+        "explanation": "「改まる」描写规章自身变为新内容，与「生活規則が」所标的变化主体相合。"
+      },
+      {
+        "id": "b",
+        "text": "改めた",
+        "reading": "あらためた",
+        "verdict": "ungrammatical",
+        "explanation": "「改める」需由实施修改者作主语，并以「規則を」标记对象；这里规章本身是变化主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从十月起，宿舍规则改了。",
+    "explanation": "此处让宿舍规章本身作变化主体，表达规则内容更新。",
+    "hint": "留意句中是规章本身发生变化，还是有人对规章实施修改。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refada.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "lexicalKey": "委员会修订内规",
+    "scene": "审计指出个人信息保存期限不妥，委员会决定修订内规。",
+    "before": [
+      {
+        "text": "監査の指摘を受け、委員会は個人情報の保存期間を定めた内規を",
+        "reading": "かんさのしてきをうけ、いいんかいはこじんじょうほうのほぞんきかんをさだめたないきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "改めた",
+        "reading": "あらためた",
+        "verdict": "correct",
+        "explanation": "委员会作为实施修改的人，以「内規を」标出被修订的规则，符合「改める」的及物结构。"
+      },
+      {
+        "id": "b",
+        "text": "改まった",
+        "reading": "あらたまった",
+        "verdict": "ungrammatical",
+        "explanation": "「改まる」描写规章自身发生变化，不能接这里由「を」标记的对象；若以规章为变化主体，应说「内規が改まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接受审计意见后，委员会修订了规定个人信息保存期限的内部规则。",
+    "explanation": "委员会主动修改内规，规章是动作直接作用的对象。",
+    "hint": "留意谁实施了修改，以及规则在句中由哪个格助词标记。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refada.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "lexicalKey": "会场态度转为郑重",
+    "scene": "社长走进会议室，原本闲聊的员工立刻收敛言行。",
+    "before": [
+      {
+        "text": "社長が会議室に入ると、雑談していた社員の態度が",
+        "reading": "しゃちょうがかいぎしつにはいると、ざつだんしていたしゃいんのたいどが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "改まった",
+        "reading": "あらたまった",
+        "verdict": "correct",
+        "explanation": "「改まる」可表示态度变得端正郑重；此处「態度が」是状态变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "改めた",
+        "reading": "あらためた",
+        "verdict": "ungrammatical",
+        "explanation": "「改める」可说「態度を改める」，但本句把态度置于「が」后作变化主体，不能用这个及物形式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "社长走进会议室时，正在闲聊的员工们态度变得郑重起来。",
+    "explanation": "员工的态度本身从闲聊状态转为郑重，句中以「が」标出变化主体。",
+    "hint": "留意态度在句中承担的角色，以及进入会议室前后的状态变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

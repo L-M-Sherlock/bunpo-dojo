@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refcca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "pair": {
+      "id": "verb.refcna",
+      "intransitive": "割れる",
+      "intransitiveReading": "われる",
+      "transitive": "割る",
+      "transitiveReading": "わる",
+      "meaning": "辨析「割れる／割る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  }
+]

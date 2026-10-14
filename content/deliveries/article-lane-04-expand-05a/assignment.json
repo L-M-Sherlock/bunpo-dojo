@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refica.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "pair": {
+      "id": "verb.refica",
+      "intransitive": "汚れる",
+      "intransitiveReading": "けがれる",
+      "transitive": "汚す",
+      "transitiveReading": "けがす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refija.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "pair": {
+      "id": "verb.refija",
+      "intransitive": "離れる",
+      "intransitiveReading": "はなれる",
+      "transitive": "離す",
+      "transitiveReading": "はなす",
+      "meaning": "辨析「離れる／離す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refija.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "pair": {
+      "id": "verb.refija",
+      "intransitive": "離れる",
+      "intransitiveReading": "はなれる",
+      "transitive": "離す",
+      "transitiveReading": "はなす",
+      "meaning": "辨析「離れる／離す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refija.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "pair": {
+      "id": "verb.refija",
+      "intransitive": "離れる",
+      "intransitiveReading": "はなれる",
+      "transitive": "離す",
+      "transitiveReading": "はなす",
+      "meaning": "辨析「離れる／離す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refija.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refija",
+    "familyId": "verb.refija",
+    "pair": {
+      "id": "verb.refija",
+      "intransitive": "離れる",
+      "intransitiveReading": "はなれる",
+      "transitive": "離す",
+      "transitiveReading": "はなす",
+      "meaning": "辨析「離れる／離す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refnaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "pair": {
+      "id": "verb.refnaa",
+      "intransitive": "見える",
+      "intransitiveReading": "みえる",
+      "transitive": "見る",
+      "transitiveReading": "みる",
+      "meaning": "辨析「見える／見る」的角色与对象",
+      "count": 4,
+      "articleGroup": 14,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refnaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "pair": {
+      "id": "verb.refnaa",
+      "intransitive": "見える",
+      "intransitiveReading": "みえる",
+      "transitive": "見る",
+      "transitiveReading": "みる",
+      "meaning": "辨析「見える／見る」的角色与对象",
+      "count": 4,
+      "articleGroup": 14,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refnaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "pair": {
+      "id": "verb.refnaa",
+      "intransitive": "見える",
+      "intransitiveReading": "みえる",
+      "transitive": "見る",
+      "transitiveReading": "みる",
+      "meaning": "辨析「見える／見る」的角色与对象",
+      "count": 4,
+      "articleGroup": 14,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

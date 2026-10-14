@@ -1,0 +1,739 @@
+[
+  {
+    "id": "verb.refaha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "lexicalKey": "first-victory-in-debut-match",
+    "scene": "新人棋手在职业首秀中取得了生涯首胜。",
+    "before": [
+      {
+        "text": "新人棋士はプロデビュー戦で初勝利を",
+        "reading": "しんじんきしはプロデビューせんではつしょうりを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "収めた",
+        "reading": "おさめた",
+        "verdict": "correct",
+        "explanation": "「初勝利を収める」表示赢得首场胜利；棋士是取得成果的人，胜利是所取得的成果。"
+      },
+      {
+        "id": "b",
+        "text": "収まった",
+        "reading": "おさまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「初勝利を」是取得的对象，不能接表示胜利自行进入某个范围的収まる；若写「初勝利が収まった」，也不是“赢得首胜”的意思。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "新秀棋手在职业首秀中取得了首场胜利。",
+    "explanation": "这里使用「初勝利を収める」这一常见搭配，写的是棋手取得比赛成果。",
+    "hint": "看句中谁取得了胜利，以及胜利在句子里承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "lexicalKey": "audience-tension-peaks-at-decision",
+    "scene": "冠军归属揭晓的一刻，看台上的紧张气氛达到顶点。",
+    "before": [
+      {
+        "text": "優勝が決まる瞬間、観客席の緊張が",
+        "reading": "ゆうしょうがきまるしゅんかん、かんきゃくせきのきんちょうが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "極まった",
+        "reading": "きわまった",
+        "verdict": "correct",
+        "explanation": "达到顶点的是看台上的紧张气氛；句中以「緊張が」呈现状态变化本身。"
+      },
+      {
+        "id": "b",
+        "text": "極めた",
+        "reading": "きわめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "極める可表示把某物推到极点或达到某个顶点；本句的紧张气氛是达到顶点的一方，不是实施这一动作的人或对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "冠军归属揭晓的一刻，看台上的紧张气氛达到了顶点。",
+    "explanation": "比赛结果揭晓时，紧张气氛本身升到极点。",
+    "hint": "判断达到顶点的是句中的状态本身，还是有人把某个对象推到极点。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "lexicalKey": "storm-damaged-road-repair-difficulty",
+    "scene": "暴雨冲毁山路，抢修工程持续十日仍十分艰难。",
+    "before": [
+      {
+        "text": "豪雨で山道が崩れ、復旧工事は十日間にわたり困難を",
+        "reading": "ごううでやまみちがくずれ、ふっきゅうこうじはとおかかんにわたりこんなんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "極めた",
+        "reading": "きわめた",
+        "verdict": "correct",
+        "explanation": "「困難を極める」是表示困难程度极高的常见搭配；句中「困難を」是这个搭配所要求的对象。"
+      },
+      {
+        "id": "b",
+        "text": "極まった",
+        "reading": "きわまった",
+        "verdict": "ungrammatical",
+        "explanation": "当前搭配把「困難」标为「を」所示的对象，不能接表示状态自行达到极点的極まる；若要写困难本身达到极点，应改成「困難が極まった」一类句子。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暴雨冲毁山路后，抢修工程十天来一直困难重重。",
+    "explanation": "「困難を極める」是固定搭配，说明抢修工程的难度极高。",
+    "hint": "留意「困難」在这个常见搭配中用什么助词连接谓语。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "lexicalKey": "farmer-harvests-before-afternoon-heat-peaks",
+    "scene": "盛夏午后最热时段到来前，农户完成蔬菜采收。",
+    "before": [
+      {
+        "text": "農家は、午後の暑さが",
+        "reading": "のうかは、ごごのあつさが"
+      }
+    ],
+    "after": [
+      {
+        "text": "前に野菜を収穫した。",
+        "reading": "まえにやさいをしゅうかくした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "極まる",
+        "reading": "きわまる",
+        "verdict": "correct",
+        "explanation": "午后暑气本身达到极点，是句中「暑さが」所描述的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "極める",
+        "reading": "きわめる",
+        "verdict": "meaning-mismatch",
+        "explanation": "極める可用于某人把对象推到极点或达到顶点；这里说的是暑气本身在午后达到极点，不是暑气对别物采取动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "农户在午后暑气达到顶点前收获了蔬菜。",
+    "explanation": "采收发生在午后高温达到最高程度之前，主语是逐渐到达极点的暑气。",
+    "hint": "看采收安排在什么变化发生之前，并辨认句中达到极点的是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "lexicalKey": "team-reaches-snowy-volcano-summit-at-dawn",
+    "scene": "登山队趁天色微明，登上积雪覆盖的火山顶峰。",
+    "before": [
+      {
+        "text": "登山隊は薄明のうちに雪をかぶった火山の山頂を",
+        "reading": "とざんたいはくめいのうちにゆきをかぶったかざんのさんちょうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "極めた",
+        "reading": "きわめた",
+        "verdict": "correct",
+        "explanation": "「山頂を極める」可表示登到山顶；登山队是完成登顶的人，山顶是所到达的顶点。"
+      },
+      {
+        "id": "b",
+        "text": "極まった",
+        "reading": "きわまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里「山頂を」标出登山队到达的顶点，不能接不带对象的極まる；说山顶本身达到某个状态时，主语和句意都要改变。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山队在天色微明时登上了积雪覆盖的火山顶峰。",
+    "explanation": "句中「山頂を極める」表示登山队到达山顶这一最高点。",
+    "hint": "确认队伍是到达顶峰的一方，还是顶峰本身到达某种状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaxa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "lexicalKey": "infants-neck-stabilizes-after-three-months",
+    "scene": "宝宝过了三个月，脖子已能稳稳支撑头部。",
+    "before": [
+      {
+        "text": "生後三か月を過ぎ、赤ちゃんの首がしっかり",
+        "reading": "せいごさんかげつをすぎ、あかちゃんのくびがしっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "据わった",
+        "reading": "すわった",
+        "verdict": "correct",
+        "explanation": "「赤ちゃんの首が据わる」表示颈部不再摇晃、能够稳定支撑，是婴儿发育的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "据えた",
+        "reading": "すえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "据える可表示有人把物件安放好或把人安排到位置上；这里说的是宝宝颈部自行稳定下来的发育状态，不是有人安放颈部。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "宝宝过了三个月后，脖子已经能稳稳地支撑头部。",
+    "explanation": "「首が据わる」是婴儿颈部发育稳定的常用说法，描述的是状态变化。",
+    "hint": "看句子描述的是颈部自身稳定下来，还是有人把东西安放到某处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaxa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "lexicalKey": "stone-lantern-set-on-pond-pedestal",
+    "scene": "庭师把新石灯笼安放在池边的基座上。",
+    "before": [
+      {
+        "text": "庭師は、新しい石灯籠を池のほとりの台座に",
+        "reading": "にわしは、あたらしいいしどうろうをいけのほとりのだいざに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "据えた",
+        "reading": "すえた",
+        "verdict": "correct",
+        "explanation": "庭师把石灯笼安放到指定基座上，「石灯籠を」标出被安放的对象。"
+      },
+      {
+        "id": "b",
+        "text": "据わった",
+        "reading": "すわった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「石灯籠を」是庭师安放的对象，不能接描述物件自行稳定的据わる；若说灯笼安定在基座上，应让灯笼作「が」所示主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "园丁把新石灯笼安放在池畔的基座上。",
+    "explanation": "句子写庭师把一件石制灯具固定安放在池边基座上。",
+    "hint": "分清执行安放动作的人，以及被安放到基座上的物件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaxa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "lexicalKey": "career-settles-after-repeated-job-changes",
+    "scene": "她换过几次工作后，终于在现在的职场安定下来。",
+    "before": [
+      {
+        "text": "転職を繰り返した彼女も、今の職場ではようやく腰が",
+        "reading": "てんしょくをくりかえしたかのじょも、いまのしょくばではようやくこしが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "据わった",
+        "reading": "すわった",
+        "verdict": "correct",
+        "explanation": "「腰が据わる」在这里表示不再频繁换工作、在一个职场稳定做下去，是人物进入稳定状态。"
+      },
+      {
+        "id": "b",
+        "text": "据えた",
+        "reading": "すえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「腰を据える」可表示某人决定沉下心长期做事；本句采用「腰が据わる」的固定说法，叙述她的职业状态终于稳定，角色和搭配均不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "她过去频繁换工作，如今终于在现在的职场安定下来。",
+    "explanation": "「腰が据わる」形容一个人安定下来并持续做某项工作。",
+    "hint": "注意「腰が据わる」和「腰を据える」分别把重点放在什么关系上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaxa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "lexicalKey": "trusted-lawyer-appointed-as-mediator",
+    "scene": "委员会把双方都信任的律师任命为调停人。",
+    "before": [
+      {
+        "text": "委員会は、対立する両陣営から信頼される弁護士を調停役に",
+        "reading": "いいんかいは、たいりつするりょうじんえいからしんらいされるべんごしをちょうていやくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "据えた",
+        "reading": "すえた",
+        "verdict": "correct",
+        "explanation": "委员会把律师安排到调停人的位置上；「弁護士を調停役に据える」明确表示任命对象和职位。"
+      },
+      {
+        "id": "b",
+        "text": "据わった",
+        "reading": "すわった",
+        "verdict": "ungrammatical",
+        "explanation": "「弁護士を」在本句是委员会安排的对象，不能接表示人或物自行占据稳定位置的据わる；若要说律师就任，应改为「弁護士が調停役に据わった」一类主体表达。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "委员会任命了一位受到对立双方信任的律师担任调停人。",
+    "explanation": "句子描述委员会把律师安排到调停人的职位上。",
+    "hint": "辨认委员会安排的人，以及这个人将承担的职位。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaada.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "lexicalKey": "laundry-drying-time-shortens-by-half-hour",
+    "scene": "换上新烘干机后，衣物烘干所需时间少了半小时。",
+    "before": [
+      {
+        "text": "乾燥機を買い替えてから、洗濯物が乾くまでの時間が三十分",
+        "reading": "かんそうきをかいかえてから、せんたくものがかわくまでのじかんがさんじゅっぷん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮まった",
+        "reading": "ちぢまった",
+        "verdict": "correct",
+        "explanation": "所需时间本身减少了三十分钟；句中「時間が」是变短的一方。"
+      },
+      {
+        "id": "b",
+        "text": "縮めた",
+        "reading": "ちぢめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "縮める可表示有人缩短某个对象；本句报告所需时间自身变短，没有把时间当作缩短别物的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "换了烘干机后，烘干衣物所需的时间缩短了三十分钟。",
+    "explanation": "更换烘干机后，衣物烘干所需的时长实际减少了半小时。",
+    "hint": "看句子报告的是时长自身变短，还是有人把另一对象的长度缩短。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaada.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "lexicalKey": "travel-guide-manuscript-cut-to-limit",
+    "scene": "旅游指南原稿需压到一千字内，宣传负责人完成了删改。",
+    "before": [
+      {
+        "text": "広報担当者は、旅行案内の長い原稿を千字以内に",
+        "reading": "こうほうたんとうしゃは、りょこうあんないのながいげんこうをせんじいないに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮めた",
+        "reading": "ちぢめた",
+        "verdict": "correct",
+        "explanation": "宣传负责人主动压缩原稿篇幅；「原稿を」标出被改短的对象，目标长度是千字以内。"
+      },
+      {
+        "id": "b",
+        "text": "縮まった",
+        "reading": "ちぢまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中原稿以「を」作为被压缩的对象，不能接表示原稿自行变短的縮まる；若叙述原稿自然变短，应让「原稿が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "宣传负责人把篇幅很长的旅游指南原稿压缩到一千字以内。",
+    "explanation": "负责人对原稿作了删减，使篇幅符合千字以内的要求。",
+    "hint": "留意原稿是自己变短，还是由负责人对它进行缩短处理。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaada.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "lexicalKey": "price-gap-narrows-after-tariff-cut",
+    "scene": "进口关税下调后，国产品与进口品的价差逐渐缩小。",
+    "before": [
+      {
+        "text": "輸入関税の引き下げ後、国産品と輸入品の価格差が少しずつ",
+        "reading": "ゆにゅうかんぜいのひきさげご、こくさんひんとゆにゅうひんのかかくさがすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮まった",
+        "reading": "ちぢまった",
+        "verdict": "correct",
+        "explanation": "关税下调后，两类商品的价格差自身逐步变小；「価格差が」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "縮めた",
+        "reading": "ちぢめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "縮める表示某个施事缩小差距或其他对象；这里陈述的是价格差自身逐渐变小，没有把它写成施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "进口关税下调后，国产品与进口品之间的价差逐渐缩小了。",
+    "explanation": "句子报告的是两类商品之间的价差在关税下调后逐渐变小。",
+    "hint": "看发生变化的是价格差本身，还是某个主体主动缩小了价格差。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaada.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "lexicalKey": "chasing-runner-cuts-leader-gap",
+    "scene": "长跑进入最后一圈，追赶者把与领跑者的差距拉近五米。",
+    "before": [
+      {
+        "text": "追い上げる選手は、最後の一周で先頭との差を五メートル",
+        "reading": "おいあげるせんしゅは、さいごのいっしゅうでせんとうとのさをごメートル"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮めた",
+        "reading": "ちぢめた",
+        "verdict": "correct",
+        "explanation": "追赶的选手主动把与领跑者的距离缩短五米；「差を」是被缩短的对象。"
+      },
+      {
+        "id": "b",
+        "text": "縮まった",
+        "reading": "ちぢまった",
+        "verdict": "ungrammatical",
+        "explanation": "当前「先頭との差を」把差距标为选手缩短的对象，不能接描写差距自行缩小的縮まる；若写状态变化，应使用「差が縮まった」的结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "追赶的选手在最后一圈把与领跑者的差距缩短了五米。",
+    "explanation": "句子写出追赶者在最后一圈主动缩短五米差距的结果。",
+    "hint": "辨认差距是被追赶者缩短的对象，还是自行变小的状态主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaala.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "lexicalKey": "shelter-opening-time-spreads-among-residents",
+    "scene": "社区公告栏刊出避难所开放时间后，附近居民陆续知晓。",
+    "before": [
+      {
+        "text": "自治会の掲示板に載った避難所の開設時間が、近隣住民の間に",
+        "reading": "じちかいのけいじばんにのったひなんじょのかいせつじかんが、きんりんじゅうみんのあいだに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "広まった",
+        "reading": "ひろまった",
+        "verdict": "correct",
+        "explanation": "避难所的开放时间在附近居民中传开；句中以「開設時間が」标出这一传播内容。"
+      },
+      {
+        "id": "b",
+        "text": "広めた",
+        "reading": "ひろめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "広める表示某个主体把内容传给他人；本句将开放时间写作「が」标记的主语，描述它在居民中传开，而不是将它写成被推广的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "社区公告栏刊出避难所开放时间后，这条消息在附近居民间传开了。",
+    "explanation": "句子写公告上的开放时间在居民中逐步传播开来，没有把某个推广者作为主语。",
+    "hint": "看句中是信息本身传开，还是有人把信息传给别人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaala.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "lexicalKey": "health-nurse-spreads-handwashing-method",
+    "scene": "市保健师把正确洗手方法推广给当地家长。",
+    "before": [
+      {
+        "text": "市の保健師は、地域の保護者に正しい手洗いの方法を",
+        "reading": "しのほけんしは、ちいきのほごしゃにただしいてあらいのほうほうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "広めた",
+        "reading": "ひろめた",
+        "verdict": "correct",
+        "explanation": "市保健师把正确洗手方法推广给当地家长；「方法を」标出被传播的内容。"
+      },
+      {
+        "id": "b",
+        "text": "広まった",
+        "reading": "ひろまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里「方法を」是保健师传播的对象，不能接描述方法本身传开的広まる；若叙述传播结果，应改为「方法が保護者の間に広まった」一类结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市保健师把正确的洗手方法推广给当地家长。",
+    "explanation": "保健师主动向家长普及了一种洗手方法。",
+    "hint": "确认洗手方法是被推广的内容，还是它本身正在传开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaala.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "lexicalKey": "water-saving-cultivation-spreads-to-nearby-farms",
+    "scene": "试验农场公布成果后，节水型栽培法在邻近农户中传开。",
+    "before": [
+      {
+        "text": "試験農場の成果が学会で発表され、節水型の栽培法が周辺の農家にも",
+        "reading": "しけんのうじょうのせいかががっかいではっぴょうされ、せっすいがたのさいばいほうがしゅうへんののうかにも"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "広まった",
+        "reading": "ひろまった",
+        "verdict": "correct",
+        "explanation": "节水型栽培法在附近农户中传播开来；方法本身是扩散的内容，句中用「が」呈现这一变化。"
+      },
+      {
+        "id": "b",
+        "text": "広めた",
+        "reading": "ひろめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "広める表示有人主动推广某项方法；这里说的是栽培法本身在农户间传开，没有把它写成推广者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "试验农场的成果在学会上公布后，节水型栽培法也在周边农户中传播开来。",
+    "explanation": "学会公布试验成果后，节水型栽培法也在附近的农户中逐渐传开。",
+    "hint": "判断句子写的是一种做法在农户间传开，还是某人主动把它推广出去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

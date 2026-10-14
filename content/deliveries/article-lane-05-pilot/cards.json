@@ -1,0 +1,146 @@
+[
+  {
+    "id": "verb.refaga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "lexicalKey": "garden-pond-pine",
+    "scene": "园艺馆员按旧庭园图，核对池南石灯笼旁的松树。",
+    "before": [
+      {
+        "text": "池の南側では、石灯籠の脇に松の木が",
+        "reading": "いけのみなみがわでは、いしどうろうのわきにまつのきが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "植わっている",
+        "reading": "うわっている",
+        "verdict": "correct",
+        "explanation": "松の木が表示树木本身，植わっている描述它在池边已经栽下的状态。"
+      },
+      {
+        "id": "b",
+        "text": "植えている",
+        "reading": "うえている",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词的主动进行义理解，松树会成为正在栽种某物的施事；这不表示松树处于庭园中的种植状态。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "池塘南侧的石灯笼旁种着一棵松树。",
+    "explanation": "植わる（うわる）描述植物被栽下后所处的位置或状态。",
+    "hint": "看句中说的是树木处于什么状态，还是它正在对别的东西实施动作。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "lexicalKey": "school-entrance-pansies",
+    "scene": "改建校园入口花坛，园艺公司按校徽配色栽种三色堇苗。",
+    "before": [
+      {
+        "text": "造園業者は、正門脇の花壇に校章と同じ色のパンジーの苗を",
+        "reading": "ぞうえんぎょうしゃは、せいもんわきのかだんにこうしょうとおなじいろのパンジーのなえを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "植えた",
+        "reading": "うえた",
+        "verdict": "correct",
+        "explanation": "造園業者是栽种者，パンジーの苗以「を」标为栽种对象，符合植える。"
+      },
+      {
+        "id": "b",
+        "text": "植わった",
+        "reading": "うわった",
+        "verdict": "ungrammatical",
+        "explanation": "植わる是不带直接宾语的自动词，不能接本句明确标为「を」的パンジーの苗。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "园艺公司把校徽同色的三色堇苗种在正门旁的花坛里。",
+    "explanation": "植える（うえる）以园艺公司为施事、以花苗为对象，表示将苗栽入花坛。",
+    "hint": "找出句中实施动作的人，以及花苗在动作中承担的角色。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "lexicalKey": "former-clinic-camphor-tree",
+    "scene": "对照旧诊所的记录照片，确认扩路前东侧高大的樟树。",
+    "before": [
+      {
+        "text": "道路拡張前、旧診療所の東側には、屋根より高いクスノキが",
+        "reading": "どうろかくちょうまえ、きゅうしんりょうじょのひがしがわには、やねよりたかいクスノキが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "植わっていた",
+        "reading": "うわっていた",
+        "verdict": "correct",
+        "explanation": "樟树是记录照片中处于栽植状态的主体，植わっていた表示它当时在诊所东侧。"
+      },
+      {
+        "id": "b",
+        "text": "植えていた",
+        "reading": "うえていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词的过去进行义理解，樟树会成为当时正在栽种某物的施事；照片记录的是它当时所在的位置。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "道路扩建前，旧诊所东侧种着一株高过屋顶的樟树。",
+    "explanation": "植わる的过去状态形与地点表达相连，说明樟树当时处于被栽种后的状态。",
+    "hint": "对照照片里的树本身与栽种动作的施事，判断句子要记录哪一方。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

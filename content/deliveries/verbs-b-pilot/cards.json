@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.start.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "start-session",
+    "scene": "求职者都坐定后，公司说明会在十点准时开场。",
+    "before": [
+      {
+        "text": "会社説明会が十時に",
+        "reading": "かいしゃせつめいかいがじゅうじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始まりました",
+        "reading": "はじまりました",
+        "verdict": "correct",
+        "explanation": "说明会作为活动本身在十点开始；始まる表达活动开始，不指定启动活动的人。"
+      },
+      {
+        "id": "b",
+        "text": "始めました",
+        "reading": "はじめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "始める表示某个施事开始一项活动；这里的主语是开始的说明会本身，不是启动另一项活动的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "公司说明会于十点开始了。",
+    "explanation": "句中写的是说明会这个活动开始，没有写由谁启动另一项活动。",
+    "hint": "先看句子的主体是正在开始的活动，还是启动活动的一方。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.start.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "start-award-ceremony",
+    "scene": "主持人核对到场嘉宾后，宣布颁奖典礼正式开场。",
+    "before": [
+      {
+        "text": "司会者が授賞式を",
+        "reading": "しかいしゃがじゅしょうしきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始めました",
+        "reading": "はじめました",
+        "verdict": "correct",
+        "explanation": "主持人是启动活动的施事，颁奖典礼是被启动的活动；始める表达这一施事与对象关系。"
+      },
+      {
+        "id": "b",
+        "text": "始まりました",
+        "reading": "はじまりました",
+        "verdict": "ungrammatical",
+        "explanation": "始まる表达活动自身开始，不能在这里把「授賞式」作为「を」标记的直接对象；若表达典礼自身开始，应写「授賞式が始まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主持人开始了颁奖典礼。",
+    "explanation": "「司会者が」是启动者，「授賞式を」是被启动的活动。",
+    "hint": "留意谁做了开始这件事，以及典礼在句中承担什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.start.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "start-route-operation",
+    "scene": "市已公布新线排班，公交运营将于下月启动。",
+    "before": [
+      {
+        "text": "新路線の運行が来月から",
+        "reading": "しんろせんのうんこうがらいげつから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始まります",
+        "reading": "はじまります",
+        "verdict": "correct",
+        "explanation": "新线路的运营是从下月开始的活动；始まる描述该活动开始。"
+      },
+      {
+        "id": "b",
+        "text": "始めます",
+        "reading": "はじめます",
+        "verdict": "meaning-mismatch",
+        "explanation": "始める表示施事启动某项活动；这里的主语是将要开始的运营，场景没有把运营说成启动别的活动的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "新线路的运营将从下个月开始。",
+    "explanation": "句子把运营作为开始的活动本身，没有表示启动者和被启动的另一项活动。",
+    "hint": "判断句中说的是运营开始，还是有人开始一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

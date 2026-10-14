@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-06.draft.json",
+  "at": "2026-10-13T12:39:56.571Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.purpose.02",
+      "hash": "4fb483f3c98d865e694d26e024edc8e05cda69234649de4db1ee0e3fb100bc72",
+      "fullSentences": [
+        "母は鮮魚店へ、夕飯用の鯖を買いに行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.03",
+      "hash": "1478836ac248420438705e16c626d0a6bedc4f64a27fa8b32de02100914590ec",
+      "fullSentences": [
+        "同僚は駅前の喫茶店へコーヒーを飲みに行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.04",
+      "hash": "abc54436714ef3feadf181e43d521522a6c7b9dc984d8c07d8726939867b1116",
+      "fullSentences": [
+        "週末、妹は川沿いの公園へ走りに行く。"
+      ]
+    },
+    {
+      "id": "particle.purpose.05",
+      "hash": "4c6aeae5d415c755d0312792b09b2eacf0840f9b5293f50872f9d7a3e3b82c2b",
+      "fullSentences": [
+        "兄は昼休みに郵便局へ小包を出しに行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.06",
+      "hash": "d3074dfc3f5fb3626c5f4a0d2b5e6250af59ecdb3b38319a59c9b32d0abd21b1",
+      "fullSentences": [
+        "店長は予約の客を迎えに店の入口へ行った。"
+      ]
+    }
+  ]
+}

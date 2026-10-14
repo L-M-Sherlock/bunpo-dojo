@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.iru.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.iru",
+    "familyId": "verb.iru",
+    "lexicalKey": "入る（いる）・入れる（いれる）",
+    "scene": "出差前夜，由美正在整理行李。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "入れる",
+      "reading": "いれる"
+    },
+    "before": [
+      {
+        "text": "出張の前夜に、由美さんはスーツケースに替えのシャツを入れた。",
+        "reading": "しゅっちょうのぜんやに、ゆみさんはスーツケースにかえのシャツをいれた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句中由美主动把备用衬衫收进箱内；「替えのシャツを」标出被移动的物品，「スーツケースに」标出收纳位置，符合他动词的对象关系。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "由美是动作执行者，备用衬衫是「を」标记的对象，行李箱是目的位置；「入れる」在此表示普通的放入动作。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "出差前夜，由美把备用衬衫放进了行李箱。",
+    "explanation": "句子叙述由美将衬衫作为对象移到行李箱内；「替えのシャツを」明确标出动作对象，因此这里的「入れる」是他动词。",
+    "hint": "留意执行者、被移动的物品和物品收纳的位置。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

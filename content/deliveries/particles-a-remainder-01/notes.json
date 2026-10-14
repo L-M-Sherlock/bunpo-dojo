@@ -1,0 +1,42 @@
+[
+  {
+    "id": "particle.activity.07",
+    "fullSentence": "見学者は植物園でランの写真を撮ります。",
+    "sceneRationale": "场景中的参观者正在植物园拍摄兰花，植物园是拍照活动进行的地点，因此只能用で表达本句的活动地点。",
+    "alternativeReadings": "に可标植物园这一存在地点或前往目的地，但不能代替撮影活动的で；へ表示移动方向，本句没有植物园作为移动终点的谓语。",
+    "readingCheck": "見学者けんがくしゃ、植物園しょくぶつえん、写真しゃしん、撮りますとります；正文与reading中的片假名ラン、标点对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.activity.08",
+    "fullSentence": "記者は漁港の資料館で船長に話を聞きます。",
+    "sceneRationale": "地方报社记者在渔港资料馆向老船长采访，资料馆是记者进行采访的场所；船长是采访对象，不是地点标记的对象。",
+    "alternativeReadings": "に可标人物存在地点或移动终点，但不能标听取采访的活动地点；へ表示朝资料馆移动，当前谓语是采访而非前往。",
+    "readingCheck": "記者きしゃ、漁港ぎょこう、資料館しりょうかん、船長せんちょう、話はなし、聞きますききます；片假名和句号与正文一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.activity.09",
+    "fullSentence": "生徒は調理室でうどんを打ちます。",
+    "sceneRationale": "烹饪课学员在实习厨房制作乌冬面，調理室是打乌冬这一活动的发生地点，动作对象是うどん。",
+    "alternativeReadings": "に可以标人在厨房的静态所在，但无法表达打乌冬动作在此处进行；へ表示前往厨房，句中没有移动动作。",
+    "readingCheck": "生徒せいと、調理室ちょうりしつ、うどん、打ちますうちます；日语正文的假名与注音一一对应，句号一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.activity.10",
+    "fullSentence": "吹奏楽部は音楽室で新曲を合奏します。",
+    "sceneRationale": "学校文化节前，吹奏乐部在音乐室排练新曲；音乐室是合奏活动实际进行的地点。",
+    "alternativeReadings": "に会表达存在地点或移动终点，へ会表达移动方向；二者都不能替代本句活动地点的で。",
+    "readingCheck": "吹奏楽部すいそうがくぶ、音楽室おんがくしつ、新曲しんきょく、合奏しますがっそうします；句号对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.destination.01",
+    "fullSentence": "来週、姉は箱根に行きます。／来週、姉は箱根へ行きます。",
+    "sceneRationale": "姐姐已订好箱根的住宿，计划下周前往，场景把箱根限定为行く的目的地。",
+    "alternativeReadings": "行く表示朝目的地移动时，に和へ都自然且表达同一场景，故均列为正确。若用から，箱根会成为出发地点，与场景的目的地关系不符。",
+    "readingCheck": "来週らいしゅう、姉あね、箱根はこね、行きますいきます；へ作为助词读え，逗号和句号与正文一致。",
+    "unresolvedQuestions": "无。"
+  }
+]

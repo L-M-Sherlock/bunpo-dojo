@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refsha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "pair": {
+      "id": "verb.refsha",
+      "intransitive": "飛ぶ",
+      "intransitiveReading": "とぶ",
+      "transitive": "飛ばす",
+      "transitiveReading": "とばす",
+      "meaning": "辨析「飛ぶ／飛ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  }
+]

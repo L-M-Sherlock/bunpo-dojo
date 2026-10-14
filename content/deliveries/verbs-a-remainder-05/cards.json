@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.exit.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "出る・出す",
+    "scene": "妈妈从抽屉里取出了备用钥匙。",
+    "before": [
+      {
+        "text": "母は引き出しから予備の鍵を",
+        "reading": "はははひきだしからよびのかぎを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出しました",
+        "reading": "だしました",
+        "verdict": "correct",
+        "explanation": "妈妈把备用钥匙从抽屉里取出，钥匙是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "出ました",
+        "reading": "でました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「予備の鍵を」标出被取出的对象；自动词出る描述钥匙自行出来，不能接该直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "妈妈从抽屉里拿出了备用钥匙。",
+    "explanation": "出す（だす）表示妈妈把钥匙从抽屉中取出来。",
+    "hint": "找出句中实施取出动作的人，以及被取出的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.exit.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "出る・出す",
+    "scene": "首班公交车准时驶出了车库。",
+    "before": [
+      {
+        "text": "始発のバスが定刻に車庫から",
+        "reading": "しはつのバスがていこくにしゃこから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出ました",
+        "reading": "でました",
+        "verdict": "correct",
+        "explanation": "公交车自身从车库驶出，是移动主体。"
+      },
+      {
+        "id": "b",
+        "text": "出しました",
+        "reading": "だしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "出す可表示公交车发出或送出某个对象；本句说的是公交车自身离开车库。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "首班公交车准时驶出了车库。",
+    "explanation": "出る（でる）表示公交车从车库驶向外面。",
+    "hint": "看句子说的是公交车自身离开，还是公交车送出某个对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.exit.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "出る・出す",
+    "scene": "工作人员从仓库取出了应急毛毯。",
+    "before": [
+      {
+        "text": "係員は倉庫から非常用の毛布を",
+        "reading": "かかりいんはそうこからひじょうようのもうふを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出しました",
+        "reading": "だしました",
+        "verdict": "correct",
+        "explanation": "工作人员把应急毛毯从仓库取出，毛毯是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "出ました",
+        "reading": "でました",
+        "verdict": "ungrammatical",
+        "explanation": "本句以「毛布を」标出取出的对象；自动词出る描述物品自身出来，不能接这个直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员从仓库取出了应急毛毯。",
+    "explanation": "出す（だす）表示工作人员将毛毯从仓库取出来。",
+    "hint": "确认工作人员是动作施事，以及毛毯是否是被取出的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.exit.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "出る・出す",
+    "scene": "白色蒸汽从锅盖缝隙冒出来。",
+    "before": [
+      {
+        "text": "鍋のふたの隙間から白い湯気が",
+        "reading": "なべのふたのすきまからしろいゆげが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出ました",
+        "reading": "でました",
+        "verdict": "correct",
+        "explanation": "蒸汽从锅盖缝隙自行冒出，是移动主体。"
+      },
+      {
+        "id": "b",
+        "text": "出しました",
+        "reading": "だしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词出す通常让锅等施事以「を」标出蒸汽；本句把湯気标为が主语，表示蒸汽自身冒出来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "白色蒸汽从锅盖缝隙冒了出来。",
+    "explanation": "出る（でる）表示蒸汽从锅盖缝隙向外冒出。",
+    "hint": "看句中的蒸汽是自身冒出，还是锅把蒸汽排出来。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

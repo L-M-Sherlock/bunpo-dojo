@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_c",
+  "source": "work/content/verbs-c/remainder-01.draft.json",
+  "at": "2026-10-13T11:43:42.898Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.find.02",
+      "hash": "86e022a72d54ab1431c258c7602eb4e6dbf21febeb73fd2b381cedab096b8b0c",
+      "fullSentences": [
+        "巡回中の警備員が、ベンチの下に落ちていた手袋を見つけた。"
+      ]
+    },
+    {
+      "id": "verb.find.03",
+      "hash": "8c4cce55dfd0be1157decfc6132cf39ce1b718e8fb4fb5bb2082870475d5d359",
+      "fullSentences": [
+        "探していた工具箱が倉庫の棚の奥で見つかった。"
+      ]
+    },
+    {
+      "id": "verb.find.04",
+      "hash": "be0a5226609fec75b529ac2dcdd50c7d691b027a96a885c90f9d679dd6a2878b",
+      "fullSentences": [
+        "閉店後、店員が棚の下で客の財布を見つけた。"
+      ]
+    },
+    {
+      "id": "verb.find.05",
+      "hash": "b5ec6d7c7d72ee66b3135316954d507fe4e254b19dda578379ddbf82686b3048",
+      "fullSentences": [
+        "昼から探していた猫が、隣の家の物置で見つかった。"
+      ]
+    },
+    {
+      "id": "verb.sell.01",
+      "hash": "4e2b010a4e5febea7afb167586f4092ef3f313a4ebd2eb30b7d59858328a3cbd",
+      "fullSentences": [
+        "新作のマグカップが発売初日に百個以上売れた。"
+      ]
+    }
+  ]
+}

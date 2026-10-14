@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.enter.02", "hash": "6fc7fbbcce7764192f951ebce9658099f3df089b3ad9bc91391bef1ae9c2cd53", "fullSentences": ["母は急須に茶葉を入れました。"], "status": "approved",
+      "reason": "妈妈将茶叶放进茶壶，母は为施事、茶葉を为对象、急須に为容器，入れる符合 transitive 分配；句子自然。",
+      "answerSet": "a 唯一适合「茶葉を」直接对象的答案；b 入る不能接这个对象。",
+      "readings": "母＝はは、急須＝きゅうす、茶葉＝ちゃば；入れました＝いれました、入りました＝はいりました，「母は」的连续假名为「ははは」正确。",
+      "translation": "译文准确表达妈妈将茶叶放进茶壶；泡茶过程是场景背景。",
+      "options": "a correct 准确；b ungrammatical 对当前固定「茶葉を」句干成立，茶叶自行进入应改「茶葉が入りました」。"
+    },
+    {
+      "id": "verb.enter.03", "hash": "c4602f6728cea06f5fa8387b48c7979e3cf8b56e566a248974c90e58caec47d3", "fullSentences": ["窓が開いている間に、猫はこっそり部屋に入りました。"], "status": "approved",
+      "reason": "窗开期间猫悄悄进入房间，猫は为移动主题、部屋に为目的地，入る符合 intransitive 分配；句子自然。",
+      "answerSet": "a 符合猫自己溜进房间的场景；b 可读作另有省略施事把作为话题的猫放入房间，但不是猫自己进去。",
+      "readings": "窓＝まど、開いている＝あいている、間＝あいだ、猫＝ねこ、部屋＝へや；入りました＝はいりました、入れました＝いれました，逗号对应。",
+      "translation": "译文准确保留开窗期间、猫悄悄进入房间的内容，没有增添带猫入内的人。",
+      "options": "a correct 准确；b meaning-mismatch 准确。「猫は」也能作对象话题、另省略把猫带进去的人，因此不应判绝对语法错误，但场景明确猫自行溜入。"
+    },
+    {
+      "id": "verb.enter.04", "hash": "72a1211c5a0565e873ce1d3b5b2e80d6a1837e3a014dbdbf1c7c8cb4a9e0901c", "fullSentences": ["父は買ってきた冷凍食品を冷凍庫に入れました。"], "status": "approved",
+      "reason": "父亲把买回的冷冻食品放进冷冻库，父は为施事、食品を为对象、冷凍庫に为容器，入れる符合 transitive 分配。",
+      "answerSet": "a 唯一适合当前「冷凍食品を」直接对象的答案；b 入る不能接此对象。",
+      "readings": "父＝ちち、買ってきた＝かってきた、冷凍食品＝れいとうしょくひん、冷凍庫＝れいとうこ；入れました＝いれました、入りました＝はいりました。",
+      "translation": "译文准确保留父亲、买回的冷冻食品与放入冷冻室三个信息。",
+      "options": "a correct 准确；b ungrammatical 对固定句干成立，食品自行进入应写「冷凍食品が入りました」。"
+    },
+    {
+      "id": "verb.enter.05", "hash": "dd7bda777acd0473b890dfb267e4a2eed01b107f62e641f856e274713595c6cd", "fullSentences": ["大雨の後、壁のすき間から水が地下室に入りました。"], "status": "approved",
+      "reason": "大雨后水从墙缝进入地下室，水が为移动主体、すき間から为起点、地下室に为终点，入る符合 intransitive 分配。",
+      "answerSet": "a 唯一表示水自身流入；b 会把水当作把别物放入地下室的施事。",
+      "readings": "大雨＝おおあめ、後＝あと、壁＝かべ、間＝ま、すき間＝すきま、水＝みず、地下室＝ちかしつ；入りました＝はいりました、入れました＝いれました。",
+      "translation": "译文准确传达暴雨后水由墙缝进入地下室；「渗进」是对该路径的自然中文表述。",
+      "options": "a correct 准确；b meaning-mismatch 准确，入れる可省略宾语，但不能表示主语水自身进入。"
+    },
+    {
+      "id": "verb.exit.01", "hash": "348e0710f2f7bcff21a7387698ac6db47885790c6979fcf5ffa9a3484272a754", "fullSentences": ["閉会後、参加者が会場から出ました。"], "status": "approved",
+      "reason": "闭会后参会者离开会场，参加者が为移动主体、会場から为起点，出る符合 intransitive 分配；句子自然。",
+      "answerSet": "a 唯一表示参会者本人出来；b 会让参会者成为将另一个对象拿出的人。",
+      "readings": "閉会後＝へいかいご、参加者＝さんかしゃ、会場＝かいじょう；出ました＝でました、出しました＝だしました，逗号对应。",
+      "translation": "译文准确表达闭会后参会者离开会场，没有添入携带物品。",
+      "options": "a correct 准确；b meaning-mismatch 准确，出す可省略拿出的对象，但此处要表达的是参会者自己离开。"
+    }
+  ]
+}

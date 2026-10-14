@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_05_next",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-05a.draft.json",
+  "at": "2026-10-14T01:39:21.101Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refida.04",
+      "hash": "5d3f7187c507341dbb7f621351a98d5bb374fd1724d676b8635c96fa2a5f6091",
+      "fullSentences": [
+        "搬入係は、瓶を棚に置こうとして傾け、醤油を床に零してしまった。"
+      ]
+    },
+    {
+      "id": "verb.refika.01",
+      "hash": "6afcb0208cdfb74e6d4b156c99c6f64bc7f8a5ba34b165f4c73db2fd606b532b",
+      "fullSentences": [
+        "雨上がりに帰った子どもの靴は、校庭の泥でつま先まで汚れていた。"
+      ]
+    },
+    {
+      "id": "verb.refika.02",
+      "hash": "d8973580be5195393db8ad6d30767d1fb7587597a7ca17b55ad498ee1d91fe83",
+      "fullSentences": [
+        "看板を描き終えた生徒は、絵の具の付いた手袋でガラス戸を汚してしまった。"
+      ]
+    },
+    {
+      "id": "verb.refika.03",
+      "hash": "1eea9bccfc8562b0d07604b3b46d048540c3f37dd5d4c41898e66e24f24c51d4",
+      "fullSentences": [
+        "内装工事の翌日、窓辺に掛けていた白いカーテンは、石膏の粉でうっすら汚れていた。"
+      ]
+    },
+    {
+      "id": "verb.refika.04",
+      "hash": "185ea24570b7ed350fd5694b3e246312c45eefa3b9844cf4f8f3987ba34c04fe",
+      "fullSentences": [
+        "配送員は、泥のついた台車をそのまま押し、搬入口の白い床を汚してしまった。"
+      ]
+    },
+    {
+      "id": "verb.refoaa.01",
+      "hash": "2bcb2e5ed732288f80f8baf3f9504430e7d4deaed08955ecd8495521f4d18bb4",
+      "fullSentences": [
+        "港に停泊中の小舟は、通り過ぎた貨物船の波でしばらく揺れていた。"
+      ]
+    },
+    {
+      "id": "verb.refoaa.02",
+      "hash": "4b255de5293bdc6fb5e69e8cc32ec884b06983a56cb7f5e1d4d5c30f2a5e16ef",
+      "fullSentences": [
+        "梅農家は、木の下に収穫用の網を広げ、熟した梅の実を落とすため低い枝を両手で揺すった。"
+      ]
+    },
+    {
+      "id": "verb.refoaa.03",
+      "hash": "6fc6ceb559b17bd314e49b6bf9ebe82a20374d5fec21f4715a0a3cea0d305597",
+      "fullSentences": [
+        "渓谷の吊り橋を渡る一団が中央で足を止めたあとも、床板はしばらく揺れていた。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.refaaca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "rainwater-puddle-in-bicycle-parking",
+    "scene": "骤雨过后，自行车停车处的低洼处积着雨水。",
+    "before": [
+      {
+        "text": "夕立のあと、駐輪場のくぼみに雨水が",
+        "reading": "ゆうだちのあと、ちゅうりんじょうのくぼみにあまみずが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜まっていた",
+        "reading": "たまっていた",
+        "verdict": "correct",
+        "explanation": "雨水が是聚集在低洼处的主体，表示雨水在自行车停车处积了起来。"
+      },
+      {
+        "id": "b",
+        "text": "溜めていた",
+        "reading": "ためていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，雨水会成为正在储存某物的施事；这里说的是雨水聚集在低洼处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "骤雨过后，雨水积在自行车停车处的低洼处。",
+    "explanation": "溜まる（たまる）表示液体逐渐聚集并停留在一处。",
+    "hint": "找出逐渐聚在低洼处的东西，判断它是在积聚还是在储存别物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "lexicalKey": "festival-unanswered-inquiries",
+    "scene": "宣传组积压着尚未回复的校园文化节咨询。",
+    "before": [
+      {
+        "text": "文化祭について未返信の問い合わせが広報係に",
+        "reading": "ぶんかさいについてみへんしんのといあわせがこうほうがかりに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溜まっていた",
+        "reading": "たまっていた",
+        "verdict": "correct",
+        "explanation": "未返信の問い合わせが是逐渐积累的事项，広報係に表示它们积压的位置。"
+      },
+      {
+        "id": "b",
+        "text": "溜めていた",
+        "reading": "ためていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "按主动他动词理解，咨询会成为储存别物的施事；这里是未回复的咨询本身在宣传组积压。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "有关校园文化节的未回复咨询积压在宣传组。",
+    "explanation": "溜まる可以描述未处理的咨询逐渐增多并积压。",
+    "hint": "看句中逐渐增加的是未回复的咨询，还是宣传组主动储存了某物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

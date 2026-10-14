@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaafa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "lexicalKey": "剑道间合缩短",
+    "scene": "剑道练习中，选手向前一步缩短与对手的距离。",
+    "before": [
+      {
+        "text": "剣道の稽古で、選手は相手との間合いを一歩",
+        "reading": "けんどうのけいこで、せんしゅはあいてとのまあいをいっぽ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "詰めた",
+        "reading": "つめた",
+        "verdict": "correct",
+        "explanation": "选手主动缩短与对手的间合，「間合いを」是动作直接作用的对象。"
+      },
+      {
+        "id": "b",
+        "text": "詰まった",
+        "reading": "つまった",
+        "verdict": "ungrammatical",
+        "explanation": "「間合いを」在这里是被缩短的对象；自动词「詰まる」描述距离自身变紧，不能承接这个「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "剑道练习中，选手向前一步缩短了与对手的间距。",
+    "explanation": "选手主动把两人的间合缩短，距离是动作的对象。",
+    "hint": "留意谁主动靠近，以及句中被缩短的是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaana.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "lexicalKey": "杉林前古道转弯",
+    "scene": "沿河古道在杉树林前拐弯，转向东侧。",
+    "before": [
+      {
+        "text": "川沿いの古道は、杉林の手前で東へ",
+        "reading": "かわぞいのふるみちは、すぎばやしのてまえでひがしへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "曲がった",
+        "reading": "まがった",
+        "verdict": "correct",
+        "explanation": "古道的走向在杉树林前转向东侧，描述的是道路本身改变方向。"
+      },
+      {
+        "id": "b",
+        "text": "曲げた",
+        "reading": "まげた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「曲げる」表示主体把某个东西弯曲或转向；此处说的是古道自身转了方向，并没有它主动改变其他对象的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "沿河的古道在杉树林前转向东边。",
+    "explanation": "句子描写古道自身的路线发生转向。",
+    "hint": "判断发生转向的是道路自身，还是道路让别的东西转弯。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaana.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "lexicalKey": "蒸汽弯制椅背木料",
+    "scene": "家具师傅用蒸汽软化山毛榉木料，弯成椅背的弧度。",
+    "before": [
+      {
+        "text": "家具職人は、椅子の背に使うブナ材を蒸気で温めてから、ゆっくり",
+        "reading": "かぐしょくにんは、いすのせにつかうブナざいをじょうきであたためてから、ゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "曲げた",
+        "reading": "まげた",
+        "verdict": "correct",
+        "explanation": "家具师傅主动弯曲椅背用的山毛榉木料，「ブナ材を」标出被弯曲的对象。"
+      },
+      {
+        "id": "b",
+        "text": "曲がった",
+        "reading": "まがった",
+        "verdict": "ungrammatical",
+        "explanation": "「ブナ材を」是师傅处理的材料对象；自动词「曲がる」表示材料自身弯曲，不能接这里的「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "家具师傅用蒸汽加热椅背用的山毛榉木料后，慢慢将它弯曲。",
+    "explanation": "师傅主动改变木料的形状，木料是动作直接作用的对象。",
+    "hint": "留意木料是自行弯曲，还是师傅对它进行加工。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaana.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "lexicalKey": "书架搁板受重弯曲",
+    "scene": "长期堆书导致旧书架搁板从中央弯下。",
+    "before": [
+      {
+        "text": "本を並べ過ぎたせいで、古い書棚の棚板が中央から少し",
+        "reading": "ほんをならべすぎたせいで、ふるいしょだなのたないたがちゅうおうからすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "曲がった",
+        "reading": "まがった",
+        "verdict": "correct",
+        "explanation": "书架搁板受书本重量影响而自身弯曲，句中「棚板が」是形状变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "曲げた",
+        "reading": "まげた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「曲げる」会表示某个施事把搁板或其他东西弯曲；此处搁板是承受重量而变形的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "因为摆了太多书，旧书架的搁板从中央稍微弯了。",
+    "explanation": "搁板受压后自身变形，并非它去弯曲别的东西。",
+    "hint": "看搁板是形状变化的承受者，还是主动改变其他对象的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaana.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "lexicalKey": "低梁下弯腰通行",
+    "scene": "施工人员经过地下室低矮横梁时深深弯腰。",
+    "before": [
+      {
+        "text": "低い梁をくぐるため、作業員は腰を深く",
+        "reading": "ひくいはりをくぐるため、さぎょういんはこしをふかく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "曲げた",
+        "reading": "まげた",
+        "verdict": "correct",
+        "explanation": "作业员为通过低梁，主动弯下自己的腰，「腰を」是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "曲がった",
+        "reading": "まがった",
+        "verdict": "ungrammatical",
+        "explanation": "「腰を」在这里是作业员弯曲的身体部位；自动词「曲がる」不能接这个直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了从低矮横梁下通过，作业人员深深弯下了腰。",
+    "explanation": "作业员主动弯曲自己的腰以通过低梁。",
+    "hint": "留意身体部位在句中是自己发生变化，还是被人主动弯曲。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "风浪平息后漂木浮现",
+    "scene": "清晨风浪平息后，一段小型流木浮现在港湾水面。",
+    "before": [
+      {
+        "text": "夜明けに波が静まると、小さな流木が港の水面に",
+        "reading": "よあけになみがしずまると、ちいさなりゅうぼくがみなとのすいめんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "浮かんだ",
+        "reading": "うかんだ",
+        "verdict": "correct",
+        "explanation": "风浪平息后，流木本身出现在港湾水面上；句子描述物体实际浮现的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "浮かべた",
+        "reading": "うかべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「浮かべる」表示施事把某物放到水面，或让表情显现；此处流木自身浮在水面，并没有人把它放上去。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "天亮时风浪平息后，一段小型流木浮现在港湾水面上。",
+    "explanation": "流木自身出现在水面上，句子没有描写人为放置动作。",
+    "hint": "注意漂木是自行出现在水面，还是有人把某物放到水面上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "河灯放入水面",
+    "scene": "灯笼漂流活动中，参与者把写有祝愿的灯笼放到河面上。",
+    "before": [
+      {
+        "text": "送り盆の夜、参加者は願いを書いた小さな灯籠を川面に",
+        "reading": "おくりぼんのよる、さんかしゃはねがいをかいたちいさなとうろうをかわもに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "浮かべた",
+        "reading": "うかべた",
+        "verdict": "correct",
+        "explanation": "参与者主动把灯笼放到河面上，「灯籠を」标明被放浮的对象。"
+      },
+      {
+        "id": "b",
+        "text": "浮かんだ",
+        "reading": "うかんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「灯籠を」是参与者放入水面的对象；自动词「浮かぶ」描述物体自身浮起，不能接这里的「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "送盆之夜，参与者把写有祝愿的小灯笼放到了河面上。",
+    "explanation": "参与者主动使灯笼浮在水面上，灯笼是动作对象。",
+    "hint": "留意灯笼是自己浮现，还是参与者把它放入水面。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "童年海边老屋浮现",
+    "scene": "重读祖父的信时，童年时的海边老屋忽然浮现在脑海。",
+    "before": [
+      {
+        "text": "祖父の手紙を読み返していると、幼い頃の海辺の家がふと頭に",
+        "reading": "そふのてがみをよみかえしていると、おさないころのうみべのいえがふとあたまに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "浮かんだ",
+        "reading": "うかんだ",
+        "verdict": "correct",
+        "explanation": "读信时，童年老屋的形象自行出现在脑海中；句子突出回忆浮现的过程。"
+      },
+      {
+        "id": "b",
+        "text": "浮かべた",
+        "reading": "うかべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「浮かべる」可以表示有意回想、把某种形象带入意识；此处记忆是读信时自然浮现，并非姊姊主动回想某个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "重读祖父的信时，童年时的海边老屋忽然浮现在脑海。",
+    "explanation": "老屋的形象自然进入意识，并非有人主动把它想起来。",
+    "hint": "看记忆是自然出现在意识中，还是某人有意把它带入脑海。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "姐姐露出宽慰笑容",
+    "scene": "听到妹妹考试合格的消息，姐姐脸上露出宽慰的笑容。",
+    "before": [
+      {
+        "text": "妹が試験に合格した知らせを聞いた姉は、ほっとした笑みを",
+        "reading": "いもうとがしけんにごうかくしたしらせをきいたあねは、ほっとしたえみを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "浮かべた",
+        "reading": "うかべた",
+        "verdict": "correct",
+        "explanation": "姐姐把宽慰的笑容显露在脸上，「笑みを」是表露出的神情。"
+      },
+      {
+        "id": "b",
+        "text": "浮かんだ",
+        "reading": "うかんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「笑みを」在这里是姐姐表露的神情对象；自动词「浮かぶ」描述笑容自身浮现，不能接这个「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "姐姐听到妹妹考试合格的消息后，脸上浮现出宽慰的笑容。",
+    "explanation": "姐姐主动在脸上显露宽慰的笑容。",
+    "hint": "留意笑容是自己显现，还是姐姐将它表露出来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "lexicalKey": "古参道顺河谷延伸",
+    "scene": "古老参道顺着河流走势，沿谷地向北延伸。",
+    "before": [
+      {
+        "text": "古い参道は、川の流れに",
+        "reading": "ふるいさんどうは、かわのながれに"
+      }
+    ],
+    "after": [
+      {
+        "text": "、谷沿いに北へ延びている。",
+        "reading": "、たにぞいにきたへのびている。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "従って",
+        "reading": "したがって",
+        "verdict": "correct",
+        "explanation": "参道沿着河流的走向延伸，描述路线本身顺着地形前行。"
+      },
+      {
+        "id": "b",
+        "text": "従えて",
+        "reading": "したがえて",
+        "verdict": "meaning-mismatch",
+        "explanation": "「従える」的他动词用法是带领、带着对象前行；另也可能是「従う」的可能形。这里说的是参道实际沿河谷延伸，不是它带领其他对象，也不是它有能力沿着河流走。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "古老的参道顺着河流的走向，沿山谷向北延伸。",
+    "explanation": "参道本身沿着河流和山谷的形势延伸。",
+    "hint": "判断参道是沿地形前行，还是带着某个对象同行。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "lexicalKey": "队长带队检查观测站",
+    "scene": "为检查山中的观测站，队长带着年轻队员进入山道。",
+    "before": [
+      {
+        "text": "山中の観測所を点検するため、隊長は若い隊員たちを",
+        "reading": "さんちゅうのかんそくじょをてんけんするため、たいちょうはわかいたいいんたちを"
+      }
+    ],
+    "after": [
+      {
+        "text": "山道に入った。",
+        "reading": "やまみちにはいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "従えて",
+        "reading": "したがえて",
+        "verdict": "correct",
+        "explanation": "队长带领年轻队员进入山道，「隊員たちを」标出被带领的对象。"
+      },
+      {
+        "id": "b",
+        "text": "従って",
+        "reading": "したがって",
+        "verdict": "ungrammatical",
+        "explanation": "「隊員たちを」是队长带领的对象；自动词「従う」通常以「に」标出跟随对象，不能用这个「を」表示被带领的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为检查山中的观测站，队长带领年轻队员进入了山道。",
+    "explanation": "队长带着队员同行，队员是他带领的对象。",
+    "hint": "留意谁带领队伍，以及队员在句中所处的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "lexicalKey": "选手抗议拒绝停赛",
+    "scene": "选手明知裁判命令暂停比赛，却为抗议继续比赛，没有听从指示。",
+    "before": [
+      {
+        "text": "選手は審判の停止命令に気づいていたが、抗議のため試合を続け、指示に",
+        "reading": "せんしゅはしんぱんのていしめいれいにきづいていたが、こうぎのためしあいをつづけ、しじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "従わなかった",
+        "reading": "したがわなかった",
+        "verdict": "correct",
+        "explanation": "选手知道暂停命令却继续比赛，表示他没有照指示行动。"
+      },
+      {
+        "id": "b",
+        "text": "従えなかった",
+        "reading": "したがえなかった",
+        "verdict": "meaning-mismatch",
+        "explanation": "这个形式可表示「不能服从」的可能意义，也可作为「従える」的否定；场景明确选手是为抗议而故意不听从，并非没有能力服从。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "选手注意到了裁判的暂停命令，却为了抗议继续比赛，没有听从指示。",
+    "explanation": "选手是有意违背指示，而不是无法遵从。",
+    "hint": "辨别选手是主动不听从，还是不能按指示行动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "lexicalKey": "城主带亲信巡视边境",
+    "scene": "城主带着亲信在天亮前出城巡查边境。",
+    "before": [
+      {
+        "text": "国境沿いを巡視するため、城主は側近を",
+        "reading": "こっきょうぞいをじゅんしするため、じょうしゅはそっきんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "夜明け前に城門を出た。",
+        "reading": "よあけまえにじょうもんをでた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "従えて",
+        "reading": "したがえて",
+        "verdict": "correct",
+        "explanation": "城主带着亲信一同出城巡查，亲信是被带领的随行者。"
+      },
+      {
+        "id": "b",
+        "text": "従って",
+        "reading": "したがって",
+        "verdict": "ungrammatical",
+        "explanation": "「側近を」标出城主带领的对象；自动词「従う」不能用这里的「を」表示随行的亲信。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为巡查边境，城主带着亲信在天亮前出了城门。",
+    "explanation": "城主带领亲信随行，亲信是动作直接涉及的人。",
+    "hint": "留意城主和亲信之间是谁带领、谁随行。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbpa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "窑烟从烟囱升起",
+    "scene": "窑里添薪后，白烟从烟囱升起。",
+    "before": [
+      {
+        "text": "窯に薪を足すと、煙突から白い煙が",
+        "reading": "かまにまきをたすと、えんとつからしろいけむりが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "立った",
+        "reading": "たった",
+        "verdict": "correct",
+        "explanation": "添薪后烟从烟囱升起，烟本身是出现并上升的主体。"
+      },
+      {
+        "id": "b",
+        "text": "立てた",
+        "reading": "たてた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「立てる」可以表示竖起某物；它也可能是「立つ」的可能形。此处实际发生的是烟升起，不是在描述烟有能力站立或有人竖起了烟。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "往窑里添薪后，白烟从烟囱升起。",
+    "explanation": "烟自身升起并飘在空中，句子没有描写人为竖起其他对象。",
+    "hint": "注意烟是自己升起，还是某人把一个物体竖起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbpa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "会场入口竖指示牌",
+    "scene": "为免来场者迷路，工作人员在会场入口竖起指示牌。",
+    "before": [
+      {
+        "text": "運営スタッフは、来場者が迷わないよう会場の入口に案内板を",
+        "reading": "うんえいスタッフは、らいじょうしゃがまよわないようかいじょうのいりぐちにあんないばんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "立てた",
+        "reading": "たてた",
+        "verdict": "correct",
+        "explanation": "工作人员主动在入口竖起指示牌，「案内板を」是被竖立的物体。"
+      },
+      {
+        "id": "b",
+        "text": "立った",
+        "reading": "たった",
+        "verdict": "ungrammatical",
+        "explanation": "「案内板を」在句中是工作人员竖起的对象；自动词「立つ」不能接这里的直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员为了不让来场者迷路，在会场入口竖起了指示牌。",
+    "explanation": "工作人员把指示牌竖立在入口，牌子是动作对象。",
+    "hint": "留意是谁把指示牌竖起来，以及它在句中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbpa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "讲座结束前留在座位",
+    "scene": "她决定听完整场讲座，在结束提示响起前一直留在最后一排。",
+    "before": [
+      {
+        "text": "講演を最後まで聞くと決めていた彼女は、終了の合図があるまで最後列の席を",
+        "reading": "こうえんをさいごまできくときめていたかのじょは、しゅうりょうのあいずがあるまでさいこうれつのせきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "立たなかった",
+        "reading": "たたなかった",
+        "verdict": "correct",
+        "explanation": "她选择继续坐着听讲，直到结束提示才离开座位；「席を立つ」中的「を」标出离开的地点。"
+      },
+      {
+        "id": "b",
+        "text": "立てなかった",
+        "reading": "たてなかった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「立てなかった」也可表示没有能力从座位起身；本场景说明她决定听到结束并主动留在座位，不是无法站起来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "决定听完整场讲座的她，直到结束提示响起都没有离开最后一排的座位。",
+    "explanation": "她有意留在座位听讲，句子表达的是离开座位这一动作没有发生。",
+    "hint": "分辨她是主动留座，还是因身体原因不能起身。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

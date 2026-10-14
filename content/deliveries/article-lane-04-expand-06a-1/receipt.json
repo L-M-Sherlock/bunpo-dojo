@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04_6a1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-06a-1.draft.json",
+  "at": "2026-10-14T02:45:33.604Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refria.04",
+      "hash": "112ebea1061887ec8174ec09160c125502141d80da5b060993acec1a6809c771",
+      "fullSentences": [
+        "被写体にピントを合わせるため、撮影者はレンズのフォーカスリングを少し回した。"
+      ]
+    },
+    {
+      "id": "verb.refsfa.01",
+      "hash": "d5533da9d3dacbf16e0eff29c5bdff3d304c9abc58dfd79179ee654006faa4de",
+      "fullSentences": [
+        "宅配便の台車が通れるよう、通路にいた店員は壁際へ一歩退いた。"
+      ]
+    },
+    {
+      "id": "verb.refsfa.02",
+      "hash": "afe9f5fb46de3f9fd09c4a5d21aeedd7c3406d8433eab26c3efedf96da6eed81",
+      "fullSentences": [
+        "搬入車が通れるよう、管理人は入口をふさいでいた自転車を壁際へ退かした。"
+      ]
+    },
+    {
+      "id": "verb.refsfa.03",
+      "hash": "dd39d9bf4342244e97f2f76560d466849a2833210a9445be4f2070be723ef18c",
+      "fullSentences": [
+        "店員がカウンターを拭くため、客は椅子から立って少し横へ退いた。"
+      ]
+    }
+  ]
+}

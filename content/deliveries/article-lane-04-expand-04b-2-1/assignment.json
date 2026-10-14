@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refgaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "pair": {
+      "id": "verb.refgaa",
+      "intransitive": "起きる",
+      "intransitiveReading": "おきる",
+      "transitive": "起こす",
+      "transitiveReading": "おこす",
+      "meaning": "辨析「起きる／起こす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refica.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "pair": {
+      "id": "verb.refica",
+      "intransitive": "汚れる",
+      "intransitiveReading": "けがれる",
+      "transitive": "汚す",
+      "transitiveReading": "けがす",
+      "meaning": "辨析「汚れる／汚す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

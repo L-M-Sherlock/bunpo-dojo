@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaaga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaga",
+    "familyId": "verb.refaaga",
+    "pair": {
+      "id": "verb.refaaga",
+      "intransitive": "強まる",
+      "intransitiveReading": "つよまる",
+      "transitive": "強める",
+      "transitiveReading": "つよめる",
+      "meaning": "辨析「強まる／強める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 33
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaoa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "pair": {
+      "id": "verb.refaaoa",
+      "intransitive": "混ざる",
+      "intransitiveReading": "まざる",
+      "transitive": "混ぜる",
+      "transitiveReading": "まぜる",
+      "meaning": "辨析「混ざる／混ぜる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 41
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaoa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "pair": {
+      "id": "verb.refaaoa",
+      "intransitive": "混ざる",
+      "intransitiveReading": "まざる",
+      "transitive": "混ぜる",
+      "transitiveReading": "まぜる",
+      "meaning": "辨析「混ざる／混ぜる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 41
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaoa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "pair": {
+      "id": "verb.refaaoa",
+      "intransitive": "混ざる",
+      "intransitiveReading": "まざる",
+      "transitive": "混ぜる",
+      "transitiveReading": "まぜる",
+      "meaning": "辨析「混ざる／混ぜる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 41
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaoa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "pair": {
+      "id": "verb.refaaoa",
+      "intransitive": "混ざる",
+      "intransitiveReading": "まざる",
+      "transitive": "混ぜる",
+      "transitiveReading": "まぜる",
+      "meaning": "辨析「混ざる／混ぜる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 41
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "pair": {
+      "id": "verb.refbea",
+      "intransitive": "傾く",
+      "intransitiveReading": "かたむく",
+      "transitive": "傾ける",
+      "transitiveReading": "かたむける",
+      "meaning": "辨析「傾く／傾ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "pair": {
+      "id": "verb.refbea",
+      "intransitive": "傾く",
+      "intransitiveReading": "かたむく",
+      "transitive": "傾ける",
+      "transitiveReading": "かたむける",
+      "meaning": "辨析「傾く／傾ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "pair": {
+      "id": "verb.refbea",
+      "intransitive": "傾く",
+      "intransitiveReading": "かたむく",
+      "transitive": "傾ける",
+      "transitiveReading": "かたむける",
+      "meaning": "辨析「傾く／傾ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "pair": {
+      "id": "verb.refbea",
+      "intransitive": "傾く",
+      "intransitiveReading": "かたむく",
+      "transitive": "傾ける",
+      "transitiveReading": "かたむける",
+      "meaning": "辨析「傾く／傾ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "pair": {
+      "id": "verb.refbka",
+      "intransitive": "退く",
+      "intransitiveReading": "しりぞく",
+      "transitive": "退ける",
+      "transitiveReading": "しりぞける",
+      "meaning": "辨析「退く／退ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "pair": {
+      "id": "verb.refbka",
+      "intransitive": "退く",
+      "intransitiveReading": "しりぞく",
+      "transitive": "退ける",
+      "transitiveReading": "しりぞける",
+      "meaning": "辨析「退く／退ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "pair": {
+      "id": "verb.refbka",
+      "intransitive": "退く",
+      "intransitiveReading": "しりぞく",
+      "transitive": "退ける",
+      "transitiveReading": "しりぞける",
+      "meaning": "辨析「退く／退ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "pair": {
+      "id": "verb.refbka",
+      "intransitive": "退く",
+      "intransitiveReading": "しりぞく",
+      "transitive": "退ける",
+      "transitiveReading": "しりぞける",
+      "meaning": "辨析「退く／退ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "pair": {
+      "id": "verb.refbqa",
+      "intransitive": "違う",
+      "intransitiveReading": "ちがう",
+      "transitive": "違える",
+      "transitiveReading": "ちがえる",
+      "meaning": "辨析「違う／違える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 17
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "pair": {
+      "id": "verb.refbqa",
+      "intransitive": "違う",
+      "intransitiveReading": "ちがう",
+      "transitive": "違える",
+      "transitiveReading": "ちがえる",
+      "meaning": "辨析「違う／違える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 17
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "pair": {
+      "id": "verb.refbqa",
+      "intransitive": "違う",
+      "intransitiveReading": "ちがう",
+      "transitive": "違える",
+      "transitiveReading": "ちがえる",
+      "meaning": "辨析「違う／違える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 17
+    },
+    "direction": "intransitive"
+  }
+]

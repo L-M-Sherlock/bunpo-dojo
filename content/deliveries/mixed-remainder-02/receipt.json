@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/remainder-02.draft.json",
+  "at": "2026-10-13T13:07:10.475Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "mixed.22",
+      "hash": "619f617934d76067f2d00b07fdd87b75497558390f612b89d73b10b9e4bc88d7",
+      "fullSentences": [
+        "先生は職員室で資料を印刷し、新入生に校内案内図を渡した。"
+      ]
+    },
+    {
+      "id": "mixed.23",
+      "hash": "12dec24cb60847be24764c3f3c08c7a98b9f851c0fbaeb159b12731a71a3b560",
+      "fullSentences": [
+        "係員は会議室で資料を配り、発表会は午後三時に始まった。"
+      ]
+    },
+    {
+      "id": "mixed.24",
+      "hash": "72c8653f86bd5212a3945f2680910e03244266d7fb23f7f0134573e69def2a49",
+      "fullSentences": [
+        "講師は新しい画材の名前を紹介し、児童は筆で梅の花の絵を描いた。"
+      ]
+    },
+    {
+      "id": "mixed.25",
+      "hash": "c320fec3e7ec9cc32100dfa279b886e2d4fb4ec348c08f917e2d53944b9a06fb",
+      "fullSentences": [
+        "母は台所で弁当を用意し、子どもたちは公園へ虫を探しに行った。"
+      ]
+    },
+    {
+      "id": "mixed.26",
+      "hash": "36f9bc8d46ff809fdaba680da972cdf867e7521c6700ceff1ddcbf542bd06109",
+      "fullSentences": [
+        "看護師は保健室で患者の体温を測り、受付係は窓口にいる。"
+      ]
+    }
+  ]
+}

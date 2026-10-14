@@ -1,0 +1,22 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/location-20261013/activity/add-r1.draft.json",
+  "at": "2026-10-13T16:29:32.157Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "particle.activity.14",
+      "hash": "68d3e3ac1bf31f9ed231c2b9a43a089fffd6ccb24c0ccf90a704fb43a85bed9d",
+      "fullSentences": [
+        "漁協の職員は港の荷さばき場で空の魚箱を洗います。"
+      ]
+    },
+    {
+      "id": "particle.activity.18",
+      "hash": "5724fef70c85a83fd0c10462ad262e538692628171a62ecbaf623141835c617f",
+      "fullSentences": [
+        "今夜、川沿いの広場で野外映画会があります。"
+      ]
+    }
+  ]
+}

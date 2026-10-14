@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_06_6b1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-06b-2.draft.json",
+  "at": "2026-10-14T03:00:52.834Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refwaa.03",
+      "hash": "a6fb988cba4f5459a58776a130a86423bf20383eb9e05364fc03cec6dea95d04",
+      "fullSentences": [
+        "気温が上がった日、池の水面に残っていた氷がすっかりなくなった。"
+      ]
+    },
+    {
+      "id": "verb.refwaa.04",
+      "hash": "8c8d3813749e18d571b84bdb2ece4c44d7bcce8d61b1ff373c75bfc018f0d056",
+      "fullSentences": [
+        "登山者は紙の地図をなくし、分岐点で足を止めた。"
+      ]
+    }
+  ]
+}

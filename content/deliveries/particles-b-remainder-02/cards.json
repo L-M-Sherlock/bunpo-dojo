@@ -1,0 +1,237 @@
+[
+  {
+    "id": "particle.time.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午前九時に受付が開く",
+    "scene": "明天上午九点，博物馆接待处开始开放。",
+    "before": [
+      {
+        "text": "博物館の受付は、明日は午前九時",
+        "reading": "はくぶつかんのうけつけは、あしたはごぜんくじ"
+      }
+    ],
+    "after": [
+      {
+        "text": "開きます。",
+        "reading": "あきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "午前九時は接待处开始开放的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」不表示此处的固定开始时点；它可用于时长、期限等其他关系。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "博物馆接待处明天上午九点开放。",
+    "explanation": "具体钟点是接待处开放的时刻，用「に」表示；「明日」本身作相对时间词，无需加「に」。",
+    "hint": "句中既有相对日期，也有具体钟点；判断空格标记哪一个时间关系。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "六月二十日に上映会を行う",
+    "scene": "户外电影放映会安排在6月20日举行。",
+    "before": [
+      {
+        "text": "野外上映会は六月二十日",
+        "reading": "やがいじょうえいかいはろくがつはつか"
+      }
+    ],
+    "after": [
+      {
+        "text": "行われます。",
+        "reading": "おこなわれます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "六月二十日是放映会举行的具体日期，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "这里要说明活动举行的日期；「で」不能把六月二十日标成这一具体时点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "户外放映会将于6月20日举行。",
+    "explanation": "六月二十日是活动举行的日期，用「に」表示时间点。",
+    "hint": "判断六月二十日在句中表示举行日期，还是持续时间或活动场所。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "三月三十一日に定期点検を行う",
+    "scene": "工厂计划在3月31日进行设备定期检查。",
+    "before": [
+      {
+        "text": "工場では、設備の定期点検を三月三十一日",
+        "reading": "こうじょうでは、せつびのていきてんけんをさんがつさんじゅういちにち"
+      }
+    ],
+    "after": [
+      {
+        "text": "行います。",
+        "reading": "おこないます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "三月三十一日は定期点検を実施する日なので、「に」で時点を示します。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」は手段や場所、所要時間などを表しますが、この文では点検日を指定しています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工厂将在3月31日进行设备定期检查。",
+    "explanation": "句子说明设备检查安排在哪一天，具体日期用「に」标记。",
+    "hint": "空格后接的是实际执行检查的日期，不是检查所花的时长。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午前八時四十五分に出発する",
+    "scene": "工厂参观班车定于星期五早上8点45分从正门发车。",
+    "before": [
+      {
+        "text": "工場見学の送迎バスは、金曜日の午前八時四十五分",
+        "reading": "こうじょうけんがくのそうげいバスは、きんようびのごぜんはちじよんじゅうごふん"
+      }
+    ],
+    "after": [
+      {
+        "text": "正門を出ます。",
+        "reading": "せいもんをでます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "午前八時四十五分は班车从正门出发的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "这里不是“在8点45分内完成”的时长关系，而是班车出发的时间点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工厂参观班车星期五上午8点45分从正门出发。",
+    "explanation": "星期五上午八点四十五分是班车出发的时刻，用「に」表示。",
+    "hint": "辨别这是班车的确定发车时刻，还是做完某事所需的时长。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午後七時十分に花火が始まる",
+    "scene": "夏日祭的烟火节目在晚上7点10分开始。",
+    "before": [
+      {
+        "text": "夏祭りの花火は午後七時十分",
+        "reading": "なつまつりのはなびはごごしちじじゅっぷん"
+      }
+    ],
+    "after": [
+      {
+        "text": "始まる。",
+        "reading": "はじまる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "午後七時十分是烟火节目开始的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示某事所花的时间等关系，但这里说明的是节目开始的钟点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夏日祭的烟火节目晚上7点10分开始。",
+    "explanation": "具体钟点是烟火节目开始的时间点，用「に」标出。",
+    "hint": "这里需要标记一个确定的开始时刻，不是活动持续多久。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

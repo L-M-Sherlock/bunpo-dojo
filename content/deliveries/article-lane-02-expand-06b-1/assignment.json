@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "pair": {
+      "id": "verb.refsja",
+      "intransitive": "鳴る",
+      "intransitiveReading": "なる",
+      "transitive": "鳴らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「鳴る／鳴らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reftca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "pair": {
+      "id": "verb.reftca",
+      "intransitive": "塞がる",
+      "intransitiveReading": "ふさがる",
+      "transitive": "塞ぐ",
+      "transitiveReading": "ふさぐ",
+      "meaning": "辨析「塞がる／塞ぐ」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reftca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "pair": {
+      "id": "verb.reftca",
+      "intransitive": "塞がる",
+      "intransitiveReading": "ふさがる",
+      "transitive": "塞ぐ",
+      "transitiveReading": "ふさぐ",
+      "meaning": "辨析「塞がる／塞ぐ」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reftca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "pair": {
+      "id": "verb.reftca",
+      "intransitive": "塞がる",
+      "intransitiveReading": "ふさがる",
+      "transitive": "塞ぐ",
+      "transitiveReading": "ふさぐ",
+      "meaning": "辨析「塞がる／塞ぐ」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "verb.refaapa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "协调会结束时，执行委员们的提案汇成一份方案",
+    "before": [
+      {
+        "text": "打ち合わせの終わりには、実行委員の提案が一つの企画に",
+        "reading": "うちあわせのおわりには、じっこういいんのていあんがひとつのきかくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏まった",
+        "reading": "まとまった",
+        "verdict": "correct",
+        "explanation": "複数の提案が整理され、一つの企画として形になりました。"
+      },
+      {
+        "id": "b",
+        "text": "纏めた",
+        "reading": "まとめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを一つに整理する側の動作です。提案自体が一つに形づくられた場面とは役割が異なります。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "协调会结束时，执行委员们的提案汇成了一份方案。",
+    "explanation": "提案自身从多个想法整合成了一个方案，句子描写结果。",
+    "hint": "确认句子是在说提案形成统一结果，还是有人主动整理别的内容。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaapa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "楼宇管理员把散落的维修记录按年份整理成一本册子",
+    "before": [
+      {
+        "text": "管理人は、散在していた修理記録を年度順に一冊の冊子に",
+        "reading": "かんりにんは、さんざいしていたしゅうりきろくをねんどじゅんにいっさつのさっしに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏めた",
+        "reading": "まとめた",
+        "verdict": "correct",
+        "explanation": "管理人が複数の修理記録を年度順に一冊へ整理しています。"
+      },
+      {
+        "id": "b",
+        "text": "纏まった",
+        "reading": "まとまった",
+        "verdict": "ungrammatical",
+        "explanation": "「修理記録を」が直接の対象を示すため、自動詞の「纏まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "楼宇管理员把散落各处的维修记录按年度顺序整理成了一本册子。",
+    "explanation": "楼宇管理员主动将多份记录按年份归并成册。",
+    "hint": "确定谁把资料排好顺序并收入一本册子。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

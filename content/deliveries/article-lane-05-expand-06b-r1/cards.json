@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refvaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "lexicalKey": "potted-seedling-soil-watering",
+    "scene": "店主发现盆土表面干燥，便给幼苗根部浇水，使土壤湿润。",
+    "before": [
+      {
+        "text": "鉢の土の表面が乾いていたので、園芸店の店主は苗の根元に水を注いで土を",
+        "reading": "はちのつちのひょうめんがかわいていたので、えんげいてんのてんしゅはなえのねもとにみずをそそいでつちを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潤した",
+        "reading": "うるおした",
+        "verdict": "correct",
+        "explanation": "园艺店店主给土壤浇水使其湿润，「土を」标出被滋润的对象，符合「潤す」的他动词关系。"
+      },
+      {
+        "id": "b",
+        "text": "潤った",
+        "reading": "うるおった",
+        "verdict": "ungrammatical",
+        "explanation": "「潤う」描述土壤自身变湿，通常说「土が潤う」；本句以「土を」标明被店主浇湿的对象，不能用自动词形式接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "盆中土壤表面已经干了，园艺店店主便往幼苗根部浇水，使土壤湿润。",
+    "explanation": "园艺店店主给幼苗根部浇水，使盆中土壤变湿；土壤是受影响的对象。",
+    "hint": "观察句中土壤是自身变湿的主体，还是被店主浇湿的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

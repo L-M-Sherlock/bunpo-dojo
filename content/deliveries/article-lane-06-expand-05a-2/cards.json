@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refjaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjaa",
+    "familyId": "verb.refjaa",
+    "lexicalKey": "grandfather-seats-grandchild-in-car",
+    "scene": "出发前，祖父把孙子安顿到汽车后座。",
+    "before": [
+      {
+        "text": "出発前、祖父は孫を車の後部座席に",
+        "reading": "しゅっぱつまえ、そふはまごをくるまのこうぶざせきに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "乗せた",
+        "reading": "のせた",
+        "verdict": "correct",
+        "explanation": "「孫を」は被安排乘车的人，「後部座席に」标出他要坐到的位置；乗せる可表示让人上车就座。"
+      },
+      {
+        "id": "b",
+        "text": "乗った",
+        "reading": "のった",
+        "verdict": "ungrammatical",
+        "explanation": "乗る表示主语本人乘坐；本句的祖父是主语，而「孫を」把孙子标成了对象，不能接表示乘坐者本人的乗る。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "出发前，祖父让孙子坐进汽车后座。",
+    "explanation": "句中祖父安排孙子上车，孙子是对象，后座是就座位置。",
+    "hint": "看「孫を」和「後部座席に」分别标出了什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refpaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "lexicalKey": "manga-artist-stays-in-workroom",
+    "scene": "漫画家为赶截稿，在工作室闭门创作一周。",
+    "before": [
+      {
+        "text": "締切前の一週間、漫画家は仕事部屋に",
+        "reading": "しめきりまえのいっしゅうかん、まんがかはしごとべやに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "籠もった",
+        "reading": "こもった",
+        "verdict": "correct",
+        "explanation": "漫画家本人留在工作室里；場所用「に」标出，籠もる表示留在里面、闭门不出。"
+      },
+      {
+        "id": "b",
+        "text": "籠めた",
+        "reading": "こめた",
+        "verdict": "ungrammatical",
+        "explanation": "籠める表示把某物装入或把心意注入某处，通常需要「を」标出所装入的内容；句中没有这样的对象，主语是留在工作室里的漫画家。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "截稿前的一周，漫画家一直待在工作室里。",
+    "explanation": "这里写漫画家本人待在工作室内，地点由「に」标出。",
+    "hint": "留意句子说的是人停留在某处，还是把某个对象放进某处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refpaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "lexicalKey": "mother-puts-care-into-lunchbox",
+    "scene": "远足当天早晨，母亲把对家人的心意融进孩子便当。",
+    "before": [
+      {
+        "text": "母は遠足の朝、子どもの弁当に家族への思いを",
+        "reading": "はははえんそくのあさ、こどものべんとうにかぞくへのおもいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "籠めた",
+        "reading": "こめた",
+        "verdict": "correct",
+        "explanation": "母亲把心意融入便当；「家族への思いを」是所注入的内容，「子どもの弁当に」标出承载它的东西。"
+      },
+      {
+        "id": "b",
+        "text": "籠もった",
+        "reading": "こもった",
+        "verdict": "ungrammatical",
+        "explanation": "籠もる描写心意本身含在某处，通常说「思いが籠もる」；这里是母亲把「思いを」放进便当，宾语结构不适用于籠もる。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "远足当天早晨，母亲把对家人的心意融入孩子的便当中。",
+    "explanation": "句子以母亲为施事，把「家族への思い」作为注入便当的内容。",
+    "hint": "看「思いを」表示的是被融入的内容，还是自己停留在某处的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refpaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "lexicalKey": "grilled-fish-smoke-lingers-in-kitchen",
+    "scene": "烤鱼时排风扇停转，烟积在厨房里。",
+    "before": [
+      {
+        "text": "焼き魚を焼いている間、換気扇が止まった台所には煙が",
+        "reading": "やきざかなをやいているあいだ、かんきせんがとまっただいどころにはけむりが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "籠もった",
+        "reading": "こもった",
+        "verdict": "correct",
+        "explanation": "烟气本身是「煙が」所标出的主体，厨房是它滞留的地方；籠もる可描写烟气积在室内。"
+      },
+      {
+        "id": "b",
+        "text": "籠めた",
+        "reading": "こめた",
+        "verdict": "ungrammatical",
+        "explanation": "籠める是把某物装入或充满某处的他动词；这里烟以「が」作滞留的主体，没有人把烟作为「を」宾语装进厨房。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烤鱼时，排风扇停转的厨房里积起了烟。",
+    "explanation": "烟是积聚的主体，停转排风扇的厨房是烟滞留的地方。",
+    "hint": "判断句子把烟写成自行滞留的主体，还是被某人装入空间的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

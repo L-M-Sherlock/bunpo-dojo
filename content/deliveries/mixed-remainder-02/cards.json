@@ -1,0 +1,284 @@
+[
+  {
+    "id": "mixed.22",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "campus-map-recipient",
+    "scene": "老师在教职员室印资料，把校园地图交给新生。",
+    "before": [
+      {
+        "text": "先生は職員室で資料を印刷し、新入生",
+        "reading": "せんせいはしょくいんしつでしりょうをいんさつし、しんにゅうせい"
+      }
+    ],
+    "after": [
+      {
+        "text": "校内案内図を渡した。",
+        "reading": "こうないあんないずをわたした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "新生是校园地图的接收者，用「に」标出交付对象。"
+      },
+      {
+        "id": "b",
+        "text": "が",
+        "reading": "が",
+        "verdict": "meaning-mismatch",
+        "explanation": "换成「が」后，新生会成为递交地图的施事，句子变成新生把地图交给别人；场景中是老师交给新生。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "老师在教职员室打印资料，并把校园地图交给了新生。",
+    "explanation": "老师是交付者，校园地图是交付物，新生是接收者；接收者由「に」标示。",
+    "hint": "分清交出地图的人、被交付的地图和接到地图的人。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.23",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "presentation-start-time",
+    "scene": "工作人员在会议室发放资料，发布会下午三点开始。",
+    "before": [
+      {
+        "text": "係員は会議室で資料を配り、発表会は午後三時",
+        "reading": "かかりいんはかいぎしつでしりょうをくばり、はっぴょうかいはごごさんじ"
+      }
+    ],
+    "after": [
+      {
+        "text": "始まった。",
+        "reading": "はじまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "下午三点是发布会开始的具体时点，用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "ungrammatical",
+        "explanation": "「へ」标示移动方向或着点，不能把三点标为发布会开始的时刻。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在会议室发放资料，发布会于下午三点开始。",
+    "explanation": "发放资料是前一动作，主句用明确时刻「午後三時」说明发布会何时开始。",
+    "hint": "判断「午後三時」在句中表示一个具体时刻，还是移动要去的方向。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.24",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "brush-painting-tool",
+    "scene": "讲师介绍新画材后，孩子用毛笔画了梅花。",
+    "before": [
+      {
+        "text": "講師は新しい画材の名前を紹介し、児童は筆",
+        "reading": "こうしはあたらしいがざいのなまえをしょうかいし、じどうはふで"
+      }
+    ],
+    "after": [
+      {
+        "text": "梅の花の絵を描いた。",
+        "reading": "うめのはなのえをえがいた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "毛笔是孩子画梅花时使用的工具，用「で」标示手段。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「筆に絵を描く」会把毛笔理解为画作画在其上的表面；场景中毛笔是作画工具，不是承载画作的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "讲师介绍新画材的名称后，孩子用毛笔画了梅花。",
+    "explanation": "前半句交代讲师介绍画材，主句里孩子使用毛笔完成画作；工具用「で」标示。",
+    "hint": "判断毛笔是孩子用来画画的工具，还是画作本身所在的表面。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.25",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "park-insect-search",
+    "scene": "妈妈在厨房准备便当，孩子们去公园找昆虫。",
+    "before": [
+      {
+        "text": "母",
+        "reading": "はは"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "台所で",
+        "reading": "だいどころで"
+      },
+      {
+        "text": "弁当",
+        "reading": "べんとう"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "用意し、",
+        "reading": "よういし、"
+      },
+      {
+        "text": "子どもたち",
+        "reading": "こどもたち"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "公園へ",
+        "reading": "こうえんへ"
+      },
+      {
+        "text": "虫",
+        "reading": "むし"
+      },
+      {
+        "text": "を"
+      },
+      {
+        "text": "探し",
+        "reading": "さがし"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "孩子们前往公园的目的是找昆虫；动词连用形后的目的标记用「に」。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标示手段或活动地点，不能接在「探し」后表达去公园寻找昆虫的目的。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "妈妈在厨房准备便当，孩子们去公园寻找昆虫。",
+    "explanation": "孩子们移动的目的地是公园，前面的「虫を探し」说明此行目的，目的标记用「に」。",
+    "hint": "看孩子们去公园是为了做什么，以及动词连用形如何连接移动动词。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.26",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "reception-counter-location",
+    "scene": "护士在保健室量病人体温，接待员在服务窗口。",
+    "before": [
+      {
+        "text": "看護師は保健室で患者の体温を測り、受付係は窓口",
+        "reading": "かんごしはほけんしつでかんじゃのたいおんをはかり、うけつけがかりはまどぐち"
+      }
+    ],
+    "after": [
+      {
+        "text": "いる。",
+        "reading": "いる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "主句说明接待员当前所在的位置，存在地点用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标示测量等动作发生的地点，但「いる」在这里表示存在状态，不能用「窓口でいる」表达所在位置。"
+      },
+      {
+        "id": "c",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "ungrammatical",
+        "explanation": "「へ」标示移动方向或着点；「いる」表示接待员已经处于某处，不表达朝窗口移动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "护士在保健室为病人测量体温，接待员在服务窗口。",
+    "explanation": "前半句用「で」标示测量体温的活动地点，主句说明接待员的存在地点，应使用「に」。",
+    "hint": "比较护士做测量的地点和接待员当前所在的位置。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

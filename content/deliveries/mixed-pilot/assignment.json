@@ -1,0 +1,56 @@
+[
+  {
+    "id": "mixed.01",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "unit": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.02",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "unit": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.03",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "unit": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

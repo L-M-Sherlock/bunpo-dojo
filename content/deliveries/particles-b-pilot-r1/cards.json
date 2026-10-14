@@ -1,0 +1,143 @@
+[
+  {
+    "id": "particle.path.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "地下通路を通る",
+    "scene": "地面入口封闭后，站务员带乘客经地下通道前往南口。",
+    "before": [
+      {
+        "text": "夜間工事で地上の入口が閉まり、駅員は地下通路",
+        "reading": "やかんこうじでちじょうのいりぐちがしまり、えきいんはちかつうろ"
+      }
+    ],
+    "after": [
+      {
+        "text": "通って客を南口まで案内した。",
+        "reading": "とおってきゃくをみなみぐちまであんないした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「を」标出通る的路径；站务员是经地下通道前往南口。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标活动地点，但「地下通路で通る」不能自然地把地下通路表示为通る的经过路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜间施工封闭了地面入口，站务员经地下通道把乘客带到了南口。",
+    "explanation": "地下通路是通往南口时经过的路线，用「を」标出通行路径。",
+    "hint": "判断地下通道是活动发生的地点，还是从入口到南口经过的路线。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "海を渡る",
+    "scene": "技师从本土横渡海面，前往外海岛屿修理停摆的灯塔。",
+    "before": [
+      {
+        "text": "技師は工具を抱え、本土から沖の島まで海",
+        "reading": "ぎしはこうぐをかかえ、ほんどからおきのしままでうみ"
+      }
+    ],
+    "after": [
+      {
+        "text": "渡った。",
+        "reading": "わたった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「を」把海标成从本土到外海岛屿横越的路径，符合句中两端之间的移动。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标活动地点，但「海で渡る」不能自然地把海表示为渡る时横越的水域路径。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "技师抱着工具，从本土渡海前往外海的岛屿。",
+    "explanation": "海是从本土到外海岛屿之间横越的路径，用「を」表示渡过的范围。",
+    "hint": "本土与岛屿之间，句子要标出的是横越的水域还是渡越活动发生的地点？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "迂回路のトンネルを通り抜ける",
+    "scene": "旧道塌方封闭后，作业员改走迂回隧道到达山的另一侧。",
+    "before": [
+      {
+        "text": "土砂崩れで旧道が塞がり、作業員は迂回路のトンネル",
+        "reading": "どしゃくずれできゅうどうがふさがり、さぎょういんはうかいろのトンネル"
+      }
+    ],
+    "after": [
+      {
+        "text": "通り抜けて、山の反対側へ出た。",
+        "reading": "とおりぬけて、やまのはんたいがわへでた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「通り抜ける」和「到山的另一侧」明确表示从隧道一端穿到另一侧的移动；隧道是经过路线，用「を」标示。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示活动发生地点；这里需要表达穿过隧道到另一侧的路径，不能只把隧道标为活动地点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "旧道因塌方封闭，作业员穿过迂回隧道到达山的另一侧。",
+    "explanation": "「通り抜ける」与「山の反対側へ出た」共同明确穿越隧道到另一侧的路径关系，用「を」标出隧道。",
+    "hint": "看谓词是否表示从隧道一端穿到另一侧；这里要标出穿越路线，还是隧道内的活动地点？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

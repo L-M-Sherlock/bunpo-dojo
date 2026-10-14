@@ -1,0 +1,140 @@
+[
+  {
+    "id": "verb.refsla.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "lexicalKey": "惑う/惑わす",
+    "scene": "新手核对隐去高额手续费的投资广告后提出质疑",
+    "before": [
+      {
+        "text": "高額な手数料を伏せた投資広告は、初心者を",
+        "reading": "こうがくなてすうりょうをふせたとうしこうこくは、しょしんしゃを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "惑った",
+        "reading": "まどった",
+        "verdict": "ungrammatical",
+        "explanation": "「惑う」描写主体自身陷入困惑，不能在这里把「初心者を」作为直接对象；当前句型写的是广告使新手受影响。"
+      },
+      {
+        "id": "b",
+        "text": "惑わした",
+        "reading": "まどわした",
+        "verdict": "correct",
+        "explanation": "隐去手续费的广告使投资新手难以准确判断，「初心者を」标出受影响的人。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "隐瞒了高额手续费的投资广告迷惑了新手。",
+    "explanation": "广告是引起迷惑的主体，新手是受到影响的对象。",
+    "hint": "辨认「初心者を」在句中表示施事，还是受影响的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refuaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "lexicalKey": "滅ぶ/滅ぼす",
+    "scene": "整理失去继承人且逐步丧失领土的王朝末期史料",
+    "before": [
+      {
+        "text": "王位を継ぐ者のいなくなった王朝は、領土を少しずつ失い、最後の君主の死後に",
+        "reading": "おういをつぐもののいなくなったおうちょうは、りょうどをすこしずつうしない、さいごのくんしゅのしごに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "滅んだ",
+        "reading": "ほろんだ",
+        "verdict": "correct",
+        "explanation": "句子写王朝逐渐失去领土后自行走向终结，王朝本身是消亡的一方。"
+      },
+      {
+        "id": "b",
+        "text": "滅ぼした",
+        "reading": "ほろぼした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「滅ぼす」表示主语使某对象灭亡，宾语虽可依上下文省略，但这里的王朝是逐渐失去领土、随后消亡的一方，不是毁灭其他对象的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "失去王位继承人的王朝逐渐丧失领土，并在末代君主去世后灭亡了。",
+    "explanation": "王朝本身是走向终结的对象，句子没有把它写成毁灭其他对象的施事。",
+    "hint": "确认主语是走向终结的一方，还是使其他对象灭亡的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refuaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "lexicalKey": "滅ぶ/滅ぼす",
+    "scene": "记录邻国军队攻入并覆灭旧王朝的战史",
+    "before": [
+      {
+        "text": "隣国から攻め込んだ軍勢は、三百年続いた王朝を",
+        "reading": "りんごくからせめこんだぐんぜいは、さんびゃくねんつづいたおうちょうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "滅んだ",
+        "reading": "ほろんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「王朝を」在句中是被毁灭的直接对象；自动词「滅ぶ」描述主体自身消亡，不能接这个宾语。"
+      },
+      {
+        "id": "b",
+        "text": "滅ぼした",
+        "reading": "ほろぼした",
+        "verdict": "correct",
+        "explanation": "军队使延续三百年的王朝灭亡，「王朝を」是被毁灭的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "从邻国攻来的军队灭亡了延续三百年的王朝。",
+    "explanation": "军队是使王朝灭亡的施事，王朝是「を」标出的对象。",
+    "hint": "留意「王朝を」是句子的施事，还是接受毁灭动作的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

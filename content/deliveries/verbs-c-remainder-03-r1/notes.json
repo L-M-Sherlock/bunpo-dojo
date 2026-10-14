@@ -1,0 +1,18 @@
+[
+  {
+    "id": "verb.continue.03",
+    "fullCorrectSentence": "港の花火大会は最終日の夜九時まで続いた。",
+    "sceneConstraint": "烟花大会是延续到最后一天晚上九点的活动本身；没有写一个施事继续其他内容，适合用「続く」。",
+    "possibleOtherReadingsAndHandling": "「続ける」也可把「花火大会」当作继续举办的活动对象，施事（如主办者）省略，表达继续办大会；这一读法语法成立，但与场景中活动自身延续到九点的含义不同，因此 b 应判为 meaning-mismatch。",
+    "readingCheck": "核对为港＝みなと、花火大会＝はなびたいかい、最終日＝さいしゅうび、夜九時＝よるくじ；正确项続いた＝つづいた，错项続けた＝つづけた。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.remain.01",
+    "fullCorrectSentence": "閉店時、棚にはパンが二つ残った。",
+    "sceneConstraint": "打烊时面包仍是货架上的剩余商品；「パンが二つ」标出留下来的物品，不是留下其他物品的施事。",
+    "possibleOtherReadingsAndHandling": "「残す」可省略上下文已知的宾语，但用在此处会把面包读成留下某物的主体；句中没有这样的对象，场景关注的是面包仍在货架上。",
+    "readingCheck": "核对为閉店時＝へいてんじ、棚＝たな、パン 正文与 reading 均保留片假名、二つ＝ふたつ；正确项残った＝のこった，错项残した＝のこした。",
+    "unresolvedQuestions": []
+  }
+]

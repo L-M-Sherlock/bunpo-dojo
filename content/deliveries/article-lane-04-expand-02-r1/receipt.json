@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_recovery",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-02-r1.draft.json",
+  "at": "2026-10-13T19:14:42.392Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refaapa.01",
+      "hash": "0b4f4465285ba86b159faea434c98948ddae0df5150106edc1b1d2415204a9b0",
+      "fullSentences": [
+        "打ち合わせの終わりには、実行委員の提案が一つの企画に纏まった。"
+      ]
+    },
+    {
+      "id": "verb.refaapa.04",
+      "hash": "65f9e430af436fd4ff8f8f5a9a8de7cc30ced2a98ffb9e01253aef1feda90054",
+      "fullSentences": [
+        "管理人は、散在していた修理記録を年度順に一冊の冊子に纏めた。"
+      ]
+    }
+  ]
+}

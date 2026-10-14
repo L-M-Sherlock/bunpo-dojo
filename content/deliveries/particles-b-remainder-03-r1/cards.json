@@ -1,0 +1,50 @@
+[
+  {
+    "id": "particle.means.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "新幹線で東京駅に向かう",
+    "scene": "父亲乘新干线前往东京站，东京站是目的地。",
+    "before": [
+      {
+        "text": "父は新幹線",
+        "reading": "ちちはしんかんせん"
+      }
+    ],
+    "after": [
+      {
+        "text": "東京駅に向かった。",
+        "reading": "とうきょうえきにむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "新干线是前往东京站的交通工具，用「で」标记。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」标目的地；目的地已是东京站，不能用它标新干线这一交通方式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "父亲乘新干线前往东京站。",
+    "explanation": "新干线是交通方式，用「で」表示；东京站是目的地，用「に」表示。",
+    "hint": "分别判断新干线与东京站在移动中各自承担的关系。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

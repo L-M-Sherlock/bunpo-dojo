@@ -1,0 +1,99 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/expansion.draft.json",
+  "at": "2026-10-13T11:51:04.726Z",
+  "count": 13,
+  "cards": [
+    {
+      "id": "verb.open.04",
+      "hash": "f68a25c70c6caecee4f7623cc6a141a8154c90d05a19568a1a869887e29f16cf",
+      "fullSentences": [
+        "妹は誕生日プレゼントの箱を開けました。"
+      ]
+    },
+    {
+      "id": "verb.open.05",
+      "hash": "4beaa5020a34d979719bf9b2aaabde8243e68decb575b0575f4be4ac5087d813",
+      "fullSentences": [
+        "あくびをした拍子に、子どもの口は大きく開きました。"
+      ]
+    },
+    {
+      "id": "verb.close.01",
+      "hash": "50128b564e9ee52c0c72de6054635f55cbb0d344256557eae32e2209bb71d555",
+      "fullSentences": [
+        "閉店後、無人の店のシャッターはひとりでに閉まりました。"
+      ]
+    },
+    {
+      "id": "verb.close.02",
+      "hash": "e2e3d89388d95279b1e025b43160cda300c601ac6524f5e7be04f02bce65c274",
+      "fullSentences": [
+        "冷蔵庫のドアから冷気が漏れていたので、母はドアを閉めました。"
+      ]
+    },
+    {
+      "id": "verb.close.03",
+      "hash": "e7dd1b5cc5820df6066389a15570d4b1823f10ab3691a7e6556b980f962f756e",
+      "fullSentences": [
+        "すきま風で、物置の引き戸はひとりでに閉まりました。"
+      ]
+    },
+    {
+      "id": "verb.close.04",
+      "hash": "082b0a2c4657fa0bf3cc3680478c1531b311b32e5e7dcdebdb7ae66e852896e0",
+      "fullSentences": [
+        "終演後、係員が舞台の幕を閉めました。"
+      ]
+    },
+    {
+      "id": "verb.close.05",
+      "hash": "d0e787f2b75c3d6722c0357601e70c463e419874ca99fe645be9f56f53218545",
+      "fullSentences": [
+        "ばねの力で、機械の安全カバーが自動で閉まりました。"
+      ]
+    },
+    {
+      "id": "verb.light.01",
+      "hash": "260421bf9acf5c175170b28e014715aafc92e51ce6aad94bda16fdcd4024e072",
+      "fullSentences": [
+        "誰も操作していないのに、停電が復旧すると、廊下の照明は一斉につきました。"
+      ]
+    },
+    {
+      "id": "verb.light.02",
+      "hash": "421dfa8b71106d48c888eb601e6fd448099a8d05f3b2f85032f351685ea5ff5f",
+      "fullSentences": [
+        "開演前、照明係が舞台のスポットライトをつけました。"
+      ]
+    },
+    {
+      "id": "verb.light.03",
+      "hash": "27cc5677e8f436558e815211d271a4c78926661c98442b8b109041507c461835",
+      "fullSentences": [
+        "深夜、誰もいない部屋で、テレビは勝手につきました。"
+      ]
+    },
+    {
+      "id": "verb.light.04",
+      "hash": "7e92064a721dd0d13c7e2b2ff964927884de223ddfccc5b466b3f475caad3a3f",
+      "fullSentences": [
+        "蒸し暑い部屋に戻ると、母はエアコンをつけました。"
+      ]
+    },
+    {
+      "id": "verb.light.05",
+      "hash": "459f23cdc405cb0f2dc725f9cd0182d97c5b325462c062acde19b7c5e0304736",
+      "fullSentences": [
+        "誰も操作していないのに、通信信号が戻ると、装置の待機ランプは再びつきました。"
+      ]
+    },
+    {
+      "id": "verb.off.01",
+      "hash": "dc92f15fdbd35116343c30fc79fe792a35893eff8ccee06d192ccc302f2b94fd",
+      "fullSentences": [
+        "一瞬の停電で、撮影スタジオの照明はすべて消えました。"
+      ]
+    }
+  ]
+}

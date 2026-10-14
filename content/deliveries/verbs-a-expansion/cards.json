@@ -1,0 +1,613 @@
+[
+  {
+    "id": "verb.open.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "開く・開ける",
+    "scene": "妹妹打开生日收到的礼物盒。",
+    "before": [
+      {
+        "text": "妹は誕生日プレゼントの箱を",
+        "reading": "いもうとはたんじょうびプレゼントのはこを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開けました",
+        "reading": "あけました",
+        "verdict": "correct",
+        "explanation": "妹妹实施打开动作，礼物盒是动作对象，符合他动词開ける。"
+      },
+      {
+        "id": "b",
+        "text": "開きました",
+        "reading": "あきました",
+        "verdict": "ungrammatical",
+        "explanation": "本选项明确读作あきました，是自动词開く；这个词项不能把「箱を」作为直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "妹妹打开了生日礼物盒。",
+    "explanation": "開ける（あける）以妹妹为施事、礼物盒为对象。",
+    "hint": "留意盒子是被人打开的对象，还是自己发生打开状态变化。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.open.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "開く・開ける",
+    "scene": "孩子一打哈欠，嘴巴就不由自主地张开。",
+    "before": [
+      {
+        "text": "あくびをした拍子に、子どもの口は大きく",
+        "reading": "あくびをしたひょうしに、こどものくちはおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開きました",
+        "reading": "あきました",
+        "verdict": "correct",
+        "explanation": "句子说的是孩子打哈欠后，嘴部自身张开。"
+      },
+      {
+        "id": "b",
+        "text": "開けました",
+        "reading": "あけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，可表示有人把孩子的嘴张开；这里说的是打哈欠时嘴部自身张开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子打哈欠的那一瞬间，嘴巴张开了。",
+    "explanation": "開く（あく）描写嘴部进入张开的状态，不叙述有人把嘴打开。",
+    "hint": "判断句子描述的是嘴部自身的变化，还是某人对嘴部实施动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.close.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "閉まる・閉める",
+    "scene": "闭店后无人留守，卷帘门自己关上了。",
+    "before": [
+      {
+        "text": "閉店後、無人の店のシャッターはひとりでに",
+        "reading": "へいてんご、むじんのみせのシャッターはひとりでに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉まりました",
+        "reading": "しまりました",
+        "verdict": "correct",
+        "explanation": "卷帘门在无人操作时自行变为关闭状态，符合閉まる。"
+      },
+      {
+        "id": "b",
+        "text": "閉めました",
+        "reading": "しめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "閉める可表示有人把卷帘门关上（施事可由语境省略）；这里明确说无人留守、门自己关上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店铺打烊后，空无一人的店里卷帘门自行关上了。",
+    "explanation": "閉まる（しまる）聚焦卷帘门自身由开变关的结果。",
+    "hint": "看场景是门自行变为关闭状态，还是有人实施了关门动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.close.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "閉まる・閉める",
+    "scene": "冰箱门漏出冷气，妈妈把门关上了。",
+    "before": [
+      {
+        "text": "冷蔵庫のドアから冷気が漏れていたので、母はドアを",
+        "reading": "れいぞうこのドアかられいきがもれていたので、はははドアを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉めました",
+        "reading": "しめました",
+        "verdict": "correct",
+        "explanation": "妈妈是关门的施事，冰箱门是动作对象，符合他动词閉める。"
+      },
+      {
+        "id": "b",
+        "text": "閉まりました",
+        "reading": "しまりました",
+        "verdict": "ungrammatical",
+        "explanation": "本句把冰箱门标为动作对象「を」；自动词閉まる不能按这个读法接此宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "冷气从冰箱门漏出来，于是妈妈把门关上了。",
+    "explanation": "閉める（しめる）表示妈妈对冰箱门实施关闭动作。",
+    "hint": "找出句中实施关门动作的人，以及被关上的东西。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.close.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "閉まる・閉める",
+    "scene": "穿堂风一吹，储物间的推拉门自己关上了。",
+    "before": [
+      {
+        "text": "すきま風で、物置の引き戸はひとりでに",
+        "reading": "すきまかぜで、ものおきのひきどはひとりでに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉まりました",
+        "reading": "しまりました",
+        "verdict": "correct",
+        "explanation": "推拉门受穿堂风影响自行关上，句子聚焦它的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "閉めました",
+        "reading": "しめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，可表示某个未明说的施事关上推拉门；本句限定为穿堂风使门自行关上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "穿堂风吹来，储物间的推拉门自行关上了。",
+    "explanation": "閉まる（しまる）描写推拉门自身进入关闭状态。",
+    "hint": "注意句子报告的是推拉门自行关闭，还是某人把它关上。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.close.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "閉まる・閉める",
+    "scene": "演出结束后，工作人员拉上舞台幕布。",
+    "before": [
+      {
+        "text": "終演後、係員が舞台の幕を",
+        "reading": "しゅうえんご、かかりいんがぶたいのまくを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉めました",
+        "reading": "しめました",
+        "verdict": "correct",
+        "explanation": "工作人员实施关幕动作，舞台幕布是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "閉まりました",
+        "reading": "しまりました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「幕を」标出动作对象；自动词閉まる描述幕布自行关闭，不能接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "演出结束后，工作人员把舞台幕布拉上了。",
+    "explanation": "閉める（しめる）表示工作人员主动把幕布关上。",
+    "hint": "留意幕布是动作对象，还是自己发生了关闭状态变化。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.close.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "閉まる・閉める",
+    "scene": "弹簧复位后，机器安全罩自动合上。",
+    "before": [
+      {
+        "text": "ばねの力で、機械の安全カバーが自動で",
+        "reading": "ばねのちからで、きかいのあんぜんカバーがじどうで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉まりました",
+        "reading": "しまりました",
+        "verdict": "correct",
+        "explanation": "弹簧使安全罩自行恢复到关闭状态，句子聚焦状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "閉めました",
+        "reading": "しめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词閉める会表示施事关上某物，或由安全罩作施事关闭别的对象；这里是安全罩在弹簧作用下自行合上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "机器安全罩在弹簧作用下自动合上了。",
+    "explanation": "閉まる（しまる）描述安全罩自身关闭，不强调施事。",
+    "hint": "判断安全罩是自身关闭，还是有施事把某物关上。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.light.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "つく・つける",
+    "scene": "没人操作，走廊灯却随供电恢复一起亮起。",
+    "before": [
+      {
+        "text": "誰も操作していないのに、停電が復旧すると、廊下の照明は一斉に",
+        "reading": "だれもそうさしていないのに、ていでんがふっきゅうすると、ろうかのしょうめいはいっせいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "つきました",
+        "reading": "つきました",
+        "verdict": "correct",
+        "explanation": "供电恢复后走廊灯自己亮起来，描述的是灯的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "つけました",
+        "reading": "つけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "つける可表示有人把灯打开；本句明确没有人操作，灯是随供电恢复而亮起。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "明明没人操作，停电恢复后走廊的灯却一起亮了。",
+    "explanation": "つく表示灯进入亮着的状态；句子没有说有人打开走廊灯。",
+    "hint": "看供电恢复后是灯自己亮起，还是有人实施了开灯动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.light.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "つく・つける",
+    "scene": "开演前，灯光师打开舞台上的追光灯。",
+    "before": [
+      {
+        "text": "開演前、照明係が舞台のスポットライトを",
+        "reading": "かいえんまえ、しょうめいがかりがぶたいのスポットライトを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "つけました",
+        "reading": "つけました",
+        "verdict": "correct",
+        "explanation": "灯光师实施开灯动作，舞台追光灯是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "つきました",
+        "reading": "つきました",
+        "verdict": "ungrammatical",
+        "explanation": "本句以「スポットライトを」标出对象；表示灯自身亮起的自动词つく不能按此结构接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开演前，灯光师打开了舞台上的追光灯。",
+    "explanation": "つける表示灯光师主动让追光灯亮起来。",
+    "hint": "找出句中实施动作的人，以及被打开的电器或灯具。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.light.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "つく・つける",
+    "scene": "深夜，无人的房间里电视竟自己开了。",
+    "before": [
+      {
+        "text": "深夜、誰もいない部屋で、テレビは勝手に",
+        "reading": "しんや、だれもいないへやで、テレビはかってに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "つきました",
+        "reading": "つきました",
+        "verdict": "correct",
+        "explanation": "电视在无人房间里自行进入开启状态，句子报告设备的变化。"
+      },
+      {
+        "id": "b",
+        "text": "つけました",
+        "reading": "つけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "以「テレビは」作主题时，つけました可表示有人打开了电视；场景却说房间无人、电视自己开了。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "深夜，无人的房间里，电视不知为何自行打开了。",
+    "explanation": "つく表示电视自身开始运行；句中没有人操作遥控器。",
+    "hint": "注意电视是自己开启，还是有人把电视打开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.light.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "つく・つける",
+    "scene": "闷热的房间里，妈妈打开空调降温。",
+    "before": [
+      {
+        "text": "蒸し暑い部屋に戻ると、母はエアコンを",
+        "reading": "むしあついへやにもどると、はははエアコンを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "つけました",
+        "reading": "つけました",
+        "verdict": "correct",
+        "explanation": "妈妈实施开机动作，空调是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "つきました",
+        "reading": "つきました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「エアコンを」标出动作对象；表示空调自行开启的つく不能按此读法接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "回到闷热的房间后，妈妈打开了空调。",
+    "explanation": "つける表示妈妈主动让空调开始运行。",
+    "hint": "判断句中是谁让空调运行，以及空调在句中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.light.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "つく・つける",
+    "scene": "无人操作时，通信信号恢复后待机灯重新亮了。",
+    "before": [
+      {
+        "text": "誰も操作していないのに、通信信号が戻ると、装置の待機ランプは再び",
+        "reading": "だれもそうさしていないのに、つうしんしんごうがもどると、そうちのたいきランプはふたたび"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "つきました",
+        "reading": "つきました",
+        "verdict": "correct",
+        "explanation": "通信信号恢复后，待机灯自身重新亮起，没有人操作它。"
+      },
+      {
+        "id": "b",
+        "text": "つけました",
+        "reading": "つけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "つけました可把「待機ランプは」理解为被省略施事打开的对象；本句明确无人操作，信号恢复后指示灯自行亮起。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "明明没有人操作，通信信号恢复后，设备的待机指示灯却重新亮了。",
+    "explanation": "つく表示待机灯自身由熄灭转为亮起。",
+    "hint": "看信号恢复后是指示灯自身亮起，还是有人把指示灯打开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.off.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "消える・消す",
+    "scene": "瞬间停电后，摄影棚的灯光全部熄灭了。",
+    "before": [
+      {
+        "text": "一瞬の停電で、撮影スタジオの照明はすべて",
+        "reading": "いっしゅんのていでんで、さつえいスタジオのしょうめいはすべて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消えました",
+        "reading": "きえました",
+        "verdict": "correct",
+        "explanation": "停电导致灯光自身熄灭，句子聚焦灯光状态的变化。"
+      },
+      {
+        "id": "b",
+        "text": "消しました",
+        "reading": "けしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "消しました可表示某个省略的操作员关掉灯光；本句说的是停电使灯光熄灭，并非人为关灯。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "瞬间停电后，摄影棚的灯光全部熄灭了。",
+    "explanation": "消える（きえる）表示灯光自行熄灭，不强调有人关闭它。",
+    "hint": "辨认灯光是因停电而熄灭，还是有人实施了关灯动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

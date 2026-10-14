@@ -1,0 +1,36 @@
+{
+  "author": "/root/bunpo_verbs_c_fix",
+  "source": "work/content/verbs-c/remainder-05.draft.json",
+  "at": "2026-10-13T12:00:53.598Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.boil.01",
+      "hash": "0c12c361244ed0fb73bda372fe4c439bd90797a3a7fd129fbd5db65758990eaa",
+      "fullSentences": [
+        "やかんの湯が沸いた。"
+      ]
+    },
+    {
+      "id": "verb.boil.02",
+      "hash": "2c2738a835423ed87d4d8bd8571053068f709a31e3d96e021d825776c7d2c7af",
+      "fullSentences": [
+        "客に茶を出す前に、店主はやかんで湯を沸かした。"
+      ]
+    },
+    {
+      "id": "verb.boil.03",
+      "hash": "e741843b8a47fae1f80de9d72f59ad930e7c9cfd29252f54267df7dfa97aa84a",
+      "fullSentences": [
+        "鍋の湯が沸いたら、うどんを入れてゆでる。"
+      ]
+    },
+    {
+      "id": "verb.boil.04",
+      "hash": "aa8854422af4fc3ea7d1e34726f1cc0db525fbc0e774c624663e129c28206dc3",
+      "fullSentences": [
+        "文化祭の模擬店で出す味噌汁を作るため、係員は大鍋で湯を沸かした。"
+      ]
+    }
+  ]
+}

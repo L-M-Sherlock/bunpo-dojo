@@ -1,0 +1,49 @@
+[
+  {
+    "id": "particle.time.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "三月三十一日に定期点検を行う",
+    "scene": "工厂计划在3月31日进行设备定期检查。",
+    "before": [
+      {
+        "text": "工場では、設備の定期点検を三月三十一日",
+        "reading": "こうじょうでは、せつびのていきてんけんをさんがつさんじゅういちにち"
+      }
+    ],
+    "after": [
+      {
+        "text": "行います。",
+        "reading": "おこないます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标出设备定期检查实际实施的日期。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示手段、地点或时长；这里说的是检查日期。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工厂将在3月31日进行设备定期检查。",
+    "explanation": "句子说明设备检查安排在哪一天，具体日期用「に」标记。",
+    "hint": "空格后接的是实际执行检查的日期，不是检查所花的时长。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

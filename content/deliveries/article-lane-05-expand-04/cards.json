@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refdda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "lexicalKey": "soup-cooling",
+    "scene": "调理员把热汤移进浅托盘，好让它尽快降温。",
+    "before": [
+      {
+        "text": "調理員は、熱いスープを早く",
+        "reading": "ちょうりいんは、あついスープをはやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "ため、浅いバットに移した。",
+        "reading": "ため、あさいバットにうつした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷ます",
+        "reading": "さます",
+        "verdict": "correct",
+        "explanation": "「熱いスープを」を降温对象来冷却，符合调理员主动让汤降温的目的。"
+      },
+      {
+        "id": "b",
+        "text": "冷める",
+        "reading": "さめる",
+        "verdict": "ungrammatical",
+        "explanation": "冷める表示汤本身温度下降，通常以「スープが」作主体；本句明确用「スープを」表示要冷却的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调理员为了尽快让热汤降温，把汤移到了浅托盘里。",
+    "explanation": "冷ます把热汤作为降温对象；冷める则描述汤自身凉下来。",
+    "hint": "观察热汤在句中是降温动作的对象，还是自身发生温度变化的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "lexicalKey": "flag-crosswind",
+    "scene": "操场上的旗帜受强劲侧风影响，在旗杆顶端摇摆。",
+    "before": [
+      {
+        "text": "校庭では、強い横風を受けた旗がポールの先で大きく",
+        "reading": "こうていでは、つよいよこかぜをうけたはたがポールのさきでおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺れていた",
+        "reading": "ゆれていた",
+        "verdict": "correct",
+        "explanation": "旗自身是受横风影响而摇摆的对象，句子没有说它让别的东西摇动。"
+      },
+      {
+        "id": "b",
+        "text": "揺らしていた",
+        "reading": "ゆらしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "揺らす把主语写成使别的东西摇动的一方；这里说旗受风摇摆，未说明旗摇动了什么。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "操场上的旗帜受强劲侧风影响，在旗杆顶端大幅摇摆。",
+    "explanation": "揺れる说明旗帜自身摇动，横风是造成摇摆的外因。",
+    "hint": "看句子把旗帜放在受风移动的一方，还是让其他物体移动的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "lexicalKey": "cradle-rocking",
+    "scene": "父亲轻摇摇篮，避免吵醒正在午睡的婴儿。",
+    "before": [
+      {
+        "text": "父親は、昼寝中の赤ん坊を起こさないよう、ゆりかごを静かに",
+        "reading": "ちちおやは、ひるねちゅうのあかんぼうをおこさないよう、ゆりかごをしずかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺らした",
+        "reading": "ゆらした",
+        "verdict": "correct",
+        "explanation": "「ゆりかごを」标出父亲施加摇动的对象，揺らす与这个主动动作相合。"
+      },
+      {
+        "id": "b",
+        "text": "揺れた",
+        "reading": "ゆれた",
+        "verdict": "ungrammatical",
+        "explanation": "揺れる描述摇篮自身摇动，不接本句明确表示动作对象的「ゆりかごを」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "父亲为了不吵醒午睡中的婴儿，轻轻摇了摇摇篮。",
+    "explanation": "揺らす表示父亲让摇篮摇动，而不是摇篮自行摇动。",
+    "hint": "留意「ゆりかごを」在动作中标出了什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "lexicalKey": "moored-dinghy",
+    "scene": "停泊在湾内的小船随着细浪缓缓摇晃。",
+    "before": [
+      {
+        "text": "湾内に停泊中の小舟が、細かな波にゆっくり",
+        "reading": "わんないにていはくちゅうのこぶねが、こまかななみにゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺れていた",
+        "reading": "ゆれていた",
+        "verdict": "correct",
+        "explanation": "小舟は波に揺らされて動く対象で、文中では舟自身が揺れている。"
+      },
+      {
+        "id": "b",
+        "text": "揺らしていた",
+        "reading": "ゆらしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "揺らす会把小船写成让别的东西摇动的施事；句子实际写的是小船随细浪摇晃。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "停泊在湾内的小船随着细浪缓缓摇晃。",
+    "explanation": "揺れる描写小船自身受波浪影响而摇晃。",
+    "hint": "区分正在移动的小船与施加摇动动作的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "lexicalKey": "scaffold-board-check",
+    "scene": "工人用手摇脚手板边缘，确认它是否固定。",
+    "before": [
+      {
+        "text": "足場板が固定されているか確かめるため、作業員は端を手で",
+        "reading": "あしばいたがこていされているかたしかめるため、さぎょういんははしをてで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺らした",
+        "reading": "ゆらした",
+        "verdict": "correct",
+        "explanation": "作業員が「端を」手で動かして固定状態を調べるので、対象に働きかける揺らすが合う。"
+      },
+      {
+        "id": "b",
+        "text": "揺れた",
+        "reading": "ゆれた",
+        "verdict": "ungrammatical",
+        "explanation": "端は揺れる対象ですが、本句では「端を」と直接对象格にしています。揺れるではこの形で手を使って端を動かす意味になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工人为了确认脚手架板是否固定，用手摇了摇它的边缘。",
+    "explanation": "揺らす表示工人主动摇动板端，以检查固定情况。",
+    "hint": "注意句中「端を手で」所标出的对象和动作方式。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refefa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "lexicalKey": "canal-water-after-rain",
+    "scene": "连日降雨后，用水渠的水量一夜之间大幅增加。",
+    "before": [
+      {
+        "text": "連日の雨のあと、用水路の水量が一晩で大幅に",
+        "reading": "れんじつのあめのあと、ようすいろのすいりょうがひとばんでおおはばに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "増えた",
+        "reading": "ふえた",
+        "verdict": "correct",
+        "explanation": "水量作为变化主体在雨后上升，句子没有写某人主动增加另一项数量。"
+      },
+      {
+        "id": "b",
+        "text": "増やした",
+        "reading": "ふやした",
+        "verdict": "meaning-mismatch",
+        "explanation": "増やす表示某个施事增加目标数量；这里的水量本身是增长的对象，不是增加其他目标的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "连日降雨后，用水渠的水量一夜之间大幅增加。",
+    "explanation": "増える描述水量自身变多，雨是句中交代的背景原因。",
+    "hint": "看水量是正在增长的主体，还是被某个主体增加的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refefa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "lexicalKey": "bookstore-reference-stock",
+    "scene": "考试季前，书店店长增加参考书库存。",
+    "before": [
+      {
+        "text": "書店の店長は、試験前に参考書の在庫を",
+        "reading": "しょてんのてんちょうは、しけんまえにさんこうしょのざいこを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "増やした",
+        "reading": "ふやした",
+        "verdict": "correct",
+        "explanation": "店長主动调整库存，参考书存量是他增加的对象。"
+      },
+      {
+        "id": "b",
+        "text": "増えた",
+        "reading": "ふえた",
+        "verdict": "ungrammatical",
+        "explanation": "増える描述数量自身增加，不接本句明确表示存量为对象的「在庫を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "考试前，书店店长增加了参考书的库存。",
+    "explanation": "増やす表示店长主动提高参考书的库存数量。",
+    "hint": "留意谁是动作主体，以及库存由哪个助词标记。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refefa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "lexicalKey": "library-weekend-visitors",
+    "scene": "公交新线开通后，周末去图书馆的人增多。",
+    "before": [
+      {
+        "text": "新しいバス路線が開通してから、週末に図書館を訪れる人が",
+        "reading": "あたらしいバスろせんがかいつうしてから、しゅうまつにとしょかんをおとずれるひとが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "増えた",
+        "reading": "ふえた",
+        "verdict": "correct",
+        "explanation": "周末去图书馆的人数作为变化主体变多，句子描述人数变化。"
+      },
+      {
+        "id": "b",
+        "text": "増やした",
+        "reading": "ふやした",
+        "verdict": "meaning-mismatch",
+        "explanation": "増やす会把「人」写成增加某项数量的施事；这里的人是变多的对象，新线路只是背景条件。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "新公交线路开通后，周末去图书馆的人增加了。",
+    "explanation": "増える表示到馆人数增加，不是访客主动增加某个数量。",
+    "hint": "判断「人」在句中是数量变化的主体还是施加增加动作的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refefa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "lexicalKey": "entrance-umbrella-stand",
+    "scene": "前台为雨天做准备，在玄关添置一只伞架。",
+    "before": [
+      {
+        "text": "雨の日に備えて、受付係は玄関に傘立てを一つ",
+        "reading": "あめのひにそなえて、うけつけがかりはげんかんにかさたてをひとつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "増やした",
+        "reading": "ふやした",
+        "verdict": "correct",
+        "explanation": "受付係主动多添一只伞架，伞架数量是增加的对象。"
+      },
+      {
+        "id": "b",
+        "text": "増えた",
+        "reading": "ふえた",
+        "verdict": "ungrammatical",
+        "explanation": "増える不能在此接「傘立てを一つ」这个直接对象；本句需要表达工作人员主动增加数量。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "前台工作人员为雨天做准备，在玄关增加了一只伞架。",
+    "explanation": "増やす表示受付係主动增加伞架的数量，数量变化由人推动。",
+    "hint": "观察句中伞架数量由谁、以怎样的句法关系增加。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "lexicalKey": "bus-terminal-passengers",
+    "scene": "公交车抵达终点站后，乘客依次从车上下来。",
+    "before": [
+      {
+        "text": "路線バスが終点に着くと、乗客たちはバスから順番に",
+        "reading": "ろせんバスがしゅうてんにつくと、じょうきゃくたちはバスからじゅんばんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "降りた",
+        "reading": "おりた",
+        "verdict": "correct",
+        "explanation": "乘客是从巴士上下来的主体，句子描述他们离开车厢。"
+      },
+      {
+        "id": "b",
+        "text": "降ろした",
+        "reading": "おろした",
+        "verdict": "meaning-mismatch",
+        "explanation": "降ろす表示乘客或物品被某个主体从车上放下；这里乘客自己从车上下来，没有写他们卸下什么。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "公交车到达终点站后，乘客依次从车上下来。",
+    "explanation": "降りる表示乘客自己下车，巴士是他们离开的交通工具。",
+    "hint": "判断乘客是离开巴士的主体，还是被他人从巴士放下的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "lexicalKey": "truck-cargo-unloading",
+    "scene": "司机把重木箱从卡车货台卸到地面。",
+    "before": [
+      {
+        "text": "運転手は、重い木箱をトラックの荷台から地面に",
+        "reading": "うんてんしゅは、おもいきばこをトラックのにだいからじめんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "降ろした",
+        "reading": "おろした",
+        "verdict": "correct",
+        "explanation": "重い木箱は運転手が荷台から地面へ下ろす对象，降ろす描述这个卸下动作。"
+      },
+      {
+        "id": "b",
+        "text": "降りた",
+        "reading": "おりた",
+        "verdict": "ungrammatical",
+        "explanation": "降りる表示主体自己下车或下降；本句用「木箱を」标出被卸下的货物，不能让降りる承担这个直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "司机把沉重的木箱从卡车货台卸到了地面。",
+    "explanation": "降ろす表示司机使木箱从货台移到地面。",
+    "hint": "看句中是司机自己下降，还是有物品从高处被放下。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "lexicalKey": "hikers-descend-from-shelter",
+    "scene": "登山者从山顶避难小屋下到山麓的登山口。",
+    "before": [
+      {
+        "text": "登山者は、山頂の避難小屋から麓の登山口まで",
+        "reading": "とざんしゃは、さんちょうのひなんごやからふもとのとざんぐちまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "降りた",
+        "reading": "おりた",
+        "verdict": "correct",
+        "explanation": "登山者本人が山頂側から麓へ移動するので、自ら下降する降りるが合う。"
+      },
+      {
+        "id": "b",
+        "text": "降ろした",
+        "reading": "おろした",
+        "verdict": "meaning-mismatch",
+        "explanation": "降ろすは誰かが人や物を下方へ移す意味になる；本句は登山者自身が山道を下ったことを述べる。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者从山顶的避难小屋下到了山麓的登山口。",
+    "explanation": "降りる表示登山者自身从高处沿路下到山麓。",
+    "hint": "比较句子里的人是亲自移动，还是在移动他人或物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "lexicalKey": "warehouse-light-fixture",
+    "scene": "仓库人员把备用照明器具从高架上搬到手推车上。",
+    "before": [
+      {
+        "text": "倉庫係は、高い棚から予備の照明器具を台車に",
+        "reading": "そうこがかりは、たかいたなからよびのしょうめいきぐをだいしゃに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "降ろした",
+        "reading": "おろした",
+        "verdict": "correct",
+        "explanation": "仓库人员把照明器具作为对象，从高架取下并放到手推车上，符合降ろす。"
+      },
+      {
+        "id": "b",
+        "text": "降りた",
+        "reading": "おりた",
+        "verdict": "ungrammatical",
+        "explanation": "降りる表示主体自己下降；这里「照明器具を」明确标出被放下的对象，不能用降りる来支配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "仓库人员把备用照明器具从高架上放到了手推车上。",
+    "explanation": "降ろす表示仓库人员主动把照明器具从高处移下。",
+    "hint": "留意高处的器具在句中是自行下降，还是被人搬下。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refida.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "lexicalKey": "tea-spilling-from-cup",
+    "scene": "满杯的茶从茶杯里洒出，落在桌面上。",
+    "before": [
+      {
+        "text": "満杯の湯のみから、お茶がテーブルに",
+        "reading": "まんぱいのゆのみから、おちゃがテーブルに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "零れた",
+        "reading": "こぼれた",
+        "verdict": "correct",
+        "explanation": "「お茶が」是从满杯茶杯中洒出的液体，句子描述茶水自身溢出。"
+      },
+      {
+        "id": "b",
+        "text": "零した",
+        "reading": "こぼした",
+        "verdict": "meaning-mismatch",
+        "explanation": "零す表示某个施事把液体洒出；这里将茶水写为溢出的主体，句中没有写施事把茶洒出。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "满满一杯的茶从茶杯里洒到了桌上。",
+    "explanation": "零れる描写杯中茶水溢出并落到桌面。",
+    "hint": "观察「お茶」是洒出的液体，还是使液体洒出的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refida.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "lexicalKey": "carrying-ink-bottle",
+    "scene": "事务员小心搬运墨水瓶，避免墨水洒到桌上。",
+    "before": [
+      {
+        "text": "事務員は、瓶に入ったインクを机に",
+        "reading": "じむいんは、びんにはいったインクをつくえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "よう、その瓶を両手で運んだ。",
+        "reading": "よう、そのびんをりょうてではこんだ。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "零さない",
+        "reading": "こぼさない",
+        "verdict": "correct",
+        "explanation": "事务员是避免把瓶中墨水洒到桌上的施事，墨水是其动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "零れない",
+        "reading": "こぼれない",
+        "verdict": "ungrammatical",
+        "explanation": "零れる描述墨水自身洒出，应该由「インクが」作主体；本句以「インクを」标出要避免洒出的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "事务员为了不把瓶中的墨水洒到桌上，双手拿着那只瓶子。",
+    "explanation": "零す表示事务员避免主动洒出墨水，瓶子是他用双手搬运的对象。",
+    "hint": "判断句中墨水是洒出的主体，还是被某人洒出的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refida.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "lexicalKey": "audience-tears",
+    "scene": "影片接近结尾时，观众眼中流下了眼泪。",
+    "before": [
+      {
+        "text": "映画の終盤、観客の目から涙が",
+        "reading": "えいがのしゅうばん、かんきゃくのめからなみだが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "零れた",
+        "reading": "こぼれた",
+        "verdict": "correct",
+        "explanation": "涙が是从观众眼中流出的液体，句子描写眼泪自己溢出。"
+      },
+      {
+        "id": "b",
+        "text": "零した",
+        "reading": "こぼした",
+        "verdict": "meaning-mismatch",
+        "explanation": "零す可说观众「涙を零す」，但这里用「涙が」并以「目から」说明流出位置，写的是眼泪自身溢出。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "电影接近尾声时，观众眼中流下了眼泪。",
+    "explanation": "零れる描述眼泪从眼中流出，不表示观众把其他物品洒落。",
+    "hint": "注意句中「涙」是从眼中流出的主体，还是动作的直接对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

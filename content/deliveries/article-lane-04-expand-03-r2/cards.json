@@ -1,0 +1,95 @@
+[
+  {
+    "id": "verb.refcka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "lexicalKey": "剥ける/剥く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥ける",
+      "reading": "むける"
+    },
+    "scene": "冷水冷却后的水煮蛋，蛋壳干净利落地剥下来了",
+    "before": [
+      {
+        "text": "冷水で冷やしたゆで卵は、殻がきれいに剥けた。",
+        "reading": "れいすいでひやしたゆでたまごは、からがきれいにむけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「殻が」标明发生剥落变化的一方；句子描写蛋壳干净利落地剥下来了，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「剥く」以剥壳者为施事、以蛋壳为动作对象；本句用「殻が」标出发生剥落变化的一方，表达角色不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "用冷水冷却的水煮蛋，蛋壳干净利落地剥下来了。",
+    "explanation": "「殻が」标明蛋壳是发生剥落变化的一方；句子描写蛋壳干净利落地剥下来了。",
+    "hint": "留意「殻が」承接的是什么状态变化，以及「きれいに」描写的剥落状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "接电话时，锅里的饺子底部烧焦了",
+    "before": [
+      {
+        "text": "フライパンを火にかけたまま電話に出ていたら、餃子の底が",
+        "reading": "フライパンをひにかけたままでんわにでていたら、ぎょうざのそこが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦げてしまった",
+        "reading": "こげてしまった",
+        "verdict": "correct",
+        "explanation": "饺子底部因受热而烧焦；句中「底が」标明发生变化的一方。"
+      },
+      {
+        "id": "b",
+        "text": "焦がしてしまった",
+        "reading": "こがしてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「焦がす」是让某物烧焦的动作；本句写的是饺子底部自身烧焦，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接电话时，煎锅还在火上，锅里的饺子底部烧焦了。",
+    "explanation": "句子写的是煎锅仍在加热时饺子的底部烧焦了，饺子是发生变化的一方。",
+    "hint": "判断句子是在描述饺子底部烧焦后的状态，还是有人主动把饺子底部烧焦。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

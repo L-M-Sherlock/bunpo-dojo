@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/remainder-04.draft.json",
+  "at": "2026-10-13T12:00:53.238Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.move.02",
+      "hash": "b5a1bcbae93a9dbb16c0b2cf320e3c4a657dbbb32213aa278fc065a4d0fad681",
+      "fullSentences": [
+        "美術館の職員がガラスケースを入口の近くに動かしました。"
+      ]
+    },
+    {
+      "id": "verb.move.03",
+      "hash": "8f527a6f20865eaba9b83faecfaf691c3b46e71c9786e1d7b477e039aa718947",
+      "fullSentences": [
+        "強風で駐車場の案内板が動きました。"
+      ]
+    },
+    {
+      "id": "verb.move.04",
+      "hash": "35a3e65c8be92493e61a195a7c1c545f4a6b913c37ef66a02e9b408e209d393b",
+      "fullSentences": [
+        "音響担当者がスピーカーを壁際に動かしました。"
+      ]
+    },
+    {
+      "id": "verb.move.05",
+      "hash": "def27e880c7e1edce503faa50bb1afd63f53b7417d5d2a19c0ad52baeca24920",
+      "fullSentences": [
+        "電池を入れると、止まっていた壁時計の針が動きました。"
+      ]
+    },
+    {
+      "id": "verb.raise.01",
+      "hash": "d7e7a72aeb833ac2b758fc3844518dfb1b4c9fa111ad026b4a0e4868e13c6960",
+      "fullSentences": [
+        "予熱中にオーブンの温度が設定値まで上がりました。"
+      ]
+    }
+  ]
+}

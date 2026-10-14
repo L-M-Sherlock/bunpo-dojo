@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_6b1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-06b-1.draft.json",
+  "at": "2026-10-14T02:45:34.084Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsja.04",
+      "hash": "ecb03e47f9905e9665e0a25951db743d9d33324a5c1e44f0b95cfc3920ad288c",
+      "fullSentences": [
+        "係員は、開演前に合図として太鼓を一度鳴らした。"
+      ]
+    },
+    {
+      "id": "verb.reftca.01",
+      "hash": "409de1c766f9a9306a3df2137bcdf3c5c02a3bfddc6c81cbbda6f6a70c7ce2d1",
+      "fullSentences": [
+        "昨夜の落石で峠道が塞がったため、朝になっても車は通れなかった。"
+      ]
+    },
+    {
+      "id": "verb.reftca.02",
+      "hash": "1f90b02a3fb9a27626f4e21c75c7bce96e6c50f2effb4ac361ceb17fc55b3922",
+      "fullSentences": [
+        "管理人は、すきま風が入らないように窓枠の隙間をテープで塞いだ。"
+      ]
+    },
+    {
+      "id": "verb.reftca.03",
+      "hash": "1b35c54e5828dfb5bf8267d7bff1e214edbec81e67e2cdbb649b1bb5e0b1ee52",
+      "fullSentences": [
+        "雨どいに落ち葉がたまって、排水口が完全に塞がったため、雨水が流れなくなった。"
+      ]
+    }
+  ]
+}

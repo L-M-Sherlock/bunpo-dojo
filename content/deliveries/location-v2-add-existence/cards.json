@@ -1,0 +1,482 @@
+[
+  {
+    "id": "particle.existence.11",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "wallet-in-mothers-bag",
+    "scene": "出门前，母亲确认钱包是否装在手提包里。",
+    "before": [
+      {
+        "text": "母のバッグの中",
+        "reading": "ははのバッグのなか"
+      }
+    ],
+    "after": [
+      {
+        "text": "財布があります。",
+        "reading": "さいふがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出钱包所在的包内位置，句子是在确认钱包是否在那里。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；本句用あります报告钱包的所在，不是在说包里发生什么。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "母亲的手提包里有钱包。",
+    "explanation": "钱包静态存在于包内，所在地点用に标记。",
+    "hint": "判断句子报告的是钱包所在，还是某个动作发生在哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.12",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "cat-under-dining-table",
+    "scene": "雷声响起，孩子发现猫躲在餐桌下。",
+    "before": [
+      {
+        "text": "猫は食卓の下",
+        "reading": "ねこはしょくたくのした"
+      }
+    ],
+    "after": [
+      {
+        "text": "います。",
+        "reading": "います。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で可标猫在桌下进行某个活动的地点；本句只说明猫此刻在哪里。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出猫静静躲着的所在位置。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "猫在餐桌下。",
+    "explanation": "います表示活物所在，位置用に标出。",
+    "hint": "区分猫的所在位置与猫在某处做的动作。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.13",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "librarian-at-library-counter",
+    "scene": "学生去图书馆还书时，服务台有图书管理员。",
+    "before": [
+      {
+        "text": "図書館のカウンター",
+        "reading": "としょかんのカウンター"
+      }
+    ],
+    "after": [
+      {
+        "text": "司書がいます。",
+        "reading": "ししょがいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に把司书存在的位置标为图书馆服务台。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で用于标工作等活动发生处；这句话报告司书在那里，不叙述服务台上的活动。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "图书馆服务台有图书管理员。",
+    "explanation": "司书作为活物存在于服务台，位置用に标记。",
+    "hint": "看句子是在说司书在哪里，还是在说他在那里做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.14",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "umbrella-in-entryway-stand",
+    "scene": "雨停后，家人发现玄关伞架里还放着一把伞。",
+    "before": [
+      {
+        "text": "玄関の傘立て",
+        "reading": "げんかんのかさたて"
+      }
+    ],
+    "after": [
+      {
+        "text": "傘があります。",
+        "reading": "かさがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に指出伞静态放置的伞架位置。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标伞架处的活动地点；这里用あります说明伞在哪里，不是在说有人在那里做事。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "玄关的伞架里有伞。",
+    "explanation": "伞的存在地点由に标出。",
+    "hint": "注意句子报告的是伞的位置，而不是收伞这个动作。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.15",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "charger-next-to-sofa",
+    "scene": "手机没电时，朋友告诉他充电器在沙发旁边。",
+    "before": [
+      {
+        "text": "充電器はソファの横",
+        "reading": "じゅうでんきはソファのよこ"
+      }
+    ],
+    "after": [
+      {
+        "text": "あります。",
+        "reading": "あります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で表示活动发生地点；句子是告诉朋友充电器所在，并没有说沙发旁进行什么活动。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出充电器目前所在的沙发旁。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "充电器在沙发旁边。",
+    "explanation": "充电器的存在位置由に标记。",
+    "hint": "判断沙发旁是物品的位置，还是动作发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.16",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "houseplant-by-office-window",
+    "scene": "办公室搬完家具后，员工确认窗边摆着一盆绿植。",
+    "before": [
+      {
+        "text": "窓辺",
+        "reading": "まどべ"
+      }
+    ],
+    "after": [
+      {
+        "text": "観葉植物があります。",
+        "reading": "かんようしょくぶつがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出绿植摆放并存在的窗边位置。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标活动或事件发生的地点；这里是观察绿植的所在处，不是窗边的活动。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "窗边有一盆绿植。",
+    "explanation": "绿植存在于窗边，用に标记位置。",
+    "hint": "留意句子说的是绿植在哪里，还是有人在窗边做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.17",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "friend-at-station-ticket-gate",
+    "scene": "约定时间到了，先到的朋友在车站检票口前。",
+    "before": [
+      {
+        "text": "友達は駅の改札前",
+        "reading": "ともだちはえきのかいさつまえ"
+      }
+    ],
+    "after": [
+      {
+        "text": "います。",
+        "reading": "います。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出朋友此刻所在的检票口前。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标等待等活动发生的地点；本句没有描写朋友在检票口做什么，只报告其所在。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "朋友在车站检票口前。",
+    "explanation": "活物朋友所在的位置用に标记。",
+    "hint": "区分朋友在哪里与朋友在某处进行的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.18",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "delivery-box-at-front-door",
+    "scene": "下班回家时，家人发现玄关前放着快递箱。",
+    "before": [
+      {
+        "text": "玄関先",
+        "reading": "げんかんさき"
+      }
+    ],
+    "after": [
+      {
+        "text": "宅配便の箱があります。",
+        "reading": "たくはいびんのはこがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で可以标投递等动作发生的地点；本句只说快递箱已经在玄关前。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に指出快递箱静态放置的玄关前位置。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "玄关前有一个快递箱。",
+    "explanation": "快递箱的存在地点用に标出。",
+    "hint": "判断句子是在报告箱子目前在哪里，还是讲投递动作在哪里发生。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.19",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "letter-in-mailbox",
+    "scene": "家人取信时，发现邮箱里有一封信。",
+    "before": [
+      {
+        "text": "郵便受け",
+        "reading": "ゆうびんうけ"
+      }
+    ],
+    "after": [
+      {
+        "text": "手紙が一通あります。",
+        "reading": "てがみがいっつうあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出信件所在的邮箱。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标取信等活动发生的地点；此句陈述一封信存在邮箱里，不是说取信动作在邮箱中进行。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "邮箱里有一封信。",
+    "explanation": "手纸作为物品存在于邮箱内，地点用に标记。",
+    "hint": "看邮箱是信件的所在，还是取信动作发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.20",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "baby-in-stroller",
+    "scene": "父亲把婴儿车推到树荫下，确认宝宝还在里面。",
+    "before": [
+      {
+        "text": "赤ちゃんはベビーカーの中",
+        "reading": "あかちゃんはベビーカーのなか"
+      }
+    ],
+    "after": [
+      {
+        "text": "います。",
+        "reading": "います。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で会标推婴儿车等动作发生的地点；此句只确认宝宝此刻在车内。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出宝宝所在的婴儿车内。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "宝宝在婴儿车里。",
+    "explanation": "います表示宝宝所在，所在位置由に标出。",
+    "hint": "判断句子说明的是宝宝在哪里，还是推车动作在哪里发生。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

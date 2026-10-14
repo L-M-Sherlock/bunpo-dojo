@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_c",
+  "source": "work/content/verbs-c/remainder-02.draft.json",
+  "at": "2026-10-13T11:51:04.990Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.sell.02",
+      "hash": "8e6c16ccba63a7860cfd19fe529eb0d0c6af99ab3f36d778facbcd4dffdb5ac2",
+      "fullSentences": [
+        "駅前の書店が、地元作家の新刊を特設台で売った。"
+      ]
+    },
+    {
+      "id": "verb.sell.03",
+      "hash": "6c961f36abf5b7533a99ac8a2450bd425f164040ebcd117f4b93f75ad1257223",
+      "fullSentences": [
+        "閉店前、棚に残っていた地元産のジャムがすべて売れた。"
+      ]
+    },
+    {
+      "id": "verb.sell.04",
+      "hash": "3e91a4be3c9369eb377d4436d27bc064a23cafb3298fcede876694d28af015a6",
+      "fullSentences": [
+        "朝市の出店者が、採れたてのりんごを袋に詰めて売った。"
+      ]
+    },
+    {
+      "id": "verb.continue.01",
+      "hash": "a199a359201ee5ddd71d84f97fa164472d7f3a9072314525e224c2e436f2efd6",
+      "fullSentences": [
+        "町内の清掃活動が昼まで続いた。"
+      ]
+    },
+    {
+      "id": "verb.continue.02",
+      "hash": "06c6e028dd5529326c6a16519976997492b1da52746afff23ed191692b50330d",
+      "fullSentences": [
+        "予定より遅れても、監督は映画の撮影を続けた。"
+      ]
+    }
+  ]
+}

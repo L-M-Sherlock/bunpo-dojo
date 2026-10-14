@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.find.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "lexicalKey": "lost-glove-search",
+    "scene": "巡逻保安在长椅下发现了一只掉落的手套。",
+    "before": [
+      {
+        "text": "巡回中の警備員が、ベンチの下に落ちていた手袋を",
+        "reading": "じゅんかいちゅうのけいびいんが、ベンチのしたにおちていたてぶくろを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見つけた",
+        "reading": "みつけた",
+        "verdict": "correct",
+        "explanation": "巡逻中的保安发现了手套；保安是发现者，手套是被发现的对象，用他动词「見つける」。"
+      },
+      {
+        "id": "b",
+        "text": "見つかった",
+        "reading": "みつかった",
+        "verdict": "ungrammatical",
+        "explanation": "「見つかる」表示物品被发现或出现；此句已经用「手袋を」标记直接宾语。若写「手袋が見つかった」，才是手套被发现的自动词句。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "巡逻中的保安在长椅下发现了一只掉落的手套。",
+    "explanation": "句中写出发现者保安以及他发现的手套。",
+    "hint": "留意谁在发现，以及哪件物品是发现对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.find.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "lexicalKey": "missing-toolbox",
+    "scene": "找了好几天，工具箱终于在仓库货架深处出现。",
+    "before": [
+      {
+        "text": "探していた工具箱が倉庫の棚の奥で",
+        "reading": "さがしていたこうぐばこがそうこのたなのおくで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見つかった",
+        "reading": "みつかった",
+        "verdict": "correct",
+        "explanation": "工具箱本身终于被发现，用自动词「見つかる」描述它出现。"
+      },
+      {
+        "id": "b",
+        "text": "見つけた",
+        "reading": "みつけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見つける」表示某个发现者找到东西，宾语可由上下文省略；但「工具箱が」会把工具箱标成发现者，读成它发现了别的东西，不是工具箱被找到。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一直在找的工具箱终于在仓库货架深处找到了。",
+    "explanation": "工具箱是被找出的物品，不是寻找或发现别物的主体。",
+    "hint": "判断工具箱在句中是发现者，还是最终出现的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.find.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "lexicalKey": "customer-wallet",
+    "scene": "打烊后，店员在货架下找到了顾客遗失的钱包。",
+    "before": [
+      {
+        "text": "閉店後、店員が棚の下で客の財布を",
+        "reading": "へいてんご、てんいんがたなのしたできゃくのさいふを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見つけた",
+        "reading": "みつけた",
+        "verdict": "correct",
+        "explanation": "店员在打烊后找到顾客的钱包；钱包是「見つける」的宾语。"
+      },
+      {
+        "id": "b",
+        "text": "見つかった",
+        "reading": "みつかった",
+        "verdict": "ungrammatical",
+        "explanation": "「見つかる」表示钱包自己被发现，需要把钱包标为「が」主语；此处「財布を」是店员发现的直接宾语，不能接自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "打烊后，店员在货架下找到了顾客遗失的钱包。",
+    "explanation": "店员是发现者，顾客的钱包是发现对象。",
+    "hint": "看句中是否有一个明确的人在执行寻找和发现。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.find.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.find",
+    "familyId": "verb.find",
+    "lexicalKey": "lost-cat",
+    "scene": "找了一下午，走失的猫在邻居家的储物间被发现。",
+    "before": [
+      {
+        "text": "昼から探していた猫が、隣の家の物置で",
+        "reading": "ひるからさがしていたねこが、となりのいえのものおきで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見つかった",
+        "reading": "みつかった",
+        "verdict": "correct",
+        "explanation": "走失的猫是在邻居家储物间被发现的物品，用自动词「見つかる」。"
+      },
+      {
+        "id": "b",
+        "text": "見つけた",
+        "reading": "みつけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「見つける」可以省略已知宾语，但此处「猫が」会把猫读成发现者，意思变成猫在储物间发现了别的东西；场景说的是人找到了猫。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从下午开始找的猫，在邻居家的储物间里被发现了。",
+    "explanation": "句子报告猫被找到的结果，没有说猫发现了其他东西。",
+    "hint": "注意猫是被寻找的对象，还是执行发现动作的主体。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.sell.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "lexicalKey": "new-mug-sales",
+    "scene": "新款马克杯开售首日售出一百多只。",
+    "before": [
+      {
+        "text": "新作のマグカップが発売初日に百個以上",
+        "reading": "しんさくのマグカップがはつばいしょにちにひゃっこいじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "売れた",
+        "reading": "うれた",
+        "verdict": "correct",
+        "explanation": "马克杯作为商品在首日售出一百多只，用自动词「売れる」表示商品售出。"
+      },
+      {
+        "id": "b",
+        "text": "売った",
+        "reading": "うった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「売る」表示施事出售某件商品，宾语可在上下文明确时省略；这里「マグカップが」是售出的商品，不是出售其他东西的卖家。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "新款马克杯开售首日售出了一百多只。",
+    "explanation": "明确的数量说明商品已经售出，焦点在商品的销售结果。",
+    "hint": "判断空格表达商品售出，还是有人出售商品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

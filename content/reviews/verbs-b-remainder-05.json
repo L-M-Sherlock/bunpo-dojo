@@ -1,0 +1,37 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.raise.02", "hash": "79035a9bbacac32ef26c934e0c0714c7a4537f7ceed3c01a2673aa515cc0eca8", "fullSentences": ["音響担当者がホールのスピーカーの音量を上げました。"], "status": "approved",
+      "reason": "音响负责人调高大厅扬声器音量，施事与音量を对象明确，上げる符合 transitive 分配；句子自然。",
+      "answerSet": "a 唯一符合「音量を」直接对象的答案；b 上がる不能接此直接宾语。",
+      "readings": "音響担当者＝おんきょうたんとうしゃ、音量＝おんりょう，ホール、スピーカー保留片假名；上げました＝あげました、上がりました＝あがりました。",
+      "translation": "译文准确表达音响师调高大厅扬声器的音量，未添加音量检查过程。",
+      "options": "a correct 准确；b ungrammatical 对当前句架成立，音量自身升高须写「音量が上がりました」。"
+    },
+    {
+      "id": "verb.raise.03", "hash": "078997d2aa4f158c135cd68e807b0e53a3628d7ae6bdf7cd31d1d4b2d20931e3", "fullSentences": ["誰もつまみに触れていないのに、古いラジオの音量が急に上がりました。"], "status": "approved",
+      "reason": "没人碰旋钮却突然音量变大，逆接关系自然；音量が为升高主体，上がる符合 intransitive 分配。",
+      "answerSet": "a 唯一表达音量自身升高；b 会把音量当作提高另一个对象的施事。",
+      "readings": "誰＝だれ、触れていない＝ふれていない、古い＝ふるい、音量＝おんりょう、急に＝きゅうに；ラジオ保留片假名，上がりました＝あがりました、上げました＝あげました。",
+      "translation": "译文准确表达无人碰旋钮而老式收音机音量突然升高；「却」对应のに的逆接。",
+      "options": "a correct 准确；b meaning-mismatch 准确，上げる可省略对象，但不能表示音量自身升高。"
+    },
+    {
+      "id": "verb.raise.04", "hash": "9014b8089d07af9376a2b7adfdb9e629b276abdee29e5a2006938cbb99859b30", "fullSentences": ["パン職人がオーブンの温度を上げました。"], "status": "revise",
+      "reason": "句子与 transitive 分配正确，译文也准确；但正文「パン職人」的 reading 写成「ぱんしょくにん」，把应保留的片假名パン变成平假名，违反本项目读音对应规则。",
+      "answerSet": "a「上げました」是唯一适配「温度を」的答案；b「上がりました」不能把它接作直接宾语。",
+      "readings": "应将句段 reading 从「ぱんしょくにんがオーブンのおんどを」改为「パンしょくにんがオーブンのおんどを」；職人＝しょくにん、温度＝おんど、上げました＝あげました、上がりました＝あがりました均正确。",
+      "translation": "「面包师调高了烤箱温度」忠实于完整句，醒发完成是场景背景，未误加到译文。",
+      "options": "a correct 准确；b ungrammatical 对当前「温度を」句架成立，温度自身升高应改「温度が上がりました」。"
+    },
+    {
+      "id": "verb.raise.05", "hash": "ccce1d26566b948a6100bfc2dcd8c74ddbc4a9d71eb809859f8e9eb3607b2fff", "fullSentences": ["雲が切れて日が差すと、温室の温度が上がりました。"], "status": "approved",
+      "reason": "云层散开、阳光照入后温室温度升高，条件与结果自然；温度が为升高主体，上がる符合 intransitive 分配。",
+      "answerSet": "a 唯一表示温室温度自身升高；b 会把温度当成提高另一对象的施事。",
+      "readings": "雲＝くも、切れて＝きれて、日＝ひ、差す＝さす、温室＝おんしつ、温度＝おんど；上がりました＝あがりました、上げました＝あげました。",
+      "translation": "译文准确表达云散开、阳光照进来后温室温度升高，没有加人为调温。",
+      "options": "a correct 准确；b meaning-mismatch 准确，上げる省略宾语的另一义仍非温度自身上升。"
+    }
+  ]
+}

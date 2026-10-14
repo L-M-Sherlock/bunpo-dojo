@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.break.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "弟弟把旧收音机掉到地上，摔坏了机壳。",
+    "before": [
+      {
+        "text": "弟は古いラジオを床に落とし、その衝撃でケースを",
+        "reading": "おとうとはふるいラジオをゆかにおとし、そのしょうげきでケースを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "correct",
+        "explanation": "弟弟把收音机掉到地上，落下冲击弄坏了机壳；机壳是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「ケースを」标出被弄坏的对象；自动词壊れる要以受损物作主语，不能接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "弟弟把旧收音机掉到地上，摔坏了机壳。",
+    "explanation": "壊す（こわす）表示弟弟使机壳损坏，掉落冲击明确交代了原因。",
+    "hint": "关注损坏的原因，以及被损坏物在句中的角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

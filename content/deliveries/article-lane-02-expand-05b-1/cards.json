@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refkaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "lexicalKey": "按经验将研修参加者分组",
+    "scene": "培训分组时，讲师根据参加者的经验水平安排三组。",
+    "before": [
+      {
+        "text": "講師は、参加者を経験に応じて三つの班に",
+        "reading": "こうしは、さんかしゃをけいけんにおうじてみっつのはんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "分けた",
+        "reading": "わけた",
+        "verdict": "correct",
+        "explanation": "讲师按经验水平安排参加者进入三个小组，「参加者を」标明被分组的对象。"
+      },
+      {
+        "id": "b",
+        "text": "分かれた",
+        "reading": "わかれた",
+        "verdict": "ungrammatical",
+        "explanation": "「分かれる」表示参加者自身分成小组，通常由「参加者が」作主体；本句的「参加者を」是讲师安排的对象，不能与「分かれた」搭配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "讲师根据经验水平把参加者分成了三个小组。",
+    "explanation": "讲师是安排分组的人，「参加者を」指出被分组的对象。",
+    "hint": "留意句中是由讲师安排成员，还是成员自身形成不同小组。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refraa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "lexicalKey": "冬季转入春季",
+    "scene": "山间小镇积雪消退，时节从冬天转入春天。",
+    "before": [
+      {
+        "text": "山あいの町でも最後の雪が解け、季節が冬から春へ",
+        "reading": "やまあいのまちでもさいごのゆきがとけ、きせつがふゆからはるへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "移った",
+        "reading": "うつった",
+        "verdict": "correct",
+        "explanation": "积雪消退时，季节自身从冬季转入春季；「季節が」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "移した",
+        "reading": "うつした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「移す」表示某主体把对象转移到别处；本句描写季节自身转变，没有被转移的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山间小镇最后的积雪融化，季节从冬天转入了春天。",
+    "explanation": "句子描述季节自身从冬天进入春天，而非某个主体转移别的对象。",
+    "hint": "看这里发生变化的是季节本身，还是有人把某个对象搬到别处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refraa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "lexicalKey": "施工前转移展出屏风",
+    "scene": "展厅翻修前，策展人员把展出的屏风移到别馆藏品库。",
+    "before": [
+      {
+        "text": "展示室の改修を前に、学芸員は展示中の屏風を別館の収蔵庫へ",
+        "reading": "てんじしつのかいしゅうをまえに、がくげいいんはてんじちゅうのびょうぶをべっかんのしゅうぞうこへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "移した",
+        "reading": "うつした",
+        "verdict": "correct",
+        "explanation": "策展人员把正在展出的屏风移入别馆藏品库，「屏風を」标明被移动的对象。"
+      },
+      {
+        "id": "b",
+        "text": "移った",
+        "reading": "うつった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「移る」表示主体自身改变位置；本句的主体是策展人员，而「屏風を」是被移走的对象，不能表达他们搬动屏风的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "展厅翻修前，策展人员把正在展出的屏风移到了别馆的藏品库。",
+    "explanation": "策展人员主动转移屏风，「屏風を」指出动作直接作用的对象。",
+    "hint": "留意策展人员是在移动自己，还是在移动展出的物件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refraa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "lexicalKey": "弟弟感冒传给照料他的姐姐",
+    "scene": "姐姐照料患感冒的弟弟时，也染上了他的感冒。",
+    "before": [
+      {
+        "text": "看病をしていた姉に、弟の風邪が",
+        "reading": "かんびょうをしていたあねに、おとうとのかぜが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "移った",
+        "reading": "うつった",
+        "verdict": "correct",
+        "explanation": "弟的感冒传给了姐姐，「弟の風邪が」是感染本身，「姉に」标出感染的对象。"
+      },
+      {
+        "id": "b",
+        "text": "移した",
+        "reading": "うつした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「移す」表示某主体把感染传给别人；本句以弟弟的感冒为主语，描述感染自身传到姐姐身上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "弟弟的感冒传染给了照料他的姐姐。",
+    "explanation": "句子写的是感染本身传给姐姐，并未描写弟弟主动把感冒传给她。",
+    "hint": "注意句子把谁写成感染扩散的主体，以及谁接收了感染。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

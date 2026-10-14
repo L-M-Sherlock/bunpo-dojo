@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/remainder-02.draft.json",
+  "at": "2026-10-13T12:00:52.956Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.gather.02",
+      "hash": "e7bb246e80a590d9840b033f1e47a66d19fd9007fc13505c05d540fb1694b2c6",
+      "fullSentences": [
+        "調査員が住民の意見を集めました。"
+      ]
+    },
+    {
+      "id": "verb.gather.03",
+      "hash": "bd3b0ff3588bfc9e18fcdce3e2e7c3ae7cf45d402f8a277099d32b4bebbe3de6",
+      "fullSentences": [
+        "避難者が公民館に集まりました。"
+      ]
+    },
+    {
+      "id": "verb.gather.04",
+      "hash": "161d53c70db2a0e59f668e83d064e6f571d01b10292f5d8a048f8a60ba2b12c5",
+      "fullSentences": [
+        "図書館員が町の古い地図を集めました。"
+      ]
+    },
+    {
+      "id": "verb.gather.05",
+      "hash": "715adf996a0da41e0423fe1c51ff3ce5f3a4b3e2f556a4f14719120a3d620544",
+      "fullSentences": [
+        "校舎の取り壊しを前に、卒業生が校庭に集まりました。"
+      ]
+    },
+    {
+      "id": "verb.stop.01",
+      "hash": "48ecc1d9297825b0352df7e679f6212ff6cdc976bef61657022b1797fe2d3b90",
+      "fullSentences": [
+        "出航前にフェリーのエンジンが止まりました。"
+      ]
+    }
+  ]
+}

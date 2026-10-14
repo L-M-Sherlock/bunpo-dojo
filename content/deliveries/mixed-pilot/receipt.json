@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/pilot.draft.json",
+  "at": "2026-10-13T11:17:06.326Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "mixed.01",
+      "hash": "7f92bfca4a47735c559c8fa35426a6b42a073b4d2cd988795291b9792c43a7bf",
+      "fullSentences": [
+        "係員は入口で車いすの客を案内し、開館時刻になると正面の自動ドアが開く。"
+      ]
+    },
+    {
+      "id": "mixed.02",
+      "hash": "e8ea4392ebfdd91d6973ff3fbe06dd39fc7a6fe30df98523ee248eee4b3965f5",
+      "fullSentences": [
+        "閉店後、店員は店の裏口でガラスのドアを閉めた。"
+      ]
+    },
+    {
+      "id": "mixed.03",
+      "hash": "1b729b5ed46da7023210c5d84447a61de8b1305a2944f5d495b5c9d028515529",
+      "fullSentences": [
+        "先生は教室で照明のスイッチを押すと、天井の電灯がついた。"
+      ]
+    }
+  ]
+}

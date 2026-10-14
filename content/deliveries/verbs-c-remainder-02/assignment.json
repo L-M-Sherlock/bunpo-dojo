@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.sell.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.sell.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.sell.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.sell",
+    "familyId": "verb.sell",
+    "pair": {
+      "id": "verb.sell",
+      "intransitive": "売れる",
+      "intransitiveReading": "うれる",
+      "transitive": "売る",
+      "transitiveReading": "うる",
+      "meaning": "商品售出或出售",
+      "count": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.continue.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.continue.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "pair": {
+      "id": "verb.continue",
+      "intransitive": "続く",
+      "intransitiveReading": "つづく",
+      "transitive": "続ける",
+      "transitiveReading": "つづける",
+      "meaning": "活动延续",
+      "count": 4
+    },
+    "direction": "transitive"
+  }
+]

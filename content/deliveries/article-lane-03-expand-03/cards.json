@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refbqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "lexicalKey": "違う・違える",
+    "scene": "出版社为初版和修订版采用了不同的封面颜色。",
+    "before": [
+      {
+        "text": "出版社は初版と改訂版で、表紙の色を",
+        "reading": "しゅっぱんしゃはしょはんとかいていばんで、ひょうしのいろを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "違えました",
+        "reading": "ちがえました",
+        "verdict": "correct",
+        "explanation": "出版社有意让初版和修订版的封面颜色不同，表紙の色是「を」标出的对象。"
+      },
+      {
+        "id": "b",
+        "text": "違いました",
+        "reading": "ちがいました",
+        "verdict": "ungrammatical",
+        "explanation": "「違う」描述两个事物彼此不同，通常说「表紙の色が違う」；本句以「表紙の色を」标出出版社区分的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "出版社为初版和修订版采用了不同的封面颜色。",
+    "explanation": "「違える」表示出版社主动让两个版本的封面颜色有所区别。",
+    "hint": "看这里是在陈述颜色本来不同，还是出版社主动把两版设计成不同颜色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbwa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "lexicalKey": "歪む・歪める",
+    "scene": "潮湿仓库里的木画框受潮后，木框变形了。",
+    "before": [
+      {
+        "text": "湿った倉庫に置かれた木製の額縁が、湿気で",
+        "reading": "しめったそうこにおかれたもくせいのがくぶちが、しっけで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "歪みました",
+        "reading": "ゆがみました",
+        "verdict": "correct",
+        "explanation": "木制画框自身因潮气而发生形状变化。"
+      },
+      {
+        "id": "b",
+        "text": "歪めました",
+        "reading": "ゆがめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「歪める」表示施事把别的东西弄变形；本句说画框自身变了形，并没有画框去弄歪的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "放在潮湿仓库里的木制画框因受潮变形了。",
+    "explanation": "「歪む」表示木制画框自身形状发生偏斜。",
+    "hint": "判断画框是自身变形，还是有人使别的东西变形。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbwa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "lexicalKey": "歪む・歪める",
+    "scene": "搬运时，工人把薄铝板弄弯了。",
+    "before": [
+      {
+        "text": "作業員は薄いアルミ板を",
+        "reading": "さぎょういんはうすいアルミばんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "歪めました",
+        "reading": "ゆがめました",
+        "verdict": "correct",
+        "explanation": "作业员是施事，薄铝板是被他弄变形的对象。"
+      },
+      {
+        "id": "b",
+        "text": "歪みました",
+        "reading": "ゆがみました",
+        "verdict": "ungrammatical",
+        "explanation": "「歪む」描述薄铝板自身发生变形；本句以「アルミ板を」标出作业员处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员把薄铝板弄变形了。",
+    "explanation": "「歪める」表示作业员使薄铝板的形状发生偏斜。",
+    "hint": "留意薄铝板是被人弄变形的对象，还是自行变形的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbwa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "lexicalKey": "歪む・歪める",
+    "scene": "广角镜头拍出的照片里，建筑边缘看起来变了形。",
+    "before": [
+      {
+        "text": "広角レンズで撮った写真では、建物の端が",
+        "reading": "こうかくレンズでとったしゃしんでは、たてもののはしが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "歪んで見えました",
+        "reading": "ゆがんでみえました",
+        "verdict": "correct",
+        "explanation": "建筑边缘在广角照片里呈现出变形的样子。"
+      },
+      {
+        "id": "b",
+        "text": "歪めて見えました",
+        "reading": "ゆがめてみえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「歪める」表示施事使对象变形；本句描述的是建筑边缘在照片里的形状看起来不正。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "广角镜头拍出的照片里，建筑边缘看起来变形了。",
+    "explanation": "「歪む」表示建筑边缘呈现出偏斜、变形的状态。",
+    "hint": "看建筑边缘是呈现变形状态，还是有人把它弄变形。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbwa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbwa",
+    "familyId": "verb.refbwa",
+    "lexicalKey": "歪む・歪める",
+    "scene": "报告撰写者改动部分数据，歪曲了调查结果。",
+    "before": [
+      {
+        "text": "報告書の作成者は資料の数値を一部書き換え、調査結果を",
+        "reading": "ほうこくしょのさくせいしゃはしりょうのすうちをいちぶかきかえ、ちょうさけっかを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "歪めました",
+        "reading": "ゆがめました",
+        "verdict": "correct",
+        "explanation": "报告撰写者是施事，调查结果是被他歪曲的对象。"
+      },
+      {
+        "id": "b",
+        "text": "歪みました",
+        "reading": "ゆがみました",
+        "verdict": "ungrammatical",
+        "explanation": "「調査結果を」是撰写者改动数据后歪曲的对象；若说结果自身失真，应以「調査結果が」作主语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "报告撰写者改动了资料中的部分数字，歪曲了调查结果。",
+    "explanation": "「歪める」也可表示使事实或结论失去原有的准确性。",
+    "hint": "判断调查结果是被撰写者改变的对象，还是自行呈现出失真状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "lexicalKey": "溶ける・溶く",
+    "scene": "方糖逐渐溶进温热咖啡里。",
+    "before": [
+      {
+        "text": "角砂糖が温かいコーヒーに少しずつ",
+        "reading": "かくざとうがあたたかいコーヒーにすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶けました",
+        "reading": "とけました",
+        "verdict": "correct",
+        "explanation": "方糖自身逐渐进入温热咖啡并溶解，符合「角砂糖が溶ける」。"
+      },
+      {
+        "id": "b",
+        "text": "溶きました",
+        "reading": "ときました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「溶く」表示有人把固体或粉末混入液体；本句说的是方糖自身溶进咖啡。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "方糖逐渐溶进温热的咖啡里。",
+    "explanation": "「溶ける」表示方糖自身在液体中逐步溶解。",
+    "hint": "看方糖是自身溶解，还是有人把它混进液体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "lexicalKey": "溶ける・溶く",
+    "scene": "做茶碗蒸前，厨师把鸡蛋打散。",
+    "before": [
+      {
+        "text": "料理人は茶碗蒸し用の卵を",
+        "reading": "りょうりにんはちゃわんむしようのたまごを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶きました",
+        "reading": "ときました",
+        "verdict": "correct",
+        "explanation": "厨师把鸡蛋搅散调匀，符合料理中「卵を溶く」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "溶けました",
+        "reading": "とけました",
+        "verdict": "ungrammatical",
+        "explanation": "「溶ける」描述鸡蛋自身溶解或融化，应由鸡蛋作「が」主语；本句把鸡蛋以「を」标为厨师处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "厨师把做茶碗蒸用的鸡蛋打散了。",
+    "explanation": "「溶く」表示厨师主动搅散鸡蛋，为后续烹调做准备。",
+    "hint": "留意鸡蛋是被厨师搅散的对象，还是自身发生溶解。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "lexicalKey": "溶ける・溶く",
+    "scene": "春日阳光照着池塘，冰层融化了。",
+    "before": [
+      {
+        "text": "春の日差しで池の氷が",
+        "reading": "はるのひざしでいけのこおりが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶けました",
+        "reading": "とけました",
+        "verdict": "correct",
+        "explanation": "池の氷自身在春日阳光下融化，符合「氷が溶ける」。"
+      },
+      {
+        "id": "b",
+        "text": "溶きました",
+        "reading": "ときました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「溶く」是施事把固体或粉末混进液体；这里是冰块自身受热后融化。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "春日阳光下，池塘里的冰融化了。",
+    "explanation": "「溶ける」描写冰从固态变成液态。",
+    "hint": "判断这里是冰自身融化，还是有人把固体混进液体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "lexicalKey": "溶ける・溶く",
+    "scene": "烹饪实习课上，学生把食盐溶进水里配制盐水。",
+    "before": [
+      {
+        "text": "調理実習で、生徒は水に食塩を",
+        "reading": "ちょうりじっしゅうで、せいとはみずにしょくえんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶きました",
+        "reading": "ときました",
+        "verdict": "correct",
+        "explanation": "学生把食盐主动混入水中，使它成为均匀的盐水。"
+      },
+      {
+        "id": "b",
+        "text": "溶けました",
+        "reading": "とけました",
+        "verdict": "ungrammatical",
+        "explanation": "「食塩を」是学生混入水中的对象；若说盐自身溶解，应写「食塩が水に溶けました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烹饪实习课上，学生把食盐溶进水里。",
+    "explanation": "「溶く」表示学生把食盐混入水中使其溶解。",
+    "hint": "看句子说的是学生主动把盐溶进水里，还是盐自身溶解。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "scene": "做爆米花时，锅里的玉米粒接连爆开。",
+    "before": [
+      {
+        "text": "鍋で加熱したトウモロコシの粒が、次々と",
+        "reading": "なべでかねつしたトウモロコシのつぶが、つぎつぎと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弾けました",
+        "reading": "はじけました",
+        "verdict": "correct",
+        "explanation": "锅里的玉米粒受热后接连爆开，符合「粒が弾ける」。"
+      },
+      {
+        "id": "b",
+        "text": "弾きました",
+        "reading": "はじきました",
+        "verdict": "meaning-mismatch",
+        "explanation": "这个读法的「弾く」表示用力弹开、弹回某个对象；本句说的是玉米粒自身爆开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "锅里的玉米粒接连爆开。",
+    "explanation": "「弾ける」表示颗粒内部膨胀后裂开。",
+    "hint": "看玉米粒是自身爆开，还是它弹开了别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "scene": "孩子用指尖把桌上的小石子弹开。",
+    "before": [
+      {
+        "text": "子どもは指先で小石を",
+        "reading": "こどもはゆびさきでこいしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弾きました",
+        "reading": "はじきました",
+        "verdict": "correct",
+        "explanation": "孩子用指尖实际弹了小石子；「小石を」是被弹开的对象。"
+      },
+      {
+        "id": "b",
+        "text": "弾けました",
+        "reading": "はじけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「弾ける」作为本词对的自动态表示爆开；它也可能是「弾く」的可能形，表示有能力弹石子。本句报告的是实际弹出的动作，不是在说能力。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子用指尖弹开了小石子。",
+    "explanation": "「弾く」表示孩子用手指给小石子施力，使它弹开。",
+    "hint": "判断句子报告的是已经发生的弹石动作，还是某人有这种能力。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "scene": "肥皂泡碰到针尖的瞬间就破裂了。",
+    "before": [
+      {
+        "text": "シャボン玉が針に触れた瞬間、",
+        "reading": "シャボンだまがはりにふれたしゅんかん、"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弾けました",
+        "reading": "はじけました",
+        "verdict": "correct",
+        "explanation": "泡碰到针尖后自身破裂，符合「シャボン玉が弾ける」。"
+      },
+      {
+        "id": "b",
+        "text": "弾きました",
+        "reading": "はじきました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「弾く」表示施力把对象弹开；这里是肥皂泡自身破裂，不是泡把其他对象弹开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "肥皂泡碰到针尖的瞬间破裂了。",
+    "explanation": "「弾ける」描写泡膜破开、泡体消失的变化。",
+    "hint": "留意破裂的是泡本身，还是泡把别的对象弹开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "scene": "测试涂层时，滴在布料上的水滴被弹开，没有渗入。",
+    "before": [
+      {
+        "text": "撥水剤を塗った布は、実験で水滴を",
+        "reading": "はっすいざいをぬったぬのは、じっけんですいてきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弾きました",
+        "reading": "はじきました",
+        "verdict": "correct",
+        "explanation": "实验中布料表面把滴上的水排开，句子报告实际发生的排水现象。"
+      },
+      {
+        "id": "b",
+        "text": "弾けました",
+        "reading": "はじけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "这里的「弾ける」可能被读作「弾く」的可能形，表示布料有排水能力；场景报告的是实验中实际排开了水滴。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "实验中，涂过防水剂的布料排开了水滴。",
+    "explanation": "「弾く」表示布料表面把水滴弹开、不让它附着。",
+    "hint": "判断句子记录的是实际排开水滴，还是只说明布料有排水能力。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "lexicalKey": "枯れる・枯らす",
+    "scene": "外出期间没能浇水，盆栽罗勒枯萎了。",
+    "before": [
+      {
+        "text": "留守中に水やりができず、鉢植えのバジルが",
+        "reading": "るすちゅうにみずやりができず、はちうえのバジルが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "枯れました",
+        "reading": "かれました",
+        "verdict": "correct",
+        "explanation": "盆栽罗勒因缺水自身枯萎，符合植物作为变化主体的用法。"
+      },
+      {
+        "id": "b",
+        "text": "枯らしました",
+        "reading": "からしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「枯らす」表示某个施事使植物枯死；本句把罗勒写成自身枯萎的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "外出期间没能浇水，盆栽罗勒枯萎了。",
+    "explanation": "「枯れる」表示植物失去水分、生气并逐渐枯萎。",
+    "hint": "看盆栽是自身枯萎，还是有人使植物枯萎。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "lexicalKey": "枯れる・枯らす",
+    "scene": "园艺店员用除草剂让步道旁的杂草枯死。",
+    "before": [
+      {
+        "text": "園芸店の店員は、除草剤で歩道脇の雑草を",
+        "reading": "えんげいてんのてんいんは、じょそうざいでほどうわきのざっそうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "枯らしました",
+        "reading": "からしました",
+        "verdict": "correct",
+        "explanation": "店员用除草剂使杂草枯死，「雑草を」是作用对象。"
+      },
+      {
+        "id": "b",
+        "text": "枯れました",
+        "reading": "かれました",
+        "verdict": "ungrammatical",
+        "explanation": "「枯れる」描写杂草自身枯萎，杂草应作「が」主语；本句以「雑草を」标出店员处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "园艺店员用除草剂让步道旁的杂草枯死了。",
+    "explanation": "「枯らす」表示园艺店员使杂草失去生气、枯死。",
+    "hint": "判断杂草是自身枯萎，还是店员采取行动使它枯死。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "lexicalKey": "枯れる・枯らす",
+    "scene": "虫害后，庭树的一根枝条枯萎了。",
+    "before": [
+      {
+        "text": "虫害で庭木の枝が",
+        "reading": "ちゅうがいでにわきのえだが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "枯れました",
+        "reading": "かれました",
+        "verdict": "correct",
+        "explanation": "虫害后枝条自身失去生气并枯萎。"
+      },
+      {
+        "id": "b",
+        "text": "枯らしました",
+        "reading": "からしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「枯らす」表示施事使植物枯萎；本句的「枝が」是发生变化的主体，不是让别的植物枯萎的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "庭树的枝条因虫害枯萎了。",
+    "explanation": "「枯れる」描述树枝自身失去生气的状态变化。",
+    "hint": "看枝条是自身枯萎，还是某人使植物枯萎。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

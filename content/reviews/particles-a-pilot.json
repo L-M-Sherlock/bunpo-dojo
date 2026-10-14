@@ -1,0 +1,38 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.existence.01",
+      "hash": "6b9afb8bed7f76107581ccb24182211f93ae54fbaf2ba827d394af77139ae876",
+      "fullSentences": ["冷蔵庫に卵が二個あります。"],
+      "status": "approved",
+      "reason": "晚饭前清点冰箱内鸡蛋的场景具体，完整句以あります陈述两个鸡蛋的存在位置，搭配自然，符合存在地点的に这一目标。",
+      "answerSet": "只有ni应收录：冷蔵庫に卵が二個あります表示冰箱里有两个鸡蛋；现有で、へ均不能在不改变谓语的情况下表达同一所在关系。",
+      "readings": "冷蔵庫为れいぞうこ，卵为たまご，二個为にこ；句段读音れいぞうこ／たまごがにこあります。与正文对应。助词へ虽写作へ，实际读え，选项注音正确。",
+      "translation": "“冰箱里有两个鸡蛋”准确对应冷蔵庫に卵が二個あります，没有把场景中的清点动作误译进句子。",
+      "options": "ni的correct与存在地点相符；de接あります不能标鸡蛋静态所在，标为ungrammatical且解释准确；e只标移动方向，不能与本句あります表达所在，ungrammatical及解释准确。"
+    },
+    {
+      "id": "particle.existence.02",
+      "hash": "22f0f06a87cfadbe0469f86c97c75fdb2566c60db285fea397ccb0362d4e7450",
+      "fullSentences": ["水槽に金魚が三匹います。"],
+      "status": "approved",
+      "reason": "换水前数鱼缸里的金鱼，日语句明确陈述鱼缸内有三条金鱼；います与有生命物的存在地点に搭配自然，场景与句子一致。",
+      "answerSet": "只有ni为正确答案：水槽に金魚が三匹います。で不能替代存在地点的に，へ所需的移动关系在本句也不存在，没有遗漏可接受答案。",
+      "readings": "水槽读すいそう，金魚读きんぎょ，三匹读さんびき，均与句段注音一致；へ作为助词发え，选项reading正确。",
+      "translation": "“鱼缸里有三条金鱼”保留了地点、金鱼及三匹的数量，未加入句中没有表达的换水动作。",
+      "options": "ni的correct与句义相符；de在水槽で金魚が三匹います中不能标金鱼的静态所在，ungrammatical判断及说明成立；e无法接此处的存在谓语表示目的地，ungrammatical判断及说明成立。"
+    },
+    {
+      "id": "particle.existence.03",
+      "hash": "87bdd0ef69be2df4d132cf121d9ab4e5d826be15b3b2374dec11b8a8f03862ff",
+      "fullSentences": ["休憩室に店長がいます。"],
+      "status": "approved",
+      "reason": "新人询问店长所在时，用休憩室に店長がいます直接告知位置，自然且契合场景；店長が与います的施事及存在关系清楚。",
+      "answerSet": "只有ni正确：休憩室に标出店长所在；休憩室で和休憩室へ都不能在本句的います前表达相同关系。",
+      "readings": "休憩室读きゅうけいしつ，店長读てんちょう，います按假名读取；各句段reading与正文一致。助词へ写へ读え，选项注音正确。",
+      "translation": "“店长在休息室”准确传达休憩室に店長がいます，没有额外断言店长正在休息或正在去休息室。",
+      "options": "ni为correct符合所在关系；de只能标相关活动的发生地，本句没有该活动，ungrammatical解释具体；e表示移动方向，而います陈述当前位置，ungrammatical解释具体。"
+    }
+  ]
+}

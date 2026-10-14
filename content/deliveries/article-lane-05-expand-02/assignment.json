@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaaia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "pair": {
+      "id": "verb.refaaia",
+      "intransitive": "留まる",
+      "intransitiveReading": "とどまる",
+      "transitive": "留める",
+      "transitiveReading": "とどめる",
+      "meaning": "辨析「留まる／留める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 35
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "pair": {
+      "id": "verb.refaaqa",
+      "intransitive": "茹だる",
+      "intransitiveReading": "ゆだる",
+      "transitive": "茹でる",
+      "transitiveReading": "ゆでる",
+      "meaning": "辨析「茹だる／茹でる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 43
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "pair": {
+      "id": "verb.refaaqa",
+      "intransitive": "茹だる",
+      "intransitiveReading": "ゆだる",
+      "transitive": "茹でる",
+      "transitiveReading": "ゆでる",
+      "meaning": "辨析「茹だる／茹でる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 43
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "pair": {
+      "id": "verb.refaaqa",
+      "intransitive": "茹だる",
+      "intransitiveReading": "ゆだる",
+      "transitive": "茹でる",
+      "transitiveReading": "ゆでる",
+      "meaning": "辨析「茹だる／茹でる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 43
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaqa",
+    "familyId": "verb.refaaqa",
+    "pair": {
+      "id": "verb.refaaqa",
+      "intransitive": "茹だる",
+      "intransitiveReading": "ゆだる",
+      "transitive": "茹でる",
+      "transitiveReading": "ゆでる",
+      "meaning": "辨析「茹だる／茹でる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 43
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "pair": {
+      "id": "verb.refbga",
+      "intransitive": "絡む",
+      "intransitiveReading": "からむ",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡む／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "pair": {
+      "id": "verb.refbga",
+      "intransitive": "絡む",
+      "intransitiveReading": "からむ",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡む／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "pair": {
+      "id": "verb.refbga",
+      "intransitive": "絡む",
+      "intransitiveReading": "からむ",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡む／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbga",
+    "familyId": "verb.refbga",
+    "pair": {
+      "id": "verb.refbga",
+      "intransitive": "絡む",
+      "intransitiveReading": "からむ",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡む／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbma.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "pair": {
+      "id": "verb.refbma",
+      "intransitive": "進む",
+      "intransitiveReading": "すすむ",
+      "transitive": "進める",
+      "transitiveReading": "すすめる",
+      "meaning": "辨析「進む／進める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 13
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbma.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "pair": {
+      "id": "verb.refbma",
+      "intransitive": "進む",
+      "intransitiveReading": "すすむ",
+      "transitive": "進める",
+      "transitiveReading": "すすめる",
+      "meaning": "辨析「進む／進める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 13
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "pair": {
+      "id": "verb.refbma",
+      "intransitive": "進む",
+      "intransitiveReading": "すすむ",
+      "transitive": "進める",
+      "transitiveReading": "すすめる",
+      "meaning": "辨析「進む／進める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 13
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbma",
+    "familyId": "verb.refbma",
+    "pair": {
+      "id": "verb.refbma",
+      "intransitive": "進む",
+      "intransitiveReading": "すすむ",
+      "transitive": "進める",
+      "transitiveReading": "すすめる",
+      "meaning": "辨析「進む／進める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 13
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbsa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "pair": {
+      "id": "verb.refbsa",
+      "intransitive": "付く",
+      "intransitiveReading": "つく",
+      "transitive": "付ける",
+      "transitiveReading": "つける",
+      "meaning": "辨析「付く／付ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 19
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbsa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "pair": {
+      "id": "verb.refbsa",
+      "intransitive": "付く",
+      "intransitiveReading": "つく",
+      "transitive": "付ける",
+      "transitiveReading": "つける",
+      "meaning": "辨析「付く／付ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 19
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbsa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbsa",
+    "familyId": "verb.refbsa",
+    "pair": {
+      "id": "verb.refbsa",
+      "intransitive": "付く",
+      "intransitiveReading": "つく",
+      "transitive": "付ける",
+      "transitiveReading": "つける",
+      "meaning": "辨析「付く／付ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 19
+    },
+    "direction": "intransitive"
+  }
+]

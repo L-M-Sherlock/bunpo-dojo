@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refmaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "pair": {
+      "id": "verb.refmaa",
+      "intransitive": "捕まる",
+      "intransitiveReading": "つかまる",
+      "transitive": "捕まえる",
+      "transitiveReading": "つかまえる",
+      "meaning": "辨析「捕まる／捕まえる」的角色与对象",
+      "count": 4,
+      "articleGroup": 13,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "pair": {
+      "id": "verb.refrba",
+      "intransitive": "返る",
+      "intransitiveReading": "かえる",
+      "transitive": "返す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「返る／返す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "pair": {
+      "id": "verb.refrba",
+      "intransitive": "返る",
+      "intransitiveReading": "かえる",
+      "transitive": "返す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「返る／返す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "pair": {
+      "id": "verb.refrba",
+      "intransitive": "返る",
+      "intransitiveReading": "かえる",
+      "transitive": "返す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「返る／返す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "pair": {
+      "id": "verb.refrba",
+      "intransitive": "返る",
+      "intransitiveReading": "かえる",
+      "transitive": "返す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「返る／返す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "pair": {
+      "id": "verb.refrga",
+      "intransitive": "治る",
+      "intransitiveReading": "なおる",
+      "transitive": "治す",
+      "transitiveReading": "なおす",
+      "meaning": "辨析「治る／治す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "pair": {
+      "id": "verb.refrga",
+      "intransitive": "治る",
+      "intransitiveReading": "なおる",
+      "transitive": "治す",
+      "transitiveReading": "なおす",
+      "meaning": "辨析「治る／治す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "pair": {
+      "id": "verb.refrga",
+      "intransitive": "治る",
+      "intransitiveReading": "なおる",
+      "transitive": "治す",
+      "transitiveReading": "なおす",
+      "meaning": "辨析「治る／治す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  }
+]

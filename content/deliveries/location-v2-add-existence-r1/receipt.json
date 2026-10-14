@@ -1,0 +1,22 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/location-20261013/existence/add-r1.draft.json",
+  "at": "2026-10-13T16:24:42.099Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "particle.existence.16",
+      "hash": "786e9ab1b8b337fa930712b62b8ea9d1d24ce613ea590706fad362db67cb4b8c",
+      "fullSentences": [
+        "窓辺に観葉植物があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.18",
+      "hash": "22a0eb2accc00179e6cb946953ea9c1ebc24dfc28657e020c1c846f1ca3c7f9b",
+      "fullSentences": [
+        "玄関先に宅配便の箱があります。"
+      ]
+    }
+  ]
+}

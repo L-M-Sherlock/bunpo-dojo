@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.off.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "消える・消す",
+    "scene": "睡前，父亲把客厅的灯关掉了。",
+    "before": [
+      {
+        "text": "父は寝る前に居間の電気を",
+        "reading": "ちちはねるまえにいまのでんきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消しました",
+        "reading": "けしました",
+        "verdict": "correct",
+        "explanation": "父亲主动关灯，客厅的电灯是动作对象，符合他动词消す。"
+      },
+      {
+        "id": "b",
+        "text": "消えました",
+        "reading": "きえました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「電気を」标出对象；自动词消える描述灯光自行熄灭，不能接这个直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "睡前，父亲关掉了客厅的灯。",
+    "explanation": "消す（けす）表示父亲对客厅的灯实施关闭动作。",
+    "hint": "看句中是谁实施关灯动作，以及灯在句中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.off.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "消える・消す",
+    "scene": "灯泡烧坏后，巷口的路灯熄灭了。",
+    "before": [
+      {
+        "text": "電球が切れて、路地の街灯は",
+        "reading": "でんきゅうがきれて、ろじのがいとうは"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消えました",
+        "reading": "きえました",
+        "verdict": "correct",
+        "explanation": "灯泡烧坏后，路灯自身熄灭，句子报告的是状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "消しました",
+        "reading": "けしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "消しました可表示有人关掉路灯；这里是灯泡烧坏导致路灯自行熄灭。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "灯泡烧坏后，巷子里的路灯熄灭了。",
+    "explanation": "消える（きえる）聚焦路灯从亮着变为熄灭的结果。",
+    "hint": "判断句子是在报告灯光熄灭，还是有人把灯关掉。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.off.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "消える・消す",
+    "scene": "打扫完客房后，清洁员关掉了照明。",
+    "before": [
+      {
+        "text": "清掃員は客室の掃除を終えて、照明を",
+        "reading": "せいそういんはきゃくしつのそうじをおえて、しょうめいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消しました",
+        "reading": "けしました",
+        "verdict": "correct",
+        "explanation": "清洁员主动关灯，照明是动作对象，符合他动词消す。"
+      },
+      {
+        "id": "b",
+        "text": "消えました",
+        "reading": "きえました",
+        "verdict": "ungrammatical",
+        "explanation": "本句把「照明」标为直接对象「を」；自动词消える不能按这个词义接该宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "清洁员打扫完客房后，关掉了照明。",
+    "explanation": "消す（けす）表示清洁员主动让客房照明熄灭。",
+    "hint": "留意清洁员是否是动作施事，以及照明是否是被关掉的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.off.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "消える・消す",
+    "scene": "夜风吹过，露台上的提灯火光熄灭了。",
+    "before": [
+      {
+        "text": "夜風が吹いて、テラスのランタンの火は",
+        "reading": "よかぜがふいて、テラスのランタンのひは"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消えました",
+        "reading": "きえました",
+        "verdict": "correct",
+        "explanation": "夜风吹来后，提灯的火自行熄灭，句子强调火光的变化。"
+      },
+      {
+        "id": "b",
+        "text": "消しました",
+        "reading": "けしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "消しました可表示有人把火熄掉；本句说明夜风吹过后火光自行熄灭，没有叙述人为操作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜风吹来，露台上的提灯火光熄灭了。",
+    "explanation": "消える（きえる）表示提灯的火光自行熄灭。",
+    "hint": "看火光是因夜风自行熄灭，还是有人实施了熄灭动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.break.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "旧纸箱装了太多书，箱体破损了。",
+    "before": [
+      {
+        "text": "本を詰めすぎて、古い段ボール箱が",
+        "reading": "ほんをつめすぎて、ふるいだんボールばこが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "correct",
+        "explanation": "纸箱因装书过多而损坏，句子报告物品自身的损坏状态。"
+      },
+      {
+        "id": "b",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "壊しました可表示纸箱作为施事弄坏了别的东西；这里纸箱是受损的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "塞了太多书，旧纸箱坏了。",
+    "explanation": "壊れる（こわれる）说明纸箱自身损坏，不叙述它损坏其他物品。",
+    "hint": "判断纸箱是发生损坏的物品，还是实施破坏动作的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.recipient.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.recipient.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    }
+  },
+  {
+    "id": "particle.time.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    }
+  }
+]

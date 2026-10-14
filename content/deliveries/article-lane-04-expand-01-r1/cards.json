@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refama.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "lexicalKey": "被さる/被せる",
+    "scene": "雕塑搬入前，工作人员给它盖上防雨布",
+    "before": [
+      {
+        "text": "係の人は、搬入前の彫刻に雨よけのシートを",
+        "reading": "かかりのひとは、はんにゅうまえのちょうこくにあまよけのシートを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "被せた",
+        "reading": "かぶせた",
+        "verdict": "correct",
+        "explanation": "係の人がシートを彫刻の上に載せています。「シートを」が直接の対象です。"
+      },
+      {
+        "id": "b",
+        "text": "被さった",
+        "reading": "かぶさった",
+        "verdict": "ungrammatical",
+        "explanation": "「シートを」と対象を示す形なので、物が自然に覆いかぶさる「被さった」にはつながりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在搬入雕塑前给它盖上了防雨布。",
+    "explanation": "工作人员主动把防雨布放到雕塑上，シート是被放置的物品。",
+    "hint": "确认句子里是谁拿起布，以及布放到了什么物品上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refavb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "lexicalKey": "締まる/締める",
+    "scene": "合奏前，吉他手查看调音器，发现琴弦音高偏低，便稍稍拧紧琴弦",
+    "before": [
+      {
+        "text": "合奏の前、ギター奏者はチューナーの表示を確認し、弦の音が低くなっていたので、その弦を少し",
+        "reading": "がっそうのまえ、ギターそうしゃはチューナーのひょうじをかくにんし、げんのおとがひくくなっていたので、そのげんをすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "締めた",
+        "reading": "しめた",
+        "verdict": "correct",
+        "explanation": "奏者が弦を調整して、張りを強くする動作をしています。"
+      },
+      {
+        "id": "b",
+        "text": "締まった",
+        "reading": "しまった",
+        "verdict": "ungrammatical",
+        "explanation": "「その弦を」が調整する対象を示しており、自動詞の「締まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "合奏前，吉他手查看调音器的显示，确认琴弦的音高偏低后，稍稍拧紧了那根弦。",
+    "explanation": "吉他手主动调整琴弦的松紧，以改变弦的张力。",
+    "hint": "留意调音者主动调整的部件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "lexicalKey": "助かる/助ける",
+    "scene": "学费部分减免后，学生家庭的经济负担得以减轻",
+    "before": [
+      {
+        "text": "学費の一部が免除され、学生の家計が",
+        "reading": "がくひのいちぶがめんじょされ、がくせいのかけいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "助かった",
+        "reading": "たすかった",
+        "verdict": "correct",
+        "explanation": "家計への負担が軽くなったことを表す「助かる」の用法です。"
+      },
+      {
+        "id": "b",
+        "text": "助けた",
+        "reading": "たすけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらだと家計が誰かを助ける側になります。ここでは家計が負担の軽減を受けた側です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "部分学费获得减免，学生家庭的经济负担因此得以减轻。",
+    "explanation": "句子说的是部分学费获免后，学生家计因此得到帮助。",
+    "hint": "看家计是在帮助别人，还是它本身得到了减轻负担的好处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "lexicalKey": "連なる/連ねる",
+    "scene": "白色风力发电机沿山丘脊线延伸到远处",
+    "before": [
+      {
+        "text": "丘の稜線に沿って、白い発電用の風車が遠くまで",
+        "reading": "おかのりょうせんにそって、しろいはつでんようのふうしゃがとおくまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "連なっていた",
+        "reading": "つらなっていた",
+        "verdict": "correct",
+        "explanation": "風車が稜線沿いに一列になって続く様子を表します。"
+      },
+      {
+        "id": "b",
+        "text": "連ねていた",
+        "reading": "つらねていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを一列に配置する動作です。風車が自分で別の物を並べる場面ではありません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "白色风力发电机沿着山丘的脊线一直延伸到远处。",
+    "explanation": "句子描写多台风车沿山脊连续排列的状态。",
+    "hint": "观察风车自身是排列成线，还是在把别的东西排成一列。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

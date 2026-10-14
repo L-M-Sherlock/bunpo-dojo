@@ -1,0 +1,45 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-01.draft.json",
+  "at": "2026-10-13T12:39:56.123Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.recipient.07",
+      "hash": "8c501857bca0ca9d4a7b5cdcff17be76f0ee3359530fa1839e1d99d422b02aff",
+      "fullSentences": [
+        "大学合格祝いとして、祖母は孫に腕時計を贈った。",
+        "大学合格祝いとして、祖母は孫へ腕時計を贈った。"
+      ]
+    },
+    {
+      "id": "particle.recipient.08",
+      "hash": "db760086b0e089ac452557faf8d67b1b713a674c19f34369190c0ff241b0742e",
+      "fullSentences": [
+        "避難訓練の係員は、参加者に会場図を配った。"
+      ]
+    },
+    {
+      "id": "particle.recipient.09",
+      "hash": "d389766375f198366ba2689f2480c80c83052fd3b418179c9ba9cac882f25bdf",
+      "fullSentences": [
+        "終電が運休になり、駅員は乗客に代行バスの乗り場を知らせた。"
+      ]
+    },
+    {
+      "id": "particle.recipient.10",
+      "hash": "dfb44b3b1657550e372218410909ba93273513e72c7453dd7530bb47970362bd",
+      "fullSentences": [
+        "出張先の父は、宿に着いてから母に電話した。",
+        "出張先の父は、宿に着いてから母と電話した。"
+      ]
+    },
+    {
+      "id": "particle.time.01",
+      "hash": "5e26b4893b98b92fe0e59b02f48685e222906dd9299d6b660c7e12b4d1e59447",
+      "fullSentences": [
+        "児童館の読み聞かせ会は、土曜日の午後三時に始まります。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_6a1",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-06b-2.draft.json",
+  "at": "2026-10-14T02:23:06.794Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.reftba.04",
+      "hash": "0ed4745fb7c9cb7a7ba703959b79d028947c8576dfeeb115b12bc508e7be3525",
+      "fullSentences": [
+        "朝のハイキングで休憩したとき、母は持参したパンにチーズと薄切りのトマトを挟んだ。"
+      ]
+    },
+    {
+      "id": "verb.refxaa.01",
+      "hash": "39265a8bab1b7ad2a15b641afea396f63e2c25af3ce452ea5f43349da8656a49",
+      "fullSentences": [
+        "使われなくなった古いピアノの鍵盤に、白いほこりが薄く積もっていた。"
+      ]
+    },
+    {
+      "id": "verb.refxaa.02",
+      "hash": "7d534fad7b2337a6b9788d449f52fa29296de945314cc44dc655bdf0cb6491f3",
+      "fullSentences": [
+        "引っ越しの日、作業員は段ボール箱をトラックの荷台に順番に積んだ。"
+      ]
+    },
+    {
+      "id": "verb.refxaa.03",
+      "hash": "f774ea13aa67a0ea2be7b1cbe8966eea869d531c5172ae9fb43403fe93cf9860",
+      "fullSentences": [
+        "新しい評価制度の説明がないまま数か月が過ぎ、職場には社員の不平が積もっていた。"
+      ]
+    }
+  ]
+}

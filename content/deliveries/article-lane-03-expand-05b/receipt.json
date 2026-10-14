@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_03_next",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-05b.draft.json",
+  "at": "2026-10-14T01:39:20.964Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refmaa.04",
+      "hash": "d51ece849e7ce342f8333b3d26b3712fff0011d545895af186ad6c0cb014094f",
+      "fullSentences": [
+        "住宅街に入り込んだ蛇を、保護センターの職員が専用の器具で捕まえました。"
+      ]
+    },
+    {
+      "id": "verb.refrba.01",
+      "hash": "88175b1cf87406e4b688af83aeb4c39ef565b946cd92b5b7bcd04134dc955501",
+      "fullSentences": [
+        "住所の番地が抜けていたため、発送した小包が差出人のもとに返りました。"
+      ]
+    },
+    {
+      "id": "verb.refrba.02",
+      "hash": "b771be41f824296472920dd2a54ef89f910e6baf01f831d0d520b07e983f8803",
+      "fullSentences": [
+        "返却期限前に、学生は大学図書館で借りた専門書をカウンターに返しました。"
+      ]
+    },
+    {
+      "id": "verb.refrba.03",
+      "hash": "0ef5060a6536c26937ca213f8e55f02700bddba40142f5d639558dc2047d3bb2",
+      "fullSentences": [
+        "見積もりを依頼するメールを送ると、翌朝には取引先から詳しい返事が返ってきました。"
+      ]
+    },
+    {
+      "id": "verb.refrba.04",
+      "hash": "76b69f36176c2b9daba794eb4e4e77d40593309c08e0de70e6e46eb0f17ae16a",
+      "fullSentences": [
+        "窓口の職員は、本人確認を済ませてから、見つかった定期券を持ち主に返しました。"
+      ]
+    },
+    {
+      "id": "verb.refrga.01",
+      "hash": "999e63fe52b1ea1a6762450550c70717a5a6db6b8ebe759365e5900b05362e6c",
+      "fullSentences": [
+        "医師の指示どおりに固定を続けると、右足首の捻挫が治りました。"
+      ]
+    },
+    {
+      "id": "verb.refrga.02",
+      "hash": "b0a11ff17e375d6bfe584722ca2919b7fce1b099548d4545b703a9d11cee5063",
+      "fullSentences": [
+        "皮膚科医は検査結果に合わせて薬を処方し、患者の湿疹を治しました。"
+      ]
+    },
+    {
+      "id": "verb.refrga.03",
+      "hash": "8a2fff906138d35717921304e6a1cb3feb78072d3e3baa3e8e89620730606d16",
+      "fullSentences": [
+        "数日間刺激物を控えていたら、頬の内側にできた口内炎が治りました。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_b21",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-04b-2-1.draft.json",
+  "at": "2026-10-14T01:53:44.398Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refgaa.04",
+      "hash": "558d1f73a7214b5c23467c93acb3278dd094440541a6447143a1acf2f09aba16",
+      "fullSentences": [
+        "閉店後、客の一人が店内で騒ぎを起こした。"
+      ]
+    },
+    {
+      "id": "verb.refica.01",
+      "hash": "1f759f8285d74112c240938bbadb46a411b2afc6ad4212bb02ad9cc4225643cd",
+      "fullSentences": [
+        "不正な取引が発覚し、社長の名誉が汚れた。"
+      ]
+    }
+  ]
+}

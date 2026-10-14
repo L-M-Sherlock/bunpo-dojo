@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_04b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-05a.draft.json",
+  "at": "2026-10-14T02:02:10.452Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refica.04",
+      "hash": "f4ddf5494f8768f363b83a41b6cb6affc94d575098e645ac03a71074ec14adfe",
+      "fullSentences": [
+        "根拠のない中傷が、記者の名誉を汚した。"
+      ]
+    },
+    {
+      "id": "verb.refija.01",
+      "hash": "83d3d4a2d3ebac46a913dbbed7827c1c8765e9b2ba4c9673bacbdfa8bbed1b58",
+      "fullSentences": [
+        "出航の汽笛が鳴ると、フェリーは岸壁からゆっくり離れた。"
+      ]
+    },
+    {
+      "id": "verb.refija.02",
+      "hash": "8c950d48bb6fc8167390631d91651967490f6bb95622acda9752b56223ba09bc",
+      "fullSentences": [
+        "通路を空けるため、係員は台車を壁から少し離した。"
+      ]
+    },
+    {
+      "id": "verb.refija.03",
+      "hash": "2c0422b7f895e9f76bb1434fe542add2c4852c383ca9847bad773a3308cb7583",
+      "fullSentences": [
+        "雷鳴が響くと、怖がった子犬は飼い主のそばから離れなかった。"
+      ]
+    },
+    {
+      "id": "verb.refija.04",
+      "hash": "a5bbe7bf013249d415a4176105dd81d3e56e0b24236a7099219044b004341be8",
+      "fullSentences": [
+        "駐車場で車を止め、運転手はハンドルから両手を離して、カーナビを確認した。"
+      ]
+    },
+    {
+      "id": "verb.refnaa.01",
+      "hash": "6114fac4c64eb968032c1cc3b3a0c1d256482ea3816f6a1bdb8b9ae5c994aadd",
+      "fullSentences": [
+        "雨が上がると、展望台から湾の向こうの灯台が見えた。"
+      ]
+    },
+    {
+      "id": "verb.refnaa.02",
+      "hash": "7590133eb09dbdc611f902b5fb6b66e5e6faec063e3ce035deed95b56a15e5a5",
+      "fullSentences": [
+        "来館者は解説パネルを読み終えてから、一枚の絵をじっくり見た。"
+      ]
+    },
+    {
+      "id": "verb.refnaa.03",
+      "hash": "4c080a9a81ecc9eb5a99450f1bcaea154c167c9fc7543070b74cb478027e9dcc",
+      "fullSentences": [
+        "劇場が停電したあとも、非常口の表示だけがかすかに見えた。"
+      ]
+    }
+  ]
+}

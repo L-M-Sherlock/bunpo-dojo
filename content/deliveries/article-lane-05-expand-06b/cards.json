@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.refsma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "lexicalKey": "similar-form-application-fields",
+    "scene": "申请表上几个栏目名称相近，让初次办理的人不知该填哪栏。",
+    "before": [
+      {
+        "text": "似た名称の欄が並ぶ申請書は、初めて手続きをする人を",
+        "reading": "にためいしょうのらんがならぶしんせいしょは、はじめててつづきをするひとを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "迷わした",
+        "reading": "まよわした",
+        "verdict": "correct",
+        "explanation": "名称相近的栏目让初次办理手续的人困惑；「人を」标出受到表格影响的对象，符合「迷わす」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "迷った",
+        "reading": "まよった",
+        "verdict": "ungrammatical",
+        "explanation": "「迷う」描述办理者自己犹豫或迷失方向，通常让「人が」作主体；本句用「人を」标出受影响的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "栏目名称相近的申请表，让初次办理手续的人不知道该填哪一栏。",
+    "explanation": "表格使初次办理的人困惑，办理者是受到影响的对象。",
+    "hint": "判断办理者是自己陷入犹豫，还是被表格的栏目设置弄得困惑。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refvaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "lexicalKey": "snowmelt-paddy-moisture",
+    "scene": "春季融雪水流入山间稻田，土壤得到滋润。",
+    "before": [
+      {
+        "text": "春の雪解け水で、山あいの水田が",
+        "reading": "はるのゆきどけみずで、やまあいのすいでんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潤った",
+        "reading": "うるおった",
+        "verdict": "correct",
+        "explanation": "水田自身因融雪水而含有适度水分，句子描述的是田地变得滋润。"
+      },
+      {
+        "id": "b",
+        "text": "潤した",
+        "reading": "うるおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「潤す」表示施事使另一个对象湿润；本句的水田是接受水分的土地，并没有田地去滋润的其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "春天的融雪水使山间稻田得到滋润。",
+    "explanation": "融雪水让稻田变得湿润，田地是发生状态变化的主体。",
+    "hint": "留意稻田是获得水分而变得湿润，还是作为施事去湿润别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refvaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "lexicalKey": "potted-seedling-soil-watering",
+    "scene": "店主发现盆土表面干燥，便沿幼苗根部浇水，润湿土壤。",
+    "before": [
+      {
+        "text": "鉢の表面が乾いていたので、園芸店の店主は苗の根元に水を注いで土を",
+        "reading": "はちのひょうめんがかわいていたので、えんげいてんのてんしゅはなえのねもとにみずをそそいでつちを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潤した",
+        "reading": "うるおした",
+        "verdict": "correct",
+        "explanation": "店主给土壤浇水使它湿润，「土を」标出被滋润的对象，符合「潤す」的关系。"
+      },
+      {
+        "id": "b",
+        "text": "潤った",
+        "reading": "うるおった",
+        "verdict": "ungrammatical",
+        "explanation": "「潤う」描述土壤自身变湿，通常说「土が潤う」；本句以「土を」标明被浇湿的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "盆土表面已经干了，园艺店店主便沿幼苗根部浇水，使土壤变得湿润。",
+    "explanation": "店主主动给土壤补水，土壤是受影响的对象。",
+    "hint": "观察句中土壤是自身变湿的主体，还是被店主浇湿的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refvaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "lexicalKey": "music-festival-local-business",
+    "scene": "国际音乐节吸引海外游客，山城的旅馆和餐饮店生意兴旺。",
+    "before": [
+      {
+        "text": "国際音楽祭に海外からも客が訪れ、山あいの町の旅館や飲食店は大いに",
+        "reading": "こくさいおんがくさいにかいがいからもきゃくがおとずれ、やまあいのまちのりょかんやいんしょくてんはおおいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潤った",
+        "reading": "うるおった",
+        "verdict": "correct",
+        "explanation": "海外游客带来生意，旅馆与餐饮店自身因此获益，符合「潤う」表示经济上受惠的用法。"
+      },
+      {
+        "id": "b",
+        "text": "潤した",
+        "reading": "うるおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「潤す」表示某个施事让别的对象获益；这里旅馆和餐饮店是受游客带动而获益的一方，并未使另一个对象受益。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "国际音乐节吸引了海外游客，山间小镇的旅馆和餐饮店因此受益颇丰。",
+    "explanation": "海外游客带来客源，使当地旅馆与餐饮店受益。",
+    "hint": "判断旅馆和餐饮店是得到经济收益的一方，还是让别的对象获益的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refvaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "lexicalKey": "alumni-donation-university-finances",
+    "scene": "（书面表达）毕业生的大额捐款充实了地方大学的财政。",
+    "before": [
+      {
+        "text": "卒業生の大口寄付は、設備更新を進める地方大学の財政を大きく",
+        "reading": "そつぎょうせいのおおぐちきふは、せつびこうしんをすすめるちほうだいがくのざいせいをおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "潤した",
+        "reading": "うるおした",
+        "verdict": "correct",
+        "explanation": "毕业生捐款为地方大学的财政带来充裕资金，「財政を」是被改善的对象，符合「潤す」的经济义。"
+      },
+      {
+        "id": "b",
+        "text": "潤った",
+        "reading": "うるおった",
+        "verdict": "ungrammatical",
+        "explanation": "「潤う」描述财政自身变得宽裕，通常说「大学の財政が潤う」；本句把财政用「を」标为捐款带来收益的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "毕业生的大额捐款大大充实了正在推进设备更新的地方大学财政。",
+    "explanation": "捐款改善了地方大学的财政状况，财政是动作对象。",
+    "hint": "留意捐款是让大学财政变宽裕，还是财政自身作为主体变得宽裕。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

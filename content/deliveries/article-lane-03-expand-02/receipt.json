@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_03",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-02.draft.json",
+  "at": "2026-10-13T18:01:31.426Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refaaga.04",
+      "hash": "a09a9c0952e2473d19adef2b11260e2adc895662a5e8b548cb43ef20efc9429b",
+      "fullSentences": [
+        "監督は後半、守備を強めました。"
+      ]
+    },
+    {
+      "id": "verb.refaaoa.01",
+      "hash": "31872221d04a5ef75732013e0deee9fca9db65a7594614db71ffda0b130ffe31",
+      "fullSentences": [
+        "米に小さな黒い虫が数匹混ざっていました。"
+      ]
+    },
+    {
+      "id": "verb.refaaoa.02",
+      "hash": "e04babdc90a2c768af86e30c341eab4f0c5ffb80d704dceb9cece5cda449b321",
+      "fullSentences": [
+        "パティシエはボウルで卵と牛乳を混ぜました。"
+      ]
+    },
+    {
+      "id": "verb.refaaoa.03",
+      "hash": "871803b5fb4294aaa1ee87776a5c557e878422088da113bbffe294628813c3c9",
+      "fullSentences": [
+        "録音した通話に、空調の雑音が混ざっていました。"
+      ]
+    },
+    {
+      "id": "verb.refaaoa.04",
+      "hash": "4dbefabe858c58e385bd588b031849e68f8e71bee116377ed9ec88b45bba634e",
+      "fullSentences": [
+        "司会者は説明に短い冗談を混ぜました。"
+      ]
+    },
+    {
+      "id": "verb.refbea.01",
+      "hash": "685d3cc113b0ba55c01583cd4425b4fbb0d98d122da3144186dbdfe6ea71fb10",
+      "fullSentences": [
+        "地震の揺れで、古い本棚が壁側に傾きました。"
+      ]
+    },
+    {
+      "id": "verb.refbea.02",
+      "hash": "d57b5931d4dffd5be26967e0ec50323263ae27b70cc078b91277d2f16dc702b8",
+      "fullSentences": [
+        "市長は住民の意見に耳を傾けました。"
+      ]
+    },
+    {
+      "id": "verb.refbea.03",
+      "hash": "58daa576dd0becdb867eeade376dd728a2bee11fa9081eddb1d8e4a6f5ef5490",
+      "fullSentences": [
+        "市場の縮小が続き、老舗旅館の経営が傾き始めました。"
+      ]
+    },
+    {
+      "id": "verb.refbea.04",
+      "hash": "3141c4e2ef8c94209a21fc63518f32a217290c9f9ad081e35154e038228d5682",
+      "fullSentences": [
+        "料理人は煮汁を器に移すとき、鍋を傾けました。"
+      ]
+    },
+    {
+      "id": "verb.refbka.01",
+      "hash": "c843927e001b62b4585009c55eda48b0f8290389675a5dda8ba46cf6226ae050",
+      "fullSentences": [
+        "後進の育成に専念するため、ベテラン記者は報道の第一線から退きました。"
+      ]
+    },
+    {
+      "id": "verb.refbka.02",
+      "hash": "782c8245ead64c2a478e5703725f69b63874c73e6c4f1e838a8083f2efd66caa",
+      "fullSentences": [
+        "議長は反対派の修正案を退けました。"
+      ]
+    },
+    {
+      "id": "verb.refbka.03",
+      "hash": "b266a8eabd546d1ce497293e73de17689a2f04ae2e9a806672c9119f6e83e7b9",
+      "fullSentences": [
+        "撮影スペースを空けるため、観客たちは舞台前から数歩退きました。"
+      ]
+    },
+    {
+      "id": "verb.refbka.04",
+      "hash": "8f5193fee71a59481de261cd6331ef96cdd5c485eb0959c2808bea66405a02a3",
+      "fullSentences": [
+        "警備員は無断で入ろうとする見物人を入口から退けました。"
+      ]
+    },
+    {
+      "id": "verb.refbqa.01",
+      "hash": "dda4bd595163e941cdefe7a58d1acb1644767a4a93a8abdaade9132849514668",
+      "fullSentences": [
+        "二つの窓口では、申請書を受け付ける時間が違います。"
+      ]
+    },
+    {
+      "id": "verb.refbqa.02",
+      "hash": "0ea2dc02de941752771404d21383675eb216a33ea47f5344798bbe09c5465553",
+      "fullSentences": [
+        "受付係は集合時間を一時間違えました。"
+      ]
+    },
+    {
+      "id": "verb.refbqa.03",
+      "hash": "1aa6c7d95e70987eb01e12b004a9b9f1bcc2f4096456757ba3a7f840aef915a1",
+      "fullSentences": [
+        "検品後、届いた部品の寸法が設計図と違いました。"
+      ]
+    }
+  ]
+}

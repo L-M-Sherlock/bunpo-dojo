@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refhaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refhaa",
+    "familyId": "verb.refhaa",
+    "pair": {
+      "id": "verb.refhaa",
+      "intransitive": "尽きる",
+      "intransitiveReading": "つきる",
+      "transitive": "尽くす",
+      "transitiveReading": "つくす",
+      "meaning": "辨析「尽きる／尽くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 8,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "pair": {
+      "id": "verb.refiga",
+      "intransitive": "潰れる",
+      "intransitiveReading": "つぶれる",
+      "transitive": "潰す",
+      "transitiveReading": "つぶす",
+      "meaning": "辨析「潰れる／潰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "pair": {
+      "id": "verb.refiga",
+      "intransitive": "潰れる",
+      "intransitiveReading": "つぶれる",
+      "transitive": "潰す",
+      "transitiveReading": "つぶす",
+      "meaning": "辨析「潰れる／潰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiga",
+    "familyId": "verb.refiga",
+    "pair": {
+      "id": "verb.refiga",
+      "intransitive": "潰れる",
+      "intransitiveReading": "つぶれる",
+      "transitive": "潰す",
+      "transitiveReading": "つぶす",
+      "meaning": "辨析「潰れる／潰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  }
+]

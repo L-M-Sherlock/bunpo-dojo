@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_01_recovery",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-03.draft.json",
+  "at": "2026-10-13T19:22:56.090Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refboa.04",
+      "hash": "cdc28e85962513f98bb5bea6618e234da5f839d16b8820697fd0cf41769fdd20",
+      "fullSentences": [
+        "開店前、店員の手で新作のシャツが色別に棚へ揃えられている。"
+      ]
+    },
+    {
+      "id": "verb.refbua.01",
+      "hash": "832dd6cf9d3a7732c718bd5c085aca90064846e5706322733266982557816506",
+      "fullSentences": [
+        "展望室の大きな窓は海に向いている。"
+      ]
+    },
+    {
+      "id": "verb.refbua.02",
+      "hash": "729eb864714b57854519736a020744fb28e6762bb1092f566583f00e006ece49",
+      "fullSentences": [
+        "質問が出ると、司会者は手持ちのマイクを客席の質問者へ向けた。"
+      ]
+    },
+    {
+      "id": "verb.refbua.03",
+      "hash": "cbcbc906d359111ec0ba8612b0214d91f8780d60409e54e9593e5e57fcd9ae92",
+      "fullSentences": [
+        "この坂道は勾配が急で、車いすでの移動には向かない。"
+      ]
+    },
+    {
+      "id": "verb.refbua.04",
+      "hash": "df4a5f3f0e7cd19c3345d1fdcbcba4822d4f5dfb9e4a71f5b12e580f3311a813",
+      "fullSentences": [
+        "自治体によって、限られた予算の一部が通学路の照明設置に向けられた。"
+      ]
+    },
+    {
+      "id": "verb.refcca.01",
+      "hash": "c8346638d6cd742e57cc67ce514b45a03b39385d66620cf3be404735b172fa27",
+      "fullSentences": [
+        "波に何度も打ちつけられた貝殻は、岩場のくぼみに細かく砕けている。"
+      ]
+    },
+    {
+      "id": "verb.refcca.02",
+      "hash": "6d32de9b7ef08498f9de68ba926ef7a3688eb4f3f2a6ff25b1556969b967436d",
+      "fullSentences": [
+        "料理人は胡椒の粒をすり鉢で細かく砕いた。"
+      ]
+    },
+    {
+      "id": "verb.refcca.03",
+      "hash": "8c8c992c38027b2376d8a2ccb368487d5b93ffc4be7bff2bb3271e16d86c31fb",
+      "fullSentences": [
+        "山道沿いの石灰岩は、凍結と融解を繰り返して少しずつ砕けていく。"
+      ]
+    },
+    {
+      "id": "verb.refcca.04",
+      "hash": "f7e33e922a0eb6b32d8d4b8d4d5b15bdeb26b8e8e05c5cccfe8c61108fc7ecf0",
+      "fullSentences": [
+        "工事区画を広げるため、作業員は重機で古いコンクリート塀を砕いた。"
+      ]
+    },
+    {
+      "id": "verb.refcha.01",
+      "hash": "a252ff09ca094c29bd311efa31b3cefdcfb9ae924304447850a1df2cf629442d",
+      "fullSentences": [
+        "収納袋から出したホースは、途中で強く捩れて水が流れにくくなった。"
+      ]
+    },
+    {
+      "id": "verb.refcha.02",
+      "hash": "d6aafc8a077b3a751b6184368cfa0a75f84e5e000ca7b73d920bc61bbd855863",
+      "fullSentences": [
+        "入浴後、客は濡れたタオルを洗面台の上で強く捩じって水を切った。"
+      ]
+    },
+    {
+      "id": "verb.refcha.03",
+      "hash": "869c8101dc02e817f37b95776545f6deb7aceddb881c1de4d462e1ae87254d05",
+      "fullSentences": [
+        "乾燥のむらで、木箱のふたが端から少しずつ捩れて、閉まらなくなった。"
+      ]
+    },
+    {
+      "id": "verb.refcha.04",
+      "hash": "05e4e61909fd6df0f767c1be6e4b7756b24950cfacf90fbfd05bdc2e6c84fc31",
+      "fullSentences": [
+        "看板を柱に固定するため、作業員は針金の両端をペンチで捩じった。"
+      ]
+    },
+    {
+      "id": "verb.refcna.01",
+      "hash": "9b2ae40a1b83ac37beff40bb732a18d51be1fb06912012ba6e01b9f17f2715e5",
+      "fullSentences": [
+        "棚から落ちた花瓶は、硬い床に当たって胴に細いひびが入り、割れている。"
+      ]
+    },
+    {
+      "id": "verb.refcna.02",
+      "hash": "6a6c1af8f0dd95d632021f30141515e180d4405b7402840cac9ae4cce22171d0",
+      "fullSentences": [
+        "料理人は卵を一つ、ボウルの縁に当てて割った。"
+      ]
+    },
+    {
+      "id": "verb.refcna.03",
+      "hash": "5efbaf0cafecc596ae34eaf2e1adb33c9057972ceeb4da839cf9c88c23a17d46",
+      "fullSentences": [
+        "春先の池では、気温が上がるにつれて岸近くの氷があちこちで割れている。"
+      ]
+    }
+  ]
+}

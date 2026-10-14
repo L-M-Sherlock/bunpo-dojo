@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.remain.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "plant-left-for-next-tenant",
+    "scene": "退租时，前住户把盆栽留给了下一位住户。",
+    "before": [
+      {
+        "text": "退去の日、前の住人は次の住人に譲る鉢植えを窓辺に",
+        "reading": "たいきょのひ、まえのじゅうにんはつぎのじゅうにんにゆずるはちうえをまどべに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "correct",
+        "explanation": "前住户主动把盆栽留在窗边，「鉢植えを」是留下的物品，用他动词「残す」。"
+      },
+      {
+        "id": "b",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "ungrammatical",
+        "explanation": "「残る」描述物品本身剩下，不能接直接宾语「鉢植えを」；若只说盆栽留在窗边，应改用「鉢植えが」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬离当天，前住户把准备转给下一位住户的盆栽留在窗边。",
+    "explanation": "句中有明确的施事和留下的物品，表示前住户把盆栽留给下一位住户。",
+    "hint": "看前住户是留下物品的人，还是留在原处的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.line.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "lexicalKey": "pots-lined-at-school-entrance",
+    "scene": "迎新日前，校舍入口两侧各排着三个花盆。",
+    "before": [
+      {
+        "text": "校舎の玄関には、植木鉢が左右に三つずつ",
+        "reading": "こうしゃのげんかんには、うえきばちがさゆうにみっつずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "並んだ",
+        "reading": "ならんだ",
+        "verdict": "correct",
+        "explanation": "植木鉢が左右に並ぶ様子を述べているので、自動詞「並ぶ」を使う。"
+      },
+      {
+        "id": "b",
+        "text": "並べた",
+        "reading": "ならべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「並べる」会把主语读成排列其他物品的施事；此处「植木鉢が」是排成队列的物品，场景没有植木鉢主动排列别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "校舍入口两侧各排着三个花盆。",
+    "explanation": "句子描写花盆本身排成队列，不说明是谁把它们摆好。",
+    "hint": "判断句子在描述物品排成队列，还是有人排列物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

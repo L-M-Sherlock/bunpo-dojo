@@ -1,0 +1,284 @@
+[
+  {
+    "id": "verb.refcba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "display-worker-cuts-cardboard-window",
+    "scene": "展览工作人员用美工刀裁开厚纸板，做出展示用的窗口。",
+    "before": [
+      {
+        "text": "展示係は、厚い段ボールをカッターで切って、展示用の窓を作った。",
+        "reading": "てんじがかりは、あついだんボールをカッターできって、てんじようのまどをつくった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词切れる来理解，会是纸板本身裂开；这里展示係用美工刀主动切割「段ボールを」。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "展示工作人员用美工刀切割厚纸板，再将它做成展示用的窗口；「段ボールを」是被切割的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "展览工作人员用美工刀裁开厚纸板，做出了展示用的窗口。",
+    "explanation": "展示係以美工刀切割厚纸板并制作展示用的窗口；「段ボールを」是他实施切割的对象。",
+    "hint": "看工作人员与厚纸板各自承担什么角色，以及是否有人主动实施切割。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切る",
+      "reading": "きる"
+    }
+  },
+  {
+    "id": "verb.refcba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "baker-slices-baguette-for-breakfast-guests",
+    "scene": "面包师把刚出炉的法棍按顾客人数切分，作为早餐端出。",
+    "before": [
+      {
+        "text": "パン職人は、焼きたてのバゲットを客の人数分に切って、朝食に出した。",
+        "reading": "パンしょくにんは、やきたてのバゲットをきゃくのにんずうぶんにきって、ちょうしょくにだした。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词切れる分析，法棍会成为自行断开的一方；完整句写的是面包师把「バゲットを」分切。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "面包师把刚出炉的法棍按顾客人数切分后作为早餐端出；「バゲットを」是他主动处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "面包师把刚出炉的法棍按顾客人数切分后，作为早餐端了出来。",
+    "explanation": "面包师先按顾客人数切分法棍，再把它作为早餐端出；「バゲットを」标出被切分的对象。",
+    "hint": "确认句中是谁执行切分、切分的对象是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切る",
+      "reading": "きる"
+    }
+  },
+  {
+    "id": "verb.refcga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "repairer-removes-rusted-screw-to-replace-shelf",
+    "scene": "维修人员用专用工具取出锈蚀的螺丝，随后更换层板。",
+    "before": [
+      {
+        "text": "修理担当者は、錆びついたネジを専用工具で抜いたので、棚板を新しいものに替えた。",
+        "reading": "しゅうりたんとうしゃは、さびついたネジをせんようこうぐでぬいたので、たないたをあたらしいものにかえた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词抜ける分析，螺丝会自行脱落；完整句写维修人员把「ネジを」拔出。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "维修人员实际用专用工具拔出了锈蚀螺丝，之后更换了层板。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "维修人员用专用工具拔出了锈蚀的螺丝，随后换上了新层板。",
+    "explanation": "维修人员实际用专用工具拔出了锈蚀螺丝，之后更换了层板。",
+    "hint": "结合维修人员、螺丝和专用工具的关系，判断谁执行了拔出动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜く",
+      "reading": "ぬく"
+    }
+  },
+  {
+    "id": "verb.refcga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "warm-air-escapes-through-old-window-frame",
+    "scene": "旧窗框的缝隙让室内暖空气在夜里漏了出去。",
+    "before": [
+      {
+        "text": "古い窓枠の隙間から、暖房で暖まった空気が夜のうちに抜けてしまった。",
+        "reading": "ふるいまどわくのすきまから、だんぼうであたたまったくうきがよるのうちにぬけてしまった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "经暖气加热的空气从旧窗框缝隙中漏出；「空気が」是发生移动的主体，符合抜ける。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "抜く表示施事把某对象抽出或去掉；本句的空气是从缝隙中自行漏出的，不是空气在抽走其他东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暖气加热过的空气在夜里从旧窗框的缝隙漏了出去。",
+    "explanation": "暖气加热后的空气夜里从窗框缝隙逸出；「空気が」是移动的主体，符合抜ける。",
+    "hint": "判断空气是从缝隙中逸出，还是有人把某个对象抽出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜ける",
+      "reading": "ぬける"
+    }
+  },
+  {
+    "id": "verb.refcga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "cyclist-overtakes-two-riders-on-final-climb",
+    "scene": "自行车选手在最后的坡道上超越前方两名选手，最终取得第三名。",
+    "before": [
+      {
+        "text": "自転車の選手は、最後の坂で前を走る二人の選手を抜いたので、三位に入った。",
+        "reading": "じてんしゃのせんしゅは、さいごのさかでまえをはしるふたりのせんしゅをぬいたので、さんいにはいった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词抜ける可表示离开队列或脱出某处；本句「二人の選手を抜いた」指选手超越前方的两名选手。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "选手在最后坡道超过了前方行进的两名选手，因此取得第三名。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "自行车选手在最后的坡道上超过前方的两名选手，因此取得第三名。",
+    "explanation": "「前を走る二人の選手を抜いた」表示超过前方两名选手并取得第三名；这两人是该选手前方的车手，不是赛事的前两名。",
+    "hint": "结合「前を走る二人の選手を」判断超越动作的施事和对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜く",
+      "reading": "ぬく"
+    }
+  },
+  {
+    "id": "verb.refcma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "lexicalKey": "home-team-breaks-opponents-defense-with-new-plan",
+    "scene": "比赛下半场，主队用新战术突破对手防守，创造逆转机会。",
+    "before": [
+      {
+        "text": "試合後半、ホームチームは新しい作戦で相手の守備を破ったので、逆転の機会を作った。",
+        "reading": "しあいこうはん、ホームチームはあたらしいさくせんであいてのしゅびをやぶったので、ぎゃくてんのきかいをつくった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词破れる分析，对方防守本身会自行破损；本句是主队用新战术主动突破「守備を」。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "主队实际用新战术突破了对方防守，创造出逆转机会。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "比赛下半场，主队用新战术突破了对手的防守，创造了逆转机会。",
+    "explanation": "主队实际用新战术突破了对方防守，创造出逆转机会。",
+    "hint": "结合「相手の守備を」判断句中谁对什么采取了行动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "破る",
+      "reading": "やぶる"
+    }
+  }
+]

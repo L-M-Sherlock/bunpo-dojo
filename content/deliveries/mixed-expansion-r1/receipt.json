@@ -1,0 +1,22 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/expansion-r1.draft.json",
+  "at": "2026-10-13T12:17:39.969Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "mixed.09",
+      "hash": "a1a93e2182efe8020e0ed1871382be0db00cc1fedf9a98e86834a913f4ace7e4",
+      "fullSentences": [
+        "係員はロビーでチケットを確認し、午後の公演は予定どおり午後二時にホールで始まった。"
+      ]
+    },
+    {
+      "id": "mixed.11",
+      "hash": "f5d89834f122fcb7b5d4655228dab66090ca2e157e753268cc68df8793cefc2c",
+      "fullSentences": [
+        "事務局は会議室で候補の時刻を比べ、次回の集合時刻が午後三時に決まった。"
+      ]
+    }
+  ]
+}

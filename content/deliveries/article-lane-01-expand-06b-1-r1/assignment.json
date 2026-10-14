@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.reftba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "pair": {
+      "id": "verb.reftba",
+      "intransitive": "挟まる",
+      "intransitiveReading": "はさまる",
+      "transitive": "挟む",
+      "transitiveReading": "はさむ",
+      "meaning": "辨析「挟まる／挟む」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reftba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftba",
+    "familyId": "verb.reftba",
+    "pair": {
+      "id": "verb.reftba",
+      "intransitive": "挟まる",
+      "intransitiveReading": "はさまる",
+      "transitive": "挟む",
+      "transitiveReading": "はさむ",
+      "meaning": "辨析「挟まる／挟む」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

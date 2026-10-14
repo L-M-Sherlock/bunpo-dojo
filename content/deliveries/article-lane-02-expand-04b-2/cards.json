@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.reffba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "lexicalKey": "荞麦面师傅擀平面团",
+    "scene": "荞麦面师傅用擀面杖把面团擀到厚薄均匀。",
+    "before": [
+      {
+        "text": "そば打ち職人は、麺棒でそば粉の生地を均一な厚さに",
+        "reading": "そばうちしょくにんは、めんぼうでそばこのきじをきんいつなあつさに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "伸ばした",
+        "reading": "のばした",
+        "verdict": "correct",
+        "explanation": "师傅用擀面杖把面团擀到均匀的厚度；「生地を」标明被加工的对象。"
+      },
+      {
+        "id": "b",
+        "text": "伸びた",
+        "reading": "のびた",
+        "verdict": "ungrammatical",
+        "explanation": "「伸びる」描述对象自身伸长，不能接这里「生地を」标出的直接对象；句中是师傅在擀压面团。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "荞麦面师傅用擀面杖把荞麦面团擀到均匀的厚度。",
+    "explanation": "面团是师傅主动擀开的对象，「生地を」标出这一对象。",
+    "hint": "先找出被擀面杖加工、厚度随之改变的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "lexicalKey": "枯水时湖底旧路石阶显露",
+    "scene": "枯水令水库水位下降，沉在湖底的旧路石阶露了出来。",
+    "before": [
+      {
+        "text": "渇水でダムの水位が下がると、湖底に沈んでいた旧道の石段が",
+        "reading": "かっすいでダムのすいいがさがると、こていにしずんでいたきゅうどうのいしだんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "現れた",
+        "reading": "あらわれた",
+        "verdict": "correct",
+        "explanation": "水位下降后，石阶从水面下变得可见；「石段が」标明显现出来的对象。"
+      },
+      {
+        "id": "b",
+        "text": "現した",
+        "reading": "あらわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「現す」表示某个主体把隐藏的对象显露出来；这里要表达的是石阶自身变得可见，角色方向不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "干旱使水库水位下降，沉在湖底的旧路石阶显露出来。",
+    "explanation": "句子描述石阶由水下变得可见，没有把石阶写成显露其他对象的施事。",
+    "hint": "判断石阶是新进入可见状态，还是显露其他事物的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "lexicalKey": "伪装旅客的男子露出真实身份",
+    "scene": "一直假扮旅客的男子在审讯时终于露出真实身份。",
+    "before": [
+      {
+        "text": "旅行者を装っていた男は、取り調べの場でついに正体を",
+        "reading": "りょこうしゃをよそおっていたおとこは、とりしらべのばでついにしょうたいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "現した",
+        "reading": "あらわした",
+        "verdict": "correct",
+        "explanation": "「正体を現す」表示把隐藏身份显露出来，「正体を」是显露的对象。"
+      },
+      {
+        "id": "b",
+        "text": "現れた",
+        "reading": "あらわれた",
+        "verdict": "ungrammatical",
+        "explanation": "「現れる」描述主体自身出现，不能接「正体を」作直接宾语；本句写的是男子显露身份。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一直假扮旅客的男子在审讯时终于显露了真实身份。",
+    "explanation": "男子把隐藏的身份显露出来，「正体を」是这一动作的对象。",
+    "hint": "留意真实身份是被显露的对象，还是人物本身出现在场。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiaa",
+    "familyId": "verb.refiaa",
+    "lexicalKey": "通宵工作后疲惫显现在脸上",
+    "scene": "通宵工作后的清晨，他脸上明显流露出疲惫。",
+    "before": [
+      {
+        "text": "徹夜で作業した翌朝、彼の顔には疲れがはっきり",
+        "reading": "てつやでさぎょうしたよくあさ、かれのかおにはつかれがはっきり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "現れた",
+        "reading": "あらわれた",
+        "verdict": "correct",
+        "explanation": "通宵工作后的清晨，疲惫清晰显现在他脸上；「疲れが」标明显现出来的状态。"
+      },
+      {
+        "id": "b",
+        "text": "現した",
+        "reading": "あらわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「現す」描述主体显露某个对象；这里的疲惫是出现在脸上的状态，不是显露其他对象的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "通宵工作后的清晨，他脸上明显显露出疲惫。",
+    "explanation": "疲惫显现在他的脸上，句子描述的是状态显现，不是疲惫主动显露了其他对象。",
+    "hint": "判断疲惫是脸上显现的状态，还是显露其他事物的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

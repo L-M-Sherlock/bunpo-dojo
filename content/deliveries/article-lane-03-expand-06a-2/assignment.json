@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "pair": {
+      "id": "verb.refsea",
+      "intransitive": "照る",
+      "intransitiveReading": "てる",
+      "transitive": "照らす",
+      "transitiveReading": "てらす",
+      "meaning": "辨析「照る／照らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refska.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "pair": {
+      "id": "verb.refska",
+      "intransitive": "減る",
+      "intransitiveReading": "へる",
+      "transitive": "減らす",
+      "transitiveReading": "へらす",
+      "meaning": "辨析「減る／減らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refska.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "pair": {
+      "id": "verb.refska",
+      "intransitive": "減る",
+      "intransitiveReading": "へる",
+      "transitive": "減らす",
+      "transitiveReading": "へらす",
+      "meaning": "辨析「減る／減らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refska.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "pair": {
+      "id": "verb.refska",
+      "intransitive": "減る",
+      "intransitiveReading": "へる",
+      "transitive": "減らす",
+      "transitiveReading": "へらす",
+      "meaning": "辨析「減る／減らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  }
+]

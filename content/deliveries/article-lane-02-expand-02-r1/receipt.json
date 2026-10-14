@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-02-r1.draft.json",
+  "at": "2026-10-13T19:10:36.739Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refbda.03",
+      "hash": "13c8b2428f194665bc064266638b5e7f1f03b3bc9f1220150b26789559838c16",
+      "fullSentences": [
+        "祖父の手紙を読み返していると、幼い頃の海辺の家がふと頭に浮かんだ。"
+      ]
+    },
+    {
+      "id": "verb.refbja.03",
+      "hash": "edf07b35bca76cfa30749b92dafd6cd8765ee4f2bde3d8172998692f81005822",
+      "fullSentences": [
+        "選手は審判の停止命令に気づいていたが、抗議のため試合を続け、指示に従わなかった。"
+      ]
+    },
+    {
+      "id": "verb.refbpa.01",
+      "hash": "caad6a82e1cfffadeb7c4be3f29793c5293d47e3fc98c822dff919e32a616c1c",
+      "fullSentences": [
+        "窯に薪を足すと、煙突から白い煙が立った。"
+      ]
+    },
+    {
+      "id": "verb.refbpa.03",
+      "hash": "7bca09d0a3bbbbaff5cf8e143f857e2658b73a920855c7cb42fae750b1ffd3ea",
+      "fullSentences": [
+        "講演を最後まで聞くと決めていた彼女は、終了の合図があるまで一番後ろの席を立たなかった。"
+      ]
+    }
+  ]
+}

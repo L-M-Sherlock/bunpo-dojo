@@ -1,0 +1,16 @@
+[
+  {
+    "id": "particle.means.01",
+    "fullCorrectSentences": [
+      "父は新幹線で東京駅に向かった。"
+    ],
+    "sceneRationale": "父亲使用新干线前往东京站；新干线是交通方式，东京站是目的地。",
+    "otherReadings": "「に」可标向かう目的地；若放在「新幹線」后，会把列车本身解释成移动的目标，而句中真正的目的地是「東京駅に」。交通方式用「で」。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记乘坐新干线这一交通方式", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "将新干线标作移动目标／到达点，而非交通方式", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：父（ちち）、新幹線（しんかんせん）、東京駅（とうきょうえき）、向かった（むかった）。选项「で」「に」的表记与读音核对正确。",
+    "unresolvedQuestions": []
+  }
+]

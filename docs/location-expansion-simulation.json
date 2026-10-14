@@ -1,0 +1,18 @@
+{
+  "perfect": {
+    "completed": true,
+    "questions": 175,
+    "mastered": 35,
+    "pending": 0,
+    "longestTargetRun": 2,
+    "repeatedScenes": 5
+  },
+  "firstWrongThenCorrect": {
+    "completed": true,
+    "questions": 350,
+    "mastered": 35,
+    "pending": 0,
+    "longestTargetRun": 2,
+    "repeatedScenes": 132
+  }
+}

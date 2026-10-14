@@ -1,0 +1,167 @@
+[
+  {
+    "id": "particle.existence.01",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "eggs-in-fridge",
+    "scene": "做晚饭前，孩子清点冰箱里剩下的鸡蛋。",
+    "before": [
+      {
+        "text": "冷蔵庫",
+        "reading": "れいぞうこ"
+      }
+    ],
+    "after": [
+      {
+        "text": "卵が二個あります。",
+        "reading": "たまごがにこあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出鸡蛋存在的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；本句的ある陈述鸡蛋在哪里，不能用で标出存在位置。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ标移动方向或目的地；本句没有移动谓语，不能表示鸡蛋静止所在的位置。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "冰箱里有两个鸡蛋。",
+    "explanation": "句子陈述鸡蛋的存在地点，用に标出所在。",
+    "hint": "先判断句子是在说某物存在于哪里，还是动作发生或朝某处移动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.02",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "goldfish-in-tank",
+    "scene": "换水前，主人先数一数鱼缸里的金鱼。",
+    "before": [
+      {
+        "text": "水槽",
+        "reading": "すいそう"
+      }
+    ],
+    "after": [
+      {
+        "text": "金魚が三匹います。",
+        "reading": "きんぎょがさんびきいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に表示金鱼存在于水槽这一地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；这里说明金鱼在哪里，不是在说水槽里发生什么活动。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示移动方向或目的地；います在此表示静态存在，没有移动谓语与へ搭配。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "鱼缸里有三条金鱼。",
+    "explanation": "活物存在于某处时，用に标出所在地点。",
+    "hint": "看谓语表达的是所在状态，还是在某处进行的动作或向某处移动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.03",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "manager-in-breakroom",
+    "scene": "新人找不到店长，前辈告诉他店长现在在休息室。",
+    "before": [
+      {
+        "text": "休憩室",
+        "reading": "きゅうけいしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "店長がいます。",
+        "reading": "てんちょうがいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出店长当前所在的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で可标活动地点，如在休息室工作；本句只说店长在哪里，不含在那里进行的动作。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "ungrammatical",
+        "explanation": "へ表示朝休息室移动；本句陈述店长已经在哪里，没有移动谓语。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "店长在休息室。",
+    "explanation": "店长的存在地点由に标出；本句没有地点动作或移动。",
+    "hint": "判断休息室是人物所在之处、活动发生之处，还是移动的方向。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

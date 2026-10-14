@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.continue.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "harbor-fireworks-duration",
+    "scene": "港口烟花大会在最后一天的晚上持续到九点。",
+    "before": [
+      {
+        "text": "港の花火大会は最終日の夜九時まで",
+        "reading": "みなとのはなびたいかいはさいしゅうびのよるくじまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "correct",
+        "explanation": "烟花大会作为活动本身延续到晚上九点，用自动词「続く」。"
+      },
+      {
+        "id": "b",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「花火大会は続けた」可把大会理解为主办者继续举办的活动（施事省略）；此处场景写的是大会本身延续到九点，不是主办者继续举办，意义不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "港口的烟花大会在最后一天持续到晚上九点。",
+    "explanation": "句子报告烟花大会这一活动持续到何时，没有写某人继续另一项活动。",
+    "hint": "判断句中是活动本身延续，还是有人继续一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.remain.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "bread-left-at-closing",
+    "scene": "打烊时，货架上还剩两份面包。",
+    "before": [
+      {
+        "text": "閉店時、棚にはパンが二つ",
+        "reading": "へいてんじ、たなにはパンがふたつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "correct",
+        "explanation": "面包作为剩余物品留在货架上，用自动词「残る」描述它们剩下。"
+      },
+      {
+        "id": "b",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「残す」会把面包读成留下某物的施事；这里没有面包留下的其他对象，场景说的是面包本身还剩在货架上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "打烊时，货架上还剩两份面包。",
+    "explanation": "句子写面包这一商品仍留在货架上，没有写它留下别的东西。",
+    "hint": "判断面包是剩下来的物品，还是留下其他东西的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

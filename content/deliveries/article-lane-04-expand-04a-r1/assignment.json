@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refdca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "pair": {
+      "id": "verb.refdca",
+      "intransitive": "焦げる",
+      "intransitiveReading": "こげる",
+      "transitive": "焦がす",
+      "transitiveReading": "こがす",
+      "meaning": "辨析「焦げる／焦がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdia",
+    "familyId": "verb.refdia",
+    "pair": {
+      "id": "verb.refdia",
+      "intransitive": "漏れる",
+      "intransitiveReading": "もれる",
+      "transitive": "漏らす",
+      "transitiveReading": "もらす",
+      "meaning": "辨析「漏れる／漏らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "pair": {
+      "id": "verb.refeea",
+      "intransitive": "冷える",
+      "intransitiveReading": "ひえる",
+      "transitive": "冷やす",
+      "transitiveReading": "ひやす",
+      "meaning": "辨析「冷える／冷やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  }
+]

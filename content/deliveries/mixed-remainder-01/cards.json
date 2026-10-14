@@ -1,0 +1,276 @@
+[
+  {
+    "id": "mixed.17",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "flea-market-venue",
+    "scene": "筹委会核对参加者名单，下午广场举办跳蚤市场。",
+    "before": [
+      {
+        "text": "運営委員は参加者の名簿を確認し、午後から広場",
+        "reading": "うんえいいいんはさんかしゃのめいぼをかくにんし、ごごからひろば"
+      }
+    ],
+    "after": [
+      {
+        "text": "フリーマーケットがあります。",
+        "reading": "フリーマーケットがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "从下午开始的跳蚤市场是一项活动，用「で」标出活动举行的地点。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」用于标示人或物存在的位置；若指市集实体摆放在哪里，是另一种位置读法。本句说活动从下午起在广场举行，应使用「で」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "运营委员核对参加者名单，跳蚤市场从下午起在广场举行。",
+    "explanation": "前半句给出运营委员和名册对象，后半句报告活动发生的地点；活动场所用「で」。",
+    "hint": "判断后半句说的是某个实体在哪里存在，还是一项活动在哪里举行。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.18",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "return-home-destination",
+    "scene": "旅客在车站商店买票，下午回老家。",
+    "before": [
+      {
+        "text": "旅行者は駅の売店で切符を買い、午後は実家",
+        "reading": "りょこうしゃはえきのばいてんできっぷをかい、ごごはじっか"
+      }
+    ],
+    "after": [
+      {
+        "text": "帰った。",
+        "reading": "かえった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标明旅客返回的到达地点，符合回老家的场景。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "correct",
+        "explanation": "「へ」标明返回方向；用于「帰る」时也可表示朝老家返回，因此同样符合场景。"
+      },
+      {
+        "id": "c",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」标示动作发生的地点，不能在这里标明「帰る」的目的地；「実家で帰った」不表达回老家。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "旅客在车站商店买了票，下午回了老家。",
+    "explanation": "旅客从车站商店买票后返回老家；「に」和「へ」分别突出到达点和方向，两者都表达此处目的地。",
+    "hint": "注意「帰る」后面标示的是返回的终点，而不是进行买票等动作的地点。",
+    "sourceIds": [
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.19",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "airport-bus-boarding",
+    "scene": "工作人员在车站柜台核验车票，旅客登上机场巴士。",
+    "before": [
+      {
+        "text": "係員は駅の窓口で旅行者の切符を確認し、旅行者は空港バス",
+        "reading": "かかりいんはえきのまどぐちでりょこうしゃのきっぷをかくにんし、りょこうしゃはくうこうバス"
+      }
+    ],
+    "after": [
+      {
+        "text": "乗った。",
+        "reading": "のった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "旅客登乘的交通工具是「乗る」的对象，用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "这里的巴士是乘坐对象，不是移动路径；「乗る」不以「を」标示所乘交通工具。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在车站柜台核验旅客的车票，旅客乘上了机场巴士。",
+    "explanation": "前半句给出工作人员、柜台和车票关系，后半句中巴士是旅客登乘的对象，使用「に」。",
+    "hint": "区分登乘的交通工具和移动时经过的路径。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.20",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "performer-leaves-stage",
+    "scene": "舞台工作人员在侧台待命，演员答完记者提问后离开舞台。",
+    "before": [
+      {
+        "text": "舞台係",
+        "reading": "ぶたいがかり"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "袖で",
+        "reading": "そでで"
+      },
+      {
+        "text": "待機し、",
+        "reading": "たいきし、"
+      },
+      {
+        "text": "出演者は",
+        "reading": "しゅつえんしゃは"
+      },
+      {
+        "text": "取材陣の質問に",
+        "reading": "しゅざいじんのしつもんに"
+      },
+      {
+        "text": "答えた",
+        "reading": "こたえた"
+      },
+      {
+        "text": "後、",
+        "reading": "あと、"
+      },
+      {
+        "text": "舞台",
+        "reading": "ぶたい"
+      }
+    ],
+    "after": [
+      {
+        "text": "出た。",
+        "reading": "でた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "演员从舞台离开，「舞台」是离开的起点，用「を」标示。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「舞台に出る」可表示演员登上或出现在舞台上；这里演员答完提问后离开舞台，方向与场景相反。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "舞台工作人员在侧台待命，演员回答记者提问后离开了舞台。",
+    "explanation": "「舞台係は袖で待機し」给出工作人员及地点；主句中演员从舞台离开，舞台是离开位置。",
+    "hint": "判断演员是离开舞台，还是朝舞台走去并登台。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.21",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "coastal-tunnel-route",
+    "scene": "司机用无线电联系总部，穿过海岸隧道驶向港口。",
+    "before": [
+      {
+        "text": "運転手は無線で本部に連絡し、海沿いのトンネル",
+        "reading": "うんてんしゅはむせんでほんぶにれんらくし、うみぞいのトンネル"
+      }
+    ],
+    "after": [
+      {
+        "text": "通って港へ向かった。",
+        "reading": "とおってみなとへむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "隧道是车辆穿过的路线，用「を」标示经过路径。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标示动作发生的地点，但这里的隧道是「通る」所经过的路线；这个路径用法需要「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "司机用无线电联络总部，穿过海岸隧道驶向港口。",
+    "explanation": "司机通过无线电联系总部，随后经由海岸隧道前往港口；隧道承担经过路线的关系。",
+    "hint": "看隧道是车辆经过的路线，还是只表示某个动作发生的地点。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

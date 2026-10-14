@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_05_next",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-05b.draft.json",
+  "at": "2026-10-14T01:47:43.841Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refoaa.04",
+      "hash": "c0246dadabf83de2b96ac0b20e0faf817bab9da0b531043a536925f0477f8217",
+      "fullSentences": [
+        "組み立てた本棚の安定を確かめるため、家具店の店員は棚全体を両手で前後に揺すった。"
+      ]
+    },
+    {
+      "id": "verb.refrca.01",
+      "hash": "7e64dd7388e5473e49d93450f0bb5fab0916bb51cbb5335a968cb0355fe5e605",
+      "fullSentences": [
+        "長い審理を経て、地方裁判所から原告に有利な判決が下った。"
+      ]
+    },
+    {
+      "id": "verb.refrca.02",
+      "hash": "719a87aa4011ea2509841819e345f42eea0bdec1615dd1d8205fe9e8cdc9f766",
+      "fullSentences": [
+        "裁判長は、証拠を吟味したうえで、被告に有罪の判決を下した。"
+      ]
+    },
+    {
+      "id": "verb.refrca.03",
+      "hash": "a0f2bcf4f29f8b5ccd3827234b6873007ddf002290ae16348ea1f8f1726c0ddf",
+      "fullSentences": [
+        "年度末、本社から海外支社への異動辞令が下った。"
+      ]
+    },
+    {
+      "id": "verb.refrca.04",
+      "hash": "5908938606dcd133298d47dc70070171945f2f3e6b6ea151b5b1b13cd686f0db",
+      "fullSentences": [
+        "川の水位が警戒線に達したため、市の災害対策本部は沿岸住民に避難命令を下した。"
+      ]
+    },
+    {
+      "id": "verb.refrka.01",
+      "hash": "c60899b43ce19a40c86b172ecf25856cebf8ce565c0872b782b5a0f998702048",
+      "fullSentences": [
+        "雨で増水した沢に架けられた仮設の橋を、登山者たちは一人ずつ慎重に渡った。"
+      ]
+    },
+    {
+      "id": "verb.refrka.02",
+      "hash": "1f5aef48d68859a032d9bf6105a5b08c65394c43e08db10f2d1c6abc8e9eec1a",
+      "fullSentences": [
+        "展示の準備を終えた学芸員は、資料の原本を保管担当者に渡した。"
+      ]
+    },
+    {
+      "id": "verb.refrka.03",
+      "hash": "d138b49aeef9ac34c54bdd91fc15dd12c133cd027ec2afee197cd7458be572f9",
+      "fullSentences": [
+        "調査チームは朝夕だけ運航する連絡船に乗り、本土から離島へ渡った。"
+      ]
+    }
+  ]
+}

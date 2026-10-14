@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.reftaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftaa",
+    "familyId": "verb.reftaa",
+    "pair": {
+      "id": "verb.reftaa",
+      "intransitive": "刺さる",
+      "intransitiveReading": "ささる",
+      "transitive": "刺す",
+      "transitiveReading": "さす",
+      "meaning": "辨析「刺さる／刺す」的角色与对象",
+      "count": 4,
+      "articleGroup": 20,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refwaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "pair": {
+      "id": "verb.refwaa",
+      "intransitive": "無くなる",
+      "intransitiveReading": "なくなる",
+      "transitive": "無くす",
+      "transitiveReading": "なくす",
+      "meaning": "辨析「無くなる／無くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 23,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refwaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "pair": {
+      "id": "verb.refwaa",
+      "intransitive": "無くなる",
+      "intransitiveReading": "なくなる",
+      "transitive": "無くす",
+      "transitiveReading": "なくす",
+      "meaning": "辨析「無くなる／無くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 23,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

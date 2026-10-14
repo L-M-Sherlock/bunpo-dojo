@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04_6a1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-06a-2.draft.json",
+  "at": "2026-10-14T03:02:29.197Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsfa.04",
+      "hash": "0c2c302e24170a21a786027dc1ec4a04ccc06b115c8b4648bfcdd6829abeb237",
+      "fullSentences": [
+        "子どもたちが床で遊べるよう、保育士は部屋の中央にあった低い机を壁際へ退かした。"
+      ]
+    },
+    {
+      "id": "verb.refsla.01",
+      "hash": "4c3c9acafb1a328a23184ba25d5157527f3d8a56c78ed18f7e71d1e62e7d8056",
+      "fullSentences": [
+        "会見で未公表の検査結果について問われ、広報担当者は何と答えるべきかしばらく惑った。"
+      ]
+    },
+    {
+      "id": "verb.refsla.02",
+      "hash": "5f4f464477b31cebf7fcafabef5629f79f9ceab307a4e1b15eb813efd89c26ae",
+      "fullSentences": [
+        "初回限定の割引を大きく載せ、適用条件を小さく書いた広告が、買い物客を惑わした。"
+      ]
+    },
+    {
+      "id": "verb.refsla.03",
+      "hash": "528fd1c704184f106442ca0efa50a6595c29fe817fd50591cc810dffd7d1446a",
+      "fullSentences": [
+        "濃霧で分岐点の道標が見えなくなり、ひとりで登っていた登山者は山中でしばらく惑った。"
+      ]
+    }
+  ]
+}

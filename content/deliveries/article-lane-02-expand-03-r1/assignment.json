@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refbpa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "transitive"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refada.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "pair": {
+      "id": "verb.refada",
+      "intransitive": "改まる",
+      "intransitiveReading": "あらたまる",
+      "transitive": "改める",
+      "transitiveReading": "あらためる",
+      "meaning": "辨析「改まる／改める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "pair": {
+      "id": "verb.refaka",
+      "intransitive": "重なる",
+      "intransitiveReading": "かさなる",
+      "transitive": "重ねる",
+      "transitiveReading": "かさねる",
+      "meaning": "辨析「重なる／重ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "pair": {
+      "id": "verb.refaka",
+      "intransitive": "重なる",
+      "intransitiveReading": "かさなる",
+      "transitive": "重ねる",
+      "transitiveReading": "かさねる",
+      "meaning": "辨析「重なる／重ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "pair": {
+      "id": "verb.refaka",
+      "intransitive": "重なる",
+      "intransitiveReading": "かさなる",
+      "transitive": "重ねる",
+      "transitiveReading": "かさねる",
+      "meaning": "辨析「重なる／重ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "pair": {
+      "id": "verb.refaka",
+      "intransitive": "重なる",
+      "intransitiveReading": "かさなる",
+      "transitive": "重ねる",
+      "transitiveReading": "かさねる",
+      "meaning": "辨析「重なる／重ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refata.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "pair": {
+      "id": "verb.refata",
+      "intransitive": "定まる",
+      "intransitiveReading": "さだまる",
+      "transitive": "定める",
+      "transitiveReading": "さだめる",
+      "meaning": "辨析「定まる／定める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 20
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refata.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "pair": {
+      "id": "verb.refata",
+      "intransitive": "定まる",
+      "intransitiveReading": "さだまる",
+      "transitive": "定める",
+      "transitiveReading": "さだめる",
+      "meaning": "辨析「定まる／定める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 20
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refata.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "pair": {
+      "id": "verb.refata",
+      "intransitive": "定まる",
+      "intransitiveReading": "さだまる",
+      "transitive": "定める",
+      "transitiveReading": "さだめる",
+      "meaning": "辨析「定まる／定める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 20
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refata.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "pair": {
+      "id": "verb.refata",
+      "intransitive": "定まる",
+      "intransitiveReading": "さだまる",
+      "transitive": "定める",
+      "transitiveReading": "さだめる",
+      "meaning": "辨析「定まる／定める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 20
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaza.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "pair": {
+      "id": "verb.refaza",
+      "intransitive": "染まる",
+      "intransitiveReading": "そまる",
+      "transitive": "染める",
+      "transitiveReading": "そめる",
+      "meaning": "辨析「染まる／染める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 26
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaza.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "pair": {
+      "id": "verb.refaza",
+      "intransitive": "染まる",
+      "intransitiveReading": "そまる",
+      "transitive": "染める",
+      "transitiveReading": "そめる",
+      "meaning": "辨析「染まる／染める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 26
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaza.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "pair": {
+      "id": "verb.refaza",
+      "intransitive": "染まる",
+      "intransitiveReading": "そまる",
+      "transitive": "染める",
+      "transitiveReading": "そめる",
+      "meaning": "辨析「染まる／染める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 26
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaza.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "pair": {
+      "id": "verb.refaza",
+      "intransitive": "染まる",
+      "intransitiveReading": "そまる",
+      "transitive": "染める",
+      "transitiveReading": "そめる",
+      "meaning": "辨析「染まる／染める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 26
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaafa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "pair": {
+      "id": "verb.refaafa",
+      "intransitive": "詰まる",
+      "intransitiveReading": "つまる",
+      "transitive": "詰める",
+      "transitiveReading": "つめる",
+      "meaning": "辨析「詰まる／詰める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 32
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaafa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "pair": {
+      "id": "verb.refaafa",
+      "intransitive": "詰まる",
+      "intransitiveReading": "つまる",
+      "transitive": "詰める",
+      "transitiveReading": "つめる",
+      "meaning": "辨析「詰まる／詰める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 32
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaafa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "pair": {
+      "id": "verb.refaafa",
+      "intransitive": "詰まる",
+      "intransitiveReading": "つまる",
+      "transitive": "詰める",
+      "transitiveReading": "つめる",
+      "meaning": "辨析「詰まる／詰める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 32
+    },
+    "direction": "intransitive"
+  }
+]

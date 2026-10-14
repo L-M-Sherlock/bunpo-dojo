@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.refsia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsia",
+    "familyId": "verb.refsia",
+    "lexicalKey": "young-man-cries-while-clearing-deceased-cat-s-cage",
+    "scene": "养的猫去世后，青年收拾空猫笼时悄悄哭了。",
+    "before": [
+      {
+        "text": "飼い猫を亡くした青年は、空になったケージを片付けながら静かに",
+        "reading": "かいねこをなくしたせいねんは、からになったケージをかたづけながらしずかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "泣いた",
+        "reading": "ないた",
+        "verdict": "correct",
+        "explanation": "青年因失去养的猫而自己哭泣；他是情绪反应的主体。"
+      },
+      {
+        "id": "b",
+        "text": "泣かした",
+        "reading": "なかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「泣かす」表示使别人哭；句子描写的是青年收拾猫笼时自己的悲伤反应。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "自己养的猫去世后，青年一边收拾空猫笼，一边静静地哭了。",
+    "explanation": "句子描写青年本人因失去宠物而哭泣，没有说他使别人哭。",
+    "hint": "判断句中是谁在哭，以及是否有被他人引发哭泣的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsia",
+    "familyId": "verb.refsia",
+    "lexicalKey": "film-scene-moves-screening-audience-to-tears",
+    "scene": "电影后半段，主人公读已故母亲的信让试映会观众落泪。",
+    "before": [
+      {
+        "text": "映画の終盤で、主人公が亡き母の手紙を読む場面は、試写会の観客を",
+        "reading": "えいがのしゅうばんで、しゅじんこうがなきははのてがみをよむばめんは、ししゃかいのかんきゃくを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "泣かした",
+        "reading": "なかした",
+        "verdict": "correct",
+        "explanation": "主人公读母亲来信的场景打动了观众，使他们落泪；「観客を」是受影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "泣いた",
+        "reading": "ないた",
+        "verdict": "ungrammatical",
+        "explanation": "「泣く」描述主体自己哭，不能接这里标记哭泣对象的「観客を」；若说观众自己哭，应为「観客が泣いた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "电影后半段，主人公读已故母亲来信的场景让试映会观众落泪。",
+    "explanation": "电影场景使观众落泪，「観客を」标出受到这一影响的人。",
+    "hint": "留意观众在句中的助词，以及他们是哭泣的主体还是受影响的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

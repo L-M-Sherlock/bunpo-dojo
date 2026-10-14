@@ -1,0 +1,36 @@
+{
+  "author": "/root/bunpo_particles_b",
+  "source": "work/content/particles-b/remainder-07-r1.draft.json",
+  "at": "2026-10-13T13:07:11.115Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "particle.purpose.07",
+      "hash": "ad338ea78d54c3b279ccc1f0a766a517f200c20711655d254716adb70611a275",
+      "fullSentences": [
+        "写真家は夜明けの海辺へ日の出を撮りに行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.08",
+      "hash": "c2e8033f76d9710e0df4ea28ce040386fae4f284320cee8c19fb4b5cbe874a99",
+      "fullSentences": [
+        "転校生は担任の先生に会いに職員室へ行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.09",
+      "hash": "92a5ec26829ddbb877e8fba3cdb234c3287ab47b8a6c214d5c3534a9fe5cb63c",
+      "fullSentences": [
+        "観客は新作の舞台を見に劇場へ行った。"
+      ]
+    },
+    {
+      "id": "particle.purpose.10",
+      "hash": "3c3004a73c99d30a3d7818a0d27b7936cdd5e9a7a2910b236a129f2fa8d0bc38",
+      "fullSentences": [
+        "留学生は毎週、地域の教室へ日本語を習いに行く。"
+      ]
+    }
+  ]
+}

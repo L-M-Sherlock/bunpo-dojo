@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refrea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "pair": {
+      "id": "verb.refrea",
+      "intransitive": "通る",
+      "intransitiveReading": "とおる",
+      "transitive": "通す",
+      "transitiveReading": "とおす",
+      "meaning": "辨析「通る／通す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "pair": {
+      "id": "verb.refsca",
+      "intransitive": "乾く",
+      "intransitiveReading": "かわく",
+      "transitive": "乾かす",
+      "transitiveReading": "かわかす",
+      "meaning": "辨析「乾く／乾かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "pair": {
+      "id": "verb.refsca",
+      "intransitive": "乾く",
+      "intransitiveReading": "かわく",
+      "transitive": "乾かす",
+      "transitiveReading": "かわかす",
+      "meaning": "辨析「乾く／乾かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsca",
+    "familyId": "verb.refsca",
+    "pair": {
+      "id": "verb.refsca",
+      "intransitive": "乾く",
+      "intransitiveReading": "かわく",
+      "transitive": "乾かす",
+      "transitiveReading": "かわかす",
+      "meaning": "辨析「乾く／乾かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

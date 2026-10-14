@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refddb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "pair": {
+      "id": "verb.refddb",
+      "intransitive": "醒める",
+      "intransitiveReading": "さめる",
+      "transitive": "醒ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「醒める／醒ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refega.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "pair": {
+      "id": "verb.refega",
+      "intransitive": "燃える",
+      "intransitiveReading": "もえる",
+      "transitive": "燃やす",
+      "transitiveReading": "もやす",
+      "meaning": "辨析「燃える／燃やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "pair": {
+      "id": "verb.refgda",
+      "intransitive": "過ぎる",
+      "intransitiveReading": "すぎる",
+      "transitive": "過ごす",
+      "transitiveReading": "すごす",
+      "meaning": "辨析「過ぎる／過ごす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

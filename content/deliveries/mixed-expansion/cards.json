@@ -1,0 +1,646 @@
+[
+  {
+    "id": "mixed.04",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "lexicalKey": "lab-burner-flame",
+    "scene": "研究员在实验台熄灭酒精灯的火焰。",
+    "before": [
+      {
+        "text": "研究員は実験台でアルコールランプの火を",
+        "reading": "けんきゅういんはじっけんだいでアルコールランプのひを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "消した",
+        "reading": "けした",
+        "verdict": "correct",
+        "explanation": "研究员主动让酒精灯的火焰熄灭，符合他动词「消す」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "消えた",
+        "reading": "きえた",
+        "verdict": "ungrammatical",
+        "explanation": "「消える」表示火焰自行熄灭，不能接这里标示对象的「火を」；替换后句子不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "研究员在实验台熄灭了酒精灯的火焰。",
+    "explanation": "研究员是施事，「アルコールランプの火を」标出熄灭对象，因此用他动词「消した」。",
+    "hint": "留意谁让火焰熄灭，以及火焰在句中承担什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.05",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "factory-motor",
+    "scene": "作业员在工厂检查机器时，机器的马达突然坏了。",
+    "before": [
+      {
+        "text": "作業員が工場で機械を点検していたところ、その機械のモーターが突然",
+        "reading": "さぎょういんがこうじょうできかいをてんけんしていたところ、そのきかいのモーターがとつぜん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊れた",
+        "reading": "こわれた",
+        "verdict": "correct",
+        "explanation": "突然损坏的是马达本身，自动词「壊れる」表达它发生故障。"
+      },
+      {
+        "id": "b",
+        "text": "壊した",
+        "reading": "こわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「壊した」会把马达放在使另一件物品损坏的一方；场景中坏掉的是马达自身，动作角色不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "作业员在工厂检查机器时，那台机器的马达突然坏了。",
+    "explanation": "检查机器是前一动作，主句报告的是马达自身突然发生损坏，没有指出它损坏了另一件物品。",
+    "hint": "看主句里发生故障的是哪一件东西，它是动作主体还是造成别物损坏的一方。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.06",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "kitchen-cup",
+    "scene": "妈妈在厨房手滑，把杯子摔落在地。",
+    "before": [
+      {
+        "text": "母",
+        "reading": "はは"
+      },
+      {
+        "text": "は"
+      },
+      {
+        "text": "台所で",
+        "reading": "だいどころで"
+      },
+      {
+        "text": "手を滑らせ、",
+        "reading": "てをすべらせ、"
+      },
+      {
+        "text": "コップを"
+      },
+      {
+        "text": "床に",
+        "reading": "ゆかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落とした",
+        "reading": "おとした",
+        "verdict": "correct",
+        "explanation": "妈妈使杯子掉到地上，杯子是「落とす」动作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "落ちた",
+        "reading": "おちた",
+        "verdict": "ungrammatical",
+        "explanation": "「落ちる」表示物品自行掉落，不能接这里的对象助词「を」；应改成「コップが落ちた」才是另一种句子。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "妈妈在厨房手一滑，把杯子摔落在地。",
+    "explanation": "妈妈是使杯子落下的施事，「コップを」标出被她弄掉的对象，所以使用他动词「落とした」。",
+    "hint": "留意杯子是自己落下，还是有人使它落下。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.07",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "exhibition-entry",
+    "scene": "工作人员在入口检查行李后，请访客进入展厅。",
+    "before": [
+      {
+        "text": "案内係は入口で荷物を確認し、来場者に「展示室に",
+        "reading": "あんないがかりはいりぐちでにもつをかくにんし、らいじょうしゃに「てんじしつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "ください」と伝えた。",
+        "reading": "ください」とつたえた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入って",
+        "reading": "はいって",
+        "verdict": "correct",
+        "explanation": "工作人员请来访者自己进入展厅，使用自动词「入る」的て形。"
+      },
+      {
+        "id": "b",
+        "text": "入れて",
+        "reading": "いれて",
+        "verdict": "meaning-mismatch",
+        "explanation": "「入れてください」是请对方放入某物或让某人进入；这里工作人员是在请来访者自己进去，角色关系不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "引导员在入口检查行李后，告诉来访者“请进入展厅”。",
+    "explanation": "工作人员检查行李并向来访者发出指引；被要求进入的是来访者本人，不是让他把另一个对象放进去。",
+    "hint": "分清被邀请进入展厅的人，和把物品放进展厅的人。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.08",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.exit",
+    "familyId": "verb.exit",
+    "lexicalKey": "warehouse-bulb",
+    "scene": "工作人员从仓库的箱子里取出备用灯泡。",
+    "before": [
+      {
+        "text": "作業員は倉庫で箱から予備の電球を",
+        "reading": "さぎょういんはそうこではこからよびのでんきゅうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "出した",
+        "reading": "だした",
+        "verdict": "correct",
+        "explanation": "作业员把备用灯泡从箱子里取出，灯泡是「出す」动作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "出た",
+        "reading": "でた",
+        "verdict": "ungrammatical",
+        "explanation": "「出る」表示人或物自行出来，不能在这里把「予備の電球」作为「を」标记的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "作业员在仓库从箱子里取出了备用灯泡。",
+    "explanation": "作业员是取出动作的施事，备用灯泡由「を」标出，因此使用他动词「出した」。",
+    "hint": "找出谁把灯泡从箱子里拿出来，以及哪一项是被取出的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.09",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "afternoon-performance",
+    "scene": "工作人员在大厅验票，下午场演出按计划两点开场。",
+    "before": [
+      {
+        "text": "係員はロビーでチケットを確認し、午後の公演は予定どおり午後二時にホールで",
+        "reading": "かかりいんはロビーでチケットをかくにんし、ごごのこうえんはよていどおりごごにじにホールで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始まった",
+        "reading": "はじまった",
+        "verdict": "correct",
+        "explanation": "开始的是下午场演出本身，自动词「始まる」表示活动开始。"
+      },
+      {
+        "id": "b",
+        "text": "始めた",
+        "reading": "はじめた",
+        "verdict": "ungrammatical",
+        "explanation": "「始める」表示施事开始某项活动；这里由演出本身作主语，句中没有它开始的另一件事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在大厅核对门票，下午场演出按计划于下午两点在礼堂开始了。",
+    "explanation": "前半句写工作人员在大厅核对门票，主句说下午场演出本身按时开始，没有人把它当作被开始的对象。",
+    "hint": "注意句中是演出自己开始，还是某人开始另一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.10",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "lecture-ending",
+    "scene": "讲师在教室回答学员提问，下午三点结束讲课。",
+    "before": [
+      {
+        "text": "講師は教室で受講者の質問に答え、午後三時に講義を",
+        "reading": "こうしはきょうしつでじゅこうしゃのしつもんにこたえ、ごごさんじにこうぎを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終えた",
+        "reading": "おえた",
+        "verdict": "correct",
+        "explanation": "讲师是结束讲课的施事，「講義を」是被结束的活动，符合他动词「終える」。"
+      },
+      {
+        "id": "b",
+        "text": "終わった",
+        "reading": "おわった",
+        "verdict": "correct",
+        "explanation": "「講義を終わる」也可表达结束讲课；在此句的施事和对象关系下，这个用法同样符合场景。"
+      },
+      {
+        "id": "c",
+        "text": "中断した",
+        "reading": "ちゅうだんした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「中断した」表示讲课中途暂停，通常还会继续；场景说的是讲师在下午三点结束了讲课。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "讲师在教室回答学员提问，并于下午三点结束了讲课。",
+    "explanation": "「講義を終える」以讲师为施事、讲课为对象；「講義を終わる」也有他动用法，两者都表达本句场景。",
+    "hint": "留意讲师与讲课之间的施事、对象关系，并判断讲课是结束还是中途暂停。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.11",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "meeting-time",
+    "scene": "事务局在会议室比较时间，下次集合定在下午三点。",
+    "before": [
+      {
+        "text": "事務局は会議室で候補の時刻を比べ、次回の集合時刻が午後三時に",
+        "reading": "じむきょくはかいぎしつでこうほのじこくをくらべ、じかいのしゅうごうじこくがごごさんじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決まった",
+        "reading": "きまった",
+        "verdict": "correct",
+        "explanation": "最后确定的是集合时间本身，自动词「決まる」表示安排得到确定。"
+      },
+      {
+        "id": "b",
+        "text": "決めた",
+        "reading": "きめた",
+        "verdict": "ungrammatical",
+        "explanation": "「決める」需要由施事决定某个对象；这里以「集合時刻が」作主语，不能表达事务局作出决定。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "事务局在会议室比较候选时间，下次集合时间定在下午三点。",
+    "explanation": "事务局比较候选时间是前一动作；主句的集合时间成为确定结果，而不是它自己决定其他事情。",
+    "hint": "区分作出决定的人和最后被确定下来的安排。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.12",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "report-title",
+    "scene": "编辑在会议室听取意见，把报告标题改为“新计划”。",
+    "before": [
+      {
+        "text": "編集者は会議室で担当者の意見を聞き、報告書の題名を「新計画」に",
+        "reading": "へんしゅうしゃはかいぎしつでたんとうしゃのいけんをきき、ほうこくしょのだいめいを「しんけいかく」に"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変えた",
+        "reading": "かえた",
+        "verdict": "correct",
+        "explanation": "编辑主动把报告标题改成新名称，标题是动作对象，符合「変える」。"
+      },
+      {
+        "id": "b",
+        "text": "変わった",
+        "reading": "かわった",
+        "verdict": "ungrammatical",
+        "explanation": "「変わる」表示标题自身发生变化，不能接这里标出对象的「題名を」；替换后句子不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "编辑在会议室听取负责人的意见后，把报告标题改为“新计划”。",
+    "explanation": "编辑是改变标题的施事，「報告書の題名を」标出被改动的对象。",
+    "hint": "看标题是自己发生变化，还是编辑主动把它改成新的名称。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.13",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "audience-lobby",
+    "scene": "工作人员在入口发放节目单，开演前观众聚集到大厅。",
+    "before": [
+      {
+        "text": "係員は入口でパンフレットを配り、開演前に観客がロビーへ",
+        "reading": "かかりいんはいりぐちでパンフレットをくばり、かいえんまえにかんきゃくがロビーへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集まった",
+        "reading": "あつまった",
+        "verdict": "correct",
+        "explanation": "观众聚到大厅，表达的是人群本身集合起来，使用自动词「集まる」。"
+      },
+      {
+        "id": "b",
+        "text": "集めた",
+        "reading": "あつめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「集めた」会表示观众收集某些物品，例如前句提到的节目单；这里说的是观众自己聚到大厅，角色关系不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在入口发放节目单，开演前观众聚集到了大厅。",
+    "explanation": "前句的施事是工作人员、对象是节目单；主句说观众自身聚集到大厅，并非观众收集某个对象。",
+    "hint": "看主句中的观众是自己聚在一起，还是在收集前文提到的东西。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.14",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "garage-engine",
+    "scene": "维修工在车库让发动机停下后，离开了驾驶座。",
+    "before": [
+      {
+        "text": "整備士は車庫でエンジンを",
+        "reading": "せいびしはしゃこでエンジンを"
+      }
+    ],
+    "after": [
+      {
+        "text": "から、運転席を離れた。",
+        "reading": "から、うんてんせきをはなれた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止めて",
+        "reading": "とめて",
+        "verdict": "correct",
+        "explanation": "维修工主动让发动机停止，发动机由「を」标出，是他动词「止める」的对象。"
+      },
+      {
+        "id": "b",
+        "text": "止まって",
+        "reading": "とまって",
+        "verdict": "ungrammatical",
+        "explanation": "「止まる」表示发动机自行停下，不能接这里的对象助词「を」；需说「エンジンが止まって」才成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "维修工在车库让发动机停下后，离开了驾驶座。",
+    "explanation": "维修工对发动机实施停止操作，再离开驾驶座；主句目标对象是发动机。",
+    "hint": "注意发动机是被维修工停下，还是自行停止。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.15",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.move",
+    "familyId": "verb.move",
+    "lexicalKey": "factory-belt",
+    "scene": "维修工在工厂拆下机器外罩，皮带突然转动起来。",
+    "before": [
+      {
+        "text": "整備士が工場で機械のカバーを外すと、ベルトが急に",
+        "reading": "せいびしがこうじょうできかいのカバーをはずすと、ベルトがきゅうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "動いた",
+        "reading": "うごいた",
+        "verdict": "correct",
+        "explanation": "拆开外罩后，皮带本身开始移动，符合自动词「動く」。"
+      },
+      {
+        "id": "b",
+        "text": "動かした",
+        "reading": "うごかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「動かした」表示皮带作为施事移动另一件东西；场景说的是皮带自身突然动起来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "维修工在工厂拆下机器外罩后，皮带突然转动起来。",
+    "explanation": "维修工拆外罩是前一动作；随后发生位移的是皮带自身，没有说明皮带移动了别的对象。",
+    "hint": "看主句里发生移动的是皮带本身，还是皮带把某个对象移开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.16",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "teacher-location",
+    "scene": "护士在保健室核对来访记录时，老师在教职员室。",
+    "before": [
+      {
+        "text": "看護師が保健室で来室者の記録を確認している間、先生は職員室",
+        "reading": "かんごしがほけんしつでらいしつしゃのきろくをかくにんしているあいだ、せんせいはしょくいんしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "いる。",
+        "reading": "いる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "主句说明老师当前所在的位置，存在地点用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标示动作发生的地点，但主句没有在职员室进行的动作；「先生は職員室でいる」不能表达当前所在位置。"
+      },
+      {
+        "id": "c",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "ungrammatical",
+        "explanation": "「へ」标示移动方向或着点；「いる」表示存在状态，不能用它表达老师已经在职员室里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "护士在保健室核对来访记录时，老师在教职员室。",
+    "explanation": "前半句用「で」标示核对记录的活动地点，后半句表达老师的存在位置，应该用「に」。",
+    "hint": "比较前半句发生动作的地点和后半句老师当前所在的位置。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "id": "verb.raise.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "pair": {
+      "id": "verb.raise",
+      "intransitive": "上がる",
+      "intransitiveReading": "あがる",
+      "transitive": "上げる",
+      "transitiveReading": "あげる",
+      "meaning": "升高温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  }
+]

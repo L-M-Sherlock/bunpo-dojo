@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.fall.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "落ちる・落とす",
+    "scene": "孩子把橡皮球掉到地上了。",
+    "before": [
+      {
+        "text": "子どもはゴムボールを地面に",
+        "reading": "こどもはゴムボールをじめんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落としました",
+        "reading": "おとしました",
+        "verdict": "correct",
+        "explanation": "孩子是让橡皮球掉到地上的施事，球是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "落ちました",
+        "reading": "おちました",
+        "verdict": "ungrammatical",
+        "explanation": "本句用「ゴムボールを」标出直接对象；自动词落ちる描述球自身掉落，不能接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子把橡皮球掉到地上了。",
+    "explanation": "落とす（おとす）表示孩子使球从手中掉到地面。",
+    "hint": "看句中是谁让球掉落，以及球在动作中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.fall.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "落ちる・落とす",
+    "scene": "成熟的柿子因重量从树上掉下来。",
+    "before": [
+      {
+        "text": "熟した柿が重みで木から",
+        "reading": "じゅくしたかきがおもみできから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落ちました",
+        "reading": "おちました",
+        "verdict": "correct",
+        "explanation": "柿子因自身重量从树上掉下，句子聚焦它自身的移动。"
+      },
+      {
+        "id": "b",
+        "text": "落としました",
+        "reading": "おとしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "落とす可表示柿子作为施事弄掉别的东西，或由省略的施事把柿子弄落；这里说的是熟柿自行掉下。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "成熟的柿子因自身重量从树上掉了下来。",
+    "explanation": "落ちる（おちる）表示柿子自身从树上移动到地面。",
+    "hint": "判断熟柿是自己掉下来，还是某个施事把它弄掉。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.fall.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "落ちる・落とす",
+    "scene": "爷爷端托盘时把茶杯掉到地上了。",
+    "before": [
+      {
+        "text": "祖父はお盆を運んでいる途中で、湯呑みを床に",
+        "reading": "そふはおぼんをはこんでいるとちゅうで、ゆのみをゆかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落としました",
+        "reading": "おとしました",
+        "verdict": "correct",
+        "explanation": "爷爷是导致茶杯掉落的施事，茶杯是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "落ちました",
+        "reading": "おちました",
+        "verdict": "ungrammatical",
+        "explanation": "「湯呑みを」在句中是动作对象；自动词落ちる不能按这个结构接直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "爷爷端托盘时把茶杯掉到地上了。",
+    "explanation": "落とす（おとす）表示爷爷使茶杯从托盘旁掉到地上。",
+    "hint": "确认是谁导致茶杯掉落，以及茶杯在句中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.fall.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "落ちる・落とす",
+    "scene": "午后气温回升，屋檐的冰柱掉落了。",
+    "before": [
+      {
+        "text": "午後に気温が上がり、軒先のつららが",
+        "reading": "ごごにきおんがあがり、のきさきのつららが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落ちました",
+        "reading": "おちました",
+        "verdict": "correct",
+        "explanation": "气温回升后冰柱自行掉落，句子描述物体自身的移动。"
+      },
+      {
+        "id": "b",
+        "text": "落としました",
+        "reading": "おとしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "落としました可表示有人把冰柱弄落；本句由气温上升引出冰柱自行掉下的结果。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "午后气温上升，屋檐下的冰柱掉了下来。",
+    "explanation": "落ちる（おちる）说明冰柱自身从屋檐掉落。",
+    "hint": "看句子说的是冰柱自行掉落，还是有人使它掉落。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.enter.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.enter",
+    "familyId": "verb.enter",
+    "lexicalKey": "入る・入れる",
+    "scene": "送货员为避雨，走进了休息室。",
+    "before": [
+      {
+        "text": "雨を避けて、配達員が休憩所に",
+        "reading": "あめをさけて、はいたついんがきゅうけいじょに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "入りました",
+        "reading": "はいりました",
+        "verdict": "correct",
+        "explanation": "送货员本人进入休息室，配達員是移动主体，休憩所に是目的地。"
+      },
+      {
+        "id": "b",
+        "text": "入れました",
+        "reading": "いれました",
+        "verdict": "meaning-mismatch",
+        "explanation": "入れる可表示把某人或某物放入、带入休息室；本句说的是送货员本人进去避雨。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "送货员为了避雨，走进了休息室。",
+    "explanation": "入る（はいる）表示送货员自己进入休息室。",
+    "hint": "判断是人物自己移动到休息室，还是有人把别的人或物放进去。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

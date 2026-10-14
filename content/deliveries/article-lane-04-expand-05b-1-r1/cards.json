@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refrbb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "lexicalKey": "帰る/帰す",
+    "scene": "游客逛完夜市后，在末班车前回到暂住旅店",
+    "before": [
+      {
+        "text": "夜市の見物を終えた旅行客は、終電の前に滞在中の宿へ",
+        "reading": "よいちのけんぶつをおえたりょこうきゃくは、しゅうでんのまえにたいざいちゅうのやどへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "帰った",
+        "reading": "かえった",
+        "verdict": "correct",
+        "explanation": "游客逛完夜市后回到暂住的旅店，是游客自身返回落脚处。"
+      },
+      {
+        "id": "b",
+        "text": "帰した",
+        "reading": "かえした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「帰す」表示旅行客把别人送回旅店；句子在场景中说的是游客自己返回住处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "逛完夜市的游客在末班车前回到了暂住的旅店。",
+    "explanation": "句子描述游客本人返回住处，没有写他们把别人送回去。",
+    "hint": "分辨游客是返回住处的人，还是安排别人回去的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

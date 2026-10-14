@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_3repair",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-03-r1.draft.json",
+  "at": "2026-10-14T02:37:13.285Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refcka.03",
+      "hash": "e39a0594a9cf5c64be2b86bbfa83011cf405009e3b39a8b26c4c75b9feaa6163",
+      "fullSentences": [
+        "冷水で冷やしたゆで卵は、殻がきれいに剥けた。"
+      ]
+    },
+    {
+      "id": "verb.refdca.01",
+      "hash": "97f4db115ceb63d8694b135fad5ccd3eae96e0aafed92d87566eae3047f4366d",
+      "fullSentences": [
+        "フライパンを火にかけたまま電話に出ていたら、餃子の底が焦げてしまった。"
+      ]
+    }
+  ]
+}

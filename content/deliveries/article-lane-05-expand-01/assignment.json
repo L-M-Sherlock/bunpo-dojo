@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "pair": {
+      "id": "verb.refaga",
+      "intransitive": "植わる",
+      "intransitiveReading": "うわる",
+      "transitive": "植える",
+      "transitiveReading": "うえる",
+      "meaning": "辨析「植わる／植える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refana.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "pair": {
+      "id": "verb.refana",
+      "intransitive": "絡まる",
+      "intransitiveReading": "からまる",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡まる／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refana.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "pair": {
+      "id": "verb.refana",
+      "intransitive": "絡まる",
+      "intransitiveReading": "からまる",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡まる／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refana.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "pair": {
+      "id": "verb.refana",
+      "intransitive": "絡まる",
+      "intransitiveReading": "からまる",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡まる／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refana.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refana",
+    "familyId": "verb.refana",
+    "pair": {
+      "id": "verb.refana",
+      "intransitive": "絡まる",
+      "intransitiveReading": "からまる",
+      "transitive": "絡める",
+      "transitiveReading": "からめる",
+      "meaning": "辨析「絡まる／絡める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refawa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "pair": {
+      "id": "verb.refawa",
+      "intransitive": "窄まる",
+      "intransitiveReading": "すぼまる",
+      "transitive": "窄める",
+      "transitiveReading": "すぼめる",
+      "meaning": "辨析「窄まる／窄める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 23
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refawa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "pair": {
+      "id": "verb.refawa",
+      "intransitive": "窄まる",
+      "intransitiveReading": "すぼまる",
+      "transitive": "窄める",
+      "transitiveReading": "すぼめる",
+      "meaning": "辨析「窄まる／窄める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 23
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refawa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "pair": {
+      "id": "verb.refawa",
+      "intransitive": "窄まる",
+      "intransitiveReading": "すぼまる",
+      "transitive": "窄める",
+      "transitiveReading": "すぼめる",
+      "meaning": "辨析「窄まる／窄める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 23
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refawa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refawa",
+    "familyId": "verb.refawa",
+    "pair": {
+      "id": "verb.refawa",
+      "intransitive": "窄まる",
+      "intransitiveReading": "すぼまる",
+      "transitive": "窄める",
+      "transitiveReading": "すぼめる",
+      "meaning": "辨析「窄まる／窄める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 23
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "pair": {
+      "id": "verb.refaaca",
+      "intransitive": "溜まる",
+      "intransitiveReading": "たまる",
+      "transitive": "溜める",
+      "transitiveReading": "ためる",
+      "meaning": "辨析「溜まる／溜める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 29
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "pair": {
+      "id": "verb.refaaca",
+      "intransitive": "溜まる",
+      "intransitiveReading": "たまる",
+      "transitive": "溜める",
+      "transitiveReading": "ためる",
+      "meaning": "辨析「溜まる／溜める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 29
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "pair": {
+      "id": "verb.refaaca",
+      "intransitive": "溜まる",
+      "intransitiveReading": "たまる",
+      "transitive": "溜める",
+      "transitiveReading": "ためる",
+      "meaning": "辨析「溜まる／溜める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 29
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaca",
+    "familyId": "verb.refaaca",
+    "pair": {
+      "id": "verb.refaaca",
+      "intransitive": "溜まる",
+      "intransitiveReading": "たまる",
+      "transitive": "溜める",
+      "transitiveReading": "ためる",
+      "meaning": "辨析「溜まる／溜める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 29
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "pair": {
+      "id": "verb.refaaia",
+      "intransitive": "留まる",
+      "intransitiveReading": "とどまる",
+      "transitive": "留める",
+      "transitiveReading": "とどめる",
+      "meaning": "辨析「留まる／留める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 35
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "pair": {
+      "id": "verb.refaaia",
+      "intransitive": "留まる",
+      "intransitiveReading": "とどまる",
+      "transitive": "留める",
+      "transitiveReading": "とどめる",
+      "meaning": "辨析「留まる／留める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 35
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaia",
+    "familyId": "verb.refaaia",
+    "pair": {
+      "id": "verb.refaaia",
+      "intransitive": "留まる",
+      "intransitiveReading": "とどまる",
+      "transitive": "留める",
+      "transitiveReading": "とどめる",
+      "meaning": "辨析「留まる／留める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 35
+    },
+    "direction": "intransitive"
+  }
+]

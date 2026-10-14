@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refpaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refpaa",
+    "familyId": "verb.refpaa",
+    "pair": {
+      "id": "verb.refpaa",
+      "intransitive": "籠もる",
+      "intransitiveReading": "こもる",
+      "transitive": "籠める",
+      "transitiveReading": "こめる",
+      "meaning": "辨析「籠もる／籠める」的角色与对象",
+      "count": 4,
+      "articleGroup": 16,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "pair": {
+      "id": "verb.refrda",
+      "intransitive": "転がる",
+      "intransitiveReading": "ころがる",
+      "transitive": "転がす",
+      "transitiveReading": "ころがす",
+      "meaning": "辨析「転がる／転がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "pair": {
+      "id": "verb.refrda",
+      "intransitive": "転がる",
+      "intransitiveReading": "ころがる",
+      "transitive": "転がす",
+      "transitiveReading": "ころがす",
+      "meaning": "辨析「転がる／転がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrda",
+    "familyId": "verb.refrda",
+    "pair": {
+      "id": "verb.refrda",
+      "intransitive": "転がる",
+      "intransitiveReading": "ころがる",
+      "transitive": "転がす",
+      "transitiveReading": "ころがす",
+      "meaning": "辨析「転がる／転がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

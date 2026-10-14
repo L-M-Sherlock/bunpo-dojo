@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "pair": {
+      "id": "verb.refsda",
+      "intransitive": "散る",
+      "intransitiveReading": "ちる",
+      "transitive": "散らす",
+      "transitiveReading": "ちらす",
+      "meaning": "辨析「散る／散らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "pair": {
+      "id": "verb.refsja",
+      "intransitive": "鳴る",
+      "intransitiveReading": "なる",
+      "transitive": "鳴らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「鳴る／鳴らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "pair": {
+      "id": "verb.refsja",
+      "intransitive": "鳴る",
+      "intransitiveReading": "なる",
+      "transitive": "鳴らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「鳴る／鳴らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "pair": {
+      "id": "verb.refsja",
+      "intransitive": "鳴る",
+      "intransitiveReading": "なる",
+      "transitive": "鳴らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「鳴る／鳴らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "mixed.28",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "unit": {
+      "id": "particle.destination",
+      "courseId": "movement",
+      "title": "移动目的地的に和へ",
+      "objective": "行く来る帰る接受に与へ；不可硬判唯一答案",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

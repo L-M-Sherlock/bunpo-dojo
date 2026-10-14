@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refdba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "lexicalKey": "枯れる・枯らす",
+    "scene": "换盆时伤到根系，盆栽爱好者把黑松养枯了。",
+    "before": [
+      {
+        "text": "植え替えの際に根を傷め、盆栽愛好家は黒松を",
+        "reading": "うえかえのさいにねをいため、ぼんさいあいこうかはくろまつを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "枯らしました",
+        "reading": "からしました",
+        "verdict": "correct",
+        "explanation": "盆栽爱好者在换盆时伤到根，导致黑松枯萎；「黒松を」标出受影响的植物。"
+      },
+      {
+        "id": "b",
+        "text": "枯れました",
+        "reading": "かれました",
+        "verdict": "ungrammatical",
+        "explanation": "「枯れる」描述植物自身枯萎，应以「黒松が」标出变化主体；本句的「黒松を」是被处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "盆栽爱好者换盆时伤到了根，把黑松养枯了。",
+    "explanation": "「枯らす」表示盆栽爱好者使黑松枯萎。",
+    "hint": "留意换盆时谁伤到了根，以及黑松在句中承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "lexicalKey": "逃げる・逃がす",
+    "scene": "强风吹倒围栏后，小马跑出了牧场。",
+    "before": [
+      {
+        "text": "強風で柵が倒れ、子馬が牧場の外へ",
+        "reading": "きょうふうでさくがたおれ、こうまがぼくじょうのそとへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃げました",
+        "reading": "にげました",
+        "verdict": "correct",
+        "explanation": "围栏倒下后，小马自己离开牧场；它是逃跑的主体。"
+      },
+      {
+        "id": "b",
+        "text": "逃がしました",
+        "reading": "にがしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「逃がす」会把主语理解为放走某个对象；这里跑出牧场的是小马本身。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "强风吹倒围栏后，小马逃出了牧场。",
+    "explanation": "「逃げる」表示小马自身逃离牧场。",
+    "hint": "判断离开牧场的是主语自身，还是主语放走了别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "lexicalKey": "逃げる・逃がす",
+    "scene": "治疗结束后，救护站工作人员把狐狸放归山林。",
+    "before": [
+      {
+        "text": "保護施設の職員は、治療を終えたキツネを山へ",
+        "reading": "ほごしせつのしょくいんは、ちりょうをおえたキツネをやまへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃がしました",
+        "reading": "にがしました",
+        "verdict": "correct",
+        "explanation": "工作人员把接受治疗的狐狸放回山林；「キツネを」是被放走的对象。"
+      },
+      {
+        "id": "b",
+        "text": "逃げました",
+        "reading": "にげました",
+        "verdict": "ungrammatical",
+        "explanation": "「逃げる」描述主体自身逃跑；若用它，狐狸应作「キツネが」主语，而不是本句中被工作人员放走的「キツネを」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "救护站工作人员把治疗结束的狐狸放归山林。",
+    "explanation": "「逃がす」表示工作人员让受照护的狐狸离开保护设施。",
+    "hint": "看句中狐狸是被工作人员放走的对象，还是自己离开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "lexicalKey": "逃げる・逃がす",
+    "scene": "火警响起，顾客从紧急出口逃到楼外。",
+    "before": [
+      {
+        "text": "火災報知器が鳴ると、客たちは非常口から建物の外へ",
+        "reading": "かさいほうちきがなると、きゃくたちはひじょうぐちからたてもののそとへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃げました",
+        "reading": "にげました",
+        "verdict": "correct",
+        "explanation": "警报响起后，顾客们从建筑物里自行逃出；句子报告的是他们自己的避险行动。"
+      },
+      {
+        "id": "b",
+        "text": "逃がしました",
+        "reading": "にがしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「逃がす」表示顾客们放走别的对象；本句说的是顾客们自己从火灾现场撤离。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "火灾警报一响，顾客们便从紧急出口逃出了建筑物。",
+    "explanation": "顾客们是从建筑物内自行逃离的主体，使用「逃げる」。",
+    "hint": "留意离开建筑物的是顾客自己，还是顾客让别人离开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "lexicalKey": "逃げる・逃がす",
+    "scene": "保安一时分神，闯入者趁机逃脱。",
+    "before": [
+      {
+        "text": "警備員は一瞬目を離した隙に、侵入者を",
+        "reading": "けいびいんはいっしゅんめをはなしたすきに、しんにゅうしゃを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃がしてしまいました",
+        "reading": "にがしてしまいました",
+        "verdict": "correct",
+        "explanation": "保安一时没留神，结果让闯入者逃脱；「侵入者を」是没能留住的对象。"
+      },
+      {
+        "id": "b",
+        "text": "逃げてしまいました",
+        "reading": "にげてしまいました",
+        "verdict": "ungrammatical",
+        "explanation": "「逃げる」描述逃跑者自身的动作；本句把保安作为主语、把「侵入者を」作为对象，不能接这个自动词形式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "保安一时没留神，让闯入者逃脱了。",
+    "explanation": "保安没有留住闯入者，句子表达的是他让对方逃脱。",
+    "hint": "判断句子说的是保安没留住闯入者，还是保安自己逃跑。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "lexicalKey": "生える・生やす",
+    "scene": "雨后，石墙缝隙里长出了蕨类植物。",
+    "before": [
+      {
+        "text": "雨上がり、石垣のすき間にシダが",
+        "reading": "あめあがり、いしがきのすきまにシダが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "生えました",
+        "reading": "はえました",
+        "verdict": "correct",
+        "explanation": "雨后蕨类植物自身在石墙缝隙中长出，蕨类是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "生やしました",
+        "reading": "はやしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「生やす」表示某个主体使植物、毛发等长出；这里没有蕨类让别的东西生长，而是蕨类本身长出来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨后，石墙缝隙里长出了蕨类植物。",
+    "explanation": "「生える」表示蕨类植物自身长出来。",
+    "hint": "看石墙缝隙里的蕨类是自行长出，还是有人让别的植物长出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "lexicalKey": "生える・生やす",
+    "scene": "演员为电影角色留起了小胡子。",
+    "before": [
+      {
+        "text": "映画の役作りのため、俳優は口ひげを",
+        "reading": "えいがのやくづくりのため、はいゆうはくちひげを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "生やしました",
+        "reading": "はやしました",
+        "verdict": "correct",
+        "explanation": "演员为了角色主动留起小胡子；「口ひげを」是他让长出来的毛发。"
+      },
+      {
+        "id": "b",
+        "text": "生えました",
+        "reading": "はえました",
+        "verdict": "ungrammatical",
+        "explanation": "「生える」描述毛发自身长出，毛发应作「が」主语；本句把口ひげ用「を」标为演员处理的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "演员为了塑造电影角色留起了小胡子。",
+    "explanation": "「生やす」表示演员让口ひげ长出来。",
+    "hint": "留意句中演员与口ひげ分别承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "lexicalKey": "生える・生やす",
+    "scene": "手术剃掉的狗毛，几个月后又长出来了。",
+    "before": [
+      {
+        "text": "手術のために刈った犬の毛が、数か月後にまた",
+        "reading": "しゅじゅつのためにかったいぬのけが、すうかげつごにまた"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "生えました",
+        "reading": "はえました",
+        "verdict": "correct",
+        "explanation": "手术前剃掉的狗毛几个月后自行重新长出；「犬の毛が」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "生やしました",
+        "reading": "はやしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「生やす」表示某个主体让毛发等长出；本句没有外部施事，而是狗毛自身重新生长。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "手术时剃掉的狗毛，几个月后又长出来了。",
+    "explanation": "「生える」描述狗毛自身重新长出的变化。",
+    "hint": "判断几个月后重新长出的是毛发自身变化，还是外部主体使毛发长出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "lexicalKey": "生える・生やす",
+    "scene": "庭师在庭园石上培育苔藓。",
+    "before": [
+      {
+        "text": "庭師は庭石に苔を",
+        "reading": "にわしはにわいしにこけを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "生やしました",
+        "reading": "はやしました",
+        "verdict": "correct",
+        "explanation": "庭师培育庭石上的苔藓；「苔を」标出他让其生长的植物。"
+      },
+      {
+        "id": "b",
+        "text": "生えました",
+        "reading": "はえました",
+        "verdict": "ungrammatical",
+        "explanation": "「生える」描述苔藓自身长出，应以「苔が」标出变化主体；本句用「苔を」表示庭师让它生长。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "庭师在庭园石上培育了苔藓。",
+    "explanation": "「生やす」表示庭师让苔藓在庭石上长出来。",
+    "hint": "留意句中是谁照料苔藓，以及苔藓如何与庭石关联。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "lexicalKey": "満ちる・満たす",
+    "scene": "退潮后，潮水开始上涨。",
+    "before": [
+      {
+        "text": "干潮のあと、潮が",
+        "reading": "かんちょうのあと、しおが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "満ちました",
+        "reading": "みちました",
+        "verdict": "correct",
+        "explanation": "退潮后，潮水自身上涨并转向涨潮；句子报告的是潮汐状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "満たしました",
+        "reading": "みたしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「満たす」表示主体把某个容器或空间装满；本句只说潮水自身涨起，没有说明潮水填满的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "退潮后，潮水涨起来了。",
+    "explanation": "「満ちる」表示潮水自身上涨。",
+    "hint": "看句子说的是潮水自身涨起，还是潮水装满了某个地方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "lexicalKey": "満ちる・満たす",
+    "scene": "实验前，研究员把烧瓶装满蒸馏水。",
+    "before": [
+      {
+        "text": "実験の前に、研究員はフラスコを蒸留水で",
+        "reading": "じっけんのまえに、けんきゅういんはフラスコをじょうりゅうすいで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "満たしました",
+        "reading": "みたしました",
+        "verdict": "correct",
+        "explanation": "研究员在实验前把蒸馏水装入烧瓶；「フラスコを」是被装满的容器。"
+      },
+      {
+        "id": "b",
+        "text": "満ちました",
+        "reading": "みちました",
+        "verdict": "ungrammatical",
+        "explanation": "「満ちる」描述容器自身充满，应说「フラスコが満ちる」；本句用「フラスコを」表示研究员装满的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "实验开始前，研究员把烧瓶装满了蒸馏水。",
+    "explanation": "研究员使烧瓶充满蒸馏水，使用「満たす」。",
+    "hint": "留意烧瓶是自行充满，还是研究员装入蒸馏水的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "lexicalKey": "満ちる・満たす",
+    "scene": "合格名单公布后，会场里满是释然的叹息。",
+    "before": [
+      {
+        "text": "合格者が発表されると、会場は安堵のため息に",
+        "reading": "ごうかくしゃがはっぴょうされると、かいじょうはあんどのためいきに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "満ちました",
+        "reading": "みちました",
+        "verdict": "correct",
+        "explanation": "公布合格者之后，会场里充满了释然的叹息；「会場は」是被该氛围充满的地方。"
+      },
+      {
+        "id": "b",
+        "text": "満たしました",
+        "reading": "みたしました",
+        "verdict": "ungrammatical",
+        "explanation": "「満たす」通常以「を」标出被装满的对象；本句用「安堵のため息に」说明充满会场的内容，采用的是「会場は～に満ちる」结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "公布合格者后，会场里充满了释然的叹息。",
+    "explanation": "「満ちる」描写安堵的叹息充满会场。",
+    "hint": "看会场是充满叹息的地方，还是某个施事装满的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reffca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "lexicalKey": "満ちる・満たす",
+    "scene": "项目团队逐项满足用户的所有要求。",
+    "before": [
+      {
+        "text": "企画チームは、利用者の要望をすべて",
+        "reading": "きかくチームは、りようしゃのようぼうをすべて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "満たしました",
+        "reading": "みたしました",
+        "verdict": "correct",
+        "explanation": "企画团队逐项满足用户提出的要求；「要望を」是得到满足的内容。"
+      },
+      {
+        "id": "b",
+        "text": "満ちました",
+        "reading": "みちました",
+        "verdict": "ungrammatical",
+        "explanation": "「満ちる」描述主体自身充满或达到某种状态；本句以「要望を」标出团队满足的对象，不能用该自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "项目团队满足了用户的所有要求。",
+    "explanation": "「満たす」也可表示达到要求或满足愿望。",
+    "hint": "留意团队所做的是让要求得到满足，还是要求自身达到充盈状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "lexicalKey": "隠れる・隠す",
+    "scene": "听见来客脚步声，猫躲到了沙发底下。",
+    "before": [
+      {
+        "text": "来客の足音を聞くと、猫はソファの下に",
+        "reading": "らいきゃくのあしおとをきくと、ねこはソファのしたに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "隠れました",
+        "reading": "かくれました",
+        "verdict": "correct",
+        "explanation": "猫听到脚步声后躲到沙发下；猫自身是躲藏的主体。"
+      },
+      {
+        "id": "b",
+        "text": "隠しました",
+        "reading": "かくしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「隠す」表示猫把某个对象藏起来；本句说的是猫为了避开来客而躲藏。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "听见来客的脚步声后，猫躲到了沙发底下。",
+    "explanation": "「隠れる」表示猫自身躲起来。",
+    "hint": "判断躲到沙发下的是猫自身，还是猫把别的东西藏在那里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "lexicalKey": "隠れる・隠す",
+    "scene": "展览准备时，馆员把受损藏品藏起来。",
+    "before": [
+      {
+        "text": "展示の準備中、学芸員は傷んだ収蔵品を来場者の目から",
+        "reading": "てんじのじゅんびちゅう、がくげいいんはいたんだしゅうぞうひんをらいじょうしゃのめから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "隠しました",
+        "reading": "かくしました",
+        "verdict": "correct",
+        "explanation": "馆员把受损藏品藏到参观者看不到的地方；「収蔵品を」是被隐藏的对象。"
+      },
+      {
+        "id": "b",
+        "text": "隠れました",
+        "reading": "かくれました",
+        "verdict": "ungrammatical",
+        "explanation": "「隠れる」表示主体自身藏起来；本句中馆员把藏品作为对象「収蔵品を」藏起来，不能用这个自动词形式。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "展览准备期间，馆员把受损藏品藏到参观者看不到的地方。",
+    "explanation": "「隠す」表示馆员主动遮住受损藏品，不让参观者看到。",
+    "hint": "留意藏品是被馆员处理的对象，还是藏品自身躲了起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "lexicalKey": "隠れる・隠す",
+    "scene": "察觉人影后，鹿群躲进树林深处。",
+    "before": [
+      {
+        "text": "人の気配を感じた鹿の群れが、木立の陰に",
+        "reading": "ひとのけはいをかんじたしかのむれが、こだちのかげに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "隠れました",
+        "reading": "かくれました",
+        "verdict": "correct",
+        "explanation": "鹿群察觉到人的气息后，自己躲到了树林的阴影中。"
+      },
+      {
+        "id": "b",
+        "text": "隠しました",
+        "reading": "かくしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「隠す」表示鹿群把别的对象藏起来；这里是鹿群自身躲入林木后方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "察觉到人的气息后，鹿群躲到了树林背后。",
+    "explanation": "「隠れる」表示鹿群自身躲藏。",
+    "hint": "看句子说的是鹿群自身躲起来，还是鹿群藏起了别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

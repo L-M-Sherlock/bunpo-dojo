@@ -1,0 +1,78 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/location-20261013/existence/add.draft.json",
+  "at": "2026-10-13T16:14:11.767Z",
+  "count": 10,
+  "cards": [
+    {
+      "id": "particle.existence.11",
+      "hash": "c99c578542fb27c2874a51ae75f77798793dc8725f8c6671bd445db16c21c181",
+      "fullSentences": [
+        "母のバッグの中に財布があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.12",
+      "hash": "37a10a222b400792fe0cdb6519b500b825897b920fd2a294090d90311ed5198b",
+      "fullSentences": [
+        "猫は食卓の下にいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.13",
+      "hash": "85bd8a399ba46bac6ffd62621e744f5201a6a52b30979dc6940efbc454c0524d",
+      "fullSentences": [
+        "図書館のカウンターに司書がいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.14",
+      "hash": "784eb249c8e4f5acd59c5c8f9bb5937baaf4452fa57cb593dfd2989b4c37674b",
+      "fullSentences": [
+        "玄関の傘立てに傘があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.15",
+      "hash": "77997e83a34eabc69097dec80aa056ad32c58ff8ca06fc643999226c814c19e6",
+      "fullSentences": [
+        "充電器はソファの横にあります。"
+      ]
+    },
+    {
+      "id": "particle.existence.16",
+      "hash": "17906037f7435a0ea65d1b365a29303f4d913e13ec80cee33b60c77726555b42",
+      "fullSentences": [
+        "窓辺に観葉植物があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.17",
+      "hash": "96216fe5dce33df2a41d9c28405b4ed7b0ff81fdb04901282c07ab97f00bbd68",
+      "fullSentences": [
+        "友達は駅の改札前にいます。"
+      ]
+    },
+    {
+      "id": "particle.existence.18",
+      "hash": "23421c75cbb637ae7d0aad05d0231f5621b46abf34bb7db8ed34cff3b9feb79d",
+      "fullSentences": [
+        "玄関先に宅配便の箱があります。"
+      ]
+    },
+    {
+      "id": "particle.existence.19",
+      "hash": "906ec53a10d6f959b1a73724d3d74c9f1eeb54566bece237c9f3164840e06a8f",
+      "fullSentences": [
+        "郵便受けに手紙が一通あります。"
+      ]
+    },
+    {
+      "id": "particle.existence.20",
+      "hash": "eeda3791f9afd0f62d8b4872b29d5c4dd16d5c3345904bf8aead2d3a6877504a",
+      "fullSentences": [
+        "赤ちゃんはベビーカーの中にいます。"
+      ]
+    }
+  ]
+}

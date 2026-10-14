@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaaea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "lexicalKey": "display-terminal-monitor",
+    "scene": "展览开场前，工作人员把影像终端接到大型显示器上。",
+    "before": [
+      {
+        "text": "展示会の開場前、係員は映像端末を大型モニターに",
+        "reading": "てんじかいのかいじょうまえ、かかりいんはえいぞうたんまつをおおがたモニターに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "繋げた",
+        "reading": "つなげた",
+        "verdict": "correct",
+        "explanation": "工作人员把影像终端接到大型显示器上；「端末を」标出主动连接的对象。"
+      },
+      {
+        "id": "b",
+        "text": "繋がった",
+        "reading": "つながった",
+        "verdict": "ungrammatical",
+        "explanation": "「繋がる」表示端末自身接通，不能在这里接表示直接对象的「端末を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "展览开场前，工作人员把影像终端连接到了大型显示器上。",
+    "explanation": "句子写工作人员执行连接动作，影像终端是动作对象。",
+    "hint": "看清句中的端末是被连接的对象，还是自己接通的设备。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaama.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "disaster-cause-discussion-deepens",
+    "scene": "多日访谈结束后，委员会对灾害原因的讨论逐渐深入。",
+    "before": [
+      {
+        "text": "連日の聞き取り調査を経て、委員会では災害の原因をめぐる議論が",
+        "reading": "れんじつのききとりちょうさをへて、いいんかいではさいがいのげんいんをめぐるぎろんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深まった",
+        "reading": "ふかまった",
+        "verdict": "correct",
+        "explanation": "围绕灾害原因的讨论本身变得深入；「議論が」是发生变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "深めた",
+        "reading": "ふかめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「深める」会把议论理解为加深某个对象的施事；场景写的是讨论自身逐渐深入。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经过多日访谈，委员会围绕灾害原因的讨论逐渐深入了。",
+    "explanation": "访谈推进后，议论自身发生了深化变化。",
+    "hint": "判断发生变化的是讨论本身，还是讨论在主动加深别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaama.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "residents-mutual-understanding",
+    "scene": "社区协商会上，工作人员深化了与居民的相互理解。",
+    "before": [
+      {
+        "text": "市民参加型の会議で、職員は住民との相互理解を",
+        "reading": "しみんさんかがたのかいぎで、しょくいんはじゅうみんとのそうごりかいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深めた",
+        "reading": "ふかめた",
+        "verdict": "correct",
+        "explanation": "工作人员主动加深与居民的相互理解；「相互理解を」是受影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "深まった",
+        "reading": "ふかまった",
+        "verdict": "ungrammatical",
+        "explanation": "「深まる」表示理解自身加深，应以「相互理解が」作主体，不能接这里的宾语「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在市民参与的会议上，工作人员加深了与居民之间的相互理解。",
+    "explanation": "工作人员以居民间的相互理解为对象，主动推进了理解。",
+    "hint": "留意「相互理解を」在句中是变化对象还是变化主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaama.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "mountain-station-silence",
+    "scene": "末班列车离站后，山间车站逐渐归于静寂。",
+    "before": [
+      {
+        "text": "最終列車が去ったあと、山あいの駅では静けさがいっそう",
+        "reading": "さいしゅうれっしゃがさったあと、やまあいのえきではしずけさがいっそう"
+      }
+    ],
+    "after": [
+      {
+        "text": "いった。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深まって",
+        "reading": "ふかまって",
+        "verdict": "correct",
+        "explanation": "列车离开后，车站里的寂静本身逐渐加深；「静けさが」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "深めて",
+        "reading": "ふかめて",
+        "verdict": "meaning-mismatch",
+        "explanation": "「深める」なら静けさが何かを深くする側になりますが、ここでは静けさそのものが増しています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "末班列车离开后，山间车站的寂静逐渐加深。",
+    "explanation": "句子描写车站的安静程度逐步增加，没有写人主动加深某个对象。",
+    "hint": "观察列车离开后改变的是车站的寂静，还是有人采取了加深行动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaama.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaama",
+    "familyId": "verb.refaama",
+    "lexicalKey": "kiln-firing-analysis",
+    "scene": "发现古窑后，研究组加深了对当时烧制温度的考察。",
+    "before": [
+      {
+        "text": "発掘で古い窯が見つかり、研究班は当時の焼成温度に関する考察を",
+        "reading": "はっくつでふるいかまがみつかり、けんきゅうはんはとうじのしょうせいおんどにかんするこうさつを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "深めた",
+        "reading": "ふかめた",
+        "verdict": "correct",
+        "explanation": "研究组把烧制温度作为持续考察的对象；「考察を」标出被深化的内容。"
+      },
+      {
+        "id": "b",
+        "text": "深まった",
+        "reading": "ふかまった",
+        "verdict": "ungrammatical",
+        "explanation": "「深まる」表示考察自身变深，应以「考察が」作主体；这里「考察を」是宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "发掘中发现古窑后，研究组加深了对当时烧制温度的考察。",
+    "explanation": "研究组主动对烧制温度开展更深入的考察。",
+    "hint": "区分研究组采取的动作与考察内容自身发生的变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbaa",
+    "familyId": "verb.refbaa",
+    "lexicalKey": "harbor-clouds-redden",
+    "scene": "日落渐近，港外浮云逐渐泛红。",
+    "before": [
+      {
+        "text": "日没が近づくと、港の向こうに浮かぶ雲が",
+        "reading": "にちぼつがちかづくと、みなとのむこうにうかぶくもが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "赤らんだ",
+        "reading": "あからんだ",
+        "verdict": "correct",
+        "explanation": "日落时云层自身泛红；「雲が」是发生颜色变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "赤らめた",
+        "reading": "あからめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「赤らめる」会把云说成使某个对象变红的一方；场景中是云自身变色。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "日落将近，港外的浮云泛红了。",
+    "explanation": "句子写云层本身随夕照出现颜色变化。",
+    "hint": "看句中的云是颜色变化的主体，还是让其他对象变红的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbaa",
+    "familyId": "verb.refbaa",
+    "lexicalKey": "potter-blushes-at-praise",
+    "scene": "展会上陶器配色受到称赞后，年轻作者羞红了脸。",
+    "before": [
+      {
+        "text": "展示会で陶器の色使いを褒められ、若い作家は頬を",
+        "reading": "てんじかいでとうきのいろづかいをほめられ、わかいさっかはほおを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "赤らめた",
+        "reading": "あからめた",
+        "verdict": "correct",
+        "explanation": "年轻作者因作品受赞赏而羞红脸；「頬を」标出她使之泛红的部位。"
+      },
+      {
+        "id": "b",
+        "text": "赤らんだ",
+        "reading": "あからんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「赤らむ」描述脸颊自身变色，应写「頬が」；这里「頬を」是直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在展会上，年轻作者因陶器配色受到称赞而羞红了脸。",
+    "explanation": "年轻作者的脸颊是自己羞怯地使之泛红的部位。",
+    "hint": "留意脸颊在句中是直接对象，还是颜色变化的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbaa",
+    "familyId": "verb.refbaa",
+    "lexicalKey": "grandfather-cheeks-flush",
+    "scene": "喝下热酒后，祖父的脸颊渐渐泛红。",
+    "before": [
+      {
+        "text": "熱燗を飲むと、祖父の頬がじわりと",
+        "reading": "あつかんをのむと、そふのほおがじわりと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "赤らんだ",
+        "reading": "あからんだ",
+        "verdict": "correct",
+        "explanation": "热酒下肚后祖父的脸颊自身逐渐泛红；「頬が」标记变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "赤らめた",
+        "reading": "あからめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「赤らめる」会把祖父理解为使其他对象变红的一方；这里脸颊是受热后变色的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "喝下热酒后，祖父的脸颊渐渐泛红。",
+    "explanation": "句子描述酒后脸颊自然泛红的状态变化。",
+    "hint": "判断泛红的是脸颊本身，还是祖父把其他东西弄红了。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbaa",
+    "familyId": "verb.refbaa",
+    "lexicalKey": "manager-blushes-at-song-request",
+    "scene": "退休纪念会上被请唱歌后，部长害羞地红了脸。",
+    "before": [
+      {
+        "text": "退職記念の会で歌うよう頼まれた部長は、照れながら顔を",
+        "reading": "たいしょくきねんのかいでうたうようたのまれたぶちょうは、てれながらかおを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "赤らめた",
+        "reading": "あからめた",
+        "verdict": "correct",
+        "explanation": "部长因害羞而把脸弄红；「顔を」标出颜色变化作用的部位。"
+      },
+      {
+        "id": "b",
+        "text": "赤らんだ",
+        "reading": "あからんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「赤らむ」表示脸自己变红，应以「顔が」作主体，不能接这里的「顔を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在退休纪念会上被请唱歌后，部长害羞地红了脸。",
+    "explanation": "部长面对临时上台唱歌的请求感到难为情，句子以脸为变红的对象。",
+    "hint": "区分脸部自身泛红与人物让脸部变红的句子结构。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "lexicalKey": "sunset-from-island-lighthouse",
+    "scene": "从岛上灯塔望去，夕阳落到了海平线下。",
+    "before": [
+      {
+        "text": "島の灯台から海を見ていると、夕日が水平線の向こうに",
+        "reading": "しまのとうだいからうみをみていると、ゆうひがすいへいせんのむこうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沈んだ",
+        "reading": "しずんだ",
+        "verdict": "correct",
+        "explanation": "夕日自身落到海平线以下；「夕日が」是下沉的主体。"
+      },
+      {
+        "id": "b",
+        "text": "沈めた",
+        "reading": "しずめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「沈める」会把夕日说成使某个对象下沉的一方；这里没有这样的动作对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从岛上的灯塔望去，夕阳沉到了海平线下。",
+    "explanation": "句子描写夕阳自行落到海平线以下的过程。",
+    "hint": "判断落到海平线下的是夕阳本身，还是夕阳让别的东西下沉。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "lexicalKey": "metal-sample-submerged-in-saltwater",
+    "scene": "研究员把金属片沉入盐水槽，观察腐蚀情况。",
+    "before": [
+      {
+        "text": "腐食を調べるため、研究員は塩水を張った水槽に金属片を",
+        "reading": "ふしょくをしらべるため、けんきゅういんはえんすいをはったすいそうにきんぞくへんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沈めた",
+        "reading": "しずめた",
+        "verdict": "correct",
+        "explanation": "研究员把金属片放入水槽中；「金属片を」是被浸入水里的对象。"
+      },
+      {
+        "id": "b",
+        "text": "沈んだ",
+        "reading": "しずんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「沈む」描述金属片自身下沉，应以「金属片が」作主体，不能接这里的直接宾语「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了调查腐蚀情况，研究员把金属片沉入装有盐水的水槽中。",
+    "explanation": "研究员主动将金属片放进水槽，金属片是被放入的对象。",
+    "hint": "看金属片是自己沉下去，还是研究员把它放进水里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "lexicalKey": "transport-truck-wheel-sinks-in-mud",
+    "scene": "暴雨后的工地上，运输车后轮深陷在泥里。",
+    "before": [
+      {
+        "text": "豪雨のあとの工事現場で、運搬車の後輪がぬかるみに深く",
+        "reading": "ごううのあとのこうじげんばで、うんぱんしゃのこうりんがぬかるみにふかく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沈んだ",
+        "reading": "しずんだ",
+        "verdict": "correct",
+        "explanation": "泥中的后轮自身下陷；「後輪が」标记发生位置变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "沈めた",
+        "reading": "しずめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「沈める」会把后轮说成主动让其他东西下沉；场景写的是后轮自身陷进泥中。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暴雨后的工地上，运输车的后轮深深陷进了泥里。",
+    "explanation": "后轮本身陷入泥泞中，句子没有写它使别的物件下沉。",
+    "hint": "对照车轮与泥地，确认下陷的是哪个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbia",
+    "familyId": "verb.refbia",
+    "lexicalKey": "retired-ship-artificial-reef",
+    "scene": "为建成人工鱼礁，地方政府把退役船沉放到近海海底。",
+    "before": [
+      {
+        "text": "人工魚礁にする計画で、自治体は役目を終えた船を沖の海底に",
+        "reading": "じんこうぎょしょうにするけいかくで、じちたいはやくめをおえたふねをおきのかいていに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "沈めた",
+        "reading": "しずめた",
+        "verdict": "correct",
+        "explanation": "地方政府有意把退役船沉到海底；「船を」是被沉放的对象。"
+      },
+      {
+        "id": "b",
+        "text": "沈んだ",
+        "reading": "しずんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「沈む」描述船自身下沉，应以「船が」作主体；这里的「船を」是直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为建成人工鱼礁，地方政府把一艘退役船沉入近海海底。",
+    "explanation": "这项计划由地方政府执行，退役船是被放入海底的对象。",
+    "hint": "判断退役船是自己沉没，还是有人有意将它沉放。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refboa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "lexicalKey": "theater-cast-gathers-backstage",
+    "scene": "开演前，剧团全体演员已在后台到齐。",
+    "before": [
+      {
+        "text": "開演直前、劇団の出演者が全員楽屋に",
+        "reading": "かいえんちょくぜん、げきだんのしゅつえんしゃがぜんいんがくやに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揃った",
+        "reading": "そろった",
+        "verdict": "correct",
+        "explanation": "所有演员都聚到后台；「出演者が全員」是集合到齐的一方。"
+      },
+      {
+        "id": "b",
+        "text": "揃えた",
+        "reading": "そろえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「揃える」会表示演员们整理或配齐某个对象；场景写的是演员们自己到齐。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开演前，剧团的演员全员都在后台到齐了。",
+    "explanation": "句子报告的是所有演员集合到后台的结果，不是演员整理其他物品。",
+    "hint": "判断句子里的演员是集合到齐的一方，还是把别的东西配齐的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refboa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "lexicalKey": "field-trip-materials-laid-out",
+    "scene": "出发前，负责人在会议室桌上备齐远征文件和用品。",
+    "before": [
+      {
+        "text": "出発前に、担当者は遠征に必要な書類と備品を会議室の机に",
+        "reading": "しゅっぱつまえに、たんとうしゃはえんせいにひつようなしょるいとびひんをかいぎしつのつくえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揃えた",
+        "reading": "そろえた",
+        "verdict": "correct",
+        "explanation": "负责人把文件和用品整理齐备并摆上桌；「書類と備品を」是整理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "揃った",
+        "reading": "そろった",
+        "verdict": "ungrammatical",
+        "explanation": "「揃う」表示物品自身到齐，应以「書類と備品が」作主体，不能接这里的「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "出发前，负责人把远征所需的文件和用品备齐摆在会议室桌上。",
+    "explanation": "负责人执行整理动作，文件和用品是被配齐的对象。",
+    "hint": "留意文件和用品在句中是被整理的对象，还是自己到齐的事物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refboa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "lexicalKey": "inventory-counts-match",
+    "scene": "两人复核盘点后，账面库存数与实物数量完全吻合。",
+    "before": [
+      {
+        "text": "棚卸しの数字を二人で照合した結果、帳簿上の在庫数と実物の数がぴたりと",
+        "reading": "たなおろしのすうじをふたりでしょうごうしたけっか、ちょうぼじょうのざいこすうとじつぶつのかずがぴたりと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揃った",
+        "reading": "そろった",
+        "verdict": "correct",
+        "explanation": "账面库存数与实物数彼此吻合；两组数值共同构成「揃う」的主体。"
+      },
+      {
+        "id": "b",
+        "text": "揃えた",
+        "reading": "そろえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「揃える」会表示两组数值把某个对象配齐；句子写的是两边数量彼此相合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "两人核对盘点数据后，账面库存数量与实物数量完全吻合。",
+    "explanation": "两项库存数量彼此对上，句子没有描述它们整理别的对象。",
+    "hint": "看账面数与实物数是彼此相合，还是主动把某个清单配齐。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.refcea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "lexicalKey": "溶ける・溶く",
+    "scene": "烹饪实习时，讲师用锅里的高汤调开味噌。",
+    "before": [
+      {
+        "text": "調理実習で、講師は鍋のだし汁に味噌を",
+        "reading": "ちょうりじっしゅうで、こうしはなべのだしじるにみそを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶きました",
+        "reading": "ときました",
+        "verdict": "correct",
+        "explanation": "讲师把味噌调匀到高汤里；「味噌を」标出被处理的材料。"
+      },
+      {
+        "id": "b",
+        "text": "溶けました",
+        "reading": "とけました",
+        "verdict": "ungrammatical",
+        "explanation": "「溶ける」是自动词，发生变化的味噌应以「が」作主语；本句用「味噌を」标出讲师处理的对象，不能接「溶けました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烹饪实习中，讲师把味噌调入锅里的高汤。",
+    "explanation": "「溶く」表示讲师把味噌调入并混匀到高汤里。",
+    "hint": "看味噌在句中是被讲师处理的材料，还是自身发生变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "弾く",
+      "reading": "はじく"
+    },
+    "scene": "孩子用指尖把桌上的小石子弹开。",
+    "before": [
+      {
+        "text": "子どもは指先で小石を弾きました。",
+        "reading": "こどもはゆびさきでこいしをはじきました。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词表示主体自身发生变化；本句是孩子用指尖对小石子施力，角色关系不符合自动词。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「子どもは」是施力者，「小石を」标出受作用对象；句子写的是孩子对小石子施加动作。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "孩子用指尖弹开了小石子。",
+    "explanation": "孩子对小石子施力使它弹动，句中「弾く」表示作用于对象的动作。",
+    "hint": "先看句中谁施加动作，以及动作落在什么对象上。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "lexicalKey": "弾ける・弾く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "弾く",
+      "reading": "はじく"
+    },
+    "scene": "测试防水涂层时，布料表面把水滴排开。",
+    "before": [
+      {
+        "text": "撥水剤を塗った布は、実験で水滴を弾きました。",
+        "reading": "はっすいざいをぬったぬのは、じっけんですいてきをはじきました。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词表示主体自身发生变化；本句以布料为作用主体，以「水滴を」标出被排开的对象，因此不符合自动词类别。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "布料表面对水滴产生排斥作用，「水滴を」是受作用对象，符合他动词角色。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "涂有防水剂的布料在实验中把水滴弹开了。",
+    "explanation": "句中布料作用于水滴，「弾く」表示对对象施加作用。",
+    "hint": "留意句中布料与水滴分别承担什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

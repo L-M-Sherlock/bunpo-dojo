@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refnaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "lexicalKey": "見える/見る",
+    "scene": "天文台讲师为记录观测，透过望远镜仔细观察土星",
+    "before": [
+      {
+        "text": "天文台の講師は、観測記録を取るため、望遠鏡で土星をじっくり",
+        "reading": "てんもんだいのこうしは、かんそくきろくをとるため、ぼうえんきょうでどせいをじっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "見た",
+        "reading": "みた",
+        "verdict": "correct",
+        "explanation": "讲师为了记录观测而有意查看土星，「土星を」标出观看的对象。"
+      },
+      {
+        "id": "b",
+        "text": "見えた",
+        "reading": "みえた",
+        "verdict": "ungrammatical",
+        "explanation": "「土星を」在这里是直接观看对象；表示自然可见的「見える」不能按这个结构接它。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "天文台的讲师为记录观测结果，用望远镜仔细观察了土星。",
+    "explanation": "句子写讲师有意观察土星，土星是观看动作的对象。",
+    "hint": "留意句中谁有意观察，以及望远镜指向的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrbb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "lexicalKey": "帰る/帰す",
+    "scene": "夜间巡逻结束后，站员在首班车前返回值班室",
+    "before": [
+      {
+        "text": "夜間巡回を終えた駅員は、始発前に詰所へ",
+        "reading": "やかんじゅんかいをおえたえきいんは、しはつまえにつめしょへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "帰った",
+        "reading": "かえった",
+        "verdict": "correct",
+        "explanation": "站员本人结束巡逻后回到值班室，是站员自身返回原有工作地点。"
+      },
+      {
+        "id": "b",
+        "text": "帰した",
+        "reading": "かえした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「帰す」表示把别人送回某处；若省略对象，这里会变成站员把另一个人送回值班室，与站员本人返回的场景不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "结束夜间巡逻后，站员在首班车开行前回到了值班室。",
+    "explanation": "发生移动的是站员本人，句子没有写站员送另一个人回去。",
+    "hint": "判断句中是在说站员本人返回，还是站员把另一个人送回去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrbb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "lexicalKey": "帰る/帰す",
+    "scene": "台风逼近时，社团指导老师提前安排成员回家",
+    "before": [
+      {
+        "text": "台風が近づいたため、顧問は部員たちを普段より早く",
+        "reading": "たいふうがちかづいたため、こもんはぶいんたちをふだんよりはやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "帰った",
+        "reading": "かえった",
+        "verdict": "ungrammatical",
+        "explanation": "「部員たちを」标出被送回家的对象；自动词「帰る」描述主体自己返回，不能在这里承接这个直接对象。"
+      },
+      {
+        "id": "b",
+        "text": "帰した",
+        "reading": "かえした",
+        "verdict": "correct",
+        "explanation": "顾问老师让社团成员提前回家，「部員たちを」是被送回去的人。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "台风逼近时，社团指导老师比平时更早让成员回家。",
+    "explanation": "指导老师安排部员返回，部员是被送回家的对象。",
+    "hint": "留意「部員たちを」标出的对象，以及句中谁安排了他们的返程。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrbb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "lexicalKey": "帰る/帰す",
+    "scene": "夜市散场后，游客在末班车前回到暂住旅店",
+    "before": [
+      {
+        "text": "夜市の見物を終えた旅行客は、終電の前に滞在中の宿へ",
+        "reading": "よいちのけんぶつをおえたりょこうきゃくは、しゅうでんのまえにたいざいちゅうのやどへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "帰った",
+        "reading": "かえった",
+        "verdict": "correct",
+        "explanation": "游客逛完夜市后回到暂住的旅店，是游客自身返回落脚处。"
+      },
+      {
+        "id": "b",
+        "text": "帰した",
+        "reading": "かえした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「帰す」表示旅行客把别人送回旅店；句子在场景中说的是游客自己返回住处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "逛完夜市的游客在末班车前回到了暂住的旅店。",
+    "explanation": "句子描述游客本人返回住处，没有写他们把别人送回去。",
+    "hint": "分辨游客是返回住处的人，还是安排别人回去的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

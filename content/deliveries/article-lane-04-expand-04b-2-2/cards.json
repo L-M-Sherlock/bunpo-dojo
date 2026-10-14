@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.refica.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "lexicalKey": "汚れるけがれる/汚すけがす",
+    "scene": "毕业典礼答辞前，代表核对引文，避免有损母校声誉",
+    "before": [
+      {
+        "text": "卒業式の答辞を読む前に、代表は引用元を確かめ、母校の名を",
+        "reading": "そつぎょうしきのとうじをよむまえに、だいひょうはいんようもとをたしかめ、ぼこうのなを"
+      }
+    ],
+    "after": [
+      {
+        "text": "よう気を配った。",
+        "reading": "ようきをくばった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚さない",
+        "reading": "けがさない",
+        "verdict": "correct",
+        "explanation": "「汚す（けがす）」表示损害珍重之物的纯洁或名誉；代表核对引文来源，是为了避免损害母校的名声。"
+      },
+      {
+        "id": "b",
+        "text": "汚れない",
+        "reading": "けがれない",
+        "verdict": "ungrammatical",
+        "explanation": "这里「母校の名を」标出受到影响的对象；表示对象自身蒙受损害的「汚れる」不能接在这个「を」后。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "毕业典礼答辞宣读前，代表核对了引文出处，并留意不要玷污母校的名声。",
+    "explanation": "代表是核对引文并避免损害名声的人，母校的名声是他要维护的对象。",
+    "hint": "留意代表核对引文的目的，以及母校的名声在句中承受什么关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refica.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "lexicalKey": "汚れるけがれる/汚すけがす",
+    "scene": "神殿内有人喧哗，神职人员劝阻，以免圣地的神圣性受损",
+    "before": [
+      {
+        "text": "社殿で大声を出す参拝客を見かけても、神聖な場所が",
+        "reading": "しゃでんでおおごえをだすさんぱいきゃくをみかけても、しんせいなばしょが"
+      }
+    ],
+    "after": [
+      {
+        "text": "よう、神職は静粛を求めた。",
+        "reading": "よう、しんしょくはせいしゅくをもとめた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚さない",
+        "reading": "けがさない",
+        "verdict": "meaning-mismatch",
+        "explanation": "「汚す（けがす）」表示施事损害圣地等珍重之物；这里「神聖な場所が」是本身受到影响的主体，场景也在维护圣地自身的神圣性。"
+      },
+      {
+        "id": "b",
+        "text": "汚れない",
+        "reading": "けがれない",
+        "verdict": "correct",
+        "explanation": "句子要避免神圣场所自身受到亵渎；「神聖な場所が」是状态发生变化的主体，符合「汚れる（けがれる）」。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "即使看到参拜者在神殿里大声喧哗，神职人员也要求保持安静，以免损害圣地的神圣性。",
+    "explanation": "神圣场所是可能受到损害的一方，神职人员采取措施避免它失去神圣性。",
+    "hint": "判断圣地在句中是发出损害行为的一方，还是自身可能受到影响的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

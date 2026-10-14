@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.reftca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftca",
+    "familyId": "verb.reftca",
+    "lexicalKey": "rope-blocks-backstage-passage",
+    "scene": "演出期间，工作人员用绳子封住通往后台的通道。",
+    "before": [
+      {
+        "text": "公演中、係員は観客が舞台裏へ入らないよう、舞台袖の通路をロープで",
+        "reading": "こうえんちゅう、かかりいんはかんきゃくがぶたいうらへはいらないよう、ぶたいそでのつうろをロープで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "塞いだ",
+        "reading": "ふさいだ",
+        "verdict": "correct",
+        "explanation": "工作人员用绳子主动拦住通道，「通路を」标明被阻挡的对象。"
+      },
+      {
+        "id": "b",
+        "text": "塞がった",
+        "reading": "ふさがった",
+        "verdict": "ungrammatical",
+        "explanation": "「塞がる」描写通道自身陷入堵塞，不能在此把「通路を」作直接对象；描述通道堵住应说「通路が塞がった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "演出期间，工作人员用绳子封住通往后台的通道，以免观众进入。",
+    "explanation": "係員通过绳子阻拦通道，「通路を」指出被封住的部位。",
+    "hint": "留意系绳的人和被阻断的通道之间是什么关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.hiraku.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "lexicalKey": "morning-glory-bud-opens-after-rain",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "開く",
+      "reading": "ひらく"
+    },
+    "scene": "雨后的清晨，院里盆栽的一朵牵牛花花蕾绽开了。",
+    "before": [
+      {
+        "text": "雨上がりの朝、庭の鉢植えでは、朝顔のつぼみが一輪だけ開いた。",
+        "reading": "あめあがりのあさ、にわのはちうえでは、あさがおのつぼみがいちりんだけひらいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「つぼみが」是自然绽开的主体，句中没有人把它打开。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动用法表示主体使另一个对象展开；本句写的是花蕾自身开放，没有人将它打开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨后的清晨，院里的盆栽中只有一朵牵牛花花蕾绽开了。",
+    "explanation": "句中写花蕾自然开放，「つぼみが」标出发生变化的主体。",
+    "hint": "判断花蕾是发生变化的主体，还是有人使另一个对象展开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.hiraku.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "lexicalKey": "librarian-opens-returned-book",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "開く",
+      "reading": "ひらく"
+    },
+    "scene": "图书管理员翻开归还的书，检查书页有没有破损。",
+    "before": [
+      {
+        "text": "司書は、返却された本を開いて、ページに破れがないか確かめた。",
+        "reading": "ししょは、へんきゃくされたほんをひらいて、ページにやぶれがないかたしかめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「自動詞」描写对象自身打开；本句是司书翻开一本书，「本を」标出他操作的对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「司書は」是翻书的人，「本を」是被翻开的对象，句子写司书主动打开书检查。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "图书管理员翻开归还的书，检查书页是否有破损。",
+    "explanation": "司书主动翻开书检查，「本を」标明动作直接作用的对象。",
+    "hint": "留意「本」是自行展开，还是由司书主动打开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.hiraku.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.hiraku",
+    "familyId": "verb.hiraku",
+    "lexicalKey": "sutured-wound-reopens-on-lifting",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "開く",
+      "reading": "ひらく"
+    },
+    "scene": "提起重物时，缝合的伤口再次裂开。",
+    "before": [
+      {
+        "text": "重い荷物を持ち上げた拍子に、縫合した傷口がまた開いた。",
+        "reading": "おもいにもつをもちあげたひょうしに、ほうごうしたきずぐちがまたひらいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「傷口が」是重新裂开的主体；句子没有写某人把伤口打开。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动用法会写某个施事打开伤口等对象；本句以「傷口が」描写伤口自身再次裂开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "提起重物时，缝合过的伤口再次裂开了。",
+    "explanation": "句子描述伤口自身重新裂开，「傷口が」标出状态变化的主体。",
+    "hint": "判断谁在句中发生了打开的变化，以及是否有施事对其施加动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

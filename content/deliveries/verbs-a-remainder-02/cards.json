@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.break.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "搬家过程中，工作人员弄坏了花瓶。",
+    "before": [
+      {
+        "text": "引っ越し中、作業員が花瓶を",
+        "reading": "ひっこしちゅう、さぎょういんがかびんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "correct",
+        "explanation": "工作人员是弄坏花瓶的施事，花瓶是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "ungrammatical",
+        "explanation": "本句把花瓶标为直接对象「を」；自动词壊れる描述物品自身损坏，不能接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬家过程中，工作人员弄坏了花瓶。",
+    "explanation": "壊す（こわす）表示工作人员对花瓶实施了损坏动作。",
+    "hint": "找出句中是谁造成损坏，以及被损坏的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.break.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "地震摇晃时，旧餐具柜受损了。",
+    "before": [
+      {
+        "text": "地震の揺れで、古い食器棚が",
+        "reading": "じしんのゆれで、ふるいしょっきだなが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "correct",
+        "explanation": "旧餐具柜受地震摇晃而损坏，句子报告物品自身的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词壊す理解，餐具柜会成为弄坏别的东西的施事；这里餐具柜是受损的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "地震摇晃时，旧餐具柜损坏了。",
+    "explanation": "壊れる（こわれる）描写餐具柜本身受损，不叙述它损坏其他物品。",
+    "hint": "判断餐具柜是发生损坏的物品，还是实施破坏动作的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.break.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "弟弟把旧收音机掉到地上后弄坏了。",
+    "before": [
+      {
+        "text": "弟は床に落とした古いラジオを",
+        "reading": "おとうとはゆかにおとしたふるいラジオを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "correct",
+        "explanation": "弟弟是弄坏收音机的施事，收音机是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "ungrammatical",
+        "explanation": "「古いラジオを」是本句动作对象；自动词壊れる不能按该词义接直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "弟弟弄坏了掉在地上的旧收音机。",
+    "explanation": "壊す（こわす）表示弟弟使收音机损坏。",
+    "hint": "注意句中有实施动作的弟弟，以及被弄坏的收音机。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.break.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "lexicalKey": "壊れる・壊す",
+    "scene": "忘在窗边的手机淋雨后坏掉了。",
+    "before": [
+      {
+        "text": "窓辺に置き忘れたスマートフォンが雨に濡れて",
+        "reading": "まどべにおきわすれたスマートフォンがあめにぬれて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "壊れました",
+        "reading": "こわれました",
+        "verdict": "correct",
+        "explanation": "手机被雨淋湿后自身损坏，句子报告的是手机的状态变化。"
+      },
+      {
+        "id": "b",
+        "text": "壊しました",
+        "reading": "こわしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词理解，手机会成为损坏别的东西的施事；这里手机本身是受损物品。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "忘在窗边的手机被雨淋湿后坏掉了。",
+    "explanation": "壊れる（こわれる）说明手机自身损坏，雨淋是句中的原因。",
+    "hint": "判断手机是发生损坏的物品，还是损坏其他东西的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.fall.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.fall",
+    "familyId": "verb.fall",
+    "lexicalKey": "落ちる・落とす",
+    "scene": "工作台晃动，边缘的扳手掉到了地上。",
+    "before": [
+      {
+        "text": "作業台が揺れて、端に置いたスパナが床に",
+        "reading": "さぎょうだいがゆれて、はしにおいたスパナがゆかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "落ちました",
+        "reading": "おちました",
+        "verdict": "correct",
+        "explanation": "扳手从工作台边缘掉到地上，句子聚焦物品自身的移动。"
+      },
+      {
+        "id": "b",
+        "text": "落としました",
+        "reading": "おとしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "落とす可表示某个施事把扳手弄掉，或让扳手作为施事弄掉别物；这里扳手自身掉落。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作台晃动，边缘的扳手掉到了地上。",
+    "explanation": "落ちる（おちる）表示扳手自身从高处移到地面。",
+    "hint": "看扳手是自己掉落，还是某个施事把它弄掉。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

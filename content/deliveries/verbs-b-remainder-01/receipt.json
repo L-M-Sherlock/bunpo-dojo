@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/remainder-01.draft.json",
+  "at": "2026-10-13T11:54:11.802Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.change.02",
+      "hash": "bfee2f92dfb62bacab031165fadb540ce6fed8ef50470e6a0c87b00969e9d30d",
+      "fullSentences": [
+        "編集者が記事の見出しを短く変えました。"
+      ]
+    },
+    {
+      "id": "verb.change.03",
+      "hash": "4f6709626d8fb3352aed20e7227552eb82d9a9eecc11bbe722763bfbbdc9a239",
+      "fullSentences": [
+        "学園祭の会場が運動場から体育館に変わりました。"
+      ]
+    },
+    {
+      "id": "verb.change.04",
+      "hash": "b8c3f9b717b2152e275bbc739d254e4b4a692edc1c97459ed1269a0726b6b9c6",
+      "fullSentences": [
+        "料理長がスープの塩加減を変えました。"
+      ]
+    },
+    {
+      "id": "verb.change.05",
+      "hash": "36a39da40917f96f6a7a3e6f6a118c0ff7c10ee35001e7186c6134323ee86c7e",
+      "fullSentences": [
+        "カフェのランチメニューが春野菜中心の内容に変わりました。"
+      ]
+    },
+    {
+      "id": "verb.gather.01",
+      "hash": "ed56ccf6e09741d62ca289807089ede17f6e6863efc07efec467717d48ec1757",
+      "fullSentences": [
+        "記者会見を控え、市役所前に報道陣が集まりました。"
+      ]
+    }
+  ]
+}

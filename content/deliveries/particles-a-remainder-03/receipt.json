@@ -1,0 +1,47 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-03.draft.json",
+  "at": "2026-10-13T12:17:39.156Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.destination.07",
+      "hash": "bf875733209805badcccf28408e276116f58ce0b04e4b49934bdb7f173421e1e",
+      "fullSentences": [
+        "旅行客は秋に金沢へへ行きます。",
+        "旅行客は秋に金沢にへ行きます。"
+      ]
+    },
+    {
+      "id": "particle.destination.08",
+      "hash": "b2a38bca9fcabf07190a67e341a05e444c3a7597b83ed17653b1ed676e06edfe",
+      "fullSentences": [
+        "担当医が病室にに来ます。",
+        "担当医が病室へに来ます。"
+      ]
+    },
+    {
+      "id": "particle.destination.09",
+      "hash": "1b670b20ae6985b4b0a58c46a10a5b7c3c060de390d33f37ffd6497c47fd1be3",
+      "fullSentences": [
+        "夜勤が終わって、看護師は早朝に自宅にに帰ります。",
+        "夜勤が終わって、看護師は早朝に自宅へに帰ります。"
+      ]
+    },
+    {
+      "id": "particle.destination.10",
+      "hash": "127996597d60a196688afcf457ebc026bc462139bbbd211356e4b04d7f37246e",
+      "fullSentences": [
+        "朝礼の場所が体育館に変わり、児童は体育館へへ行きます。",
+        "朝礼の場所が体育館に変わり、児童は体育館にへ行きます。"
+      ]
+    },
+    {
+      "id": "particle.board.01",
+      "hash": "f0d4530156c5768c362b5edf77c1dffca77b99ee43621d22051cfef77982220f",
+      "fullSentences": [
+        "旅行客は空港でシャトルバスにに乗ります。"
+      ]
+    }
+  ]
+}

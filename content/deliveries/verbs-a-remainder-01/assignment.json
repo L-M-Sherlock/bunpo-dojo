@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.off.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.off.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.off.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.off.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.break.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.break",
+    "familyId": "verb.break",
+    "pair": {
+      "id": "verb.break",
+      "intransitive": "壊れる",
+      "intransitiveReading": "こわれる",
+      "transitive": "壊す",
+      "transitiveReading": "こわす",
+      "meaning": "物品损坏",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refiha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiha",
+    "familyId": "verb.refiha",
+    "pair": {
+      "id": "verb.refiha",
+      "intransitive": "流れる",
+      "intransitiveReading": "ながれる",
+      "transitive": "流す",
+      "transitiveReading": "ながす",
+      "meaning": "辨析「流れる／流す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refkaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "pair": {
+      "id": "verb.refkaa",
+      "intransitive": "分かれる",
+      "intransitiveReading": "わかれる",
+      "transitive": "分ける",
+      "transitiveReading": "わける",
+      "meaning": "辨析「分かれる／分ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 11,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refkaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "pair": {
+      "id": "verb.refkaa",
+      "intransitive": "分かれる",
+      "intransitiveReading": "わかれる",
+      "transitive": "分ける",
+      "transitiveReading": "わける",
+      "meaning": "辨析「分かれる／分ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 11,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refkaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refkaa",
+    "familyId": "verb.refkaa",
+    "pair": {
+      "id": "verb.refkaa",
+      "intransitive": "分かれる",
+      "intransitiveReading": "わかれる",
+      "transitive": "分ける",
+      "transitiveReading": "わける",
+      "meaning": "辨析「分かれる／分ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 11,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

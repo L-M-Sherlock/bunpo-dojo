@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refada.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "pair": {
+      "id": "verb.refada",
+      "intransitive": "改まる",
+      "intransitiveReading": "あらたまる",
+      "transitive": "改める",
+      "transitiveReading": "あらためる",
+      "meaning": "辨析「改まる／改める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refada.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "pair": {
+      "id": "verb.refada",
+      "intransitive": "改まる",
+      "intransitiveReading": "あらたまる",
+      "transitive": "改める",
+      "transitiveReading": "あらためる",
+      "meaning": "辨析「改まる／改める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refada.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "pair": {
+      "id": "verb.refada",
+      "intransitive": "改まる",
+      "intransitiveReading": "あらたまる",
+      "transitive": "改める",
+      "transitiveReading": "あらためる",
+      "meaning": "辨析「改まる／改める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

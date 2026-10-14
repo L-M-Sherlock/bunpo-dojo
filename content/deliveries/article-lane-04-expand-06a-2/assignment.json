@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "pair": {
+      "id": "verb.refsfa",
+      "intransitive": "退く",
+      "intransitiveReading": "どく",
+      "transitive": "退かす",
+      "transitiveReading": "どかす",
+      "meaning": "辨析「退く／退かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "pair": {
+      "id": "verb.refsla",
+      "intransitive": "惑う",
+      "intransitiveReading": "まどう",
+      "transitive": "惑わす",
+      "transitiveReading": "まどわす",
+      "meaning": "辨析「惑う／惑わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "pair": {
+      "id": "verb.refsla",
+      "intransitive": "惑う",
+      "intransitiveReading": "まどう",
+      "transitive": "惑わす",
+      "transitiveReading": "まどわす",
+      "meaning": "辨析「惑う／惑わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 12
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "pair": {
+      "id": "verb.refsla",
+      "intransitive": "惑う",
+      "intransitiveReading": "まどう",
+      "transitive": "惑わす",
+      "transitiveReading": "まどわす",
+      "meaning": "辨析「惑う／惑わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  }
+]

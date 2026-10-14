@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

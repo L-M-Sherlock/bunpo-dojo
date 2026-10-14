@@ -1,0 +1,96 @@
+[
+  {
+    "id": "mixed.09",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "afternoon-performance",
+    "scene": "工作人员在大厅验票，下午场演出按计划两点开场。",
+    "before": [
+      {
+        "text": "係員はロビーでチケットを確認し、午後の公演は予定どおり午後二時にホールで",
+        "reading": "かかりいんはロビーでチケットをかくにんし、ごごのこうえんはよていどおりごごにじにホールで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始まった",
+        "reading": "はじまった",
+        "verdict": "correct",
+        "explanation": "开始的是下午场演出本身，自动词「始まる」表示活动开始。"
+      },
+      {
+        "id": "b",
+        "text": "始めた",
+        "reading": "はじめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「始めた」可省略上下文已知的宾语；此时会把「午後の公演」读作开始另一项活动的一方。场景写的是演出本身开场，因此不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在大厅核对门票，下午场演出按计划于下午两点在礼堂开始了。",
+    "explanation": "前半句写工作人员在大厅核对门票，主句说下午场演出本身按时开始，没有人把它当作被开始的对象。",
+    "hint": "注意句中是演出自己开始，还是某人开始另一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.11",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "meeting-time",
+    "scene": "事务局在会议室比较时间，下次集合定在下午三点。",
+    "before": [
+      {
+        "text": "事務局は会議室で候補の時刻を比べ、次回の集合時刻が午後三時に",
+        "reading": "じむきょくはかいぎしつでこうほのじこくをくらべ、じかいのしゅうごうじこくがごごさんじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決まった",
+        "reading": "きまった",
+        "verdict": "correct",
+        "explanation": "最后确定的是集合时间本身，自动词「決まる」表示安排得到确定。"
+      },
+      {
+        "id": "b",
+        "text": "決めた",
+        "reading": "きめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「決めた」可省略上下文已知的决定对象；此时会把「集合時刻が」读成决定另一事项的一方。场景中的集合时间是被确定的结果，因此不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "事务局在会议室比较候选时间，下次集合时间定在下午三点。",
+    "explanation": "事务局比较候选时间是前一动作；主句的集合时间成为确定结果，而不是它自己决定其他事情。",
+    "hint": "区分作出决定的人和最后被确定下来的安排。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

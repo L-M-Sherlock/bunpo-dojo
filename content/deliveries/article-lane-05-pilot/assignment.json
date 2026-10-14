@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refaga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "pair": {
+      "id": "verb.refaga",
+      "intransitive": "植わる",
+      "intransitiveReading": "うわる",
+      "transitive": "植える",
+      "transitiveReading": "うえる",
+      "meaning": "辨析「植わる／植える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "pair": {
+      "id": "verb.refaga",
+      "intransitive": "植わる",
+      "intransitiveReading": "うわる",
+      "transitive": "植える",
+      "transitiveReading": "うえる",
+      "meaning": "辨析「植わる／植える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaga",
+    "familyId": "verb.refaga",
+    "pair": {
+      "id": "verb.refaga",
+      "intransitive": "植わる",
+      "intransitiveReading": "うわる",
+      "transitive": "植える",
+      "transitiveReading": "うえる",
+      "meaning": "辨析「植わる／植える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  }
+]

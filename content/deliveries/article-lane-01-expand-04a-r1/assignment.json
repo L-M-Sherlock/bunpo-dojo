@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refeba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "pair": {
+      "id": "verb.refeba",
+      "intransitive": "肥える",
+      "intransitiveReading": "こえる",
+      "transitive": "肥やす",
+      "transitiveReading": "こやす",
+      "meaning": "辨析「肥える／肥やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

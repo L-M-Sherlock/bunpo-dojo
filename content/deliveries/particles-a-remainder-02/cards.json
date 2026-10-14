@@ -1,0 +1,282 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.02",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "father-returns-home-at-year-end",
+    "scene": "在外地工作的父亲年底休假，准备回家和家人团聚。",
+    "before": [
+      {
+        "text": "単身赴任中の父は年末に自宅",
+        "reading": "たんしんふにんちゅうのちちはねんまつにじたく"
+      }
+    ],
+    "after": [
+      {
+        "text": "へ帰ります。",
+        "reading": "えかえります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ表示父亲返回时指向的家，符合帰ります的目的地。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に也可以标帰る的目的地，表示父亲回到家。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把家说成离开的起点；场景中的家是父亲返回的终点。"
+      }
+    ],
+    "answerIds": [
+      "e",
+      "ni"
+    ],
+    "translation": "在外地工作的父亲年底回家。",
+    "explanation": "帰る表示回到目的地时，自宅后可以接へ或に。",
+    "hint": "看自宅是离开的起点，还是父亲返回的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.03",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "painter-comes-to-gallery",
+    "scene": "我在画廊入口等候，预约来访的画家正赶来。",
+    "before": [
+      {
+        "text": "私は入口で待っています。画家が画廊",
+        "reading": "わたしはいりぐちでまっています。がかががろう"
+      }
+    ],
+    "after": [
+      {
+        "text": "に来ます。",
+        "reading": "にきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标画家来访的目的地画廊。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ也可以指出画家前来的方向和目的地。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会表示画廊是画家出发的地点；场景说画家正赶来这里。"
+      }
+    ],
+    "answerIds": [
+      "ni",
+      "e"
+    ],
+    "translation": "我在入口等候。画家要来画廊。",
+    "explanation": "画廊是画家来访的终点，に和へ都可以标记这个目的地。",
+    "hint": "从等候者的视角判断画廊是来访的终点还是出发地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.04",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "mother-goes-to-eye-clinic",
+    "scene": "母亲收到年度眼科检查通知，下周要去诊所。",
+    "before": [
+      {
+        "text": "母は来週、眼科",
+        "reading": "はははらいしゅう、がんか"
+      }
+    ],
+    "after": [
+      {
+        "text": "へ行きます。",
+        "reading": "えいきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ指出母亲要前往的眼科诊所。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に同样可以标行く的目的地，符合去眼科检查的场景。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から表示从眼科出发；这里眼科是母亲要去的地方。"
+      }
+    ],
+    "answerIds": [
+      "e",
+      "ni"
+    ],
+    "translation": "母亲下周要去眼科。",
+    "explanation": "行く的目的地既可以用へ表示，也可以用に表示。",
+    "hint": "先确认眼科是出发点还是检查的目的地。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.05",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "student-goes-to-library-to-return-book",
+    "scene": "借书到期的高中生放学后去市立图书馆还书。",
+    "before": [
+      {
+        "text": "返却期限の日、高校生は市立図書館",
+        "reading": "へんきゃくきげんのひ、こうこうせいはしりつとしょかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "に行きます。",
+        "reading": "にいきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标高中生为还书而前往的市立图书馆。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ也可以标行く所指向的图书馆。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会表示从图书馆出发，和高中生前往图书馆还书的情境相反。"
+      }
+    ],
+    "answerIds": [
+      "ni",
+      "e"
+    ],
+    "translation": "借书到期日，高中生去市立图书馆。",
+    "explanation": "市立图书馆是行く的目的地，に与へ都能表示这一关系。",
+    "hint": "判断图书馆是去还书的终点还是出发地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.06",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "dorm-residents-return-after-exam",
+    "scene": "期末考试结束，住校生收好文具后回宿舍休息。",
+    "before": [
+      {
+        "text": "試験が終わると、寮生は学生寮",
+        "reading": "しけんがおわると、りょうせいはがくせいりょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "へ帰ります。",
+        "reading": "えかえります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ标出住校生考后返回的宿舍。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に也可以标帰る的目的地，学生寮是回去的终点。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把学生寮解释成出发点；本句说住校生考后返回宿舍。"
+      }
+    ],
+    "answerIds": [
+      "e",
+      "ni"
+    ],
+    "translation": "考试结束后，住校生回宿舍。",
+    "explanation": "帰る表示返回宿舍时，目的地可以接へ或に。",
+    "hint": "注意学生寮在句子里是返回终点还是离开起点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

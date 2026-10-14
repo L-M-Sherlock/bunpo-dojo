@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_03_6a1",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-06a-1.draft.json",
+  "at": "2026-10-14T01:53:44.673Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refrga.04",
+      "hash": "f904c3faf0c0aa489fb93968f8465266ec00209549648e1ee8564f3586cf01e4",
+      "fullSentences": [
+        "獣医は入院した子犬の肺炎を抗菌薬で治しました。"
+      ]
+    },
+    {
+      "id": "verb.refsea.01",
+      "hash": "d072eeb07569848ec00bf488a9b6467cc0bf649a72382500b85a9104355acf6b",
+      "fullSentences": [
+        "台風が過ぎた翌朝、雲が切れると、久しぶりに日が照りました。"
+      ]
+    },
+    {
+      "id": "verb.refsea.02",
+      "hash": "a3168dac1513b0420223f98e3ce032178d399b81d7a588db98c36c5cabaa7eb9",
+      "fullSentences": [
+        "閉館後、警備員は懐中電灯で展示室の隅を照らしました。"
+      ]
+    },
+    {
+      "id": "verb.refsea.03",
+      "hash": "68dcdc202ca63eb4fad457e912a3edef5b05682626a2ce9e1488ebdb00e8f528",
+      "fullSentences": [
+        "雲ひとつない晩、満月が夜空にこうこうと照りました。"
+      ]
+    }
+  ]
+}

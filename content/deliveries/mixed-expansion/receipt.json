@@ -1,0 +1,100 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/expansion.draft.json",
+  "at": "2026-10-13T12:01:39.393Z",
+  "count": 13,
+  "cards": [
+    {
+      "id": "mixed.04",
+      "hash": "fa2bd0d069c82e2ad7f4b700e561eb050c7f1f3c8de4c432312b46657cf76527",
+      "fullSentences": [
+        "研究員は実験台でアルコールランプの火を消した。"
+      ]
+    },
+    {
+      "id": "mixed.05",
+      "hash": "f22809acd165c815fb3b69e09b12a2c16f98aa4bc3defed6dd0c5422fc7813b1",
+      "fullSentences": [
+        "作業員が工場で機械を点検していたところ、その機械のモーターが突然壊れた。"
+      ]
+    },
+    {
+      "id": "mixed.06",
+      "hash": "edbed7d688869c699da2bdc71b3687b08bc72d4ebadc3cf8c56d7530c969c4fe",
+      "fullSentences": [
+        "母は台所で手を滑らせ、コップを床に落とした。"
+      ]
+    },
+    {
+      "id": "mixed.07",
+      "hash": "35a479e1d170083894d99e3d6d5a9cac3a185b2a3ae177b29b9e2f1b213baa76",
+      "fullSentences": [
+        "案内係は入口で荷物を確認し、来場者に「展示室に入ってください」と伝えた。"
+      ]
+    },
+    {
+      "id": "mixed.08",
+      "hash": "ae4050a957b442b97b883c383b7b3bce91e5eb00c0d61a419db35ebc1c895810",
+      "fullSentences": [
+        "作業員は倉庫で箱から予備の電球を出した。"
+      ]
+    },
+    {
+      "id": "mixed.09",
+      "hash": "6f3e9dee6a07ada700240dc910c1ad44090c26dcdcfa02dc73003690fe745608",
+      "fullSentences": [
+        "係員はロビーでチケットを確認し、午後の公演は予定どおり午後二時にホールで始まった。"
+      ]
+    },
+    {
+      "id": "mixed.10",
+      "hash": "652e67da6a3d87a14101a173026d81bac858fb9abe95e962c235397c94660bf3",
+      "fullSentences": [
+        "講師は教室で受講者の質問に答え、午後三時に講義を終えた。",
+        "講師は教室で受講者の質問に答え、午後三時に講義を終わった。"
+      ]
+    },
+    {
+      "id": "mixed.11",
+      "hash": "fee183e61422989aa40c89e9aeeb2563eb39bf6f0b7885f757790e78a5cb3530",
+      "fullSentences": [
+        "事務局は会議室で候補の時刻を比べ、次回の集合時刻が午後三時に決まった。"
+      ]
+    },
+    {
+      "id": "mixed.12",
+      "hash": "ec5b68c77d6659a93352f6e996eaee88e7c0ca3ad656b1d904bc55cf1347f06b",
+      "fullSentences": [
+        "編集者は会議室で担当者の意見を聞き、報告書の題名を「新計画」に変えた。"
+      ]
+    },
+    {
+      "id": "mixed.13",
+      "hash": "18c55686656d4886c7adc9304b28dffe427af89ff3df019ea6d800b46f5fb13b",
+      "fullSentences": [
+        "係員は入口でパンフレットを配り、開演前に観客がロビーへ集まった。"
+      ]
+    },
+    {
+      "id": "mixed.14",
+      "hash": "38ffe390e2d46b838beda9d2b73d1510a3d6ef1238e3e7733864371359344c4b",
+      "fullSentences": [
+        "整備士は車庫でエンジンを止めてから、運転席を離れた。"
+      ]
+    },
+    {
+      "id": "mixed.15",
+      "hash": "b412321104176e0891f74aee9fd3858ddefb211c32052aca419858f6ea7cb791",
+      "fullSentences": [
+        "整備士が工場で機械のカバーを外すと、ベルトが急に動いた。"
+      ]
+    },
+    {
+      "id": "mixed.16",
+      "hash": "08f688275be947d452db7c675c7031f4a16fa6dbe8633f629ca492a6893d9665",
+      "fullSentences": [
+        "看護師が保健室で来室者の記録を確認している間、先生は職員室にいる。"
+      ]
+    }
+  ]
+}

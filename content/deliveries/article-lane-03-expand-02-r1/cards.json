@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.refbka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "lexicalKey": "退く・退ける",
+    "scene": "观众按摄影师的提示，从舞台前退开了几步。",
+    "before": [
+      {
+        "text": "撮影スペースを空けるため、観客たちは舞台前から数歩",
+        "reading": "さつえいスペースをあけるため、かんきゃくたちはぶたいまえからすうほ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退きました",
+        "reading": "しりぞきました",
+        "verdict": "correct",
+        "explanation": "观众为腾出拍摄空间，从舞台前退开几步；「退く」描述他们自身的移动。"
+      },
+      {
+        "id": "b",
+        "text": "退けました",
+        "reading": "しりぞけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退ける」表示把人或物推开；本句写的是观众为拍摄腾出位置而自己退开，场景中没有他们驱赶的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了腾出拍摄空间，观众从舞台前退开了几步。",
+    "explanation": "「退く」描述观众为腾出空间而自行后退。",
+    "hint": "观察句中后退的是观众自己，还是他们在把其他对象推开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "lexicalKey": "違う・違える",
+    "scene": "验收时发现新到的零件尺寸与图纸不符。",
+    "before": [
+      {
+        "text": "検品後、届いた部品の寸法が設計図と",
+        "reading": "けんぴんご、とどいたぶひんのすんぽうがせっけいずと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "違いました",
+        "reading": "ちがいました",
+        "verdict": "correct",
+        "explanation": "零件的实际尺寸与图纸上的尺寸不一致。"
+      },
+      {
+        "id": "b",
+        "text": "違えました",
+        "reading": "ちがえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「違える」表示有人使尺寸不同或把尺寸弄错；本句报告的是零件尺寸本身与图纸不一致。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "验货后，收到的零件尺寸与设计图不符。",
+    "explanation": "「違う」在这里表示实物尺寸与设计图不一致。",
+    "hint": "看句子是在陈述尺寸不一致，还是有人改动或弄错了尺寸。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

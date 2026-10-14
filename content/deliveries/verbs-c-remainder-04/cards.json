@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.remain.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "plant-left-for-next-tenant",
+    "scene": "退租时，前住户把盆栽留给了下一位住户。",
+    "before": [
+      {
+        "text": "退去の日、前の住人は次の住人に譲る鉢植えを窓辺に",
+        "reading": "たいきょのひ、まえのじゅうにんはつぎのじゅうにんにゆずるはちうえをまどべに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "correct",
+        "explanation": "前住户主动把盆栽留在窗边，「鉢植えを」是留下的物品，用他动词「残す」。"
+      },
+      {
+        "id": "b",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "ungrammatical",
+        "explanation": "「残る」描述物品本身剩下，不能接直接宾语「鉢植えを」；若只说盆栽留在窗边，应改用「鉢植えが」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "退租当天，前住户把准备转给下一位住户的盆栽留在窗边。",
+    "explanation": "句中有明确的施事和留下的物品，表示前住户把盆栽留给下一位住户。",
+    "hint": "看前住户是留下物品的人，还是留在原处的物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.line.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "lexicalKey": "pots-lined-at-school-entrance",
+    "scene": "迎新日前，学校入口两侧各排着三盆花。",
+    "before": [
+      {
+        "text": "校舎の玄関には、植木鉢が左右に三つずつ",
+        "reading": "こうしゃのげんかんには、うえきばちがさゆうにみっつずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "並んだ",
+        "reading": "ならんだ",
+        "verdict": "correct",
+        "explanation": "植木鉢が左右に並ぶ様子を述べているので、自動詞「並ぶ」を使う。"
+      },
+      {
+        "id": "b",
+        "text": "並べた",
+        "reading": "ならべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「並べる」会把主语读成排列其他物品的施事；此处「植木鉢が」是排成队列的物品，场景没有植木鉢主动排列别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "学校入口两侧各排着三盆花。",
+    "explanation": "句子描写花盆本身排成队列，不说明是谁把它们摆好。",
+    "hint": "判断句子在描述物品排成队列，还是有人排列物品。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.line.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "lexicalKey": "shoes-arranged-by-size",
+    "scene": "开店前，店员把新款鞋按尺码摆上货架。",
+    "before": [
+      {
+        "text": "開店前、店員は新作の靴をサイズ順に棚に",
+        "reading": "かいてんまえ、てんいんはしんさくのくつをサイズじゅんにたなに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "並べた",
+        "reading": "ならべた",
+        "verdict": "correct",
+        "explanation": "店员是排列鞋子的施事，「靴を」标出被排列的物品，用他动词「並べる」。"
+      },
+      {
+        "id": "b",
+        "text": "並んだ",
+        "reading": "ならんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「並ぶ」描述物品自身排成队列，不能接当前的直接宾语「靴を」；若写鞋子排成队列，应说「靴が並んだ」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开店前，店员把新款鞋按尺码摆上货架。",
+    "explanation": "店员执行排列动作，鞋子是被排列的对象。",
+    "hint": "留意店员与鞋子分别是动作施事还是排列对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.line.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "lexicalKey": "paintings-lined-by-age",
+    "scene": "展厅墙上，同一位画家的作品按年代先后排列。",
+    "before": [
+      {
+        "text": "展示室の壁には、同じ画家の絵が古いものから順に",
+        "reading": "てんじしつのかべには、おなじがかのえがふるいものからじゅんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "並んだ",
+        "reading": "ならんだ",
+        "verdict": "correct",
+        "explanation": "画作本身按年代顺序排列在墙上，用自动词「並ぶ」描述它们的排列状态。"
+      },
+      {
+        "id": "b",
+        "text": "並べた",
+        "reading": "ならべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「並べる」会把画作读成排列其他物品的施事；此处画作是展墙上排成队列的对象，句子没有说明由它们排列别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "展厅墙上，同一位画家的作品按年代从早到晚排列。",
+    "explanation": "句子描写作品在墙上的顺序，没有把作品写成排列者。",
+    "hint": "判断画作是排成队列的对象，还是执行排列的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.line.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.line",
+    "familyId": "verb.line",
+    "lexicalKey": "chairs-arranged-in-semicircle",
+    "scene": "为合唱演出做准备，工作人员把椅子排成半圆。",
+    "before": [
+      {
+        "text": "合唱発表に備えて、係員は体育館に椅子を半円形に",
+        "reading": "がっしょうはっぴょうにそなえて、かかりいんはたいいくかんにいすをはんえんけいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "並べた",
+        "reading": "ならべた",
+        "verdict": "correct",
+        "explanation": "工作人员把椅子排成半圆；「椅子を」是排列动作的对象，用他动词「並べる」。"
+      },
+      {
+        "id": "b",
+        "text": "並んだ",
+        "reading": "ならんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「並ぶ」描述椅子自身排成队列，不能接「椅子を」；若强调椅子排成半圆，应以「椅子が」作主语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为合唱演出做准备，工作人员把椅子排成半圆。",
+    "explanation": "工作人员是排列椅子的施事，椅子是排列对象。",
+    "hint": "看句中谁执行排列，以及椅子在动作中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

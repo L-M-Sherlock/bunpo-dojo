@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refsea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "lexicalKey": "夜巡手电照亮台阶",
+    "scene": "夜间巡查时，管理员用手电筒照亮仓库入口的台阶。",
+    "before": [
+      {
+        "text": "夜間の巡回で、管理人は懐中電灯で倉庫の入口にある段差を",
+        "reading": "やかんのじゅんかいで、かんりにんはかいちゅうでんとうでそうこのいりぐちにあるだんさを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "照らした",
+        "reading": "てらした",
+        "verdict": "correct",
+        "explanation": "管理员用手电筒照亮台阶，「段差を」标出被照亮的对象，符合他动词「照らす」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "照った",
+        "reading": "てった",
+        "verdict": "ungrammatical",
+        "explanation": "「照る」表示日光等光线自身照耀，不带这里由「を」标出的直接对象；照亮台阶应使用「照らす」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜间巡查时，管理员用手电筒照亮了仓库入口的台阶。",
+    "explanation": "管理员把台阶作为手电光照射的对象。",
+    "hint": "留意句中标出的台阶，是光线自身照耀的主体还是照射对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refska.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "lexicalKey": "讲座报名人数变化",
+    "scene": "连续有人取消报名后，讲座的预计参加人数低于原先登记数。",
+    "before": [
+      {
+        "text": "申し込みの取り消しが続き、講座の参加予定者数が当初より",
+        "reading": "もうしこみのとりけしがつづき、こうざのさんかよていしゃすうがとうしょより"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "減った",
+        "reading": "へった",
+        "verdict": "correct",
+        "explanation": "取消报名接连发生后，预计参加人数这一数量本身变少，符合自动词「減る」描述数量变化的用法。"
+      },
+      {
+        "id": "b",
+        "text": "減らした",
+        "reading": "へらした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「減らす」表示某个施事主动使对象变少；这里作主语的是发生变化的预计人数，不是主动减少其他对象的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "报名取消接连发生后，讲座的预计参加人数比最初少了。",
+    "explanation": "句子把预计参加人数作为变少的数量主体。",
+    "hint": "留意句中被比较的数量，是变化主体还是主动改变其他事物的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refska.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "lexicalKey": "分批入场人数上限调整",
+    "scene": "为避免入口拥挤，主办方下调了每批可入场的人数上限。",
+    "before": [
+      {
+        "text": "主催者は混雑を避けるため、一回あたりの入場者数を当初の予定より",
+        "reading": "しゅさいしゃはこんざつをさけるため、いっかいあたりのにゅうじょうしゃすうをとうしょのよていより"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "減らした",
+        "reading": "へらした",
+        "verdict": "correct",
+        "explanation": "主办方主动调低每批入场人数，「入場者数を」是被调整的对象，符合他动词「減らす」。"
+      },
+      {
+        "id": "b",
+        "text": "減った",
+        "reading": "へった",
+        "verdict": "ungrammatical",
+        "explanation": "「減る」表示数量自身变少，不能带这里由「を」标出的直接对象；本句说的是主办方减少入场人数。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主办方为了避免拥挤，把每批入场人数减少到低于原计划。",
+    "explanation": "主办方主动减少人数，入场人数是动作的对象。",
+    "hint": "留意是谁在调整，以及句中哪个数量被调整。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refska.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refska",
+    "familyId": "verb.refska",
+    "lexicalKey": "少雨后水库蓄水量变化",
+    "scene": "少雨持续后，山间水库的蓄水量比上月少了。",
+    "before": [
+      {
+        "text": "雨の少ない日が続き、山あいの貯水池にたまる水量が先月より",
+        "reading": "あめのすくないひがつづき、やまあいのちょすいちにたまるすいりょうがせんげつより"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "減っていた",
+        "reading": "へっていた",
+        "verdict": "correct",
+        "explanation": "少雨持续后，水库中蓄水的数量本身变少；「水量が」是变化主体，符合自动词「減る」。"
+      },
+      {
+        "id": "b",
+        "text": "減らしていた",
+        "reading": "へらしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「減らす」表示某个施事主动减少对象；这里的水量是变少的数量，句中没有将水量作为施事减少其他对象的情境。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "少雨的日子持续了一段时间，山间水库的蓄水量已比上月少了。",
+    "explanation": "句子叙述蓄水量自身的变化，没有把蓄水量写成行动者。",
+    "hint": "结合少雨这一背景，判断蓄水量在句中扮演什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

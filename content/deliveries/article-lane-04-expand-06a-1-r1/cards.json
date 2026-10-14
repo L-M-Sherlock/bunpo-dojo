@@ -1,0 +1,94 @@
+[
+  {
+    "id": "verb.refria.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "摄影者转动对焦环，让被摄对象清晰合焦",
+    "before": [
+      {
+        "text": "被写体にピントを合わせるため、撮影者はレンズのフォーカスリングを少し",
+        "reading": "ひしゃたいにピントをあわせるため、さつえいしゃはレンズのフォーカスリングをすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回った",
+        "reading": "まわった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「回る」也可用「を」标出行经路线；此处会表示摄影者绕着对焦环移动，不表示转动对焦环。"
+      },
+      {
+        "id": "b",
+        "text": "回した",
+        "reading": "まわした",
+        "verdict": "correct",
+        "explanation": "摄影者为了对焦而转动镜头上的对焦环，「フォーカスリングを」是被转动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了让被摄对象清晰合焦，摄影者稍微转动了镜头的对焦环。",
+    "explanation": "摄影者主动转动对焦环来调整焦点。",
+    "hint": "留意句中使哪个部件发生转动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "lexicalKey": "退く/退かす",
+    "scene": "配送车进入前，管理员把挡住入口的自行车移到墙边",
+    "before": [
+      {
+        "text": "搬入車が通れるよう、管理人は入口をふさいでいた自転車を壁際へ",
+        "reading": "はんにゅうしゃがとおれるよう、かんりにんはいりぐちをふさいでいたじてんしゃをかべぎわへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退いた",
+        "reading": "どいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退く」可用「を」标出离开的地点；放在这里会表示管理员离开自行车所在处走向墙边，自行车本身没有被移走。"
+      },
+      {
+        "id": "b",
+        "text": "退かした",
+        "reading": "どかした",
+        "verdict": "correct",
+        "explanation": "管理员把挡住入口的自行车移到墙边，符合「退かす」把物品移开的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了让运货车通过，管理员把堵住入口的自行车挪到了墙边。",
+    "explanation": "管理员主动移动自行车以清出入口，自行车是被移动的对象。",
+    "hint": "判断去到墙边的是管理员本人，还是入口处的自行车。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

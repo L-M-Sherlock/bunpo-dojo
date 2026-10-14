@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.destination.02",
+      "hash": "8d08727d87aaaf4acfb26684314ebecd13f0a1b507cb7e6be852d37543f16e19",
+      "fullSentences": ["年末、単身赴任中の父は自宅へ帰ります。", "年末、単身赴任中の父は自宅に帰ります。"],
+      "status": "approved",
+      "reason": "父亲在外地工作、年底回家，自宅是帰る的终点；槽后仅有帰ります，两条完整句都自然。",
+      "answerSet": "e和ni都正确，分别形成自宅へ帰ります与自宅に帰ります；kara把自宅设为离开的起点，与回家情境相反。",
+      "readings": "年末ねんまつ、単身赴任中たんしんふにんちゅう、父ちち、自宅じたく、帰りますかえります均正确；句段reading用书面假名，独立助词へ可注发音え。",
+      "translation": "“在外地工作的父亲年底回家”准确对应两条目的地句，未把场景中休假、团聚额外译进正文。",
+      "options": "e和ni均标correct且列入answerIds，集合完整；kara的meaning-mismatch具体指出出发地读法，并非错误地判为语法不成立。"
+    },
+    {
+      "id": "particle.destination.03",
+      "hash": "106febab6a49301c0b6a276bd305783c3219db1999d16f11080758a464027d33",
+      "fullSentences": ["私は入口で待っています。画家が画廊に来ます。", "私は入口で待っています。画家が画廊へ来ます。"],
+      "status": "approved",
+      "reason": "等候者在入口等待画家来画廊，画廊是来访终点；来ます前没有预填目标助词，两条句子自然。",
+      "answerSet": "ni与e均正确，画廊に来ます和画廊へ来ます都与等候场景吻合；kara会把画廊改为来处。",
+      "readings": "私わたし、入口いりぐち、待っていますまっています、画家がか、画廊がろう、来ますきます准确；句段标点对应，へ候选注发音え而实际应填へ。",
+      "translation": "“我在入口等候。画家要来画廊”对应两个完整句；预约及画廊入口属于场景背景，不强加于译文。",
+      "options": "ni、e均正确并已收录；kara的meaning-mismatch指出其出发地含义与来访终点冲突，解释准确。"
+    },
+    {
+      "id": "particle.destination.04",
+      "hash": "b917db512dc9bb85cb87e713ca4f1dc96f8f8243685f7cc7a8688c054c852464",
+      "fullSentences": ["母は来週、眼科へ行きます。", "母は来週、眼科に行きます。"],
+      "status": "approved",
+      "reason": "母亲下周前往眼科，眼科是行く的目的地；助词槽干净，へ与に两句都自然。",
+      "answerSet": "e与ni都是正确答案，分别指向眼科；kara则把眼科误作出发点，与场景相反。",
+      "readings": "母はは、来週らいしゅう、眼科がんか、行きますいきます正确；逗号句号对应，へ候选注发音え但句中书写为へ。",
+      "translation": "“母亲下周要去眼科”准确对应两个目的地句，没有多译年度检查已发生。",
+      "options": "e和ni的correct与answerIds一致；kara作为meaning-mismatch的出发地解释成立。"
+    },
+    {
+      "id": "particle.destination.05",
+      "hash": "babe5f28c0a9b07e9e81a2dfed5b5a8fd24795e27f31823945f47cb3f9220360",
+      "fullSentences": ["返却期限の日、高校生は市立図書館に行きます。", "返却期限の日、高校生は市立図書館へ行きます。"],
+      "status": "approved",
+      "reason": "还书到期日去市立图书馆，图书馆是行く的终点；に与へ两条完整句均自然且无双助词。",
+      "answerSet": "ni与e均正确；kara表示从图书馆出发，与去图书馆还书的情境不符。",
+      "readings": "返却期限へんきゃくきげん、日ひ、高校生こうこうせい、市立図書館しりつとしょかん、行きますいきます均正确；へ可注发音え，书面答案仍为へ。",
+      "translation": "“借书到期日，高中生去市立图书馆”对应句子时间、人物和目的地；放学后与还书意图留在场景中。",
+      "options": "ni、e都标correct并收录完整；kara的meaning-mismatch准确区分从图书馆出发的另一含义。"
+    },
+    {
+      "id": "particle.destination.06",
+      "hash": "4b69a92736f87ffb77c8c3e6cdcc6a6a47232eeb3f7729f2453eb169f3ba6245",
+      "fullSentences": ["試験が終わると、寮生は学生寮へ帰ります。", "試験が終わると、寮生は学生寮に帰ります。"],
+      "status": "approved",
+      "reason": "考试结束后住校生回宿舍，学生寮是帰る的目的地；两条句子自然，槽外不再预填助词。",
+      "answerSet": "e和ni都正确；kara将学生寮解释为出发点，和考后回宿舍的方向冲突。",
+      "readings": "試験しけん、終わるおわる、寮生りょうせい、学生寮がくせいりょう、帰りますかえります正确；标点相符，へ候选的发音注え不改变书面答案。",
+      "translation": "“考试结束后，住校生回宿舍”准确表达时间顺序与返回终点；收文具和休息仅是场景。",
+      "options": "e、ni均标correct且列入answerIds；kara的meaning-mismatch保留语法可成但语义方向不符的判断，解释准确。"
+    }
+  ]
+}

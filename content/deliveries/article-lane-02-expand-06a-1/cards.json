@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refrfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrfa",
+    "familyId": "verb.refrfa",
+    "lexicalKey": "monk-lights-ritual-candle",
+    "scene": "法会开始前，僧人点燃佛前的蜡烛。",
+    "before": [
+      {
+        "text": "法要が始まる前、僧侶は仏前のろうそくに火を",
+        "reading": "ほうようがはじまるまえ、そうりょはぶつぜんのろうそくにひを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "灯した",
+        "reading": "ともした",
+        "verdict": "correct",
+        "explanation": "「僧侶は」是点火的人，「火を」标出被点燃的火；「灯す」表示点起灯火。"
+      },
+      {
+        "id": "b",
+        "text": "灯った",
+        "reading": "ともった",
+        "verdict": "ungrammatical",
+        "explanation": "「灯る」描述灯火自行亮起，不能在这里接表示直接对象的「火を」；写火自行点亮时应说「火が灯った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "法会开始前，僧侣点燃了佛前的蜡烛。",
+    "explanation": "句中僧侣点起蜡烛的火，「火を」是点燃的对象。",
+    "hint": "留意谁在点火，以及火在句中的格关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "lexicalKey": "camellia-petals-fall-on-garden-steps",
+    "scene": "台风过后的早晨，院里的山茶花瓣散落在石阶上。",
+    "before": [
+      {
+        "text": "台風が過ぎた朝、庭の椿の花びらが石段に",
+        "reading": "たいふうがすぎたあさ、にわのつばきのはなびらがいしだんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "散った",
+        "reading": "ちった",
+        "verdict": "correct",
+        "explanation": "「花びらが」是从枝上落下并散开的主体，句子写台风过后花瓣落在石阶上的状态。"
+      },
+      {
+        "id": "b",
+        "text": "散らした",
+        "reading": "ちらした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「散らす」表示主体使别的东西散开；这里的花瓣本身落下并散开，场景没有花瓣使另一对象散开的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "台风过后的早晨，院里的山茶花瓣散落在石阶上。",
+    "explanation": "花瓣是自行落下、散开的主体，石阶标出它们落到的位置。",
+    "hint": "判断花瓣是在变化的一方，还是让别的东西发生变化的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "lexicalKey": "children-spread-colored-paper-on-collage-board",
+    "scene": "制作拼贴画时，孩子们把彩纸片间隔摆在白底纸上。",
+    "before": [
+      {
+        "text": "コラージュ作りでは、子どもたちは白い台紙に赤や金の色紙を間隔をあけて",
+        "reading": "コラージュづくりでは、こどもたちはしろいだいしにあかやきんのいろがみをかんかくをあけて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "散らした",
+        "reading": "ちらした",
+        "verdict": "correct",
+        "explanation": "孩子们把彩纸片分散摆在底纸上；「色紙を」标出被摆放的对象。"
+      },
+      {
+        "id": "b",
+        "text": "散った",
+        "reading": "ちった",
+        "verdict": "ungrammatical",
+        "explanation": "「散る」在这里不能把「色紙を」当作直接对象；若写彩纸片自行散开，应说「色紙が散った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "制作拼贴画时，孩子们把红色和金色的彩纸片间隔着摆在白色底纸上。",
+    "explanation": "孩子们是摆放纸片的施事，彩纸片是被分布到台纸上的对象。",
+    "hint": "看「色紙」是被摆放的对象，还是自行散开的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "lexicalKey": "firework-sparks-spread-across-night-sky",
+    "scene": "烟花绽开的瞬间，五彩火星散落在夜空中。",
+    "before": [
+      {
+        "text": "花火が開いた瞬間、色とりどりの火花が夜空に",
+        "reading": "はなびがひらいたしゅんかん、いろとりどりのひばながよぞらに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "散った",
+        "reading": "ちった",
+        "verdict": "correct",
+        "explanation": "「火花が」是四散开来的主体，句子描写烟花绽开后火花飞散的样子。"
+      },
+      {
+        "id": "b",
+        "text": "散らした",
+        "reading": "ちらした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「散らす」表示火花这一主体使别的对象散开；场景写的是火花自身扩散到夜空各处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烟花绽开的瞬间，五彩火星散落在夜空中。",
+    "explanation": "烟花发出的火花自身飞散，夜空是它们扩展开来的范围。",
+    "hint": "判断火花本身是在扩散，还是它使另一对象扩散。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

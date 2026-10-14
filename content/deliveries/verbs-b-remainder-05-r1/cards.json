@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.raise.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "baker-raises-oven-temperature",
+    "scene": "面团醒发完成，面包师调高了烤箱温度。",
+    "before": [
+      {
+        "text": "パン職人がオーブンの温度を",
+        "reading": "パンしょくにんがオーブンのおんどを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "correct",
+        "explanation": "面包师主动提高烤箱温度，温度是被调高的数值。"
+      },
+      {
+        "id": "b",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "ungrammatical",
+        "explanation": "上がる表示温度本身升高，不能在当前句架中接「温度を」作为直接宾语；要描述温度升高，需改为「温度が上がりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "面包师调高了烤箱温度。",
+    "explanation": "句中写明了调节温度的施事。",
+    "hint": "确认面包师是调高温度的人，温度是被调节的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

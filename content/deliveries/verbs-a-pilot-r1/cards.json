@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.open.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "開く・開ける",
+    "scene": "有人靠近时，车站自动门会打开。",
+    "before": [
+      {
+        "text": "人が近づくと、駅の自動ドアが",
+        "reading": "ひとがちかづくと、えきのじどうドアが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開きます",
+        "reading": "あきます",
+        "verdict": "correct",
+        "explanation": "自动门是状态变化的主体，表示门因有人靠近而打开。"
+      },
+      {
+        "id": "b",
+        "text": "開けます",
+        "reading": "あけます",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词開ける理解，门会是打开别的东西的施事；这不表达自动门自身打开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "有人靠近时，车站的自动门就会打开。",
+    "explanation": "開く（あく）描述门自身转为打开状态。",
+    "hint": "看句中是门发生状态变化，还是有主体让别的东西打开。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.open.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "開く・開ける",
+    "scene": "营业开始时，店员为迎接顾客打开了店门。",
+    "before": [
+      {
+        "text": "開店時、店員は客を迎えるため店のドアを",
+        "reading": "かいてんじ、てんいんはきゃくをむかえるためみせのドアを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開けました",
+        "reading": "あけました",
+        "verdict": "correct",
+        "explanation": "店员实施打开动作，店门是动作对象，符合他动词開ける。"
+      },
+      {
+        "id": "b",
+        "text": "開きました",
+        "reading": "あきました",
+        "verdict": "ungrammatical",
+        "explanation": "本选项明确读作あく，是自动词；句中的「店のドアを」是对象，不能接在这个词项后。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "营业开始时，店员为了迎接顾客打开了店门。",
+    "explanation": "開ける（あける）以店员为施事、店门为对象，表示店员把门打开。",
+    "hint": "找出句中实施动作的人，以及被打开的东西在句中的角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.open.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "開く・開ける",
+    "scene": "一阵突风吹过，会议室窗户突然打开。",
+    "before": [
+      {
+        "text": "突風で、会議室の窓が突然",
+        "reading": "とっぷうで、かいぎしつのまどがとつぜん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開きました",
+        "reading": "あきました",
+        "verdict": "correct",
+        "explanation": "窗户是因突风改变状态的主体，表示窗户突然开了。"
+      },
+      {
+        "id": "b",
+        "text": "開けました",
+        "reading": "あけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "按他动词開ける理解，主语会是打开别的东西的施事；这里表达的是窗户自身打开。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一阵突风吹来，会议室的窗户突然打开了。",
+    "explanation": "開く（あく）说明窗户发生打开这一状态变化，不表示某人打开窗户。",
+    "hint": "注意突风之后发生状态变化的是谁，句子有没有叙述施事的打开动作。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

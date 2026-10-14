@@ -1,0 +1,223 @@
+[
+  {
+    "id": "verb.open.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.open.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.close.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.close.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.close.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "pair": {
+      "id": "verb.close",
+      "intransitive": "閉まる",
+      "intransitiveReading": "しまる",
+      "transitive": "閉める",
+      "transitiveReading": "しめる",
+      "meaning": "关闭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.light.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.light.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.light.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "pair": {
+      "id": "verb.light",
+      "intransitive": "つく",
+      "intransitiveReading": "つく",
+      "transitive": "つける",
+      "transitiveReading": "つける",
+      "meaning": "灯或电器开启",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.off.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.off",
+    "familyId": "verb.off",
+    "pair": {
+      "id": "verb.off",
+      "intransitive": "消える",
+      "intransitiveReading": "きえる",
+      "transitive": "消す",
+      "transitiveReading": "けす",
+      "meaning": "灯光熄灭",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

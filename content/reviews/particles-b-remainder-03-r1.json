@@ -1,0 +1,18 @@
+{
+  "reviewer": "/root/bunpo_review_relations",
+  "cards": [
+    {
+      "id": "particle.means.01",
+      "hash": "e2de3af697b63c66c8a9039cc586e4a8ee0b2b2f7c726452c7e516e42e2494a4",
+      "fullSentences": [
+        "父は新幹線で東京駅に向かった。"
+      ],
+      "status": "approved",
+      "reason": "新中文选项解释准确区分新干线这一交通工具与东京站这一目的地。完整句「父は新幹線で東京駅に向かった」自然，场景和提示关系清楚。",
+      "answerSet": "仅a「で」表示乘坐新干线的方式；b「に」不能把新干线标为本句交通方式，东京站才是目的地。",
+      "readings": "父ちち、新幹線しんかんせん、東京駅とうきょうえき、向かったむかった正确；句段书面假名及标点对应，选项で／に读法准确。",
+      "translation": "译文完整表达父亲乘新干线前往东京站；没有混淆工具与目的地。",
+      "options": "a的correct解释工具で准确；b的meaning-mismatch解释了目的地に在此不适用于新干线，未强行宣称に在其他句型普遍不合法。"
+    }
+  ]
+}

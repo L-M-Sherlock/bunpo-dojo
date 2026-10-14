@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refmaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "lexicalKey": "捕まる・捕まえる",
+    "scene": "救护人员用器具抓住闯入住宅区的蛇。",
+    "before": [
+      {
+        "text": "住宅街に入り込んだ蛇を、保護センターの職員が専用の器具で",
+        "reading": "じゅうたくがいにはいりこんだへびを、ほごセンターのしょくいんがせんようのきぐで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "捕まえました",
+        "reading": "つかまえました",
+        "verdict": "correct",
+        "explanation": "工作人员用器具抓住了蛇；「蛇を」标出被抓获的对象。"
+      },
+      {
+        "id": "b",
+        "text": "捕まりました",
+        "reading": "つかまりました",
+        "verdict": "ungrammatical",
+        "explanation": "「捕まる」描述主体被抓住；本句把蛇标成「を」对象，并由工作人员实施抓捕。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "救护中心的工作人员用专用器具抓住了闯入住宅区的蛇。",
+    "explanation": "工作人员是抓捕者，蛇是他抓住的对象。",
+    "hint": "留意「蛇を」在句中承担的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "lexicalKey": "返る・返す",
+    "scene": "邮寄地址漏写门牌号，包裹退回寄件人处。",
+    "before": [
+      {
+        "text": "住所の番地が抜けていたため、発送した小包が差出人のもとに",
+        "reading": "じゅうしょのばんちがぬけていたため、はっそうしたこづつみがさしだしにんのもとに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "返りました",
+        "reading": "かえりました",
+        "verdict": "correct",
+        "explanation": "包裹回到了寄件人处；句子以「小包が」标出回到原处的物品。"
+      },
+      {
+        "id": "b",
+        "text": "返しました",
+        "reading": "かえしました",
+        "verdict": "ungrammatical",
+        "explanation": "「返す」需要由寄回物品的施事作主语，并以「を」标出包裹；本句的主语是「小包が」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "由于收件地址漏写了门牌号，寄出的包裹退回到了寄件人处。",
+    "explanation": "「返る」表示包裹本身回到了寄件人处。",
+    "hint": "看句子把包裹写成回到寄件人处的一方，还是寄回时的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "lexicalKey": "返る・返す",
+    "scene": "学生在期限前将借来的专业书归还图书馆。",
+    "before": [
+      {
+        "text": "返却期限前に、学生は大学図書館で借りた専門書をカウンターに",
+        "reading": "へんきゃくきげんまえに、がくせいはだいがくとしょかんでかりたせんもんしょをカウンターに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "返しました",
+        "reading": "かえしました",
+        "verdict": "correct",
+        "explanation": "学生把借来的专业书交还到柜台；「専門書を」是归还的对象。"
+      },
+      {
+        "id": "b",
+        "text": "返りました",
+        "reading": "かえりました",
+        "verdict": "ungrammatical",
+        "explanation": "「返る」描述物品回到原处，不支配本句以「を」标出的专业书对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "学生在归还期限前把从大学图书馆借来的专业书交还到了柜台。",
+    "explanation": "学生主动把专业书交还给图书馆，书是动作对象。",
+    "hint": "判断句中的学生是在归还书，还是书自己回到原处。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "lexicalKey": "返る・返す",
+    "scene": "发出询价邮件后，次日早晨收到合作公司的回复。",
+    "before": [
+      {
+        "text": "見積もりを依頼するメールを送ると、翌朝には取引先から詳しい返事が",
+        "reading": "みつもりをいらいするメールをおくると、よくあさにはとりひきさきからくわしいへんじが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "返ってきました",
+        "reading": "かえってきました",
+        "verdict": "correct",
+        "explanation": "合作公司的回复作为「返事が」回到了发信方；「返事が返ってくる」表示对方作出回应。"
+      },
+      {
+        "id": "b",
+        "text": "返してきました",
+        "reading": "かえしてきました",
+        "verdict": "ungrammatical",
+        "explanation": "「返す」需要发出回复的人作主语，并以「を」标出回复；本句把「返事が」写成返回的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "发出报价请求邮件后，第二天早晨便收到了合作公司的详细回复。",
+    "explanation": "「返る」表示对方的回应回到了发出询问的人这里。",
+    "hint": "注意句中是回复本身返回，还是有人把回复发给对方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrba",
+    "familyId": "verb.refrba",
+    "lexicalKey": "返る・返す",
+    "scene": "失物处工作人员核实身份后，将月票交还给失主。",
+    "before": [
+      {
+        "text": "窓口の職員は、本人確認を済ませてから、見つかった定期券を持ち主に",
+        "reading": "まどぐちのしょくいんは、ほんにんかくにんをすませてから、みつかったていきけんをもちぬしに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "返しました",
+        "reading": "かえしました",
+        "verdict": "correct",
+        "explanation": "窗口工作人员把月票交还给失主；「定期券を」标出被归还的物品。"
+      },
+      {
+        "id": "b",
+        "text": "返りました",
+        "reading": "かえりました",
+        "verdict": "ungrammatical",
+        "explanation": "「返る」描述物品回到原处；本句由工作人员作施事，并以「定期券を」标出归还对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "窗口工作人员核实本人身份后，把找到的月票交还给了失主。",
+    "explanation": "工作人员主动把找到的月票交回给已确认身份的失主。",
+    "hint": "留意工作人员对月票实施的动作，以及「定期券を」的作用。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "lexicalKey": "治る・治す",
+    "scene": "按医嘱固定数周后，右脚踝扭伤痊愈。",
+    "before": [
+      {
+        "text": "医師の指示どおりに固定を続けると、右足首の捻挫が",
+        "reading": "いしのしじどおりにこていをつづけると、みぎあしくびのねんざが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "治りました",
+        "reading": "なおりました",
+        "verdict": "correct",
+        "explanation": "经过固定后，右脚踝的扭伤恢复了；「捻挫が」是好转的病伤。"
+      },
+      {
+        "id": "b",
+        "text": "治しました",
+        "reading": "なおしました",
+        "verdict": "ungrammatical",
+        "explanation": "「治す」表示施事治疗某项病伤；本句把「捻挫が」写成恢复的主体，没有治疗者作主语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "按照医生的嘱咐持续固定后，右脚踝的扭伤痊愈了。",
+    "explanation": "「治る」描述扭伤本身恢复。",
+    "hint": "看句中的病伤是恢复的一方，还是被治疗的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "lexicalKey": "治る・治す",
+    "scene": "皮肤科医生按检查结果开药，治好患者湿疹。",
+    "before": [
+      {
+        "text": "皮膚科医は検査結果に合わせて薬を処方し、患者の湿疹を",
+        "reading": "ひふかいはけんさけっかにあわせてくすりをしょほうし、かんじゃのしっしんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "治しました",
+        "reading": "なおしました",
+        "verdict": "correct",
+        "explanation": "皮肤科医生为患者治疗湿疹；「患者の湿疹を」是医生处理的病症。"
+      },
+      {
+        "id": "b",
+        "text": "治りました",
+        "reading": "なおりました",
+        "verdict": "ungrammatical",
+        "explanation": "「治る」描述病症自身恢复；本句以「湿疹を」标出医生治疗的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "皮肤科医生根据检查结果开药，治好了患者的湿疹。",
+    "explanation": "「治す」表示皮肤科医生对患者的湿疹实施治疗。",
+    "hint": "判断句中是医生在治疗病症，还是病症本身恢复。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refrga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "lexicalKey": "治る・治す",
+    "scene": "避免刺激性食物几天后，口腔溃疡痊愈。",
+    "before": [
+      {
+        "text": "数日間刺激物を控えていたら、頬の内側にできた口内炎が",
+        "reading": "すうじつかんしげきぶつをひかえていたら、ほおのうちがわにできたこうないえんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "治りました",
+        "reading": "なおりました",
+        "verdict": "correct",
+        "explanation": "几天避免刺激物后，脸颊内侧的口腔溃疡痊愈；「口内炎が」是恢复的病症。"
+      },
+      {
+        "id": "b",
+        "text": "治しました",
+        "reading": "なおしました",
+        "verdict": "ungrammatical",
+        "explanation": "「治す」需要治疗病症的施事和以「を」标出的病症对象；本句以「口内炎が」表示恢复的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "连续几天避免刺激性食物后，长在脸颊内侧的口腔溃疡痊愈了。",
+    "explanation": "「治る」表示口腔溃疡自身恢复。",
+    "hint": "留意句子把哪种身体状况写成恢复的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

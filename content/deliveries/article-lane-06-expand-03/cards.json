@@ -1,0 +1,751 @@
+[
+  {
+    "id": "verb.refbta.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "lexicalKey": "library-delivers-reserved-picture-book-to-hospital",
+    "scene": "图书馆员把住院儿童预订的绘本送到了病房。",
+    "before": [
+      {
+        "text": "図書館員は、入院中の子どもが予約した絵本を病室まで届けた。",
+        "reading": "としょかんいんは、にゅういんちゅうのこどもがよやくしたえほんをびょうしつまでとどけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词届く会把绘本说成自行到达病房的主体；本句则由图书馆员把「絵本を」送到病房。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "图书馆员把绘本送到病房；「絵本を」标出被递送的物品，儿童只是预订者。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "图书馆员把住院儿童预订的绘本送到了病房。",
+    "explanation": "图书馆员把绘本送到病房；「絵本を」标出被递送的物品，儿童只是预订者。",
+    "hint": "辨认谁负责把绘本送到指定地点，以及哪件物品被递送。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "届ける",
+      "reading": "とどける"
+    }
+  },
+  {
+    "id": "verb.refcba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "lightning-breaks-mountain-hut-phone-line",
+    "scene": "暴雨之夜，雷击使通往山间小屋的电话线路中断。",
+    "before": [
+      {
+        "text": "大雨の夜、落雷で山小屋への電話回線が切れた。",
+        "reading": "おおあめのよる、らくらいでやまごやへのでんわかいせんがきれた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "雷击后电话线路中断；句中「電話回線が」是断开的线路，事件没有写出人为剪断线路的施事。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "切る表示某个施事剪断或切断对象；这里讲的是线路因雷击而自行中断，不是线路去切断别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "暴雨之夜，雷击使通往山间小屋的电话线路中断了。",
+    "explanation": "雷击后电话线路中断；句中「電話回線が」是断开的线路，事件没有写出人为剪断线路的施事。",
+    "hint": "判断句中是哪一方发生断开，以及是否有人主动切断了另一物件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切れる",
+      "reading": "きれる"
+    }
+  },
+  {
+    "id": "verb.refcba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "display-worker-cuts-cardboard-window",
+    "scene": "展览工作人员用美工刀裁开厚纸板，制作出展示窗。",
+    "before": [
+      {
+        "text": "展示係は、厚い段ボールをカッターで切ったので、展示用の窓を作った。",
+        "reading": "てんじがかりは、あついだんボールをカッターできったので、てんじようのまどをつくった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词切れる分析，句子会说纸板本身裂开；这里展示係用刀对「段ボールを」实施切割。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "展示係が厚紙を実際に切って展示窓を作った、という行為の読みです。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "展览工作人员用美工刀裁开了厚纸板，制作出展示窗。",
+    "explanation": "展示係が厚紙を実際に切って展示窓を作った、という行為の読みです。",
+    "hint": "看工作人员和厚纸板在句中各自承担什么角色，也留意可能形式表达的含义。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切る",
+      "reading": "きる"
+    }
+  },
+  {
+    "id": "verb.refcba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "library-card-validity-expires-at-month-end",
+    "scene": "会员证的有效期在本月底到期。",
+    "before": [
+      {
+        "text": "会員証の有効期限が今月末で切れる。",
+        "reading": "かいいんしょうのゆうこうきげんがこんげつまつできれる。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "会员证的有效期在月底到期；句中「有効期限が」是终止的一方。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "切る表示有人切断或设定期限等主动行为；本句说的是有效期本身到期，不是它执行切断动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "会员证的有效期在本月底到期。",
+    "explanation": "会员证的有效期在月底到期；句中「有効期限が」是终止的一方。",
+    "hint": "确认是有效期自身走到终点，还是有人主动切断某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切れる",
+      "reading": "きれる"
+    }
+  },
+  {
+    "id": "verb.refcba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcba",
+    "familyId": "verb.refcba",
+    "lexicalKey": "baker-slices-baguette-for-breakfast-guests",
+    "scene": "面包师把刚出炉的法棍按顾客人数切分，作为早餐端出。",
+    "before": [
+      {
+        "text": "パン職人は、焼きたてのバゲットを客の人数分に切ったので、朝食に出した。",
+        "reading": "パンしょくにんは、やきたてのバゲットをきゃくのにんずうぶんにきったので、ちょうしょくにだした。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词切れる分析，法棍会成为自行断开的一方；完整句写的是面包师把「バゲットを」分切。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "面包师实际把法棍分切成足够的份数，再作为早餐端出。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "面包师把刚出炉的法棍按顾客人数切分后，作为早餐端了出来。",
+    "explanation": "面包师实际把法棍分切成足够的份数，再作为早餐端出。",
+    "hint": "判断面包师是否对法棍实施切分动作，并留意可能过去式的读法。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "切る",
+      "reading": "きる"
+    }
+  },
+  {
+    "id": "verb.refcga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "loose-baby-tooth-falls-out-while-eating-apple",
+    "scene": "松动的乳牙在孩子咬苹果时自然脱落。",
+    "before": [
+      {
+        "text": "ぐらついていた子どもの乳歯が、りんごをかんだ拍子に自然に抜けた。",
+        "reading": "ぐらついていたこどものにゅうしが、りんごをかんだひょうしにしぜんにぬけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "松动的乳牙在咬苹果时自然脱落；乳牙是从原位置出来的一方。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "抜く表示某个施事拔出对象；本句说乳牙自然脱落，孩子并没有主动拔牙。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "松动的乳牙在孩子咬苹果时自然脱落了。",
+    "explanation": "松动的乳牙在咬苹果时自然脱落；乳牙是从原位置出来的一方。",
+    "hint": "看乳牙是自然脱落，还是由某人主动拔出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜ける",
+      "reading": "ぬける"
+    }
+  },
+  {
+    "id": "verb.refcga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "repairer-removes-rusted-screw-to-replace-shelf",
+    "scene": "维修人员用专用工具取出锈蚀的螺丝，随后更换层板。",
+    "before": [
+      {
+        "text": "修理担当者は、錆びついたネジを専用工具で抜いたので、棚板を新しいものに替えた。",
+        "reading": "しゅうりたんとうしゃは、さびついたネジをせんようこうぐでぬいたので、たないたをあたらしいものにかえた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词抜ける分析，螺丝会自行脱落；完整句写维修人员把「ネジを」拔出。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "维修人员实际用专用工具拔出了锈蚀螺丝，之后更换了层板。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "维修人员用专用工具拔出了锈蚀的螺丝，随后换上了新层板。",
+    "explanation": "维修人员实际用专用工具拔出了锈蚀螺丝，之后更换了层板。",
+    "hint": "结合「维修人员」和「螺丝を」判断谁执行拔出动作，也留意可能过去式。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜く",
+      "reading": "ぬく"
+    }
+  },
+  {
+    "id": "verb.refcga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "warm-air-escapes-through-old-window-frame",
+    "scene": "旧窗框的缝隙让室内暖空气在夜里漏了出去。",
+    "before": [
+      {
+        "text": "古い窓枠の隙間から、暖房で暖まった空気が夜のうちに抜けてしまった。",
+        "reading": "ふるいまどわくのすきまから、だんぼうであたたまったくうきがよるのうちにぬけてしまった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "室内の暖かい空気が窓枠の隙間から外へ逃げてしまった；空気が移動する主体です。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "抜く表示施事把某对象抽出或去掉；本句的空气是从缝隙中自行漏出的，不是空气在抽走其他东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "旧窗框的缝隙让经暖气加热的室内空气在夜里漏了出去。",
+    "explanation": "室内の暖かい空気が窓枠の隙間から外へ逃げてしまった；空気が移動する主体です。",
+    "hint": "判断空气是从缝隙中逸出，还是有人把某个对象抽出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜ける",
+      "reading": "ぬける"
+    }
+  },
+  {
+    "id": "verb.refcga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcga",
+    "familyId": "verb.refcga",
+    "lexicalKey": "cyclist-overtakes-two-riders-on-final-climb",
+    "scene": "自行车选手在最后的坡道上超过两名领先者，最终获得第三名。",
+    "before": [
+      {
+        "text": "自転車の選手は、最後の坂で先行する二人を抜いたので、三位に入った。",
+        "reading": "じてんしゃのせんしゅは、さいごのさかでせんこうするふたりをぬいたので、さんいにはいった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词抜ける可表示从队伍中脱出；本句以「二人を」标出选手超越的具体对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "选手实际在最后坡道超过了前面的两人，最终取得第三名。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "自行车选手在最后的坡道上超过了两名领先者，因此获得第三名。",
+    "explanation": "选手实际在最后坡道超过了前面的两人，最终取得第三名。",
+    "hint": "注意选手是超过别人的行动者；可能过去式也可表达成功超越。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "抜く",
+      "reading": "ぬく"
+    }
+  },
+  {
+    "id": "verb.refcma.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "lexicalKey": "overinflated-balloon-bursts-overnight",
+    "scene": "气球充气过多，夜里自行破裂了。",
+    "before": [
+      {
+        "text": "空気を入れすぎた風船が、夜中に自然に破れた。",
+        "reading": "くうきをいれすぎたふうせんが、よなかにしぜんにやぶれた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "充气过多的气球夜里自行破裂；句中「風船が」是发生破裂变化的一方。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "破る表示施事撕破或打破对象；本句说气球本身破裂，没有让气球去撕破其他东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "充气过多的气球在夜里自行破裂了。",
+    "explanation": "充气过多的气球夜里自行破裂；句中「風船が」是发生破裂变化的一方。",
+    "hint": "确认气球是发生破裂的一方，还是实施撕破动作的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "破れる",
+      "reading": "やぶれる"
+    }
+  },
+  {
+    "id": "verb.refcma.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "lexicalKey": "recipient-tears-envelope-seal-to-open-letter",
+    "scene": "收件人撕开寄到的信封封口后，取出了信件。",
+    "before": [
+      {
+        "text": "受取人は、届いた封筒の封を破ったので、手紙を取り出せた。",
+        "reading": "うけとりにんは、とどいたふうとうのふうをやぶったので、てがみをとりだせた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词破れる分析，封口会自行裂开；本句把收件人写作施事，并用「封を」标出对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "收件人实际撕开信封封口，因此能够取出信件。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "收件人撕开寄到的信封封口后，取出了信件。",
+    "explanation": "收件人实际撕开信封封口，因此能够取出信件。",
+    "hint": "留意谁撕开封口、封口在句中是什么对象，也注意可能过去式的读法。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "破る",
+      "reading": "やぶる"
+    }
+  },
+  {
+    "id": "verb.refcma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "lexicalKey": "work-trousers-tear-on-low-branch",
+    "scene": "工作裤膝盖处的布料被低树枝勾住后撕裂。",
+    "before": [
+      {
+        "text": "作業ズボンの膝の布が、低い枝に引っかかって破れた。",
+        "reading": "さぎょうズボンのひざのぬのが、ひくいえだにひっかかってやぶれた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "裤子膝部的布料被树枝勾住后撕裂；布料本身发生破损。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "破る表示某个施事撕破对象；本句是布料被树枝勾住后自行裂开，不是布料撕破别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作裤膝部的布料被低树枝勾住后撕裂了。",
+    "explanation": "裤子膝部的布料被树枝勾住后撕裂；布料本身发生破损。",
+    "hint": "看发生撕裂的是布料本身，还是有一个人主动撕破某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "破れる",
+      "reading": "やぶれる"
+    }
+  },
+  {
+    "id": "verb.refcma.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcma",
+    "familyId": "verb.refcma",
+    "lexicalKey": "home-team-breaks-opponents-defense-with-new-plan",
+    "scene": "比赛下半场，主队用新战术突破对手防守，创造逆转机会。",
+    "before": [
+      {
+        "text": "試合後半、ホームチームは新しい作戦で相手の守備を破ったので、逆転の機会を作った。",
+        "reading": "しあいこうはん、ホームチームはあたらしいさくせんであいてのしゅびをやぶったので、ぎゃくてんのきかいをつくった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "若按自动词破れる分析，对方防守本身会自行破损；本句是主队用新战术主动突破「守備を」。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "主队实际用新战术突破了对方防守，创造出逆转机会。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "比赛下半场，主队用新战术突破了对手的防守，创造了逆转机会。",
+    "explanation": "主队实际用新战术突破了对方防守，创造出逆转机会。",
+    "hint": "判断主队如何作用于对方防守，并留意可能过去式也可表达成功突破。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "破る",
+      "reading": "やぶる"
+    }
+  },
+  {
+    "id": "verb.refddb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "lexicalKey": "mountain-climber-wakes-from-nap-at-thunder",
+    "scene": "山间小屋中小睡的登山者被远处雷声惊醒。",
+    "before": [
+      {
+        "text": "山小屋で仮眠中の登山者は、遠くの雷鳴で眠りから",
+        "reading": "やまごやでかみんちゅうのとざんしゃは、とおくのらいめいでねむりから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "醒めた",
+        "reading": "さめた",
+        "verdict": "correct",
+        "explanation": "登山者从睡眠状态恢复清醒；「眠りから」标出醒来的状态来源。"
+      },
+      {
+        "id": "b",
+        "text": "醒ました",
+        "reading": "さました",
+        "verdict": "meaning-mismatch",
+        "explanation": "醒ます表示使他人或某种状态恢复清醒；本句说登山者自己从睡眠中醒来，不是他把别人的睡眠唤醒。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山间小屋里小睡的登山者被远处的雷声吵醒了。",
+    "explanation": "远处的雷声让登山者从睡眠状态恢复清醒。",
+    "hint": "辨别是登山者自己醒来，还是某个因素使另一人醒来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refddb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "lexicalKey": "start-bell-wakes-napping-security-guard",
+    "scene": "休息室里打盹的警卫被开工铃声叫醒。",
+    "before": [
+      {
+        "text": "始業のベルが、休憩室でうたた寝していた警備員の目を",
+        "reading": "しぎょうのベルが、きゅうけいしつでうたたねしていたけいびいんのめを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "醒ました",
+        "reading": "さました",
+        "verdict": "correct",
+        "explanation": "开工铃声使打盹的警卫醒来；「警備員の目を」是被唤醒的对象。"
+      },
+      {
+        "id": "b",
+        "text": "醒めた",
+        "reading": "さめた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「目を」标出被唤醒的对象，不能接描述主体自行醒来的醒める；常见的状态变化结构是「目が醒める」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开工铃声叫醒了在休息室里打盹的警卫。",
+    "explanation": "始业铃声使警卫从短暂打盹中醒来。",
+    "hint": "看句中是铃声使警卫醒来，还是警卫自身醒来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refddb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "lexicalKey": "hiker-sobers-up-after-resting-overnight",
+    "scene": "饮酒过量的登山客在旅店休息一夜后，酒意完全消退。",
+    "before": [
+      {
+        "text": "宿で一晩休んだあと、飲み過ぎた登山客の酔いがすっかり",
+        "reading": "やどでひとばんやすんだあと、のみすぎたとざんきゃくのよいがすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "醒めた",
+        "reading": "さめた",
+        "verdict": "correct",
+        "explanation": "休息一晚后，登山客的醉意本身消退了；「酔いが」是恢复清醒状态的一方。"
+      },
+      {
+        "id": "b",
+        "text": "醒ました",
+        "reading": "さました",
+        "verdict": "meaning-mismatch",
+        "explanation": "醒ます表示某个施事使醉意消退或唤醒他人；本句说的是酒意自身消退，没有把登山客写成消除他人醉意的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在旅店休息一夜后，喝多了的登山客酒意完全消退了。",
+    "explanation": "登山客经过一夜休息后恢复清醒，句子以酒意作状态变化的主体。",
+    "hint": "确认酒意是自行消退，还是有人主动使另一方清醒。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

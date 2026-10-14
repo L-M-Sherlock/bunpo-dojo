@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_verbs_c",
+  "source": "work/content/verbs-c/pilot.draft.json",
+  "at": "2026-10-13T11:11:04.912Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.lower.01",
+      "hash": "75f52e0c0cb5da01c347bdc8611d6e321a91131d68544549ee4d5c6245e65c59",
+      "fullSentences": [
+        "暖房を切ると、室温がゆっくり下がった。"
+      ]
+    },
+    {
+      "id": "verb.lower.02",
+      "hash": "7cab3aa6dd1af659debdb298844ff87cecca365b525c0ca07977ad4f4ae380b6",
+      "fullSentences": [
+        "子どもが寝たので、父はテレビの音量を一段下げた。"
+      ]
+    },
+    {
+      "id": "verb.lower.03",
+      "hash": "34edf199754986018067d2cf4fcce595db47b69ebf67d65ef16b1c13ff01164d",
+      "fullSentences": [
+        "ポケットの中で音量ボタンを押したらしく、イヤホンの音量が一段下がった。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refama.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refama",
+    "familyId": "verb.refama",
+    "pair": {
+      "id": "verb.refama",
+      "intransitive": "被さる",
+      "intransitiveReading": "かぶさる",
+      "transitive": "被せる",
+      "transitiveReading": "かぶせる",
+      "meaning": "辨析「被さる／被せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 13
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refavb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refavb",
+    "familyId": "verb.refavb",
+    "pair": {
+      "id": "verb.refavb",
+      "intransitive": "締まる",
+      "intransitiveReading": "しまる",
+      "transitive": "締める",
+      "transitiveReading": "しめる",
+      "meaning": "辨析「締まる／締める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 22
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaba",
+    "familyId": "verb.refaaba",
+    "pair": {
+      "id": "verb.refaaba",
+      "intransitive": "助かる",
+      "intransitiveReading": "たすかる",
+      "transitive": "助ける",
+      "transitiveReading": "たすける",
+      "meaning": "辨析「助かる／助ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 28
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "pair": {
+      "id": "verb.refaaha",
+      "intransitive": "連なる",
+      "intransitiveReading": "つらなる",
+      "transitive": "連ねる",
+      "transitiveReading": "つらねる",
+      "meaning": "辨析「連なる／連ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 34
+    },
+    "direction": "intransitive"
+  }
+]

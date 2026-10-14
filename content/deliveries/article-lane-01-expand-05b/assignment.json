@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refjba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refjba",
+    "familyId": "verb.refjba",
+    "pair": {
+      "id": "verb.refjba",
+      "intransitive": "寄る",
+      "intransitiveReading": "よる",
+      "transitive": "寄せる",
+      "transitiveReading": "よせる",
+      "meaning": "辨析「寄る／寄せる」的角色与对象",
+      "count": 4,
+      "articleGroup": 10,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refqaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "pair": {
+      "id": "verb.refqaa",
+      "intransitive": "聞こえる",
+      "intransitiveReading": "きこえる",
+      "transitive": "聞く",
+      "transitiveReading": "きく",
+      "meaning": "辨析「聞こえる／聞く」的角色与对象",
+      "count": 4,
+      "articleGroup": 17,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refqaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "pair": {
+      "id": "verb.refqaa",
+      "intransitive": "聞こえる",
+      "intransitiveReading": "きこえる",
+      "transitive": "聞く",
+      "transitiveReading": "きく",
+      "meaning": "辨析「聞こえる／聞く」的角色与对象",
+      "count": 4,
+      "articleGroup": 17,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refqaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "pair": {
+      "id": "verb.refqaa",
+      "intransitive": "聞こえる",
+      "intransitiveReading": "きこえる",
+      "transitive": "聞く",
+      "transitiveReading": "きく",
+      "meaning": "辨析「聞こえる／聞く」的角色与对象",
+      "count": 4,
+      "articleGroup": 17,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refqaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "pair": {
+      "id": "verb.refqaa",
+      "intransitive": "聞こえる",
+      "intransitiveReading": "きこえる",
+      "transitive": "聞く",
+      "transitiveReading": "きく",
+      "meaning": "辨析「聞こえる／聞く」的角色与对象",
+      "count": 4,
+      "articleGroup": 17,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "pair": {
+      "id": "verb.refrea",
+      "intransitive": "通る",
+      "intransitiveReading": "とおる",
+      "transitive": "通す",
+      "transitiveReading": "とおす",
+      "meaning": "辨析「通る／通す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "pair": {
+      "id": "verb.refrea",
+      "intransitive": "通る",
+      "intransitiveReading": "とおる",
+      "transitive": "通す",
+      "transitiveReading": "とおす",
+      "meaning": "辨析「通る／通す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrea",
+    "familyId": "verb.refrea",
+    "pair": {
+      "id": "verb.refrea",
+      "intransitive": "通る",
+      "intransitiveReading": "とおる",
+      "transitive": "通す",
+      "transitiveReading": "とおす",
+      "meaning": "辨析「通る／通す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_03_6a2",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-06a-2.draft.json",
+  "at": "2026-10-14T01:53:44.768Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsea.04",
+      "hash": "96fd7cf13f5bad37beb00ca69e1c1ebe60bd22cb8d13420e09252a7e6006abbb",
+      "fullSentences": [
+        "夜間の巡回で、管理人は懐中電灯で倉庫の入口にある段差を照らした。"
+      ]
+    },
+    {
+      "id": "verb.refska.01",
+      "hash": "6cc17729b0910b7d107ca938cce76dc65764c18ffdce754111f35782739a5d2f",
+      "fullSentences": [
+        "申し込みの取り消しが続き、講座の参加予定者数が当初より減った。"
+      ]
+    },
+    {
+      "id": "verb.refska.02",
+      "hash": "39b38dad79084f05d86416f3f5ecb2d13c3bb11e79f75d2ce9e0a0f5f2904a36",
+      "fullSentences": [
+        "主催者は混雑を避けるため、一回あたりの入場者数を当初の予定より減らした。"
+      ]
+    },
+    {
+      "id": "verb.refska.03",
+      "hash": "15a0e0d48573c66ff296712178f5c5dc9fbf60d07bea46731221cfacb5ea4765",
+      "fullSentences": [
+        "雨の少ない日が続き、山あいの貯水池にたまる水量が先月より減っていた。"
+      ]
+    }
+  ]
+}

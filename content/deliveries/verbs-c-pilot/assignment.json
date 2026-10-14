@@ -1,0 +1,53 @@
+[
+  {
+    "id": "verb.lower.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.lower.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.lower.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "pair": {
+      "id": "verb.lower",
+      "intransitive": "下がる",
+      "intransitiveReading": "さがる",
+      "transitive": "下げる",
+      "transitiveReading": "さげる",
+      "meaning": "降低温度或音量",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

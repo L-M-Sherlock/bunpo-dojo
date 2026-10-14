@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refaapa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaapa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "transitive"
+  }
+]

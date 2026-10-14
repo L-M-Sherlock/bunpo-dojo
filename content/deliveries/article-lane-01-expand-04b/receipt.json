@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_01_next",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-04b.draft.json",
+  "at": "2026-10-14T01:39:20.825Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refeba.04",
+      "hash": "75b65a9d15e31fddd8fa5595a7918a634319dbc660f4b936e563c89cbd95475e",
+      "fullSentences": [
+        "料理記者は各地の郷土料理を食べ歩き、舌を肥やした。"
+      ]
+    },
+    {
+      "id": "verb.reffaa.01",
+      "hash": "376dc88a0e2339da71695d374d64db61d8f9e40f1294d19c377bcb1177820dbe",
+      "fullSentences": [
+        "閉店後、店の自動シャッターがゆっくり閉じた。"
+      ]
+    },
+    {
+      "id": "verb.reffaa.02",
+      "hash": "ada59347acf274c5d70e65a7ad8dfbd54b9c11abb6a594ddb73e7339389ee06b",
+      "fullSentences": [
+        "申込期限を逃した彼は、今年度の海外研修に参加する道を自ら閉ざした。"
+      ]
+    },
+    {
+      "id": "verb.reffaa.03",
+      "hash": "5366946ce3fac663518b1c9b4942e849453cbbcdcae72bb64695695e650ed429",
+      "fullSentences": [
+        "絵本を読んでもらっているうちに、眠そうな子どものまぶたが少しずつ閉じていった。"
+      ]
+    },
+    {
+      "id": "verb.reffaa.04",
+      "hash": "e28bf7efca83f58201c5a7b35857f1d7675545bd5efcbe15ef7e41d836639d73",
+      "fullSentences": [
+        "吹雪が続き、山あいの集落は何日も外界から閉ざされた。"
+      ]
+    },
+    {
+      "id": "verb.refhaa.01",
+      "hash": "8a41d43dca62f720da3148ddce7c5ac32cf8079325d00f1c4a3d80deb027eac5",
+      "fullSentences": [
+        "給水車の到着が遅れ、避難所で配る飲料水が夜明け前に尽きた。"
+      ]
+    },
+    {
+      "id": "verb.refhaa.02",
+      "hash": "d2c9dccb90daaf83a00ed49d7787a51b7bd36bb60fc1300fa2d7ba7bfb515d40",
+      "fullSentences": [
+        "行方不明の登山者を捜し出すため、捜索隊はあらゆる手を尽くした。"
+      ]
+    },
+    {
+      "id": "verb.refhaa.03",
+      "hash": "cf5b87438df448ebba907b733ba4c568b63a5fbf979f3776f3c939b9b033ee0b",
+      "fullSentences": [
+        "長距離バスで友人と話し続けたが、目的地に着くころには話題が尽きた。"
+      ]
+    }
+  ]
+}

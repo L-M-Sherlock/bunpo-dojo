@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "童年海边房子浮现",
+    "scene": "重读祖父的信时，童年时的海边房子忽然浮现在脑海。",
+    "before": [
+      {
+        "text": "祖父の手紙を読み返していると、幼い頃の海辺の家がふと頭に",
+        "reading": "そふのてがみをよみかえしていると、おさないころのうみべのいえがふとあたまに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "浮かんだ",
+        "reading": "うかんだ",
+        "verdict": "correct",
+        "explanation": "读信时，童年老屋的形象自行出现在脑海中；句子突出回忆浮现的过程。"
+      },
+      {
+        "id": "b",
+        "text": "浮かべた",
+        "reading": "うかべた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「浮かべる」可以表示有意回想、把某种形象带入意识；此处形象是在重读祖父的信时自然浮现，并非读信者主动回想某个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "重读祖父的信时，童年时的海边房子忽然浮现在脑海。",
+    "explanation": "童年时在海边的房子自然浮现在脑海中，并非有人主动把它想起来。",
+    "hint": "看记忆是自然出现在意识中，还是某人有意把它带入脑海。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "lexicalKey": "选手抗议拒绝停赛",
+    "scene": "选手明知裁判命令暂停比赛，却为抗议继续比赛，没有听从指示。",
+    "before": [
+      {
+        "text": "選手は審判の停止命令に気づいていたが、抗議のため試合を続け、指示に従わなかった。",
+        "reading": "せんしゅはしんぱんのていしめいれいにきづいていたが、こうぎのためしあいをつづけ、しじにしたがわなかった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「指示に従う」中，选手是是否遵从指示的主体，指示以「に」标出遵从对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「従える」表示带领他人或使他人服从；本句的选手自己是遵从指示的人，句中没有被其带领或支配的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "选手注意到了裁判的暂停命令，却为了抗议继续比赛，没有听从指示。",
+    "explanation": "选手是遵从或拒绝遵从指示的主体，指示由「に」标出。",
+    "hint": "留意选手与暂停指示各自在句中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "従う",
+      "reading": "したがう"
+    }
+  },
+  {
+    "id": "verb.refbpa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "窑烟从烟囱升起",
+    "scene": "窑里添薪后，白烟从烟囱升起。",
+    "before": [
+      {
+        "text": "窯に薪を足すと、煙突から白い煙が立った。",
+        "reading": "かまにまきをたすと、えんとつからしろいけむりがたった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "白烟是上升并出现在空中的主体，句中没有把烟竖起的施事或对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「立てる」表示施事把某物竖起；本句说明烟自身升起，没有被竖立的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "往窑里添薪后，白烟从烟囱升起。",
+    "explanation": "烟自身升起并飘在空中，是发生变化的主体。",
+    "hint": "留意烟是自行升起，还是有人把某个物体竖起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "立つ",
+      "reading": "たつ"
+    }
+  },
+  {
+    "id": "verb.refbpa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "讲座结束前留在座位",
+    "scene": "她决定听完整场讲座，在结束提示响起前一直留在最后一排。",
+    "before": [
+      {
+        "text": "講演を最後まで聞くと決めていた彼女は、終了の合図があるまで一番後ろの席を立たなかった。",
+        "reading": "こうえんをさいごまできくときめていたかのじょは、しゅうりょうのあいずがあるまでいちばんうしろのせきをたたなかった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「席を立つ」表示从座位起身离开；这里的「を」标出离开的地点。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「立てる」可表示把物体竖起；本句的「席を立つ」是在说人离开座位，座位不是被竖起来的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "决定听完整场讲座的她，直到结束提示响起都没有离开最后一排的座位。",
+    "explanation": "她决定留在座位听讲，句中表示的是离席动作没有发生。",
+    "hint": "注意「席を」在这里表示离开的地点，结合前面的决定判断发生了什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "立つ",
+      "reading": "たつ"
+    }
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.change.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "change-article-headline",
+    "scene": "手机预览时标题折行，编辑把文章标题改短。",
+    "before": [
+      {
+        "text": "編集者が記事の見出しを短く",
+        "reading": "へんしゅうしゃがきじのみだしをみじかく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変えました",
+        "reading": "かえました",
+        "verdict": "correct",
+        "explanation": "编辑主动把标题改短，见出し是被修改的内容，変える表达施事改变对象。"
+      },
+      {
+        "id": "b",
+        "text": "変わりました",
+        "reading": "かわりました",
+        "verdict": "ungrammatical",
+        "explanation": "変わる表示内容本身发生变化，不能在这里接「見出しを」作直接宾语；若只报告标题发生变化，应改成「見出しが変わりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "编辑把文章标题改短了。",
+    "explanation": "编辑是执行修改的人，文章标题是修改对象。",
+    "hint": "看句子是否写出了修改者和被修改的内容。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.change.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "change-festival-venue",
+    "scene": "天气预报有雨，校园祭会场从操场改到体育馆。",
+    "before": [
+      {
+        "text": "学園祭の会場が運動場から体育館に",
+        "reading": "がくえんさいのかいじょうがうんどうじょうからたいいくかんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変わりました",
+        "reading": "かわりました",
+        "verdict": "correct",
+        "explanation": "会场由操场变为体育馆，句子描述安排本身发生变化，変わる符合这个结果。"
+      },
+      {
+        "id": "b",
+        "text": "変えました",
+        "reading": "かえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "変える表示施事改变某项内容；若用在这里，会把会场理解成改变别的事情的一方，而场景说的是会场位置本身变了。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "校园祭的会场从操场改到了体育馆。",
+    "explanation": "句子报告会场发生变化，没有写出调整会场的人。",
+    "hint": "判断变化发生在会场本身，还是有人改变了会场安排。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.change.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "change-soup-seasoning",
+    "scene": "试喝后觉得汤偏咸，主厨调整了汤的咸度。",
+    "before": [
+      {
+        "text": "料理長がスープの塩加減を",
+        "reading": "りょうりちょうがスープのしおかげんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変えました",
+        "reading": "かえました",
+        "verdict": "correct",
+        "explanation": "主厨调整汤的咸度，主厨是施事，塩加減是被改变的内容。"
+      },
+      {
+        "id": "b",
+        "text": "変わりました",
+        "reading": "かわりました",
+        "verdict": "ungrammatical",
+        "explanation": "変わる表达咸度本身发生变化，但当前句段用「塩加減を」标出主厨改变的对象；若改用变动结果句，需改为「塩加減が変わりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主厨调整了汤的咸度。",
+    "explanation": "主厨主动改变了汤的味道设定。",
+    "hint": "区分主厨改变咸度与咸度自行发生变化。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.change.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "change-cafe-lunch-menu",
+    "scene": "春菜到货后，咖啡馆午餐菜单改为以时令蔬菜为主。",
+    "before": [
+      {
+        "text": "カフェのランチメニューが春野菜中心の内容に",
+        "reading": "カフェのランチメニューがはるやさいちゅうしんのないように"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変わりました",
+        "reading": "かわりました",
+        "verdict": "correct",
+        "explanation": "午餐菜单变成以春季蔬菜为主的内容，句子描述菜单本身改变。"
+      },
+      {
+        "id": "b",
+        "text": "変えました",
+        "reading": "かえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "変える表示施事改变某项内容；若使用此项，菜单会成为改变别的东西的一方，而场景说的是菜单内容变了。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "咖啡馆的午餐菜单改成以春季蔬菜为主的内容。",
+    "explanation": "句中说的是菜单内容发生变化，没有指出具体修改者。",
+    "hint": "判断菜单本身是发生变化的对象，还是改变其他内容的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.gather.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "press-gather-outside-city-hall",
+    "scene": "记者会即将召开，记者们聚到市政府门前等候。",
+    "before": [
+      {
+        "text": "記者会見を控え、市役所前に報道陣が",
+        "reading": "きしゃかいけんをひかえ、しやくしょまえにほうどうじんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集まりました",
+        "reading": "あつまりました",
+        "verdict": "correct",
+        "explanation": "媒体记者来到市政府前并聚在一起，集まる描述人群聚集。"
+      },
+      {
+        "id": "b",
+        "text": "集めました",
+        "reading": "あつめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "集める表示施事收集或召集某些对象；若用此项，报导记者会变成收集者并需补出被收集的对象，和他们聚在现场等候的场景不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "记者会召开前，媒体记者聚集到了市政府门前。",
+    "explanation": "这里描写记者们自行聚到会场附近，没有写出召集他们的人。",
+    "hint": "看句中的媒体记者是聚集的人群，还是召集其他对象的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

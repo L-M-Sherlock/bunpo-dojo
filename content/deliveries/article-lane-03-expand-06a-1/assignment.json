@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refrga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "pair": {
+      "id": "verb.refrga",
+      "intransitive": "治る",
+      "intransitiveReading": "なおる",
+      "transitive": "治す",
+      "transitiveReading": "なおす",
+      "meaning": "辨析「治る／治す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "pair": {
+      "id": "verb.refsea",
+      "intransitive": "照る",
+      "intransitiveReading": "てる",
+      "transitive": "照らす",
+      "transitiveReading": "てらす",
+      "meaning": "辨析「照る／照らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "pair": {
+      "id": "verb.refsea",
+      "intransitive": "照る",
+      "intransitiveReading": "てる",
+      "transitive": "照らす",
+      "transitiveReading": "てらす",
+      "meaning": "辨析「照る／照らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "pair": {
+      "id": "verb.refsea",
+      "intransitive": "照る",
+      "intransitiveReading": "てる",
+      "transitive": "照らす",
+      "transitiveReading": "てらす",
+      "meaning": "辨析「照る／照らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  }
+]

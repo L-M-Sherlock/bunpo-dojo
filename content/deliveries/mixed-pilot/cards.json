@@ -1,0 +1,143 @@
+[
+  {
+    "id": "mixed.01",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "lexicalKey": "automatic-door",
+    "scene": "开馆时，工作人员在门口引导轮椅客，自动门自行打开。",
+    "before": [
+      {
+        "text": "係員は入口で車いすの客を案内し、開館時刻になると正面の自動ドアが",
+        "reading": "かかりいんはいりぐちでくるまいすのきゃくをあんないし、かいかんじこくになるとしょうめんのじどうドアが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "開く",
+        "reading": "あく",
+        "verdict": "correct",
+        "explanation": "自动门本身发生开启变化，符合开馆时自行打开的场景。"
+      },
+      {
+        "id": "b",
+        "text": "開ける",
+        "reading": "あける",
+        "verdict": "meaning-mismatch",
+        "explanation": "「開ける」表示施事打开某个对象。此处是自动门自身打开，场景没有另一个被打开的物品，因此不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员在入口引导轮椅客，开馆时间一到，正面的自动门便会打开。",
+    "explanation": "工作人员引导客人，而正面自动门是发生开启变化的主体；场景没有另一个被它打开的对象。",
+    "hint": "留意两个动作各自的主体：谁在引导客人，哪一项自己发生了开启变化？",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.02",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.close",
+    "familyId": "verb.close",
+    "lexicalKey": "shop-back-door",
+    "scene": "闭店后，店员在后门处关上玻璃门。",
+    "before": [
+      {
+        "text": "閉店後、店員は店の裏口でガラスのドアを",
+        "reading": "へいてんご、てんいんはみせのうらぐちでガラスのドアを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "閉めた",
+        "reading": "しめた",
+        "verdict": "correct",
+        "explanation": "店员对玻璃门实施关闭动作，句中「ガラスのドアを」标出了对象。"
+      },
+      {
+        "id": "b",
+        "text": "閉まった",
+        "reading": "しまった",
+        "verdict": "ungrammatical",
+        "explanation": "「閉まる」表示门自行关闭，不能带这里的对象助词「を」；替换后句子不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭店后，店员在店铺后门处关上了玻璃门。",
+    "explanation": "店员是关门动作的施事，「ガラスのドアを」标出被关上的对象，因此要用他动词。",
+    "hint": "看谁让哪件物品进入关闭状态，并留意对象后面的助词。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.03",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "verb.light",
+    "familyId": "verb.light",
+    "lexicalKey": "classroom-light",
+    "scene": "老师在教室按下照明开关，天花板的灯随即亮起。",
+    "before": [
+      {
+        "text": "先生は教室で照明のスイッチを押すと、天井の電灯が",
+        "reading": "せんせいはきょうしつでしょうめいのスイッチをおすと、てんじょうのでんとうが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "ついた",
+        "reading": "ついた",
+        "verdict": "correct",
+        "explanation": "灯本身进入点亮状态，用自动词「つく」的过去形。"
+      },
+      {
+        "id": "b",
+        "text": "つけた",
+        "reading": "つけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「つける」表示施事点亮某物；这里是电灯本身亮起，且句中没有另一个被点亮的对象，因此不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "老师在教室按下照明开关后，天花板的灯亮了。",
+    "explanation": "主句中的「電灯」是亮起的主体，「つく」表示它进入点亮状态；按开关的动作只交代了原因。",
+    "hint": "看「が」前的名词是自己亮起，还是作为施事让别的东西亮起。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "id": "particle.recipient.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "孫に腕時計を贈る",
+    "scene": "奶奶把腕表作为升学礼物送给考上大学的孙子。",
+    "before": [
+      {
+        "text": "大学合格祝いとして、祖母は孫",
+        "reading": "だいがくごうかくいわいとして、そぼはまご"
+      }
+    ],
+    "after": [
+      {
+        "text": "腕時計を贈った。",
+        "reading": "うでどけいをおくった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标出接收腕表的孙子。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "「へ」也能表示礼物送达的方向；本场景中它与「に」指向同一接收者。"
+      },
+      {
+        "id": "c",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把祖母和孙子读成共同赠送者，但场景中孙子是接收者。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "奶奶把腕表作为大学录取贺礼送给孙子。",
+    "explanation": "「に」标出腕表接收者；「へ」标出礼物送达的方向，两者在本场景都成立。",
+    "hint": "孙子是腕表的接收者，还是与祖母共同赠送的人？也比较表示送达方向的助词。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "参加者に会場図を配る",
+    "scene": "疏散演练前，工作人员把会场图分发给参加者。",
+    "before": [
+      {
+        "text": "避難訓練の係員は、参加者",
+        "reading": "ひなんくんれんのかかりいんは、さんかしゃ"
+      }
+    ],
+    "after": [
+      {
+        "text": "会場図を配った。",
+        "reading": "かいじょうずをくばった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "参加者接收会场图，用「に」标出分发对象。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」把参加者表为与工作人员一起分发会场图的人；场景中参加者是收图者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "疏散演练工作人员把会场图分发给参加者。",
+    "explanation": "参加者是会场图的接收者，用「に」标出分发对象。",
+    "hint": "参加者是会场图的接收者，还是和工作人员一起发图的人？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "乗客に乗り場を知らせる",
+    "scene": "末班车停运后，站务员告知乘客接驳巴士乘车点。",
+    "before": [
+      {
+        "text": "終電が運休になり、駅員は乗客",
+        "reading": "しゅうでんがうんきゅうになり、えきいんはじょうきゃく"
+      }
+    ],
+    "after": [
+      {
+        "text": "代行バスの乗り場を知らせた。",
+        "reading": "だいこうバスののりばをしらせた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "乘客接收乘车点信息，用「に」标出信息传达对象。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把乘客读成与站员一起向第三方告知信息的人；场景中乘客是信息接收者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "末班车停运后，站务员把接驳巴士乘车点告知了乘客。",
+    "explanation": "接驳巴士乘车点的信息传给乘客，用「に」标出接收者。",
+    "hint": "判断乘客是乘车点信息的接收者，还是和站员一起向别人传达信息的人。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.recipient.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "母に電話する",
+    "scene": "出差中的父亲抵达旅馆后，与家里的母亲通了电话。",
+    "before": [
+      {
+        "text": "出張先の父は、宿に着いてから母",
+        "reading": "しゅっちょうさきのちちは、やどについてからはは"
+      }
+    ],
+    "after": [
+      {
+        "text": "電話した。",
+        "reading": "でんわした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标出拨打电话的对象，符合父亲打电话给母亲的场景。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "correct",
+        "explanation": "「と」标出电话交谈的另一方，也适合描述父亲与母亲通话。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "出差中的父亲到旅馆后与母亲通了电话。",
+    "explanation": "「に」突出拨打电话的对象，「と」突出通话的另一方；两者都符合这次通话。",
+    "hint": "母亲是父亲拨打电话的对象，还是电话交谈中的另一方？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午後三時に始まる",
+    "scene": "儿童馆的故事会固定于星期六下午三点开始。",
+    "before": [
+      {
+        "text": "児童館の読み聞かせ会は、土曜日の午後三時",
+        "reading": "じどうかんのよみきかせかいは、どようびのごごさんじ"
+      }
+    ],
+    "after": [
+      {
+        "text": "始まります。",
+        "reading": "はじまります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "星期六下午三点是故事会开始的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示所需时间或期限；这里标的是固定的开始时刻。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "儿童馆的故事会定于星期六下午三点开始。",
+    "explanation": "具体钟点是活动开始的时刻，用「に」标记时间点。",
+    "hint": "这里说的是确定的开始时刻，还是活动所需的时间或期限？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

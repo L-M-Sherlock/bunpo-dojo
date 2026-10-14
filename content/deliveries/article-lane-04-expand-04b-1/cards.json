@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refeea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "lexicalKey": "冷える/冷やす",
+    "scene": "夜里，母亲用湿毛巾给发烧的儿子敷额头",
+    "before": [
+      {
+        "text": "夜、母親は熱のある息子の額を濡れたタオルで",
+        "reading": "よる、ははおやはねつのあるむすこのひたいをぬれたタオルで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "冷やした",
+        "reading": "ひやした",
+        "verdict": "correct",
+        "explanation": "母亲用湿毛巾主动给额头降温；「額を」标出被冷却的部位。"
+      },
+      {
+        "id": "b",
+        "text": "冷えた",
+        "reading": "ひえた",
+        "verdict": "ungrammatical",
+        "explanation": "「冷える」表示某物自身变冷；此处「額を」是被作用的直接对象，不能接「冷えた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜里，母亲用湿毛巾给发烧的儿子敷额头。",
+    "explanation": "句子写明母亲用湿毛巾处理儿子的额头，额头是被降温的对象。",
+    "hint": "留意谁使用了工具，以及哪个部位承受了降温动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "lexicalKey": "起きる/起こす",
+    "scene": "独自登山的女子在山顶附近帐篷里睡着，天亮前醒来",
+    "before": [
+      {
+        "text": "単独登山をしていた女性は、山頂近くのテントで眠り、夜明け前に",
+        "reading": "たんどくとざんをしていたじょせいは、さんちょうちかくのテントでねむり、よあけまえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "起こした",
+        "reading": "おこした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「起こす」可表示叫醒别人或引发事件；本句写独自登山的女性自己从睡眠中醒来。"
+      },
+      {
+        "id": "b",
+        "text": "起きた",
+        "reading": "おきた",
+        "verdict": "correct",
+        "explanation": "女性从睡眠中醒来，句子描述的是主体自身的状态变化。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "独自登山的女子在山顶附近的帐篷里睡着，天亮前醒来。",
+    "explanation": "句子描述女性自己从睡眠中醒来，没有写她叫醒别人或引发某件事。",
+    "hint": "确认句子描写的是女性本人的睡眠状态，还是她让别人醒来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "lexicalKey": "起きる/起こす",
+    "scene": "清晨，酒店工作人员打电话叫醒要搭乘早班航班的客人",
+    "before": [
+      {
+        "text": "ホテルの係員は、早朝の便に乗る客を電話で",
+        "reading": "ホテルのかかりいんは、そうちょうのびんにのるきゃくをでんわで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "起こした",
+        "reading": "おこした",
+        "verdict": "correct",
+        "explanation": "工作人员通过电话叫醒客人；「客を」标明被叫醒的人。"
+      },
+      {
+        "id": "b",
+        "text": "起きた",
+        "reading": "おきた",
+        "verdict": "ungrammatical",
+        "explanation": "「客を」标出被叫醒的对象；「起きる」不能在这里接这个直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "酒店工作人员打电话叫醒了要搭乘清晨航班的客人。",
+    "explanation": "工作人员是叫醒客人的施事，客人是动作直接作用的对象。",
+    "hint": "注意「客を」标出的对象是这通电话实际影响的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "lexicalKey": "起きる/起こす",
+    "scene": "夜班期间，工厂监控系统出现了短暂故障",
+    "before": [
+      {
+        "text": "夜勤中、工場の監視システムに一時的な不具合が",
+        "reading": "やきんちゅう、こうじょうのかんしシステムにいちじてきなふぐあいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "起こした",
+        "reading": "おこした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「起こす」表示造成某个结果；本句把「不具合」作为主语，报告的是故障出现。"
+      },
+      {
+        "id": "b",
+        "text": "起きた",
+        "reading": "おきた",
+        "verdict": "correct",
+        "explanation": "句子报告工厂监控系统中出现了故障，符合「不具合が起きる」的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "夜班期间，工厂的监控系统出现了暂时性故障。",
+    "explanation": "「不具合が」是发生的事件，句子没有说明故障进一步造成了什么结果。",
+    "hint": "分辨句子是在报告问题出现，还是说明问题造成的结果。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

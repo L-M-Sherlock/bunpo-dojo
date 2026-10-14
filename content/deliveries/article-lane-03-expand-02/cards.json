@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaaga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaga",
+    "familyId": "verb.refaaga",
+    "lexicalKey": "強まる・強める",
+    "scene": "进入下半场后，教练主动加强球队的防守。",
+    "before": [
+      {
+        "text": "監督は後半、守備を",
+        "reading": "かんとくはこうはん、しゅびを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "強めました",
+        "reading": "つよめました",
+        "verdict": "correct",
+        "explanation": "教练主动加强「守備を」这一对象，符合下半场调整防守的情景。"
+      },
+      {
+        "id": "b",
+        "text": "強まりました",
+        "reading": "つよまりました",
+        "verdict": "ungrammatical",
+        "explanation": "「守備を」是被加强的对象；若说防守力度自然增强，应写「守備が強まる」，不能让「強まる」支配这里的「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "教练在下半场加强了防守。",
+    "explanation": "「強める」表示教练有意提高防守力度。",
+    "hint": "看句中是否有人对防守这一对象采取了增强行动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaoa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "lexicalKey": "混ざる・混ぜる",
+    "scene": "打开储米袋时，发现里面混进了几只小黑虫。",
+    "before": [
+      {
+        "text": "米に小さな黒い虫が数匹",
+        "reading": "こめにちいさなくろいむしがすうひき"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "混ざっていました",
+        "reading": "まざっていました",
+        "verdict": "correct",
+        "explanation": "小虫混在米中，是小虫进入米里的状态，并没有说小虫把别的东西拌进米里。"
+      },
+      {
+        "id": "b",
+        "text": "混ぜていました",
+        "reading": "まぜていました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「混ぜる」会把小虫写成主动把某物拌进米里的施事；场景表达的是小虫混在米中。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "米里混进了几只小黑虫。",
+    "explanation": "「混ざる」表示异物进入米中并与米混在一起。",
+    "hint": "留意小虫是混合状态中的一部分，还是主动拌入别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaoa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "lexicalKey": "混ざる・混ぜる",
+    "scene": "制作面糊时，糕点师把鸡蛋和牛奶混合在一起。",
+    "before": [
+      {
+        "text": "パティシエはボウルで卵と牛乳を",
+        "reading": "パティシエはボウルでたまごとぎゅうにゅうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "混ぜました",
+        "reading": "まぜました",
+        "verdict": "correct",
+        "explanation": "糕点师是操作的人，「卵と牛乳を」是他混合的材料。"
+      },
+      {
+        "id": "b",
+        "text": "混ざりました",
+        "reading": "まざりました",
+        "verdict": "ungrammatical",
+        "explanation": "「混ざる」描述材料自行混合，材料应作「が」主语；本句以「を」标出糕点师处理的材料。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "糕点师在碗中混合了鸡蛋和牛奶。",
+    "explanation": "「混ぜる」表示糕点师把鸡蛋和牛奶主动混合。",
+    "hint": "看句子是否有主动混合材料的人，以及被混合的材料。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaoa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "lexicalKey": "混ざる・混ぜる",
+    "scene": "回听工作电话录音时，里面混入了空调运转的杂音。",
+    "before": [
+      {
+        "text": "録音した通話に、空調の雑音が",
+        "reading": "ろくおんしたつうわに、くうちょうのざつおんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "混ざっていました",
+        "reading": "まざっていました",
+        "verdict": "correct",
+        "explanation": "杂音混进录下来的通话中，是录音内容出现了额外声音。"
+      },
+      {
+        "id": "b",
+        "text": "混ぜていました",
+        "reading": "まぜていました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「混ぜる」表示某个施事把东西掺入别处；本句的「雑音が」是混入录音的声音，不是拌入其他材料的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "录下来的通话中混入了空调杂音。",
+    "explanation": "「混ざる」表示空调杂音进入通话录音并与录音内容混在一起。",
+    "hint": "判断杂音是录音内容中出现的成分，还是有人主动把它混进去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaoa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaoa",
+    "familyId": "verb.refaaoa",
+    "lexicalKey": "混ざる・混ぜる",
+    "scene": "为了让说明不显得太严肃，主持人在其中穿插了一句简短玩笑。",
+    "before": [
+      {
+        "text": "司会者は説明に短い冗談を",
+        "reading": "しかいしゃはせつめいにみじかいじょうだんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "混ぜました",
+        "reading": "まぜました",
+        "verdict": "correct",
+        "explanation": "主持人主动把一则短笑话加入说明内容中。"
+      },
+      {
+        "id": "b",
+        "text": "混ざりました",
+        "reading": "まざりました",
+        "verdict": "ungrammatical",
+        "explanation": "「短い冗談を」是主持人加入的对象；若描述笑话自行混入，应以「短い冗談が」作主语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主持人在说明中穿插了一则简短玩笑。",
+    "explanation": "「混ぜる」表示主持人把玩笑主动加入说明中。",
+    "hint": "看笑话是被主持人加入说明，还是自己混进说明内容。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "lexicalKey": "傾く・傾ける",
+    "scene": "地震后，旧书架向墙的一侧歪斜了。",
+    "before": [
+      {
+        "text": "地震の揺れで、古い本棚が壁側に",
+        "reading": "じしんのゆれで、ふるいほんだながかべがわに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "傾きました",
+        "reading": "かたむきました",
+        "verdict": "correct",
+        "explanation": "旧书架自身因地震晃动而向墙侧倾斜。"
+      },
+      {
+        "id": "b",
+        "text": "傾けました",
+        "reading": "かたむけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「傾ける」表示某个施事使别的东西倾斜；这里说的是书架自身歪斜，不是书架去倾斜别的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "地震的摇晃使旧书架向墙侧倾斜了。",
+    "explanation": "「傾く」表示书架自身从竖直状态变成倾斜状态。",
+    "hint": "判断书架是发生倾斜的物体，还是施力使别物倾斜的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "lexicalKey": "傾く・傾ける",
+    "scene": "座谈会上，市长认真听取居民的意见。",
+    "before": [
+      {
+        "text": "市長は住民の意見に耳を",
+        "reading": "しちょうはじゅうみんのいけんにみみを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "傾けました",
+        "reading": "かたむけました",
+        "verdict": "correct",
+        "explanation": "「耳を傾ける」是认真听取意见的惯用表达，符合市长听取居民意见的情景。"
+      },
+      {
+        "id": "b",
+        "text": "傾きました",
+        "reading": "かたむきました",
+        "verdict": "ungrammatical",
+        "explanation": "惯用表达固定为「耳を傾ける」；「耳を傾く」不能用「傾く」支配这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市长倾听了居民的意见。",
+    "explanation": "「耳を傾ける」表示专注地听取别人的话或意见。",
+    "hint": "留意这里的「耳を」构成的是哪个惯用表达。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "lexicalKey": "傾く・傾ける",
+    "scene": "市场持续萎缩，老字号旅馆的经营开始走下坡路。",
+    "before": [
+      {
+        "text": "市場の縮小が続き、老舗旅館の経営が",
+        "reading": "しじょうのしゅくしょうがつづき、しにせりょかんのけいえいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "傾き始めました",
+        "reading": "かたむきはじめました",
+        "verdict": "correct",
+        "explanation": "旅馆经营本身开始陷入困难，符合「経営が傾く」的状态变化义。"
+      },
+      {
+        "id": "b",
+        "text": "傾け始めました",
+        "reading": "かたむけはじめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「傾ける」表示施事使某个对象倾斜或走向衰败；这里是旅馆经营自身开始走下坡路，并没有把经营写成施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市场持续萎缩，老字号旅馆的经营开始走下坡路。",
+    "explanation": "「傾く」也可比喻经营陷入困境，描述状态变化。",
+    "hint": "判断旅馆经营是自身转差，还是有人使它陷入困境。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbea",
+    "familyId": "verb.refbea",
+    "lexicalKey": "傾く・傾ける",
+    "scene": "厨师把炖汁倒进器皿时，倾斜了锅。",
+    "before": [
+      {
+        "text": "料理人は煮汁を器に移すとき、鍋を",
+        "reading": "りょうりにんはにじるをうつわにうつすとき、なべを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "傾けました",
+        "reading": "かたむけました",
+        "verdict": "correct",
+        "explanation": "厨师主动倾斜锅具，以便把炖汁倒进器皿中。"
+      },
+      {
+        "id": "b",
+        "text": "傾きました",
+        "reading": "かたむきました",
+        "verdict": "ungrammatical",
+        "explanation": "「鍋を」是厨师操控的对象；若说锅自身倾斜，应以「鍋が」标出锅。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "厨师把炖汁倒进器皿时，将锅倾斜了。",
+    "explanation": "「傾ける」表示厨师主动改变锅的角度。",
+    "hint": "看句中锅是被厨师调整的对象，还是自行倾斜的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "lexicalKey": "退く・退ける",
+    "scene": "资深记者退出新闻报道一线，转而专心培养后辈。",
+    "before": [
+      {
+        "text": "後進の育成に専念するため、ベテラン記者は報道の第一線から",
+        "reading": "こうしんのいくせいにせんねんするため、ベテランきしゃはほうどうのだいいっせんから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退きました",
+        "reading": "しりぞきました",
+        "verdict": "correct",
+        "explanation": "资深记者自己离开新闻一线，符合「第一線から退く」的退出、退下义。"
+      },
+      {
+        "id": "b",
+        "text": "退けました",
+        "reading": "しりぞけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退ける」可表示把人或主张驳回、赶开；本句说记者本人退出一线，没有他排斥的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了专心培养后辈，资深记者退出了新闻报道一线。",
+    "explanation": "「退く」在这里表示从原先承担的领域或位置退下来。",
+    "hint": "判断记者本人是离开岗位，还是把某人或主张挡回去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "lexicalKey": "退く・退ける",
+    "scene": "议长驳回了反对派提出的修正案。",
+    "before": [
+      {
+        "text": "議長は反対派の修正案を",
+        "reading": "ぎちょうははんたいはのしゅうせいあんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退けました",
+        "reading": "しりぞけました",
+        "verdict": "correct",
+        "explanation": "议长不接受反对派的修正案，符合「主張を退ける」的驳回义。"
+      },
+      {
+        "id": "b",
+        "text": "退きました",
+        "reading": "しりぞきました",
+        "verdict": "ungrammatical",
+        "explanation": "「修正案を」在句中是议长驳回的对象；「退く」描述主体自身后退或退出，不能支配这个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "议长驳回了反对派的修正案。",
+    "explanation": "「退ける」表示拒绝接受某项提案或主张。",
+    "hint": "看修正案是被议长拒绝的对象，还是议长自己要退出的位置。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "lexicalKey": "退く・退ける",
+    "scene": "观众按摄影师的提示，从舞台前退开了几步。",
+    "before": [
+      {
+        "text": "撮影スペースを空けるため、観客たちは舞台前から数歩",
+        "reading": "さつえいスペースをあけるため、かんきゃくたちはぶたいまえからすうほ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退きました",
+        "reading": "しりぞきました",
+        "verdict": "correct",
+        "explanation": "登山者们为避开崩落危险，自己撤到了安全地点。"
+      },
+      {
+        "id": "b",
+        "text": "退けました",
+        "reading": "しりぞけました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退ける」表示把某人或某物推开、赶走；场景说登山者自己撤退，并没有他们赶开的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了腾出拍摄空间，观众从舞台前退开了几步。",
+    "explanation": "「退く」描述观众为腾出空间而自行后退。",
+    "hint": "观察句中后退的是观众自己，还是他们在把其他对象推开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "lexicalKey": "退く・退ける",
+    "scene": "保安人员把试图擅自进入的围观者挡回入口外。",
+    "before": [
+      {
+        "text": "警備員は無断で入ろうとする見物人を入口から",
+        "reading": "けいびいんはむだんではいろうとするけんぶつにんをいりぐちから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退けました",
+        "reading": "しりぞけました",
+        "verdict": "correct",
+        "explanation": "保安人员把试图擅自进入的围观者从入口处挡开。"
+      },
+      {
+        "id": "b",
+        "text": "退きました",
+        "reading": "しりぞきました",
+        "verdict": "ungrammatical",
+        "explanation": "「見物人を」是被保安人员赶开的对象；「退く」描述人自己后退，不能把这里的「を」当作被移动的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "保安人员把试图擅自进入的围观者从入口处赶开了。",
+    "explanation": "「退ける」在这里表示把试图进入的人赶离入口。",
+    "hint": "看句中的人是被警备员挡开的对象，还是自己后退的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "lexicalKey": "違う・違える",
+    "scene": "两个服务窗口受理申请的时间不同。",
+    "before": [
+      {
+        "text": "二つの窓口では、申請書を受け付ける時間が",
+        "reading": "ふたつのまどぐちでは、しんせいしょをうけつけるじかんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "違います",
+        "reading": "ちがいます",
+        "verdict": "correct",
+        "explanation": "这里是在比较两个窗口的受理时间，时间彼此不同。"
+      },
+      {
+        "id": "b",
+        "text": "違えます",
+        "reading": "ちがえます",
+        "verdict": "meaning-mismatch",
+        "explanation": "「違える」表示施事主动使对象不同或把对象弄错；本句比较的是两个时间本身，不是时间在改变别的东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "两个窗口受理申请的时间不同。",
+    "explanation": "「違う」表示两个窗口的受理时间不相同。",
+    "hint": "判断句子是在比较两个时间，还是有人有意改变某个时间。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "lexicalKey": "違う・違える",
+    "scene": "接待人员把集合时间弄错了一小时。",
+    "before": [
+      {
+        "text": "受付係は集合時間を一時間",
+        "reading": "うけつけがかりはしゅうごうじかんをいちじかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "違えました",
+        "reading": "ちがえました",
+        "verdict": "correct",
+        "explanation": "受付係把集合时间弄错了一小时，符合「集合時間を違える」的错误义。"
+      },
+      {
+        "id": "b",
+        "text": "違いました",
+        "reading": "ちがいました",
+        "verdict": "ungrammatical",
+        "explanation": "本句把「集合時間を」作为被弄错的对象；「違う」表示时间本身不同，不能支配这个「を」对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接待人员把集合时间弄错了一小时。",
+    "explanation": "「違える」在这里表示把集合时间弄错。",
+    "hint": "留意这里是有人弄错了时间，还是两个时间值彼此不同。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "lexicalKey": "違う・違える",
+    "scene": "验收时发现新到的零件尺寸与图纸不符。",
+    "before": [
+      {
+        "text": "検品後、届いた部品の寸法が設計図と",
+        "reading": "けんぴんご、とどいたぶひんのすんぽうがせっけいずと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "違いました",
+        "reading": "ちがいました",
+        "verdict": "correct",
+        "explanation": "零件的实际尺寸与图纸上的尺寸不一致。"
+      },
+      {
+        "id": "b",
+        "text": "違えました",
+        "reading": "ちがえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「違える」表示有人使尺寸不同或把尺寸弄错；本句报告的是零件尺寸本身与图纸不一致。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "验收后发现，收到的零件尺寸与设计图不符。",
+    "explanation": "「違う」在这里表示实物尺寸与设计图不一致。",
+    "hint": "看句子是在陈述尺寸不一致，还是有人改动或弄错了尺寸。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

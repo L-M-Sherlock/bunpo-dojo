@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06_6a1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-06a-1.draft.json",
+  "at": "2026-10-14T02:45:33.734Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsba.04",
+      "hash": "65489f34fa1a945090b17b5c90265f19c227fa0fab9be9c8ac6ebaa642905cd4",
+      "fullSentences": [
+        "昨年引退した地元の太鼓奏者が、夏祭りの最後に再登場して一曲演奏し、観客を驚かせた。"
+      ]
+    },
+    {
+      "id": "verb.refsha.01",
+      "hash": "8be8f8e18047b5c57240237d0516c16ce11ccdd018edc1343ab628f48bb6dece",
+      "fullSentences": [
+        "テニスの試合中、強く打ち返されたボールがコートの後方まで飛んだ。"
+      ]
+    },
+    {
+      "id": "verb.refsha.02",
+      "hash": "22a70bc10d73500631af3d529b419a8322cd9f1b195bcee55c69cb61132ec8f2",
+      "fullSentences": [
+        "放課後の工作クラブでは、子どもたちが折った紙飛行機を体育館の反対側まで飛ばした。"
+      ]
+    },
+    {
+      "id": "verb.refsha.03",
+      "hash": "29cdca13c85a7fb20dba38a28ed40415f2b381d368c437c05cae1049beea6773",
+      "fullSentences": [
+        "湖畔の遊歩道で突風が吹き、歩いていた人の帽子がベンチの向こうまで飛んだ。"
+      ]
+    }
+  ]
+}

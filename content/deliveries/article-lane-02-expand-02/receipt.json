@@ -1,0 +1,120 @@
+{
+  "author": "/root/article_author_02",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-02.draft.json",
+  "at": "2026-10-13T18:36:33.347Z",
+  "count": 16,
+  "cards": [
+    {
+      "id": "verb.refaafa.04",
+      "hash": "6382fc8564eeda688d862ea71a3d1d9be76f328221403dbf6527f10780427f09",
+      "fullSentences": [
+        "剣道の稽古で、選手は相手との間合いを一歩詰めた。"
+      ]
+    },
+    {
+      "id": "verb.refaana.01",
+      "hash": "4fa2718f3e7bea8cd122fc096b0794c5aded4a469c9b18375205d7f158261785",
+      "fullSentences": [
+        "川沿いの古道は、杉林の手前で東へ曲がった。"
+      ]
+    },
+    {
+      "id": "verb.refaana.02",
+      "hash": "a93d8ecee00d601a24c4ebd3c73f882bb58414873dd5489b863a3f3894c4bf2f",
+      "fullSentences": [
+        "家具職人は、椅子の背に使うブナ材を蒸気で温めてから、ゆっくり曲げた。"
+      ]
+    },
+    {
+      "id": "verb.refaana.03",
+      "hash": "09fa203beeae6c2a197d950e019b9a2fb79f47a354bb7ac6d2a8d508cf72043d",
+      "fullSentences": [
+        "本を並べ過ぎたせいで、古い書棚の棚板が中央から少し曲がった。"
+      ]
+    },
+    {
+      "id": "verb.refaana.04",
+      "hash": "f3ace443dc36b3098f1e2c9810d119c1fa5c3f960e8ad933b5096e42874789a2",
+      "fullSentences": [
+        "低い梁をくぐるため、作業員は腰を深く曲げた。"
+      ]
+    },
+    {
+      "id": "verb.refbda.01",
+      "hash": "acdd04085850076570d7c63dce2036d5d584dc2f6829250ffdd04d79851c332c",
+      "fullSentences": [
+        "夜明けに波が静まると、小さな流木が港の水面に浮かんだ。"
+      ]
+    },
+    {
+      "id": "verb.refbda.02",
+      "hash": "b0c977ef9f198da32732dee3113454145a0167529a8de6ffcff5539d5c28fded",
+      "fullSentences": [
+        "送り盆の夜、参加者は願いを書いた小さな灯籠を川面に浮かべた。"
+      ]
+    },
+    {
+      "id": "verb.refbda.03",
+      "hash": "7e1e01f290775fbec458213ed6ecfb7e23e7a94954ea3241ac831a78a3e99d57",
+      "fullSentences": [
+        "祖父の手紙を読み返していると、幼い頃の海辺の家がふと頭に浮かんだ。"
+      ]
+    },
+    {
+      "id": "verb.refbda.04",
+      "hash": "009197944a3fa55a916237e1c9cb55578bd0d5607bf128aced7e46fd9a513e28",
+      "fullSentences": [
+        "妹が試験に合格した知らせを聞いた姉は、ほっとした笑みを浮かべた。"
+      ]
+    },
+    {
+      "id": "verb.refbja.01",
+      "hash": "1761a3015f0ef56a0412594fabdf48cb69f848978cac74408d4ec58036f13342",
+      "fullSentences": [
+        "古い参道は、川の流れに従って、谷沿いに北へ延びている。"
+      ]
+    },
+    {
+      "id": "verb.refbja.02",
+      "hash": "3b09437d0c44f37709f4a5c5f2a7bc7272720e540880fe9783a602f5ea5d8d17",
+      "fullSentences": [
+        "山中の観測所を点検するため、隊長は若い隊員たちを従えて山道に入った。"
+      ]
+    },
+    {
+      "id": "verb.refbja.03",
+      "hash": "58a92669c15b298af6c3b2a8e5f24edd3a50979356245afe0a09f5fe7825b522",
+      "fullSentences": [
+        "選手は審判の停止命令に気づいていたが、抗議のため試合を続け、指示に従わなかった。"
+      ]
+    },
+    {
+      "id": "verb.refbja.04",
+      "hash": "21f29eacdccbcb1803f89022f90bad62d214ee954b7f8882d3792185f2413c85",
+      "fullSentences": [
+        "国境沿いを巡視するため、城主は側近を従えて夜明け前に城門を出た。"
+      ]
+    },
+    {
+      "id": "verb.refbpa.01",
+      "hash": "eae08f1cf704ee9f019563d26e8c2bc704fb158d86538d310b1ecb72237fb694",
+      "fullSentences": [
+        "窯に薪を足すと、煙突から白い煙が立った。"
+      ]
+    },
+    {
+      "id": "verb.refbpa.02",
+      "hash": "d28d18e45b30ce949cf54e76ae95853aa9328ad1538d690470191666229b8fbe",
+      "fullSentences": [
+        "運営スタッフは、来場者が迷わないよう会場の入口に案内板を立てた。"
+      ]
+    },
+    {
+      "id": "verb.refbpa.03",
+      "hash": "b62a5dd0126213ec652b33eb3abd04c9340d13291325f5c892a0d10f670787e0",
+      "fullSentences": [
+        "講演を最後まで聞くと決めていた彼女は、終了の合図があるまで最後列の席を立たなかった。"
+      ]
+    }
+  ]
+}

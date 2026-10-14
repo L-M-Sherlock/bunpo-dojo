@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/remainder-03.draft.json",
+  "at": "2026-10-13T12:00:53.101Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.stop.02",
+      "hash": "9b1c50ee11082135c37f9885cbf7662e4175760d8e9d86089b89835367c5cdb9",
+      "fullSentences": [
+        "通学路で子どもが飛び出し、運転士がバスを止めました。"
+      ]
+    },
+    {
+      "id": "verb.stop.03",
+      "hash": "18f864c77cf2611c01071b5b5cdfac1a4ddc39c14da373f1a38357c6f802dc08",
+      "fullSentences": [
+        "異常を知らせる警報が鳴り、ベルトコンベヤーが止まりました。"
+      ]
+    },
+    {
+      "id": "verb.stop.04",
+      "hash": "8c93a61381a734ceddb7b32f856b523c68c799abf6bf122191a5d1ff9a41a203",
+      "fullSentences": [
+        "配管の点検前に、管理人がビルの給水ポンプを止めました。"
+      ]
+    },
+    {
+      "id": "verb.stop.05",
+      "hash": "d253362185d1c8968fefd459c54afac5ead74236b9527381708a4d08aaf240f7",
+      "fullSentences": [
+        "事故渋滞で車列が料金所の手前で止まりました。"
+      ]
+    },
+    {
+      "id": "verb.move.01",
+      "hash": "a17f8dbca4e041613f3637038b21582ca5c715d2ad11bae12d86ae84af607b12",
+      "fullSentences": [
+        "地震で本棚が動きました。"
+      ]
+    }
+  ]
+}

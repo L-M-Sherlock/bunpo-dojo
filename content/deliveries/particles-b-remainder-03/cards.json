@@ -1,0 +1,238 @@
+[
+  {
+    "id": "particle.time.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午前九時に温室が開く",
+    "scene": "市立植物园温室将于4月18日上午9点开放。",
+    "before": [
+      {
+        "text": "市立植物園の温室は、四月十八日の午前九時",
+        "reading": "しりつしょくぶつえんのおんしつは、しがつじゅうはちにちのごぜんくじ"
+      }
+    ],
+    "after": [
+      {
+        "text": "開きます。",
+        "reading": "あきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "上午九点是温室开放的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可标场所、手段或时长；这里说明的是温室开放的时间点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市立植物园温室将于4月18日上午9点开放。",
+    "explanation": "四月十八日上午九点是温室开放的具体时刻，用「に」表示。",
+    "hint": "判断空格标记的是温室开始开放的时刻，还是活动发生的地点。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午前五時三十分に目覚ましが鳴る",
+    "scene": "登山队放在山屋的闹钟清晨5点半响起。",
+    "before": [
+      {
+        "text": "山小屋で、目覚まし時計が午前五時三十分",
+        "reading": "やまごやで、めざましどけいがごぜんごじさんじゅっぷん"
+      }
+    ],
+    "after": [
+      {
+        "text": "鳴った。",
+        "reading": "なった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "午前五時三十分是闹钟响起的具体时刻，用「に」标出。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示时长或期限；这里说的是闹钟响起的具体时刻。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山间小屋里，闹钟在清晨5点30分响了。",
+    "explanation": "午前五時三十分是闹钟响起的具体时点，用「に」标记。",
+    "hint": "把山屋理解为响铃的地点；空格处则标记闹钟响的时刻。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "九月二十五日に後期授業が始まる",
+    "scene": "大学下学期课程于9月25日开始。",
+    "before": [
+      {
+        "text": "大学の後期授業は、九月二十五日",
+        "reading": "だいがくのこうきじゅぎょうは、くがつにじゅうごにち"
+      }
+    ],
+    "after": [
+      {
+        "text": "始まる。",
+        "reading": "はじまる。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "九月二十五日是后期课程开始的具体日期，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示手段或场所，但这里要说明课程从哪一天开始。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "大学下学期课程于9月25日开始。",
+    "explanation": "九月二十五日是课程开始的日历日期，用「に」表示。",
+    "hint": "判断九月二十五日是课程开始的具体日期，还是某种手段或场所。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.time.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "lexicalKey": "午後十時に時計台が鐘を鳴らす",
+    "scene": "站前钟楼每天晚上10点敲钟。",
+    "before": [
+      {
+        "text": "駅前の時計台は、毎晩午後十時",
+        "reading": "えきまえのとけいだいは、まいばんごごじゅうじ"
+      }
+    ],
+    "after": [
+      {
+        "text": "鐘を鳴らす。",
+        "reading": "かねをならす。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "午後十時是钟楼每天敲钟的具体时刻，用「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可表示手段、地点等关系；这里表达的是钟声响起的具体时刻。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "站前钟楼每天晚上10点敲钟。",
+    "explanation": "毎晩午後十時是钟声响起的具体时间点，用「に」标出。",
+    "hint": "钟楼所在地已经说明；空格处要标出的是每天敲钟的时刻。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "新幹線で東京駅に向かう",
+    "scene": "父亲乘新干线前往东京站，东京站是目的地。",
+    "before": [
+      {
+        "text": "父は新幹線",
+        "reading": "ちちはしんかんせん"
+      }
+    ],
+    "after": [
+      {
+        "text": "東京駅に向かった。",
+        "reading": "とうきょうえきにむかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "新幹線は東京駅へ向かうための交通手段なので、「で」が合います。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」は到着先・向かう先を示しますが、文中の目的地は東京駅で、新幹線は交通手段です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "父亲乘新干线前往东京站。",
+    "explanation": "新干线是交通方式，用「で」表示；东京站是目的地，用「に」表示。",
+    "hint": "分别判断新干线与东京站在移动中各自承担的关系。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

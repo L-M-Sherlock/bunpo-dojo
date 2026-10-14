@@ -1,0 +1,154 @@
+[
+  {
+    "id": "verb.refoaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "pair": {
+      "id": "verb.refoaa",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺する",
+      "transitiveReading": "ゆする",
+      "meaning": "辨析「揺れる／揺する」的角色与对象",
+      "count": 4,
+      "articleGroup": 15,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "pair": {
+      "id": "verb.refrca",
+      "intransitive": "下る",
+      "intransitiveReading": "くだる",
+      "transitive": "下す",
+      "transitiveReading": "くだす",
+      "meaning": "辨析「下る／下す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "pair": {
+      "id": "verb.refrca",
+      "intransitive": "下る",
+      "intransitiveReading": "くだる",
+      "transitive": "下す",
+      "transitiveReading": "くだす",
+      "meaning": "辨析「下る／下す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "pair": {
+      "id": "verb.refrca",
+      "intransitive": "下る",
+      "intransitiveReading": "くだる",
+      "transitive": "下す",
+      "transitiveReading": "くだす",
+      "meaning": "辨析「下る／下す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrca",
+    "familyId": "verb.refrca",
+    "pair": {
+      "id": "verb.refrca",
+      "intransitive": "下る",
+      "intransitiveReading": "くだる",
+      "transitive": "下す",
+      "transitiveReading": "くだす",
+      "meaning": "辨析「下る／下す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "pair": {
+      "id": "verb.refrka",
+      "intransitive": "渡る",
+      "intransitiveReading": "わたる",
+      "transitive": "渡す",
+      "transitiveReading": "わたす",
+      "meaning": "辨析「渡る／渡す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "pair": {
+      "id": "verb.refrka",
+      "intransitive": "渡る",
+      "intransitiveReading": "わたる",
+      "transitive": "渡す",
+      "transitiveReading": "わたす",
+      "meaning": "辨析「渡る／渡す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "pair": {
+      "id": "verb.refrka",
+      "intransitive": "渡る",
+      "intransitiveReading": "わたる",
+      "transitive": "渡す",
+      "transitiveReading": "わたす",
+      "meaning": "辨析「渡る／渡す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  }
+]

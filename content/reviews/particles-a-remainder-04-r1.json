@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.board.02",
+      "hash": "ee1066a33b3f0ce315985c63830d8ca77b69538a5b26bc216931073f325569df",
+      "fullSentences": ["旅行者は松本駅で特急列車に乗ります。"],
+      "status": "approved",
+      "reason": "旅行者在松本车站登上特急列车，乗る的搭乘对象是特急列車；完整句自然。",
+      "answerSet": "仅ni正确，特急列車に乗ります表示搭乘；を不能在本句标列车为搭乘对象。",
+      "readings": "旅行者りょこうしゃ、松本駅まつもとえき、特急列車とっきゅうれっしゃ、乗りますのります正确；片假名与标点无误，を候选若注发音お仍须写を。",
+      "translation": "“旅行者在松本站乘坐特急列车”准确表达句义；确认车次及开往山里只在场景中。",
+      "options": "ni的correct及answerIds准确；wo的ungrammatical专指乗る搭乘对象，未把其他动词中合法的を用法误判。"
+    },
+    {
+      "id": "particle.board.03",
+      "hash": "0173a59a583313677ad321f6bdba30aca219ae42ce689b3bafa6e25908cc8ede",
+      "fullSentences": ["帰省客は港でフェリーに乗ります。"],
+      "status": "approved",
+      "reason": "返乡旅客在港口搭渡轮，フェリーに乗ります自然；港で明确登船地点。",
+      "answerSet": "仅ni可标乗る所搭乘的渡轮，wo不能表达此处的乘坐对象。",
+      "readings": "帰省客きせいきゃく、港みなと、フェリー、乗りますのります正确；片假名保留，句号对应；を候选可记发音お。",
+      "translation": "“返乡探亲的人在港口乘坐渡轮”对应全文，未额外译出离岛目的地。",
+      "options": "ni的correct成立；wo的ungrammatical解释明确是乗る的搭乘义，并以离开交通工具的を作对照，判定准确。"
+    },
+    {
+      "id": "particle.board.04",
+      "hash": "622035f6e63e06d0064276d8525c22f67fb1c16a0d7f6a98bd5411b42ed24ea3",
+      "fullSentences": ["乗客は駅前でタクシーに乗ります。"],
+      "status": "approved",
+      "reason": "末班车离开后乘客在站前搭出租车，タクシーに乗ります搭配自然，车站前是搭车地点。",
+      "answerSet": "仅ni正确；wo不能直接标乗る的出租车搭乘对象。",
+      "readings": "乗客じょうきゃく、駅前えきまえ、タクシー、乗りますのります对应正确；助词与句号无误，を候选可注发音お。",
+      "translation": "“乘客在车站前乘坐出租车”准确对应日语句，未擅自译出末班车已走。",
+      "options": "ni的correct准确；wo在此不能与乗る构成标准搭车义，其ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.board.05",
+      "hash": "c95ffb0984de1a1d7f402f26ab1aefecaeab104b20cea96a9e6eb6569c477025",
+      "fullSentences": ["妹は公園でレンタサイクルに乗ります。"],
+      "status": "approved",
+      "reason": "妹妹在公园骑上租赁自行车，レンタサイクルに乗ります自然，骑乘对象与场景吻合。",
+      "answerSet": "仅ni正确；wo不能直接表示此句中骑乘的自行车。",
+      "readings": "妹いもうと、公園こうえん、レンタサイクル、乗りますのります正确；片假名与标点对应，を候选的发音注记不改变书写。",
+      "translation": "“妹妹在公园骑上租来的自行车”准确表达乗ります的上车含义，未把沿湖骑行误作已发生。",
+      "options": "ni的correct准确；wo的ungrammatical说明限于乗る的骑乘对象，判定合理。"
+    },
+    {
+      "id": "particle.board.06",
+      "hash": "5008114161b7aff77399d6ad940b28f21d355c0509e4b080699fc96efcf5eb34",
+      "fullSentences": ["社員は大阪空港で東京行きの飛行機に乗ります。"],
+      "status": "approved",
+      "reason": "员工在大阪机场搭飞往东京的飞机，飛行機に乗ります和东京行き修饰语搭配自然。",
+      "answerSet": "仅ni正确；wo不能标乗る所乘坐的飞机。",
+      "readings": "社員しゃいん、大阪空港おおさかくうこう、東京行きとうきょうゆき、飛行機ひこうき、乗りますのります正确；句段标点一致。",
+      "translation": "“员工在大阪机场乘坐飞往东京的飞机”准确译出地点、交通工具和目的方向。",
+      "options": "ni的correct与搭乘关系一致；wo的ungrammatical解释针对本句搭飞机义正确。"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_01_repair",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-06b-1-r1.draft.json",
+  "at": "2026-10-14T02:21:19.477Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.reftba.01",
+      "hash": "1befb885f3c0423959eaa529ae9c57e79ed99d2b431f91b8019a93f5d7795567",
+      "fullSentences": [
+        "栞を探して古い小説をめくると、昔の切符がページの間に挟まっていた。"
+      ]
+    },
+    {
+      "id": "verb.reftba.03",
+      "hash": "28dd28f698d453da8b9bbeaf7ae4a17086300aa142a69ef1e79ab495cede05ec",
+      "fullSentences": [
+        "昼食後、奥歯にほうれん草の繊維が挟まっていることに気づいた。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refeea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeea",
+    "familyId": "verb.refeea",
+    "pair": {
+      "id": "verb.refeea",
+      "intransitive": "冷える",
+      "intransitiveReading": "ひえる",
+      "transitive": "冷やす",
+      "transitiveReading": "ひやす",
+      "meaning": "辨析「冷える／冷やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "pair": {
+      "id": "verb.refgaa",
+      "intransitive": "起きる",
+      "intransitiveReading": "おきる",
+      "transitive": "起こす",
+      "transitiveReading": "おこす",
+      "meaning": "辨析「起きる／起こす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refgaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "pair": {
+      "id": "verb.refgaa",
+      "intransitive": "起きる",
+      "intransitiveReading": "おきる",
+      "transitive": "起こす",
+      "transitiveReading": "おこす",
+      "meaning": "辨析「起きる／起こす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "pair": {
+      "id": "verb.refgaa",
+      "intransitive": "起きる",
+      "intransitiveReading": "おきる",
+      "transitive": "起こす",
+      "transitiveReading": "おこす",
+      "meaning": "辨析「起きる／起こす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

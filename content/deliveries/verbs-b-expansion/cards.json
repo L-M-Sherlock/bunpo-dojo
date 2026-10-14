@@ -1,0 +1,615 @@
+[
+  {
+    "id": "verb.start.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "start-pickup-service",
+    "scene": "试营业后，店长推出了预约取货服务。",
+    "before": [
+      {
+        "text": "店長が予約制の受け取りサービスを",
+        "reading": "てんちょうがよやくせいのうけとりサービスを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始めました",
+        "reading": "はじめました",
+        "verdict": "correct",
+        "explanation": "店长是启动服务的施事，预约取货服务是被启动的活动，始める符合这一施事与对象关系。"
+      },
+      {
+        "id": "b",
+        "text": "始まりました",
+        "reading": "はじまりました",
+        "verdict": "ungrammatical",
+        "explanation": "始まる表达服务自身开始，但此处「サービスを」是店长启动的直接对象；要表达服务自行开始，需把句架改为「サービスが始まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "店长开始了预约制取货服务。",
+    "explanation": "句中有明确的启动者店长和被启动的服务。",
+    "hint": "看谁执行了开始动作，以及服务在句中是什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.start.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "lexicalKey": "start-excavation-survey",
+    "scene": "审批手续办妥后，遗址发掘队下周进场。",
+    "before": [
+      {
+        "text": "遺跡の発掘調査が来週から",
+        "reading": "いせきのはっくつちょうさがらいしゅうから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "始まります",
+        "reading": "はじまります",
+        "verdict": "correct",
+        "explanation": "遗址发掘调查是下周开始的活动本身，始まる表达活动开始。"
+      },
+      {
+        "id": "b",
+        "text": "始めます",
+        "reading": "はじめます",
+        "verdict": "meaning-mismatch",
+        "explanation": "始める表示施事启动某项活动；若用在这里，会把发掘调查说成启动者并需要从语境补出所启动的活动，与场景所述的调查开始不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "遗址的发掘调查将从下周开始。",
+    "explanation": "句子描述调查活动何时开始，没有说调查本身启动了另一项活动。",
+    "hint": "判断主语是开始的活动，还是启动活动的一方。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.end.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "end-fireworks-show",
+    "scene": "最后一轮烟花落入河面，烟花大会九点收场。",
+    "before": [
+      {
+        "text": "花火大会が午後九時に",
+        "reading": "はなびたいかいがごごくじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終わりました",
+        "reading": "おわりました",
+        "verdict": "correct",
+        "explanation": "烟花大会作为活动本身在九点结束，終わる表示活动告一段落。"
+      },
+      {
+        "id": "b",
+        "text": "終えました",
+        "reading": "おえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "終える表示施事结束某项活动；本句把烟花大会写成自行结束的活动，没有把大会写成结束另一项活动的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "烟花大会在晚上九点结束了。",
+    "explanation": "句中呈现的是活动结束这一结果，没有指定结束活动的人。",
+    "hint": "留意主语是结束的活动本身，还是结束活动的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.end.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "end-application-review",
+    "scene": "工作人员核对完最后一批申请表，午前收工。",
+    "before": [
+      {
+        "text": "担当者が申込書の確認を昼前に",
+        "reading": "たんとうしゃがもうしこみしょのかくにんをひるまえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終えました",
+        "reading": "おえました",
+        "verdict": "correct",
+        "explanation": "担当者结束了申请表核对工作，終える是清楚自然的他动表达。"
+      },
+      {
+        "id": "b",
+        "text": "終わりました",
+        "reading": "おわりました",
+        "verdict": "correct",
+        "explanation": "終わる除表示活动自行结束外，也有他动词用法，可表示施事结束某项活动；在当前「担当者が…確認を」句架中同样成立。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "工作人员在午前完成了申请表核对。",
+    "explanation": "担当者是结束工作的施事，核对工作是对象；終える与有他动用法的終わる都能表达这一关系。",
+    "hint": "确认谁结束了什么工作；也留意词典认可的他动用法。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.end.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "end-relay-race",
+    "scene": "最后一组冲线后，社区接力赛比预计晚了半小时结束。",
+    "before": [
+      {
+        "text": "駅伝大会が予定より遅れて",
+        "reading": "えきでんたいかいがよていよりおくれて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終わりました",
+        "reading": "おわりました",
+        "verdict": "correct",
+        "explanation": "接力赛是比预期晚结束的活动本身，終わる描述其结束。"
+      },
+      {
+        "id": "b",
+        "text": "終えました",
+        "reading": "おえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "終える表示某个施事结束一项活动；这里的比赛是结束的活动，没有表示比赛作为施事结束另一项活动。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接力赛比预定时间更晚结束了。",
+    "explanation": "句子报告比赛何时结束，没有写出执行收尾动作的施事。",
+    "hint": "判断比赛是结束的活动，还是结束另一项活动的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.end.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "end-script-reading",
+    "scene": "新稿送到排练室后，剧团在傍晚结束围读。",
+    "before": [
+      {
+        "text": "劇団が新作の読み合わせを夕方に",
+        "reading": "げきだんがしんさくのよみあわせをゆうがたに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終えました",
+        "reading": "おえました",
+        "verdict": "correct",
+        "explanation": "剧团结束了对新作的围读，終える明确表达施事完成活动。"
+      },
+      {
+        "id": "b",
+        "text": "終わりました",
+        "reading": "おわりました",
+        "verdict": "correct",
+        "explanation": "終わる也有他动词用法；在「劇団が…読み合わせを」这一施事与对象句架中，可以表示剧团结束围读。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "剧团在傍晚结束了对新作的围读。",
+    "explanation": "剧团是结束围读的施事；終える与終わる的他动用法都能表达该关系。",
+    "hint": "先确认施事和活动对象，再考虑两个动词各自的实际用法。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.end.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.end",
+    "familyId": "verb.end",
+    "lexicalKey": "end-online-course-stream",
+    "scene": "最后一节直播今早播完，整套线上课程如期收尾。",
+    "before": [
+      {
+        "text": "オンライン講座の配信が今朝、予定どおり",
+        "reading": "オンラインこうざのはいしんがけさ、よていどおり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "終わりました",
+        "reading": "おわりました",
+        "verdict": "correct",
+        "explanation": "线上课程的直播是按计划结束的活动本身，終わる符合这一结果。"
+      },
+      {
+        "id": "b",
+        "text": "終えました",
+        "reading": "おえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "終える表示施事结束某项活动；如果选它，就会把直播说成结束另一项活动的一方，而场景说的是直播本身收尾。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "线上课程的直播今早按计划结束了。",
+    "explanation": "句子的主语是已经结束的直播活动，不是执行收尾的施事。",
+    "hint": "看句中是活动自行结束，还是有人结束另一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.decide.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "decide-training-date",
+    "scene": "大家报好空档后，培训日程定在九月五日。",
+    "before": [
+      {
+        "text": "研修の日程が九月五日に",
+        "reading": "けんしゅうのにっていがくがついつかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決まりました",
+        "reading": "きまりました",
+        "verdict": "correct",
+        "explanation": "培训日程成为已确定的安排，決まる表示安排确定下来。"
+      },
+      {
+        "id": "b",
+        "text": "決めました",
+        "reading": "きめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "決める表示某个施事决定一项安排；这里的日程是被确定的安排本身，不是决定其他事项的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "培训日程定在九月五日。",
+    "explanation": "句子报告日程确定下来的结果，没有把日程当作作出决定的人。",
+    "hint": "看句子说的是安排已经定下，还是某人作出了决定。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.decide.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "decide-exhibition-theme",
+    "scene": "问卷多提到循环利用，策划人据此敲定展览主题。",
+    "before": [
+      {
+        "text": "企画担当者が来場者の意見を受けて展示会のテーマを",
+        "reading": "きかくたんとうしゃがらいじょうしゃのいけんをうけててんじかいのテーマを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決めました",
+        "reading": "きめました",
+        "verdict": "correct",
+        "explanation": "策划人是作决定的施事，展览主题是被决定的对象，決める符合句架。"
+      },
+      {
+        "id": "b",
+        "text": "決まりました",
+        "reading": "きまりました",
+        "verdict": "ungrammatical",
+        "explanation": "決まる表达主题自行确定，不能在这里接「テーマを」作为直接宾语；若改为主题确定下来，需改成「テーマが決まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "策划人听取参观者意见后决定了展览主题。",
+    "explanation": "这里明确写出策划人决定主题，而不是只报告主题已经确定。",
+    "hint": "辨认作出决定的人和被决定的内容。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.decide.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "decide-final-opponent",
+    "scene": "机器人联赛公布抽签结果，决赛双方已经确定。",
+    "before": [
+      {
+        "text": "決勝の対戦相手が抽選で",
+        "reading": "けっしょうのたいせんあいてがちゅうせんで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決まりました",
+        "reading": "きまりました",
+        "verdict": "correct",
+        "explanation": "决赛对手是抽签后确定的结果，決まる描述安排确定下来。"
+      },
+      {
+        "id": "b",
+        "text": "決めました",
+        "reading": "きめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "決める表示施事决定某事；若使用它，对战对手会变成作决定的一方，并需从上下文补出被决定的事项，这不是抽签确定对手的意思。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "决赛的对战对手通过抽签确定了。",
+    "explanation": "抽签确定的是对手，句子没有把对手说成决定其他事项的施事。",
+    "hint": "判断对手是被确定的结果，还是作出决定的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.decide.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "decide-away-roster",
+    "scene": "航班座位有限，教练观察集训后敲定了远征名单。",
+    "before": [
+      {
+        "text": "監督が遠征メンバーを",
+        "reading": "かんとくがえんせいメンバーを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決めました",
+        "reading": "きめました",
+        "verdict": "correct",
+        "explanation": "教练是选择名单的施事，远征成员是被决定的对象，決める符合这一关系。"
+      },
+      {
+        "id": "b",
+        "text": "決まりました",
+        "reading": "きまりました",
+        "verdict": "ungrammatical",
+        "explanation": "決まる表达名单自身确定，不能把「遠征メンバー」作为「を」标记的直接宾语；要报告名单确定，需改为「遠征メンバーが決まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "教练决定了远征队员名单。",
+    "explanation": "句中把教练写成作决定的人，把远征成员写成决定的内容。",
+    "hint": "看句子是否明确写出选定名单的人。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.decide.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.decide",
+    "familyId": "verb.decide",
+    "lexicalKey": "decide-drill-location",
+    "scene": "河边道路施工，社区防灾演练集合点改到小学。",
+    "before": [
+      {
+        "text": "防災訓練の集合場所が小学校に",
+        "reading": "ぼうさいくんれんのしゅうごうばしょがしょうがっこうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "決まりました",
+        "reading": "きまりました",
+        "verdict": "correct",
+        "explanation": "防灾演练的集合地点确定为小学，決まる表达安排成为既定结果。"
+      },
+      {
+        "id": "b",
+        "text": "決めました",
+        "reading": "きめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "決める要求由施事决定某项安排；当前主语是集合地点，场景说它被选定为小学，并没有把地点说成决定其他事情的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "防灾演练的集合地点定在小学。",
+    "explanation": "句子报告集合地点确定下来的结果，没有指定作决定的人。",
+    "hint": "分清地点是决定的结果，还是作出决定的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.change.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "lexicalKey": "change-meeting-start-time",
+    "scene": "前场发布会超时，董事会开会时间调整到下午三点。",
+    "before": [
+      {
+        "text": "会議の開始時刻が午後三時に",
+        "reading": "かいぎのかいしじこくがごごさんじに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "変わりました",
+        "reading": "かわりました",
+        "verdict": "correct",
+        "explanation": "会议开始时间变成了下午三点，変わる描述安排发生变化。"
+      },
+      {
+        "id": "b",
+        "text": "変えました",
+        "reading": "かえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "変える表示施事改变某项内容；这里的开始时间是发生变化的安排本身，不是改变其他事项的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "会议的开始时间改到了下午三点。",
+    "explanation": "前场延时后，句子说明开始时间发生了变化，没有写出调整时间的人。",
+    "hint": "判断句中是安排本身发生变化，还是某人改变了安排。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

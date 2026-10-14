@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_04_6b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-06b-1.draft.json",
+  "at": "2026-10-14T02:37:13.393Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refsla.04",
+      "hash": "fb9746fddf32de6b49a199dc96fb325346307d3587f7d19d21f66fa88e870891",
+      "fullSentences": [
+        "高額な手数料を伏せた投資広告は、初心者を惑わした。"
+      ]
+    },
+    {
+      "id": "verb.refuaa.01",
+      "hash": "7ba974b26bc84e284b09e79d6af62e48bb3d73a5cbf21b0e0d39ae225d265ce2",
+      "fullSentences": [
+        "王位を継ぐ者のいなくなった王朝は、領土を少しずつ失い、最後の君主の死後に滅んだ。"
+      ]
+    },
+    {
+      "id": "verb.refuaa.02",
+      "hash": "f7bfd20c51bb7af4c799915308f9e3838ac17888c92983fa3514c8482abb8279",
+      "fullSentences": [
+        "隣国から攻め込んだ軍勢は、三百年続いた王朝を滅ぼした。"
+      ]
+    }
+  ]
+}

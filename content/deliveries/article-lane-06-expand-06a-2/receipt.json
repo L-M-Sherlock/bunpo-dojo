@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06_6a1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-06a-2.draft.json",
+  "at": "2026-10-14T03:01:51.119Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsha.04",
+      "hash": "e6e874c6606bbb2aeb50a661c274c9c60d5ca0f1ea019e42be3923154dc3f516",
+      "fullSentences": [
+        "沿岸部での訓練飛行中、操縦士は小型機を海岸線に沿って飛ばした。"
+      ]
+    },
+    {
+      "id": "verb.reftaa.01",
+      "hash": "8eaf0faa3097df3231fe6469a804f2492c0389126db478da45e6fc6969e7ab70",
+      "fullSentences": [
+        "弓道部の練習で、放たれた矢が的の中心に深く刺さった。"
+      ]
+    },
+    {
+      "id": "verb.reftaa.02",
+      "hash": "f2d0484db7c00f9d81d122dc8c19a57a7b11447246e596f57790055805ba761a",
+      "fullSentences": [
+        "採血室で、看護師が患者の腕の血管に採血用の針を刺した。"
+      ]
+    },
+    {
+      "id": "verb.reftaa.03",
+      "hash": "1534ffbab013298bce78c3f6bc7ee3cb26f8e054f7358b7e239589c74d7637ae",
+      "fullSentences": [
+        "焼き魚を食べていたら、小さな骨が喉に刺さった。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.raise.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "raise-hall-speaker-volume",
+    "scene": "音量检查后，音响师调高了大厅扬声器的音量。",
+    "before": [
+      {
+        "text": "音響担当者がホールのスピーカーの音量を",
+        "reading": "おんきょうたんとうしゃがホールのスピーカーのおんりょうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "correct",
+        "explanation": "音响师主动调高扬声器音量，音响师是施事，音量是被调高的对象。"
+      },
+      {
+        "id": "b",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "ungrammatical",
+        "explanation": "上がる表示音量本身升高，不能在这里接「音量を」作直接宾语；若说音量自行升高，应写「音量が上がりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "音响师调高了大厅扬声器的音量。",
+    "explanation": "句子明确写出调高音量的人和被调节的数值。",
+    "hint": "辨认谁调高音量，以及哪一项数值被调高。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.raise.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "radio-volume-rises-unprompted",
+    "scene": "没人碰旋钮，老式收音机的音量突然变大。",
+    "before": [
+      {
+        "text": "誰もつまみに触れていないのに、古いラジオの音量が急に",
+        "reading": "だれもつまみにふれていないのに、ふるいラジオのおんりょうがきゅうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "correct",
+        "explanation": "收音机音量自行升高，音量是发生变化的数值，使用上がる。"
+      },
+      {
+        "id": "b",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "meaning-mismatch",
+        "explanation": "上げる表示施事提高某项数值；若省略对象，音量会被读成提高其他东西的一方，而场景说的是音量本身突然升高。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "没人碰旋钮，老式收音机的音量却突然升高了。",
+    "explanation": "句子描写音量发生变化，没有写出调高音量的人。",
+    "hint": "看音量是自行升高，还是有人把它调高。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.raise.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "baker-raises-oven-temperature",
+    "scene": "面团醒发完成，面包师调高了烤箱温度。",
+    "before": [
+      {
+        "text": "パン職人がオーブンの温度を",
+        "reading": "ぱんしょくにんがオーブンのおんどを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "correct",
+        "explanation": "面包师主动提高烤箱温度，温度是被调高的数值。"
+      },
+      {
+        "id": "b",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "ungrammatical",
+        "explanation": "上がる表示温度本身升高，不能在当前句架中接「温度を」作为直接宾语；要描述温度升高，需改为「温度が上がりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "面包师调高了烤箱温度。",
+    "explanation": "句中写明了调节温度的施事。",
+    "hint": "确认面包师是调高温度的人，温度是被调节的对象。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.raise.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.raise",
+    "familyId": "verb.raise",
+    "lexicalKey": "greenhouse-temperature-rises-in-sun",
+    "scene": "云层散开后，阳光照进温室，室内温度随之升高。",
+    "before": [
+      {
+        "text": "雲が切れて日が差すと、温室の温度が",
+        "reading": "くもがきれてひがさすと、おんしつのおんどが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "上がりました",
+        "reading": "あがりました",
+        "verdict": "correct",
+        "explanation": "阳光照入后温室温度升高，温度本身发生变化，使用上がる。"
+      },
+      {
+        "id": "b",
+        "text": "上げました",
+        "reading": "あげました",
+        "verdict": "meaning-mismatch",
+        "explanation": "上げる表示施事提高某个对象；若使用此项，温室温度会被理解成提高其他事物的一方，而场景说的是温度随着日照升高。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "云散开、阳光照进来后，温室的温度升高了。",
+    "explanation": "句子报告温室温度变化，没有写出主动调温的人。",
+    "hint": "判断温度是升高的对象，还是升高其他东西的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

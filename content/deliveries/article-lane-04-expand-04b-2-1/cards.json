@@ -1,0 +1,94 @@
+[
+  {
+    "id": "verb.refgaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgaa",
+    "familyId": "verb.refgaa",
+    "lexicalKey": "起きる/起こす",
+    "scene": "打烊后，一名顾客在店内闹出骚动",
+    "before": [
+      {
+        "text": "閉店後、客の一人が店内で騒ぎを",
+        "reading": "へいてんご、きゃくのひとりがてんないでさわぎを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "起こした",
+        "reading": "おこした",
+        "verdict": "correct",
+        "explanation": "顾客是引发骚动的主体，「騒ぎを」标出其造成的事情。"
+      },
+      {
+        "id": "b",
+        "text": "起きた",
+        "reading": "おきた",
+        "verdict": "ungrammatical",
+        "explanation": "「騒ぎを」标出由人引发的事情；「起きる」描述事件自行发生，通常说「騒ぎが起きた」，不能保留此处的「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "打烊后，一名顾客在店内闹出了一场骚动。",
+    "explanation": "句子把顾客写成引发骚动的主体，「騒ぎを」标出他所引发的事情。",
+    "hint": "留意「騒ぎ」在句中是顾客引发的事情，还是自行发生的事件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refica.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refica",
+    "familyId": "verb.refica",
+    "lexicalKey": "汚れる/汚す（けがれる/けがす）",
+    "scene": "不正交易曝光后，社长的名誉受损",
+    "before": [
+      {
+        "text": "不正な取引が発覚し、社長の名誉が",
+        "reading": "ふせいなとりひきがはっかくし、しゃちょうのめいよが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚れた",
+        "reading": "けがれた",
+        "verdict": "correct",
+        "explanation": "曝光的不正交易损害了社长的名誉；名誉是受损的一方，符合「けがれる」的抽象义。"
+      },
+      {
+        "id": "b",
+        "text": "汚した",
+        "reading": "けがした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「汚す」表示施事损害某个对象；本句把名誉写成受损的一方，没有把它写成损害别物的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "不正交易曝光后，社长的名誉受到了损害。",
+    "explanation": "句子描述社长的名誉因不正交易曝光而受损，使用的是表示抽象污损的「けがれる」。",
+    "hint": "留意句中「名誉」是受损的一方，还是对别的对象施加损害的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

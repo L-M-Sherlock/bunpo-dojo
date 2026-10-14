@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_06_6b1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-06b-1.draft.json",
+  "at": "2026-10-14T02:45:33.866Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.reftaa.04",
+      "hash": "9b1ba93d2fb942be74e69c9b15c8c3540064c4387c6ff08b6afe3223945586cd",
+      "fullSentences": [
+        "スカートの裾上げで、折り返した布に待ち針を何本か刺した。"
+      ]
+    },
+    {
+      "id": "verb.refwaa.01",
+      "hash": "d52223497a39c6e7de2934ce74268bada95fd4f0b4e339de953efaa081ef3d0d",
+      "fullSentences": [
+        "オンライン書店では限定版の冊子の注文が相次ぎ、在庫がなくなった。"
+      ]
+    },
+    {
+      "id": "verb.refwaa.02",
+      "hash": "b7b96309667d565f139894bd1ed493b2a5f9c6a35cbe85e59486cdfe4a0fd074",
+      "fullSentences": [
+        "図書館の貸出カードをなくし、カウンターで再発行を申し込んだ。"
+      ]
+    }
+  ]
+}

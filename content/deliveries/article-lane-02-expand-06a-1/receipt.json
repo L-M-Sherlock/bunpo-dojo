@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_6a1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-06a-1.draft.json",
+  "at": "2026-10-14T02:23:06.654Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refrfa.04",
+      "hash": "952be7a33219338e95706f3bdd2d420feaa7a37ff2ab46016b1ea91761dcd6f6",
+      "fullSentences": [
+        "法要が始まる前、僧侶は仏前のろうそくに火を灯した。"
+      ]
+    },
+    {
+      "id": "verb.refsda.01",
+      "hash": "c099df72e337122135b981e507b78fc66a9bee5325840ffba392607855f03a31",
+      "fullSentences": [
+        "台風が過ぎた朝、庭の椿の花びらが石段に散った。"
+      ]
+    },
+    {
+      "id": "verb.refsda.02",
+      "hash": "22a41b047674c37d18eb7a923d09c139bd42c921d4268c1cff3b26e469d52dd9",
+      "fullSentences": [
+        "コラージュ作りでは、子どもたちは白い台紙に赤や金の色紙を間隔をあけて散らした。"
+      ]
+    },
+    {
+      "id": "verb.refsda.03",
+      "hash": "019879e39fe63ee56debc871adb3b8542161417291081171122f997d5da8542e",
+      "fullSentences": [
+        "花火が開いた瞬間、色とりどりの火花が夜空に散った。"
+      ]
+    }
+  ]
+}

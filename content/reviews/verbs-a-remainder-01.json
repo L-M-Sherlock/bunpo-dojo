@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.off.02", "hash": "86bd46b9606c37649b0f895152cbd0c880e82de522465dd3499e972e21e45aa5", "fullSentences": ["父は寝る前に居間の電気を消しました。"], "status": "approved",
+      "reason": "父亲睡前关客厅的灯，父は是施事、電気を是对象，消す符合 transitive 分配；句子自然。",
+      "answerSet": "a 唯一正确；b 消える不能将「電気を」接作直接宾语。",
+      "readings": "父＝ちち、寝る＝ねる、前＝まえ、居間＝いま、電気＝でんき；消しました＝けしました、消えました＝きえました。",
+      "translation": "译文准确保留睡前、父亲与客厅灯三个要点，没有擅加关灯原因。",
+      "options": "a correct 准确；b ungrammatical 对当前「電気を」句架成立，灯自行熄灭应写「電気が消えました」。"
+    },
+    {
+      "id": "verb.off.03", "hash": "f2c1a89d8d4556940a74bfcf11e6b8d2eabd32364425230c9f5f4f237e3a07c0", "fullSentences": ["電球が切れて、路地の街灯は消えました。"], "status": "approved",
+      "reason": "灯泡坏后巷内路灯熄灭，街灯は是状态变化主题，消える符合 intransitive 分配；前后因果自然。",
+      "answerSet": "a 是与灯泡故障导致熄灯相符的答案；b 可把「街灯は」作话题、另省略关灯的人，但会改成有人关灯的另一事件，与场景不符。",
+      "readings": "電球＝でんきゅう、切れて＝きれて、路地＝ろじ、街灯＝がいとう；消えました＝きえました、消しました＝けしました，逗号对应。",
+      "translation": "译文准确表达灯泡烧坏后巷子里的路灯熄灭，没有把场景中的巷口强加给日语。",
+      "options": "a correct 准确；b meaning-mismatch 准确。以「街灯は」作话题、关灯施事省略的读法语法上可行，但不能表示灯泡坏而自行熄灭。"
+    },
+    {
+      "id": "verb.off.04", "hash": "b9fefab8a057778404f3457eb2375a02e0bbaa14ac89f741c8dd0c8b75ed4b52", "fullSentences": ["清掃員は客室の掃除を終えて、照明を消しました。"], "status": "approved",
+      "reason": "清洁员打扫完客房后关照明，清掃員为施事、照明を为对象，消す符合 transitive 分配；句子自然。",
+      "answerSet": "a 唯一正确；b 消える不能接「照明を」为直接宾语。",
+      "readings": "清掃員＝せいそういん、客室＝きゃくしつ、掃除＝そうじ、終えて＝おえて、照明＝しょうめい；消しました＝けしました、消えました＝きえました。",
+      "translation": "译文准确包含客房打扫完成后清洁员关闭照明，没有增写结果或原因。",
+      "options": "a correct 准确；b ungrammatical 对此固定句段成立，照明自行熄灭须用「照明が消えました」。"
+    },
+    {
+      "id": "verb.off.05", "hash": "a986e28bf815914a616c78e912d68ecea963b56acf250d36c78bd67d9fc570c7", "fullSentences": ["夜風が吹いて、テラスのランタンの火は消えました。"], "status": "approved",
+      "reason": "夜风吹来后露台提灯火光熄灭，火は作变化主题，消える符合 intransitive 分配；完整句自然。",
+      "answerSet": "a 与风吹过后火熄灭的场景一致；b 可把「火は」当话题、另省略熄火者，但不能表达本题的火自行熄灭。",
+      "readings": "夜風＝よかぜ、吹いて＝ふいて、火＝ひ；テラス、ランタン保留片假名，消えました＝きえました、消しました＝けしました。",
+      "translation": "译文准确表达夜风吹过及露台提灯火光熄灭，未添加人为熄火。",
+      "options": "a correct 准确；b meaning-mismatch 准确。「火は消しました」可理解成有人把作为话题的火熄掉，但与风导致火光熄灭的场景不同。"
+    },
+    {
+      "id": "verb.break.01", "hash": "5f95f1640d2d09e1cc47fba2394f8013dc05ac78a1d3adf9277abe30268a6795", "fullSentences": ["本を詰めすぎて、古い段ボール箱が壊れました。"], "status": "approved",
+      "reason": "旧纸箱因塞入太多书而损坏，段ボール箱が为受损主体，壊れる符合 intransitive 分配；结构性损坏可用壊れる表达。",
+      "answerSet": "a 唯一表示纸箱自身损坏；b 会将纸箱当成弄坏另一个对象的施事。",
+      "readings": "本＝ほん、詰めすぎて＝つめすぎて、古い＝ふるい、段ボール箱＝だんボールばこ；壊れました＝こわれました、壊しました＝こわしました。",
+      "translation": "译文准确传达装书过多使旧纸箱坏了，没有擅说书受损。",
+      "options": "a correct 准确；b meaning-mismatch 准确，壊す即使省略宾语，也会表示纸箱损坏别物而非纸箱自己坏。"
+    }
+  ]
+}

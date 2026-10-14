@@ -1,0 +1,274 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.07",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "travelers-go-to-kanazawa-in-autumn",
+    "scene": "两位旅客订好秋天的旅馆，计划去金泽看兼六园。",
+    "before": [
+      {
+        "text": "旅行客は秋に金沢",
+        "reading": "りょこうきゃくはあきにかなざわ"
+      }
+    ],
+    "after": [
+      {
+        "text": "行きます。",
+        "reading": "いきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ指出旅客秋天前往的目的地金泽。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に也可以标行く的目的地，金泽在此是旅行终点。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把金泽解释为出发地点，而场景中的旅客计划前往金泽。"
+      }
+    ],
+    "answerIds": [
+      "e",
+      "ni"
+    ],
+    "translation": "旅客秋天要去金泽。",
+    "explanation": "表示前往的目的地时，金泽后可接へ或に。",
+    "hint": "判断金泽在行く这句话中是起点还是终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.08",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "doctor-comes-to-patient-room",
+    "scene": "我在病房休息，护士说担当医生马上会来房间查看。",
+    "before": [
+      {
+        "text": "担当医が病室",
+        "reading": "たんとういがびょうしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "来ます。",
+        "reading": "きます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "病室是医生要来的目的地，用に标出自然。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ也可以表示医生来访所指向的病室。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把病室说成医生离开的地点；场景是医生要来病房。"
+      }
+    ],
+    "answerIds": [
+      "ni",
+      "e"
+    ],
+    "translation": "担当医生要来病房。",
+    "explanation": "以病房里的患者为视点，病室是来ます所指的终点。",
+    "hint": "留意说话者所在的位置，以及医生移动的终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.09",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "nurse-returns-home-after-night-shift",
+    "scene": "夜班结束后，护士清晨乘车回家休息。",
+    "before": [
+      {
+        "text": "夜勤が終わって、看護師は早朝に自宅",
+        "reading": "やきんがおわって、かんごしはそうちょうにじたく"
+      }
+    ],
+    "after": [
+      {
+        "text": "帰ります。",
+        "reading": "かえります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出护士下班后返回的家。"
+      },
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ也能标帰る所指向的目的地自宅。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会表示护士从家出发；场景说她下班后回家。"
+      }
+    ],
+    "answerIds": [
+      "ni",
+      "e"
+    ],
+    "translation": "夜班结束后，护士清晨回家。",
+    "explanation": "帰る的目的地可以由に或へ标记。",
+    "hint": "判断自宅是夜班后的出发点还是回去的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.destination.10",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "pupils-go-to-gym-after-assembly-move",
+    "scene": "晨会地点因下雨改到体育馆，学生们朝那里移动。",
+    "before": [
+      {
+        "text": "朝礼の場所が体育館に変わり、児童は体育館",
+        "reading": "ちょうれいのばしょがたいいくかんにかわり、じどうはたいいくかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "行きます。",
+        "reading": "いきます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "e",
+        "text": "へ",
+        "reading": "え",
+        "verdict": "correct",
+        "explanation": "へ标出学生前往晨会新地点体育馆的方向。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に也可以标行く的目的地，体育馆是学生们移动的终点。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "meaning-mismatch",
+        "explanation": "から会把体育馆说成学生的出发点；场景将体育馆设为晨会的新地点。"
+      }
+    ],
+    "answerIds": [
+      "e",
+      "ni"
+    ],
+    "translation": "晨会地点改到体育馆后，学生们前往体育馆。",
+    "explanation": "体育馆是学生前往的目的地，に与へ均可使用。",
+    "hint": "看学生是从体育馆出发，还是移动到那里参加晨会。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.01",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-airport-shuttle-bus",
+    "scene": "航站楼外，旅客排队等候前往市区的接驳巴士。",
+    "before": [
+      {
+        "text": "旅行客は空港でシャトルバス",
+        "reading": "りょこうきゃくはくうこうでシャトルバス"
+      }
+    ],
+    "after": [
+      {
+        "text": "乗ります。",
+        "reading": "のります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "乗る表示搭乘巴士时，交通工具作为乘坐对象用に标记。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "标准日语中乗る搭配乘坐对象时用に；を可用于某些动作对象或离开处所，不能在这里标搭乘的巴士。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "旅客在机场乘坐接驳巴士。",
+    "explanation": "乗る所乘坐的交通工具用に标记。",
+    "hint": "想想巴士在句子里是乘坐对象，还是离开的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

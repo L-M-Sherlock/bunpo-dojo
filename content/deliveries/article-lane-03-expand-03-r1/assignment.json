@@ -1,0 +1,61 @@
+[
+  {
+    "id": "verb.refcea.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcea",
+    "familyId": "verb.refcea",
+    "pair": {
+      "id": "verb.refcea",
+      "intransitive": "溶ける",
+      "intransitiveReading": "とける",
+      "transitive": "溶く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「溶ける／溶く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refcja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcja",
+    "familyId": "verb.refcja",
+    "pair": {
+      "id": "verb.refcja",
+      "intransitive": "弾ける",
+      "intransitiveReading": "はじける",
+      "transitive": "弾く",
+      "transitiveReading": "はじく",
+      "meaning": "辨析「弾ける／弾く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 10
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  }
+]

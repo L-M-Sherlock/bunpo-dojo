@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_04",
+  "source": "work/content/article-pairs-20261014/lane-04/pilot.draft.json",
+  "at": "2026-10-13T17:10:31.662Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refafa.01",
+      "hash": "6608548de7219980f338946553cde6038bd1c58cee9cc9a7f3102c236877a631",
+      "fullSentences": [
+        "台風の雨で、裏庭に掘ってあった穴が泥水で埋まった。"
+      ]
+    },
+    {
+      "id": "verb.refafa.02",
+      "hash": "1985396c6b61a758998a6e5cf414d341ac0a633a17e75fc405f2e5790cbac8ae",
+      "fullSentences": [
+        "町内会の人たちは、地震でできた道路の穴を土のうで埋めた。"
+      ]
+    },
+    {
+      "id": "verb.refafa.03",
+      "hash": "0a22f5a8cb872e6435149ea35f1265a4a2033e4e05aa4972a046d037637fee66",
+      "fullSentences": [
+        "卒業式帰りの客が押し寄せ、駅前の喫茶店の空席が次々に埋まった。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refeca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "pair": {
+      "id": "verb.refeca",
+      "intransitive": "費える",
+      "intransitiveReading": "ついえる",
+      "transitive": "費やす",
+      "transitiveReading": "ついやす",
+      "meaning": "辨析「費える／費やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "pair": {
+      "id": "verb.reffba",
+      "intransitive": "伸びる",
+      "intransitiveReading": "のびる",
+      "transitive": "伸ばす",
+      "transitiveReading": "のばす",
+      "meaning": "辨析「伸びる／伸ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reffba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "pair": {
+      "id": "verb.reffba",
+      "intransitive": "伸びる",
+      "intransitiveReading": "のびる",
+      "transitive": "伸ばす",
+      "transitiveReading": "のばす",
+      "meaning": "辨析「伸びる／伸ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffba",
+    "familyId": "verb.reffba",
+    "pair": {
+      "id": "verb.reffba",
+      "intransitive": "伸びる",
+      "intransitiveReading": "のびる",
+      "transitive": "伸ばす",
+      "transitiveReading": "のばす",
+      "meaning": "辨析「伸びる／伸ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

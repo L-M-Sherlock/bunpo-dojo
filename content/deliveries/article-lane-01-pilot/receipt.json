@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_01",
+  "source": "work/content/article-pairs-20261014/lane-01/pilot.draft.json",
+  "at": "2026-10-13T17:09:47.083Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refaba.01",
+      "hash": "0d6d4501ca52a7819824d91a2a6139969eb739391c3b651f9845b92e2ed41482",
+      "fullSentences": [
+        "朝から日なたに置いていた座布団が、昼前にはすっかり温まっていた。"
+      ]
+    },
+    {
+      "id": "verb.refaba.02",
+      "hash": "5aef95caaccf067b428c9aa527bf6c11c8dc63c18c51768024748a5677647683",
+      "fullSentences": [
+        "飲む前に、冷蔵庫から出した牛乳を小鍋で飲みやすい温度まで温めた。"
+      ]
+    },
+    {
+      "id": "verb.refaba.03",
+      "hash": "88cfc8f239689adb6040a56c20436a6b3b3ffccc54e4dd799da3e4074fd518bf",
+      "fullSentences": [
+        "寒い朝に駅まで歩くうち、かじかんでいた指先も少し温まった。"
+      ]
+    }
+  ]
+}

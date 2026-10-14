@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_4a1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-04a-1.draft.json",
+  "at": "2026-10-14T02:13:34.687Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refdaa.04",
+      "hash": "b5caa2ef8a65655ce6a35d83aa082ef10efba28513ed4212d837a3186f987219",
+      "fullSentences": [
+        "研究者は講演後、聴衆からの質問に答え、発見に至った経緯を明かした。"
+      ]
+    },
+    {
+      "id": "verb.refdga.01",
+      "hash": "4f87998484bd34e0b8db6b7ab88692b33aab622291ef9747c628220a9218cc32",
+      "fullSentences": [
+        "厨房に配属された新人は、数週間の練習を経て、魚をおろす手順に慣れた。"
+      ]
+    },
+    {
+      "id": "verb.refdga.02",
+      "hash": "cbe327d2057b4e7c3f6176ebdbc40a46087437c8658f1eaf54cb46612386d4be",
+      "fullSentences": [
+        "保護施設の職員は、警戒心の強い子犬を人の声に少しずつ慣らした。"
+      ]
+    },
+    {
+      "id": "verb.refdga.03",
+      "hash": "63e7ea3bc1579b9c38a90ec12e4d0077a10768583baca58351fe4f6434de2049",
+      "fullSentences": [
+        "山小屋に初めて泊まった登山者は、三日目には夜中の物音に慣れたため、朝まで眠れた。"
+      ]
+    }
+  ]
+}

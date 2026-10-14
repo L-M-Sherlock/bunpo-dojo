@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refaba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "lexicalKey": "microwaved-soup",
+    "scene": "开饭前把冰箱取出的汤用微波炉充分加热。",
+    "before": [
+      {
+        "text": "食事の前に、冷蔵庫から出したスープを電子レンジで十分に",
+        "reading": "しょくじのまえに、れいぞうこからだしたスープをでんしレンジでじゅうぶんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "温めた",
+        "reading": "あたためた",
+        "verdict": "correct",
+        "explanation": "句子写有人用微波炉把汤加热；「スープを」标出受加温的对象，用他动词「温める」。"
+      },
+      {
+        "id": "b",
+        "text": "温まった",
+        "reading": "あたたまった",
+        "verdict": "ungrammatical",
+        "explanation": "「温まる」描述汤自身变暖，变化主体应以「が」标记；这里「スープを」是直接宾语，不能接自动词「温まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "开饭前，把从冰箱取出的汤用微波炉充分加热了。",
+    "explanation": "汤是微波炉加热的对象，句子表达的是人为改变它的温度。",
+    "hint": "留意句中汤是自身发生变化，还是动作直接作用的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "lexicalKey": "inn-callback",
+    "scene": "预订的旅馆来电询问抵达时间。",
+    "before": [
+      {
+        "text": "予約先の旅館から、到着時刻を尋ねる電話が",
+        "reading": "よやくさきのりょかんから、とうちゃくじこくをたずねるでんわが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "掛かってきた",
+        "reading": "かかってきた",
+        "verdict": "correct",
+        "explanation": "旅馆打来的电话作为来电到达，句中「電話が」是发生的事件，用自动词「掛かる」。"
+      },
+      {
+        "id": "b",
+        "text": "掛けてきた",
+        "reading": "かけてきた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「掛けてくる」表示来电者主动打电话；此句把「電話が」作为到来的来电，场景没有把电话本身写成打电话的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "预订的旅馆打来电话询问抵达时间。",
+    "explanation": "句子报告的是一通电话从旅馆打来，不是在描写旅馆一方主动拨号的动作结构。",
+    "hint": "看清句中的「電話が」是到达的来电，还是被某个来电者拨出的电话。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "lexicalKey": "staff-calls-reserver",
+    "scene": "工作人员打电话给预约者，确认出发时间。",
+    "before": [
+      {
+        "text": "係員は出発時刻を確かめるため、予約者に電話を",
+        "reading": "かかりいんはしゅっぱつじこくをたしかめるため、よやくしゃにでんわを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "掛けた",
+        "reading": "かけた",
+        "verdict": "correct",
+        "explanation": "工作人员主动拨打电话给预约者；「電話を」标出拨打的对象，用他动词「掛ける」。"
+      },
+      {
+        "id": "b",
+        "text": "掛かった",
+        "reading": "かかった",
+        "verdict": "ungrammatical",
+        "explanation": "这里「電話を」是直接宾语；自动词「掛かる」表示电话到来，不能在这个句框中接「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工作人员为确认出发时间，给预约者打了电话。",
+    "explanation": "句子写工作人员执行拨打电话的动作，电话是动作对象。",
+    "hint": "留意谁拨出电话，以及句中哪个名词受这个动作支配。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "lexicalKey": "gallery-landscape",
+    "scene": "小画廊深处的白墙上有当地画家的风景画。",
+    "before": [
+      {
+        "text": "小さな画廊に入ると、奥の白い壁に地元画家の風景画が",
+        "reading": "ちいさながろうにはいると、おくのしろいかべにじもとがかのふうけいがが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "掛かっていた",
+        "reading": "かかっていた",
+        "verdict": "correct",
+        "explanation": "风景画处于挂在墙上的状态；「風景画が」标记所处状态的事物，用自动词「掛かる」。"
+      },
+      {
+        "id": "b",
+        "text": "掛けていた",
+        "reading": "かけていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「掛ける」也可省略宾语，但这样会把风景画说成挂起别物的施事；本场景中画是挂在墙上的物件，角色不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "走进小画廊，深处的白墙上挂着当地画家的风景画。",
+    "explanation": "句子描写风景画所处的悬挂状态，没有描写画去挂起其他物件。",
+    "hint": "判断风景画是处于什么状态，还是在执行某个动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "lexicalKey": "apron-hook",
+    "scene": "母亲把洗好的围裙挂到厨房挂钩上。",
+    "before": [
+      {
+        "text": "母は洗ったエプロンを台所のフックに",
+        "reading": "はははあらったエプロンをだいどころのフックに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "掛けた",
+        "reading": "かけた",
+        "verdict": "correct",
+        "explanation": "母亲把围裙挂到厨房挂钩上；「エプロンを」是她挂起的对象，用他动词「掛ける」。"
+      },
+      {
+        "id": "b",
+        "text": "掛かった",
+        "reading": "かかった",
+        "verdict": "ungrammatical",
+        "explanation": "「掛かる」表示物件处于悬挂状态；这里「エプロンを」是直接宾语，不能接自动词「掛かった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲把洗好的围裙挂到了厨房挂钩上。",
+    "explanation": "句子中的母亲主动把围裙放到挂钩上，围裙是动作对象。",
+    "hint": "对照母亲和围裙，判断谁执行动作、什么受到动作影响。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refara.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "lexicalKey": "students-join-drill",
+    "scene": "附近的高中生加入了社区防灾演练。",
+    "before": [
+      {
+        "text": "地域の防災訓練に、近所の高校生が",
+        "reading": "ちいきのぼうさいくんれんに、きんじょのこうこうせいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "加わった",
+        "reading": "くわわった",
+        "verdict": "correct",
+        "explanation": "高中生进入社区防灾演练的参与群体；他们是加入活动的一方，用自动词「加わる」。"
+      },
+      {
+        "id": "b",
+        "text": "加えた",
+        "reading": "くわえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「加える」可省略宾语，但会把高中生作为把某人或某物纳入活动的施事；场景写的是他们自己加入演练。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "附近的高中生加入了社区防灾演练。",
+    "explanation": "高中生从外部进入活动群体，是加入的一方。",
+    "hint": "判断高中生是加入活动的人，还是把别的对象纳入活动的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refara.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "lexicalKey": "parsley-in-curry",
+    "scene": "料理人完成咖喱时加入了切碎的欧芹。",
+    "before": [
+      {
+        "text": "カレーを仕上げるとき、料理人は刻んだパセリを",
+        "reading": "カレーをしあげるとき、りょうりにんはきざんだパセリを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "加えた",
+        "reading": "くわえた",
+        "verdict": "correct",
+        "explanation": "料理人在完成咖喱时把切碎的欧芹放入其中；「パセリを」是添加对象，用他动词「加える」。"
+      },
+      {
+        "id": "b",
+        "text": "加わった",
+        "reading": "くわわった",
+        "verdict": "ungrammatical",
+        "explanation": "「加わる」描述欧芹自身加入某个群体或混合物；这里「パセリを」是直接宾语，不能接自动词「加わった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "料理人完成咖喱时加入了切碎的欧芹。",
+    "explanation": "料理人主动把食材放进咖喱，欧芹是添加的对象。",
+    "hint": "留意句中谁把什么放进咖喱里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refara.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "lexicalKey": "clarinet-joins-quartet",
+    "scene": "返场时，客席单簧管演奏者加入了弦乐四重奏。",
+    "before": [
+      {
+        "text": "アンコールでは、客演のクラリネット奏者が弦楽四重奏に",
+        "reading": "アンコールでは、きゃくえんのクラリネットそうしゃがげんがくしじゅうそうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "加わった",
+        "reading": "くわわった",
+        "verdict": "correct",
+        "explanation": "客演的单簧管演奏者成为弦乐四重奏演出阵容的一员，用自动词「加わる」。"
+      },
+      {
+        "id": "b",
+        "text": "加えた",
+        "reading": "くわえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「加える」会把演奏者解释成把其他人或事物纳入演出阵容的施事；场景中这位演奏者本人加入了四重奏。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "返场时，客演的单簧管演奏者加入了弦乐四重奏。",
+    "explanation": "单簧管演奏者进入原有的合奏阵容，是加入的一方。",
+    "hint": "留意这位演奏者在合奏阵容中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refara.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "lexicalKey": "comment-added-to-minutes",
+    "scene": "记录员把缺席成员发来的意见补入会议纪要。",
+    "before": [
+      {
+        "text": "議事録係は欠席者から届いた意見を議事録に",
+        "reading": "ぎじろくがかりはけっせきしゃからとどいたいけんをぎじろくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "加えた",
+        "reading": "くわえた",
+        "verdict": "correct",
+        "explanation": "记录员把缺席者的意见补充到会议纪要中；「意見を」是添加对象，用他动词「加える」。"
+      },
+      {
+        "id": "b",
+        "text": "加わった",
+        "reading": "くわわった",
+        "verdict": "ungrammatical",
+        "explanation": "「加わる」描述意见成为纪要的一部分，通常以「意見が」标记加入者；此处「意見を」是直接宾语，不能接自动词「加わった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "记录员把缺席者发来的意见补入了会议纪要。",
+    "explanation": "记录员执行添加动作，缺席者的意见是被加入纪要的内容。",
+    "hint": "比较记录员和意见，判断谁执行了补充动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaya.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "lexicalKey": "cave-passage-narrows",
+    "scene": "往洞窟深处走，通道的宽度逐渐缩小。",
+    "before": [
+      {
+        "text": "洞窟の奥へ進むにつれ、通路の幅が次第に",
+        "reading": "どうくつのおくへすすむにつれ、つうろのはばがしだいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "狭まった",
+        "reading": "せばまった",
+        "verdict": "correct",
+        "explanation": "越往洞窟深处，通道自身变窄；「通路の幅が」是宽度发生变化的主体，用自动词「狭まる」。"
+      },
+      {
+        "id": "b",
+        "text": "狭めた",
+        "reading": "せばめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「狭める」可省略宾语，但会把通道宽度说成缩窄别物的施事；场景描述的是通道宽度自身缩小。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "越往洞窟深处走，通道的宽度就逐渐缩小。",
+    "explanation": "通道宽度随着深入而发生变化，句子没有写谁去缩窄它。",
+    "hint": "判断通道宽度是在发生变化，还是在对别的对象施加动作。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaya.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "lexicalKey": "work-fence-narrows-walkway",
+    "scene": "施工负责人把临时围栏移向人行道，缩窄了可通行的宽度。",
+    "before": [
+      {
+        "text": "工事責任者は仮設柵を歩道側へ移し、通行できる幅を",
+        "reading": "こうじせきにんしゃはかせつさくをほどうがわへうつし、つうこうできるはばを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "狭めた",
+        "reading": "せばめた",
+        "verdict": "correct",
+        "explanation": "负责人移动围栏，主动缩小了可通行的宽度；「幅を」是被缩窄的对象，用他动词「狭める」。"
+      },
+      {
+        "id": "b",
+        "text": "狭まった",
+        "reading": "せばまった",
+        "verdict": "ungrammatical",
+        "explanation": "「狭まる」描述宽度自身变窄；这里「通行できる幅を」是动作直接作用的对象，不能接自动词「狭まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "施工负责人把临时围栏移向人行道，缩窄了可通行的宽度。",
+    "explanation": "施工负责人通过移动围栏主动改变了通行宽度。",
+    "hint": "留意负责人做了什么，以及哪一部分宽度受到了影响。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaya.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "lexicalKey": "investigation-scope-contracts",
+    "scene": "随着资料增加，必须调查的范围逐渐缩小。",
+    "before": [
+      {
+        "text": "資料が増えるにつれて、調べる必要のある範囲が",
+        "reading": "しりょうがふえるにつれて、しらべるひつようのあるはんいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "狭まっていった",
+        "reading": "せばまっていった",
+        "verdict": "correct",
+        "explanation": "随着资料增加，所需调查的范围自身逐步变小；「範囲が」是变化主体，用自动词「狭まる」。"
+      },
+      {
+        "id": "b",
+        "text": "狭めていった",
+        "reading": "せばめていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「狭める」可省略宾语，但会把调查范围说成逐步缩窄别物的施事；本句写的是范围自身缩小。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "随着资料增加，必须调查的范围逐渐缩小。",
+    "explanation": "句子描述调查范围本身逐步变窄，没有写一个执行缩窄动作的施事。",
+    "hint": "观察句中变化的是调查范围本身，还是一个执行动作的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaya.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "lexicalKey": "city-restricts-walking-zone",
+    "scene": "市政府封闭仍有落石风险的斜坡，缩小了行人可通行的区域。",
+    "before": [
+      {
+        "text": "市は落石の危険が残る斜面を立ち入り禁止にし、歩行者が通れる区域を",
+        "reading": "しはらくせきのきけんがのこるしゃめんをたちいりきんしにし、ほこうしゃがとおれるくいきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "狭めた",
+        "reading": "せばめた",
+        "verdict": "correct",
+        "explanation": "市政府封闭危险斜坡，主动限制行人能够通行的区域；「区域を」是被缩小的范围，用他动词「狭める」。"
+      },
+      {
+        "id": "b",
+        "text": "狭まった",
+        "reading": "せばまった",
+        "verdict": "ungrammatical",
+        "explanation": "「狭まる」表示区域自身变小；这里「区域を」是市政府缩小的对象，不能接自动词「狭まった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市政府封闭仍有落石风险的斜坡，缩小了行人可通行的区域。",
+    "explanation": "市政府执行限制措施，行人可通行的区域是受影响对象。",
+    "hint": "对照市政府采取的措施与行人通行区域的变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "lexicalKey": "old-road-reconnects-villages",
+    "scene": "山路修复后，原本隔开的两个村落又通过旧道连通了。",
+    "before": [
+      {
+        "text": "山道の復旧が終わり、離れていた二つの集落が再び旧道で",
+        "reading": "やまみちのふっきゅうがおわり、はなれていたふたつのしゅうらくがふたたびきゅうどうで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "繋がった",
+        "reading": "つながった",
+        "verdict": "correct",
+        "explanation": "山路修复后，两个村落重新彼此连通；「集落が」标出相连的一方，用自动词「繋がる」。"
+      },
+      {
+        "id": "b",
+        "text": "繋げた",
+        "reading": "つなげた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「繋げる」可省略宾语，但会把两个村落说成连接别物的施事；本场景写的是村落之间恢复了连接。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山路修复后，原本隔开的两个村落又通过旧道连通了。",
+    "explanation": "旧道恢复通行后，两个村落之间重新连成一片。",
+    "hint": "判断句子描述的是两个村落之间形成连接，还是村落在连接其他对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "lexicalKey": "climber-joins-rope-sections",
+    "scene": "登山者把两根短绳接在一起，用来固定帐篷。",
+    "before": [
+      {
+        "text": "登山者は短いロープを二本",
+        "reading": "とざんしゃはみじかいロープをにほん"
+      }
+    ],
+    "after": [
+      {
+        "text": "、テントを固定した。",
+        "reading": "、テントをこていした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "繋げて",
+        "reading": "つなげて",
+        "verdict": "correct",
+        "explanation": "登山者把两根短绳连接起来；「ロープを」标出被连接的对象，用他动词「繋げる」。"
+      },
+      {
+        "id": "b",
+        "text": "繋がって",
+        "reading": "つながって",
+        "verdict": "ungrammatical",
+        "explanation": "「繋がる」表示绳子彼此相连，变化主体应以「が」标记；这里「ロープを二本」是直接宾语，不能接自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者把两根短绳接在一起，固定了帐篷。",
+    "explanation": "登山者执行连接动作，两根短绳是被接在一起的对象。",
+    "hint": "留意句中是谁把两根绳子接在一起。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaaea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "lexicalKey": "fiber-line-restored",
+    "scene": "通信公司检查后，中断的光纤线路于傍晚重新连通。",
+    "before": [
+      {
+        "text": "通信会社の点検が終わり、切れていた光回線が夕方に再び",
+        "reading": "つうしんがいしゃのてんけんがおわり、きれていたひかりかいせんがゆうがたにふたたび"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "繋がった",
+        "reading": "つながった",
+        "verdict": "correct",
+        "explanation": "检查结束后，原先中断的光纤线路恢复了连接；「光回線が」是状态变化主体，用自动词「繋がる」。"
+      },
+      {
+        "id": "b",
+        "text": "繋げた",
+        "reading": "つなげた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「繋げる」可省略宾语，但会把光纤线路说成连接别物的施事；此处线路自身恢复连通。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "通信公司检查结束后，中断的光纤线路于傍晚重新连通。",
+    "explanation": "句子报告线路恢复连接的状态变化，没有把线路写成连接其他物件的施事。",
+    "hint": "判断光纤线路是在恢复连接，还是主动连接其他对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

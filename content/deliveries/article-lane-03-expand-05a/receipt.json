@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_03_recovery",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-05a.draft.json",
+  "at": "2026-10-14T01:28:18.556Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refiba.04",
+      "hash": "ded54c3e703b56aa201dec1de2dc796e08f540c6f55ebf3f41a1c714d8806bd9",
+      "fullSentences": [
+        "妹に見つからないよう、姉は誕生日プレゼントを押し入れの奥に隠しました。"
+      ]
+    },
+    {
+      "id": "verb.refiia.01",
+      "hash": "5a9cf0d6903a9ffe9d75c5c3c80f71d04d9e288d4d1944f954cb25f8ec26f306",
+      "fullSentences": [
+        "津波警報を受け、住民は高台へ避難して浸水の危険から逃れました。"
+      ]
+    },
+    {
+      "id": "verb.refiia.02",
+      "hash": "0228846e1754ff38aed1910f4c9f15857fc69b1050af583e2720d61f4de1a96a",
+      "fullSentences": [
+        "申込期限を過ぎたため、学生は奨学金に応募する機会を逃しました。"
+      ]
+    },
+    {
+      "id": "verb.refiia.03",
+      "hash": "ceb10df2eb7444683de5355c1174c6d9ce698ee05c06c122d82839db82bd4535",
+      "fullSentences": [
+        "経費処理の不備が発覚し、担当者は責任から逃れようとしました。"
+      ]
+    },
+    {
+      "id": "verb.refiia.04",
+      "hash": "e1a9d145c240db90db801c7a8f2b6845589f7be8927f3b7db0a50f9da11b340b",
+      "fullSentences": [
+        "網に入れる直前、釣り人は大物を逃しました。"
+      ]
+    },
+    {
+      "id": "verb.refmaa.01",
+      "hash": "b1f831561c2f67101a66eefdce2106f7e5a1d090f8ac131d0a3f622fb58910de",
+      "fullSentences": [
+        "指名手配されていた詐欺師は、出国直前に空港で警察に捕まりました。"
+      ]
+    },
+    {
+      "id": "verb.refmaa.02",
+      "hash": "1be18d8e0df00c8083860d31a238b72bf4401abc7b793f7f2c20e8c35010f4f3",
+      "fullSentences": [
+        "おやつを見せると、飼い主は公園で逃げ回る子犬を捕まえました。"
+      ]
+    },
+    {
+      "id": "verb.refmaa.03",
+      "hash": "437ec193e0754fb9530557236587b4c5be88072dcaddaf65e1bbfc781bab4a06",
+      "fullSentences": [
+        "保護団体が置いた捕獲器に、迷い猫がようやく捕まりました。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04_recovery",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-01-r1.draft.json",
+  "at": "2026-10-13T19:10:36.611Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refama.02",
+      "hash": "10753672e87722df91208f36eaf32f9f7b69688ac4017039135d9cdd65aa60b6",
+      "fullSentences": [
+        "係の人は、搬入前の彫刻に雨よけのシートを被せた。"
+      ]
+    },
+    {
+      "id": "verb.refavb.04",
+      "hash": "a06433493608424d2d6bd3c7c9a910555765b1a25851f67775f3efbc07216797",
+      "fullSentences": [
+        "合奏の前、ギター奏者はチューナーの表示を確認し、弦の音が低くなっていたので、その弦を少し締めた。"
+      ]
+    },
+    {
+      "id": "verb.refaaba.03",
+      "hash": "0f1f7f778433750e4e9a2fb595063b3895c1986312400e3eafacaad919227555",
+      "fullSentences": [
+        "学費の一部が免除され、学生の家計が助かった。"
+      ]
+    },
+    {
+      "id": "verb.refaaha.01",
+      "hash": "3eb6505b7c898634a8f09521f0bede0e65b30a4c3cd5f420f7a24058ddca4fe3",
+      "fullSentences": [
+        "丘の稜線に沿って、白い発電用の風車が遠くまで連なっていた。"
+      ]
+    }
+  ]
+}

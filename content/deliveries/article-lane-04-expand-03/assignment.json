@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refbra.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "pair": {
+      "id": "verb.refbra",
+      "intransitive": "縮む",
+      "intransitiveReading": "ちぢむ",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮む／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 18
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbxa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "pair": {
+      "id": "verb.refbxa",
+      "intransitive": "緩む",
+      "intransitiveReading": "ゆるむ",
+      "transitive": "緩める",
+      "transitiveReading": "ゆるめる",
+      "meaning": "辨析「緩む／緩める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 24
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbxa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "pair": {
+      "id": "verb.refbxa",
+      "intransitive": "緩む",
+      "intransitiveReading": "ゆるむ",
+      "transitive": "緩める",
+      "transitiveReading": "ゆるめる",
+      "meaning": "辨析「緩む／緩める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 24
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbxa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "pair": {
+      "id": "verb.refbxa",
+      "intransitive": "緩む",
+      "intransitiveReading": "ゆるむ",
+      "transitive": "緩める",
+      "transitiveReading": "ゆるめる",
+      "meaning": "辨析「緩む／緩める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 24
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbxa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "pair": {
+      "id": "verb.refbxa",
+      "intransitive": "緩む",
+      "intransitiveReading": "ゆるむ",
+      "transitive": "緩める",
+      "transitiveReading": "ゆるめる",
+      "meaning": "辨析「緩む／緩める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 24
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refceb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "pair": {
+      "id": "verb.refceb",
+      "intransitive": "解ける",
+      "intransitiveReading": "とける",
+      "transitive": "解く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「解ける／解く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refceb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "pair": {
+      "id": "verb.refceb",
+      "intransitive": "解ける",
+      "intransitiveReading": "とける",
+      "transitive": "解く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「解ける／解く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refceb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "pair": {
+      "id": "verb.refceb",
+      "intransitive": "解ける",
+      "intransitiveReading": "とける",
+      "transitive": "解く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「解ける／解く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refceb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "pair": {
+      "id": "verb.refceb",
+      "intransitive": "解ける",
+      "intransitiveReading": "とける",
+      "transitive": "解く",
+      "transitiveReading": "とく",
+      "meaning": "辨析「解ける／解く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "pair": {
+      "id": "verb.refcka",
+      "intransitive": "剥ける",
+      "intransitiveReading": "むける",
+      "transitive": "剥く",
+      "transitiveReading": "むく",
+      "meaning": "辨析「剥ける／剥く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "pair": {
+      "id": "verb.refcka",
+      "intransitive": "剥ける",
+      "intransitiveReading": "むける",
+      "transitive": "剥く",
+      "transitiveReading": "むく",
+      "meaning": "辨析「剥ける／剥く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "pair": {
+      "id": "verb.refcka",
+      "intransitive": "剥ける",
+      "intransitiveReading": "むける",
+      "transitive": "剥く",
+      "transitiveReading": "むく",
+      "meaning": "辨析「剥ける／剥く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "pair": {
+      "id": "verb.refcka",
+      "intransitive": "剥ける",
+      "intransitiveReading": "むける",
+      "transitive": "剥く",
+      "transitiveReading": "むく",
+      "meaning": "辨析「剥ける／剥く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 11
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "pair": {
+      "id": "verb.refdca",
+      "intransitive": "焦げる",
+      "intransitiveReading": "こげる",
+      "transitive": "焦がす",
+      "transitiveReading": "こがす",
+      "meaning": "辨析「焦げる／焦がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "pair": {
+      "id": "verb.refdca",
+      "intransitive": "焦げる",
+      "intransitiveReading": "こげる",
+      "transitive": "焦がす",
+      "transitiveReading": "こがす",
+      "meaning": "辨析「焦げる／焦がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "pair": {
+      "id": "verb.refdca",
+      "intransitive": "焦げる",
+      "intransitiveReading": "こげる",
+      "transitive": "焦がす",
+      "transitiveReading": "こがす",
+      "meaning": "辨析「焦げる／焦がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

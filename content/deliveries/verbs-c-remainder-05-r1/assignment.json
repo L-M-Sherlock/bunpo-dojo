@@ -1,0 +1,36 @@
+[
+  {
+    "id": "verb.boil.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.boil.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.boil",
+    "familyId": "verb.boil",
+    "pair": {
+      "id": "verb.boil",
+      "intransitive": "沸く",
+      "intransitiveReading": "わく",
+      "transitive": "沸かす",
+      "transitiveReading": "わかす",
+      "meaning": "水沸腾或烧水",
+      "count": 4
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.leave.07",
+      "hash": "d5236cf810166af7cb1f2e88b5db1c7a9b5ab7a4a00d08562075e0a88753e100",
+      "fullSentences": ["少年は横断歩道の前で自転車をを降ります。", "少年は横断歩道の前で自転車からを降ります。"],
+      "status": "revise",
+      "reason": "自転車后的槽后段已写を降ります，填wo或kara得到をを／からを；删除槽后を。",
+      "answerSet": "当前wo、kara均非自然全文；后段只保留降ります后，自転車を降ります和自転車から降ります都表达下自行车，ni不合此离开义。",
+      "readings": "少年しょうねん、横断歩道おうだんほどう、前まえ、自転車じてんしゃ、降りますおります正确；后段删を时reading改为おります。；候选を可注发音お但应输入を。",
+      "translation": "“少年在人行横道前下了自行车”对应修槽后的下车句；推车过街仅是场景，当前双助词句不能批准。",
+      "options": "wo、kara标correct与本稿实际拼接不符；ni不表示从自行车下来，其ungrammatical说明适用于修正后。"
+    },
+    {
+      "id": "particle.leave.08",
+      "hash": "b72dd56af2fa0881a83d19e12ae65df4c7d999024f05d05b12971ea44cb14e36",
+      "fullSentences": ["宿泊客はチェックアウト後、旅館からを出ます。", "宿泊客はチェックアウト後、旅館をを出ます。"],
+      "status": "revise",
+      "reason": "旅館后槽外已经有を出ます，kara和wo分别拼成からを／をを；删去预填を。",
+      "answerSet": "当前kara、wo均不形成合格句；修槽后旅館から出ます与旅館を出ます都表达退房后离开旅馆，ni不适用。",
+      "readings": "宿泊客しゅくはくきゃく、チェックアウト後チェックアウトご、旅館りょかん、出ますでます正确；删除槽后を时reading改为でます。；候选を可注发音お。",
+      "translation": "“住客退房后离开旅馆”准确表达修槽后的句义，当前双助词全文不合格。",
+      "options": "kara、wo的correct必须在移除槽后を后才成立；ni不能标退房后离开的旅馆。"
+    },
+    {
+      "id": "particle.leave.09",
+      "hash": "b1c2c681eb3ead1ce8d3acbd79b0b0bda7a2a5102aca9ba5967089852fbbe9a2",
+      "fullSentences": ["部員たちは練習後、校門をを出ます。", "部員たちは練習後、校門からを出ます。"],
+      "status": "revise",
+      "reason": "校門后槽外预填を，导致をを或からを；目标助词只能由选项插入。",
+      "answerSet": "当前wo、kara都不是合格句；后段改为出ます后，校門を出ます与校門から出ます可表达经校门离校，ni不表示该起点。",
+      "readings": "部員ぶいん、練習後れんしゅうご、校門こうもん、出ますでます正确；删槽后を需把reading改为でます。；独立を可注发音お。",
+      "translation": "“社团成员训练后从校门离开”符合修正后的离校句，当前をを／からを无法据此批准。",
+      "options": "wo和kara标correct对当前实际全文有误；ni的ungrammatical解释对正常的出校门句成立。"
+    },
+    {
+      "id": "particle.leave.10",
+      "hash": "b7b30b50f8995da1a9fbc3a7298a5ca9b585f3ab1b9faa7167696cf6dcf6a383",
+      "fullSentences": ["閉店時刻になり、最後の客は店からから出ます。", "閉店時刻になり、最後の客は店をから出ます。"],
+      "status": "revise",
+      "reason": "店后的槽后段预填から，填kara得到からから、填wo得到をから；应删槽后的から。",
+      "answerSet": "当前kara、wo均无自然全文；槽后改为出ます后，店から出ます与店を出ます都表示结账后离店，ni不成立。",
+      "readings": "閉店時刻へいてんじこく、最後さいご、客きゃく、店みせ、出ますでます正确；删除槽后から时reading同步改为でます。；を候选可注发音お、实际仍写を。",
+      "translation": "“闭店时，最后一位顾客走出商店”符合修槽后句义，当前からから／をから句不能批准。",
+      "options": "kara和wo的correct目前与实际全文矛盾；ni不标离店起点，其ungrammatical说明对修正后句子成立。"
+    }
+  ]
+}

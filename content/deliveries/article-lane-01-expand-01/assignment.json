@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "pair": {
+      "id": "verb.refaba",
+      "intransitive": "温まる",
+      "intransitiveReading": "あたたまる",
+      "transitive": "温める",
+      "transitiveReading": "あたためる",
+      "meaning": "辨析「温まる／温める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "pair": {
+      "id": "verb.refaja",
+      "intransitive": "掛かる",
+      "intransitiveReading": "かかる",
+      "transitive": "掛ける",
+      "transitiveReading": "かける",
+      "meaning": "辨析「掛かる／掛ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "pair": {
+      "id": "verb.refaja",
+      "intransitive": "掛かる",
+      "intransitiveReading": "かかる",
+      "transitive": "掛ける",
+      "transitiveReading": "かける",
+      "meaning": "辨析「掛かる／掛ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "pair": {
+      "id": "verb.refaja",
+      "intransitive": "掛かる",
+      "intransitiveReading": "かかる",
+      "transitive": "掛ける",
+      "transitiveReading": "かける",
+      "meaning": "辨析「掛かる／掛ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaja",
+    "familyId": "verb.refaja",
+    "pair": {
+      "id": "verb.refaja",
+      "intransitive": "掛かる",
+      "intransitiveReading": "かかる",
+      "transitive": "掛ける",
+      "transitiveReading": "かける",
+      "meaning": "辨析「掛かる／掛ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refara.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "pair": {
+      "id": "verb.refara",
+      "intransitive": "加わる",
+      "intransitiveReading": "くわわる",
+      "transitive": "加える",
+      "transitiveReading": "くわえる",
+      "meaning": "辨析「加わる／加える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 18
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refara.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "pair": {
+      "id": "verb.refara",
+      "intransitive": "加わる",
+      "intransitiveReading": "くわわる",
+      "transitive": "加える",
+      "transitiveReading": "くわえる",
+      "meaning": "辨析「加わる／加える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 18
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refara.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "pair": {
+      "id": "verb.refara",
+      "intransitive": "加わる",
+      "intransitiveReading": "くわわる",
+      "transitive": "加える",
+      "transitiveReading": "くわえる",
+      "meaning": "辨析「加わる／加える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 18
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refara.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refara",
+    "familyId": "verb.refara",
+    "pair": {
+      "id": "verb.refara",
+      "intransitive": "加わる",
+      "intransitiveReading": "くわわる",
+      "transitive": "加える",
+      "transitiveReading": "くわえる",
+      "meaning": "辨析「加わる／加える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 18
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaya.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "pair": {
+      "id": "verb.refaya",
+      "intransitive": "狭まる",
+      "intransitiveReading": "せばまる",
+      "transitive": "狭める",
+      "transitiveReading": "せばめる",
+      "meaning": "辨析「狭まる／狭める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 25
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaya.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "pair": {
+      "id": "verb.refaya",
+      "intransitive": "狭まる",
+      "intransitiveReading": "せばまる",
+      "transitive": "狭める",
+      "transitiveReading": "せばめる",
+      "meaning": "辨析「狭まる／狭める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 25
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaya.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "pair": {
+      "id": "verb.refaya",
+      "intransitive": "狭まる",
+      "intransitiveReading": "せばまる",
+      "transitive": "狭める",
+      "transitiveReading": "せばめる",
+      "meaning": "辨析「狭まる／狭める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 25
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaya.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaya",
+    "familyId": "verb.refaya",
+    "pair": {
+      "id": "verb.refaya",
+      "intransitive": "狭まる",
+      "intransitiveReading": "せばまる",
+      "transitive": "狭める",
+      "transitiveReading": "せばめる",
+      "meaning": "辨析「狭まる／狭める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 25
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "pair": {
+      "id": "verb.refaaea",
+      "intransitive": "繋がる",
+      "intransitiveReading": "つながる",
+      "transitive": "繋げる",
+      "transitiveReading": "つなげる",
+      "meaning": "辨析「繋がる／繋げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 31
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaaea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "pair": {
+      "id": "verb.refaaea",
+      "intransitive": "繋がる",
+      "intransitiveReading": "つながる",
+      "transitive": "繋げる",
+      "transitiveReading": "つなげる",
+      "meaning": "辨析「繋がる／繋げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 31
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaaea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaea",
+    "familyId": "verb.refaaea",
+    "pair": {
+      "id": "verb.refaaea",
+      "intransitive": "繋がる",
+      "intransitiveReading": "つながる",
+      "transitive": "繋げる",
+      "transitiveReading": "つなげる",
+      "meaning": "辨析「繋がる／繋げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 31
+    },
+    "direction": "intransitive"
+  }
+]

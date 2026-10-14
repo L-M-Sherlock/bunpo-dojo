@@ -1,0 +1,48 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-06-r1.draft.json",
+  "at": "2026-10-13T12:48:10.602Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "particle.leave.02",
+      "hash": "06d5845c03156bf40ddf41d88c4ef7790a7d26c714a711ea2d5065e2c4820438",
+      "fullSentences": [
+        "会議が終わり、職員は会議室を出ます。",
+        "会議が終わり、職員は会議室から出ます。"
+      ]
+    },
+    {
+      "id": "particle.leave.03",
+      "hash": "b010aba316b0bbf2485dfa8a3db9fef7cdcf0fe939c2e99a4cdbb38f1cd58f75",
+      "fullSentences": [
+        "乗客は着陸後、飛行機から降ります。",
+        "乗客は着陸後、飛行機を降ります。"
+      ]
+    },
+    {
+      "id": "particle.leave.04",
+      "hash": "9e706299a0f064373cd0e88b422b5f787d3518fa6a5164e9393a90f95266d8f1",
+      "fullSentences": [
+        "大学生は朝、自宅を出ます。",
+        "大学生は朝、自宅から出ます。"
+      ]
+    },
+    {
+      "id": "particle.leave.05",
+      "hash": "81ae667b511f4a2cb37dac9d42c9dd477af079c54382b97348ff757a7cc9ed49",
+      "fullSentences": [
+        "子どもたちは水泳教室の後、プールを出ます。",
+        "子どもたちは水泳教室の後、プールから出ます。"
+      ]
+    },
+    {
+      "id": "particle.leave.06",
+      "hash": "6435658f760b7398111dbeecd6144881fec2714a3cc115d2d89ce2a3712f4ef7",
+      "fullSentences": [
+        "上映が終わると、観客は映画館から出ます。",
+        "上映が終わると、観客は映画館を出ます。"
+      ]
+    }
+  ]
+}

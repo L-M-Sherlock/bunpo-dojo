@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "lexicalKey": "童年海边的房子浮现",
+    "scene": "重读祖父的信时，脑海里忽然出现童年时海边的房子。",
+    "before": [
+      {
+        "text": "祖父の手紙を読み返していると、幼い頃の海辺の家がふと頭に浮かんだ。",
+        "reading": "そふのてがみをよみかえしていると、おさないころのうみべのいえがふとあたまにうかんだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「浮かぶ」作自动词时，浮现的事物是主语；本句由「幼い頃の海辺の家が」标出这一事物。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词「浮かべる」表示某人把事物带入意识，事物作为「を」对象；本句的「家が」是浮现的事物，不是让别的事物浮现的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "重读祖父的信时，童年时海边的房子忽然浮现在脑海。",
+    "explanation": "句中「家が」标出浮现到脑海中的事物，表达的是它自身浮现。",
+    "hint": "确认「家が」标出的是浮现的事物，还是让别的事物浮现的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "浮かぶ",
+      "reading": "うかぶ"
+    }
+  }
+]

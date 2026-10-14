@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_c_fix",
+  "source": "work/content/verbs-c/remainder-04.draft.json",
+  "at": "2026-10-13T12:00:53.510Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.remain.04",
+      "hash": "ede8b6ecb1f1321e59b4c7933ae89a56ba0828de6a32c6a4eac69d860b75d787",
+      "fullSentences": [
+        "退去の日、前の住人は次の住人に譲る鉢植えを窓辺に残した。"
+      ]
+    },
+    {
+      "id": "verb.line.01",
+      "hash": "6932cc42e18bcc44e3699cc545034f770568567d2ff1e2a088322ec8c83da4af",
+      "fullSentences": [
+        "校舎の玄関には、植木鉢が左右に三つずつ並んだ。"
+      ]
+    },
+    {
+      "id": "verb.line.02",
+      "hash": "cb906aace0415caf9fbdb7633a8109b57f6d7a542493b673da4fdbef6da39295",
+      "fullSentences": [
+        "開店前、店員は新作の靴をサイズ順に棚に並べた。"
+      ]
+    },
+    {
+      "id": "verb.line.03",
+      "hash": "89b69dd153cdc1735c4363466d40c7b16ec548ad16d8a94756cba08001b20384",
+      "fullSentences": [
+        "展示室の壁には、同じ画家の絵が古いものから順に並んだ。"
+      ]
+    },
+    {
+      "id": "verb.line.04",
+      "hash": "9ef1a4e302f74ae2d5cf6c16b82cfebb28a1b30953a654957a114aa898581c6b",
+      "fullSentences": [
+        "合唱発表に備えて、係員は体育館に椅子を半円形に並べた。"
+      ]
+    }
+  ]
+}

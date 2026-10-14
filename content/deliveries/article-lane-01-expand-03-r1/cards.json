@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.refcca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "shells-crumble-on-rocky-shore",
+    "scene": "礁石凹处的贝壳被海浪反复拍打后碎裂。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕ける",
+      "reading": "くだける"
+    },
+    "before": [
+      {
+        "text": "波に何度も打ちつけられた貝殻は、岩場のくぼみに細かく砕けている。",
+        "reading": "なみになんどもうちつけられたかいがらは、いわばのくぼみにこまかくくだけている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "贝壳自身碎裂成小片，句子没有人或工具直接把贝壳砸碎。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "「砕く」要求施事对对象实施破碎动作；这里贝壳处于碎裂后的状态。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被海浪反复拍打的贝壳，在礁石凹处碎成了小片。",
+    "explanation": "贝壳是受波浪影响而碎裂的对象，句子没有写出直接砸碎它的施事。",
+    "hint": "辨认贝壳是自行碎裂的主体，还是被人或工具砸碎的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "lexicalKey": "cook-crushes-peppercorns",
+    "scene": "为释放胡椒香气，厨师用研钵将胡椒粒磨碎。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "砕く",
+      "reading": "くだく"
+    },
+    "before": [
+      {
+        "text": "料理人は胡椒の粒をすり鉢で細かく砕いた。",
+        "reading": "りょうりにんはこしょうのつぶをすりばちでこまかくくだいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "胡椒粒不是自行碎裂；厨师用研钵对胡椒粒实施了破碎动作。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "料理人是施事，胡椒粒是被研钵弄碎的直接对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "厨师用研钵把胡椒粒磨碎。",
+    "explanation": "厨师主动把胡椒粒加工成细碎状态。",
+    "hint": "看胡椒粒是自行碎裂，还是厨师把它弄碎。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "lexicalKey": "spring-pond-ice-cracks",
+    "scene": "初春时，随着气温上升，池塘靠岸处的冰面多处裂开。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "割れる",
+      "reading": "われる"
+    },
+    "before": [
+      {
+        "text": "春先の池では、気温が上がるにつれて岸近くの氷があちこちで割れている。",
+        "reading": "はるさきのいけでは、きおんがあがるにつれてきしちかくのこおりがあちこちでわれている。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "岸边冰面处于多处裂开的状态；冰面自身是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "句子没有人或工具把冰面打破，而是温度变化使冰面自身开裂。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "初春的池塘里，随着气温升高，靠岸处的冰面多处裂开。",
+    "explanation": "句子描述池冰在升温条件下自身出现裂开的状态。",
+    "hint": "观察冰面是自行开裂的一方，还是被人打破的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

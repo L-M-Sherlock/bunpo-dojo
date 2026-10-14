@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refdga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "lexicalKey": "预约变更模拟来电培训",
+    "scene": "呼叫中心的前辈通过预约变更模拟来电，训练新人应对实际咨询。",
+    "before": [
+      {
+        "text": "コールセンターの先輩は、予約変更の模擬電話を使って新人を実際の問い合わせ対応に",
+        "reading": "コールセンターのせんぱいは、よやくへんこうのもぎでんわをつかってしんじんをじっさいのといあわせたいおうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "慣らした",
+        "reading": "ならした",
+        "verdict": "correct",
+        "explanation": "「新人を」标出培训对象；前辈用模拟电话让新人逐步适应真实的咨询流程。"
+      },
+      {
+        "id": "b",
+        "text": "慣れた",
+        "reading": "なれた",
+        "verdict": "ungrammatical",
+        "explanation": "「慣れる」表示主体自己逐渐适应；此处新人由「を」标作对象，不能接「慣れた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "呼叫中心的前辈通过预约变更模拟电话，让新人熟悉实际的咨询应对。",
+    "explanation": "句子写的是资深员工使新人逐渐适应接听真实咨询的流程。",
+    "hint": "看句中谁安排训练，谁是被训练熟悉咨询流程的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

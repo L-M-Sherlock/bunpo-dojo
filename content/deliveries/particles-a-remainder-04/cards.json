@@ -1,0 +1,242 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.02",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-limited-express-at-matsumoto",
+    "scene": "旅行者在松本站台确认车次后，登上开往山里的特急列车。",
+    "before": [
+      {
+        "text": "旅行者は松本駅で特急列車",
+        "reading": "りょこうしゃはまつもとえきでとっきゅうれっしゃ"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "特急列車是旅行者搭乘的交通工具，乗る的乘坐对象用に标记。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "标准日语的乗る不把乘坐的列车作为を对象；这里列车应接に。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "旅行者在松本站乘坐特急列车。",
+    "explanation": "搭乘某种交通工具时，用に标出乗る的对象。",
+    "hint": "区分乘坐列车与离开列车时使用的助词。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.03",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-ferry-for-island",
+    "scene": "返乡探亲的人在港口排队，准备乘渡轮去离岛。",
+    "before": [
+      {
+        "text": "帰省客は港でフェリー",
+        "reading": "きせいきゃくはみなとでフェリー"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "を可标某些动词的对象或离开的交通工具；乗る表示搭乘时不以を标渡轮。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出返乡客准备搭乘的渡轮。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "返乡探亲的人在港口乘坐渡轮。",
+    "explanation": "フェリー是乘坐对象，乗る前用に表示。",
+    "hint": "看渡轮在句子中是要搭乘的对象还是要离开的处所。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.04",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-taxi-after-last-train",
+    "scene": "末班车已经开走，乘客在车站前拦下一辆出租车。",
+    "before": [
+      {
+        "text": "乗客は駅前でタクシー",
+        "reading": "じょうきゃくはえきまえでタクシー"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に把出租车标为乘客搭乘的对象。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "乘客要搭出租车时，标准日语用タクシーに乗る；を不能标这个乘坐对象。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "乘客在车站前乘坐出租车。",
+    "explanation": "タクシー是乗る所搭乘的交通工具，用に标记。",
+    "hint": "判断出租车是乘客要搭乘的对象，还是要离开的交通工具。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.05",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "ride-rental-bicycle-at-park",
+    "scene": "妹妹在公园租好自行车，沿湖骑行前先跨上车。",
+    "before": [
+      {
+        "text": "妹は公園でレンタサイクル",
+        "reading": "いもうとはこうえんでレンタサイクル"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标明妹妹要骑乘的租赁自行车。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "乗る表达跨上并骑乘自行车时，车辆对象用に；を不用于标这个对象。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "妹妹在公园骑上租来的自行车。",
+    "explanation": "乗る所骑的自行车是乘坐对象，助词用に。",
+    "hint": "分清骑乘对象与骑行路线所需的标记。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.06",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-tokyo-bound-plane-at-osaka-airport",
+    "scene": "员工从大阪出发去东京出差，在机场准备登机。",
+    "before": [
+      {
+        "text": "社員は大阪空港で東京行きの飛行機",
+        "reading": "しゃいんはおおさかくうこうでとうきょうゆきのひこうき"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "乗る表示搭乘飞机时用に标交通工具；を不能在这里标登机对象。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出员工要搭乘的飞往东京的飞机。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "员工在大阪机场乘坐飞往东京的飞机。",
+    "explanation": "飞机是乗る的乘坐对象，用に标记。",
+    "hint": "注意这里询问的是搭乘哪种交通工具。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

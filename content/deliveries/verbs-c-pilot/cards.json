@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.lower.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "lexicalKey": "room-temperature",
+    "scene": "关掉暖气后，室温慢慢降了下来。",
+    "before": [
+      {
+        "text": "暖房を切ると、室温がゆっくり",
+        "reading": "だんぼうをきると、しつおんがゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下がった",
+        "reading": "さがった",
+        "verdict": "correct",
+        "explanation": "室温本身发生变化并降低，用自动词「下がる」；「室温が」标出了变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "下げた",
+        "reading": "さげた",
+        "verdict": "ungrammatical",
+        "explanation": "「下げる」表示某人把温度调低，通常要把温度作为「を」宾语；这里是「室温が」，不能接他动词「下げた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "关掉暖气后，室温慢慢降了下来。",
+    "explanation": "句子写室温在关掉暖气后下降，温度是变化主体。",
+    "hint": "想想句中是温度发生变化，还是有人把温度作为对象调低。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.lower.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "lexicalKey": "tv-volume",
+    "scene": "孩子睡着后，爸爸把电视音量调低了一档。",
+    "before": [
+      {
+        "text": "子どもが寝たので、父はテレビの音量を一段",
+        "reading": "こどもがねたので、ちちはテレビのおんりょうをいちだん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下げた",
+        "reading": "さげた",
+        "verdict": "correct",
+        "explanation": "父亲主动调低电视音量，父亲是动作施事、音量是受影响的对象，用他动词「下げる」。"
+      },
+      {
+        "id": "b",
+        "text": "下がった",
+        "reading": "さがった",
+        "verdict": "ungrammatical",
+        "explanation": "「下がる」表示音量自身降低，变化主体应以「が」标记；此句用「父は」和「音量を」表达施事与对象，不能接自动词「下がった」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子睡着后，爸爸把电视音量调低了一档。",
+    "explanation": "父亲主动改变音量，音量是他调低的对象。",
+    "hint": "留意「父は」与「音量を」分别标出了谁行动、什么受到影响。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.lower.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.lower",
+    "familyId": "verb.lower",
+    "lexicalKey": "earphone-volume",
+    "scene": "刚掏出手机，才发现耳机音量被误按低了一档。",
+    "before": [
+      {
+        "text": "ポケットの中で音量ボタンを押したらしく、イヤホンの音量が一段",
+        "reading": "ポケットのなかでおんりょうボタンをおしたらしく、イヤホンのおんりょうがいちだん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "下がった",
+        "reading": "さがった",
+        "verdict": "correct",
+        "explanation": "句子报告耳机音量下降一档，音量是发生变化的主体，用自动词「下がる」。"
+      },
+      {
+        "id": "b",
+        "text": "下げた",
+        "reading": "さげた",
+        "verdict": "ungrammatical",
+        "explanation": "「下げる」表示有人把音量调低；这里用「イヤホンの音量が」标记变化主体，不能直接接主动他动词「下げた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "似乎在口袋里按到了音量键，耳机音量降了一档。",
+    "explanation": "按到音量键是背景原因；句子聚焦耳机音量本身下降。",
+    "hint": "对照按键动作和后续结果，判断谓语在描述谁的变化。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06_5b1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-05b-1.draft.json",
+  "at": "2026-10-14T02:07:40.191Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refpaa.04",
+      "hash": "8a99a8bb6a925a7a8ba3933ed40e4581dfd724f8712027c71d53343f3d3ebce5",
+      "fullSentences": [
+        "祖母は、孫に贈るマフラーに健康を願う思いを籠めた。"
+      ]
+    },
+    {
+      "id": "verb.refrda.01",
+      "hash": "6595b2753727c932f35848b5ee9de05a80ae11dc0d1a891c8efb727aaa94b679",
+      "fullSentences": [
+        "強風にあおられた空き缶が路地を転がって、壁際で止まった。"
+      ]
+    },
+    {
+      "id": "verb.refrda.02",
+      "hash": "47613ce0bd18cbfce0256cd03ac89e6369f61a7a2ab97aa6bda6fb1863b812e6",
+      "fullSentences": [
+        "子どもたちは庭の雪の上で雪玉を転がして、雪だるまの土台にした。"
+      ]
+    },
+    {
+      "id": "verb.refrda.03",
+      "hash": "2fb3be71ef8bdb4e804870ccef4fbf752bc7d5ec25c0f01a69ee34bb364c24db",
+      "fullSentences": [
+        "丸めた粘土の玉が、傾けた板の上をゆっくり転がって受け皿の手前で止まった。"
+      ]
+    }
+  ]
+}

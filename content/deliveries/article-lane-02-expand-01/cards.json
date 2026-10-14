@@ -1,0 +1,754 @@
+[
+  {
+    "id": "verb.refada.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refada",
+    "familyId": "verb.refada",
+    "lexicalKey": "册子标价修订",
+    "scene": "印刷前发现标价有误，编辑修订了小册子上的价格标注。",
+    "before": [
+      {
+        "text": "校正で誤記が見つかり、編集者は冊子の価格表記を",
+        "reading": "こうせいでごきがみつかり、へんしゅうしゃはさっしのかかくひょうきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "改めた",
+        "reading": "あらためた",
+        "verdict": "correct",
+        "explanation": "编辑主动修订价格标注，「価格表記を」是改动的对象，符合「改める」的更新义。"
+      },
+      {
+        "id": "b",
+        "text": "改まった",
+        "reading": "あらたまった",
+        "verdict": "ungrammatical",
+        "explanation": "「価格表記を」在句中是被改动的对象；「改まる」表示对象自身发生变化，不能承接这里的「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "校对时发现了错误，编辑修订了小册子上的价格标注。",
+    "explanation": "编辑把册子上的标价作为修改对象。",
+    "hint": "留意编辑和价格标注在句中的角色关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "lexicalKey": "活动日期巧合",
+    "scene": "两场活动由不同团队各自排期，未联系便撞上同一周末。",
+    "before": [
+      {
+        "text": "別々に企画された地区の演劇祭の日程は、隣町の花火大会と偶然同じ週末に",
+        "reading": "べつべつにきかくされたちくのえんげきさいのにっていは、となりまちのはなびたいかいとぐうぜんおなじしゅうまつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "重なった",
+        "reading": "かさなった",
+        "verdict": "correct",
+        "explanation": "两个活动分别排期后，日期意外落在同一周末；这里描述的是日程之间发生了重合。"
+      },
+      {
+        "id": "b",
+        "text": "重ねた",
+        "reading": "かさねた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「重ねる」可以表示有人把两项日程主动安排到同一时段；本场景说明各自排期后偶然撞期，没有这种协调安排。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "分别策划的地区戏剧节，其日程偶然与邻镇烟火大会撞在了同一个周末。",
+    "explanation": "两个活动的日期自行相合，句子呈现的是日程重叠的结果。",
+    "hint": "想一想日期是意外相合，还是有人把两项活动安排在同一时段。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "lexicalKey": "归还摄影集叠放",
+    "scene": "馆员按系列清点归还的摄影集，再叠放在桌上。",
+    "before": [
+      {
+        "text": "同じシリーズの写真集は、司書が机の上に",
+        "reading": "おなじシリーズのしゃしんしゅうは、ししょがつくえのうえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "重ねた",
+        "reading": "かさねた",
+        "verdict": "correct",
+        "explanation": "「司書が」指出整理者，「写真集は」以话题标记提出被整理的书册，符合馆员把书册叠放起来的动作。"
+      },
+      {
+        "id": "b",
+        "text": "重なった",
+        "reading": "かさなった",
+        "verdict": "meaning-mismatch",
+        "explanation": "若用「重なる」，会改为描写摄影集自行堆叠，或「司書が」所指的人在桌上与别物叠在一起；都不是馆员主动把书册放到桌上的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "同一系列的摄影集由图书管理员叠放在桌上。",
+    "explanation": "馆员将摄影集作为对象摆放，书册不是自行堆叠的主体。",
+    "hint": "注意整理者和被整理的书册各自承担什么角色；对象也可以用话题标记提出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "lexicalKey": "两份提案内容重合",
+    "scene": "两名职员互不知情地各自写方案，重点都放在削减固定成本。",
+    "before": [
+      {
+        "text": "二人が互いの案を知らずに作成した改善案の内容は、固定費の削減という点で大きく",
+        "reading": "ふたりがたがいのあんをしらずにさくせいしたかいぜんあんのないようは、こていひのさくげんというてんでおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "重なった",
+        "reading": "かさなった",
+        "verdict": "correct",
+        "explanation": "两份方案由不知对方内容的职员分别写成，却在削减固定成本这一点上相合；重合的是内容。"
+      },
+      {
+        "id": "b",
+        "text": "重ねた",
+        "reading": "かさねた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「重ねる」可以表示某人把多项内容主动叠放、合并或反复进行；此处两份独立写成的方案只是内容相合，没有人把它们合并。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "两人互不知晓对方方案而写出的改进方案，在削减固定成本这一点上内容高度重合。",
+    "explanation": "彼此独立形成的内容出现了共同部分，描述的是方案之间的重合。",
+    "hint": "留意两份内容是独立相合，还是有人把内容主动组合到一起。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaka",
+    "familyId": "verb.refaka",
+    "lexicalKey": "评审反复审议",
+    "scene": "候选作品水平接近，评审委员会反复审议后才确定获奖作品。",
+    "before": [
+      {
+        "text": "選考委員会は、受賞作を決めるまで候補作品の審査を",
+        "reading": "せんこういいんかいは、じゅしょうさくをきめるまでこうほさくひんのしんさを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "重ねた",
+        "reading": "かさねた",
+        "verdict": "correct",
+        "explanation": "委员会多次进行候选作品审查，「審査を」标出反复实施的活动，符合「審査を重ねる」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "重なった",
+        "reading": "かさなった",
+        "verdict": "ungrammatical",
+        "explanation": "「審査を」是反复进行的活动对象；自动词「重なる」不能承接这里的「を」宾语来表达委员会反复审查。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "评审委员会为确定获奖作品，反复审查了候选作品。",
+    "explanation": "评审委员会多次实施审查，强调同一活动的反复进行。",
+    "hint": "观察句中反复进行的活动，以及它在句子里的格角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refata.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "lexicalKey": "市场改建方针形成",
+    "scene": "居民说明会汇总意见后，市场改建后的运营方针终于明确。",
+    "before": [
+      {
+        "text": "住民説明会で意見を集約した結果、市場の再整備後の運営方針がようやく",
+        "reading": "じゅうみんせつめいかいでいけんをしゅうやくしたけっか、いちばのさいせいびごのうんえいほうしんがようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "定まった",
+        "reading": "さだまった",
+        "verdict": "correct",
+        "explanation": "讨论后，运营方针本身变得明确并稳定下来；「運営方針が」是状态变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "定めた",
+        "reading": "さだめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「定める」表示某个主体制定规则或设定对象；把「運営方針が」接在这里，会变成运营方针去设定别的事项，不是方针本身形成。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "汇总居民说明会上的意见后，市场重新整备后的运营方针终于确定下来。",
+    "explanation": "居民交换意见后，运营方针作为被讨论的事项逐渐明确。",
+    "hint": "判断运营方针是讨论后变得明确，还是它本身在制定其他事项。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refata.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "lexicalKey": "体育馆使用结束时刻",
+    "scene": "场馆管理方规定体育馆夜间使用到晚上九点结束。",
+    "before": [
+      {
+        "text": "施設管理者は、体育館の利用終了時刻を午後九時と",
+        "reading": "しせつかんりしゃは、たいいくかんのりようしゅうりょうじこくをごごくじと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "定めた",
+        "reading": "さだめた",
+        "verdict": "correct",
+        "explanation": "管理者主动把体育馆的使用结束时间规定为晚上九点，「利用終了時刻を」是设定对象。"
+      },
+      {
+        "id": "b",
+        "text": "定まった",
+        "reading": "さだまった",
+        "verdict": "ungrammatical",
+        "explanation": "「利用終了時刻を」在句中是管理者设定的对象；自动词「定まる」不能承接这里的「を」宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "设施管理方把体育馆的使用结束时间规定为晚上九点。",
+    "explanation": "管理方主动设定了一个明确的结束时刻。",
+    "hint": "留意谁作出规定，以及哪个时间被设定。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refata.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "lexicalKey": "研究生进修想法明确",
+    "scene": "结束研究室实习后，她明确了继续攻读研究生的想法。",
+    "before": [
+      {
+        "text": "研究室での実習を終え、彼女の中で大学院へ進むという考えがようやく",
+        "reading": "けんきゅうしつでのじっしゅうをおえ、かのじょのなかでだいがくいんへすすむというかんがえがようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "定まった",
+        "reading": "さだまった",
+        "verdict": "correct",
+        "explanation": "实习后，她关于继续读研的想法终于稳定下来；「考えが」是变得明确的内容。"
+      },
+      {
+        "id": "b",
+        "text": "定めた",
+        "reading": "さだめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「定める」会表示某个主体把别的事项设定下来；这里是她的想法本身逐渐明确，不是想法去设定其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "结束研究室的实习后，她心中继续攻读研究生的想法终于明确下来。",
+    "explanation": "她对升学的想法从未定逐渐稳定下来。",
+    "hint": "留意句中的想法是发生变化的内容，还是设定其他目标的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refata.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refata",
+    "familyId": "verb.refata",
+    "lexicalKey": "雨天演出会场",
+    "scene": "旧礼堂检修无法使用，筹委会把雨天演出地点定为第二体育馆。",
+    "before": [
+      {
+        "text": "文化祭の実行委員会は、雨天時の公演会場を第二体育館と",
+        "reading": "ぶんかさいのじっこういいんかいは、うてんじのこうえんかいじょうをだいにたいいくかんと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "定めた",
+        "reading": "さだめた",
+        "verdict": "correct",
+        "explanation": "筹委会主动把第二体育馆指定为雨天会场，「公演会場を」是被设定的对象。"
+      },
+      {
+        "id": "b",
+        "text": "定まった",
+        "reading": "さだまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中筹委会是作出决定的主体，雨天会场由「を」标为对象；自动词「定まる」不能承接这个宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "文化节执行委员会把雨天时的演出会场定为第二体育馆。",
+    "explanation": "筹委会对备用演出会场作出了明确指定。",
+    "hint": "分清筹委会和被指定的场地分别承担的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaza.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "lexicalKey": "夕照映染村落",
+    "scene": "日落时，山间村落的屋顶映上晚霞色。",
+    "before": [
+      {
+        "text": "日が傾くと、山あいの集落が夕焼け色に",
+        "reading": "ひがかたむくと、やまあいのしゅうらくがゆうやけいろに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "染まった",
+        "reading": "そまった",
+        "verdict": "correct",
+        "explanation": "光线改变了村落呈现的颜色，村落本身是颜色变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "染めた",
+        "reading": "そめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「染める」会让山间村落成为给别的对象上色的施事；此处村落只是受夕照影响而改变颜色。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "太阳西斜时，山间村落染上了晚霞的颜色。",
+    "explanation": "村落自身呈现出晚霞色，是光线造成的颜色变化。",
+    "hint": "注意村落是颜色变化的承受者，还是给别的对象着色的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaza.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "lexicalKey": "祭礼腰带染靛蓝",
+    "scene": "染坊师傅用靛蓝给祭典用的白色腰带染色。",
+    "before": [
+      {
+        "text": "染色工房の職人は、祭礼に使う白い帯を深い藍色に",
+        "reading": "せんしょくこうぼうのしょくにんは、さいれいにつかうしろいおびをふかいあいいろに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "染めた",
+        "reading": "そめた",
+        "verdict": "correct",
+        "explanation": "染坊师傅主动把白色腰带染成靛蓝，「帯を」标出被着色的对象。"
+      },
+      {
+        "id": "b",
+        "text": "染まった",
+        "reading": "そまった",
+        "verdict": "ungrammatical",
+        "explanation": "「帯を」是师傅施加颜色的直接对象；自动词「染まる」描述腰带自身变色，不能接这里的「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "染坊的师傅把祭礼用的白色腰带染成了深靛蓝色。",
+    "explanation": "师傅对腰带施加染色动作，腰带是动作对象。",
+    "hint": "留意谁动手染色，以及哪件物品改变了颜色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaza.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "lexicalKey": "厨师受春祭风俗影响",
+    "scene": "搬到村里的厨师逐渐受到当地春祭风俗影响。",
+    "before": [
+      {
+        "text": "料理人はこの村に移り住んでから、春祭りの風習にすっかり",
+        "reading": "りょうりにんはこのむらにうつりすんでから、はるまつりのふうしゅうにすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "染まった",
+        "reading": "そまった",
+        "verdict": "correct",
+        "explanation": "厨师本人受到村中风俗的影响，逐渐融入当地生活；表达的是受影响后的状态。"
+      },
+      {
+        "id": "b",
+        "text": "染めた",
+        "reading": "そめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「染める」表示施加染色等动作，或开始着手某事；本场景说的是厨师本人受风俗影响，并未对别的对象实施动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "这名厨师搬到村里后，完全受到了当地春祭风俗的影响。",
+    "explanation": "厨师本人逐渐受到当地习俗影响，采用的是受影响者的视角。",
+    "hint": "判断厨师是受到风俗影响的人，还是对其他对象施加动作的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaza.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaza",
+    "familyId": "verb.refaza",
+    "lexicalKey": "老年角色染灰发",
+    "scene": "为配合年长角色，发型师把主演的头发染成灰色。",
+    "before": [
+      {
+        "text": "老年役に合わせて、美容師は主演俳優の髪を灰色に",
+        "reading": "ろうねんやくにあわせて、びようしはしゅえんはいゆうのかみをはいいろに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "染めた",
+        "reading": "そめた",
+        "verdict": "correct",
+        "explanation": "发型师把主演的头发染成灰色，「髪を」标出着色的对象。"
+      },
+      {
+        "id": "b",
+        "text": "染まった",
+        "reading": "そまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里由美容师对头发实施染色，头发以「を」标为对象；自动词「染まる」不能这样承接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了配合年长角色，发型师把主演演员的头发染成了灰色。",
+    "explanation": "发型师主动改变头发颜色，头发是被染的对象。",
+    "hint": "留意发型师和主演头发各自的动作角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaafa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "lexicalKey": "落叶堵住排水口",
+    "scene": "暴雨后的落叶堵住后院排水口，积水无法排出。",
+    "before": [
+      {
+        "text": "大雨の翌朝、裏庭の排水口が落ち葉で",
+        "reading": "おおあめのよくあさ、うらにわのはいすいこうがおちばで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "詰まった",
+        "reading": "つまった",
+        "verdict": "correct",
+        "explanation": "排水口本身变得堵塞，落叶说明造成堵塞的原因。"
+      },
+      {
+        "id": "b",
+        "text": "詰めた",
+        "reading": "つめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「詰める」可以表示某个施事把东西塞入目标；此处排水口是被堵住的对象，落叶是导致堵塞的东西，不是排水口主动塞入物品。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "大雨后的第二天早上，后院排水口被落叶堵住了。",
+    "explanation": "排水口由畅通变成堵塞，句子描述的是它自身的状态变化。",
+    "hint": "留意排水口是发生堵塞的对象，还是主动把其他东西塞进去的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaafa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "lexicalKey": "便当盒填入配菜",
+    "scene": "母亲把水果和厚蛋烧塞进便当盒的空隙。",
+    "before": [
+      {
+        "text": "母は弁当箱の空いた隙間に、果物と卵焼きを",
+        "reading": "はははべんとうばこのあいたすきまに、くだものとたまごやきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "詰めた",
+        "reading": "つめた",
+        "verdict": "correct",
+        "explanation": "母亲把水果和厚蛋烧放入便当盒的空隙，「果物と卵焼きを」是填入的对象。"
+      },
+      {
+        "id": "b",
+        "text": "詰まった",
+        "reading": "つまった",
+        "verdict": "ungrammatical",
+        "explanation": "「果物と卵焼きを」明确标出被放入的对象；自动词「詰まる」表示它们自身变得拥挤，不能接此处的「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "母亲把水果和厚蛋烧装进便当盒的空隙里。",
+    "explanation": "母亲把食物放入容器的空位，食物是动作直接作用的对象。",
+    "hint": "留意谁把食物放入空隙，以及食物在句中的格角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaafa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "lexicalKey": "下周外勤日程排满",
+    "scene": "客户洽谈接连排入，下周外勤日程从早到晚排满。",
+    "before": [
+      {
+        "text": "商談が相次ぎ、来週は朝から夕方まで予定が",
+        "reading": "しょうだんがあいつぎ、らいしゅうはあさからゆうがたまでよていが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "詰まった",
+        "reading": "つまった",
+        "verdict": "correct",
+        "explanation": "洽谈连续排入后，日程变得没有空档；「予定が」是变满的主体。"
+      },
+      {
+        "id": "b",
+        "text": "詰めた",
+        "reading": "つめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「詰める」表示某个主体把其他东西填满或压紧；这里「予定が」是被排满的日程，不是主动塞入其他对象的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "洽谈接连到来，下周的日程从早到晚都排满了。",
+    "explanation": "接连增加的洽谈让日程本身变得密集，没有可用空档。",
+    "hint": "判断日程是被人主动塞满的对象，还是逐渐变得紧凑的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

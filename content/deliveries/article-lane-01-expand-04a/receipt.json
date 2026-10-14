@@ -1,0 +1,64 @@
+{
+  "author": "/root/article_author_01_recovery",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-04a.draft.json",
+  "at": "2026-10-14T01:28:18.489Z",
+  "count": 8,
+  "cards": [
+    {
+      "id": "verb.refcna.04",
+      "hash": "220fe0c95f11d6f2058118e5fe7eb8ecc9dddaf3f96a31e993502429fa781685",
+      "fullSentences": [
+        "農家は冬に備えて、乾いた丸太を斧で割った。"
+      ]
+    },
+    {
+      "id": "verb.refdfa.01",
+      "hash": "27e06439350e14058b23907fdfb4843aa4056292f7bb072e0044b00bf05f647b",
+      "fullSentences": [
+        "春の日差しが強まると、池の薄い氷が岸から少しずつ溶けていった。"
+      ]
+    },
+    {
+      "id": "verb.refdfa.02",
+      "hash": "0fbb7cc3f40cfb4569fcb95230d3d892f1456426e5c63b3eb01ab1fc0e3bc859",
+      "fullSentences": [
+        "料理人は鍋のスープに塩を溶かした。"
+      ]
+    },
+    {
+      "id": "verb.refdfa.03",
+      "hash": "6c8586c14bc9b8ce67d9ec7ee14e22f5d423cfe85e5dba90cee50d40a1c37c2c",
+      "fullSentences": [
+        "ろうそくに火をつけると、芯の周りのろうがゆっくり溶けていった。"
+      ]
+    },
+    {
+      "id": "verb.refdfa.04",
+      "hash": "52c09535fc11bfd3787b2f4d23a454dd3f7003b661d1bcdeefceffda3006f121",
+      "fullSentences": [
+        "職人は古くなった銀の飾りをるつぼに入れて溶かした。"
+      ]
+    },
+    {
+      "id": "verb.refeba.01",
+      "hash": "968a2c1b040c744b2b09991224ffe290dba603139d1c04658a1c0edaf6acd84f",
+      "fullSentences": [
+        "川が運ぶ泥に養分が多く含まれ、河口近くの畑の土は長年かけて肥えてきた。"
+      ]
+    },
+    {
+      "id": "verb.refeba.02",
+      "hash": "3e18f03f7a86b8b1cd902c9449bcba4c0135e6cb34231bc914a344a803018b85",
+      "fullSentences": [
+        "牧場主は出荷前の牛を栄養価の高い飼料で肥やした。"
+      ]
+    },
+    {
+      "id": "verb.refeba.03",
+      "hash": "b3071e8e0be04cbfe0891708a7113cf8f0375e27f15bcfbdaf73e34c349e6491",
+      "fullSentences": [
+        "祖父は長年骨董市に通い、器を一目見ただけで年代と産地を言い当てるほど目が肥えている。"
+      ]
+    }
+  ]
+}

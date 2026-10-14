@@ -1,0 +1,43 @@
+{
+  "author": "/root/article_author_05_next",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-06b.draft.json",
+  "at": "2026-10-14T01:59:52.480Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.refsma.04",
+      "hash": "5a8fd02e90578a406e672b510fb065e2680e94be0d8f015d0eaa132ba6eed5f5",
+      "fullSentences": [
+        "似た名称の欄が並ぶ申請書は、初めて手続きをする人を迷わした。"
+      ]
+    },
+    {
+      "id": "verb.refvaa.01",
+      "hash": "8f93bff841642b24f28efa0c63128164879d7c78cb5db2c39882163e2580bdf8",
+      "fullSentences": [
+        "春の雪解け水で、山あいの水田が潤った。"
+      ]
+    },
+    {
+      "id": "verb.refvaa.02",
+      "hash": "744a13827374e99a0c22ae442249682b0373dd8b1111eee6f5214036326a95a9",
+      "fullSentences": [
+        "鉢の表面が乾いていたので、園芸店の店主は苗の根元に水を注いで土を潤した。"
+      ]
+    },
+    {
+      "id": "verb.refvaa.03",
+      "hash": "68c91ea9902be28250875e8b4c89b6f3e290a22ce2f63096b3418e2688b01072",
+      "fullSentences": [
+        "国際音楽祭に海外からも客が訪れ、山あいの町の旅館や飲食店は大いに潤った。"
+      ]
+    },
+    {
+      "id": "verb.refvaa.04",
+      "hash": "472d82a47dcd6fdc6d7bc830095d90a7de6fa4cb79bcf127b2b20959afae9ea4",
+      "fullSentences": [
+        "卒業生の大口寄付は、設備更新を進める地方大学の財政を大きく潤した。"
+      ]
+    }
+  ]
+}

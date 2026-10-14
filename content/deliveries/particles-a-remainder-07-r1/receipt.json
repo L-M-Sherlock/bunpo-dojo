@@ -1,0 +1,40 @@
+{
+  "author": "/root/bunpo_particles_a_fix",
+  "source": "work/content/particles-a/remainder-07-r1.draft.json",
+  "at": "2026-10-13T12:48:10.736Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "particle.leave.07",
+      "hash": "0c1f9232e389326a3b99be89168c4d9ba520bb0dda0670fb7509b4e9973f493d",
+      "fullSentences": [
+        "少年は横断歩道の前で自転車を降ります。",
+        "少年は横断歩道の前で自転車から降ります。"
+      ]
+    },
+    {
+      "id": "particle.leave.08",
+      "hash": "5a31d6ed799e15286ac806e7dad77da9112c792148e3e7f64470c37649fab48c",
+      "fullSentences": [
+        "宿泊客はチェックアウト後、旅館から出ます。",
+        "宿泊客はチェックアウト後、旅館を出ます。"
+      ]
+    },
+    {
+      "id": "particle.leave.09",
+      "hash": "2a9e9a96961cce366825e2ecfe2b29d6f6143ef2cf8b2454ae49107bd1746494",
+      "fullSentences": [
+        "部員たちは練習後、校門を出ます。",
+        "部員たちは練習後、校門から出ます。"
+      ]
+    },
+    {
+      "id": "particle.leave.10",
+      "hash": "9eb0125d7ea8ae79b692607be7e839888cae9b0131ed3258b29686ba663ceab3",
+      "fullSentences": [
+        "閉店時刻になり、最後の客は店から出ます。",
+        "閉店時刻になり、最後の客は店を出ます。"
+      ]
+    }
+  ]
+}

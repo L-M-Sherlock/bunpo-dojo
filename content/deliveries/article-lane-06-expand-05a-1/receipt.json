@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06a1",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-05a-1.draft.json",
+  "at": "2026-10-14T01:43:58.236Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refifa.04",
+      "hash": "0c465ecfe9af1cbd786ba7b8762c2137b51c36c383ba059bfd706c1967815aae",
+      "fullSentences": [
+        "造園業者は、歩道側に傾いた枯れた桜の木をロープで安全な方向へ倒した。"
+      ]
+    },
+    {
+      "id": "verb.refjaa.01",
+      "hash": "b493b065ddd35dbc447389b6236e39625087d7f8a637767ddd19501664d274d5",
+      "fullSentences": [
+        "遠足帰りの児童たちは、駅前に停車した路面電車に順番に乗った。"
+      ]
+    },
+    {
+      "id": "verb.refjaa.02",
+      "hash": "c83042c906240db1636133e19e19e8ba98be8b697dc31ce686489f39a28b89f7",
+      "fullSentences": [
+        "川で足を痛めた釣り人を、救助隊員が救助艇に乗せた。"
+      ]
+    },
+    {
+      "id": "verb.refjaa.03",
+      "hash": "de985e0d29e423282df07411acb96a49c21acdaa2d0c14ad97f867d773062fa4",
+      "fullSentences": [
+        "少年は初めての練習で、ヘルメットをかぶって広場でスケートボードに乗った。"
+      ]
+    }
+  ]
+}

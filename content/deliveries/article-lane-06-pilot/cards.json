@@ -1,0 +1,140 @@
+[
+  {
+    "id": "verb.refaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "lexicalKey": "overnight-clothes-in-small-bag",
+    "scene": "出差一晚，检查换洗衣物是否装得进小旅行包。",
+    "before": [
+      {
+        "text": "一泊分の着替えが、小さなボストンバッグ一つに全部",
+        "reading": "いっぱくぶんのきがえが、ちいさなボストンバッグひとつにぜんぶ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "収まった",
+        "reading": "おさまった",
+        "verdict": "correct",
+        "explanation": "换洗衣物本身进入包的容量范围，句中也把衣物标为「が」所示的主体。"
+      },
+      {
+        "id": "b",
+        "text": "収めた",
+        "reading": "おさめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "収める表示某个施事把东西放入或收进某处；这里的衣物是进入范围的一方，不是在收纳别的东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一晚份的换洗衣物全都装得进一个小旅行包。",
+    "explanation": "句子描述衣物本身进入了包的容量范围，重点是物件与容器的关系。",
+    "hint": "确认衣物是进入容量范围的一方，还是把别的东西放进范围的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "lexicalKey": "headline-within-character-limit",
+    "scene": "报纸版面只留二十字，编辑压缩标题后交稿。",
+    "before": [
+      {
+        "text": "編集者は、見出しを二十字以内に",
+        "reading": "へんしゅうしゃは、みだしをにじゅうじいないに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "収めた",
+        "reading": "おさめた",
+        "verdict": "correct",
+        "explanation": "编辑者调整标题，使它落在规定字数范围内；「見出しを」标出被处理的对象。"
+      },
+      {
+        "id": "b",
+        "text": "収まった",
+        "reading": "おさまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里用「見出しを」标记对象，不能接表示标题自行进入范围的収まる；用该词时应让标题作「が」所示的主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "编辑把标题控制在二十字以内。",
+    "explanation": "本句由编辑者处理标题长度，让标题进入规定范围。",
+    "hint": "留意句中执行编辑动作的人，以及被调整的文字。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "lexicalKey": "neighbors-dispute-subsides",
+    "scene": "邻里双方反复协商后，持续的争执终于平息。",
+    "before": [
+      {
+        "text": "何度も話し合ったあと、隣人同士の争いがようやく",
+        "reading": "なんどもはなしあったあと、りんじんどうしのあらそいがようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "収まった",
+        "reading": "おさまった",
+        "verdict": "correct",
+        "explanation": "争い本身逐渐平息，以「が」标记的争端是状态发生变化的一方。"
+      },
+      {
+        "id": "b",
+        "text": "収めた",
+        "reading": "おさめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "収める可用于「争いを収める」，表示某人平息争端；本句说的是争端本身平息，不能把它当作使别的事平息的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "多次协商之后，邻里之间的争执终于平息了。",
+    "explanation": "这里描述争执趋于平静的状态变化，没有把某人作为平息争端的施事。",
+    "hint": "判断争端是自行趋于平静，还是有人采取行动使它平息。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

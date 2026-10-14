@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.gather.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "collect-residents-opinions",
+    "scene": "防洪方案征求意见，调查员汇集居民反馈。",
+    "before": [
+      {
+        "text": "調査員が住民の意見を",
+        "reading": "ちょうさいんがじゅうみんのいけんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集めました",
+        "reading": "あつめました",
+        "verdict": "correct",
+        "explanation": "调查员收集居民意见，调查员是施事，居民意见是被收集的对象。"
+      },
+      {
+        "id": "b",
+        "text": "集まりました",
+        "reading": "あつまりました",
+        "verdict": "ungrammatical",
+        "explanation": "集まる表达对象自行聚到一起，不能在这里接「住民の意見を」作为直接宾语；若改为意见汇聚，应写「意見が集まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "调查员汇集了居民的意见。",
+    "explanation": "句子写出了收集意见的人和被收集的内容。",
+    "hint": "确认居民意见是自己汇聚，还是由调查员收集。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.gather.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "evacuees-gather-at-hall",
+    "scene": "附近发生落石，居民撤离后在公民馆集合。",
+    "before": [
+      {
+        "text": "避難者が公民館に",
+        "reading": "ひなんしゃがこうみんかんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集まりました",
+        "reading": "あつまりました",
+        "verdict": "correct",
+        "explanation": "避难者来到公民馆聚集，集まる描述人群自行聚到某处。"
+      },
+      {
+        "id": "b",
+        "text": "集めました",
+        "reading": "あつめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "集める表示施事收集或召集某个对象；若选它，避难者会成为收集者，还需由上下文补出被收集的对象，而场景说的是避难者自己集合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "避难者聚集到了公民馆。",
+    "explanation": "句中避难者是聚到一起的人群，没有写出召集他们的施事。",
+    "hint": "看避难者是集合的人群，还是召集其他对象的人。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.gather.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "collect-old-town-maps",
+    "scene": "地方史展准备开幕，馆员向居民征集旧地图。",
+    "before": [
+      {
+        "text": "図書館員が町の古い地図を",
+        "reading": "としょかんいんがまちのふるいちずを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集めました",
+        "reading": "あつめました",
+        "verdict": "correct",
+        "explanation": "图书馆员把旧地图收集起来，馆员是施事，地图是收集对象。"
+      },
+      {
+        "id": "b",
+        "text": "集まりました",
+        "reading": "あつまりました",
+        "verdict": "ungrammatical",
+        "explanation": "集まる描述物品自行聚集，不能把「古い地図を」作为它的直接宾语；若表达旧地图汇聚，应改为「古い地図が集まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "图书馆员收集了镇上的旧地图。",
+    "explanation": "图书馆员主动收集旧地图用于地方史展。",
+    "hint": "辨认谁在收集，以及什么是被收集的内容。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.gather.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "lexicalKey": "alumni-gather-before-school-demolition",
+    "scene": "旧校舍拆除在即，校友们回校拍照留念。",
+    "before": [
+      {
+        "text": "校舎の取り壊しを前に、卒業生が校庭に",
+        "reading": "こうしゃのとりこわしをまえに、そつぎょうせいがこうていに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "集まりました",
+        "reading": "あつまりました",
+        "verdict": "correct",
+        "explanation": "毕业生们到校园操场相聚，集まる描述人群聚集。"
+      },
+      {
+        "id": "b",
+        "text": "集めました",
+        "reading": "あつめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "集める表示施事把某个对象收集或召集起来；若使用它，毕业生会成为收集者并需要补出对象，而场景说的是校友们聚到校园。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "校舍拆除前，毕业生们聚集在校园操场。",
+    "explanation": "句中毕业生是聚集的人群，不是召集他人的施事。",
+    "hint": "留意谁在相聚，以及地点由哪一部分表达。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.stop.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "ferry-engine-stops-before-departure",
+    "scene": "渡轮解缆准备离港，发动机突然停转，船员回舱检查。",
+    "before": [
+      {
+        "text": "出航前にフェリーのエンジンが",
+        "reading": "しゅっこうまえにフェリーのエンジンが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "correct",
+        "explanation": "渡轮发动机在离港前停止运行，止まる描述设备自行停下。"
+      },
+      {
+        "id": "b",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "meaning-mismatch",
+        "explanation": "止める表示施事使某个设备或动作停止；若选它，发动机会成为停止别的东西的一方，并需补出对象，而场景说的是发动机本身停转。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "渡轮出航前，发动机停了下来。",
+    "explanation": "句子报告设备停止运行，没有写出让它停下的人。",
+    "hint": "分清发动机自身停转与某人让设备停下。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

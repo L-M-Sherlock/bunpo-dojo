@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refdba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdba",
+    "familyId": "verb.refdba",
+    "pair": {
+      "id": "verb.refdba",
+      "intransitive": "枯れる",
+      "intransitiveReading": "かれる",
+      "transitive": "枯らす",
+      "transitiveReading": "からす",
+      "meaning": "辨析「枯れる／枯らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "pair": {
+      "id": "verb.refdha",
+      "intransitive": "逃げる",
+      "intransitiveReading": "にげる",
+      "transitive": "逃がす",
+      "transitiveReading": "にがす",
+      "meaning": "辨析「逃げる／逃がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "pair": {
+      "id": "verb.refdha",
+      "intransitive": "逃げる",
+      "intransitiveReading": "にげる",
+      "transitive": "逃がす",
+      "transitiveReading": "にがす",
+      "meaning": "辨析「逃げる／逃がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "pair": {
+      "id": "verb.refdha",
+      "intransitive": "逃げる",
+      "intransitiveReading": "にげる",
+      "transitive": "逃がす",
+      "transitiveReading": "にがす",
+      "meaning": "辨析「逃げる／逃がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdha",
+    "familyId": "verb.refdha",
+    "pair": {
+      "id": "verb.refdha",
+      "intransitive": "逃げる",
+      "intransitiveReading": "にげる",
+      "transitive": "逃がす",
+      "transitiveReading": "にがす",
+      "meaning": "辨析「逃げる／逃がす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "pair": {
+      "id": "verb.refeda",
+      "intransitive": "生える",
+      "intransitiveReading": "はえる",
+      "transitive": "生やす",
+      "transitiveReading": "はやす",
+      "meaning": "辨析「生える／生やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "pair": {
+      "id": "verb.refeda",
+      "intransitive": "生える",
+      "intransitiveReading": "はえる",
+      "transitive": "生やす",
+      "transitiveReading": "はやす",
+      "meaning": "辨析「生える／生やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "pair": {
+      "id": "verb.refeda",
+      "intransitive": "生える",
+      "intransitiveReading": "はえる",
+      "transitive": "生やす",
+      "transitiveReading": "はやす",
+      "meaning": "辨析「生える／生やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "pair": {
+      "id": "verb.refeda",
+      "intransitive": "生える",
+      "intransitiveReading": "はえる",
+      "transitive": "生やす",
+      "transitiveReading": "はやす",
+      "meaning": "辨析「生える／生やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "pair": {
+      "id": "verb.reffca",
+      "intransitive": "満ちる",
+      "intransitiveReading": "みちる",
+      "transitive": "満たす",
+      "transitiveReading": "みたす",
+      "meaning": "辨析「満ちる／満たす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reffca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "pair": {
+      "id": "verb.reffca",
+      "intransitive": "満ちる",
+      "intransitiveReading": "みちる",
+      "transitive": "満たす",
+      "transitiveReading": "みたす",
+      "meaning": "辨析「満ちる／満たす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.reffca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "pair": {
+      "id": "verb.reffca",
+      "intransitive": "満ちる",
+      "intransitiveReading": "みちる",
+      "transitive": "満たす",
+      "transitiveReading": "みたす",
+      "meaning": "辨析「満ちる／満たす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.reffca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reffca",
+    "familyId": "verb.reffca",
+    "pair": {
+      "id": "verb.reffca",
+      "intransitive": "満ちる",
+      "intransitiveReading": "みちる",
+      "transitive": "満たす",
+      "transitiveReading": "みたす",
+      "meaning": "辨析「満ちる／満たす」的角色与对象",
+      "count": 4,
+      "articleGroup": 6,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "pair": {
+      "id": "verb.refiba",
+      "intransitive": "隠れる",
+      "intransitiveReading": "かくれる",
+      "transitive": "隠す",
+      "transitiveReading": "かくす",
+      "meaning": "辨析「隠れる／隠す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refiba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "pair": {
+      "id": "verb.refiba",
+      "intransitive": "隠れる",
+      "intransitiveReading": "かくれる",
+      "transitive": "隠す",
+      "transitiveReading": "かくす",
+      "meaning": "辨析「隠れる／隠す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refiba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "pair": {
+      "id": "verb.refiba",
+      "intransitive": "隠れる",
+      "intransitiveReading": "かくれる",
+      "transitive": "隠す",
+      "transitiveReading": "かくす",
+      "meaning": "辨析「隠れる／隠す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

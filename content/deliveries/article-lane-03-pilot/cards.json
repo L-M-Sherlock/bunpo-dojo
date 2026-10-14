@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.refaea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "lexicalKey": "受かる・受ける",
+    "scene": "放榜当天，佐藤在县立高中的录取名单上找到了自己的考号。",
+    "before": [
+      {
+        "text": "合格発表の日、佐藤さんは県立高校の入学試験に",
+        "reading": "ごうかくはっぴょうのひ、さとうさんはけんりつこうこうのにゅうがくしけんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "受かりました",
+        "reading": "うかりました",
+        "verdict": "correct",
+        "explanation": "「受かる」表示通过考试，考生以「が」标记，考试以「に」标记。"
+      },
+      {
+        "id": "b",
+        "text": "受けました",
+        "reading": "うけました",
+        "verdict": "ungrammatical",
+        "explanation": "「受ける」在此表示参加考试，考试作「を」标记；本句的「入学試験に」不能接这个用法。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "佐藤通过了县立高中的入学考试。",
+    "explanation": "句子叙述的是考试结果已合格，而不是参加考试的行为。",
+    "hint": "留意场景提供的是考试结果，还是应试过程。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "lexicalKey": "受かる・受ける",
+    "scene": "姐姐已报名参加下个月的介护福祉士国家考试。",
+    "before": [
+      {
+        "text": "姉は来月、介護福祉士国家試験を",
+        "reading": "あねはらいげつ、かいごふくししこっかしけんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "受けます",
+        "reading": "うけます",
+        "verdict": "correct",
+        "explanation": "「受ける」は表示当事人参加考试；此处考试作「を」标记。"
+      },
+      {
+        "id": "b",
+        "text": "受かります",
+        "reading": "うかります",
+        "verdict": "ungrammatical",
+        "explanation": "「受かる」表示考试结果合格，考试用「に」标记；不能把本句的「を」当成它的对象标记。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "姐姐下个月将参加介护福祉士国家考试。",
+    "explanation": "「受ける」说的是参加考试的行为，这一行为本身不表示考试结果。",
+    "hint": "判断句子是在安排本人应试，还是报告已经通过选拔。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaea",
+    "familyId": "verb.refaea",
+    "lexicalKey": "受かる・受ける",
+    "scene": "录用结果通知寄到后，松本确认自己通过了心仪公司的最终面试。",
+    "before": [
+      {
+        "text": "結果通知が届き、松本さんは志望する会社の最終面接に",
+        "reading": "けっかつうちがとどき、まつもとさんはしぼうするかいしゃのさいしゅうめんせつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "受かりました",
+        "reading": "うかりました",
+        "verdict": "correct",
+        "explanation": "「面接に受かる」表示通过面试选拔，符合通知内容。"
+      },
+      {
+        "id": "b",
+        "text": "受けました",
+        "reading": "うけました",
+        "verdict": "ungrammatical",
+        "explanation": "「受ける」可表示参加面试，但要说「面接を受ける」；本句的「に」不能接这个用法。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "结果通知送达后，松本通过了心仪公司的最终面试。",
+    "explanation": "「受かる」表示选拔结果通过；参加面试本身并不保证通过。",
+    "hint": "留意通知说明的是面试过程，还是选拔结果。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

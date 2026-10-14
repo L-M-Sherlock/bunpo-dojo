@@ -1,0 +1,738 @@
+[
+  {
+    "id": "verb.refaala.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "lexicalKey": "silent-film-appeal-shared-with-young-audience",
+    "scene": "地方影展向年轻一代推广无声电影的魅力。",
+    "before": [
+      {
+        "text": "地元の映画祭は、無声映画の魅力を若い世代に",
+        "reading": "じもとのえいがさいは、むせいえいがのみりょくをわかいせだいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "広めた",
+        "reading": "ひろめた",
+        "verdict": "correct",
+        "explanation": "地方影展主动把无声电影的魅力介绍给年轻一代；「魅力を」是传播的内容。"
+      },
+      {
+        "id": "b",
+        "text": "広まった",
+        "reading": "ひろまった",
+        "verdict": "ungrammatical",
+        "explanation": "这里「魅力を」标记影展推广的对象，不能接描述魅力本身传开的広まる；若写魅力自行传开，应改成「魅力が若い世代に広まった」一类结构。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "当地电影节向年轻一代推广了无声电影的魅力。",
+    "explanation": "句子说的是影展主动把无声电影的魅力介绍给更多年轻观众。",
+    "hint": "确认影展是传播者，还是电影的魅力本身在年轻人中传开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaara.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "lexicalKey": "residents-opposition-softens-after-alternative",
+    "scene": "替代方案提出后，居民的反对声音逐渐减弱。",
+    "before": [
+      {
+        "text": "代替案が示されると、住民の反対の声が少しずつ",
+        "reading": "だいたいあんがしめされると、じゅうみんのはんたいのこえがすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弱まった",
+        "reading": "よわまった",
+        "verdict": "correct",
+        "explanation": "变化的是居民反对的声音本身；句中「声が」是逐渐减弱的一方。"
+      },
+      {
+        "id": "b",
+        "text": "弱めた",
+        "reading": "よわめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "弱める可表示某个施事减弱另一对象；本句描述反对声音自身变弱，并未说声音在减弱别的东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "提出替代方案后，居民的反对声音逐渐减弱了。",
+    "explanation": "替代方案提出后，居民反对的声音本身逐渐变弱。",
+    "hint": "看变化的是反对声音本身，还是有人使别的对象变弱。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaara.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "lexicalKey": "sound-engineer-reduces-low-frequency",
+    "scene": "音响师用调音台减弱了会场扬声器传来的低音。",
+    "before": [
+      {
+        "text": "音響技師は、会場のスピーカーから響く低音を調整卓で",
+        "reading": "おんきょうぎしは、かいじょうのスピーカーからひびくていおんをちょうせいたくで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弱めた",
+        "reading": "よわめた",
+        "verdict": "correct",
+        "explanation": "音响师用调音台把会场扬声器传来的低音调低；「低音を」标出被调弱的声音。"
+      },
+      {
+        "id": "b",
+        "text": "弱まった",
+        "reading": "よわまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「低音を」是音响师调整的对象，不能接表示低音自身变弱的弱まる；若说低音自行减弱，应让低音作「が」所示主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "音响师用调音台减弱了会场扬声器传来的低音。",
+    "explanation": "音响师主动调低了扬声器发出的低频声音。",
+    "hint": "辨认调音师处理的声音对象，以及声音的强弱如何变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaara.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "lexicalKey": "mountain-rain-eases-before-dawn",
+    "scene": "山间地区的雨势在天亮前减弱了。",
+    "before": [
+      {
+        "text": "夜明け前には、山間部の雨脚が",
+        "reading": "よあけまえには、さんかんぶのあまあしが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弱まった",
+        "reading": "よわまった",
+        "verdict": "correct",
+        "explanation": "「雨脚が弱まる」表示雨势自身减弱；句中「雨脚が」是变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "弱めた",
+        "reading": "よわめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "弱める可表示某个施事减弱其他东西；这里写的是山区雨势在天亮前变弱，没有让雨势去减弱别的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山区的雨势在天亮前减弱了。",
+    "explanation": "句子以「雨脚が弱まる」描述雨势变小的结果。",
+    "hint": "看变化的是雨势本身，还是某个主体正在减弱别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaara.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "lexicalKey": "reed-screen-softens-afternoon-sunlight",
+    "scene": "庭院的芦帘减弱了照在廊沿上的午后阳光。",
+    "before": [
+      {
+        "text": "庭のよしずが、縁側に差す午後の日差しを",
+        "reading": "にわのよしずが、えんがわにさすごごのひざしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "弱めた",
+        "reading": "よわめた",
+        "verdict": "correct",
+        "explanation": "庭院里的芦帘使照在廊沿上的阳光变弱；「日差しを」标出被遮弱的对象。"
+      },
+      {
+        "id": "b",
+        "text": "弱まった",
+        "reading": "よわまった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「日差しを」是芦帘减弱的对象，不能接描写阳光自身减弱的弱まる；若描述阳光自行变弱，应让「日差しが」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "庭院的芦帘减弱了照在廊沿上的午后阳光。",
+    "explanation": "芦帘挡住了一部分直射光，使照向廊沿的阳光强度降低。",
+    "hint": "辨认是芦帘在改变光线，还是阳光自身变弱。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "lexicalKey": "fractured-player-suffers-injury-pain-on-stairs",
+    "scene": "骨折的选手每次上楼梯时，都因伤处疼痛而受苦。",
+    "before": [
+      {
+        "text": "骨折した選手は、階段を上るたびに傷の痛みに",
+        "reading": "こっせつしたせんしゅは、かいだんをのぼるたびにきずのいたみに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "苦しんだ",
+        "reading": "くるしんだ",
+        "verdict": "correct",
+        "explanation": "选手因伤处的疼痛而受苦；句中选手是承受痛苦的人，疼痛由「に」引出。"
+      },
+      {
+        "id": "b",
+        "text": "苦しめた",
+        "reading": "くるしめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "苦しめる表示某个原因使对象受苦；本句描述选手承受伤痛，不是选手让别的对象受苦。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "骨折的选手每次上楼梯时，都因伤处疼痛而受苦。",
+    "explanation": "选手因骨折处的疼痛而受苦，疼痛是他承受的原因。",
+    "hint": "判断句中谁在承受痛苦，以及疼痛在其中起什么作用。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "lexicalKey": "breadwinner-job-loss-hurts-mortgaged-family",
+    "scene": "还在还房贷的一家因经济支柱突然失业，长期承受困苦。",
+    "before": [
+      {
+        "text": "働き手の突然の失業が、住宅ローンを返済中の一家を長く",
+        "reading": "はたらきてのとつぜんのしつぎょうが、じゅうたくローンをへんさいちゅうのいっかをながく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "苦しめた",
+        "reading": "くるしめた",
+        "verdict": "correct",
+        "explanation": "经济支柱突然失业这件事使正在还房贷的一家人长期受苦；「一家を」是承受影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "苦しんだ",
+        "reading": "くるしんだ",
+        "verdict": "ungrammatical",
+        "explanation": "句中「一家を」是失业造成影响的对象，不能接以受苦者为主体的苦しむ；若写一家人自身受苦，应让一家作主体，并以「に」等标出原因。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经济支柱突然失业，令仍在偿还房贷的一家人长期承受困苦。",
+    "explanation": "句子写出家庭收入来源失去工作后，对仍在偿还房贷的一家人造成长期困难。",
+    "hint": "看失业事件造成影响的对象是谁，而不是谁在直接承受痛苦。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "lexicalKey": "years-of-unexplained-tinnitus",
+    "scene": "尚未找到疗法，她多年受原因不明的耳鸣困扰。",
+    "before": [
+      {
+        "text": "治療法が見つからず、彼女は原因不明の耳鳴りに何年も",
+        "reading": "ちりょうほうがみつからず、かのじょはげんいんふめいのみみなりになんねんも"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "苦しんだ",
+        "reading": "くるしんだ",
+        "verdict": "correct",
+        "explanation": "她多年因原因不明的耳鸣而受苦；她是承受症状的一方，耳鸣由「に」标出。"
+      },
+      {
+        "id": "b",
+        "text": "苦しめた",
+        "reading": "くるしめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "苦しめる会把主语解释为使某个对象受苦的施事；此句的「彼女は」是症状的承受者，耳鸣是她受苦的原因。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一直没有找到治疗方法，她多年都为原因不明的耳鸣所苦。",
+    "explanation": "她在治疗方法尚未找到的多年间，持续受耳鸣困扰。",
+    "hint": "确认她是症状的承受者，还是让别的对象受苦的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "lexicalKey": "three-year-drought-harms-rain-dependent-farmers",
+    "scene": "持续三年的干旱让依赖雨水的山村农户长期承受困难。",
+    "before": [
+      {
+        "text": "三年に及ぶ干ばつが、雨水に頼る山村の農家を",
+        "reading": "さんねんにおよぶかんばつが、あまみずにたよるさんそんののうかを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "苦しめた",
+        "reading": "くるしめた",
+        "verdict": "correct",
+        "explanation": "持续三年的干旱使依赖雨水的农户受苦；「農家を」标出受影响的人群。"
+      },
+      {
+        "id": "b",
+        "text": "苦しんだ",
+        "reading": "くるしんだ",
+        "verdict": "ungrammatical",
+        "explanation": "句中「農家を」是干旱影响的对象，不能接以受苦者为主体的苦しむ；若写农户自己受苦，应让农户作主体，并表达他们因干旱而受苦。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "持续三年的干旱让依赖雨水的山村农户长期承受困难。",
+    "explanation": "长期干旱给依赖雨水的农户带来持续的困苦。",
+    "hint": "判断这句话把农户写成受影响的对象，还是直接经历痛苦的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbna.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "lexicalKey": "tomato-seedlings-grow-after-repotting",
+    "scene": "换盆两周后，番茄幼苗在新盆中长势良好。",
+    "before": [
+      {
+        "text": "植え替えから二週間後、トマトの苗が新しい鉢で順調に",
+        "reading": "うえかえからにしゅうかんご、トマトのなえがあたらしいはちでじゅんちょうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "育った",
+        "reading": "そだった",
+        "verdict": "correct",
+        "explanation": "换盆两周后，番茄苗本身在新盆里长势良好；「苗が」是成长的一方。"
+      },
+      {
+        "id": "b",
+        "text": "育てた",
+        "reading": "そだてた",
+        "verdict": "meaning-mismatch",
+        "explanation": "育てる表示照料者培育某个对象；这里把幼苗写作「が」标记的主体，说明它自身长起来，而不是它培育别的东西。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "换盆两周后，番茄幼苗在新花盆里长势良好。",
+    "explanation": "句子描述番茄幼苗在新盆中生长得顺利。",
+    "hint": "看句子描写的是幼苗自身生长，还是有人照料另一个成长对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbna.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "lexicalKey": "grandfather-raises-yuzu-tree-from-sapling",
+    "scene": "祖父花三年时间在后院向阳处培育柚子树苗。",
+    "before": [
+      {
+        "text": "祖父は、裏庭の陽だまりで柚子の苗を三年かけて",
+        "reading": "そふは、うらにわのひだまりでゆずのなえをさんねんかけて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "育てた",
+        "reading": "そだてた",
+        "verdict": "correct",
+        "explanation": "祖父照料柚子树苗三年；「苗を」标出被培育的植物，祖父是照料者。"
+      },
+      {
+        "id": "b",
+        "text": "育った",
+        "reading": "そだった",
+        "verdict": "ungrammatical",
+        "explanation": "「柚子の苗を」是祖父培育的对象，不能接描述幼苗自身成长的育つ；若叙述幼苗长大，应让「苗が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "祖父花了三年，在后院向阳处培育柚子树苗。",
+    "explanation": "祖父在后院向阳的地方持续照料柚子苗三年。",
+    "hint": "确认祖父照料的植物，以及谁在句中实施培育。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "lexicalKey": "independence-develops-away-from-parents",
+    "scene": "离家生活的三年里，她的独立意识逐渐形成。",
+    "before": [
+      {
+        "text": "親元を離れて暮らした三年間で、彼女の自立心が",
+        "reading": "おやもとをはなれてくらしたさんねんかんで、かのじょのじりつしんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "育った",
+        "reading": "そだった",
+        "verdict": "correct",
+        "explanation": "离家生活期间形成的是她的独立意识本身；「自立心が」是逐渐发展的主体。"
+      },
+      {
+        "id": "b",
+        "text": "育てた",
+        "reading": "そだてた",
+        "verdict": "meaning-mismatch",
+        "explanation": "育てる表示有照料者培养对象；本句说自立意识自身逐渐形成，没有把它写成培养其他事物的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "离家生活的三年里，她的独立意识逐渐形成了。",
+    "explanation": "句子说明她的独立意识在三年离家生活中发展起来。",
+    "hint": "看在离家生活中逐步发展的是什么，以及它是不是照料者。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbna.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "lexicalKey": "workshop-master-trains-new-craftsman",
+    "scene": "家具作坊师傅在生产现场把新工匠培养成独当一面的人。",
+    "before": [
+      {
+        "text": "小さな家具工房の親方は、現場で新人職人を一人前に",
+        "reading": "ちいさなかぐこうぼうのおやかたは、げんばでしんじんしょくにんをいちにんまえに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "育てた",
+        "reading": "そだてた",
+        "verdict": "correct",
+        "explanation": "作坊师傅在现场培养新工匠，使其达到能独立工作的水平；「新人職人を」是培养对象。"
+      },
+      {
+        "id": "b",
+        "text": "育った",
+        "reading": "そだった",
+        "verdict": "ungrammatical",
+        "explanation": "句中「新人職人を」是师傅培养的对象，不能接描述工匠自行成长的育つ；若说工匠自己成长，应让他们作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "小型家具作坊的师傅在生产现场把新工匠培养成了独当一面的人。",
+    "explanation": "师傅通过现场工作把新工匠培养到能够独立胜任工作的程度。",
+    "hint": "辨认师傅在培养谁，以及句子是否说工匠自己成长。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbta.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "lexicalKey": "friday-mailed-application-arrives-monday",
+    "scene": "寄件人周五投出的申请表于周一早晨送达事务局。",
+    "before": [
+      {
+        "text": "差出人が金曜に投函した申込書が、月曜の朝に事務局へ",
+        "reading": "さしだしにんがきんようにとうかんしたもうしこみしょが、げつようのあさにじむきょくへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "届いた",
+        "reading": "とどいた",
+        "verdict": "correct",
+        "explanation": "申请表周五投递后，在周一早晨送达事务局；表格本身是到达的一方。"
+      },
+      {
+        "id": "b",
+        "text": "届けた",
+        "reading": "とどけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "届ける表示寄件人或递送者把东西送到目的地；本句以「申込書が」作主体，陈述它送达的结果，没有把它说成送件的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "寄件人周五投出的申请表于周一早晨送达了事务局。",
+    "explanation": "邮件周五投出后，在周一早晨到达事务局。",
+    "hint": "看句中写的是申请表到达了目的地，还是有人把申请表送过去。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbta.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "lexicalKey": "courier-delivers-requested-medicine-to-clinic",
+    "scene": "送货员把受托配送的药品送到了镇郊诊所。",
+    "before": [
+      {
+        "text": "配達員は、町はずれの診療所まで依頼された薬を",
+        "reading": "はいたついんは、まちはずれのしんりょうじょまでいらいされたくすりを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "届けた",
+        "reading": "とどけた",
+        "verdict": "correct",
+        "explanation": "送货员把受托配送的药品送到诊所；「薬を」是他送达的物品。"
+      },
+      {
+        "id": "b",
+        "text": "届いた",
+        "reading": "とどいた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「薬を」标出送货员送的物品，不能接表示药品自行到达的届く；若叙述药品到达，应让「薬が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "送货员把受托配送的药品送到了镇郊的诊所。",
+    "explanation": "送货员将委托配送的药品送到目的地诊所。",
+    "hint": "确认送货员是递送药品的人，以及药品是被递送的物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbta.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "lexicalKey": "cheers-reach-third-floor-from-gym",
+    "scene": "比赛尾声，体育馆里为选手加油的声音传到了教学楼三层。",
+    "before": [
+      {
+        "text": "試合終盤、体育館から校舎の三階まで選手を応援する声が",
+        "reading": "しあいしゅうばん、たいいくかんからこうしゃのさんがいまでせんしゅをおうえんするこえが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "届いた",
+        "reading": "とどいた",
+        "verdict": "correct",
+        "explanation": "比赛尾声的加油声从体育馆传到了教学楼三层；声音本身是到达该地点的一方。"
+      },
+      {
+        "id": "b",
+        "text": "届けた",
+        "reading": "とどけた",
+        "verdict": "meaning-mismatch",
+        "explanation": "届ける表示某个主体把物件或信息送到目的地；本句描写的是声音传播到三层的结果，不是声音把另一对象送达。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "比赛尾声，体育馆里为选手加油的声音传到了教学楼三层。",
+    "explanation": "从体育馆传出的加油声到达了教学楼三层。",
+    "hint": "看声音本身是否到达了远处，而不是谁把某个对象送到那里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

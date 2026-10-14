@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_03_recovery",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-03-r1.draft.json",
+  "at": "2026-10-13T19:20:48.915Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refcea.04",
+      "hash": "f953d96ba455d9bf0c73f7c39fcc11e0bd7332403894f4b1042fc6db6b55143e",
+      "fullSentences": [
+        "調理実習で、講師は鍋のだし汁に味噌を溶きました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.02",
+      "hash": "9b64060c06f55d0abe02032991485f0b97ef3295a928264e33ae8fe460839b3f",
+      "fullSentences": [
+        "子どもは指先で小石を弾きました。"
+      ]
+    },
+    {
+      "id": "verb.refcja.04",
+      "hash": "4591aede476fdbf67f5170312b9ebe61261b700556f31f85033263354b293f9e",
+      "fullSentences": [
+        "撥水剤を塗った布は、実験で水滴を弾きました。"
+      ]
+    }
+  ]
+}

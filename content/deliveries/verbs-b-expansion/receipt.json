@@ -1,0 +1,101 @@
+{
+  "author": "/root/bunpo_verbs_b",
+  "source": "work/content/verbs-b/expansion.draft.json",
+  "at": "2026-10-13T11:48:05.531Z",
+  "count": 13,
+  "cards": [
+    {
+      "id": "verb.start.04",
+      "hash": "cc4af372a1a3a081ac5f8b450140cd384501d1cb052aaaf3f92bd67f65486599",
+      "fullSentences": [
+        "店長が予約制の受け取りサービスを始めました。"
+      ]
+    },
+    {
+      "id": "verb.start.05",
+      "hash": "fad54fd41ffa7b8e5fd75ba56f216a12a020a1b9aa773067791a233af31487a2",
+      "fullSentences": [
+        "遺跡の発掘調査が来週から始まります。"
+      ]
+    },
+    {
+      "id": "verb.end.01",
+      "hash": "fefef4e565847f5d2fe979ea41cc115d7066d7dcdf48fb3665efc67c0f4e03fd",
+      "fullSentences": [
+        "花火大会が午後九時に終わりました。"
+      ]
+    },
+    {
+      "id": "verb.end.02",
+      "hash": "cbd42671a10a7764c782fc8729a2ad461d94444003b16dff4c1a6be3f06583f4",
+      "fullSentences": [
+        "担当者が申込書の確認を昼前に終えました。",
+        "担当者が申込書の確認を昼前に終わりました。"
+      ]
+    },
+    {
+      "id": "verb.end.03",
+      "hash": "343e49cac88bbf2f393c20814c41369a158ad21731557f12217cc4228e85af57",
+      "fullSentences": [
+        "駅伝大会が予定より遅れて終わりました。"
+      ]
+    },
+    {
+      "id": "verb.end.04",
+      "hash": "5b0dde4d8a049d35ab9f697ce9e00034bbdc270a5f73b024451ecd050f04029b",
+      "fullSentences": [
+        "劇団が新作の読み合わせを夕方に終えました。",
+        "劇団が新作の読み合わせを夕方に終わりました。"
+      ]
+    },
+    {
+      "id": "verb.end.05",
+      "hash": "cc36ad4c3d283f735b3b8d57bdea98cefb0bb41e6ad2550b2befb3d4f8904c34",
+      "fullSentences": [
+        "オンライン講座の配信が今朝、予定どおり終わりました。"
+      ]
+    },
+    {
+      "id": "verb.decide.01",
+      "hash": "d12ba3bc96df1a0ec86ccf4e41a8ff412a003e5968351e15e620235bb24257d8",
+      "fullSentences": [
+        "研修の日程が九月五日に決まりました。"
+      ]
+    },
+    {
+      "id": "verb.decide.02",
+      "hash": "48e8e3153d58278c173839412813d18aa37ceb965a5647fcd4f2e4fbb910ecdb",
+      "fullSentences": [
+        "企画担当者が来場者の意見を受けて展示会のテーマを決めました。"
+      ]
+    },
+    {
+      "id": "verb.decide.03",
+      "hash": "9bc706da62a683c70a4f39a48ac131998d295a2222aebfd283caf9ec850a7827",
+      "fullSentences": [
+        "決勝の対戦相手が抽選で決まりました。"
+      ]
+    },
+    {
+      "id": "verb.decide.04",
+      "hash": "82ef9caf8d734f547ffdc2ac0b4c051a1346d5aee778622c024643c6a5e6029c",
+      "fullSentences": [
+        "監督が遠征メンバーを決めました。"
+      ]
+    },
+    {
+      "id": "verb.decide.05",
+      "hash": "1891291e702cc158b06a1a1245da37315a9963d5e7d7c2be4bf855432614794e",
+      "fullSentences": [
+        "防災訓練の集合場所が小学校に決まりました。"
+      ]
+    },
+    {
+      "id": "verb.change.01",
+      "hash": "1c81c59164af019ddd7eba2ea1e68aea1a7426f99fefad1bdc62098bc2662415",
+      "fullSentences": [
+        "会議の開始時刻が午後三時に変わりました。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "mixed.27",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "ticketed-audience-waiting",
+    "scene": "接待员给访客发号码牌，参加者在礼堂安静等候。",
+    "before": [
+      {
+        "text": "受付係は来場者に整理券を配り、参加者は講堂",
+        "reading": "うけつけがかりはらいじょうしゃにせいりけんをくばり、さんかしゃはこうどう"
+      }
+    ],
+    "after": [
+      {
+        "text": "静かに待った。",
+        "reading": "しずかにまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "参加者が待つ活動の場所は講堂なので，用「で」标示活动地点。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "「に」可标示存在地点或移动着点，但这里说的是参加者在礼堂进行等候活动；「講堂に待った」不能表达活动地点。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接待员给来访者发号码牌，参加者在礼堂安静等候。",
+    "explanation": "前半句给出接待员、来访者和号码牌关系，主句说参加者在哪里等候，活动地点用「で」。",
+    "hint": "区分参加者进行等候活动的地点与人或物静态存在的位置。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.28",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.destination",
+    "familyId": "particle.destination",
+    "lexicalKey": "botanical-garden-destination",
+    "scene": "导览员在资料馆发地图，游客下午去隔壁植物园。",
+    "before": [
+      {
+        "text": "案内係は資料館で見学者の地図を配り、団体客は午後、隣の植物園",
+        "reading": "あんないがかりはしりょうかんでけんがくしゃのちずをくばり、だんたいきゃくはごご、となりのしょくぶつえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「に」标明团体游客到达的植物园，符合前往隔壁植物园的场景。"
+      },
+      {
+        "id": "b",
+        "text": "へ",
+        "reading": "へ",
+        "verdict": "correct",
+        "explanation": "「へ」标示朝植物园前进的方向；「行く」在这里也可用「へ」，与「に」都符合场景。"
+      },
+      {
+        "id": "c",
+        "text": "を",
+        "reading": "を",
+        "verdict": "meaning-mismatch",
+        "explanation": "「植物園を行く」可把园区读作行进途中经过的路线；场景说团体游客前往并抵达植物园，不是穿过园区。"
+      }
+    ],
+    "answerIds": [
+      "a",
+      "b"
+    ],
+    "translation": "导览员在资料馆发放游客地图，团体游客下午去了隔壁的植物园。",
+    "explanation": "导览员发地图是前一动作；团体游客移动的目的地是隔壁植物园，「に」和「へ」都能表达这一关系。",
+    "hint": "判断植物园是移动到达的目的地，还是途中经过的路线；目的地可有不同标记。",
+    "sourceIds": [
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.29",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "ropeway-boarding",
+    "scene": "领队在车站前清点人数，游客登上缆车。",
+    "before": [
+      {
+        "text": "添乗員は駅前でツアー客の人数を確かめ、観光客はロープウェイ",
+        "reading": "てんじょういんはえきまえでツアーきゃくのにんずうをたしかめ、かんこうきゃくはロープウェイ"
+      }
+    ],
+    "after": [
+      {
+        "text": "乗った。",
+        "reading": "のった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "游客登乘的缆车是「乗る」的对象，用「に」标示。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "这里缆车是乘坐对象，不是离开地点或经过路径；「乗る」不以「を」标示所乘交通工具。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "领队在车站前清点旅行团人数，游客乘上了缆车。",
+    "explanation": "领队在车站前清点人数，主句中缆车是游客登乘的交通工具，使用「に」。",
+    "hint": "分清游客乘坐的交通工具和移动时离开的地点或经过的路径。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "mixed.30",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "employee-leaves-company",
+    "scene": "员工在前台向同事道别，下午六点离开公司。",
+    "before": [
+      {
+        "text": "社員は受付で同僚に挨拶し、午後六時に会社",
+        "reading": "しゃいんはうけつけでどうりょうにあいさつし、ごごろくじにかいしゃ"
+      }
+    ],
+    "after": [
+      {
+        "text": "出た。",
+        "reading": "でた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "员工离开公司的空间，「会社」是离开的起点，用「を」标示。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「会社に出る」可表示到公司上班或出现在公司；这里是员工下午六点离开公司，方向和场景不同。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "员工在前台向同事道别，下午六点离开了公司。",
+    "explanation": "前半句交代员工在前台向同事道别，主句说员工从公司离开；离开位置用「を」。",
+    "hint": "判断公司是员工离开的起点，还是员工前往并出现的地点。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

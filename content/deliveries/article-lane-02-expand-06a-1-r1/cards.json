@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refsda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsda",
+    "familyId": "verb.refsda",
+    "lexicalKey": "camellia-petals-fall-on-garden-steps",
+    "scene": "台风过后的早晨，院里的茶梅花瓣散落在石阶上。",
+    "before": [
+      {
+        "text": "台風が過ぎた朝、庭の山茶花の花びらが石段に",
+        "reading": "たいふうがすぎたあさ、にわのさざんかのはなびらがいしだんに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "散った",
+        "reading": "ちった",
+        "verdict": "correct",
+        "explanation": "「山茶花の花びらが」是从枝上脱落并散开的主体，句子写台风过后花瓣落在石阶上的状态。"
+      },
+      {
+        "id": "b",
+        "text": "散らした",
+        "reading": "ちらした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「散らす」表示主体使别的东西散开；这里是茶梅花瓣本身落下并散开，场景没有花瓣使另一对象散开的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "台风过后的早晨，院里的茶梅花瓣散落在石阶上。",
+    "explanation": "茶梅花瓣是自行脱落、散开的主体，石阶标出它们落到的位置。",
+    "hint": "判断花瓣是在变化的一方，还是让别的东西发生变化的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

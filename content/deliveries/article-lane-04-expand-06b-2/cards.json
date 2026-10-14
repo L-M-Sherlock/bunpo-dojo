@@ -1,0 +1,94 @@
+[
+  {
+    "id": "verb.refuaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "lexicalKey": "滅ぶ/滅ぼす",
+    "scene": "调查森林砍伐后岛屿固有种栖息地缩小与数量下降",
+    "before": [
+      {
+        "text": "森林伐採で生息地が狭まり、個体数が減った島の固有種は",
+        "reading": "しんりんばっさいでせいそくちがせばまり、こたいすうがへったしまのこゆうしゅは"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "滅んだ",
+        "reading": "ほろんだ",
+        "verdict": "correct",
+        "explanation": "岛屿固有种自身因栖息地缩小、数量减少而消失，符合自动词描述对象自身灭绝的用法。"
+      },
+      {
+        "id": "b",
+        "text": "滅ぼした",
+        "reading": "ほろぼした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「滅ぼす」表示主语使其他对象灭亡；即使上下文能省略宾语，这里写的是固有种自身数量减少并消失，不是它毁灭了别的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "森林砍伐使栖息地缩小、数量减少的岛屿特有种灭绝了。",
+    "explanation": "句子写岛屿特有种自身消失，没有写它毁灭其他对象。",
+    "hint": "留意句中数量减少并消失的是特有种本身，还是它造成了别的对象消失。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refuaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refuaa",
+    "familyId": "verb.refuaa",
+    "lexicalKey": "滅ぶ/滅ぼす",
+    "scene": "研读丘陵砍伐、港口淤积与古代城市衰退的环境史",
+    "before": [
+      {
+        "text": "丘陵地で続いた森林伐採は、港の土砂堆積を招き、古代都市を",
+        "reading": "きゅうりょうちでつづいたしんりんばっさいは、みなとのどしゃたいせきをまねき、こだいとしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "滅んだ",
+        "reading": "ほろんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「古代都市を」是被毁灭的直接对象；自动词「滅ぶ」描述主体自身消亡，不能接这个宾语。"
+      },
+      {
+        "id": "b",
+        "text": "滅ぼした",
+        "reading": "ほろぼした",
+        "verdict": "correct",
+        "explanation": "持续的森林砍伐引发港湾淤积，并使古代城市消亡；「古代都市を」是受影响的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "丘陵地持续的森林砍伐导致港湾淤积，并毁灭了古代城市。",
+    "explanation": "森林砍伐是使古代城市消亡的原因，「古代都市を」标出受影响的对象。",
+    "hint": "判断「古代都市を」是消亡的一方，还是接受毁灭动作的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

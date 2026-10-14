@@ -1,0 +1,482 @@
+[
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.01",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "read-novel-in-library",
+    "scene": "读书会成员先在图书馆读一部新小说，下周再交流感想。",
+    "before": [
+      {
+        "text": "図書館",
+        "reading": "としょかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "新しい小説を読みます。",
+        "reading": "あたらしいしょうせつをよみます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出阅读动作发生的图书馆。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标人或物的存在地点或移动目的地；本句的読みます是阅读动作，地点应标活动发生处。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "在图书馆读一部新小说。",
+    "explanation": "阅读动作发生在图书馆，动作地点用で标记。",
+    "hint": "判断图书馆是书的所在处，还是阅读动作进行的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.02",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "practice-doubles-in-gym",
+    "scene": "羽毛球社团周末练习双打，队员约好在体育馆集合。",
+    "before": [
+      {
+        "text": "体育館",
+        "reading": "たいいくかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "バドミントンのダブルスを練習します。",
+        "reading": "バドミントンのダブルスをれんしゅうします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に表示所在地点或移动终点；这里的練習します表达在体育馆进行的练习活动。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出羽毛球双打练习发生的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "在体育馆练习羽毛球双打。",
+    "explanation": "体育馆是练习活动发生的地点，用で标记。",
+    "hint": "看谓语表达的是所在状态、移动，还是在某处练习。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.03",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "repair-chair-in-workshop",
+    "scene": "木工师傅正在工坊修理一把摇晃的木椅。",
+    "before": [
+      {
+        "text": "工房",
+        "reading": "こうぼう"
+      }
+    ],
+    "after": [
+      {
+        "text": "職人が木の椅子を修理しています。",
+        "reading": "しょくにんがきのいすをしゅうりしています。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出木工师傅修理木椅的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标人或物所在；本句不是说师傅在哪里，而是说修理活动在哪里进行。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "木工师傅正在工坊修理木椅。",
+    "explanation": "修理动作发生在工坊，用で标明活动地点。",
+    "hint": "分清师傅的所在地点与修椅动作发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.04",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "disaster-lecture-at-civic-hall",
+    "scene": "社区周报写明，本周末的防灾讲座在市民会馆举行。",
+    "before": [
+      {
+        "text": "今週末は市民ホール",
+        "reading": "こんしゅうまつはしみんホール"
+      }
+    ],
+    "after": [
+      {
+        "text": "防災講演会があります。",
+        "reading": "ぼうさいこうえんかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标人或物的存在地点；这里说讲座作为活动将在会馆举行，活动地点用で。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标防灾讲座这一活动举行的市民会馆。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "本周末市民会馆有一场防灾讲座。",
+    "explanation": "ある在此表示活动举行，活动发生的地点用で。",
+    "hint": "先辨认句中名词是在某处存在的物品，还是将在那里举行的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.05",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "youth-baseball-tournament-at-park",
+    "scene": "少棒队家长看赛事日历，周日比赛将在运动公园举行。",
+    "before": [
+      {
+        "text": "今度の日曜日は運動公園",
+        "reading": "こんどのにちようびはうんどうこうえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "少年野球の大会があります。",
+        "reading": "しょうねんやきゅうのたいかいがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标少年棒球赛这一活动举行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标物品或人物的存在地点；这里运动公园是比赛这一活动的举办地，用で。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "接下来的星期日，运动公园将举行少年棒球赛事。",
+    "explanation": "少年棒球赛是将在当地举行的活动，地点用で标记。",
+    "hint": "区分比赛活动的举办地点与人或物静态存在的位置。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.06",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "grill-mackerel-in-kitchen",
+    "scene": "晚餐准备烤鲭鱼，祖母正在厨房料理。",
+    "before": [
+      {
+        "text": "台所",
+        "reading": "だいどころ"
+      }
+    ],
+    "after": [
+      {
+        "text": "祖母がサバを焼いています。",
+        "reading": "そぼがサバをやいています。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出祖母烤鲭鱼这一动作发生的厨房。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标食材或人物的存在地点；本句说明烤鱼动作在哪里进行，应使用动作地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "祖母正在厨房烤鲭鱼。",
+    "explanation": "烤鱼动作在厨房进行，用で标出活动地点。",
+    "hint": "根据谓语判断厨房是存在地点，还是烹饪动作的发生处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.07",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "photograph-orchids-at-botanical-garden",
+    "scene": "游客在植物园拍摄兰花，园方提醒大家关闭闪光灯。",
+    "before": [
+      {
+        "text": "見学者は植物園",
+        "reading": "けんがくしゃはしょくぶつえん"
+      }
+    ],
+    "after": [
+      {
+        "text": "ランの写真を撮ります。",
+        "reading": "ランのしゃしんをとります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に可标存在地点或移动目的地；本句要标出拍照动作发生的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明参观者拍摄兰花的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "参观者在植物园拍摄兰花。",
+    "explanation": "拍照动作在植物园进行，活动地点用で标出。",
+    "hint": "判断植物园是活动发生的地点，还是人物所在或前往的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.08",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "interview-captain-at-port-museum",
+    "scene": "地方报社记者在渔港资料馆采访一位老船长。",
+    "before": [
+      {
+        "text": "記者は漁港の資料館",
+        "reading": "きしゃはぎょこうのしりょうかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "船長に話を聞きます。",
+        "reading": "せんちょうにはなしをききます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标明记者采访船长这一活动进行的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "这里的に不能标采访活动发生处；它可用于人物存在地点或移动终点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "记者在渔港资料馆采访船长。",
+    "explanation": "采访是在资料馆进行的活动，地点用で表示。",
+    "hint": "找出记者进行采访的地点，而不是采访对象所在或移动的终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.09",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "make-udon-in-training-kitchen",
+    "scene": "烹饪课上，学员在实习厨房手打乌冬面。",
+    "before": [
+      {
+        "text": "生徒は調理室",
+        "reading": "せいとはちょうりしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "うどんを打ちます。",
+        "reading": "うどんをうちます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に不能在这里标手打乌冬面这一动作的进行地点；它常标存在位置或移动终点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で指出学员制作乌冬面的活动发生在实习厨房。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "学员在实习厨房手打乌冬面。",
+    "explanation": "制作乌冬面是发生在厨房里的活动，用で标地点。",
+    "hint": "注意句子说的是在哪里制作，而不是学员或乌冬面在哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.activity.10",
+    "skillId": "particle.activity",
+    "familyId": "particle.activity",
+    "lexicalKey": "rehearse-new-piece-in-music-room",
+    "scene": "学校文化节前，吹奏乐部在音乐室合练新曲。",
+    "before": [
+      {
+        "text": "吹奏楽部は音楽室",
+        "reading": "すいそうがくぶはおんがくしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "新曲を合奏します。",
+        "reading": "しんきょくをがっそうします。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "で标出吹奏乐部合奏新曲的地点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に标存在或移动的终点，不能在此句中标合奏活动的地点。"
+      }
+    ],
+    "answerIds": [
+      "de"
+    ],
+    "translation": "吹奏乐部在音乐室合奏新曲。",
+    "explanation": "合奏动作在音乐室进行，活动地点用で表示。",
+    "hint": "判断音乐室是合奏活动的发生处，还是单纯的存在位置或目的地。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

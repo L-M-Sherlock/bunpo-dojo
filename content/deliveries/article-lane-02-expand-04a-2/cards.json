@@ -1,0 +1,190 @@
+[
+  {
+    "id": "verb.refdga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "lexicalKey": "资深客服训练新人应对改签来电",
+    "scene": "客服中心用模拟来电训练新人应对改签咨询。",
+    "before": [
+      {
+        "text": "コールセンターの先輩は、予約変更の模擬電話を使って新人を実際の問い合わせ対応に",
+        "reading": "コールセンターのせんぱいは、よやくへんこうのもぎでんわをつかってしんじんをじっさいのといあわせたいおうに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "慣らした",
+        "reading": "ならした",
+        "verdict": "correct",
+        "explanation": "「新人を」标出培训对象；前辈用模拟电话让新人逐步适应真实的咨询流程。"
+      },
+      {
+        "id": "b",
+        "text": "慣れた",
+        "reading": "なれた",
+        "verdict": "ungrammatical",
+        "explanation": "「慣れる」表示主体自己逐渐适应；此处新人由「を」标作对象，不能接「慣れた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "呼叫中心的前辈用改签模拟电话，让新人熟悉实际的咨询应对。",
+    "explanation": "句子写的是资深员工使新人逐渐适应接听真实咨询的流程。",
+    "hint": "看句中谁安排训练，谁是被训练熟悉咨询流程的人。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "lexicalKey": "漏雨修缮使古宅保护会积蓄减少",
+    "scene": "秋雨造成的返修持续，古宅保护会的防灾积蓄大幅减少。",
+    "before": [
+      {
+        "text": "古民家保存会では、秋の長雨で屋根の雨漏りが再発し、応急修繕が続くうちに災害用の積立金が",
+        "reading": "こみんかほぞんかいでは、あきのながあめでやねのあまもりがさいはつし、おうきゅうしゅうぜんがつづくうちにさいがいようのつみたてきんが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "費えた",
+        "reading": "ついえた",
+        "verdict": "correct",
+        "explanation": "应急修缮接连发生，防灾储备金作为财物大幅减少，符合「費える」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "費やした",
+        "reading": "ついやした",
+        "verdict": "ungrammatical",
+        "explanation": "「費やす」需要由实施花费的主体支配宾语；本句以「積立金が」写储备金本身减少，不能接主动他动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "古宅保存会的屋顶在秋季连雨中再次漏水，接连的应急修缮使防灾储备金大幅减少。",
+    "explanation": "焦点是储备金作为财物逐渐减少，而非某个主体花掉一笔宾语。",
+    "hint": "判断句子报告的是储备金自身减少，还是某个主体把它作为对象花掉。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "lexicalKey": "市府将维修预算用于旧厅抗震加固",
+    "scene": "市政府把大半维修预算用于老市政厅抗震加固。",
+    "before": [
+      {
+        "text": "市は、旧庁舎の耐震改修に今年度の修繕予算の大半を",
+        "reading": "しは、きゅうちょうしゃのたいしんかいしゅうにこんねんどのしゅうぜんよさんのたいはんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "費やした",
+        "reading": "ついやした",
+        "verdict": "correct",
+        "explanation": "市政府把维修预算作为宾语投入旧厅抗震改修，符合「費やす」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "費えた",
+        "reading": "ついえた",
+        "verdict": "ungrammatical",
+        "explanation": "「費える」描写财物或时间自行减少；此处「予算の大半を」是被市政府投入改修的对象，不能用这个自动词接续。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "市政府将本年度维修预算的大部分用于旧市政厅的抗震改修。",
+    "explanation": "「予算の大半を」是市政府投入改修的经费对象。",
+    "hint": "留意句中谁决定把哪一部分经费投入改修。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "lexicalKey": "旧图纸核对白白耗去复原调查时间",
+    "scene": "复原调查报告记载，核对旧图纸白白耗掉了调查时间。",
+    "before": [
+      {
+        "text": "復元調査の報告書には、古い図面の照合に手間取り、調査時間がいたずらに",
+        "reading": "ふくげんちょうさのほうこくしょには、ふるいずめんのしょうごうにてまどり、ちょうさじかんがいたずらに"
+      }
+    ],
+    "after": [
+      {
+        "text": "とある。",
+        "reading": "とある。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "費えた",
+        "reading": "ついえた",
+        "verdict": "correct",
+        "explanation": "调查时间因反复核对而白白流逝；「時間が費える」符合时间被无谓耗去的用法。"
+      },
+      {
+        "id": "b",
+        "text": "費やした",
+        "reading": "ついやした",
+        "verdict": "ungrammatical",
+        "explanation": "「費やす」需要实施花费的主体和所花费的对象；本句以「調査時間が」写时间白白流逝，不能接主动他动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "复原调查报告写道，核对旧图纸遇到周折，调查时间白白流逝了。",
+    "explanation": "句子把白白流逝的调查时间作为「費える」的主体来写。",
+    "hint": "关注报告说的是时间自行白白流逝，还是有人把时间作为对象投入某事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

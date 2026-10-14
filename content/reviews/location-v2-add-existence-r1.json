@@ -1,0 +1,27 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "particle.existence.16",
+      "hash": "786e9ab1b8b337fa930712b62b8ea9d1d24ce613ea590706fad362db67cb4b8c",
+      "fullSentences": ["窓辺に観葉植物があります。"],
+      "status": "approved",
+      "reason": "办公环境中窗边摆有观叶植物，窓辺に与あります自然地表达植物所在；场景中的一盆可作背景，不与未限定数量的日语句冲突。",
+      "answerSet": "に是唯一能在「窓辺に観葉植物があります」标存在位置的候选；で不能在此给あります标植物所在。",
+      "readings": "窓辺＝まどべ、観葉植物＝かんようしょくぶつ；に／で书写与读音对应，句号保留。",
+      "translation": "「窗边有观叶植物」准确传达完整日语句，没有把场景中的一盆或盆器带进译文。",
+      "options": "ni correct：窗边是植物的所在。de ungrammatical：可标搬动、摆放等动作发生处，但当前句内没有这些动作。提示准确区分所在与活动。"
+    },
+    {
+      "id": "particle.existence.18",
+      "hash": "22a0eb2accc00179e6cb946953ea9c1ebc24dfc28657e020c1c846f1ca3c7f9b",
+      "fullSentences": ["玄関先に宅配便の箱があります。"],
+      "status": "approved",
+      "reason": "回家看到快递箱置于玄关前的情境具体；玄関先に与あります自然表达箱子所在，未说投递动作发生。",
+      "answerSet": "に是唯一能在「玄関先に宅配便の箱があります」标存在位置的候选；で不能在此标箱子所在。",
+      "readings": "玄関先＝げんかんさき、宅配便＝たくはいびん、箱＝はこ；に／で书写与读音对应，句号保留。",
+      "translation": "「玄关前有快递箱」完整表达地点与物品，不限定日语未说明的箱子数量。",
+      "options": "ni correct：标快递箱所在。de ungrammatical：可标投递动作发生地点，但这句话只用あります报告箱子位置。提示对应两者区别。"
+    }
+  ]
+}

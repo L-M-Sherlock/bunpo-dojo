@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refxaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "lexicalKey": "young-mechanic-builds-repair-experience-on-site",
+    "scene": "年轻技师在现场应对各类故障，逐步积累维修经验。",
+    "before": [
+      {
+        "text": "若手の整備士は、現場でさまざまな故障に対応しながら修理の経験を",
+        "reading": "わかてのせいびしは、げんばでさまざまなこしょうにたいおうしながらしゅうりのけいけんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "積んでいった",
+        "reading": "つんでいった",
+        "verdict": "correct",
+        "explanation": "整备士通过现场处理故障逐步积累维修经验；「経験を」标出不断获得的对象。"
+      },
+      {
+        "id": "b",
+        "text": "積もっていった",
+        "reading": "つもっていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「積もる」常用于雪、灰尘或不平等自行累积，也可表示估算；这里写的是技师逐步获得经验，不是经验数量的估算。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "年轻的维修技师在现场处理各种故障，逐步积累维修经验。",
+    "explanation": "句子写的是技师通过实际工作不断获得经验，「修理の経験を」是积累的对象。",
+    "hint": "留意句子写的是获得工作经验，还是估算某个费用或数量。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

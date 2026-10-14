@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refnaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refnaa",
+    "familyId": "verb.refnaa",
+    "pair": {
+      "id": "verb.refnaa",
+      "intransitive": "見える",
+      "intransitiveReading": "みえる",
+      "transitive": "見る",
+      "transitiveReading": "みる",
+      "meaning": "辨析「見える／見る」的角色与对象",
+      "count": 4,
+      "articleGroup": 14,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrbb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "pair": {
+      "id": "verb.refrbb",
+      "intransitive": "帰る",
+      "intransitiveReading": "かえる",
+      "transitive": "帰す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「帰る／帰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refrbb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "pair": {
+      "id": "verb.refrbb",
+      "intransitive": "帰る",
+      "intransitiveReading": "かえる",
+      "transitive": "帰す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「帰る／帰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refrbb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "pair": {
+      "id": "verb.refrbb",
+      "intransitive": "帰る",
+      "intransitiveReading": "かえる",
+      "transitive": "帰す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「帰る／帰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

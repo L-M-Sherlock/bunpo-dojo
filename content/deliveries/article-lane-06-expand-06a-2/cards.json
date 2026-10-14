@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refsha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "lexicalKey": "pilot-flies-light-plane-along-coast",
+    "scene": "沿岸飞行训练中，飞行员操纵小型机沿海岸线飞行。",
+    "before": [
+      {
+        "text": "沿岸部での訓練飛行中、操縦士は小型機を海岸線に沿って",
+        "reading": "えんがんぶでのくんれんひこうちゅう、そうじゅうしはこがたきをかいがんせんにそって"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "飛ばした",
+        "reading": "とばした",
+        "verdict": "correct",
+        "explanation": "操纵士是施事，「小型機を」标出被其操纵飞行的飞机，符合他动词「飛ばす」。"
+      },
+      {
+        "id": "b",
+        "text": "飛んだ",
+        "reading": "とんだ",
+        "verdict": "ungrammatical",
+        "explanation": "飛ぶ描述主语自身飞行；本句用「小型機を」标出操纵士所驾驶的对象，不能接这个自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在沿岸飞行训练中，飞行员驾驶小型机沿着海岸线飞行。",
+    "explanation": "操纵士让小型机沿海岸线飞行，飞机是动作对象，符合「飛ばす」。",
+    "hint": "看句中谁在操纵飞行，以及被操纵的飞机如何标记。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftaa",
+    "familyId": "verb.reftaa",
+    "lexicalKey": "arrow-embeds-in-center-of-archery-target",
+    "scene": "弓道社练习时，射出的箭深深扎进靶心。",
+    "before": [
+      {
+        "text": "弓道部の練習で、放たれた矢が的の中心に深く",
+        "reading": "きゅうどうぶのれんしゅうで、はなたれたやがまとのちゅうしんにふかく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "刺さった",
+        "reading": "ささった",
+        "verdict": "correct",
+        "explanation": "箭是射出后嵌入靶心的主体；「的の中心に」标出它嵌入的位置，符合「刺さる」。"
+      },
+      {
+        "id": "b",
+        "text": "刺した",
+        "reading": "さした",
+        "verdict": "meaning-mismatch",
+        "explanation": "刺す表示施事把某个对象刺入或刺向目标；本句写箭本身嵌在靶心，并未写箭刺入的另一个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "弓道社练习时，射出的箭深深扎进靶心。",
+    "explanation": "句子写的是箭射出后嵌入靶心的状态变化，符合自动词「刺さる」。",
+    "hint": "确认句子强调的是箭嵌入靶心，还是箭作为施事刺入另一个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftaa",
+    "familyId": "verb.reftaa",
+    "lexicalKey": "nurse-inserts-blood-draw-needle-in-vein",
+    "scene": "采血室里，护士将采血针刺入患者手臂的血管。",
+    "before": [
+      {
+        "text": "採血室で、看護師が患者の腕の血管に採血用の針を",
+        "reading": "さいけつしつで、かんごしがかんじゃのうでのけっかんにさいけつようのはりを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "刺した",
+        "reading": "さした",
+        "verdict": "correct",
+        "explanation": "护士是施事，「採血用の針を」标出被刺入患者血管的针，符合他动词「刺す」。"
+      },
+      {
+        "id": "b",
+        "text": "刺さった",
+        "reading": "ささった",
+        "verdict": "ungrammatical",
+        "explanation": "刺さる描述针自身嵌入某处；本句已用「針を」把针标为护士刺入的对象，不能再用这个自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在采血室，护士将采血针刺入患者手臂的血管。",
+    "explanation": "护士主动将采血针刺入患者的血管，针是动作对象，符合「刺す」。",
+    "hint": "留意「看護師が」和「針を」分别标出什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.reftaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.reftaa",
+    "familyId": "verb.reftaa",
+    "lexicalKey": "fish-bone-gets-stuck-in-throat-at-lunch",
+    "scene": "吃烤鱼时，一根小鱼刺卡在喉咙里。",
+    "before": [
+      {
+        "text": "焼き魚を食べていたら、小さな骨が喉に",
+        "reading": "やきざかなをたべていたら、ちいさなほねがのどに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "刺さった",
+        "reading": "ささった",
+        "verdict": "correct",
+        "explanation": "小さな骨是卡进喉咙的主体；「喉に」标出它卡住的位置，符合「刺さる」。"
+      },
+      {
+        "id": "b",
+        "text": "刺した",
+        "reading": "さした",
+        "verdict": "meaning-mismatch",
+        "explanation": "刺す表示施事用尖物刺入另一个对象；本句写鱼刺卡在喉咙里，没有鱼刺刺入的其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "吃烤鱼时，一根小鱼刺卡在喉咙里。",
+    "explanation": "鱼刺嵌入喉咙，句子描写它自身卡住的状态，符合自动词「刺さる」。",
+    "hint": "确认句子在说鱼刺卡住的位置，还是它刺入了另一个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

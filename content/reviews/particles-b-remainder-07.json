@@ -1,0 +1,57 @@
+{
+  "reviewer": "/root/bunpo_review_relations",
+  "cards": [
+    {
+      "id": "particle.purpose.07",
+      "hash": "17e412119dc8368e6633d0846eeb61781f7dbeb4ca8b72b332c8be0847ba7305",
+      "fullSentences": [
+        "写真家は夜明けの海辺へ日の出を撮りに行った。"
+      ],
+      "status": "revise",
+      "reason": "「写真家は夜明けの海辺へ日の出を撮りに行った」自然，拍日出是去海边的目的；但a、b两条选项explanation都是日语，须改为中文。",
+      "answerSet": "仅a「に」连接撮り与行った表示出行目的；b「を」成「日の出を撮りを行った」，不构成目的结构。",
+      "readings": "写真家しゃしんか、夜明けよあけ、海辺うみべ、日の出ひので、撮りとり、行ったいった正确；标点及へ在句段reading中保留书面拼写。",
+      "translation": "译文准确表达摄影师黎明去海边拍日出；场景“专程”没有被额外加入译文。",
+      "options": "a的correct、b的ungrammatical成立；两条答后选项解释须改中文。"
+    },
+    {
+      "id": "particle.purpose.08",
+      "hash": "e0c3aa7981591673def96ce7259bb893d2780adfeacb0c263685ef133a8c6393",
+      "fullSentences": [
+        "転校生は担任の先生に会いに職員室へ行った。"
+      ],
+      "status": "revise",
+      "reason": "「転校生は担任の先生に会いに職員室へ行った」自然；先生に标会面对象，第二个に标去会面的目的，职员室へ标目的地。a、b选项explanation均为日语，须改中文。",
+      "answerSet": "仅a「に」在会い后组成会いに行った；b「を」不能在此表达会面的移动目的。",
+      "readings": "転校生てんこうせい、担任たんにん、先生せんせい、会いあい、職員室しょくいんしつ、行ったいった正确；槽外先生に是会面对象，不是预填目的に。",
+      "translation": "译文准确表达转学生去教职员室见班主任，角色与地点一致。",
+      "options": "a的correct及b的ungrammatical成立；两条选项解释必须用中文。"
+    },
+    {
+      "id": "particle.purpose.09",
+      "hash": "927f7a60419f656b067f2258f4e956c404458a6173645985f4ebba4ce192813e",
+      "fullSentences": [
+        "観客は新作の舞台を見に劇場へ行った。"
+      ],
+      "status": "revise",
+      "reason": "「観客は新作の舞台を見に劇場へ行った」自然，观看新作舞台是去剧场的目的；但a、b两条选项explanation均为日语，须改中文。",
+      "answerSet": "仅a「に」组成見に行った；b「を」成「舞台を見を劇場へ行った」，不能组成目的结构。",
+      "readings": "観客かんきゃく、新作しんさく、舞台ぶたい、見み、劇場げきじょう、行ったいった正确；句段及标点对应。",
+      "translation": "译文“去剧场观看新剧”可自然概括「新作の舞台」，未加不符事实。",
+      "options": "a的correct、b的ungrammatical成立；两条答后选项解释须中文化。"
+    },
+    {
+      "id": "particle.purpose.10",
+      "hash": "c9a29a3846b8b32b3aac1f3b4676502baf14cd75ffec5887977bb5cf6c9492d0",
+      "fullSentences": [
+        "留学生は毎週、地域の教室へ日本語を習いに行く。"
+      ],
+      "status": "revise",
+      "reason": "「留学生は毎週、地域の教室へ日本語を習いに行く」自然，每周频率、社区教室目的地及学习日语的目的清楚；但a、b选项explanation均为日语，须改中文。",
+      "answerSet": "仅a「に」接習い表示去学日语；b「を」代入后无法构成目的句型。",
+      "readings": "留学生りゅうがくせい、毎週まいしゅう、地域ちいき、教室きょうしつ、日本語にほんご、習いならい、行くいく正确；标点及へ在句段reading中保留。",
+      "translation": "译文准确表达留学生每周去社区教室学习日语。",
+      "options": "a的correct及b的ungrammatical成立；两条选项解释须改为准确中文。"
+    }
+  ]
+}

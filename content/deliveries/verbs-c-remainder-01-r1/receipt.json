@@ -1,0 +1,29 @@
+{
+  "author": "/root/bunpo_verbs_c_fix",
+  "source": "work/content/verbs-c/remainder-01-r1.draft.json",
+  "at": "2026-10-13T11:51:04.818Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.find.03",
+      "hash": "90231a02923fc4acfebf9d79b83a96ff700d81f94e3a7b1f624db01316c1f399",
+      "fullSentences": [
+        "探していた工具箱が倉庫の棚の奥で見つかった。"
+      ]
+    },
+    {
+      "id": "verb.find.04",
+      "hash": "806fea4916cfaf3f9c768fa7dcfd6d8e1f251dfc6377adeca7ffae8c3fb674d4",
+      "fullSentences": [
+        "閉店後、店員が棚の下で客の財布を見つけた。"
+      ]
+    },
+    {
+      "id": "verb.sell.01",
+      "hash": "d152d26604b5245b6dbb3d00e436782144e1717acbfe56d361f4f8d2e0278bbc",
+      "fullSentences": [
+        "新作のマグカップが発売初日に百個以上売れた。"
+      ]
+    }
+  ]
+}

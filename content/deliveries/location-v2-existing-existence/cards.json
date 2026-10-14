@@ -1,0 +1,482 @@
+[
+  {
+    "id": "particle.existence.01",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "eggs-in-fridge",
+    "scene": "做晚饭前，孩子清点冰箱里剩下的鸡蛋。",
+    "before": [
+      {
+        "text": "冷蔵庫",
+        "reading": "れいぞうこ"
+      }
+    ],
+    "after": [
+      {
+        "text": "卵が二個あります。",
+        "reading": "たまごがにこあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出鸡蛋存在的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；本句的ある陈述鸡蛋在哪里，不能用で标出存在位置。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "冰箱里有两个鸡蛋。",
+    "explanation": "句子陈述鸡蛋的存在地点，用に标出所在。",
+    "hint": "先判断句子是在说某物存在于哪里，还是动作发生或朝某处移动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.02",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "goldfish-in-tank",
+    "scene": "换水前，主人先数一数鱼缸里的金鱼。",
+    "before": [
+      {
+        "text": "水槽",
+        "reading": "すいそう"
+      }
+    ],
+    "after": [
+      {
+        "text": "金魚が三匹います。",
+        "reading": "きんぎょがさんびきいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に表示金鱼存在于水槽这一地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；这里说明金鱼在哪里，不是在说水槽里发生什么活动。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "鱼缸里有三条金鱼。",
+    "explanation": "活物存在于某处时，用に标出所在地点。",
+    "hint": "看谓语表达的是所在状态，还是在某处进行的动作或向某处移动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.existence.03",
+    "module": "particles",
+    "courseId": "location",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "manager-in-breakroom",
+    "scene": "新人找不到店长，前辈告诉他店长现在在休息室。",
+    "before": [
+      {
+        "text": "休憩室",
+        "reading": "きゅうけいしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "店長がいます。",
+        "reading": "てんちょうがいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出店长当前所在的地点。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で可标活动地点，如在休息室工作；本句只说店长在哪里，不含在那里进行的动作。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "店长在休息室。",
+    "explanation": "店长的存在地点由に标出；本句没有地点动作或移动。",
+    "hint": "判断休息室是人物所在之处、活动发生之处，还是移动的方向。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.04",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "spare-key-in-drawer",
+    "scene": "开会前找不到备用钥匙，同事说它在桌子抽屉里。",
+    "before": [
+      {
+        "text": "机の引き出し",
+        "reading": "つくえのひきだし"
+      }
+    ],
+    "after": [
+      {
+        "text": "予備の鍵があります。",
+        "reading": "よびのかぎがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出备用钥匙存在的位置。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标动作或事件发生的地点；这里的ある陈述钥匙在抽屉里，不是抽屉里的活动或事件。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "桌子抽屉里有备用钥匙。",
+    "explanation": "句子报告钥匙的所在，用に标记存在地点。",
+    "hint": "先判断句子是在报告钥匙所在，还是描述某个动作发生处。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.05",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "cars-in-garage",
+    "scene": "保安巡检地下停车场，确认里面停着两辆车。",
+    "before": [
+      {
+        "text": "地下駐車場",
+        "reading": "ちかちゅうしゃじょう"
+      }
+    ],
+    "after": [
+      {
+        "text": "車が二台あります。",
+        "reading": "くるまがにだいあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标巡检等活动发生地点；本句陈述两辆车存在于停车场，不是在说停车场里进行的动作。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出两辆车所在的停车场。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "地下停车场里有两辆车。",
+    "explanation": "车作为存在物，其所在地点用に标出。",
+    "hint": "注意谓语表达的是车辆所在，还是在该处进行的行为。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.06",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "beetle-in-rearing-case",
+    "scene": "喂独角仙前，孩子数一数饲育箱里的虫。",
+    "before": [
+      {
+        "text": "飼育ケース",
+        "reading": "しいくケース"
+      }
+    ],
+    "after": [
+      {
+        "text": "カブトムシが一匹います。",
+        "reading": "カブトムシがいっぴきいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出活物独角仙存在于饲育箱中。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标观察、喂食等动作或事件发生的地点；本句直接说明独角仙所在。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "饲育箱里有一只独角仙。",
+    "explanation": "活物所在的地点由に标出。",
+    "hint": "区分生物所在的地点与观察、喂食等活动发生的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.07",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "doctor-in-exam-room",
+    "scene": "患者询问护士，自己的主治医生现在是否在诊察室。",
+    "before": [
+      {
+        "text": "診察室",
+        "reading": "しんさつしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "担当医がいます。",
+        "reading": "たんとういがいます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标问诊等动作发生地点；本句说明主治医生在哪里，不是在说诊察室里做什么。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出主治医生当前所在的诊察室。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "主治医生在诊察室。",
+    "explanation": "句子回答医生在哪里，用に标记所在地点。",
+    "hint": "看句子是在回答人物在哪里，还是说他在那里做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.08",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "police-box-by-station",
+    "scene": "初次到站的游客问派出所在哪里，路人指向车站前。",
+    "before": [
+      {
+        "text": "駅前",
+        "reading": "えきまえ"
+      }
+    ],
+    "after": [
+      {
+        "text": "交番があります。",
+        "reading": "こうばんがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出派出所这座建筑存在于车站前。"
+      },
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标车站前发生的活动或事件；本句说的是派出所建筑的所在。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "车站前有派出所。",
+    "explanation": "派出所作为建筑物的存在地点用に表示。",
+    "hint": "辨别句子要指出建筑在哪里，还是要指出某个活动发生在哪里。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.09",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "paper-map-on-shelf",
+    "scene": "停电后值班员要找纸地图，同事说它在架子上。",
+    "before": [
+      {
+        "text": "棚",
+        "reading": "たな"
+      }
+    ],
+    "after": [
+      {
+        "text": "紙の地図があります。",
+        "reading": "かみのちずがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标在架子处进行的动作；本句用あります陈述地图的存在位置。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出纸地图所在的架子。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "架子上有纸质地图。",
+    "explanation": "纸地图存在于架子上，用に标出所在。",
+    "hint": "判断地点是物品的所在处，还是某个动作进行的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "location",
+    "review": "draft",
+    "id": "particle.existence.10",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "lexicalKey": "pond-north-of-park",
+    "scene": "散步的人问池塘的位置，同伴指向公园北侧。",
+    "before": [
+      {
+        "text": "公園の北側",
+        "reading": "こうえんのきたがわ"
+      }
+    ],
+    "after": [
+      {
+        "text": "小さな池があります。",
+        "reading": "ちいさないけがあります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "de",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "で标在公园北侧进行的活动或发生的事件；本句指出池塘本身的位置。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に标出小池塘存在于公园北侧。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "公园北侧有一个小池塘。",
+    "explanation": "池塘的存在地点由に标出。",
+    "hint": "留意句子报告的是池塘所在，还是人在那里进行的活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

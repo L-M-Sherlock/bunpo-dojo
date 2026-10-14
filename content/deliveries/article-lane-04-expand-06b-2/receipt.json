@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_04_6b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-06b-2.draft.json",
+  "at": "2026-10-14T03:02:12.518Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refuaa.03",
+      "hash": "39f4e0c3a8ccc70c5566f591f749732d4bd75f4292cd37bba4e4a40b966a40cf",
+      "fullSentences": [
+        "森林伐採で生息地が狭まり、個体数が減った島の固有種は滅んだ。"
+      ]
+    },
+    {
+      "id": "verb.refuaa.04",
+      "hash": "ea8b667087d7309f2f54fc76fbac478af400ef8f2a514ccdc8fe9ca0e3f3725c",
+      "fullSentences": [
+        "丘陵地で続いた森林伐採は、港の土砂堆積を招き、古代都市を滅ぼした。"
+      ]
+    }
+  ]
+}

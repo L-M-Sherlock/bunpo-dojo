@@ -1,0 +1,250 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.07",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-elevator-to-observation-floor",
+    "scene": "观景层开门迎客，访客按下楼层后乘电梯上楼。",
+    "before": [
+      {
+        "text": "来館者は展望台行きのエレベーター",
+        "reading": "らいかんしゃはてんぼうだいいきのエレベーター"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "来館者搭乘电梯时，エレベーター是乗る的对象，用に标记。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "标准日语里说乘电梯是エレベーターに乗る；を不能标这里的搭乘对象。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "访客乘上前往观景层的电梯。",
+    "explanation": "乗る所乘坐的电梯用に标出。",
+    "hint": "留意エレベーター是搭乘对象还是离开的交通工具。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.08",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-ropeway-at-mountain-foot",
+    "scene": "游客想从山脚去看山顶红叶，在索道站排队搭缆车。",
+    "before": [
+      {
+        "text": "観光客は山麓でロープウェイ",
+        "reading": "かんこうきゃくはさんろくでロープウェイ"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "を不能在标准日语中标乗る所乘坐的缆车；搭乘对象由に标记。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "に把ロープウェイ标为游客要乘坐的交通工具。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "游客在山脚乘坐缆车。",
+    "explanation": "乗る所搭乘的缆车是动作对象，前面用に。",
+    "hint": "区别乘上缆车与从缆车上下来的表达。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.09",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-shinkansen-at-tokyo-station",
+    "scene": "出差者在东京站检票后登上开往新大阪的新干线。",
+    "before": [
+      {
+        "text": "出張者は東京駅で新大阪行きの新幹線",
+        "reading": "しゅっちょうしゃはとうきょうえきでしんおおさかいきのしんかんせん"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "新幹線是出差者登上的列车，乗る的交通工具对象用に表示。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "を不能替代乗る所需的乘坐对象标记；标准语说新幹線に乗ります。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "出差者在东京站乘坐开往新大阪的新干线。",
+    "explanation": "登上新干线时，新幹線作为乘坐对象用に标记。",
+    "hint": "判断句子说明的是乘坐哪趟列车，还是离开哪趟列车。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.board.10",
+    "skillId": "particle.board",
+    "familyId": "particle.board",
+    "lexicalKey": "board-subway-at-transfer-station",
+    "scene": "上班族在换乘站改乘地铁，继续前往市中心办公室。",
+    "before": [
+      {
+        "text": "会社員は乗換駅で地下鉄",
+        "reading": "かいしゃいんはのりかええきでちかてつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "に乗ります。",
+        "reading": "にのります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "地下鉄是上班族要乘坐的交通工具，乘坐对象用に标记。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "标准日语中乗る的车辆对象不能用を标记；此处应说地下鉄に乗ります。"
+      }
+    ],
+    "answerIds": [
+      "ni"
+    ],
+    "translation": "上班族在换乘站乘坐地铁。",
+    "explanation": "地下铁是乗る的对象，使用に而不是离开处所的を。",
+    "hint": "区分搭乘地铁和从地铁下车这两种关系。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.01",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "get-off-route-bus-at-museum",
+    "scene": "乘客听到市立美术馆站的报站声，准备下车参观展览。",
+    "before": [
+      {
+        "text": "乗客は市立美術館前で路線バス",
+        "reading": "じょうきゃくはしりつびじゅつかんまえでろせんバス"
+      }
+    ],
+    "after": [
+      {
+        "text": "を降ります。",
+        "reading": "をおります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を标出乘客将要离开的公交车；降りる可用它表示从交通工具下来。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から也可以标明下车的来源，路線バスから降りる符合这个场景。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "此处是从公交车下来；に不是降りる离开交通工具的标记，バスに乗る才表示搭上公交车。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "乘客在市立美术馆前下公交车。",
+    "explanation": "降りる离开所乘交通工具时，を与から都可以标出公交车。",
+    "hint": "注意乘客正在离开什么，而不是准备搭乘什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

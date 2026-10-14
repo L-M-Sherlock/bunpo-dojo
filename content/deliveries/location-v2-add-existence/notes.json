@@ -1,0 +1,82 @@
+[
+  {
+    "id": "particle.existence.11",
+    "fullSentence": "母のバッグの中に財布があります。",
+    "sceneRationale": "出门前要确认钱包是否在母亲的手提包里，句子报告的是钱包所在，不是包内发生的动作。",
+    "alternativeReadings": "で可标包内进行动作的地点，例如在包里翻找；本句没有这类动作，あります陈述钱包静态存在，故取に。",
+    "readingCheck": "母はは、バッグ、 中なか、財布さいふ、あります；片假名、标点及句段reading与正文对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.12",
+    "fullSentence": "猫は食卓の下にいます。",
+    "sceneRationale": "雷声响起后，孩子发现猫躲在餐桌下；食卓の下是活物猫当前所在的位置。",
+    "alternativeReadings": "で可表示猫在餐桌下活动或躲藏动作发生的地点，但本句只用います报告它在哪里，因此用に。",
+    "readingCheck": "猫ねこ、食卓しょくたく、下した、います；正文书写、假名读音和句号一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.13",
+    "fullSentence": "図書館のカウンターに司書がいます。",
+    "sceneRationale": "学生去还书时，场景要确认服务台是否有人；句子静态报告司书所在，未描写其在柜台工作的动作。",
+    "alternativeReadings": "で能标还书或接待等活动进行的地点；本句使用います说明司书在服务台，故位置用に。",
+    "readingCheck": "図書館としょかん、カウンター、司書ししょ、います；片假名与正文、标点对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.14",
+    "fullSentence": "玄関の傘立てに傘があります。",
+    "sceneRationale": "雨停后家人确认伞架里还留着伞，伞架是物品静态存在的位置。",
+    "alternativeReadings": "で可标收伞动作发生的地点；句子只说明伞在伞架里，没有收伞谓语，故用に。",
+    "readingCheck": "玄関げんかん、傘立てかさたて、傘かさ、あります；汉字读音、段落和句号一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.15",
+    "fullSentence": "充電器はソファの横にあります。",
+    "sceneRationale": "手机没电时朋友询问充电器位置，回答只指出充电器在沙发旁，不描述使用充电器的动作。",
+    "alternativeReadings": "で可以标在沙发旁充电或寻找的活动地点；本句あります表达物品位置，所以选に。",
+    "readingCheck": "充電器じゅうでんき、ソファ、横よこ、あります；片假名、汉字读音和句号与正文一致。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.16",
+    "fullSentence": "窓辺に観葉植物があります。",
+    "sceneRationale": "办公室搬完家具后，员工确认窗边摆着绿植；窓辺是植物摆放和存在的地点。",
+    "alternativeReadings": "で可标搬动或摆放绿植的动作地点；本句没有这些动作，只说植物在哪里，故用に。",
+    "readingCheck": "窓辺まどべ、観葉植物かんようしょくぶつ、あります；汉字读音和句号对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.17",
+    "fullSentence": "友達は駅の改札前にいます。",
+    "sceneRationale": "约定时间到了，先到的朋友就在车站检票口前；句子确认朋友的所在，没有说明等待或其他活动。",
+    "alternativeReadings": "で可用于朋友在检票口前等人的句子，但本句谓语います只报告所在位置，因此使用に。",
+    "readingCheck": "友達ともだち、駅えき、改札前かいさつまえ、います；各汉字读音及标点对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.18",
+    "fullSentence": "玄関先に宅配便の箱があります。",
+    "sceneRationale": "家人下班回家看到包裹已放在玄关前，场景问的是箱子目前所在，不是投递动作在哪里发生。",
+    "alternativeReadings": "で可标快递员投递箱子的地点；本句不含投递动作，あります报告箱子存在于玄关前，故选に。",
+    "readingCheck": "玄関先げんかんさき、宅配便たくはいびん、箱はこ、あります；汉字、假名及句号与正文吻合。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.19",
+    "fullSentence": "郵便受けに手紙が一通あります。",
+    "sceneRationale": "家人取信时发现邮箱里有一封信，邮箱是信件当前存在的位置。",
+    "alternativeReadings": "で可以标取信动作发生的地点；此句没有取信谓语，只陈述信件所在，所以用に。",
+    "readingCheck": "郵便受けゆうびんうけ、手紙てがみ、一通いっつう、あります；数量读音、汉字读音和句号对应。",
+    "unresolvedQuestions": "无。"
+  },
+  {
+    "id": "particle.existence.20",
+    "fullSentence": "赤ちゃんはベビーカーの中にいます。",
+    "sceneRationale": "父亲把婴儿车推到树荫下后确认宝宝还在车内；句子说明活物的所在位置。",
+    "alternativeReadings": "で可标推车动作发生的地点；本句没有推车动作，います静态说明宝宝在车内，因此用に。",
+    "readingCheck": "赤ちゃんあかちゃん、ベビーカー、中なか、います；片假名、助词读音和句号与正文一致。",
+    "unresolvedQuestions": "无。"
+  }
+]

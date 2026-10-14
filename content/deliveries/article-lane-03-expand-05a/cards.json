@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refiba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "lexicalKey": "隠れる・隠す",
+    "scene": "姐姐把生日礼物藏在壁橱深处，以免妹妹发现。",
+    "before": [
+      {
+        "text": "妹に見つからないよう、姉は誕生日プレゼントを押し入れの奥に",
+        "reading": "いもうとにみつからないよう、あねはたんじょうびプレゼントをおしいれのおくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "隠しました",
+        "reading": "かくしました",
+        "verdict": "correct",
+        "explanation": "姐姐把礼物放到妹妹看不到的地方；「誕生日プレゼントを」是被藏起来的对象。"
+      },
+      {
+        "id": "b",
+        "text": "隠れました",
+        "reading": "かくれました",
+        "verdict": "ungrammatical",
+        "explanation": "「隠れる」表示主体自身躲藏；本句由姐姐把生日礼物作为「を」标记的对象藏起来。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "姐姐为了不让妹妹发现，把生日礼物藏在壁橱深处。",
+    "explanation": "「隠す」表示姐姐主动把礼物藏起来。",
+    "hint": "留意谁让礼物不被妹妹看见，以及礼物被放到了哪里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiia.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "lexicalKey": "逃れる・逃す",
+    "scene": "海啸警报后，居民撤往高地，避开了浸水危险。",
+    "before": [
+      {
+        "text": "津波警報を受け、住民は高台へ避難して浸水の危険から",
+        "reading": "つなみけいほうをうけ、じゅうみんはたかだいへひなんしてしんすいのきけんから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃れました",
+        "reading": "のがれました",
+        "verdict": "correct",
+        "explanation": "居民撤到高地，脱离了被海水淹没的危险；危险是他们避开的不利处境。"
+      },
+      {
+        "id": "b",
+        "text": "逃しました",
+        "reading": "のがしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "此读法的「逃す」表示没抓住机会或对象；本句说居民从浸水危险中脱身，不是在错过某个目标。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接到海啸警报后，居民撤往高地，躲过了浸水危险。",
+    "explanation": "「逃れる」表示居民避开了浸水这一危险状态。",
+    "hint": "看居民离开的是一种危险处境，还是他们没能抓住某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiia.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "lexicalKey": "逃れる・逃す",
+    "scene": "申请截止日已过，学生错失了奖学金申请机会。",
+    "before": [
+      {
+        "text": "申込期限を過ぎたため、学生は奨学金に応募する機会を",
+        "reading": "もうしこみきげんをすぎたため、がくせいはしょうがくきんにおうぼするきかいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃しました",
+        "reading": "のがしました",
+        "verdict": "correct",
+        "explanation": "学生错过了申请奖学金的机会；「機会を」是没能抓住的目标。"
+      },
+      {
+        "id": "b",
+        "text": "逃れました",
+        "reading": "のがれました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「逃れる」表示从危险或不利状态中脱身；这里不是学生避开了机会，而是他错过了机会。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "申请期限已过，学生错过了申请奖学金的机会。",
+    "explanation": "「逃す」表示学生没能抓住申请机会。",
+    "hint": "留意学生没能抓住的具体对象是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiia.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "lexicalKey": "逃れる・逃す",
+    "scene": "报账问题曝光后，经办人试图推卸责任。",
+    "before": [
+      {
+        "text": "経費処理の不備が発覚し、担当者は責任から",
+        "reading": "けいひしょりのふびがはっかくし、たんとうしゃはせきにんから"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃れようとしました",
+        "reading": "のがれようとしました",
+        "verdict": "correct",
+        "explanation": "经办人试图避开不利的责任；「責任から」表示他想脱身的处境。"
+      },
+      {
+        "id": "b",
+        "text": "逃そうとしました",
+        "reading": "のがそうとしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「逃す」表示放走或错过某个对象；本句说经办人试图摆脱责任，不是在放走或错失责任。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "经费处理问题曝光后，经办人试图逃避责任。",
+    "explanation": "「逃れる」表示经办人试图避开责任带来的不利处境。",
+    "hint": "看经办人想脱身的是哪种状态，以及它如何接在动词前。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiia.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiia",
+    "familyId": "verb.refiia",
+    "lexicalKey": "逃れる・逃す",
+    "scene": "大鱼在抄入网前脱钩，钓鱼人错失了它。",
+    "before": [
+      {
+        "text": "網に入れる直前、釣り人は大物を",
+        "reading": "あみにいれるちょくぜん、つりびとはおおものを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "逃しました",
+        "reading": "のがしました",
+        "verdict": "correct",
+        "explanation": "钓鱼人没能把大鱼抄进网，结果让它溜掉；「大物を」是没能抓住的对象。"
+      },
+      {
+        "id": "b",
+        "text": "逃れました",
+        "reading": "のがれました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「逃れる」表示主体从不利处境中脱身；本句的钓鱼人是没能抓住大鱼，而非从大鱼带来的处境中脱身。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "钓鱼人还没来得及把大鱼抄进网，它就溜掉了。",
+    "explanation": "「逃す」在这里表示没能抓住即将入网的大鱼。",
+    "hint": "判断钓鱼人没能抓住的对象是什么。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refmaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "lexicalKey": "捕まる・捕まえる",
+    "scene": "被通缉的诈骗犯在离境前于机场被警方抓获。",
+    "before": [
+      {
+        "text": "指名手配されていた詐欺師は、出国直前に空港で警察に",
+        "reading": "しめいてはいされていたさぎしは、しゅっこくちょくぜんにくうこうでけいさつに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "捕まりました",
+        "reading": "つかまりました",
+        "verdict": "correct",
+        "explanation": "诈骗犯在机场被警方抓获；「詐欺師は」是被抓住的一方，「警察に」标出抓获者。"
+      },
+      {
+        "id": "b",
+        "text": "捕まえました",
+        "reading": "つかまえました",
+        "verdict": "ungrammatical",
+        "explanation": "「捕まえる」要由抓人的一方作主语，并以「を」标出被抓的人；本句的诈骗犯是被警方抓的一方。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "被通缉的诈骗犯在离境前于机场被警方抓获。",
+    "explanation": "「捕まる」表示诈骗犯落入警方手中。",
+    "hint": "留意诈骗犯是抓人的一方，还是被警方抓住的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refmaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "lexicalKey": "捕まる・捕まえる",
+    "scene": "主人拿出零食，在公园抓住了四处乱跑的小狗。",
+    "before": [
+      {
+        "text": "おやつを見せると、飼い主は公園で逃げ回る子犬を",
+        "reading": "おやつをみせると、かいぬしはこうえんでにげまわるこいぬを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "捕まえました",
+        "reading": "つかまえました",
+        "verdict": "correct",
+        "explanation": "主人用零食引住小狗后把它抓住；「子犬を」是被抓的对象。"
+      },
+      {
+        "id": "b",
+        "text": "捕まりました",
+        "reading": "つかまりました",
+        "verdict": "ungrammatical",
+        "explanation": "「捕まる」描述主体自身被抓；本句把小狗以「を」标为主人抓住的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "主人拿出零食，把在公园里四处乱跑的小狗抓住了。",
+    "explanation": "「捕まえる」表示主人抓住了四处乱跑的小狗。",
+    "hint": "看谁实施抓捕，以及小狗在句中是什么对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refmaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refmaa",
+    "familyId": "verb.refmaa",
+    "lexicalKey": "捕まる・捕まえる",
+    "scene": "走失的猫终于落入救助团设置的捕捉笼。",
+    "before": [
+      {
+        "text": "保護団体が置いた捕獲器に、迷い猫がようやく",
+        "reading": "ほごだんたいがおいたほかくきに、まよいねこがようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "捕まりました",
+        "reading": "つかまりました",
+        "verdict": "correct",
+        "explanation": "走失的猫终于被捕捉器困住；猫是被抓获的一方。"
+      },
+      {
+        "id": "b",
+        "text": "捕まえました",
+        "reading": "つかまえました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「捕まえる」表示猫抓住别的对象；本句说的是猫自身被捕捉器抓住。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "救助团设置的捕捉笼终于抓住了走失的猫。",
+    "explanation": "「捕まる」表示迷い猫自身落入捕捉器而被抓住。",
+    "hint": "判断走失的猫是抓住别的对象，还是被捕捉器抓住。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

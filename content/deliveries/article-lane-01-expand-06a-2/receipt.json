@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_6a1",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-06a-2.draft.json",
+  "at": "2026-10-14T02:12:31.417Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refsca.04",
+      "hash": "85aaca0e514c455b1c63fd762ab1f492af3f893d982555fd9ff7bd75f165060a",
+      "fullSentences": [
+        "陶芸家は素焼きの前に、成形した粘土の器を棚に並べて乾かした。"
+      ]
+    },
+    {
+      "id": "verb.refsia.01",
+      "hash": "058f276b72473295fe42d41b3802435e6dbd395108bdbf2906d8cd229d99ba22",
+      "fullSentences": [
+        "飼い猫を亡くした青年は、空になったケージを片付けながら静かに泣いた。"
+      ]
+    },
+    {
+      "id": "verb.refsia.02",
+      "hash": "bdfd8c7065500e47ba01162953095654cffae69b0a9c2c3bff50dcdd1bae5f93",
+      "fullSentences": [
+        "映画の終盤で、主人公が亡き母の手紙を読む場面は、試写会の観客を泣かした。"
+      ]
+    },
+    {
+      "id": "verb.refsia.03",
+      "hash": "fedd1f54886bcd197228dad972617b78fce025acac0c36b4c314132e8699daf7",
+      "fullSentences": [
+        "遊園地の出口で父親とはぐれた幼児が、係員に見つけてもらうまで泣き続けた。"
+      ]
+    }
+  ]
+}

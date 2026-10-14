@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refqaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "pair": {
+      "id": "verb.refqaa",
+      "intransitive": "聞こえる",
+      "intransitiveReading": "きこえる",
+      "transitive": "聞く",
+      "transitiveReading": "きく",
+      "meaning": "辨析「聞こえる／聞く」的角色与对象",
+      "count": 4,
+      "articleGroup": 17,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

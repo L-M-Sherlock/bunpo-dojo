@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refqaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refqaa",
+    "familyId": "verb.refqaa",
+    "lexicalKey": "counselor-listens-to-client-wishes",
+    "scene": "面谈时，咨询员不打断来访者的叙述，听完了他对升学的希望。",
+    "before": [
+      {
+        "text": "面談では、相談員は来訪者の話を遮らずに、進学についての希望を最後まで",
+        "reading": "めんだんでは、そうだんいんはらいほうしゃのはなしをさえぎらずに、しんがくについてのきぼうをさいごまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "聞いた",
+        "reading": "きいた",
+        "verdict": "correct",
+        "explanation": "「聞く」表示听者主动把对方的愿望作为听取对象；这里「進学についての希望を」是「聞く」的宾语，前面的「話を」则是「遮る」的对象。"
+      },
+      {
+        "id": "b",
+        "text": "聞こえた",
+        "reading": "きこえた",
+        "verdict": "ungrammatical",
+        "explanation": "「聞こえる」写声音自然传入耳中，通常以声音作主体；此句的「進学についての希望を」是主动听取的宾语，不能用「聞こえた」承接。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "面谈时，咨询员没有打断来访者的叙述，听完了他对升学的希望。",
+    "explanation": "「来訪者の話を遮らずに」说明咨询员不打断对方发言；「進学についての希望を」是他主动听取的内容。",
+    "hint": "分辨「話を遮る」中的被打断内容，与「希望を聞く」中的听取对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

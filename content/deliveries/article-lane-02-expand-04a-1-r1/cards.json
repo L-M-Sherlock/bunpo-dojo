@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refdaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdaa",
+    "familyId": "verb.refdaa",
+    "lexicalKey": "讲演后研究者说明发现经过",
+    "scene": "讲演后的问答中，研究者谈起这项发现背后的经过。",
+    "before": [
+      {
+        "text": "研究者は講演後、聴衆からの質問に答え、発見に至った経緯を",
+        "reading": "けんきゅうしゃはこうえんご、ちょうしゅうからのしつもんにこたえ、はっけんにいたったけいいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "明かした",
+        "reading": "あかした",
+        "verdict": "correct",
+        "explanation": "研究者把发现形成的经过作为信息告诉听众，符合「明かす」揭示内容的用法。"
+      },
+      {
+        "id": "b",
+        "text": "明けた",
+        "reading": "あけた",
+        "verdict": "ungrammatical",
+        "explanation": "「明ける」是表示夜晚或一段时期自然结束的自动词，不能支配表示揭示对象的「経緯を」；因此「経緯を明けた」在当前格关系下不成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "研究者在讲演后回答听众提问，揭示了这项发现的形成经过。",
+    "explanation": "「明かす」以「経緯を」表示被揭示的内容；自动词「明ける」表示夜晚或时期结束，不能支配此处的「経緯を」。",
+    "hint": "关注「経緯」在这里是被告知的内容，还是自然结束的时段。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

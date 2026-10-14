@@ -1,0 +1,143 @@
+[
+  {
+    "id": "verb.refaba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "lexicalKey": "sunlit-cushion",
+    "scene": "早晨把坐垫放在向阳处，到了午前已经完全暖和。",
+    "before": [
+      {
+        "text": "朝から日なたに置いていた座布団が、昼前にはすっかり",
+        "reading": "あさからひなたにおいていたざぶとんが、ひるまえにはすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "温まっていた",
+        "reading": "あたたまっていた",
+        "verdict": "correct",
+        "explanation": "坐垫在向阳处放了一段时间后自身变暖，句子写的是温度变化，用自动词「温まる」。"
+      },
+      {
+        "id": "b",
+        "text": "温めていた",
+        "reading": "あたためていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「温める」表示给别的东西加温；这里的坐垫是受日照而变暖的事物，不是给别物加温的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "从早晨开始放在向阳处的坐垫，到了午前已经完全暖和了。",
+    "explanation": "坐垫本身因日照变暖，是温度发生变化的主体。",
+    "hint": "判断句中的坐垫是在变暖，还是在给别的东西加温。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "lexicalKey": "milk-heating",
+    "scene": "饮用前，把冰箱取出的牛奶加热到适口温度。",
+    "before": [
+      {
+        "text": "飲む前に、冷蔵庫から出した牛乳を小鍋で飲みやすい温度まで",
+        "reading": "のむまえに、れいぞうこからだしたぎゅうにゅうをこなべでのみやすいおんどまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "温めた",
+        "reading": "あたためた",
+        "verdict": "correct",
+        "explanation": "「牛乳を」标出被加温的对象；用小锅把牛奶加热到适合饮用的温度，用他动词「温める」。"
+      },
+      {
+        "id": "b",
+        "text": "温まった",
+        "reading": "あたたまった",
+        "verdict": "ungrammatical",
+        "explanation": "「温まる」表示牛奶自身变暖，不能接这里由「を」标出的直接宾语；这个句框需要表示给牛奶加温的他动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "喝之前，把从冰箱取出的牛奶在小锅里加热到适口的温度。",
+    "explanation": "句子写的是有人把牛奶加热，牛奶是动作直接作用的对象。",
+    "hint": "留意「を」前的事物是否是动作直接作用的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaba",
+    "familyId": "verb.refaba",
+    "lexicalKey": "cold-fingertips",
+    "scene": "寒冷的早晨步行去车站，冻僵的指尖也渐渐暖和起来。",
+    "before": [
+      {
+        "text": "寒い朝に駅まで歩くうち、かじかんでいた指先も少し",
+        "reading": "さむいあさにえきまであるくうち、かじかんでいたゆびさきもすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "温まった",
+        "reading": "あたたまった",
+        "verdict": "correct",
+        "explanation": "句子描述冻僵的指尖在步行过程中自身转暖，指尖是状态变化的主体，用自动词「温まる」。"
+      },
+      {
+        "id": "b",
+        "text": "温めた",
+        "reading": "あたためた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「温める」表示指尖给别的东西加温；当前场景说指尖自身转暖，不是在描述指尖加热其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "寒冷的早晨步行到车站的过程中，原本冻僵的指尖也暖和了一些。",
+    "explanation": "句子聚焦指尖从冻僵到转暖的变化，指尖是变化主体。",
+    "hint": "想想指尖在句中是状态发生变化的对象，还是对别物施加动作的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

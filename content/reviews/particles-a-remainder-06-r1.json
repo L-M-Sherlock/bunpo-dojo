@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.leave.02",
+      "hash": "06d5845c03156bf40ddf41d88c4ef7790a7d26c714a711ea2d5065e2c4820438",
+      "fullSentences": ["会議が終わり、職員は会議室を出ます。", "会議が終わり、職員は会議室から出ます。"],
+      "status": "approved",
+      "reason": "会议结束后职员离开会议室，会議室を出ます与会議室から出ます都是自然的离开表达。",
+      "answerSet": "wo、kara都正确；ni不能标此处被离开的房间。",
+      "readings": "会議かいぎ、終わりおわり、職員しょくいん、会議室かいぎしつ、出ますでます正确；逗号句号对应，を候选可注发音お但实际写を。",
+      "translation": "“会议结束后，职员离开会议室”准确传达两句；收拾文件及锁门属于场景背景。",
+      "options": "wo与kara均标correct且收录；ni不能在会議室に出ます中表达离开会议室，其ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.leave.03",
+      "hash": "b010aba316b0bbf2485dfa8a3db9fef7cdcf0fe939c2e99a4cdbb38f1cd58f75",
+      "fullSentences": ["乗客は着陸後、飛行機から降ります。", "乗客は着陸後、飛行機を降ります。"],
+      "status": "approved",
+      "reason": "飞机落地后乘客下机，飛行機から降ります与飛行機を降ります均自然，交通工具是离开的来源。",
+      "answerSet": "kara和wo都正确；ni会试图把飞机当作下机的到达点，在此不成立。",
+      "readings": "乗客じょうきゃく、着陸後ちゃくりくご、飛行機ひこうき、降りますおります正确；逗号句号相符，独立を可注发音お。",
+      "translation": "“乘客在飞机落地后下飞机”准确表达时间及动作；停稳和依次下机只在场景中。",
+      "options": "kara、wo的correct与answerIds一致；ni不能标離开交通工具，ungrammatical解释以飛行機に乗る对照合理。"
+    },
+    {
+      "id": "particle.leave.04",
+      "hash": "9e706299a0f064373cd0e88b422b5f787d3518fa6a5164e9393a90f95266d8f1",
+      "fullSentences": ["大学生は朝、自宅を出ます。", "大学生は朝、自宅から出ます。"],
+      "status": "approved",
+      "reason": "大学生早晨离家，家是出る的离开处所；自宅を出ます和自宅から出ます均自然。",
+      "answerSet": "wo、kara都正确；ni不能在出ます前表示从自宅离开。",
+      "readings": "大学生だいがくせい、朝あさ、自宅じたく、出ますでます正确；逗号句号对应，を候选注发音お也须书写を。",
+      "translation": "“大学生早晨离开家”准确对应两个完整句，未把赶公交等场景内容多译。",
+      "options": "wo、kara均标correct并收录；ni的ungrammatical说明准确区分离家和回家。"
+    },
+    {
+      "id": "particle.leave.05",
+      "hash": "81ae667b511f4a2cb37dac9d42c9dd477af079c54382b97348ff757a7cc9ed49",
+      "fullSentences": ["子どもたちは水泳教室の後、プールを出ます。", "子どもたちは水泳教室の後、プールから出ます。"],
+      "status": "approved",
+      "reason": "游泳课后孩子们离开泳池，プールを出ます与プールから出ます均可表达离开这个处所。",
+      "answerSet": "wo和kara都正确；ni不表示此处离开泳池的起点。",
+      "readings": "子どもこども、水泳教室すいえいきょうしつ、後あと、プール、出ますでます正确；片假名和逗号句号相符，を候选可注发音お。",
+      "translation": "“游泳课后，孩子们离开泳池”对应两句，前往更衣室冲洗留在场景中。",
+      "options": "wo、kara标correct且集合完整；ni不适合作此句的离开处所标记，ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.leave.06",
+      "hash": "6435658f760b7398111dbeecd6144881fec2714a3cc115d2d89ce2a3712f4ef7",
+      "fullSentences": ["上映が終わると、観客は映画館から出ます。", "上映が終わると、観客は映画館を出ます。"],
+      "status": "approved",
+      "reason": "放映结束后观众离开电影院，映画館から出ます与映画館を出ます都是自然的离开句。",
+      "answerSet": "kara和wo都正确；ni不能表达从电影院出来。",
+      "readings": "上映じょうえい、終わるおわる、観客かんきゃく、映画館えいがかん、出ますでます正确；句段标点对应，を候选可注发音お而仍写を。",
+      "translation": "“放映结束后，观众离开电影院”准确对应两句；去车站仅是场景后续。",
+      "options": "kara、wo均标correct并完整收录；ni的ungrammatical说明符合当前出る离开处所义。"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_5b1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-05b-2.draft.json",
+  "at": "2026-10-14T02:28:01.900Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refraa.04",
+      "hash": "4cda1724175585bd4e0b44694c04cf6d647c903f2f59938487d554f6a31b7f5d",
+      "fullSentences": [
+        "手術後、看護師は患者を病棟の個室へ移した。"
+      ]
+    },
+    {
+      "id": "verb.refrfa.01",
+      "hash": "94e3e10598a0d4478c41de53cc430c5474403025bbdeef148b5fcd9322f52e0c",
+      "fullSentences": [
+        "停電が起きると、病院の廊下にある非常灯が自動で灯った。"
+      ]
+    },
+    {
+      "id": "verb.refrfa.02",
+      "hash": "610e06d1d4a1837b22b48f8fae7ec1e4d06643f853baf82dfbecb4953e167c94",
+      "fullSentences": [
+        "祭りの前夜、係員は神社の参道に並ぶ石灯籠に火を灯した。"
+      ]
+    },
+    {
+      "id": "verb.refrfa.03",
+      "hash": "a6276aca782acf6abf422f230b153a9105a7e99db0f8c44f4501a9274d3f4e56",
+      "fullSentences": [
+        "日が暮れると、海沿いの遊歩道に街灯が一斉に灯った。"
+      ]
+    }
+  ]
+}

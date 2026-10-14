@@ -1,0 +1,53 @@
+[
+  {
+    "id": "verb.open.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.open.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.open.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.open",
+    "familyId": "verb.open",
+    "pair": {
+      "id": "verb.open",
+      "intransitive": "開く",
+      "intransitiveReading": "あく",
+      "transitive": "開ける",
+      "transitiveReading": "あける",
+      "meaning": "打开",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

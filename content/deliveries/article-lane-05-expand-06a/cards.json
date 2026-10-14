@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refrka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrka",
+    "familyId": "verb.refrka",
+    "lexicalKey": "repaired-bicycle-handover",
+    "scene": "检修结束后，修车师傅把自行车交给前来取车的顾客。",
+    "before": [
+      {
+        "text": "点検を終えた整備士は、修理を依頼した客に自転車を",
+        "reading": "てんけんをおえたせいびしは、しゅうりをいらいしたきゃくにじてんしゃを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "渡した",
+        "reading": "わたした",
+        "verdict": "correct",
+        "explanation": "维修师是交车的施事，自行车是交给顾客的物品，「客に」标出接收方。"
+      },
+      {
+        "id": "b",
+        "text": "渡った",
+        "reading": "わたった",
+        "verdict": "ungrammatical",
+        "explanation": "「渡る」可描述物品自身转到某人手中；本句由维修师执行交接，并用「自転車を」标出被交接物，不能改用自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "检修结束后，维修师把自行车交给了委托维修的顾客。",
+    "explanation": "维修师把检修好的自行车交给顾客，物品是动作对象。",
+    "hint": "确认谁在执行交接动作、哪件物品被交接，以及谁接收物品。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsga.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "lexicalKey": "thunder-over-mountain-village",
+    "scene": "夏夜雷声滚过山间村落。",
+    "before": [
+      {
+        "text": "夏の夜、山あいの集落に雷鳴が",
+        "reading": "なつのよる、やまあいのしゅうらくにらいめいが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "轟いた",
+        "reading": "とどろいた",
+        "verdict": "correct",
+        "explanation": "雷鸣本身是发出并传到村落的巨大声音，句子描写声音响起并回荡。"
+      },
+      {
+        "id": "b",
+        "text": "轟かした",
+        "reading": "とどろかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「轟かす」表示某个施事让声音响起或让名声传开；本句描述的是雷鸣自身响彻村落，不是雷鸣作为施事让另一个声音回响。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夏夜，雷鸣响彻了山间村落。",
+    "explanation": "句子的主体是回荡的雷声，重点在声音本身响起。",
+    "hint": "判断句子是在描写声音自身回响，还是某个施事让声音响起。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "lexicalKey": "rally-car-engine-roar",
+    "scene": "拉力赛车驶上山路，引擎轰鸣响彻山谷。",
+    "before": [
+      {
+        "text": "林道を駆け上がったラリーカーは、エンジンの爆音を山あいに",
+        "reading": "りんどうをかけあがったラリーカーは、エンジンのばくおんをやまあいに"
+      }
+    ],
+    "after": [
+      {
+        "text": "走り去った。",
+        "reading": "はしりさった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "轟かして",
+        "reading": "とどろかして",
+        "verdict": "correct",
+        "explanation": "赛车是使引擎爆音响彻山间的施事，「爆音を」标出被轰响的声音对象。"
+      },
+      {
+        "id": "b",
+        "text": "轟いて",
+        "reading": "とどろいて",
+        "verdict": "ungrammatical",
+        "explanation": "「轟く」描写爆音自身回响；本句用「爆音を」标出被赛车带响的对象，不能把自动词直接接在这里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "拉力赛车驶上林道，引擎的轰鸣响彻山间，随后疾驰而去。",
+    "explanation": "赛车带起的引擎爆音传遍山间，声音是动作对象。",
+    "hint": "留意赛车与爆音之间是发出声音的施事关系，还是声音自己响起。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsga.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "lexicalKey": "island-rescue-team-renown",
+    "scene": "（书面表达）屡获海难救援表彰的岛上消防团，名声传遍全国。",
+    "before": [
+      {
+        "text": "海難救助で何度も表彰された島の消防団の名は、やがて全国に",
+        "reading": "かいなんきゅうじょでなんどもひょうしょうされたしまのしょうぼうだんのなは、やがてぜんこくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "轟いた",
+        "reading": "とどろいた",
+        "verdict": "correct",
+        "explanation": "消防团的名声逐渐传遍全国；「名は」是广为人知的主体，符合「名が轟く」的表达。"
+      },
+      {
+        "id": "b",
+        "text": "轟かした",
+        "reading": "とどろかした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「轟かす」表示某个施事使名声传开；本句描写名声自身传遍全国，没有让消防团的名声成为另一个动作的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "多次因海难救援获表彰的岛上消防团，后来名声传遍了全国。",
+    "explanation": "「名が轟く」是名声广为人知的书面表达，句子以名声为主体。",
+    "hint": "注意句子的主体是逐渐传开的名声，还是主动使别人的名声传开的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "lexicalKey": "unknown-school-national-fame",
+    "scene": "（书面表达）无名高中夺得全国赛冠军，一举扬名全国。",
+    "before": [
+      {
+        "text": "無名の高校は、全国大会での優勝を機に、その名を一躍全国に",
+        "reading": "むめいのこうこうは、ぜんこくたいかいでのゆうしょうをきに、そのなをいちやくぜんこくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "轟かした",
+        "reading": "とどろかした",
+        "verdict": "correct",
+        "explanation": "高中凭借全国大赛夺冠让校名广为人知，「その名を」是传扬出去的名声对象。"
+      },
+      {
+        "id": "b",
+        "text": "轟いた",
+        "reading": "とどろいた",
+        "verdict": "ungrammatical",
+        "explanation": "「轟く」可说名声自身传开，但这里「高校は」是施事，「その名を」标出被传扬的名声，应该使用他动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "这所原本默默无闻的高中凭借全国大赛夺冠，一举扬名全国。",
+    "explanation": "学校主动凭赛事成绩扬名，校名是传扬出去的对象。",
+    "hint": "看校名在句中是自己传开，还是由学校的成绩使它传开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsma.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "lexicalKey": "foggy-mountain-trail",
+    "scene": "浓雾遮住岔路标志，登山者在山中迷了路。",
+    "before": [
+      {
+        "text": "濃霧で分岐の標識が見えず、登山者たちは山中で道に",
+        "reading": "のうむでぶんきのひょうしきがみえず、とざんしゃたちはさんちゅうでみちに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "迷った",
+        "reading": "まよった",
+        "verdict": "correct",
+        "explanation": "登山者自身看不清岔路而失去方向，句子描写他们陷入迷路状态。"
+      },
+      {
+        "id": "b",
+        "text": "迷わした",
+        "reading": "まよわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「迷わす」表示让别人迷路或困惑；本句的登山者是迷路者，句中没有被他们弄迷路的其他人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "浓雾遮住了岔路标志，登山者们在山中迷了路。",
+    "explanation": "登山者自身失去方向，是陷入迷路状态的主体。",
+    "hint": "分辨登山者是自己失去方向，还是让另一个人失去方向。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsma.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "lexicalKey": "misleading-detour-sign",
+    "scene": "施工告示保留封闭通道的旧箭头，让初访者走错路。",
+    "before": [
+      {
+        "text": "閉鎖中の通路へ向く古い矢印を残した仮設案内板は、初めて来た客を",
+        "reading": "へいさちゅうのつうろへむくふるいやじるしをのこしたかせつあんないばんは、はじめてきたきゃくを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "迷わした",
+        "reading": "まよわした",
+        "verdict": "correct",
+        "explanation": "临时指示牌是造成混乱的原因，「初めて来た客を」标出被误导的来访者。"
+      },
+      {
+        "id": "b",
+        "text": "迷った",
+        "reading": "まよった",
+        "verdict": "ungrammatical",
+        "explanation": "「迷う」描述来访者自己迷路，通常让「客が」作主体；本句以「客を」标出被指示牌弄迷路的人。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "临时指示牌保留了指向封闭通道的旧箭头，使初次到访的客人迷了路。",
+    "explanation": "旧箭头误导了来访者，来访者是受到影响的对象。",
+    "hint": "观察来访者在句中是迷路状态的主体，还是被指示牌影响的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "lexicalKey": "hotel-choice-hesitation",
+    "scene": "家人纠结于订车站近的旅馆还是有温泉的旅馆。",
+    "before": [
+      {
+        "text": "駅に近い宿と温泉のある宿のどちらを予約するか、家族は最後まで",
+        "reading": "えきにちかいやどとおんせんのあるやどのどちらをよやくするか、かぞくはさいごまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "迷った",
+        "reading": "まよった",
+        "verdict": "correct",
+        "explanation": "家人面对两种住宿选择而拿不定主意，句子描写他们自身的犹豫。"
+      },
+      {
+        "id": "b",
+        "text": "迷わした",
+        "reading": "まよわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「迷わす」表示使别人困惑或犹豫；这里家人是拿不定主意的人，句中没有被他们弄犹豫的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "家人最后一直犹豫不决，不知道该预约离车站近的旅馆，还是有温泉的旅馆。",
+    "explanation": "家人需要在两种住宿方案中做选择，因此自己陷入犹豫。",
+    "hint": "判断家人是正在犹豫的主体，还是让别人犹豫的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

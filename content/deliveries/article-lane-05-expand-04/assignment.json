@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refdda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdda",
+    "familyId": "verb.refdda",
+    "pair": {
+      "id": "verb.refdda",
+      "intransitive": "冷める",
+      "intransitiveReading": "さめる",
+      "transitive": "冷ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「冷める／冷ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "pair": {
+      "id": "verb.refdja",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺らす",
+      "transitiveReading": "ゆらす",
+      "meaning": "辨析「揺れる／揺らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "pair": {
+      "id": "verb.refdja",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺らす",
+      "transitiveReading": "ゆらす",
+      "meaning": "辨析「揺れる／揺らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refdja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "pair": {
+      "id": "verb.refdja",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺らす",
+      "transitiveReading": "ゆらす",
+      "meaning": "辨析「揺れる／揺らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refdja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdja",
+    "familyId": "verb.refdja",
+    "pair": {
+      "id": "verb.refdja",
+      "intransitive": "揺れる",
+      "intransitiveReading": "ゆれる",
+      "transitive": "揺らす",
+      "transitiveReading": "ゆらす",
+      "meaning": "辨析「揺れる／揺らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refefa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "pair": {
+      "id": "verb.refefa",
+      "intransitive": "増える",
+      "intransitiveReading": "ふえる",
+      "transitive": "増やす",
+      "transitiveReading": "ふやす",
+      "meaning": "辨析「増える／増やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refefa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "pair": {
+      "id": "verb.refefa",
+      "intransitive": "増える",
+      "intransitiveReading": "ふえる",
+      "transitive": "増やす",
+      "transitiveReading": "ふやす",
+      "meaning": "辨析「増える／増やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refefa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "pair": {
+      "id": "verb.refefa",
+      "intransitive": "増える",
+      "intransitiveReading": "ふえる",
+      "transitive": "増やす",
+      "transitiveReading": "ふやす",
+      "meaning": "辨析「増える／増やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refefa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refefa",
+    "familyId": "verb.refefa",
+    "pair": {
+      "id": "verb.refefa",
+      "intransitive": "増える",
+      "intransitiveReading": "ふえる",
+      "transitive": "増やす",
+      "transitiveReading": "ふやす",
+      "meaning": "辨析「増える／増やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "pair": {
+      "id": "verb.refgca",
+      "intransitive": "降りる",
+      "intransitiveReading": "おりる",
+      "transitive": "降ろす",
+      "transitiveReading": "おろす",
+      "meaning": "辨析「降りる／降ろす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refgca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "pair": {
+      "id": "verb.refgca",
+      "intransitive": "降りる",
+      "intransitiveReading": "おりる",
+      "transitive": "降ろす",
+      "transitiveReading": "おろす",
+      "meaning": "辨析「降りる／降ろす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "pair": {
+      "id": "verb.refgca",
+      "intransitive": "降りる",
+      "intransitiveReading": "おりる",
+      "transitive": "降ろす",
+      "transitiveReading": "おろす",
+      "meaning": "辨析「降りる／降ろす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refgca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgca",
+    "familyId": "verb.refgca",
+    "pair": {
+      "id": "verb.refgca",
+      "intransitive": "降りる",
+      "intransitiveReading": "おりる",
+      "transitive": "降ろす",
+      "transitiveReading": "おろす",
+      "meaning": "辨析「降りる／降ろす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refida.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "pair": {
+      "id": "verb.refida",
+      "intransitive": "零れる",
+      "intransitiveReading": "こぼれる",
+      "transitive": "零す",
+      "transitiveReading": "こぼす",
+      "meaning": "辨析「零れる／零す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refida.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "pair": {
+      "id": "verb.refida",
+      "intransitive": "零れる",
+      "intransitiveReading": "こぼれる",
+      "transitive": "零す",
+      "transitiveReading": "こぼす",
+      "meaning": "辨析「零れる／零す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refida.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "pair": {
+      "id": "verb.refida",
+      "intransitive": "零れる",
+      "intransitiveReading": "こぼれる",
+      "transitive": "零す",
+      "transitiveReading": "こぼす",
+      "meaning": "辨析「零れる／零す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.activity.07",
+      "hash": "a79e0b24e78b5ebee88eb0af5d26702e483aef738a75a201bbaf56640cb1d467",
+      "fullSentences": ["見学者は植物園でランの写真を撮ります。"],
+      "status": "approved",
+      "reason": "参观者在植物园拍摄兰花，撮ります表示拍摄动作；植物園で标出活动地点，完整句自然。",
+      "answerSet": "仅de正确；ni不能标本句的拍摄地点，e需要朝植物园移动的谓语，均非同场景另一答案。",
+      "readings": "見学者けんがくしゃ、植物園しょくぶつえん、写真しゃしん、撮りますとります均正确；ラン保留片假名，へ候选发音注为え且输入仍应填へ。",
+      "translation": "“参观者在植物园拍摄兰花”准确译出人物、地点与动作，未加入园方关闭闪光灯的背景。",
+      "options": "de的correct准确；ni与e分别指向存在／目的地和移动方向，不能代入撮ります标活动地点，ungrammatical及解释成立。"
+    },
+    {
+      "id": "particle.activity.08",
+      "hash": "057f732e20ad9d515e7154e2c1e027510f0ecd5b05babcbdd5be02ac3772ef81",
+      "fullSentences": ["記者は漁港の資料館で船長に話を聞きます。"],
+      "status": "approved",
+      "reason": "记者在渔港资料馆向船长了解情况，資料館で标采访发生处；船長に是受访人，角色关系自然。",
+      "answerSet": "仅de正确；ni与e不能在話を聞きます前表示采访活动发生在资料馆。",
+      "readings": "記者きしゃ、漁港ぎょこう、資料館しりょうかん、船長せんちょう、話はなし、聞きますききます均正确；へ候选读え，书写答案仍为へ。",
+      "translation": "“记者在渔港资料馆采访船长”对应船長に話を聞きます；没有多译场景里的报社性质或船长年龄。",
+      "options": "de的correct与地点关系相符；e的方向义和ni的存在／目的地义都不是本句的采访地点，ungrammatical说明成立。"
+    },
+    {
+      "id": "particle.activity.09",
+      "hash": "53c58275574d141530ec9576a567f5c48f1598d7d63592cc4bb1c893c9927cd8",
+      "fullSentences": ["生徒は調理室でうどんを打ちます。"],
+      "status": "approved",
+      "reason": "烹饪课学员在厨房手打乌冬，うどんを打つ是自然搭配；調理室で标制作活动地点。",
+      "answerSet": "仅de正确；ni不标手打动作的发生处，e需要移动谓语而句中没有。",
+      "readings": "生徒せいと、調理室ちょうりしつ、打ちますうちます正确；うどん保持书面假名，へ候选注え但应输入へ。",
+      "translation": "“学员在实习厨房手打乌冬面”准确传达制作方式、地点和对象，未增加完成或进度含义。",
+      "options": "de的correct准确；ni、e各自的ungrammatical说明与当前谓语搭配相符，没有漏收可接受助词。"
+    },
+    {
+      "id": "particle.activity.10",
+      "hash": "769c76d2cee5dcdf2bb1e3f5ba7055a087772754a1a0cc5ca07f2fb6a7bf458a",
+      "fullSentences": ["吹奏楽部は音楽室で新曲を合奏します。"],
+      "status": "approved",
+      "reason": "吹奏乐部在音乐室合奏新曲，合奏します与对象新曲搭配自然，音乐室是动作发生处。",
+      "answerSet": "仅de正确；ni与e分别用于存在／目的地和移动方向，不能替代本句合奏地点。",
+      "readings": "吹奏楽部すいそうがくぶ、音楽室おんがくしつ、新曲しんきょく、合奏がっそう均正确；へ候选注发音え，不改变书写形式。",
+      "translation": "“吹奏乐部在音乐室合奏新曲”准确对应全文；场景中的文化节前仅作背景。",
+      "options": "de的correct成立；ni和e代入后均不表示合奏活动地点，ungrammatical及逐项解释准确。"
+    },
+    {
+      "id": "particle.destination.01",
+      "hash": "bdf86cec08a4af543b473f581fa78307cf54443dfca78238c8d4f5b4488a812c",
+      "fullSentences": ["来週、姉は箱根に行きます。", "来週、姉は箱根へ行きます。"],
+      "status": "approved",
+      "reason": "下周姐姐去箱根的目的地明确；箱根に行きます与箱根へ行きます都自然，住宿预订是场景背景。",
+      "answerSet": "ni与e都正确，分别以目的地及方向表达姐姐前往箱根，均符合场景；kara会把箱根改成出发地，和场景冲突。",
+      "readings": "来週らいしゅう、姉あね、箱根はこね、行きますいきます正确；へ候选的发音注为え，但正确书写答案是へ；逗号和句号对应。",
+      "translation": "“姐姐下周要去箱根”同时对应に和へ两个完整句，未把泡温泉或订住宿误译为句内事实。",
+      "options": "ni、e均标correct且列入answerIds，正确集合完整；kara标meaning-mismatch准确指出其出发地含义，而非误判语法错误。"
+    }
+  ]
+}

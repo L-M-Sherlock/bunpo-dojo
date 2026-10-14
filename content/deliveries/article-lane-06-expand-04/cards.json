@@ -1,0 +1,740 @@
+[
+  {
+    "id": "verb.refddb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "lexicalKey": "friend-helps-intoxicated-man-sober-up",
+    "scene": "朋友让喝醉的人吹凉风，酒意随后消退。",
+    "before": [
+      {
+        "text": "友人は、酒に酔った彼を涼しい風に当てて、酔いを",
+        "reading": "ゆうじんは、さけによったかれをすずしいかぜにあてて、よいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "醒ました",
+        "reading": "さました",
+        "verdict": "correct",
+        "explanation": "朋友让喝醉的他吹凉风，使酒意消退；「酔いを」是被消除的状态。"
+      },
+      {
+        "id": "b",
+        "text": "醒めた",
+        "reading": "さめた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「酔いを」标出朋友使之消退的对象，不能接描述酒意自行消退的醒める；若酒意自行消退，应让「酔いが」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "朋友让喝醉的他吹了一会儿凉风，使他的醉意消退了。",
+    "explanation": "朋友采取行动使他的酒意消退；「酔いを醒ます」是这一意义的常见搭配。",
+    "hint": "确认句中谁采取行动，以及被消除的是哪一种状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "lexicalKey": "surgery-wound-heals-after-three-weeks",
+    "scene": "手术后的伤口用了三周终于愈合。",
+    "before": [
+      {
+        "text": "手術後の傷口は、三週間でようやく",
+        "reading": "しゅじゅつごのきずぐちは、さんしゅうかんでようやく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "癒えた",
+        "reading": "いえた",
+        "verdict": "correct",
+        "explanation": "手术伤口经过三周自行愈合；「傷は」是恢复的对象状态。"
+      },
+      {
+        "id": "b",
+        "text": "癒した",
+        "reading": "いやした",
+        "verdict": "meaning-mismatch",
+        "explanation": "癒す表示某个主体治好伤病或抚慰对象；本句只说伤口本身愈合，没有写出治疗者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "手术后的伤口终于在三周后愈合了。",
+    "explanation": "这里陈述伤口经过三周自行愈合的结果。",
+    "hint": "看句中写的是伤口愈合，还是有人采取行动来治疗伤口。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "lexicalKey": "hot-spring-eases-fatigue-from-long-trip",
+    "scene": "旅人泡过山间温泉后，旅途的疲惫得到了缓解。",
+    "before": [
+      {
+        "text": "旅人は山あいの温泉にゆっくりつかり、長旅の疲れを",
+        "reading": "たびびとはやまあいのおんせんにゆっくりつかり、ながたびのつかれを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "癒した",
+        "reading": "いやした",
+        "verdict": "correct",
+        "explanation": "旅人泡温泉来缓解长途旅行的疲劳；「疲れを」是被抚慰、缓解的对象。"
+      },
+      {
+        "id": "b",
+        "text": "癒えた",
+        "reading": "いえた",
+        "verdict": "ungrammatical",
+        "explanation": "句中「疲れを」是旅人缓解的对象，不能接描述疲劳自行消退的癒える；若写疲劳消退，应让「疲れが」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "旅人慢慢泡了山间温泉，缓解了长途旅行的疲劳。",
+    "explanation": "旅人通过泡温泉来抚慰长途旅行后累积的疲劳。",
+    "hint": "确认旅人对疲劳做了什么，以及疲劳是动作的对象还是变化主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "lexicalKey": "grief-still-not-healed-years-later",
+    "scene": "失去朋友的悲痛即使几年后也未完全平复。",
+    "before": [
+      {
+        "text": "友人を亡くした悲しみは、数年たっても完全には",
+        "reading": "ゆうじんをなくしたかなしみは、すうねんたってもかんぜんには"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "癒えない",
+        "reading": "いえない",
+        "verdict": "correct",
+        "explanation": "失去朋友后的悲痛多年仍未完全消失；「悲しみは」是仍未平复的状态主体。"
+      },
+      {
+        "id": "b",
+        "text": "癒さない",
+        "reading": "いやさない",
+        "verdict": "meaning-mismatch",
+        "explanation": "癒さない表示某个施事不去抚慰或治愈对象；本句说的是悲痛自身尚未消退，没有把悲痛写成治疗者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "失去朋友后的悲痛即使几年后也没有完全平复。",
+    "explanation": "「数年たっても完全には」限定了时间和程度，悲痛仍未完全消退。",
+    "hint": "辨认句中是悲痛自身消退，还是有人抚慰某种痛苦。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "lexicalKey": "support-worker-soothes-children-in-shelter",
+    "scene": "支援人员在避难所读绘本，抚慰了心怀不安的孩子们。",
+    "before": [
+      {
+        "text": "支援員は、避難所で絵本を読み、不安を抱える子どもたちの心を",
+        "reading": "しえんいんは、ひなんじょでえほんをよみ、ふあんをかかえるこどもたちのこころを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "癒した",
+        "reading": "いやした",
+        "verdict": "correct",
+        "explanation": "支援人员通过陪伴和读绘本抚慰孩子们的心；「心を」是被安抚的对象。"
+      },
+      {
+        "id": "b",
+        "text": "癒えた",
+        "reading": "いえた",
+        "verdict": "ungrammatical",
+        "explanation": "句中「子どもたちの心を」是支援人员抚慰的对象，不能接描述心伤自行愈合的癒える；若写心伤自行平复，应让「心の傷が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "支援人员在避难所读绘本，抚慰了心怀不安的孩子们。",
+    "explanation": "支援人员读绘本陪伴孩子，以此安抚他们不安的心情。",
+    "hint": "确认谁在采取安抚行动，以及心情或心伤在句中是什么角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refega.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "lexicalKey": "wood-stove-fire-burns-during-blackout",
+    "scene": "停电的夜晚，旅店柴炉的火安静地燃烧着。",
+    "before": [
+      {
+        "text": "停電の夜、宿の薪ストーブの火が静かに",
+        "reading": "ていでんのよる、やどのまきストーブのひがしずかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "燃えていた",
+        "reading": "もえていた",
+        "verdict": "correct",
+        "explanation": "柴炉里的火自己持续燃烧；「火が」是燃烧状态的主体。"
+      },
+      {
+        "id": "b",
+        "text": "燃やしていた",
+        "reading": "もやしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "燃やす表示施事使某物燃烧；本句描述柴炉中的火在燃烧，没有说火在烧另一个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "停电的夜晚，旅店柴炉里的火安静地燃烧着。",
+    "explanation": "句子描写柴炉里的火在停电的夜晚持续燃烧。",
+    "hint": "看句子描写的是火自身燃烧，还是有人让燃料燃烧。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refega.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "lexicalKey": "campground-manager-burns-dry-firewood",
+    "scene": "营地管理员在篝火炉里烧了干柴。",
+    "before": [
+      {
+        "text": "キャンプ場の管理人は、焚き火台で乾いた薪を",
+        "reading": "キャンプじょうのかんりにんは、たきびだいでかわいたまきを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "燃やした",
+        "reading": "もやした",
+        "verdict": "correct",
+        "explanation": "营地管理员在篝火炉中主动点燃干柴；「薪を」是被烧的燃料。"
+      },
+      {
+        "id": "b",
+        "text": "燃えた",
+        "reading": "もえた",
+        "verdict": "ungrammatical",
+        "explanation": "这里「薪を」是管理员点燃的对象，不能接描述薪柴自行燃烧的燃える；若薪柴自己燃烧，应让「薪が」作主体。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "营地管理员在篝火炉里烧了干柴。",
+    "explanation": "管理员在指定的焚火台里把干燥木柴点燃。",
+    "hint": "分清管理员主动处理的燃料，以及自行燃烧的物体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refega.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "lexicalKey": "cloth-edge-burns-briefly-in-fire-test",
+    "scene": "防火测试中，布料边缘只燃烧了几秒，火焰很快就灭了。",
+    "before": [
+      {
+        "text": "防火試験では、布の端が数秒だけ",
+        "reading": "ぼうかしけんでは、ぬののはしがすうびょうだけ"
+      }
+    ],
+    "after": [
+      {
+        "text": "が、炎はすぐに消えた。",
+        "reading": "が、ほのおはすぐにきえた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "燃えた",
+        "reading": "もえた",
+        "verdict": "correct",
+        "explanation": "布料边缘自身短暂燃烧，随后火焰熄灭；「端が」是状态变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "燃やした",
+        "reading": "もやした",
+        "verdict": "meaning-mismatch",
+        "explanation": "燃やす需要一个让对象燃烧的施事；本句叙述的是布料边缘自身短暂燃起，并未说它燃烧别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "防火测试中，布料边缘只燃烧了几秒，但火焰很快就熄灭了。",
+    "explanation": "试验时布料边缘短暂燃烧，随后火焰很快熄灭。",
+    "hint": "看布料边缘本身是否起火，以及是否有施事点燃了某个对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refega.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "lexicalKey": "coach-urges-team-to-burn-fighting-spirit",
+    "scene": "主教练在决赛前鼓励队员们把斗志燃到最后。",
+    "before": [
+      {
+        "text": "監督は、決勝戦を前に「最後まで闘志を",
+        "reading": "かんとくは、けっしょうせんをまえに「さいごまでとうしを"
+      }
+    ],
+    "after": [
+      {
+        "text": "」と選手たちを鼓舞した。",
+        "reading": "」とせんしゅたちをこぶした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "燃やせ",
+        "reading": "もやせ",
+        "verdict": "correct",
+        "explanation": "教练鼓励队员们持续保持斗志；命令句中「闘志を」是要燃起的对象。"
+      },
+      {
+        "id": "b",
+        "text": "燃えろ",
+        "reading": "もえろ",
+        "verdict": "ungrammatical",
+        "explanation": "当前引用句用「闘志を」标记被激起的对象，不能接以闘志为主体的燃える；若是说斗志自身燃起，应写「闘志が燃えろ」一类表达。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "决赛前，主教练鼓励队员们“把斗志燃到最后”。",
+    "explanation": "这里使用「闘志を燃やす」的比喻义，表示激起并保持斗志。",
+    "hint": "关注引用句中斗志是被鼓励燃起的对象，还是它自身作主语。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "lexicalKey": "last-train-time-passed-during-festival-cleanup",
+    "scene": "夜祭收拾场地时，末班车的发车时刻已经过去。",
+    "before": [
+      {
+        "text": "夜祭りの片付けをしている間に、終電の時刻が",
+        "reading": "よまつりのかたづけをしているあいだに、しゅうでんのじこくが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "過ぎていた",
+        "reading": "すぎていた",
+        "verdict": "correct",
+        "explanation": "收摊期间末班车时刻已经过去；「時刻が」是时间经过的主体。"
+      },
+      {
+        "id": "b",
+        "text": "過ごしていた",
+        "reading": "すごしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "過ごす表示某人经历或度过一段时间；本句说的是末班车时刻本身已经过去，不是时刻在度过别的时间。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "收拾夜祭场地期间，末班车的时刻已经过去了。",
+    "explanation": "收拾夜祭场地的过程中，末班车时刻已经过去。",
+    "hint": "辨认经过的是时间点本身，还是某个人在度过某段时光。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "lexicalKey": "hikers-spend-night-in-shelter-from-storm",
+    "scene": "登山者们为躲避风暴，在山间小屋度过了一夜。",
+    "before": [
+      {
+        "text": "嵐がやむまで、登山者たちは山小屋で一晩を",
+        "reading": "あらしがやむまで、とざんしゃたちはやまごやでひとばんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "過ごした",
+        "reading": "すごした",
+        "verdict": "correct",
+        "explanation": "登山者们在山间小屋里度过一夜；「一夜を」是他们经历的时间段。"
+      },
+      {
+        "id": "b",
+        "text": "過ぎた",
+        "reading": "すぎた",
+        "verdict": "meaning-mismatch",
+        "explanation": "過ぎる可描述时间或人经过，但本句写登山者们在山小屋经历这一夜；「一夜を過ごす」是度过一段时间的搭配。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "直到风暴停下，登山者们在山间小屋里度过了一晚。",
+    "explanation": "风暴停止前，登山者们在小屋中待过一夜。",
+    "hint": "看句子是说登山者经历了一夜，还是某个时间点经过了。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "lexicalKey": "festival-jugglers-procession-passes-shrine-street",
+    "scene": "秋祭队伍从神社前的街道缓缓经过。",
+    "before": [
+      {
+        "text": "秋祭りの行列は、神社前の通りをゆっくり",
+        "reading": "あきまつりのぎょうれつは、じんじゃまえのとおりをゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "過ぎていった",
+        "reading": "すぎていった",
+        "verdict": "correct",
+        "explanation": "秋祭り的队伍沿着神社前街道经过；「通りを」标出移动经过的路径。"
+      },
+      {
+        "id": "b",
+        "text": "過ごしていった",
+        "reading": "すごしていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "過ごす表示主体经历一段时间；本句写队伍沿街缓缓通过，不是在街道上度过时间。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "秋祭队伍缓缓经过神社前的街道。",
+    "explanation": "这里的「通りを過ぎる」表示队伍沿着街道通过。",
+    "hint": "注意「通りを」表示经过的路线，而不是用来说明停留期间。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refgda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "lexicalKey": "father-spends-retirement-days-gardening",
+    "scene": "退休后，父亲每天清晨在菜地劳作，过着安静的日子。",
+    "before": [
+      {
+        "text": "退職後、父は毎朝畑で野菜を育てながら静かな日々を",
+        "reading": "たいしょくご、ちちはまいあさはたけでやさいをそだてながらしずかなひびを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "過ごした",
+        "reading": "すごした",
+        "verdict": "correct",
+        "explanation": "父亲在退休后的日常中做园艺、安静生活；「日々を」是他经历的时间。"
+      },
+      {
+        "id": "b",
+        "text": "過ぎた",
+        "reading": "すぎた",
+        "verdict": "meaning-mismatch",
+        "explanation": "過ぎる表示时间或移动主体经过某处；此句描述父亲如何度过日常生活，强调生活经历。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "退休后，父亲每天清晨在菜地种菜，度过安静的日子。",
+    "explanation": "句子描写父亲退休后每天在菜地做事、安静生活的日常。",
+    "hint": "确认这里说的是父亲如何生活，还是某个时间点或人经过。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refifa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "lexicalKey": "old-poplar-falls-after-strong-wind",
+    "scene": "大风过后的次日清晨，校园里的老杨树倒在地上。",
+    "before": [
+      {
+        "text": "強風が吹いた翌朝、校庭の古いポプラの木が",
+        "reading": "きょうふうがふいたよくあさ、こうていのふるいポプラのきが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "倒れていた",
+        "reading": "たおれていた",
+        "verdict": "correct",
+        "explanation": "大风过后的次日早晨，老杨树已经倒下；树木本身是姿势变化的主体。"
+      },
+      {
+        "id": "b",
+        "text": "倒していた",
+        "reading": "たおしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "倒す表示施事把某个对象放倒；句子只陈述杨树在强风后处于倒下状态，没有说它放倒别物。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "大风刮过后的次日清晨，校园里的老杨树已经倒下。",
+    "explanation": "句子报告强风过后杨树处于倒下的结果状态。",
+    "hint": "看变化的是杨树自身，还是有人把另一个对象放倒。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refifa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "lexicalKey": "underdog-team-defeats-title-favorite",
+    "scene": "对手凭借坚韧防守击败了夺冠热门队伍。",
+    "before": [
+      {
+        "text": "対戦相手は粘り強い守備で優勝候補を",
+        "reading": "たいせんあいてはねばりづよいしゅびでゆうしょうこうほを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "倒した",
+        "reading": "たおした",
+        "verdict": "correct",
+        "explanation": "对手在比赛中击败了夺冠热门队伍；「優勝候補を」是被打败的对方。"
+      },
+      {
+        "id": "b",
+        "text": "倒れた",
+        "reading": "たおれた",
+        "verdict": "ungrammatical",
+        "explanation": "倒れる可表示某队自己倒下或被打败，但当前「優勝候補を」标记的是被对手击败的对象，不能接以主体自行倒下为义的倒れる。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "对手凭借坚韧的防守击败了夺冠热门队伍。",
+    "explanation": "倒す在比赛语境中表示战胜对手，不是使对方身体倒地。",
+    "hint": "结合比赛和「優勝候補を」判断谁战胜了谁。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refifa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "lexicalKey": "worker-collapses-after-working-in-heat",
+    "scene": "工人在酷暑下长时间作业后，在阴凉处昏倒。",
+    "before": [
+      {
+        "text": "猛暑の中で長時間作業していた作業員が、日陰で意識を失って",
+        "reading": "もうしょのなかでちょうじかんさぎょうしていたさぎょういんが、ひかげでいしきをうしなって"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "倒れた",
+        "reading": "たおれた",
+        "verdict": "correct",
+        "explanation": "工人在日阴处失去意识后倒下；作业员自己是失去支撑、倒下的人。"
+      },
+      {
+        "id": "b",
+        "text": "倒した",
+        "reading": "たおした",
+        "verdict": "meaning-mismatch",
+        "explanation": "倒す表示主体使其他对象倒下；这里作业员是倒下的本人，不是把别的东西推倒的施事。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工人在酷暑中长时间作业后，在阴凉处失去意识并倒下。",
+    "explanation": "句子描述作业员因酷暑工作后失去意识、身体倒下的情形。",
+    "hint": "区分作业员自己倒下与作业员把另一个对象弄倒。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

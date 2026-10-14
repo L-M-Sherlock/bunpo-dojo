@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refdga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdga",
+    "familyId": "verb.refdga",
+    "pair": {
+      "id": "verb.refdga",
+      "intransitive": "慣れる",
+      "intransitiveReading": "なれる",
+      "transitive": "慣らす",
+      "transitiveReading": "ならす",
+      "meaning": "辨析「慣れる／慣らす」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "pair": {
+      "id": "verb.refeca",
+      "intransitive": "費える",
+      "intransitiveReading": "ついえる",
+      "transitive": "費やす",
+      "transitiveReading": "ついやす",
+      "meaning": "辨析「費える／費やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "pair": {
+      "id": "verb.refeca",
+      "intransitive": "費える",
+      "intransitiveReading": "ついえる",
+      "transitive": "費やす",
+      "transitiveReading": "ついやす",
+      "meaning": "辨析「費える／費やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeca",
+    "familyId": "verb.refeca",
+    "pair": {
+      "id": "verb.refeca",
+      "intransitive": "費える",
+      "intransitiveReading": "ついえる",
+      "transitive": "費やす",
+      "transitiveReading": "ついやす",
+      "meaning": "辨析「費える／費やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  }
+]

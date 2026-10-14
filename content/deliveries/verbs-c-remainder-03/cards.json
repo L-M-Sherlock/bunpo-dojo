@@ -1,0 +1,237 @@
+[
+  {
+    "id": "verb.continue.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "harbor-fireworks-duration",
+    "scene": "港口烟花大会在最后一天的晚上持续到九点。",
+    "before": [
+      {
+        "text": "港の花火大会は最終日の夜九時まで",
+        "reading": "みなとのはなびたいかいはさいしゅうびのよるくじまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "correct",
+        "explanation": "烟花大会作为活动本身延续到晚上九点，用自动词「続く」。"
+      },
+      {
+        "id": "b",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "ungrammatical",
+        "explanation": "「続ける」表示施事继续某项内容；此处主语是活动本身，句中没有被继续的对象，不能用他动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "港口的烟花大会在最后一天持续到晚上九点。",
+    "explanation": "句子报告烟花大会这一活动持续到何时，没有写某人继续另一项活动。",
+    "hint": "判断句中是活动本身延续，还是有人继续一项活动。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.continue.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.continue",
+    "familyId": "verb.continue",
+    "lexicalKey": "participants-continue-discussion",
+    "scene": "休息铃响了，参与者仍继续讨论。",
+    "before": [
+      {
+        "text": "休憩の合図が鳴っても、参加者たちは討論を",
+        "reading": "きゅうけいのあいずがなっても、さんかしゃたちはとうろんを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "続けた",
+        "reading": "つづけた",
+        "verdict": "correct",
+        "explanation": "参与者是继续讨论的施事，「討論を」标出被继续的活动，用他动词「続ける」。"
+      },
+      {
+        "id": "b",
+        "text": "続いた",
+        "reading": "つづいた",
+        "verdict": "ungrammatical",
+        "explanation": "「続く」描述活动本身延续，不能在此接直接宾语「討論を」；若只报告讨论持续，应改为「討論が続いた」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "即使休息信号响起，参与者们仍继续讨论。",
+    "explanation": "参与者主动继续讨论，「討論を」是继续的内容。",
+    "hint": "留意参与者和讨论分别在句中承担什么角色。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.remain.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "bread-left-at-closing",
+    "scene": "打烊时，货架上还剩两份面包。",
+    "before": [
+      {
+        "text": "閉店時、棚にはパンが二つ",
+        "reading": "へいてんじ、たなにはぱんがふたつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "correct",
+        "explanation": "面包作为剩余物品留在货架上，用自动词「残る」描述它们剩下。"
+      },
+      {
+        "id": "b",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「残す」会把面包读成留下某物的施事；这里没有面包留下的其他对象，场景说的是面包本身还剩在货架上。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "打烊时，货架上还剩两份面包。",
+    "explanation": "句子写面包这一商品仍留在货架上，没有写它留下别的东西。",
+    "hint": "判断面包是剩下来的物品，还是留下其他东西的施事。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.remain.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "water-left-for-pets",
+    "scene": "居民撤离前留下了供宠物喝的三天份水。",
+    "before": [
+      {
+        "text": "避難する前に、住民はペット用の水を三日分",
+        "reading": "ひなんするまえに、じゅうみんはペットようのみずをみっかぶん"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "correct",
+        "explanation": "居民是留下水的施事，「水を三日分」是留给宠物的物品，用他动词「残す」。"
+      },
+      {
+        "id": "b",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "ungrammatical",
+        "explanation": "「残る」描述物品本身剩下，不能接直接宾语「水を」；若写水剩下，应说「水が残った」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "居民在撤离前留下了三天份的宠物用水。",
+    "explanation": "居民主动留下水，水是「残す」的对象。",
+    "hint": "看谁执行留下的动作，以及水在句中是什么成分。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.remain.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.remain",
+    "familyId": "verb.remain",
+    "lexicalKey": "curtain-remains-after-renovation",
+    "scene": "礼堂翻修后只剩下一幅旧舞台幕。",
+    "before": [
+      {
+        "text": "改修後の講堂には、古い舞台幕が一枚だけ",
+        "reading": "かいしゅうごのこうどうには、ふるいぶたいまくがいちまいだけ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "残った",
+        "reading": "のこった",
+        "verdict": "correct",
+        "explanation": "舞台幕是翻修后仍保留的物品，用自动词「残る」描述其留下的状态。"
+      },
+      {
+        "id": "b",
+        "text": "残した",
+        "reading": "のこした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「残す」会把舞台幕读成留下其他东西的施事；当前句意是舞台幕本身仍在礼堂里。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "礼堂翻修后只剩下一幅旧舞台幕。",
+    "explanation": "句子报告翻修后留下的物品，不写某人把舞台幕留给别人。",
+    "hint": "分清仍然留下的物品与主动留下东西的人。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

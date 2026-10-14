@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refwaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "limited-edition-booklet-stock-depleted-by-orders",
+    "scene": "线上书店的限定版册子订单不断涌入，库存卖光了。",
+    "before": [
+      {
+        "text": "オンライン書店では限定版の冊子の注文が相次ぎ、在庫が",
+        "reading": "オンラインしょてんではげんていばんのさっしのちゅうもんがあいつぎ、ざいこが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくなった",
+        "reading": "なくなった",
+        "verdict": "correct",
+        "explanation": "库存以「在庫が」作变化主体，因订单接连涌入而耗尽。"
+      },
+      {
+        "id": "b",
+        "text": "なくした",
+        "reading": "なくした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「なくす」也可把非人施事「在庫」放在「が」前，并省略被弄丢或被使之消失的受事；这会说库存弄丢了某物，不是订单接连到来后库存自身售罄。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在线书店的限定版册子订单接连不断，库存售罄了。",
+    "explanation": "订单接连到来后库存变为零，句子描述库存自身的变化。",
+    "hint": "结合订单接连到来的背景，判断「在庫が」是自身变为没有的主体，还是以非人施事身份另有被省略的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

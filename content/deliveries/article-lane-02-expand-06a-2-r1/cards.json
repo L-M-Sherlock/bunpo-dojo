@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refsja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsja",
+    "familyId": "verb.refsja",
+    "lexicalKey": "hungry-students-stomach-growls-during-exam",
+    "scene": "临近中午的考试中，一个学生饿着肚子，肚子咕噜叫了一声。",
+    "before": [
+      {
+        "text": "昼前の試験中、空腹の学生のお腹がぐうっと",
+        "reading": "ひるまえのしけんちゅう、くうふくのがくせいのおなかがぐうっと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "鳴った",
+        "reading": "なった",
+        "verdict": "correct",
+        "explanation": "「お腹が」是咕咕作响的主体，句子描写饥饿学生的肚子发出声音。"
+      },
+      {
+        "id": "b",
+        "text": "鳴らした",
+        "reading": "ならした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「鳴らす」表示让对象发声；本句写肚子自身咕咕响，并没有肚子让其他对象响的动作。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "临近中午的考试中，一个学生饿着肚子，肚子咕噜叫了一声。",
+    "explanation": "句中肚子本身发出声响，是「鳴る」的主体。",
+    "hint": "关注咕咕作响的是学生的肚子本身，还是肚子让别的东西响。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

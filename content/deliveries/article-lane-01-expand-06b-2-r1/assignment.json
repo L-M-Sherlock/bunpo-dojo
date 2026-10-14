@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refxaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refxaa",
+    "familyId": "verb.refxaa",
+    "pair": {
+      "id": "verb.refxaa",
+      "intransitive": "積もる",
+      "intransitiveReading": "つもる",
+      "transitive": "積む",
+      "transitiveReading": "つむ",
+      "meaning": "辨析「積もる／積む」的角色与对象",
+      "count": 4,
+      "articleGroup": 24,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_5b1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-05b-1.draft.json",
+  "at": "2026-10-14T02:23:46.295Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refkaa.04",
+      "hash": "32a104ec3f3af7e7ccda61fc555743f0f8cd258e9b64e8f50e7f8f12b3e5dd20",
+      "fullSentences": [
+        "講師は、参加者を経験に応じて三つの班に分けた。"
+      ]
+    },
+    {
+      "id": "verb.refraa.01",
+      "hash": "925fbeefae8fda15dc9f30a53bc577828c88eeaeb8075227933f77ead752e424",
+      "fullSentences": [
+        "山あいの町でも最後の雪が解け、季節が冬から春へ移った。"
+      ]
+    },
+    {
+      "id": "verb.refraa.02",
+      "hash": "cc5e66b94db63357e682b16c251673ddba9690fca3d809c3bca3e794e697ab05",
+      "fullSentences": [
+        "展示室の改修を前に、学芸員は展示中の屏風を別館の収蔵庫へ移した。"
+      ]
+    },
+    {
+      "id": "verb.refraa.03",
+      "hash": "e85c0c3cde747bfdf12bdaf61c5d0c39f7341f034292ff0ca071fe4ed2de4a67",
+      "fullSentences": [
+        "看病をしていた姉に、弟の風邪が移った。"
+      ]
+    }
+  ]
+}

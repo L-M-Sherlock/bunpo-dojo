@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaaha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "pair": {
+      "id": "verb.refaaha",
+      "intransitive": "連なる",
+      "intransitiveReading": "つらなる",
+      "transitive": "連ねる",
+      "transitiveReading": "つらねる",
+      "meaning": "辨析「連なる／連ねる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 34
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaapa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaapa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaapa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaapa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "pair": {
+      "id": "verb.refaapa",
+      "intransitive": "纏まる",
+      "intransitiveReading": "まとまる",
+      "transitive": "纏める",
+      "transitiveReading": "まとめる",
+      "meaning": "辨析「纏まる／纏める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 42
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "pair": {
+      "id": "verb.refbfa",
+      "intransitive": "叶う",
+      "intransitiveReading": "かなう",
+      "transitive": "叶える",
+      "transitiveReading": "かなえる",
+      "meaning": "辨析「叶う／叶える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "pair": {
+      "id": "verb.refbfa",
+      "intransitive": "叶う",
+      "intransitiveReading": "かなう",
+      "transitive": "叶える",
+      "transitiveReading": "かなえる",
+      "meaning": "辨析「叶う／叶える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "pair": {
+      "id": "verb.refbfa",
+      "intransitive": "叶う",
+      "intransitiveReading": "かなう",
+      "transitive": "叶える",
+      "transitiveReading": "かなえる",
+      "meaning": "辨析「叶う／叶える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "pair": {
+      "id": "verb.refbfa",
+      "intransitive": "叶う",
+      "intransitiveReading": "かなう",
+      "transitive": "叶える",
+      "transitiveReading": "かなえる",
+      "meaning": "辨析「叶う／叶える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "pair": {
+      "id": "verb.refbla",
+      "intransitive": "竦む",
+      "intransitiveReading": "すくむ",
+      "transitive": "竦める",
+      "transitiveReading": "すくめる",
+      "meaning": "辨析「竦む／竦める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "pair": {
+      "id": "verb.refbla",
+      "intransitive": "竦む",
+      "intransitiveReading": "すくむ",
+      "transitive": "竦める",
+      "transitiveReading": "すくめる",
+      "meaning": "辨析「竦む／竦める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 12
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "pair": {
+      "id": "verb.refbla",
+      "intransitive": "竦む",
+      "intransitiveReading": "すくむ",
+      "transitive": "竦める",
+      "transitiveReading": "すくめる",
+      "meaning": "辨析「竦む／竦める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 12
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbla.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "pair": {
+      "id": "verb.refbla",
+      "intransitive": "竦む",
+      "intransitiveReading": "すくむ",
+      "transitive": "竦める",
+      "transitiveReading": "すくめる",
+      "meaning": "辨析「竦む／竦める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 12
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbra.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "pair": {
+      "id": "verb.refbra",
+      "intransitive": "縮む",
+      "intransitiveReading": "ちぢむ",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮む／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 18
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbra.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "pair": {
+      "id": "verb.refbra",
+      "intransitive": "縮む",
+      "intransitiveReading": "ちぢむ",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮む／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 18
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbra.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "pair": {
+      "id": "verb.refbra",
+      "intransitive": "縮む",
+      "intransitiveReading": "ちぢむ",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮む／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 18
+    },
+    "direction": "intransitive"
+  }
+]

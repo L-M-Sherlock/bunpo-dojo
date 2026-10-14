@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refbpa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "lexicalKey": "按日安排的观测计划制定",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "立てる",
+      "reading": "たてる"
+    },
+    "scene": "调查队进山前，制定了按日安排的观测计划。",
+    "before": [
+      {
+        "text": "調査隊は、山に入る前に日ごとの観測計画を立てた。",
+        "reading": "ちょうさたいは、やまにはいるまえにひごとのかんそくけいかくをたてた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词「立つ」表示主体自身站立或出现；本句是调查队制定观测计划，计划是动作对象。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "调查队主动拟定计划，「観測計画を」是立てる直接作用的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "调查队在进山前制定了按日安排的观测计划。",
+    "explanation": "调查队主动制定计划，计划是被建立的对象。",
+    "hint": "留意计划在句中是自行出现，还是由调查队主动制定。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

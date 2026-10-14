@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.time.07",
+    "fullCorrectSentences": [
+      "市立植物園の温室は、四月十八日の午前九時に開きます。"
+    ],
+    "sceneRationale": "植物园温室安排在4月18日上午9点开放，日期和钟点都是确定的时间信息。",
+    "otherReadings": "「で」可表示活动场所或所需时长；本句要标出温室开放的具体时点。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记温室开放的具体钟点", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可表示场所／手段／时长，不表达此处的开始时点", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：市立植物園（しりつしょくぶつえん）、温室（おんしつ）、四月十八日（しがつじゅうはちにち）、午前九時（ごぜんくじ）、開きます（あきます）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.08",
+    "fullCorrectSentences": [
+      "山小屋で、目覚まし時計が午前五時三十分に鳴った。"
+    ],
+    "sceneRationale": "闹钟放在山间小屋，清晨5点30分响起；山屋是地点，钟点是时点。",
+    "otherReadings": "句首「山小屋で」已经表示闹钟所在地点；时刻后接「で」不能表示闹钟响起的具体时间点。「で」的时长／期限等用法仍适用于其他句子。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记闹钟响起的具体时刻", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可标时长／期限等关系，但不标记闹钟响起的时点", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：山小屋（やまごや）、目覚まし時計（めざましどけい）、午前五時三十分（ごぜんごじさんじゅっぷん）、鳴った（なった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.09",
+    "fullCorrectSentences": [
+      "大学の後期授業は、九月二十五日に始まる。"
+    ],
+    "sceneRationale": "大学下学期的开课日是9月25日，句子说明课程从哪一天开始。",
+    "otherReadings": "「で」可以表示手段或场所，但这里的日期是开始时间点，不是课程进行的场所或方法。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记下学期课程开始的日历日期", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "不表示本句要求的开课日期", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：大学（だいがく）、後期授業（こうきじゅぎょう）、九月二十五日（くがつにじゅうごにち）、始まる（はじまる）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.time.10",
+    "fullCorrectSentences": [
+      "駅前の時計台は、毎晩午後十時に鐘を鳴らす。"
+    ],
+    "sceneRationale": "站前钟楼每天晚上10点鸣钟；句子标出每天重复的固定时点。",
+    "otherReadings": "「で」可以跟地点名词表示活动场所，但空格后接的是「午後十時」这一时间表达；此处需要标记钟声响起的时点。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "标记钟楼每天鸣钟的具体时刻", "verdict": "correct"},
+      {"id": "b", "text": "で", "reading": "で", "meaning": "可表示手段、场所等关系，但不是每天敲钟的时点", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：駅前（えきまえ）、時計台（とけいだい）、毎晩（まいばん）、午後十時（ごごじゅうじ）、鐘（かね）、鳴らす（ならす）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.01",
+    "fullCorrectSentences": [
+      "父は新幹線で東京駅に向かった。"
+    ],
+    "sceneRationale": "父亲使用新干线前往东京站；新干线是交通方式，东京站是目的地。",
+    "otherReadings": "「に」可标向かう目的地；若放在「新幹線」后，会把列车本身解释成移动的目标，而句中真正的目的地是「東京駅に」。交通方式用「で」。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记乘坐新干线这一交通方式", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "将新干线标作移动目标／到达点，而非交通方式", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：父（ちち）、新幹線（しんかんせん）、東京駅（とうきょうえき）、向かった（むかった）。选项「で」「に」的表记与读音核对正确。",
+    "unresolvedQuestions": []
+  }
+]

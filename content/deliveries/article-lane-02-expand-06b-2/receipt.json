@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_6b1",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-06b-2.draft.json",
+  "at": "2026-10-14T03:04:56.256Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.reftca.04",
+      "hash": "8e213372ad09840f793cd1a6081669172c2770bf86e88aa87c9ee3037914dd74",
+      "fullSentences": [
+        "公演中、係員は観客が舞台裏へ入らないよう、舞台袖の通路をロープで塞いだ。"
+      ]
+    },
+    {
+      "id": "verb.hiraku.01",
+      "hash": "af03d514b6edb9a9d9bad9f7360ee613272a61b2bc94f16aa2a679a5f54830b6",
+      "fullSentences": [
+        "雨上がりの朝、庭の鉢植えでは、朝顔のつぼみが一輪だけ開いた。"
+      ]
+    },
+    {
+      "id": "verb.hiraku.02",
+      "hash": "e710307b0c843d6c27e59400549555b430a0dc3e77fe63812bc7fabcd5209b3f",
+      "fullSentences": [
+        "司書は、返却された本を開いて、ページに破れがないか確かめた。"
+      ]
+    },
+    {
+      "id": "verb.hiraku.03",
+      "hash": "3e2407ad4fcc76b4fb175976013d670188fd6f6381c06a93a4c91cec104eff08",
+      "fullSentences": [
+        "重い荷物を持ち上げた拍子に、縫合した傷口がまた開いた。"
+      ]
+    }
+  ]
+}

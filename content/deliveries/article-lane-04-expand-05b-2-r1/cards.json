@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refria.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "lexicalKey": "回る/回す",
+    "scene": "技术员为调节管道流量，将阀门稍微向顺时针方向转动",
+    "before": [
+      {
+        "text": "配管の流量を調整するため、技師はバルブを時計回りに少し",
+        "reading": "はいかんのりゅうりょうをちょうせいするため、ぎしはバルブをとけいまわりにすこし"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "回った",
+        "reading": "まわった",
+        "verdict": "ungrammatical",
+        "explanation": "「回る」的「を」可标实际经过的路线，但这里的「バルブを」指被操作的部件，不是技师行经的路线；自动词「回る」不能把它当成被转动的对象，因此「回った」不能表达转阀门。"
+      },
+      {
+        "id": "b",
+        "text": "回した",
+        "reading": "まわした",
+        "verdict": "correct",
+        "explanation": "技师使阀门转动以调节管道流量，「バルブを」是被转动的对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "技术员为调节管道流量，将阀门稍稍向顺时针方向转动了。",
+    "explanation": "技师主动转动阀门来调节流量，阀门是动作的对象。",
+    "hint": "先找出操作中的施事和被操作的部件，再看句子中的动词能否建立这种关系。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

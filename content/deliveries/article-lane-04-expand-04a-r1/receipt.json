@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_04_repair",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-04a-r1.draft.json",
+  "at": "2026-10-14T01:35:48.944Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refdca.04",
+      "hash": "8a16db11cb116ad1d6c7c98700937b2e4c7bd3c4b89b740e8aaef3ce86b62db4",
+      "fullSentences": [
+        "キャンプの炭火で、子どもはマシュマロを焦がした。"
+      ]
+    },
+    {
+      "id": "verb.refdia.04",
+      "hash": "63143a2f4d2f91fc6f665393c0dd7d704761c2867c4ebaa5c88484bd7b52d3c8",
+      "fullSentences": [
+        "発表された結果を聞いた男性は、客席で思わずため息を漏らした。"
+      ]
+    },
+    {
+      "id": "verb.refeea.02",
+      "hash": "c19d4c8f98054f5e2ca5715299fc6f4dfb9042f3c6d2911c82c40b52e34c8bb6",
+      "fullSentences": [
+        "母は来客用に、麦茶のボトルを冷蔵庫で冷やした。"
+      ]
+    }
+  ]
+}

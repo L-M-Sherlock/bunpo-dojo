@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refboa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refboa",
+    "familyId": "verb.refboa",
+    "pair": {
+      "id": "verb.refboa",
+      "intransitive": "揃う",
+      "intransitiveReading": "そろう",
+      "transitive": "揃える",
+      "transitiveReading": "そろえる",
+      "meaning": "辨析「揃う／揃える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 15
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbua.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "pair": {
+      "id": "verb.refbua",
+      "intransitive": "向く",
+      "intransitiveReading": "むく",
+      "transitive": "向ける",
+      "transitiveReading": "むける",
+      "meaning": "辨析「向く／向ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 21
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbua.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "pair": {
+      "id": "verb.refbua",
+      "intransitive": "向く",
+      "intransitiveReading": "むく",
+      "transitive": "向ける",
+      "transitiveReading": "むける",
+      "meaning": "辨析「向く／向ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 21
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbua.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "pair": {
+      "id": "verb.refbua",
+      "intransitive": "向く",
+      "intransitiveReading": "むく",
+      "transitive": "向ける",
+      "transitiveReading": "むける",
+      "meaning": "辨析「向く／向ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 21
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbua.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbua",
+    "familyId": "verb.refbua",
+    "pair": {
+      "id": "verb.refbua",
+      "intransitive": "向く",
+      "intransitiveReading": "むく",
+      "transitive": "向ける",
+      "transitiveReading": "むける",
+      "meaning": "辨析「向く／向ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 21
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcca.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcca",
+    "familyId": "verb.refcca",
+    "pair": {
+      "id": "verb.refcca",
+      "intransitive": "砕ける",
+      "intransitiveReading": "くだける",
+      "transitive": "砕く",
+      "transitiveReading": "くだく",
+      "meaning": "辨析「砕ける／砕く」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 3
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "pair": {
+      "id": "verb.refcha",
+      "intransitive": "捩れる",
+      "intransitiveReading": "ねじれる",
+      "transitive": "捩じる",
+      "transitiveReading": "ねじる",
+      "meaning": "辨析「捩れる／捩じる」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "pair": {
+      "id": "verb.refcha",
+      "intransitive": "捩れる",
+      "intransitiveReading": "ねじれる",
+      "transitive": "捩じる",
+      "transitiveReading": "ねじる",
+      "meaning": "辨析「捩れる／捩じる」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "pair": {
+      "id": "verb.refcha",
+      "intransitive": "捩れる",
+      "intransitiveReading": "ねじれる",
+      "transitive": "捩じる",
+      "transitiveReading": "ねじる",
+      "meaning": "辨析「捩れる／捩じる」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcha",
+    "familyId": "verb.refcha",
+    "pair": {
+      "id": "verb.refcha",
+      "intransitive": "捩れる",
+      "intransitiveReading": "ねじれる",
+      "transitive": "捩じる",
+      "transitiveReading": "ねじる",
+      "meaning": "辨析「捩れる／捩じる」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcna.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "pair": {
+      "id": "verb.refcna",
+      "intransitive": "割れる",
+      "intransitiveReading": "われる",
+      "transitive": "割る",
+      "transitiveReading": "わる",
+      "meaning": "辨析「割れる／割る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refcna.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "pair": {
+      "id": "verb.refcna",
+      "intransitive": "割れる",
+      "intransitiveReading": "われる",
+      "transitive": "割る",
+      "transitiveReading": "わる",
+      "meaning": "辨析「割れる／割る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refcna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "pair": {
+      "id": "verb.refcna",
+      "intransitive": "割れる",
+      "intransitiveReading": "われる",
+      "transitive": "割る",
+      "transitiveReading": "わる",
+      "meaning": "辨析「割れる／割る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refraa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refraa",
+    "familyId": "verb.refraa",
+    "pair": {
+      "id": "verb.refraa",
+      "intransitive": "移る",
+      "intransitiveReading": "うつる",
+      "transitive": "移す",
+      "transitiveReading": "うつす",
+      "meaning": "辨析「移る／移す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

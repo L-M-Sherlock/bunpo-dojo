@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_04_5b1",
+  "source": "work/content/article-pairs-20261014/lane-04/expand-05b-2.draft.json",
+  "at": "2026-10-14T02:15:24.460Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refrbb.04",
+      "hash": "730fe5af98afa94a0e21284c9c3b083979ccf9d39f3bb7baba16af07fe143ffd",
+      "fullSentences": [
+        "遠征先で発熱した選手を、監督は診察後に宿舎へ帰した。"
+      ]
+    },
+    {
+      "id": "verb.refria.01",
+      "hash": "0a3dcd1e53d1419e34d44056d3e01aba77bb8fad14d7064e3bb61f61ffccf410",
+      "fullSentences": [
+        "窓から入った風で、展示台の小さな風車がゆっくり回り始めた。"
+      ]
+    },
+    {
+      "id": "verb.refria.02",
+      "hash": "252360abdf22725ab974dca6804b6f2bbef7ac073aea0680df89550f710d69bb",
+      "fullSentences": [
+        "配管の流量を調整するため、技師はバルブを時計回りに少し回した。"
+      ]
+    },
+    {
+      "id": "verb.refria.03",
+      "hash": "32ca5faeb4da14649965c033349a44aac40cbcb800cc9e7a79533d84d69f2dfc",
+      "fullSentences": [
+        "断水の予定を知らせる回覧板が、朝のうちに町内を回った。"
+      ]
+    }
+  ]
+}

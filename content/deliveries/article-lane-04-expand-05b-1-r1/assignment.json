@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refrbb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrbb",
+    "familyId": "verb.refrbb",
+    "pair": {
+      "id": "verb.refrbb",
+      "intransitive": "帰る",
+      "intransitiveReading": "かえる",
+      "transitive": "帰す",
+      "transitiveReading": "かえす",
+      "meaning": "辨析「帰る／帰す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 2
+    },
+    "direction": "intransitive"
+  }
+]

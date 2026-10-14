@@ -1,0 +1,53 @@
+[
+  {
+    "id": "verb.start.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.start.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.start.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.start",
+    "familyId": "verb.start",
+    "pair": {
+      "id": "verb.start",
+      "intransitive": "始まる",
+      "intransitiveReading": "はじまる",
+      "transitive": "始める",
+      "transitiveReading": "はじめる",
+      "meaning": "开始活动",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

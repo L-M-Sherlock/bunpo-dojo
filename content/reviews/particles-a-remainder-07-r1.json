@@ -1,0 +1,49 @@
+{
+  "reviewer": "/root/bunpo_review_particles",
+  "cards": [
+    {
+      "id": "particle.leave.07",
+      "hash": "0c1f9232e389326a3b99be89168c4d9ba520bb0dda0670fb7509b4e9973f493d",
+      "fullSentences": ["少年は横断歩道の前で自転車を降ります。", "少年は横断歩道の前で自転車から降ります。"],
+      "status": "approved",
+      "reason": "少年在人行横道前下自行车，を降ります与から降ります都自然地标示所离开的车辆。",
+      "answerSet": "wo、kara均正确；ni用于自転車に乗る的搭乘关系，不能表示本句下车。",
+      "readings": "少年しょうねん、横断歩道おうだんほどう、前まえ、自転車じてんしゃ、降りますおります正确；句号对应，を候选可注发音お但书面应写を。",
+      "translation": "“少年在人行横道前下了自行车”准确对应两句；推车过街是场景后续，未译为已完成动作。",
+      "options": "wo、kara均标correct并收录；ni不能作下自行车的来源标记，ungrammatical与解释成立。"
+    },
+    {
+      "id": "particle.leave.08",
+      "hash": "5a31d6ed799e15286ac806e7dad77da9112c792148e3e7f64470c37649fab48c",
+      "fullSentences": ["宿泊客はチェックアウト後、旅館から出ます。", "宿泊客はチェックアウト後、旅館を出ます。"],
+      "status": "approved",
+      "reason": "住客退房后离开旅馆，旅館から出ます与旅館を出ます均自然，旅馆是离开起点。",
+      "answerSet": "kara、wo均正确；ni不能在本句标被离开的旅馆。",
+      "readings": "宿泊客しゅくはくきゃく、チェックアウト後チェックアウトご、旅館りょかん、出ますでます对应；片假名和逗号句号一致，を可注发音お。",
+      "translation": "“住客退房后离开旅馆”保留退房后的时间关系及离开动作；行李和车站仅是场景背景。",
+      "options": "kara与wo都标correct且答案集合完整；ni的到达点解释不能替代离开地点，ungrammatical成立。"
+    },
+    {
+      "id": "particle.leave.09",
+      "hash": "2a9e9a96961cce366825e2ecfe2b29d6f6143ef2cf8b2454ae49107bd1746494",
+      "fullSentences": ["部員たちは練習後、校門を出ます。", "部員たちは練習後、校門から出ます。"],
+      "status": "approved",
+      "reason": "社团训练后成员经校门离开学校，校門を出ます与校門から出ます都可表达离校路线的出口。",
+      "answerSet": "wo、kara均正确；ni不能表示从校门出去。",
+      "readings": "部員ぶいん、練習後れんしゅうご、校門こうもん、出ますでます正确；逗号句号对应，を候选可注发音お但输入仍写を。",
+      "translation": "“社团成员训练后从校门离开”准确对应两句，晚间和回家未作为句内事实添加。",
+      "options": "wo、kara均标correct并收录；ni标ungrammatical限于当前离开校门的用法，说明准确。"
+    },
+    {
+      "id": "particle.leave.10",
+      "hash": "9eb0125d7ea8ae79b692607be7e839888cae9b0131ed3258b29686ba663ceab3",
+      "fullSentences": ["閉店時刻になり、最後の客は店から出ます。", "閉店時刻になり、最後の客は店を出ます。"],
+      "status": "approved",
+      "reason": "闭店时最后一位顾客走出商店，店から出ます与店を出ます都自然地表示离店。",
+      "answerSet": "kara、wo均正确；ni不标此处离开的商店。",
+      "readings": "閉店時刻へいてんじこく、最後さいご、客きゃく、店みせ、出ますでます正确；逗号句号相符，を候选可记发音お。",
+      "translation": "“闭店时，最后一位顾客走出商店”准确译出时间、人物及离开方向；结账只在场景中。",
+      "options": "kara和wo均标correct并列入answerIds；ni作为到达点标记不能替代本句离店助词，其ungrammatical解释成立。"
+    }
+  ]
+}

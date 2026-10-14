@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refaha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "pair": {
+      "id": "verb.refaha",
+      "intransitive": "収まる",
+      "intransitiveReading": "おさまる",
+      "transitive": "収める",
+      "transitiveReading": "おさめる",
+      "meaning": "辨析「収まる／収める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  }
+]

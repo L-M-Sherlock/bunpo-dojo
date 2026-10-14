@@ -1,0 +1,78 @@
+[
+  {
+    "id": "verb.refsba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "pair": {
+      "id": "verb.refsba",
+      "intransitive": "驚く",
+      "intransitiveReading": "おどろく",
+      "transitive": "驚かす",
+      "transitiveReading": "おどろかす",
+      "meaning": "辨析「驚く／驚かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 2
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "pair": {
+      "id": "verb.refsha",
+      "intransitive": "飛ぶ",
+      "intransitiveReading": "とぶ",
+      "transitive": "飛ばす",
+      "transitiveReading": "とばす",
+      "meaning": "辨析「飛ぶ／飛ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refsha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "pair": {
+      "id": "verb.refsha",
+      "intransitive": "飛ぶ",
+      "intransitiveReading": "とぶ",
+      "transitive": "飛ばす",
+      "transitiveReading": "とばす",
+      "meaning": "辨析「飛ぶ／飛ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "pair": {
+      "id": "verb.refsha",
+      "intransitive": "飛ぶ",
+      "intransitiveReading": "とぶ",
+      "transitive": "飛ばす",
+      "transitiveReading": "とばす",
+      "meaning": "辨析「飛ぶ／飛ばす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  }
+]

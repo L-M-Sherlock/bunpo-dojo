@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "scope": 250,
+  "active": 250,
+  "approved": 250,
+  "open": 0,
+  "skills": 35,
+  "courses": {
+    "location": 20,
+    "pairs": 120,
+    "movement": 40,
+    "relations": 40,
+    "mixed": 30
+  },
+  "errors": []
+}

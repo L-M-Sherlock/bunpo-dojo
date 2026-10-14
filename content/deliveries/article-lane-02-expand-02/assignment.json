@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaafa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaafa",
+    "familyId": "verb.refaafa",
+    "pair": {
+      "id": "verb.refaafa",
+      "intransitive": "詰まる",
+      "intransitiveReading": "つまる",
+      "transitive": "詰める",
+      "transitiveReading": "つめる",
+      "meaning": "辨析「詰まる／詰める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 32
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaana.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "pair": {
+      "id": "verb.refaana",
+      "intransitive": "曲がる",
+      "intransitiveReading": "まがる",
+      "transitive": "曲げる",
+      "transitiveReading": "まげる",
+      "meaning": "辨析「曲がる／曲げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 40
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaana.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "pair": {
+      "id": "verb.refaana",
+      "intransitive": "曲がる",
+      "intransitiveReading": "まがる",
+      "transitive": "曲げる",
+      "transitiveReading": "まげる",
+      "meaning": "辨析「曲がる／曲げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 40
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaana.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "pair": {
+      "id": "verb.refaana",
+      "intransitive": "曲がる",
+      "intransitiveReading": "まがる",
+      "transitive": "曲げる",
+      "transitiveReading": "まげる",
+      "meaning": "辨析「曲がる／曲げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 40
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaana.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaana",
+    "familyId": "verb.refaana",
+    "pair": {
+      "id": "verb.refaana",
+      "intransitive": "曲がる",
+      "intransitiveReading": "まがる",
+      "transitive": "曲げる",
+      "transitiveReading": "まげる",
+      "meaning": "辨析「曲がる／曲げる」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 40
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbja.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "pair": {
+      "id": "verb.refbja",
+      "intransitive": "従う",
+      "intransitiveReading": "したがう",
+      "transitive": "従える",
+      "transitiveReading": "したがえる",
+      "meaning": "辨析「従う／従える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbja.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "pair": {
+      "id": "verb.refbja",
+      "intransitive": "従う",
+      "intransitiveReading": "したがう",
+      "transitive": "従える",
+      "transitiveReading": "したがえる",
+      "meaning": "辨析「従う／従える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "pair": {
+      "id": "verb.refbja",
+      "intransitive": "従う",
+      "intransitiveReading": "したがう",
+      "transitive": "従える",
+      "transitiveReading": "したがえる",
+      "meaning": "辨析「従う／従える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 10
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbja.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "pair": {
+      "id": "verb.refbja",
+      "intransitive": "従う",
+      "intransitiveReading": "したがう",
+      "transitive": "従える",
+      "transitiveReading": "したがえる",
+      "meaning": "辨析「従う／従える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 10
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbpa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbpa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbpa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "intransitive"
+  }
+]

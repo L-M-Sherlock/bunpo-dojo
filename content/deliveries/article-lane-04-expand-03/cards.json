@@ -1,0 +1,752 @@
+[
+  {
+    "id": "verb.refbra.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "lexicalKey": "縮む/縮める",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "縮める",
+      "reading": "ちぢめる"
+    },
+    "scene": "截稿前，编辑把稿件篇幅缩短了两页",
+    "before": [
+      {
+        "text": "編集者は締め切り前に、原稿を二ページ分縮めた。",
+        "reading": "へんしゅうしゃはしめきりまえに、げんこうをにページぶんちぢめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写事物自身缩短；本句是编辑主动缩短稿件篇幅，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "编辑是主动调整稿件篇幅的一方，原稿を表示被缩短的对象，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "截稿前，编辑把稿件篇幅缩短了两页。",
+    "explanation": "编辑主动缩短原稿两页，原稿是动作直接作用的对象。",
+    "hint": "找出改变稿件篇幅的一方，以及被调整的内容。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbxa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "lexicalKey": "緩む/緩める",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "緩む",
+      "reading": "ゆるむ"
+    },
+    "scene": "徒步时，背包肩带逐渐松动",
+    "before": [
+      {
+        "text": "山道を歩いていると、リュックの肩ベルトが少し緩んだ。",
+        "reading": "やまみちをあるいていると、リュックのかたベルトがすこしゆるんだ。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「肩ベルトが」表示发生松动变化的一方，句子描写肩带变松，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人主动调松某物；本句说的是肩带自身变松，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "走山路时，背包的肩带稍微松开了。",
+    "explanation": "句子描写肩带在行走中变松，没有写出谁主动调松它。",
+    "hint": "留意句子描述的是肩带的状态变化，还是有人主动改变它的松紧。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbxa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "lexicalKey": "緩む/緩める",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "緩める",
+      "reading": "ゆるめる"
+    },
+    "scene": "为了不让狗被项圈勒得难受，主人把项圈放松了一格",
+    "before": [
+      {
+        "text": "犬が苦しくならないように、飼い主は首輪を一段緩めた。",
+        "reading": "いぬがくるしくならないように、かいぬしはくびわをいちだんゆるめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写项圈自己松开；本句写的是主人主动调节项圈，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「飼い主は」是调节者，「首輪を」是调整对象；主人主动放松项圈，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "为了不让狗感到项圈勒得难受，主人把项圈放松了一格。",
+    "explanation": "主人主动把狗的项圈调松一格，项圈是被调整的对象。",
+    "hint": "注意句中谁作出调节，以及哪件物品的松紧发生了改变。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbxa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "lexicalKey": "緩む/緩める",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "緩む",
+      "reading": "ゆるむ"
+    },
+    "scene": "用了多年的橱柜把手逐渐松动",
+    "before": [
+      {
+        "text": "長年使っている戸棚の取っ手が、少しずつ緩んできた。",
+        "reading": "ながねんつかっているとだなのとってが、すこしずつゆるんできた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "句中「取っ手が」是逐渐松动的部分，描写的是把手自身的变化，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人对某物作出调节；本句描写把手随使用逐渐松动，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "用了多年的橱柜把手渐渐松动了。",
+    "explanation": "句子把长期使用的把手作为松动变化的主体来描写。",
+    "hint": "看看句子写的是把手本身的状态，还是某人调节了把手。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbxa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbxa",
+    "familyId": "verb.refbxa",
+    "lexicalKey": "緩む/緩める",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "緩める",
+      "reading": "ゆるめる"
+    },
+    "scene": "拆卸零件前，维修技师稍稍放松机器的传动带",
+    "before": [
+      {
+        "text": "部品を取り外す前に、整備士は機械の駆動ベルトを少し緩めた。",
+        "reading": "ぶひんをとりはずすまえに、せいびしはきかいのくどうベルトをすこしゆるめた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写传动带自行松动；本句由维修技师主动调松传动带，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「整備士は」是施事，「駆動ベルトを」是调整对象；技师主动调松传动带，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "拆卸零件前，维修技师稍稍放松了机器的传动带。",
+    "explanation": "维修技师在拆卸前主动调松传动带，带子是动作的对象。",
+    "hint": "辨别传动带是在自行松动，还是被技师主动调松。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refceb.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "lexicalKey": "解ける/解く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "解ける",
+      "reading": "とける"
+    },
+    "scene": "强浪摇晃缆绳，原本系住船只的绳结松开了",
+    "before": [
+      {
+        "text": "強い波でロープが揺れ、船を岸につないでいた結び目が解けた。",
+        "reading": "つよいなみでロープがゆれ、ふねをきしにつないでいたむすびめがとけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「結び目が」是松开的部分，句子描写绳结自身解开，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人主动解开什么；本句说的是绳结受波浪摇晃而松开，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "强浪摇晃缆绳，原本把船系在岸边的绳结松开了。",
+    "explanation": "句子描写绳结在波浪摇晃中松开，没有写出有人动手解绳。",
+    "hint": "判断绳结是发生了松开的变化，还是有人主动把它解开。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refceb.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "lexicalKey": "解ける/解く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "解く",
+      "reading": "とく"
+    },
+    "scene": "考生在考试结束前解出了最后一道数学题",
+    "before": [
+      {
+        "text": "受験生は試験終了までに、最後の数学の問題を解いた。",
+        "reading": "じゅけんせいはしけんしゅうりょうまでに、さいごのすうがくのもんだいをといた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写问题自行得到解答；本句写的是考生主动解题，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「受験生は」是解题者，「問題を」是解答对象；考生主动解题，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "考生在考试结束前解出了最后一道数学题。",
+    "explanation": "考生主动解答数学题，问题是动作直接作用的对象。",
+    "hint": "留意谁在解题，以及句子中什么内容被解答。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refceb.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "lexicalKey": "解ける/解く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "解ける",
+      "reading": "とける"
+    },
+    "scene": "多次协商后，负责人和居民之间的误会消除了",
+    "before": [
+      {
+        "text": "話し合いを重ねるうち、担当者と住民の間にあった誤解が解けた。",
+        "reading": "はなしあいをかさねるうち、たんとうしゃとじゅうみんのあいだにあったごかいがとけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「誤解が」是消除的一方，句子描写误会在多次交谈中解开，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示某人主动消除某个误会；本句以误会本身为变化主体，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "多次协商后，负责人和居民之间的误会消除了。",
+    "explanation": "句子描述误会在持续交谈中消除，没有把某人作为主动消除误会的施事。",
+    "hint": "看句子关注的是误会本身消散，还是有人主动消除某个误会。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refceb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refceb",
+    "familyId": "verb.refceb",
+    "lexicalKey": "解ける/解く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "解く",
+      "reading": "とく"
+    },
+    "scene": "研究员查阅旧文书时，解开信中留下的简单暗号",
+    "before": [
+      {
+        "text": "図書館で古文書を調べていた研究員は、手紙に残された簡単な暗号を解いた。",
+        "reading": "としょかんでこもんじょをしらべていたけんきゅういんは、てがみにのこされたかんたんなあんごうをといた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写暗号自行解开；本句写的是研究员主动破解暗号，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「研究員は」是解读者，「暗号を」是解读对象；研究员主动破解暗号，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "研究员在图书馆查阅旧文书时，解开了信中留下的简单暗号。",
+    "explanation": "研究员主动解读旧信中的暗号，暗号是解读对象。",
+    "hint": "判断暗号是自行解开，还是由研究员主动解读。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcka.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "lexicalKey": "剥ける/剥く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥ける",
+      "reading": "むける"
+    },
+    "scene": "肩部晒伤几天后，皮肤开始一点点脱皮",
+    "before": [
+      {
+        "text": "日焼けした肩の皮が、数日後に少しずつ剥けてきた。",
+        "reading": "ひやけしたかたのかわが、すうじつごにすこしずつむけてきた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「肩の皮が」表示脱落的一方，句子说皮肤逐渐脱皮，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人主动剥除某物；这里描写晒伤后的皮肤自行脱落，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "肩部晒伤几天后，皮肤开始一点点脱落。",
+    "explanation": "句子描写晒伤后的皮肤逐渐脱落，没有写出谁主动剥它。",
+    "hint": "注意句子写的是皮肤自身脱落，还是某人剥除别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcka.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "lexicalKey": "剥ける/剥く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥く",
+      "reading": "むく"
+    },
+    "scene": "厨师为炖菜备料，用菜刀剥去芋头皮",
+    "before": [
+      {
+        "text": "料理人は煮物の下ごしらえとして、里芋の皮を包丁で剥いた。",
+        "reading": "りょうりにんはにもののしたごしらえとして、さといものかわをほうちょうでむいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写皮层自行脱落；本句是厨师拿刀主动剥除芋头皮，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「料理人は」是施事，「里芋の皮を」是剥除对象；厨师主动剥皮，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "厨师为了准备炖菜，用菜刀剥去了芋头皮。",
+    "explanation": "厨师主动用菜刀剥除芋头皮，皮是动作直接作用的对象。",
+    "hint": "判断芋头皮是自行脱落，还是被厨师主动剥除。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "lexicalKey": "剥ける/剥く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥ける",
+      "reading": "むける"
+    },
+    "scene": "冷水冷却后的水煮蛋，蛋壳很容易就剥下来了",
+    "before": [
+      {
+        "text": "冷水で冷やしたゆで卵は、殻がきれいに剥けた。",
+        "reading": "れいすいでひやしたゆでたまごは、からがきれいにむけた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "correct",
+        "explanation": "「殻が」是脱落的一方，句子说蛋壳很容易剥下来，符合自动词用法。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "他动词表示有人主动剥除蛋壳；本句描写蛋壳容易脱落，角色不符。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "用冷水冷却的水煮蛋，蛋壳很容易就剥下来了。",
+    "explanation": "句子描写蛋壳很容易脱落，没有把某人写成主动剥壳的施事。",
+    "hint": "留意这句话强调蛋壳是否容易脱落，还是有人在主动剥壳。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refcka.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcka",
+    "familyId": "verb.refcka",
+    "lexicalKey": "剥ける/剥く",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "剥く",
+      "reading": "むく"
+    },
+    "scene": "远足休息时，孩子用手剥开了香蕉皮",
+    "before": [
+      {
+        "text": "遠足の休憩中、子どもはバナナの皮を手で剥いた。",
+        "reading": "えんそくのきゅうけいちゅう、こどもはバナナのかわをてでむいた。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "自动词描写香蕉皮自行脱落；本句是孩子主动剥开香蕉皮，角色不符。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "「子どもは」是施事，「バナナの皮を」是剥除对象，符合他动词用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "远足休息时，孩子用手剥开了香蕉皮。",
+    "explanation": "孩子主动把香蕉皮剥开，香蕉皮是动作直接作用的对象。",
+    "hint": "看句子中的孩子是主动剥皮，还是只描写皮脱落的状态。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdca.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "接电话时，锅里的饺子底部烧焦了",
+    "before": [
+      {
+        "text": "フライパンを火にかけたまま電話に出ていたら、餃子の底が",
+        "reading": "フライパンをひにかけたままでんわにでていたら、ぎょうざのそこが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦げてしまった",
+        "reading": "こげてしまった",
+        "verdict": "correct",
+        "explanation": "餃子の底が熱で焦げる変化を表しています。"
+      },
+      {
+        "id": "b",
+        "text": "焦がしてしまった",
+        "reading": "こがしてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「焦がす」は何かを焦げさせる動作です。ここでは餃子の底自体が焦げたため、役割が合いません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接电话时，煎锅还在火上，锅里的饺子底部烧焦了。",
+    "explanation": "句子写的是煎锅仍在加热时饺子的底部烧焦了，饺子是发生变化的一方。",
+    "hint": "餃子の底に起きた変化と、誰かが何かを焦がす動作を区別しましょう。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdca.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "厨师用小火将砂糖熬焦，制成焦糖酱",
+    "before": [
+      {
+        "text": "料理人は、弱火で砂糖を",
+        "reading": "りょうりにんは、よわびでさとうを"
+      }
+    ],
+    "after": [
+      {
+        "text": "カラメルソースを作った。",
+        "reading": "カラメルソースをつくった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦がして",
+        "reading": "こがして",
+        "verdict": "correct",
+        "explanation": "料理人が砂糖を焦がして、カラメルソースを作る動作を表します。"
+      },
+      {
+        "id": "b",
+        "text": "焦げて",
+        "reading": "こげて",
+        "verdict": "ungrammatical",
+        "explanation": "「砂糖を」が直接の対象を示すため、自動詞の「焦げて」は続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "厨师用小火将砂糖熬焦，制成焦糖酱。",
+    "explanation": "厨师主动把砂糖熬焦来制作焦糖酱，砂糖是动作直接作用的对象。",
+    "hint": "留意厨师对砂糖实施的动作，以及砂糖在句中的格助词。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdca.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdca",
+    "familyId": "verb.refdca",
+    "lexicalKey": "焦げる/焦がす",
+    "scene": "高温熨斗长时间熨烫，衬衫袖口烧焦了",
+    "before": [
+      {
+        "text": "高温のアイロンを長く当てたため、シャツの袖口が",
+        "reading": "こうおんのアイロンをながくあてたため、シャツのそでぐちが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "焦げてしまった",
+        "reading": "こげてしまった",
+        "verdict": "correct",
+        "explanation": "袖口そのものが高温で焦げた変化を表しています。"
+      },
+      {
+        "id": "b",
+        "text": "焦がしてしまった",
+        "reading": "こがしてしまった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「焦がす」は何かを焦げさせる動作ですが、ここでは袖口自体が焦げています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "由于高温熨斗长时间熨烫，衬衫袖口烧焦了。",
+    "explanation": "句子把袖口作为高温下发生焦灼变化的一方来描写。",
+    "hint": "区分袖口本身烧焦的变化，与某人用熨斗把别的物品烫焦。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,742 @@
+[
+  {
+    "id": "verb.refaaha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaaha",
+    "familyId": "verb.refaaha",
+    "lexicalKey": "連なる/連ねる",
+    "scene": "震灾复兴捐款人名册上，附近商户的店主们都列有姓名",
+    "before": [
+      {
+        "text": "震災復興の寄付者名簿に、近所の商店主たちが名前を",
+        "reading": "しんさいふっこうのきふしゃめいぼに、きんじょのしょうてんしゅたちがなまえを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "連ねた",
+        "reading": "つらねた",
+        "verdict": "correct",
+        "explanation": "商店主たちが募金の名簿に自分たちの名前を加えています。"
+      },
+      {
+        "id": "b",
+        "text": "連なった",
+        "reading": "つらなった",
+        "verdict": "ungrammatical",
+        "explanation": "「名前を」が列に加える対象なので、自動詞の「連なった」はこの目的語に続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "附近商户的店主们把姓名列在了震灾复兴捐款人名册上。",
+    "explanation": "店主们主动把名字列入名册，名字是排列的对象。",
+    "hint": "留意名册中的名字是自己出现，还是由人列入其中。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaapa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "协调会结束时，执行委员们的提案汇成一份活动企划",
+    "before": [
+      {
+        "text": "打ち合わせの終わりには、実行委員の提案が一つの企画に",
+        "reading": "うちあわせのおわりには、じっこういいんのていあんがひとつのきかくに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏まった",
+        "reading": "まとまった",
+        "verdict": "correct",
+        "explanation": "複数の提案が整理され、一つの企画として形になりました。"
+      },
+      {
+        "id": "b",
+        "text": "纏めた",
+        "reading": "まとめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは何かを一つに整理する側の動作です。提案自体が一つに形づくられた場面とは役割が異なります。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "协调会结束时，执行委员们的提案汇成了一份活动企划。",
+    "explanation": "提案自身从多个想法整合成了一个方案，句子描写结果。",
+    "hint": "确认句子是在说提案形成统一结果，还是有人主动整理别的内容。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaapa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "报税前，父亲把散乱的收据按月份归到一个文件夹里",
+    "before": [
+      {
+        "text": "父は確定申告に備えて、散らばっていた領収書を月ごとに一冊のファイルに",
+        "reading": "ちちはかくていしんこくにそなえて、ちらばっていたりょうしゅうしょをつきごとにいっさつのファイルに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏めた",
+        "reading": "まとめた",
+        "verdict": "correct",
+        "explanation": "父が散らばった領収書を月別に整理して一冊に集めています。"
+      },
+      {
+        "id": "b",
+        "text": "纏まった",
+        "reading": "まとまった",
+        "verdict": "ungrammatical",
+        "explanation": "「領収書を」が整理する対象を示すため、自動詞の「纏まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "父亲为报税做准备，把散落的收据按月份归入了一个文件夹。",
+    "explanation": "父亲主动整理并归档收据，收据是处理对象。",
+    "hint": "找出整理收据的人，以及收据最后放到哪里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaapa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "与房东谈妥租金后，车站前空铺的租赁合同成立",
+    "before": [
+      {
+        "text": "大家との家賃交渉が",
+        "reading": "おおやとのやちんこうしょうが"
+      }
+    ],
+    "after": [
+      {
+        "text": "、駅前の空き店舗を借りる契約が成立した。",
+        "reading": "、えきまえのあきてんぽをかりるけいやくがせいりつした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏まり",
+        "reading": "まとまり",
+        "verdict": "correct",
+        "explanation": "家賃交渉が合意に達し、その結果として店舗の契約が成立しました。"
+      },
+      {
+        "id": "b",
+        "text": "纏め",
+        "reading": "まとめ",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは交渉の内容を別のものとして整理する動作です。ここで述べているのは当事者間の合意成立です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "与房东的租金谈判达成一致，车站前空铺的租赁合同成立了。",
+    "explanation": "交涉本身达成一致，后续租赁合同因此成立。",
+    "hint": "看谈判是被人整理归档，还是双方意见达成一致。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refaapa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaapa",
+    "familyId": "verb.refaapa",
+    "lexicalKey": "纏まる/纏める",
+    "scene": "楼宇管理员把散落的维修记录按年份整理成一本册子",
+    "before": [
+      {
+        "text": "管理人は、散在していた修理記録を年度順に一冊の冊子に",
+        "reading": "かんりにんは、さんざいしていたしゅうりきろくをねんどじゅんにいっさつのさっしに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "纏めた",
+        "reading": "まとめた",
+        "verdict": "correct",
+        "explanation": "入居者が複数の修理記録を年度順に一冊へ整理しています。"
+      },
+      {
+        "id": "b",
+        "text": "纏まった",
+        "reading": "まとまった",
+        "verdict": "ungrammatical",
+        "explanation": "「修理記録を」が直接の対象を示すため、自動詞の「纏まった」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "楼宇管理员把散落各处的维修记录按年度顺序整理成了一本册子。",
+    "explanation": "租客主动将多份记录按年份归并成册。",
+    "hint": "确定谁把资料排好顺序并收入一本册子。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "lexicalKey": "叶う/叶える",
+    "scene": "迁居海边小镇的春天，长年盼望近海生活的梦想实现了",
+    "before": [
+      {
+        "text": "海辺の町へ移住した春、長年の「海のそばで暮らす」という夢が",
+        "reading": "うみべのまちへいじゅうしたはる、ながねんの「うみのそばでくらす」というゆめが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "叶った",
+        "reading": "かなった",
+        "verdict": "correct",
+        "explanation": "長く願っていた生活が現実になったことを表しています。"
+      },
+      {
+        "id": "b",
+        "text": "叶えた",
+        "reading": "かなえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは誰かが願いを実現させる動作です。ここでは夢そのものが実現した結果を述べています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬到海边小镇的那个春天，长久以来想在海边生活的梦想实现了。",
+    "explanation": "梦想本身成为现实，句子描述的是愿望实现后的结果。",
+    "hint": "判断句子中的梦想是在实现别人的愿望，还是它本身成为了现实。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "lexicalKey": "叶う/叶える",
+    "scene": "山间小学通过捐款添置天文望远镜，让孩子们看到土星光环",
+    "before": [
+      {
+        "text": "山間の小学校は寄付で天体望遠鏡を導入し、児童たちの「土星の輪を見たい」という願いを",
+        "reading": "さんかんのしょうがっこうはきふでてんたいぼうえんきょうをどうにゅうし、じどうたちの「どせいのわをみたい」というねがいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "叶えた",
+        "reading": "かなえた",
+        "verdict": "correct",
+        "explanation": "学校が望遠鏡を用意し、児童の願いを現実にしています。"
+      },
+      {
+        "id": "b",
+        "text": "叶った",
+        "reading": "かなった",
+        "verdict": "ungrammatical",
+        "explanation": "「願いを」が実現させる対象を示すため、自動詞の「叶った」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "山间小学通过捐款引进天体望远镜，实现了孩子们想看土星光环的愿望。",
+    "explanation": "学校采取措施，让孩子们的愿望得以实现。",
+    "hint": "看学校是愿望实现的一方，还是主动提供了实现愿望的条件。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "lexicalKey": "叶う/叶える",
+    "scene": "少年棒球队赢得地区预选赛，参加全国大会的目标实现",
+    "before": [
+      {
+        "text": "少年野球チームが地区予選を勝ち抜き、目標だった全国大会への出場が",
+        "reading": "しょうねんやきゅうチームがちくよせんをかちぬき、もくひょうだったぜんこくたいかいへのしゅつじょうが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "叶った",
+        "reading": "かなった",
+        "verdict": "correct",
+        "explanation": "チームが目指していた全国大会への出場が実現しました。"
+      },
+      {
+        "id": "b",
+        "text": "叶えた",
+        "reading": "かなえた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらだと全国大会への出場が別の願いを実現させる側になります。ここでは出場そのものが実現した結果です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "少年棒球队一路赢得地区预选赛，参加全国大会的目标实现了。",
+    "explanation": "球队取得全国大会的参赛资格，目标成为现实。",
+    "hint": "关注获得全国赛资格这一结果本身。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbfa",
+    "familyId": "verb.refbfa",
+    "lexicalKey": "叶う/叶える",
+    "scene": "孙辈在院子里搭起帐篷，实现了祖母想一起露营的心愿",
+    "before": [
+      {
+        "text": "孫たちは庭に小さなテントを張り、祖母の「一緒にキャンプをしたい」という願いを",
+        "reading": "まごたちはにわにちいさなテントをはり、そぼの「いっしょにキャンプをしたい」というねがいを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "叶えた",
+        "reading": "かなえた",
+        "verdict": "correct",
+        "explanation": "孫たちが庭にテントを張り、祖母の希望を実現しました。"
+      },
+      {
+        "id": "b",
+        "text": "叶った",
+        "reading": "かなった",
+        "verdict": "ungrammatical",
+        "explanation": "「願いを」が実現させる対象を示しているため、自動詞の「叶った」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孙辈们在院子里搭起小帐篷，实现了祖母想一起露营的愿望。",
+    "explanation": "孫たちは祖母の願いを受けて、キャンプを一緒にできる場を用意しました。",
+    "hint": "判断谁采取行动让祖母想做的事得以实现。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "lexicalKey": "竦む/竦める",
+    "scene": "候场时被叫到名字，新人演员的双腿僵住了",
+    "before": [
+      {
+        "text": "暗い舞台袖で自分の名前を呼ばれた新人俳優は、足が",
+        "reading": "くらいぶたいそででじぶんのなまえをよばれたしんじんはいゆうは、あしが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "竦んだ",
+        "reading": "すくんだ",
+        "verdict": "correct",
+        "explanation": "緊張で足がこわばり、自分で動かしにくくなった状態です。"
+      },
+      {
+        "id": "b",
+        "text": "竦めた",
+        "reading": "すくめた",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは体の一部を意図的に縮める動作です。名前を呼ばれて足が硬直した場面とは違います。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在昏暗的舞台侧幕后被叫到名字，新人演员的双腿僵住了。",
+    "explanation": "新人演员因上台前的紧张而双腿僵硬，句子描述身体的状态变化。",
+    "hint": "看双腿是因紧张而动不了，还是有人主动把它缩起来。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "lexicalKey": "竦む/竦める",
+    "scene": "冷风吹来时，孩子竖起衣领、耸起肩膀",
+    "before": [
+      {
+        "text": "冷たい風が吹くと、子どもはコートの襟を立て、肩を",
+        "reading": "つめたいかぜがふくと、こどもはコートのえりをたて、かたを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "竦めた",
+        "reading": "すくめた",
+        "verdict": "correct",
+        "explanation": "子どもが寒さに反応して肩を上げ、体を小さくしています。"
+      },
+      {
+        "id": "b",
+        "text": "竦んだ",
+        "reading": "すくんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「肩を」が動作の対象を示しているため、身体が硬直する自動詞の形には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "冷风吹来时，孩子竖起大衣领，耸了耸肩。",
+    "explanation": "孩子主动把肩膀缩起来应对冷风。",
+    "hint": "留意肩膀是动作所针对的部位，还是自行僵硬的一方。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "lexicalKey": "竦む/竦める",
+    "scene": "登山者从山脊附近的岩场俯视谷底，双腿僵住，一步也无法前进",
+    "before": [
+      {
+        "text": "尾根に近い岩場から谷底を見下ろした登山者は、足が",
+        "reading": "おねにちかいいわばからたにぞこをみおろしたとざんしゃは、あしが"
+      }
+    ],
+    "after": [
+      {
+        "text": "一歩も進めなかった。",
+        "reading": "いっぽもすすめなかった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "竦んで",
+        "reading": "すくんで",
+        "verdict": "correct",
+        "explanation": "谷底を見た登山者の足が恐怖でこわばり、進めなくなりました。"
+      },
+      {
+        "id": "b",
+        "text": "竦めて",
+        "reading": "すくめて",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは足を自分で縮める動作です。高所を見て足が硬直したという状態には合いません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "登山者从靠近山脊的岩场俯视谷底，双腿僵住，一步也无法前进。",
+    "explanation": "恐高反应令登山者的腿僵硬，导致他无法继续前进。",
+    "hint": "判断登山者是否主动缩起腿，还是腿因眼前的高度而僵住。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbla.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbla",
+    "familyId": "verb.refbla",
+    "lexicalKey": "竦む/竦める",
+    "scene": "被当众指出失误后，她因难为情而缩起脖子",
+    "before": [
+      {
+        "text": "皆の前で間違いを指摘された彼女は、恥ずかしさから首を",
+        "reading": "みんなのまえでまちがいをしてきされたかのじょは、はずかしさからくびを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "竦めた",
+        "reading": "すくめた",
+        "verdict": "correct",
+        "explanation": "恥ずかしさから彼女が首をすぼめる動作をしています。"
+      },
+      {
+        "id": "b",
+        "text": "竦んだ",
+        "reading": "すくんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「首を」が縮める部位を示しているため、自動詞の「竦んだ」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在众人面前被指出错误后，她因羞愧而缩起了脖子。",
+    "explanation": "她因羞愧主动把脖子缩了起来。",
+    "hint": "辨认她的脖子是动作针对的部位，还是自行僵住的身体部分。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbra.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "lexicalKey": "縮む/縮める",
+    "scene": "羊毛衫袖口因热水洗涤而缩水",
+    "before": [
+      {
+        "text": "高温で洗ったため、ウールのセーターの袖口が",
+        "reading": "こうおんであらったため、ウールのセーターのそでぐちが"
+      }
+    ],
+    "after": [
+      {
+        "text": "手が通らなくなった。",
+        "reading": "てがとおらなくなった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮んで",
+        "reading": "ちぢんで",
+        "verdict": "correct",
+        "explanation": "高温で洗った結果、袖口自体が小さくなり、手首が通らなくなりました。"
+      },
+      {
+        "id": "b",
+        "text": "縮めて",
+        "reading": "ちぢめて",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは誰かが袖口を小さくする動作です。ここでは洗濯後に自然に小さくなった結果を述べています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "羊毛衫用高温洗涤后，袖口缩水，手已经伸不进去了。",
+    "explanation": "洗涤导致袖口本身变小，手无法通过。",
+    "hint": "判断袖口是被人主动改小，还是洗后自身变小。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbra.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "lexicalKey": "縮む/縮める",
+    "scene": "开演前，师傅把戏服的袖子改短三厘米",
+    "before": [
+      {
+        "text": "仕立て直しを頼まれた職人は、舞台衣装の袖を三センチ",
+        "reading": "したてなおしをたのまれたしょくにんは、ぶたいいしょうのそでをさんセンチ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮めた",
+        "reading": "ちぢめた",
+        "verdict": "correct",
+        "explanation": "職人が袖の長さを三センチ短く調整しています。"
+      },
+      {
+        "id": "b",
+        "text": "縮んだ",
+        "reading": "ちぢんだ",
+        "verdict": "ungrammatical",
+        "explanation": "「袖を」が直接の対象を示すため、自動詞の「縮んだ」には続きません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "接到改衣委托后，师傅把戏服的袖子缩短了三厘米。",
+    "explanation": "师傅主动把袖长改短，袖子是被调整的对象。",
+    "hint": "注意谁在修改衣袖，以及衣袖的长度发生了什么变化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refbra.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbra",
+    "familyId": "verb.refbra",
+    "lexicalKey": "縮む/縮める",
+    "scene": "少雨的夏天持续，水库湖面明显缩小，岸边岩石露了出来",
+    "before": [
+      {
+        "text": "雨の少ない夏が続き、ダム湖の湖面が大きく",
+        "reading": "あめのすくないなつがつづき、ダムこのこめんがおおきく"
+      }
+    ],
+    "after": [
+      {
+        "text": "、岸辺の岩が現れた。",
+        "reading": "、きしべのいわがあらわれた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "縮んで",
+        "reading": "ちぢんで",
+        "verdict": "correct",
+        "explanation": "降雨不足が続き、湖面の広がりが小さくなりました。"
+      },
+      {
+        "id": "b",
+        "text": "縮めて",
+        "reading": "ちぢめて",
+        "verdict": "meaning-mismatch",
+        "explanation": "こちらは誰かが何かを小さくする動作です。ここでは湖面が少雨で縮小した変化を描いています。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "少雨的夏季持续，水库湖面明显缩小，岸边的岩石露了出来。",
+    "explanation": "湖面因降雨不足而收缩，岸边岩石因此显露。",
+    "hint": "看湖面的范围是因干旱而变化，还是有人主动缩小它。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

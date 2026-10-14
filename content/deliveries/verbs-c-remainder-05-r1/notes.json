@@ -1,0 +1,18 @@
+[
+  {
+    "id": "verb.boil.01",
+    "fullCorrectSentence": "やかんの湯が沸いた。",
+    "sceneConstraint": "沸腾的是水壶里的水本身；句子没有写烧水的人或被加热的其他对象，适合用自动词「沸く」。",
+    "possibleOtherReadingsAndHandling": "「沸かす」是他动词，但加热对象若能由上下文恢复，也可以省略。「湯が沸かした」可把壶中水解释为使其他液体沸腾的施事；这种读法语法上可成立，但不同于当前场景中水自身烧开的自动词义，因此错项是 meaning-mismatch。",
+    "readingCheck": "「やかん」保留平假名；湯＝ゆ。正确选项沸いた＝わいた，错项沸かした＝わかした；这里的沸く指液体沸腾，不读作同音的「湧く」义。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "verb.boil.03",
+    "fullCorrectSentence": "鍋の湯が沸いたら、うどんを入れてゆでる。",
+    "sceneConstraint": "句子先写锅里的水沸腾，再写放入乌冬面的后续操作；水是状态变化的主体，不是被人加热的宾语。",
+    "possibleOtherReadingsAndHandling": "「沸かす」的加热对象在上下文明确时可以省略；若用「沸かしたら」，「鍋の湯が」可被理解为使另一种液体沸腾的施事。该读法与本场景里锅中水自身先烧开、再下乌冬面的关系不同，因此 b 是 meaning-mismatch，不是绝对不合语法。",
+    "readingCheck": "核对为鍋＝なべ、湯＝ゆ；「沸いたら」读わいたら，入れて读いれて，うどん和ゆでる保留假名。错项沸かしたら＝わかしたら。",
+    "unresolvedQuestions": []
+  }
+]

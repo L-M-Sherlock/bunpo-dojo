@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_repair",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-04b-r2.draft.json",
+  "at": "2026-10-14T01:50:41.257Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.reffaa.01",
+      "hash": "39258d058348abb5b664c232fd2eb003fc7c1f18916b463189760e8eb10a8cad",
+      "fullSentences": [
+        "閉店後、店の自動シャッターがゆっくり閉じた。"
+      ]
+    },
+    {
+      "id": "verb.reffaa.03",
+      "hash": "8f0eb6ab65f67fe2ddc8235cb2fbd52580d5e0af824e49e1f534b721234ea0c0",
+      "fullSentences": [
+        "絵本を読んでもらっているうちに、眠そうな子どものまぶたが少しずつ閉じていった。"
+      ]
+    },
+    {
+      "id": "verb.refhaa.01",
+      "hash": "d0012c2d61724c1dc702b189b96b596304bce6584e00e4267ffed628b7d25f97",
+      "fullSentences": [
+        "給水車の到着が遅れ、避難所で配る飲料水が夜明け前に尽きた。"
+      ]
+    },
+    {
+      "id": "verb.refhaa.03",
+      "hash": "f805b295425f163e4f513036d0dd714745359d5b741e38a5718e85b023848ecb",
+      "fullSentences": [
+        "長距離バスで友人と話し続けたが、目的地に着くころには話題が尽きた。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/bunpo_review_a",
+  "cards": [
+    {
+      "id": "verb.change.02", "hash": "bfee2f92dfb62bacab031165fadb540ce6fed8ef50470e6a0c87b00969e9d30d", "fullSentences": ["編集者が記事の見出しを短く変えました。"], "status": "approved",
+      "reason": "编辑把文章标题改短，施事与「見出しを」对象明确，変える符合 transitive 分配，完整句自然。",
+      "answerSet": "a 唯一正确；b 的自动词変わる不能将「見出しを」接为直接宾语。",
+      "readings": "編集者＝へんしゅうしゃ、記事＝きじ、見出し＝みだし、短く＝みじかく；変えました＝かえました、変わりました＝かわりました。",
+      "translation": "译文只说编辑改短文章标题，与日语句一致；手机预览折行保留为场景背景。",
+      "options": "a correct 准确；b ungrammatical 对当前「見出しを」句架成立，若说标题自身改变须改为「見出しが変わりました」。"
+    },
+    {
+      "id": "verb.change.03", "hash": "4f6709626d8fb3352aed20e7227552eb82d9a9eecc11bbe722763bfbbdc9a239", "fullSentences": ["学園祭の会場が運動場から体育館に変わりました。"], "status": "approved",
+      "reason": "校园祭会场由操场改为体育馆，旧地点から、新地点に均自然，会場が是变化主体，符合 intransitive 分配。",
+      "answerSet": "a 唯一表示会场自身变化；b 会使会场成为改变另一个对象的施事。",
+      "readings": "学園祭＝がくえんさい、会場＝かいじょう、運動場＝うんどうじょう、体育館＝たいいくかん；変わりました＝かわりました、変えました＝かえました。",
+      "translation": "译文准确保留从操场到体育馆的变化，未增写天气原因。",
+      "options": "a correct 准确；b meaning-mismatch 准确，変える可省略已知宾语，但本题会场是变化对象而非施事。"
+    },
+    {
+      "id": "verb.change.04", "hash": "b8c3f9b717b2152e275bbc739d254e4b4a692edc1c97459ed1269a0726b6b9c6", "fullSentences": ["料理長がスープの塩加減を変えました。"], "status": "approved",
+      "reason": "主厨调整汤的咸度，料理長为施事、塩加減を为对象，変える符合 transitive 分配；句子与试喝后调整的场景自然相接。",
+      "answerSet": "a 唯一适合当前句架；b 不能以「塩加減を」为自动词変わる的直接宾语。",
+      "readings": "料理長＝りょうりちょう、塩加減＝しおかげん；スープ保留片假名，変えました＝かえました、変わりました＝かわりました。",
+      "translation": "译文准确传达主厨调整汤的咸度；没有擅称调整后已不咸。",
+      "options": "a correct 准确；b ungrammatical 对固定句段成立，结果句应以「塩加減が変わりました」表达。"
+    },
+    {
+      "id": "verb.change.05", "hash": "36a39da40917f96f6a7a3e6f6a118c0ff7c10ee35001e7186c6134323ee86c7e", "fullSentences": ["カフェのランチメニューが春野菜中心の内容に変わりました。"], "status": "approved",
+      "reason": "咖啡馆午餐菜单变为以春季蔬菜为主的内容，菜单是变化主体，符合 intransitive 分配；搭配自然。",
+      "answerSet": "a 唯一表达菜单内容改变；b 会把菜单当作改变另一对象的施事。",
+      "readings": "カフェ、ランチメニュー保留片假名；春野菜＝はるやさい、中心＝ちゅうしん、内容＝ないよう；変わりました＝かわりました、変えました＝かえました。",
+      "translation": "译文准确保留春季蔬菜为主的内容，未把春菜到货写入直译。",
+      "options": "a correct 准确；b meaning-mismatch 准确，変える省略宾语的其他读法不能表达菜单自身变化。"
+    },
+    {
+      "id": "verb.gather.01", "hash": "ed56ccf6e09741d62ca289807089ede17f6e6863efc07efec467717d48ec1757", "fullSentences": ["記者会見を控え、市役所前に報道陣が集まりました。"], "status": "approved",
+      "reason": "记者会将召开时媒体记者聚到市政府前，地点に和報道陣が自然，集まる符合 intransitive 分配。",
+      "answerSet": "a 唯一表示报道人员自身聚集；b 会把他们当作收集其他对象的施事。",
+      "readings": "記者会見＝きしゃかいけん、控え＝ひかえ、市役所前＝しやくしょまえ、報道陣＝ほうどうじん；集まりました＝あつまりました、集めました＝あつめました，逗号对应。",
+      "translation": "译文准确表达记者会前媒体记者聚集到市政府门前，未擅加具体等候动作。",
+      "options": "a correct 准确；b meaning-mismatch 准确，集める可省略上下文已知对象，但此处報道陣是聚集的人而非召集者。"
+    }
+  ]
+}

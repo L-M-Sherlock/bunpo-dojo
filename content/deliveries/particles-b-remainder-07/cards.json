@@ -1,0 +1,194 @@
+[
+  {
+    "id": "particle.purpose.07",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "日の出を撮りに海辺へ行く",
+    "scene": "摄影师专程去海边拍摄日出。",
+    "before": [
+      {
+        "text": "写真家は夜明けの海辺へ日の出を撮り",
+        "reading": "しゃしんかはよあけのうみべへひのでをとり"
+      }
+    ],
+    "after": [
+      {
+        "text": "行った。",
+        "reading": "いった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「撮り」は「撮る」の連用形で、日出を撮影することが海辺へ行った目的です。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「日の出を撮りを行った」となり、目的を表す形になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "摄影师在黎明时分去海边拍摄日出。",
+    "explanation": "摄影师前往海边的目的是拍摄日出，用「撮り＋に行く」表示。",
+    "hint": "区分海边这个目的地与摄影师去那里要做的拍摄活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.08",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "担任の先生に会いに職員室へ行く",
+    "scene": "转学生去教职员室见班主任。",
+    "before": [
+      {
+        "text": "転校生は担任の先生に会い",
+        "reading": "てんこうせいはたんにんのせんせいにあい"
+      }
+    ],
+    "after": [
+      {
+        "text": "職員室へ行った。",
+        "reading": "しょくいんしつへいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「会い」は「会う」の連用形で、先生に会うことが職員室へ行く目的です。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「先生に会いを職員室へ行った」となり、目的を表せません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "转学生去教职员室见班主任。",
+    "explanation": "见班主任是转学生前往教职员室的目的，用「会い＋に行く」表示。",
+    "hint": "老师是会面的对象，教职员室是目的地；判断会面动作与移动之间的关系。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.09",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "新作の舞台を見に劇場へ行く",
+    "scene": "观众去剧场观看新剧。",
+    "before": [
+      {
+        "text": "観客は新作の舞台を見",
+        "reading": "かんきゃくはしんさくのぶたいをみ"
+      }
+    ],
+    "after": [
+      {
+        "text": "劇場へ行った。",
+        "reading": "げきじょうへいった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「見」は「見る」の連用形で、新作の舞台を鑑賞することが劇場へ行く目的です。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「舞台を見を劇場へ行った」となり、目的の構文になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "观众去剧场观看新剧。",
+    "explanation": "观看新剧是观众前往剧场的目的，用「見＋に行く」连接。",
+    "hint": "剧场是目的地；思考观众去那里要做什么。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.purpose.10",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "lexicalKey": "日本語を習いに教室へ行く",
+    "scene": "留学生每周去社区教室学习日语。",
+    "before": [
+      {
+        "text": "留学生は毎週、地域の教室へ日本語を習い",
+        "reading": "りゅうがくせいはまいしゅう、ちいきのきょうしつへにほんごをならい"
+      }
+    ],
+    "after": [
+      {
+        "text": "行く。",
+        "reading": "いく。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "「習い」は「習う」の連用形で、日本語を学ぶことが教室へ行く目的です。"
+      },
+      {
+        "id": "b",
+        "text": "を",
+        "reading": "を",
+        "verdict": "ungrammatical",
+        "explanation": "「を」に替えると「日本語を習いを行く」となり、目的を表す形になりません。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "留学生每周去社区教室学习日语。",
+    "explanation": "学习日语是留学生每周前往教室的目的，用「習い＋に行く」表示。",
+    "hint": "区分教室这一目的地与留学生去那里要进行的学习活动。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_05_repair",
+  "source": "work/content/article-pairs-20261014/lane-05/expand-06a-r1.draft.json",
+  "at": "2026-10-14T01:59:52.584Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refsga.02",
+      "hash": "fa781471b8eaf2a15feb6d98cfe9137e1505c6bd396ad4f92667b4c67ef1963c",
+      "fullSentences": [
+        "林道を駆け上がったラリーカーは、エンジンの爆音を山あいに轟かして走り去った。"
+      ]
+    },
+    {
+      "id": "verb.refsma.03",
+      "hash": "9e1914b4bc9b4ff113eb258d74d14c15b70a431d9b00d0f19a2941c14ac9b502",
+      "fullSentences": [
+        "駅に近い宿と温泉のある宿のどちらを予約するか、家族は最後まで迷った。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refsfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsfa",
+    "familyId": "verb.refsfa",
+    "lexicalKey": "退く/退かす",
+    "scene": "孩子们准备在教室地板上活动，保育员把中央的矮桌移到墙边",
+    "before": [
+      {
+        "text": "子どもたちが床で遊べるよう、保育士は部屋の中央にあった低い机を壁際へ",
+        "reading": "こどもたちがゆかであそべるよう、ほいくしはへやのちゅうおうにあったひくいつくえをかべぎわへ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "退かした",
+        "reading": "どかした",
+        "verdict": "correct",
+        "explanation": "保育员把矮桌从房间中央移到墙边以腾出地面，桌子是被移动的对象。"
+      },
+      {
+        "id": "b",
+        "text": "退いた",
+        "reading": "どいた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「退く」可用「を」表示离开的地点；此句若选它，会变成保育员离开矮桌旁走向墙边，而不是矮桌被挪走。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为了让孩子们能在地板上玩，保育员把房间中央的矮桌挪到了墙边。",
+    "explanation": "保育员主动移动矮桌来腾出地面，矮桌是动作所作用的对象。",
+    "hint": "判断去到墙边的是保育员本人，还是房间中央的矮桌。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsla.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "lexicalKey": "惑う/惑わす",
+    "scene": "记者追问尚未公布的检测结果，发言人一时不知该如何回应",
+    "before": [
+      {
+        "text": "会見で未公表の検査結果について問われ、広報担当者は何と答えるべきかしばらく",
+        "reading": "かいけんでみこうひょうのけんさけっかについてとわれ、こうほうたんとうしゃはなんとこたえるべきかしばらく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "惑わした",
+        "reading": "まどわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「惑わす」表示使别人的判断混乱；这里写的是发言人自己一时不知如何回答，不是他使提问者困惑。"
+      },
+      {
+        "id": "b",
+        "text": "惑った",
+        "reading": "まどった",
+        "verdict": "correct",
+        "explanation": "发言人本人不知该如何作答，符合「惑う」表示主体陷入困惑、难以判断的用法。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "在记者会上被问及尚未公布的检测结果后，公关负责人一时不知该如何回答。",
+    "explanation": "难以判断如何回答的是公关负责人本人，符合「惑う」的主体状态。",
+    "hint": "留意困惑发生在答话的负责人本人，还是由他使别人陷入困惑。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsla.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "lexicalKey": "惑う/惑わす",
+    "scene": "促销广告把首购折扣标得醒目，却把适用条件缩在角落",
+    "before": [
+      {
+        "text": "初回限定の割引を大きく載せ、適用条件を小さく書いた広告が、買い物客を",
+        "reading": "しょかいげんていのわりびきをおおきくのせ、てきようじょうけんをちいさくかいたこうこくが、かいものきゃくを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "惑わした",
+        "reading": "まどわした",
+        "verdict": "correct",
+        "explanation": "广告把首购折扣突出显示，却把适用条件写得很小，使购物者受到误导。"
+      },
+      {
+        "id": "b",
+        "text": "惑った",
+        "reading": "まどった",
+        "verdict": "ungrammatical",
+        "explanation": "「惑う」描述主体自身陷入困惑，是自动词；「買い物客を」是被广告迷惑的对象，当前格关系不能成立。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "把首购限定折扣醒目刊出、却把适用条件写得很小的广告，误导了购物者。",
+    "explanation": "广告使购物者的判断受到影响，购物者是被迷惑的对象。",
+    "hint": "判断购物者是自己陷入困惑，还是被广告弄得难以判断。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsla.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsla",
+    "familyId": "verb.refsla",
+    "lexicalKey": "惑う/惑わす",
+    "scene": "浓雾遮住岔路标志，独自行山者一时辨不清方向",
+    "before": [
+      {
+        "text": "濃霧で分岐点の道標が見えなくなり、ひとりで登っていた登山者は山中でしばらく",
+        "reading": "のうむでぶんきてんのみちしるべがみえなくなり、ひとりでのぼっていたとざんしゃはさんちゅうでしばらく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "惑わした",
+        "reading": "まどわした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「惑わす」表示使别人失去方向或判断混乱；这里写的是登山者自己在山中不知如何前进，没有被他迷惑的人。"
+      },
+      {
+        "id": "b",
+        "text": "惑った",
+        "reading": "まどった",
+        "verdict": "correct",
+        "explanation": "路标被浓雾遮住后，登山者本人一时不知往哪边走，符合「惑う」的迷失方向义。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "浓雾让岔路口的路标变得看不见，独自行山的登山者在山中一时不知所措。",
+    "explanation": "迷失方向、难以判断下一步的是登山者本人，符合「惑う」的自动词用法。",
+    "hint": "留意失去方向的是登山者本人，还是登山者使别人失去方向。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

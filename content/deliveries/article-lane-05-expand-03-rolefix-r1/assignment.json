@@ -1,0 +1,22 @@
+[
+  {
+    "id": "verb.refcfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcfa",
+    "familyId": "verb.refcfa",
+    "pair": {
+      "id": "verb.refcfa",
+      "intransitive": "取れる",
+      "intransitiveReading": "とれる",
+      "transitive": "取る",
+      "transitiveReading": "とる",
+      "meaning": "辨析「取れる／取る」的角色与对象",
+      "count": 4,
+      "articleGroup": 3,
+      "articleRow": 6
+    },
+    "direction": "transitive",
+    "exerciseType": "verb-role"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "scopeSha256": "a2b7094f05841d32c69a8fe599a78ea051b8aa4f538e77715ff4bdb326a632a4",
+  "requirementsSha256": "62f3cc5f347455cadadd3118cef37e1cdd38b277d58b2abd9b6972c4ae3c64b7",
+  "sourceCommit": "67459b9b500ad660f0225f55d736789616f91025",
+  "scopeCount": 858,
+  "previousBaseline": "content/versions/article-v2/baseline.json",
+  "change": "用户要求文章全部词例；25组160行原含括号双读法，165个精确词对，补147知识点588题，目标858题。原始854范围及部分接入状态另留快照",
+  "referencesSha256": {
+    "content/references/haya-pairs.json": "3c9c954e80a675d59d442afc6e438319f1257a979f46897201058950f8ff251c",
+    "content/references/haya-scope-review.json": "5b3b4bc2bdcedbaa503fb0dfcccd614dcb58f7dd93a25a2db640f6045a85b0ab",
+    "content/references/haya-iru-followup.json": "6205666b0351a12232c7c93d67e10c5a49d9d14d47e6f949a7636a4fc19c0997"
+  },
+  "previousRange": "content/versions/article-v3-range/baseline.json"
+}

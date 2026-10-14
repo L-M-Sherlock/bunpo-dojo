@@ -1,0 +1,44 @@
+{
+  "author": "/root/bunpo_mixed",
+  "source": "work/content/mixed/remainder-01.draft.json",
+  "at": "2026-10-13T12:37:22.811Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "mixed.17",
+      "hash": "fda0e797987727fe2c91658b05c7438fa33dc071808bc1b8cd3a792536c6d1f8",
+      "fullSentences": [
+        "運営委員は参加者の名簿を確認し、午後から広場でフリーマーケットがあります。"
+      ]
+    },
+    {
+      "id": "mixed.18",
+      "hash": "0a431584b7c4e6389ddbefcd530f7a2fa57d2729e5865917973cecb7a4fc7c62",
+      "fullSentences": [
+        "旅行者は駅の売店で切符を買い、午後は実家に帰った。",
+        "旅行者は駅の売店で切符を買い、午後は実家へ帰った。"
+      ]
+    },
+    {
+      "id": "mixed.19",
+      "hash": "39dbed0da7ba735ea801f54bbd1cca89bbc6fbcc4edee67e9665003747a09913",
+      "fullSentences": [
+        "係員は駅の窓口で旅行者の切符を確認し、旅行者は空港バスに乗った。"
+      ]
+    },
+    {
+      "id": "mixed.20",
+      "hash": "ebec4ca3aac5b3d9c48549e3155ade9b1851fee8fbc17b08f77fdfecc4c8298d",
+      "fullSentences": [
+        "舞台係は袖で待機し、出演者は取材陣の質問に答えた後、舞台を出た。"
+      ]
+    },
+    {
+      "id": "mixed.21",
+      "hash": "2ee889531a8d4ecb94657aa88e5d14d4ab8fc7d7d6bdd2eefb80f6d2bcb0ed4d",
+      "fullSentences": [
+        "運転手は無線で本部に連絡し、海沿いのトンネルを通って港へ向かった。"
+      ]
+    }
+  ]
+}

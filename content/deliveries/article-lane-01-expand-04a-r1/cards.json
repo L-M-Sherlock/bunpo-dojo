@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.refeba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "lexicalKey": "grandfather-discerning-antique-eye",
+    "scene": "祖父常逛古董市场，能一眼看出器皿的年代和产地。",
+    "before": [
+      {
+        "text": "祖父は長年骨董市に通い、器を一目見ただけで年代と産地を言い当てるほど目が",
+        "reading": "そふはながねんこっとういちにかよい、うつわをひとめみただけでねんだいとさんちをいいあてるほどめが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "肥えている",
+        "reading": "こえている",
+        "verdict": "correct",
+        "explanation": "祖父は鑑賞経験を重ね、目そのものがよしあしを見分けるほど鍛えられている。"
+      },
+      {
+        "id": "b",
+        "text": "肥やしている",
+        "reading": "こやしている",
+        "verdict": "meaning-mismatch",
+        "explanation": "即使把「目が」理解为施事并省略宾语，「肥やしている」也会读成眼睛使别的对象变得丰厚；这与祖父鉴赏力老练的场景不合。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "祖父常年逛古董市场，鉴赏力高到只看一眼器皿就能说出年代和产地。",
+    "explanation": "「目が肥える」表示鉴赏经验丰富、眼光老练；若用「目が肥やしている」，可把「目が」读作省略宾语的施事，但会变成眼睛使别的对象丰厚，不合此处场景。",
+    "hint": "留意日语中「目が」是鉴赏能力的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

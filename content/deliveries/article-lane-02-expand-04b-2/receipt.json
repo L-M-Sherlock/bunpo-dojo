@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_02_4b2",
+  "source": "work/content/article-pairs-20261014/lane-02/expand-04b-2.draft.json",
+  "at": "2026-10-14T02:23:46.420Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.reffba.04",
+      "hash": "4e261f3c57b77798be8353a4a87a238ca371a95badcc4b39b0e72cd2d40c601e",
+      "fullSentences": [
+        "そば打ち職人は、麺棒でそば粉の生地を均一な厚さに伸ばした。"
+      ]
+    },
+    {
+      "id": "verb.refiaa.01",
+      "hash": "03686d704eebb3964133c0c98ed7d3d74a3cb2d6b8981c2330fd4d6254bfaab0",
+      "fullSentences": [
+        "渇水でダムの水位が下がると、湖底に沈んでいた旧道の石段が現れた。"
+      ]
+    },
+    {
+      "id": "verb.refiaa.02",
+      "hash": "101d6b14b62a0a7a5a9823d734529d0ac78bdd7ef1472b231aca4db5eb09dee5",
+      "fullSentences": [
+        "旅行者を装っていた男は、取り調べの場でついに正体を現した。"
+      ]
+    },
+    {
+      "id": "verb.refiaa.03",
+      "hash": "5ea16f1f2ff12bb4d9af8be1449ea2dd42507a13227cf06afa33c857ba8267a7",
+      "fullSentences": [
+        "徹夜で作業した翌朝、彼の顔には疲れがはっきり現れた。"
+      ]
+    }
+  ]
+}

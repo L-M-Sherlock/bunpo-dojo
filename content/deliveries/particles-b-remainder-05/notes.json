@@ -1,0 +1,72 @@
+[
+  {
+    "id": "particle.means.07",
+    "fullCorrectSentences": [
+      "登山者は地図で山小屋までの道を確かめた。"
+    ],
+    "sceneRationale": "登山者使用地图核对到山小屋的路线；地图是查阅资料，不是目的地。",
+    "otherReadings": "「地図に」と可用于把信息记到地图上；本句是使用地图核实路线，地图承担资料／手段的作用。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "表示用地图查路线的手段／资料", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "可标注记内容的表面／目标，但不是本句的查阅方式", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：登山者（とざんしゃ）、地図（ちず）、山小屋（やまごや）、道（みち）、確かめた（たしかめた）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.08",
+    "fullCorrectSentences": [
+      "離島の住民は、定期船で本土の診療所に向かった。"
+    ],
+    "sceneRationale": "岛上居民乘坐定期船前往本土诊疗所；船是交通方式，诊疗所是目的地。",
+    "otherReadings": "「に」表示到达地点或移动目标；放在「定期船」后会把船读为目标／登乘对象，而句子另有「診療所に」标出目的地。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记往返本土所用的交通工具", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把定期船标为移动目标，而非交通方式", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：離島（りとう）、住民（じゅうみん）、定期船（ていきせん）、本土（ほんど）、診療所（しんりょうじょ）、向かった（むかった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.09",
+    "fullCorrectSentences": [
+      "警備員は無線機で本部に土砂崩れの状況を報告した。"
+    ],
+    "sceneRationale": "巡逻员使用无线电向总部报告滑坡情况；无线电是传送手段，总部是信息接收者。",
+    "otherReadings": "「本部に」已经标出报告对象；若改成「無線機に」，会把无线电设备当作报告接收方，不能表示用无线电传送报告。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标出使用无线电传送报告", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "将无线电设备误作报告的接收方", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：警備員（けいびいん）、無線機（むせんき）、本部（ほんぶ）、土砂崩れ（どしゃくずれ）、状況（じょうきょう）、報告した（ほうこくした）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.means.10",
+    "fullCorrectSentences": [
+      "救援隊はヘリコプターで山奥の集落に向かった。"
+    ],
+    "sceneRationale": "救援队乘坐直升机前往山中村落；村落是目的地，直升机是交通工具。",
+    "otherReadings": "「に」表示到达地点或移动目标；本句目的地由「集落に」承担，直升机则表示交通方式。",
+    "optionAudit": [
+      {"id": "a", "text": "で", "reading": "で", "meaning": "标记前往村落所用的交通工具", "verdict": "correct"},
+      {"id": "b", "text": "に", "reading": "に", "meaning": "把直升机标为移动目标，而非交通工具", "verdict": "meaning-mismatch"}
+    ],
+    "readingCheck": "逐句核读：救援隊（きゅうえんたい）、ヘリコプター、山奥（やまおく）、集落（しゅうらく）、向かった（むかった）。",
+    "unresolvedQuestions": []
+  },
+  {
+    "id": "particle.purpose.01",
+    "fullCorrectSentences": [
+      "姉は図書館へ本を返しに行った。"
+    ],
+    "sceneRationale": "姐姐移动到图书馆，去还书是这次外出的目的；「図書館へ」另行表示目的地。",
+    "otherReadings": "「に」接在动词连用形「返し」后，构成「返しに行く」表示去做某事；若换成「を」，会与前面的「本を」重复，不能组成目标句型。",
+    "optionAudit": [
+      {"id": "a", "text": "に", "reading": "に", "meaning": "接动词连用形，表示去图书馆还书的目的", "verdict": "correct"},
+      {"id": "b", "text": "を", "reading": "を", "meaning": "造成「本を返しを行く」的重复宾语结构", "verdict": "ungrammatical"}
+    ],
+    "readingCheck": "逐句核读：姉（あね）、図書館（としょかん）、本（ほん）、返し（かえし）、行った（いった）。",
+    "unresolvedQuestions": []
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "id": "verb.stop.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.stop",
+    "familyId": "verb.stop",
+    "lexicalKey": "driver-stops-bus-for-child",
+    "scene": "孩子突然跑进路上，司机及时停住巴士。",
+    "before": [
+      {
+        "text": "通学路で子どもが飛び出し、運転士がバスを",
+        "reading": "つうがくろでこどもがとびだし、うんてんしがバスを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "止めました",
+        "reading": "とめました",
+        "verdict": "correct",
+        "explanation": "司机主动让巴士停下，司机是施事，巴士是停止运行的对象。"
+      },
+      {
+        "id": "b",
+        "text": "止まりました",
+        "reading": "とまりました",
+        "verdict": "ungrammatical",
+        "explanation": "止まる表示巴士自身停下，不能在这里接「バスを」作直接宾语；若报告巴士停下，应写「バスが止まりました」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "孩子在通学路上突然冲出来，司机停下了巴士。",
+    "explanation": "句子写出司机采取了让巴士停止的动作。",
+    "hint": "分清巴士自行停下与司机让巴士停下。",
+    "sourceIds": [
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

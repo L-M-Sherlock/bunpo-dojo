@@ -1,0 +1,22 @@
+{
+  "author": "/root/article_author_03",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-02-r1.draft.json",
+  "at": "2026-10-13T18:36:33.647Z",
+  "count": 2,
+  "cards": [
+    {
+      "id": "verb.refbka.03",
+      "hash": "78179776b7cab5684fc721443aedec9511febbc766c75325787015799f3f0d05",
+      "fullSentences": [
+        "撮影スペースを空けるため、観客たちは舞台前から数歩退きました。"
+      ]
+    },
+    {
+      "id": "verb.refbqa.03",
+      "hash": "86adc98808eed6b9b6498e4e7b39fbdff0edef32a3f79f8eaa657728d8bfc84c",
+      "fullSentences": [
+        "検品後、届いた部品の寸法が設計図と違いました。"
+      ]
+    }
+  ]
+}

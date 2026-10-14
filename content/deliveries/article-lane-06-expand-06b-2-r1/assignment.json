@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refwaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "pair": {
+      "id": "verb.refwaa",
+      "intransitive": "無くなる",
+      "intransitiveReading": "なくなる",
+      "transitive": "無くす",
+      "transitiveReading": "なくす",
+      "meaning": "辨析「無くなる／無くす」的角色与对象",
+      "count": 4,
+      "articleGroup": 23,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  }
+]

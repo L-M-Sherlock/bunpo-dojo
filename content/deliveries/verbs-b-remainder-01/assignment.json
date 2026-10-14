@@ -1,0 +1,87 @@
+[
+  {
+    "id": "verb.change.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.change.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.change.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.change.05",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.change",
+    "familyId": "verb.change",
+    "pair": {
+      "id": "verb.change",
+      "intransitive": "変わる",
+      "intransitiveReading": "かわる",
+      "transitive": "変える",
+      "transitiveReading": "かえる",
+      "meaning": "改变安排或内容",
+      "count": 5
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.gather.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.gather",
+    "familyId": "verb.gather",
+    "pair": {
+      "id": "verb.gather",
+      "intransitive": "集まる",
+      "intransitiveReading": "あつまる",
+      "transitive": "集める",
+      "transitiveReading": "あつめる",
+      "meaning": "聚集或收集",
+      "count": 5
+    },
+    "direction": "intransitive"
+  }
+]

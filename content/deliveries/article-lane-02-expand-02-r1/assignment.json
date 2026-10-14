@@ -1,0 +1,81 @@
+[
+  {
+    "id": "verb.refbda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbda",
+    "familyId": "verb.refbda",
+    "pair": {
+      "id": "verb.refbda",
+      "intransitive": "浮かぶ",
+      "intransitiveReading": "うかぶ",
+      "transitive": "浮かべる",
+      "transitiveReading": "うかべる",
+      "meaning": "辨析「浮かぶ／浮かべる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbja.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbja",
+    "familyId": "verb.refbja",
+    "pair": {
+      "id": "verb.refbja",
+      "intransitive": "従う",
+      "intransitiveReading": "したがう",
+      "transitive": "従える",
+      "transitiveReading": "したがえる",
+      "meaning": "辨析「従う／従える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 10
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refbpa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  },
+  {
+    "id": "verb.refbpa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbpa",
+    "familyId": "verb.refbpa",
+    "pair": {
+      "id": "verb.refbpa",
+      "intransitive": "立つ",
+      "intransitiveReading": "たつ",
+      "transitive": "立てる",
+      "transitiveReading": "たてる",
+      "meaning": "辨析「立つ／立てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 16
+    },
+    "direction": "intransitive",
+    "exerciseType": "verb-role"
+  }
+]

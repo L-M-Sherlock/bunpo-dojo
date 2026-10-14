@@ -1,0 +1,82 @@
+[
+  {
+    "id": "mixed.22",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "unit": {
+      "id": "particle.recipient",
+      "courseId": "relations",
+      "title": "接受者和对象的に",
+      "objective": "教えるあげる等接收人に；避免多个同样成立选项漏判",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.23",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.time",
+    "familyId": "particle.time",
+    "unit": {
+      "id": "particle.time",
+      "courseId": "relations",
+      "title": "具体时点的に",
+      "objective": "明确时刻日期に；不把明日昨日必须接に",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.24",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.25",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.purpose",
+    "familyId": "particle.purpose",
+    "unit": {
+      "id": "particle.purpose",
+      "courseId": "relations",
+      "title": "移动目的的に",
+      "objective": "动词连用形+に行く，空只挖助词",
+      "count": 10
+    },
+    "direction": "intransitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  },
+  {
+    "id": "mixed.26",
+    "module": "mixed",
+    "courseId": "mixed",
+    "skillId": "particle.existence",
+    "familyId": "particle.existence",
+    "unit": {
+      "id": "particle.existence",
+      "courseId": "location",
+      "title": "存在地点的に",
+      "objective": "人或物在哪里，に对で和へ",
+      "count": 10
+    },
+    "direction": "transitive",
+    "note": "通过同一句里的施事、对象、地点或目的地练习一个空；保持主skill与题目相符，其他已给定关系不加分。"
+  }
+]

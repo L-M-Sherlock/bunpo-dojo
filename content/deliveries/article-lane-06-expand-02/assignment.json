@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaala.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "pair": {
+      "id": "verb.refaala",
+      "intransitive": "広まる",
+      "intransitiveReading": "ひろまる",
+      "transitive": "広める",
+      "transitiveReading": "ひろめる",
+      "meaning": "辨析「広まる／広める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 38
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaara.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "pair": {
+      "id": "verb.refaara",
+      "intransitive": "弱まる",
+      "intransitiveReading": "よわまる",
+      "transitive": "弱める",
+      "transitiveReading": "よわめる",
+      "meaning": "辨析「弱まる／弱める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 44
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaara.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "pair": {
+      "id": "verb.refaara",
+      "intransitive": "弱まる",
+      "intransitiveReading": "よわまる",
+      "transitive": "弱める",
+      "transitiveReading": "よわめる",
+      "meaning": "辨析「弱まる／弱める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 44
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaara.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "pair": {
+      "id": "verb.refaara",
+      "intransitive": "弱まる",
+      "intransitiveReading": "よわまる",
+      "transitive": "弱める",
+      "transitiveReading": "よわめる",
+      "meaning": "辨析「弱まる／弱める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 44
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaara.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaara",
+    "familyId": "verb.refaara",
+    "pair": {
+      "id": "verb.refaara",
+      "intransitive": "弱まる",
+      "intransitiveReading": "よわまる",
+      "transitive": "弱める",
+      "transitiveReading": "よわめる",
+      "meaning": "辨析「弱まる／弱める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 44
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "pair": {
+      "id": "verb.refbha",
+      "intransitive": "苦しむ",
+      "intransitiveReading": "くるしむ",
+      "transitive": "苦しめる",
+      "transitiveReading": "くるしめる",
+      "meaning": "辨析「苦しむ／苦しめる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "pair": {
+      "id": "verb.refbha",
+      "intransitive": "苦しむ",
+      "intransitiveReading": "くるしむ",
+      "transitive": "苦しめる",
+      "transitiveReading": "くるしめる",
+      "meaning": "辨析「苦しむ／苦しめる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "pair": {
+      "id": "verb.refbha",
+      "intransitive": "苦しむ",
+      "intransitiveReading": "くるしむ",
+      "transitive": "苦しめる",
+      "transitiveReading": "くるしめる",
+      "meaning": "辨析「苦しむ／苦しめる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 8
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbha",
+    "familyId": "verb.refbha",
+    "pair": {
+      "id": "verb.refbha",
+      "intransitive": "苦しむ",
+      "intransitiveReading": "くるしむ",
+      "transitive": "苦しめる",
+      "transitiveReading": "くるしめる",
+      "meaning": "辨析「苦しむ／苦しめる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbna.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "pair": {
+      "id": "verb.refbna",
+      "intransitive": "育つ",
+      "intransitiveReading": "そだつ",
+      "transitive": "育てる",
+      "transitiveReading": "そだてる",
+      "meaning": "辨析「育つ／育てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbna.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "pair": {
+      "id": "verb.refbna",
+      "intransitive": "育つ",
+      "intransitiveReading": "そだつ",
+      "transitive": "育てる",
+      "transitiveReading": "そだてる",
+      "meaning": "辨析「育つ／育てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbna.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "pair": {
+      "id": "verb.refbna",
+      "intransitive": "育つ",
+      "intransitiveReading": "そだつ",
+      "transitive": "育てる",
+      "transitiveReading": "そだてる",
+      "meaning": "辨析「育つ／育てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 14
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbna.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbna",
+    "familyId": "verb.refbna",
+    "pair": {
+      "id": "verb.refbna",
+      "intransitive": "育つ",
+      "intransitiveReading": "そだつ",
+      "transitive": "育てる",
+      "transitiveReading": "そだてる",
+      "meaning": "辨析「育つ／育てる」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 14
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbta.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "pair": {
+      "id": "verb.refbta",
+      "intransitive": "届く",
+      "intransitiveReading": "とどく",
+      "transitive": "届ける",
+      "transitiveReading": "とどける",
+      "meaning": "辨析「届く／届ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 20
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbta.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "pair": {
+      "id": "verb.refbta",
+      "intransitive": "届く",
+      "intransitiveReading": "とどく",
+      "transitive": "届ける",
+      "transitiveReading": "とどける",
+      "meaning": "辨析「届く／届ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 20
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refbta.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbta",
+    "familyId": "verb.refbta",
+    "pair": {
+      "id": "verb.refbta",
+      "intransitive": "届く",
+      "intransitiveReading": "とどく",
+      "transitive": "届ける",
+      "transitiveReading": "とどける",
+      "meaning": "辨析「届く／届ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 20
+    },
+    "direction": "intransitive"
+  }
+]

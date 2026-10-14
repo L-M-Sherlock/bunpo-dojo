@@ -1,0 +1,186 @@
+[
+  {
+    "id": "verb.refsba.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsba",
+    "familyId": "verb.refsba",
+    "lexicalKey": "retired-taiko-player-returns-at-summer-festival",
+    "scene": "夏日祭典尾声，去年引退的本地太鼓手重新登台演奏。",
+    "before": [
+      {
+        "text": "昨年引退した地元の太鼓奏者が、夏祭りの最後に再登場して一曲演奏し、観客を",
+        "reading": "さくねんいんたいしたじもとのたいこそうしゃが、なつまつりのさいごにさいとうじょうしていっきょくえんそうし、かんきゃくを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "驚かせた",
+        "reading": "おどろかせた",
+        "verdict": "correct",
+        "explanation": "太鼓手重新登台演奏，使观众感到意外；「観客を」标出受到影响的人。"
+      },
+      {
+        "id": "b",
+        "text": "驚いた",
+        "reading": "おどろいた",
+        "verdict": "ungrammatical",
+        "explanation": "驚く表示主语自己感到惊讶，不能接本句中表示受影响对象的「観客を」；这里写的是演奏者使观众惊讶。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "去年引退的本地太鼓手在夏日祭典的最后重新登台演奏了一曲，让观众大吃一惊。",
+    "explanation": "太鼓手是引发惊讶的施事，观众是受到影响的人。",
+    "hint": "看「観客を」标出的是感受惊讶的人，还是让别人产生反应的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsha.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "lexicalKey": "tennis-ball-flies-to-back-of-court",
+    "scene": "网球比赛中，被大力打回的球飞到了场地后方。",
+    "before": [
+      {
+        "text": "テニスの試合中、強く打ち返されたボールがコートの後方まで",
+        "reading": "テニスのしあいちゅう、つよくうちかえされたボールがコートのこうほうまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "飛んだ",
+        "reading": "とんだ",
+        "verdict": "correct",
+        "explanation": "球是沿场地飞行的主体；「飛ぶ」描写它自身移动到后方。"
+      },
+      {
+        "id": "b",
+        "text": "飛ばした",
+        "reading": "とばした",
+        "verdict": "meaning-mismatch",
+        "explanation": "飛ばす表示施事让某个对象飞动；本句的「ボールが」是飞行主体，「後方まで」是移动终点，场景没有由球使之移动的另一个对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "网球比赛中，被大力打回的球飞到了场地后方。",
+    "explanation": "被打回的球本身沿场地飞行，符合描述主体自行移动的「飛ぶ」。",
+    "hint": "确认句子是在写球本身的移动，还是在写它使另一个物体移动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsha.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "lexicalKey": "children-fly-folded-paper-planes-across-gym",
+    "scene": "放学后，孩子们在体育馆试飞自己折的纸飞机。",
+    "before": [
+      {
+        "text": "放課後の工作クラブでは、子どもたちが折った紙飛行機を体育館の反対側まで",
+        "reading": "ほうかごのこうさくクラブでは、こどもたちがおったかみひこうきをたいいくかんのはんたいがわまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "飛ばした",
+        "reading": "とばした",
+        "verdict": "correct",
+        "explanation": "孩子们是让纸飞机飞动的施事，「紙飛行機を」标出被放飞的对象，符合「飛ばす」。"
+      },
+      {
+        "id": "b",
+        "text": "飛んだ",
+        "reading": "とんだ",
+        "verdict": "ungrammatical",
+        "explanation": "飛ぶ描写主语自身飞行；本句用「紙飛行機を」标出被孩子们放飞的对象，不能用这个自动词接续。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "放学后的手工社团里，孩子们把自己折的纸飞机放飞到体育馆另一端。",
+    "explanation": "孩子们是施事，纸飞机是被他们放飞的对象，符合他动词「飛ばす」。",
+    "hint": "留意被孩子们的动作影响、沿体育馆移动的对象由哪个助词标出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsha.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsha",
+    "familyId": "verb.refsha",
+    "lexicalKey": "gust-blows-walkers-hat-past-bench",
+    "scene": "湖畔步道上，阵风吹来，行人的帽子飞到了长椅另一侧。",
+    "before": [
+      {
+        "text": "湖畔の遊歩道で突風が吹き、歩いていた人の帽子がベンチの向こうまで",
+        "reading": "こはんのゆうほどうでとっぷうがふき、あるいていたひとのぼうしがベンチのむこうまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "飛んだ",
+        "reading": "とんだ",
+        "verdict": "correct",
+        "explanation": "阵风是原因，帽子是被吹动并自行飞过长椅的主体，符合「飛ぶ」。"
+      },
+      {
+        "id": "b",
+        "text": "飛ばした",
+        "reading": "とばした",
+        "verdict": "meaning-mismatch",
+        "explanation": "飛ばす表示让另一个对象飞动；本句的帽子是飞行主体，句中没有帽子使之移动的其他对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "湖畔步道上刮起一阵突风，行人的帽子飞到了长椅另一侧。",
+    "explanation": "句子描写帽子被风吹动后自身飞过长椅，属于自动词「飛ぶ」的用法。",
+    "hint": "找出沿着路线移动的东西，再判断它是移动主体还是被它推动的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

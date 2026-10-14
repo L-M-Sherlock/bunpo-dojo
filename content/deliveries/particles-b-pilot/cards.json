@@ -1,0 +1,143 @@
+[
+  {
+    "id": "particle.path.01",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "地下通路を通る",
+    "scene": "地面入口封闭后，站务员带乘客经地下通道前往南口。",
+    "before": [
+      {
+        "text": "夜間工事で地上の入口が閉まり、駅員は地下通路",
+        "reading": "やかんこうじでちじょうのいりぐちがしまり、えきいんはちかつうろ"
+      }
+    ],
+    "after": [
+      {
+        "text": "通って客を南口まで案内した。",
+        "reading": "とおってきゃくをみなみぐちまであんないした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「を」标出通る的路径；站务员是经地下通道前往南口。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标活动地点，但「地下通路で通る」不能自然地把地下通路表示为通る的经过路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "夜间施工封闭了地面入口，站务员经地下通道把乘客带到了南口。",
+    "explanation": "地下通路是通往南口时经过的路线，用「を」标出通行路径。",
+    "hint": "判断地下通道是活动发生的地点，还是从入口到南口经过的路线。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.02",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "海を渡る",
+    "scene": "技师从本土横渡海面，前往外海岛屿修理停摆的灯塔。",
+    "before": [
+      {
+        "text": "技師は工具を抱え、本土から沖の島まで海",
+        "reading": "ぎしはこうぐをかかえ、ほんどからおきのしままでうみ"
+      }
+    ],
+    "after": [
+      {
+        "text": "渡った。",
+        "reading": "わたった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "「を」把海标成从本土到外海岛屿横越的路径，符合句中两端之间的移动。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "ungrammatical",
+        "explanation": "「で」可标活动地点，但「海で渡る」不能自然地把海表示为渡る时横越的水域路径。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "技师抱着工具，从本土渡海前往外海的岛屿。",
+    "explanation": "海是从本土到外海岛屿之间横越的路径，用「を」表示渡过的范围。",
+    "hint": "本土与岛屿之间，句子要标出的是横越的水域还是渡越活动发生的地点？",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.path.03",
+    "module": "particles",
+    "courseId": "movement",
+    "skillId": "particle.path",
+    "familyId": "particle.path",
+    "lexicalKey": "渡り廊下を歩く",
+    "scene": "演习规定东楼到西楼的避难路线必须经过连廊。",
+    "before": [
+      {
+        "text": "中央階段が使えない避難訓練で、生徒は東棟から西棟まで渡り廊下",
+        "reading": "ちゅうおうかいだんがつかえないひなんくんれんで、せいとはひがしとうからにしとうまでわたりろうか"
+      }
+    ],
+    "after": [
+      {
+        "text": "歩いた。",
+        "reading": "あるいた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "连廊是从东楼走到西楼所经过的路线，用「を」标出行走路径。"
+      },
+      {
+        "id": "b",
+        "text": "で",
+        "reading": "で",
+        "verdict": "meaning-mismatch",
+        "explanation": "「で」可以把连廊表示为步行活动的地点，但不能单独标出从东楼到西楼的指定路线；本情境问的是路线。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "在无法使用中央楼梯的避难演习中，学生们沿连廊从东楼走到西楼。",
+    "explanation": "连廊连接东西两栋楼，句子把它作为实际走过的路线，用「を」标路径。",
+    "hint": "结合东西楼之间的行进路线，判断助词是在标行走线路还是活动所在地点。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refcna.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refcna",
+    "familyId": "verb.refcna",
+    "lexicalKey": "farmer-splits-firewood",
+    "scene": "为过冬备柴，农户用斧头劈开干燥的圆木。",
+    "exerciseType": "verb-role",
+    "focusVerb": {
+      "text": "割る",
+      "reading": "わる"
+    },
+    "before": [
+      {
+        "text": "農家は冬に備えて、乾いた丸太を斧で割った。",
+        "reading": "のうかはふゆにそなえて、かわいたまるたをおのでわった。"
+      }
+    ],
+    "after": [],
+    "options": [
+      {
+        "id": "a",
+        "text": "自动词",
+        "reading": "じどうし",
+        "verdict": "meaning-mismatch",
+        "explanation": "圆木不是自行裂开；农户用斧头对它施力劈开。"
+      },
+      {
+        "id": "b",
+        "text": "他动词",
+        "reading": "たどうし",
+        "verdict": "correct",
+        "explanation": "农户是施事，圆木是被斧头劈开的直接对象。"
+      }
+    ],
+    "answerIds": [
+      "b"
+    ],
+    "translation": "农户为过冬，用斧头劈开了干燥的圆木。",
+    "explanation": "句子写农户主动劈开圆木以备冬用，圆木是动作对象。",
+    "hint": "看清是谁挥斧，以及圆木在句中的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdfa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "lexicalKey": "spring-sun-melts-pond-ice",
+    "scene": "随着春日阳光增强，池塘薄冰从岸边逐渐融化。",
+    "before": [
+      {
+        "text": "春の日差しが強まると、池の薄い氷が岸から少しずつ",
+        "reading": "はるのひざしがつよまると、いけのうすいこおりがきしからすこしずつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶けていった",
+        "reading": "とけていった",
+        "verdict": "correct",
+        "explanation": "池塘薄冰本身逐渐融化；「氷が」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "溶かしていった",
+        "reading": "とかしていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「溶かす」表示有施事使别的对象融化；这里没有冰层融化的对象，冰本身在融化。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "随着春日阳光增强，池塘的薄冰从岸边一点点融化。",
+    "explanation": "句子描写春日阳光增强时，薄冰自身从岸边开始融化。",
+    "hint": "判断发生融化的是冰本身，还是冰使另一个对象融化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdfa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "lexicalKey": "cook-dissolves-salt-in-soup",
+    "scene": "厨师把盐溶入锅中的汤里。",
+    "before": [
+      {
+        "text": "料理人は鍋のスープに塩を",
+        "reading": "りょうりにんはなべのスープにしおを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶かした",
+        "reading": "とかした",
+        "verdict": "correct",
+        "explanation": "厨师主动把盐溶进汤里；「塩を」是被溶解的对象。"
+      },
+      {
+        "id": "b",
+        "text": "溶けた",
+        "reading": "とけた",
+        "verdict": "ungrammatical",
+        "explanation": "「溶ける」描述盐自身溶解，应以「塩が」作主体，不能接这里的直接宾语「を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "厨师把盐溶进锅里的汤中。",
+    "explanation": "厨师把盐加入汤里使其溶解，盐是作用对象。",
+    "hint": "看盐是自己溶解，还是厨师把它溶进汤里。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdfa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "lexicalKey": "candle-wax-melts-near-wick",
+    "scene": "点燃蜡烛后，灯芯周围的蜡慢慢融化。",
+    "before": [
+      {
+        "text": "ろうそくに火をつけると、芯の周りのろうがゆっくり",
+        "reading": "ろうそくにひをつけると、しんのまわりのろうがゆっくり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶けていった",
+        "reading": "とけていった",
+        "verdict": "correct",
+        "explanation": "灯芯周围的蜡受热后自身融化；「ろうが」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "溶かしていった",
+        "reading": "とかしていった",
+        "verdict": "meaning-mismatch",
+        "explanation": "「溶かす」要表示某物使对象融化；这里蜡自身因烛火而融化。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "点燃蜡烛后，灯芯周围的蜡慢慢融化了。",
+    "explanation": "烛火使周围的蜡逐渐变成液态，蜡自身是变化主体。",
+    "hint": "判断蜡是自身融化，还是有人用蜡去融化别物。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refdfa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refdfa",
+    "familyId": "verb.refdfa",
+    "lexicalKey": "craftsperson-melts-old-silver-ornament",
+    "scene": "工匠把旧银饰放进坩埚里熔化。",
+    "before": [
+      {
+        "text": "職人は古くなった銀の飾りをるつぼに入れて",
+        "reading": "しょくにんはふるくなったぎんのかざりをるつぼにいれて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "溶かした",
+        "reading": "とかした",
+        "verdict": "correct",
+        "explanation": "工匠主动使旧银饰熔化；「飾りを」是被熔化的对象。"
+      },
+      {
+        "id": "b",
+        "text": "溶けた",
+        "reading": "とけた",
+        "verdict": "ungrammatical",
+        "explanation": "「溶ける」表示银饰自身熔化，应以「飾りが」作主体；这里「飾りを」是直接宾语。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "工匠把旧银饰放进坩埚里熔化了。",
+    "explanation": "工匠将银饰放入坩埚并主动熔化，银饰是动作对象。",
+    "hint": "关注银饰是自己熔化，还是工匠使它熔化。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeba.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "lexicalKey": "river-silt-enriches-estuary-field-soil",
+    "scene": "河流沉积的养分让河口农田土壤逐年肥沃。",
+    "before": [
+      {
+        "text": "川が運ぶ泥に養分が多く含まれ、河口近くの畑の土は長年かけて",
+        "reading": "かわがはこぶどろにようぶんがおおくふくまれ、かこうちかくのはたけのつちはながねんかけて"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "肥えてきた",
+        "reading": "こえてきた",
+        "verdict": "correct",
+        "explanation": "畑の土壌自身が養分を蓄えて肥沃になってきた；「土は」が変化主体。"
+      },
+      {
+        "id": "b",
+        "text": "肥やしてきた",
+        "reading": "こやしてきた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「肥やす」なら土壌が何か別の対象を肥沃にする施事になりますが、ここでは土自身が肥えてきた。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "河水带来的泥土富含养分，河口附近农田的土壤多年来逐渐变得肥沃。",
+    "explanation": "含有养分的泥土汇入河口附近，农田土壤自身逐渐变得肥沃。",
+    "hint": "判断发生变化的是土壤本身，还是土壤在使别的对象肥沃。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeba.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "lexicalKey": "rancher-fattens-cattle",
+    "scene": "牧场主用营养丰富的饲料把待出栏的牛养肥。",
+    "before": [
+      {
+        "text": "牧場主は出荷前の牛を栄養価の高い飼料で",
+        "reading": "ぼくじょうぬしはしゅっかまえのうしをえいようかのたかいしりょうで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "肥やした",
+        "reading": "こやした",
+        "verdict": "correct",
+        "explanation": "牧场主以饲料为手段把牛养肥；「牛を」是受影响的对象。"
+      },
+      {
+        "id": "b",
+        "text": "肥えた",
+        "reading": "こえた",
+        "verdict": "ungrammatical",
+        "explanation": "「肥える」表示牛自身变肥，应以「牛が」作变化主体，不能接这里的「牛を」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "牧场主用营养丰富的饲料把待出栏的牛养肥了。",
+    "explanation": "牧场主以营养丰富的饲料使牛长膘，牛是被养肥的对象。",
+    "hint": "看牛是自己变肥，还是牧场主把它养肥。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refeba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeba",
+    "familyId": "verb.refeba",
+    "lexicalKey": "grandfather-discerning-antique-eye",
+    "scene": "祖父常逛古董市场，能一眼看出器皿的年代和产地。",
+    "before": [
+      {
+        "text": "祖父は長年骨董市に通い、器を一目見ただけで年代と産地を言い当てるほど目が",
+        "reading": "そふはながねんこっとういちにかよい、うつわをひとめみただけでねんだいとさんちをいいあてるほどめが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "肥えている",
+        "reading": "こえている",
+        "verdict": "correct",
+        "explanation": "祖父は鑑賞経験を重ね、目そのものがよしあしを見分けるほど鍛えられている。"
+      },
+      {
+        "id": "b",
+        "text": "肥やしている",
+        "reading": "こやしている",
+        "verdict": "ungrammatical",
+        "explanation": "「目を肥やす」なら目を直接の対象にする必要があります；ここでは「目が」が能力の備わった主体です。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "祖父常年逛古董市场，鉴赏力高到只看一眼器皿就能说出年代和产地。",
+    "explanation": "反复接触古董后，祖父形成了敏锐的鉴赏力；「目が肥える」是自动词惯用表达。",
+    "hint": "留意日语中「目が」是鉴赏能力的主体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

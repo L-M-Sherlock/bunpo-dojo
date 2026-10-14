@@ -1,0 +1,49 @@
+[
+  {
+    "id": "particle.recipient.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.recipient",
+    "familyId": "particle.recipient",
+    "lexicalKey": "新人のアルバイトに職員証を渡す",
+    "scene": "闭馆前，司书把员工证交给新来的兼职生。",
+    "before": [
+      {
+        "text": "閉館前、司書は新人のアルバイト",
+        "reading": "へいかんまえ、ししょはしんじんのアルバイト"
+      }
+    ],
+    "after": [
+      {
+        "text": "職員証を渡した。",
+        "reading": "しょくいんしょうをわたした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "に",
+        "reading": "に",
+        "verdict": "correct",
+        "explanation": "兼职生是员工证的接收者，用「に」标出接收人。"
+      },
+      {
+        "id": "b",
+        "text": "と",
+        "reading": "と",
+        "verdict": "meaning-mismatch",
+        "explanation": "「と」会把兼职生读作和司书一起递员工证的人，但场景中兼职生是收证者。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭馆前，司书把员工证交给新来的兼职生。",
+    "explanation": "兼职生是员工证的接收者，用「に」标出接收人。",
+    "hint": "判断兼职生是收到员工证的人，还是和司书一起递交员工证的人。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

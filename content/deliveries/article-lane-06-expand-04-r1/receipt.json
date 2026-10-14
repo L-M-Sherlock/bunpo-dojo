@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_06_repair",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-04-r1.draft.json",
+  "at": "2026-10-14T01:58:00.686Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refddb.04",
+      "hash": "fe0cecb8b8764156cc42f624dbcfd386d843095bec75608fa50fb637a856aae6",
+      "fullSentences": [
+        "友人は、酒に酔った彼を涼しい風に当てて、酔いを醒ました。"
+      ]
+    },
+    {
+      "id": "verb.refega.04",
+      "hash": "6ca84dd166945a298d186d23bd9543ee862b946aecedbbfc13324bed0768bdc5",
+      "fullSentences": [
+        "監督は、決勝戦を前に「最後まで闘志を燃やせ」と選手たちを鼓舞した。"
+      ]
+    },
+    {
+      "id": "verb.refgda.03",
+      "hash": "ddf87dbb1a89821eb33ee5e5e9a9bbc0f256c704abf5ab6e0802a5f24ea7973d",
+      "fullSentences": [
+        "秋祭りの行列は、神社の前をゆっくり過ぎていった。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/remainder-05.draft.json",
+  "at": "2026-10-13T12:17:39.069Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.exit.02",
+      "hash": "82b37042950744b17dd87e9a2ec37e122bf6df4f7fc8ecdb42654451d342df1f",
+      "fullSentences": [
+        "母は引き出しから予備の鍵を出しました。"
+      ]
+    },
+    {
+      "id": "verb.exit.03",
+      "hash": "bd488c5c66e95cf8140e0b6ee78be2f696ac41b2026dd0c90fbbb2673f8df236",
+      "fullSentences": [
+        "始発のバスが定刻に車庫から出ました。"
+      ]
+    },
+    {
+      "id": "verb.exit.04",
+      "hash": "f1045ce3ab77daf21fa0a0d94cf63d6ac31ea1ac66684a9aec1fcc48f9fc0b7d",
+      "fullSentences": [
+        "係員は倉庫から非常用の毛布を出しました。"
+      ]
+    },
+    {
+      "id": "verb.exit.05",
+      "hash": "cb7abb7f8dd7941d185390e13eeaf27aecfa9c1ad918fcff00372e8fa9845143",
+      "fullSentences": [
+        "鍋のふたの隙間から白い湯気が出ました。"
+      ]
+    }
+  ]
+}

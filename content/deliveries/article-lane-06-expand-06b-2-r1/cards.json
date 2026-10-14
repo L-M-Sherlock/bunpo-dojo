@@ -1,0 +1,48 @@
+[
+  {
+    "id": "verb.refwaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refwaa",
+    "familyId": "verb.refwaa",
+    "lexicalKey": "pond-surface-ice-disappears-after-warming",
+    "scene": "气温回升后，池面残留的冰层也完全消失了。",
+    "before": [
+      {
+        "text": "気温が上がった日、池の水面に残っていた氷がすっかり",
+        "reading": "きおんがあがったひ、いけのすいめんにのこっていたこおりがすっかり"
+      }
+    ],
+    "after": [
+      {
+        "text": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "なくなった",
+        "reading": "なくなった",
+        "verdict": "correct",
+        "explanation": "池面残留的冰是发生消失变化的主体，句子以「氷が」标出这个主体。"
+      },
+      {
+        "id": "b",
+        "text": "なくした",
+        "reading": "なくした",
+        "verdict": "meaning-mismatch",
+        "explanation": "「なくす」并非绝对不成立：在合适语境里可把「氷」理解为非人施事，并省略受事（「氷が何かをなくした」），表示冰使某物消失；但这里说的是残冰自身融尽，不是冰使别的东西消失。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "气温回升那天，池塘水面残留的冰完全消失了。",
+    "explanation": "句子描述池面残冰自身消失，冰是变化的主体。",
+    "hint": "结合气温回升和池面残冰的场景，判断「氷が」是自身消失的主体，还是非人施事并省略了另一受事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

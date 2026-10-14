@@ -1,0 +1,282 @@
+[
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.02",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "leave-meeting-room-after-session",
+    "scene": "会议结束后，职员收拾文件离开会议室并锁门。",
+    "before": [
+      {
+        "text": "会議が終わり、職員は会議室",
+        "reading": "かいぎがおわり、しょくいんはかいぎしつ"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を标出职员离开的会议室，是出る表示离开地点的用法。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から也能标明职员从会议室离开，表示起点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "本句要说从会议室出去；に通常标到达地点，不能在这里标被离开的房间。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "会议结束后，职员离开会议室。",
+    "explanation": "表示离开处所时，会議室后可用を或から。",
+    "hint": "分清会议室是离开的起点还是移动到达的地点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.03",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "passengers-get-off-plane-after-landing",
+    "scene": "飞机落地并停稳后，乘客依次走下飞机。",
+    "before": [
+      {
+        "text": "乗客は着陸後、飛行機",
+        "reading": "じょうきゃくはちゃくりくご、ひこうき"
+      }
+    ],
+    "after": [
+      {
+        "text": "降ります。",
+        "reading": "おります。"
+      }
+    ],
+    "options": [
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から表示乘客从飞机下来，以飞机为离开的起点。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を也可以标出降りる所离开的交通工具飞行机。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に不能在这里标下飞机的来源；飛行機に乗る表示搭上飞机，方向与本句相反。"
+      }
+    ],
+    "answerIds": [
+      "kara",
+      "wo"
+    ],
+    "translation": "乘客在飞机落地后下飞机。",
+    "explanation": "降りる表示离开飞机时，飛行機后可接を或から。",
+    "hint": "判断飞机是乘客离开的交通工具，还是要搭上的对象。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.04",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "student-leaves-home-in-morning",
+    "scene": "早课开始前，大学生一早离家去赶公交。",
+    "before": [
+      {
+        "text": "大学生は朝、自宅",
+        "reading": "だいがくせいはあさ、じたく"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を标出大学生离开的家，自宅是出る的起点处所。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から也可以表示离家这一移动的起点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "自宅在此是离开处所，不是到达地点；要说回家会用自宅に帰る。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "大学生早晨离开家。",
+    "explanation": "出る离开家时，を和から都能标出家这一出发处所。",
+    "hint": "确认自宅在句子里是离开的起点，还是返回的终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.05",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "children-leave-pool-after-lesson",
+    "scene": "游泳课结束，孩子们离开泳池去更衣室冲洗。",
+    "before": [
+      {
+        "text": "子どもたちは水泳教室の後、プール",
+        "reading": "こどもたちはすいえいきょうしつのあと、プール"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を指出孩子们离开的泳池，标记出る的起点处所。"
+      },
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から同样可标明孩子们从泳池出来的起点。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に表示到达点时与出る离开泳池的意思不合；本句泳池是离开的地点。"
+      }
+    ],
+    "answerIds": [
+      "wo",
+      "kara"
+    ],
+    "translation": "游泳课后，孩子们离开泳池。",
+    "explanation": "表示从泳池出来时，可用を或から标记离开处所。",
+    "hint": "判断泳池在句中是孩子们离开的地方还是要前往的地方。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  },
+  {
+    "module": "particles",
+    "courseId": "movement",
+    "review": "draft",
+    "id": "particle.leave.06",
+    "skillId": "particle.leave",
+    "familyId": "particle.leave",
+    "lexicalKey": "audience-leaves-cinema-after-screening",
+    "scene": "电影放映结束，观众从影厅走出，准备去车站。",
+    "before": [
+      {
+        "text": "上映が終わると、観客は映画館",
+        "reading": "じょうえいがおわると、かんきゃくはえいがかん"
+      }
+    ],
+    "after": [
+      {
+        "text": "出ます。",
+        "reading": "でます。"
+      }
+    ],
+    "options": [
+      {
+        "id": "kara",
+        "text": "から",
+        "reading": "から",
+        "verdict": "correct",
+        "explanation": "から将电影院标为观众走出的起点。"
+      },
+      {
+        "id": "wo",
+        "text": "を",
+        "reading": "を",
+        "verdict": "correct",
+        "explanation": "を也能标出观众离开的电影院，符合出る的离开处所用法。"
+      },
+      {
+        "id": "ni",
+        "text": "に",
+        "reading": "に",
+        "verdict": "ungrammatical",
+        "explanation": "に会标到达地点或出席对象；此处的映画館是观众离开的地方。"
+      }
+    ],
+    "answerIds": [
+      "kara",
+      "wo"
+    ],
+    "translation": "放映结束后，观众离开电影院。",
+    "explanation": "电影馆是出る的离开地点，用を或から表示都成立。",
+    "hint": "不要把观众离开的地点误认为他们移动的终点。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ]
+  }
+]

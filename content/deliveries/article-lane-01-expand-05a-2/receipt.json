@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_01_5a2",
+  "source": "work/content/article-pairs-20261014/lane-01/expand-05a-2.draft.json",
+  "at": "2026-10-14T01:59:28.990Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refiga.04",
+      "hash": "2b4f3c6bc4d2d13107ba0f96ec2231708ee32eb227ee640ad2ca6c1210ff23eb",
+      "fullSentences": [
+        "子どもは、飲み終えた空き缶を資源ごみの袋に入れる前に、足で潰した。"
+      ]
+    },
+    {
+      "id": "verb.refjba.01",
+      "hash": "070c981e7713ae78b5b8935702942dae446e8ec767acfec27556b7e01497a555",
+      "fullSentences": [
+        "雨音が急に強まると、彼女は庭の様子を確かめようと窓辺に寄った。"
+      ]
+    },
+    {
+      "id": "verb.refjba.02",
+      "hash": "f84087e54715ead8aca5dcb32382347c9768a460d83a5bbcef9e1e6ad76dc256",
+      "fullSentences": [
+        "通路を広く保つため、係員は自転車を壁際に寄せた。"
+      ]
+    },
+    {
+      "id": "verb.refjba.03",
+      "hash": "35e8dea524101df4fd760e12c6c9be6b059a9fff47e238cec47c7954361bd16e",
+      "fullSentences": [
+        "強い横風に押され、無人の小舟が桟橋のすぐそばまで寄った。"
+      ]
+    }
+  ]
+}

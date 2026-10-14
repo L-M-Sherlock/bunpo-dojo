@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refsga.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsga",
+    "familyId": "verb.refsga",
+    "pair": {
+      "id": "verb.refsga",
+      "intransitive": "轟く",
+      "intransitiveReading": "とどろく",
+      "transitive": "轟かす",
+      "transitiveReading": "とどろかす",
+      "meaning": "辨析「轟く／轟かす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refsma.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsma",
+    "familyId": "verb.refsma",
+    "pair": {
+      "id": "verb.refsma",
+      "intransitive": "迷う",
+      "intransitiveReading": "まよう",
+      "transitive": "迷わす",
+      "transitiveReading": "まよわす",
+      "meaning": "辨析「迷う／迷わす」的角色与对象",
+      "count": 4,
+      "articleGroup": 19,
+      "articleRow": 13
+    },
+    "direction": "intransitive"
+  }
+]

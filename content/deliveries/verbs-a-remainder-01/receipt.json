@@ -1,0 +1,43 @@
+{
+  "author": "/root/bunpo_verbs_a",
+  "source": "work/content/verbs-a/remainder-01.draft.json",
+  "at": "2026-10-13T12:17:38.618Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.off.02",
+      "hash": "86bd46b9606c37649b0f895152cbd0c880e82de522465dd3499e972e21e45aa5",
+      "fullSentences": [
+        "父は寝る前に居間の電気を消しました。"
+      ]
+    },
+    {
+      "id": "verb.off.03",
+      "hash": "f2c1a89d8d4556940a74bfcf11e6b8d2eabd32364425230c9f5f4f237e3a07c0",
+      "fullSentences": [
+        "電球が切れて、路地の街灯は消えました。"
+      ]
+    },
+    {
+      "id": "verb.off.04",
+      "hash": "b9fefab8a057778404f3457eb2375a02e0bbaa14ac89f741c8dd0c8b75ed4b52",
+      "fullSentences": [
+        "清掃員は客室の掃除を終えて、照明を消しました。"
+      ]
+    },
+    {
+      "id": "verb.off.05",
+      "hash": "a986e28bf815914a616c78e912d68ecea963b56acf250d36c78bd67d9fc570c7",
+      "fullSentences": [
+        "夜風が吹いて、テラスのランタンの火は消えました。"
+      ]
+    },
+    {
+      "id": "verb.break.01",
+      "hash": "5f95f1640d2d09e1cc47fba2394f8013dc05ac78a1d3adf9277abe30268a6795",
+      "fullSentences": [
+        "本を詰めすぎて、古い段ボール箱が壊れました。"
+      ]
+    }
+  ]
+}

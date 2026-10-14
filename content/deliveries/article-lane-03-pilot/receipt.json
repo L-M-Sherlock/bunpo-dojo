@@ -1,0 +1,29 @@
+{
+  "author": "/root/article_author_03",
+  "source": "work/content/article-pairs-20261014/lane-03/pilot.draft.json",
+  "at": "2026-10-13T17:10:31.600Z",
+  "count": 3,
+  "cards": [
+    {
+      "id": "verb.refaea.01",
+      "hash": "67cb2c8cbb6abaff1ec4d09049ba416212be1e86c44cbef8de0892da8a4d828f",
+      "fullSentences": [
+        "合格発表の日、佐藤さんは県立高校の入学試験に受かりました。"
+      ]
+    },
+    {
+      "id": "verb.refaea.02",
+      "hash": "97ebad574702bd8ea780506435131abff5db6e317ebfda0b6be8fa1ab2d03db3",
+      "fullSentences": [
+        "姉は来月、介護福祉士国家試験を受けます。"
+      ]
+    },
+    {
+      "id": "verb.refaea.03",
+      "hash": "20a4037dd3add38893707324a853e69369ac2cd36635ddd2b6c027bf3cd757f4",
+      "fullSentences": [
+        "結果通知が届き、松本さんは志望する会社の最終面接に受かりました。"
+      ]
+    }
+  ]
+}

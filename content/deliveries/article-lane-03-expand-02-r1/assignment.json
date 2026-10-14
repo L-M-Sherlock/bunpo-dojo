@@ -1,0 +1,40 @@
+[
+  {
+    "id": "verb.refbka.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbka",
+    "familyId": "verb.refbka",
+    "pair": {
+      "id": "verb.refbka",
+      "intransitive": "退く",
+      "intransitiveReading": "しりぞく",
+      "transitive": "退ける",
+      "transitiveReading": "しりぞける",
+      "meaning": "辨析「退く／退ける」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 11
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refbqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refbqa",
+    "familyId": "verb.refbqa",
+    "pair": {
+      "id": "verb.refbqa",
+      "intransitive": "違う",
+      "intransitiveReading": "ちがう",
+      "transitive": "違える",
+      "transitiveReading": "ちがえる",
+      "meaning": "辨析「違う／違える」的角色与对象",
+      "count": 4,
+      "articleGroup": 2,
+      "articleRow": 17
+    },
+    "direction": "intransitive"
+  }
+]

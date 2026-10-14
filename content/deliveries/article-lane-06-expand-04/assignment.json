@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refddb.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refddb",
+    "familyId": "verb.refddb",
+    "pair": {
+      "id": "verb.refddb",
+      "intransitive": "醒める",
+      "intransitiveReading": "さめる",
+      "transitive": "醒ます",
+      "transitiveReading": "さます",
+      "meaning": "辨析「醒める／醒ます」的角色与对象",
+      "count": 4,
+      "articleGroup": 4,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "pair": {
+      "id": "verb.refeaa",
+      "intransitive": "癒える",
+      "intransitiveReading": "いえる",
+      "transitive": "癒す",
+      "transitiveReading": "いやす",
+      "meaning": "辨析「癒える／癒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "pair": {
+      "id": "verb.refeaa",
+      "intransitive": "癒える",
+      "intransitiveReading": "いえる",
+      "transitive": "癒す",
+      "transitiveReading": "いやす",
+      "meaning": "辨析「癒える／癒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refeaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "pair": {
+      "id": "verb.refeaa",
+      "intransitive": "癒える",
+      "intransitiveReading": "いえる",
+      "transitive": "癒す",
+      "transitiveReading": "いやす",
+      "meaning": "辨析「癒える／癒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 1
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refeaa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeaa",
+    "familyId": "verb.refeaa",
+    "pair": {
+      "id": "verb.refeaa",
+      "intransitive": "癒える",
+      "intransitiveReading": "いえる",
+      "transitive": "癒す",
+      "transitiveReading": "いやす",
+      "meaning": "辨析「癒える／癒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refega.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "pair": {
+      "id": "verb.refega",
+      "intransitive": "燃える",
+      "intransitiveReading": "もえる",
+      "transitive": "燃やす",
+      "transitiveReading": "もやす",
+      "meaning": "辨析「燃える／燃やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refega.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "pair": {
+      "id": "verb.refega",
+      "intransitive": "燃える",
+      "intransitiveReading": "もえる",
+      "transitive": "燃やす",
+      "transitiveReading": "もやす",
+      "meaning": "辨析「燃える／燃やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refega.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "pair": {
+      "id": "verb.refega",
+      "intransitive": "燃える",
+      "intransitiveReading": "もえる",
+      "transitive": "燃やす",
+      "transitiveReading": "もやす",
+      "meaning": "辨析「燃える／燃やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 7
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refega.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refega",
+    "familyId": "verb.refega",
+    "pair": {
+      "id": "verb.refega",
+      "intransitive": "燃える",
+      "intransitiveReading": "もえる",
+      "transitive": "燃やす",
+      "transitiveReading": "もやす",
+      "meaning": "辨析「燃える／燃やす」的角色与对象",
+      "count": 4,
+      "articleGroup": 5,
+      "articleRow": 7
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgda.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "pair": {
+      "id": "verb.refgda",
+      "intransitive": "過ぎる",
+      "intransitiveReading": "すぎる",
+      "transitive": "過ごす",
+      "transitiveReading": "すごす",
+      "meaning": "辨析「過ぎる／過ごす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refgda.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "pair": {
+      "id": "verb.refgda",
+      "intransitive": "過ぎる",
+      "intransitiveReading": "すぎる",
+      "transitive": "過ごす",
+      "transitiveReading": "すごす",
+      "meaning": "辨析「過ぎる／過ごす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refgda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "pair": {
+      "id": "verb.refgda",
+      "intransitive": "過ぎる",
+      "intransitiveReading": "すぎる",
+      "transitive": "過ごす",
+      "transitiveReading": "すごす",
+      "meaning": "辨析「過ぎる／過ごす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 4
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refgda.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refgda",
+    "familyId": "verb.refgda",
+    "pair": {
+      "id": "verb.refgda",
+      "intransitive": "過ぎる",
+      "intransitiveReading": "すぎる",
+      "transitive": "過ごす",
+      "transitiveReading": "すごす",
+      "meaning": "辨析「過ぎる／過ごす」的角色与对象",
+      "count": 4,
+      "articleGroup": 7,
+      "articleRow": 4
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refifa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "pair": {
+      "id": "verb.refifa",
+      "intransitive": "倒れる",
+      "intransitiveReading": "たおれる",
+      "transitive": "倒す",
+      "transitiveReading": "たおす",
+      "meaning": "辨析「倒れる／倒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refifa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "pair": {
+      "id": "verb.refifa",
+      "intransitive": "倒れる",
+      "intransitiveReading": "たおれる",
+      "transitive": "倒す",
+      "transitiveReading": "たおす",
+      "meaning": "辨析「倒れる／倒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refifa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refifa",
+    "familyId": "verb.refifa",
+    "pair": {
+      "id": "verb.refifa",
+      "intransitive": "倒れる",
+      "intransitiveReading": "たおれる",
+      "transitive": "倒す",
+      "transitiveReading": "たおす",
+      "meaning": "辨析「倒れる／倒す」的角色与对象",
+      "count": 4,
+      "articleGroup": 9,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "id": "verb.refaha.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaha",
+    "familyId": "verb.refaha",
+    "pair": {
+      "id": "verb.refaha",
+      "intransitive": "収まる",
+      "intransitiveReading": "おさまる",
+      "transitive": "収める",
+      "transitiveReading": "おさめる",
+      "meaning": "辨析「収まる／収める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 8
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaqa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "pair": {
+      "id": "verb.refaqa",
+      "intransitive": "極まる",
+      "intransitiveReading": "きわまる",
+      "transitive": "極める",
+      "transitiveReading": "きわめる",
+      "meaning": "辨析「極まる／極める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 17
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaqa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "pair": {
+      "id": "verb.refaqa",
+      "intransitive": "極まる",
+      "intransitiveReading": "きわまる",
+      "transitive": "極める",
+      "transitiveReading": "きわめる",
+      "meaning": "辨析「極まる／極める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 17
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaqa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "pair": {
+      "id": "verb.refaqa",
+      "intransitive": "極まる",
+      "intransitiveReading": "きわまる",
+      "transitive": "極める",
+      "transitiveReading": "きわめる",
+      "meaning": "辨析「極まる／極める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 17
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaqa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaqa",
+    "familyId": "verb.refaqa",
+    "pair": {
+      "id": "verb.refaqa",
+      "intransitive": "極まる",
+      "intransitiveReading": "きわまる",
+      "transitive": "極める",
+      "transitiveReading": "きわめる",
+      "meaning": "辨析「極まる／極める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 17
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaxa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "pair": {
+      "id": "verb.refaxa",
+      "intransitive": "据わる",
+      "intransitiveReading": "すわる",
+      "transitive": "据える",
+      "transitiveReading": "すえる",
+      "meaning": "辨析「据わる／据える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 24
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaxa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "pair": {
+      "id": "verb.refaxa",
+      "intransitive": "据わる",
+      "intransitiveReading": "すわる",
+      "transitive": "据える",
+      "transitiveReading": "すえる",
+      "meaning": "辨析「据わる／据える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 24
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaxa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "pair": {
+      "id": "verb.refaxa",
+      "intransitive": "据わる",
+      "intransitiveReading": "すわる",
+      "transitive": "据える",
+      "transitiveReading": "すえる",
+      "meaning": "辨析「据わる／据える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 24
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaxa.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaxa",
+    "familyId": "verb.refaxa",
+    "pair": {
+      "id": "verb.refaxa",
+      "intransitive": "据わる",
+      "intransitiveReading": "すわる",
+      "transitive": "据える",
+      "transitiveReading": "すえる",
+      "meaning": "辨析「据わる／据える」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 24
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaada.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "pair": {
+      "id": "verb.refaada",
+      "intransitive": "縮まる",
+      "intransitiveReading": "ちぢまる",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮まる／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 30
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaada.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "pair": {
+      "id": "verb.refaada",
+      "intransitive": "縮まる",
+      "intransitiveReading": "ちぢまる",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮まる／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 30
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaada.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "pair": {
+      "id": "verb.refaada",
+      "intransitive": "縮まる",
+      "intransitiveReading": "ちぢまる",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮まる／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 30
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaada.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaada",
+    "familyId": "verb.refaada",
+    "pair": {
+      "id": "verb.refaada",
+      "intransitive": "縮まる",
+      "intransitiveReading": "ちぢまる",
+      "transitive": "縮める",
+      "transitiveReading": "ちぢめる",
+      "meaning": "辨析「縮まる／縮める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 30
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaala.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "pair": {
+      "id": "verb.refaala",
+      "intransitive": "広まる",
+      "intransitiveReading": "ひろまる",
+      "transitive": "広める",
+      "transitiveReading": "ひろめる",
+      "meaning": "辨析「広まる／広める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 38
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refaala.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "pair": {
+      "id": "verb.refaala",
+      "intransitive": "広まる",
+      "intransitiveReading": "ひろまる",
+      "transitive": "広める",
+      "transitiveReading": "ひろめる",
+      "meaning": "辨析「広まる／広める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 38
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refaala.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refaala",
+    "familyId": "verb.refaala",
+    "pair": {
+      "id": "verb.refaala",
+      "intransitive": "広まる",
+      "intransitiveReading": "ひろまる",
+      "transitive": "広める",
+      "transitiveReading": "ひろめる",
+      "meaning": "辨析「広まる／広める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 38
+    },
+    "direction": "intransitive"
+  }
+]

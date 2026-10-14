@@ -1,0 +1,59 @@
+[
+  {
+    "id": "verb.refafa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "pair": {
+      "id": "verb.refafa",
+      "intransitive": "埋まる",
+      "intransitiveReading": "うまる",
+      "transitive": "埋める",
+      "transitiveReading": "うめる",
+      "meaning": "辨析「埋まる／埋める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  },
+  {
+    "id": "verb.refafa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "pair": {
+      "id": "verb.refafa",
+      "intransitive": "埋まる",
+      "intransitiveReading": "うまる",
+      "transitive": "埋める",
+      "transitiveReading": "うめる",
+      "meaning": "辨析「埋まる／埋める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 6
+    },
+    "direction": "transitive"
+  },
+  {
+    "id": "verb.refafa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refafa",
+    "familyId": "verb.refafa",
+    "pair": {
+      "id": "verb.refafa",
+      "intransitive": "埋まる",
+      "intransitiveReading": "うまる",
+      "transitive": "埋める",
+      "transitiveReading": "うめる",
+      "meaning": "辨析「埋まる／埋める」的角色与对象",
+      "count": 4,
+      "articleGroup": 1,
+      "articleRow": 6
+    },
+    "direction": "intransitive"
+  }
+]

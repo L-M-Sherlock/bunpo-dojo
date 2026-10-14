@@ -1,0 +1,96 @@
+[
+  {
+    "id": "verb.refeda.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refeda",
+    "familyId": "verb.refeda",
+    "lexicalKey": "生える・生やす",
+    "scene": "为做手术而剪掉的狗毛，几个月后又长出来了。",
+    "before": [
+      {
+        "text": "手術のために刈った犬の毛が、数か月後にまた",
+        "reading": "しゅじゅつのためにかったいぬのけが、すうかげつごにまた"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "生えました",
+        "reading": "はえました",
+        "verdict": "correct",
+        "explanation": "为做手术而剪掉的狗毛几个月后自行重新长出；「犬の毛が」是变化主体。"
+      },
+      {
+        "id": "b",
+        "text": "生やしました",
+        "reading": "はやしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「生やす」表示某个主体让毛发等长出；本句没有外部施事，而是狗毛自身重新生长。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "为做手术而剪掉的狗毛，几个月后又长出来了。",
+    "explanation": "「生える」描述狗毛自身重新长出的变化。",
+    "hint": "判断几个月后重新长出的是毛发自身变化，还是外部主体使毛发长出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refiba.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refiba",
+    "familyId": "verb.refiba",
+    "lexicalKey": "隠れる・隠す",
+    "scene": "鹿群察觉到附近有人活动的迹象后，躲到树丛的遮蔽处。",
+    "before": [
+      {
+        "text": "人の気配を感じた鹿の群れが、木立の陰に",
+        "reading": "ひとのけはいをかんじたしかのむれが、こだちのかげに"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "隠れました",
+        "reading": "かくれました",
+        "verdict": "correct",
+        "explanation": "鹿群察觉到附近有人活动的迹象后，自己躲到了树丛的遮蔽处。"
+      },
+      {
+        "id": "b",
+        "text": "隠しました",
+        "reading": "かくしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「隠す」表示鹿群把别的对象藏起来；本句是鹿群自身躲到树丛的遮蔽处。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "鹿群察觉到附近有人活动的迹象后，躲到了树丛的遮蔽处。",
+    "explanation": "「隠れる」表示鹿群自身躲藏。",
+    "hint": "看句子说的是鹿群自身躲起来，还是鹿群藏起了别的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

@@ -1,0 +1,378 @@
+[
+  {
+    "id": "verb.refida.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refida",
+    "familyId": "verb.refida",
+    "lexicalKey": "soy-sauce-spill",
+    "scene": "搬运员上架时碰斜酱油瓶，酱油洒到地板。",
+    "before": [
+      {
+        "text": "搬入係は、瓶を棚に置こうとして傾け、醤油を床に",
+        "reading": "はんにゅうがかりは、びんをたなにおこうとしてかたむけ、しょうゆをゆかに"
+      }
+    ],
+    "after": [
+      {
+        "text": "しまった。",
+        "reading": "しまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "零して",
+        "reading": "こぼして",
+        "verdict": "correct",
+        "explanation": "「醤油を」は被洒出的液体，搬入係又是动作发出者；「零す」正好表示他把酱油洒了出来。"
+      },
+      {
+        "id": "b",
+        "text": "零れて",
+        "reading": "こぼれて",
+        "verdict": "ungrammatical",
+        "explanation": "「零れる」描述液体自己溢出，通常说「醤油が零れる」；这里用「醤油を」标出被洒出的对象，不能接自动词。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "搬运员把瓶子往架子上放时将它倾斜，不小心把酱油洒到了地板上。",
+    "explanation": "句中搬入係让酱油洒出，酱油是动作对象。",
+    "hint": "留意句中被倒出的液体怎样标记，以及倒洒动作由谁发出。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refika.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "lexicalKey": "muddy-shoe-toes",
+    "scene": "雨后孩子回家，鞋尖沾上操场泥土。",
+    "before": [
+      {
+        "text": "雨上がりに帰った子どもの靴は、校庭の泥でつま先まで",
+        "reading": "あめあがりにかえったこどものくつは、こうていのどろでつまさきまで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚れていた",
+        "reading": "よごれていた",
+        "verdict": "correct",
+        "explanation": "鞋是泥土沾上后变脏的表面；此处说明鞋自身的状态发生变化。"
+      },
+      {
+        "id": "b",
+        "text": "汚していた",
+        "reading": "よごしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「汚す」表示某个施事弄脏别的对象；本句说的是鞋自身沾泥变脏，没有另一个被鞋弄脏的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "雨后回家的孩子，鞋尖沾着操场的泥土，已经脏了。",
+    "explanation": "句子描写鞋自身变脏，泥土是造成污渍的原因。",
+    "hint": "判断句子是在描写鞋表面发生的变化，还是鞋作为施事弄脏别的东西。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refika.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "lexicalKey": "paint-glove-glass-door",
+    "scene": "学生画完招牌，沾颜料的手套蹭脏玻璃门。",
+    "before": [
+      {
+        "text": "看板を描き終えた生徒は、絵の具の付いた手袋でガラス戸を",
+        "reading": "かんばんをかきおえたせいとは、えのぐのついたてぶくろでガラスどを"
+      }
+    ],
+    "after": [
+      {
+        "text": "しまった。",
+        "reading": "しまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚して",
+        "reading": "よごして",
+        "verdict": "correct",
+        "explanation": "学生是弄脏玻璃门的施事，「ガラス戸を」是被弄脏的对象，符合「汚す」的关系。"
+      },
+      {
+        "id": "b",
+        "text": "汚れて",
+        "reading": "よごれて",
+        "verdict": "ungrammatical",
+        "explanation": "「汚れる」描述玻璃门自身变脏，通常以「ガラス戸が」作主体；这里「ガラス戸を」标明了被影响的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "学生画完招牌后，用沾着颜料的手套把玻璃门蹭脏了。",
+    "explanation": "学生用沾颜料的手套弄脏了玻璃门，门是动作对象。",
+    "hint": "观察玻璃门在句中是发生变化的主体，还是被某个动作影响的对象。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refika.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "lexicalKey": "plaster-dust-curtain",
+    "scene": "室内施工后，窗边白窗帘沾上脱落的石膏粉。",
+    "before": [
+      {
+        "text": "内装工事の翌日、窓辺に掛けていた白いカーテンは、石膏の粉でうっすら",
+        "reading": "ないそうこうじのよくじつ、まどべにかけていたしろいカーテンは、せっこうのこなでうっすら"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚れていた",
+        "reading": "よごれていた",
+        "verdict": "correct",
+        "explanation": "窗帘是沾上石膏粉后显脏的表面，句子描写的是它自身的状态。"
+      },
+      {
+        "id": "b",
+        "text": "汚していた",
+        "reading": "よごしていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「汚す」会把窗帘放在施事位置，表示窗帘弄脏了别的东西；场景中没有被窗帘弄脏的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "室内装修后的第二天，窗边挂着的白窗帘沾上石膏粉，微微显脏。",
+    "explanation": "石膏粉使窗帘表面显脏，句子没有描写窗帘弄脏别的物品。",
+    "hint": "分辨场景中的窗帘是发生污渍变化的物品，还是造成别处污渍的施事。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refika.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refika",
+    "familyId": "verb.refika",
+    "lexicalKey": "muddy-cart-loading-floor",
+    "scene": "送货员推着带泥手推车进库，弄脏白色卸货地面。",
+    "before": [
+      {
+        "text": "配送員は、泥のついた台車をそのまま押し、搬入口の白い床を",
+        "reading": "はいそういんは、どろのついただいしゃをそのままおし、はんにゅうぐちのしろいゆかを"
+      }
+    ],
+    "after": [
+      {
+        "text": "しまった。",
+        "reading": "しまった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "汚して",
+        "reading": "よごして",
+        "verdict": "correct",
+        "explanation": "配送员是弄脏地面的施事，「床を」标明被泥车弄脏的对象。"
+      },
+      {
+        "id": "b",
+        "text": "汚れて",
+        "reading": "よごれて",
+        "verdict": "ungrammatical",
+        "explanation": "「汚れる」描述地面自身变脏，通常以「床が」作主体；本句把地面用「床を」标为动作对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "送货员直接推着带泥的手推车前行，把搬入口的白色地面弄脏了。",
+    "explanation": "配送员让地面沾上泥污，地面是被影响的对象。",
+    "hint": "留意地面在句中承担施事还是受影响对象的角色。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refoaa.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "lexicalKey": "harbor-wake-boat",
+    "scene": "货船驶过后，港内小舟被尾波带得轻轻摇晃。",
+    "before": [
+      {
+        "text": "港に停泊中の小舟は、通り過ぎた貨物船の波でしばらく",
+        "reading": "みなとにていはくちゅうのこぶねは、とおりすぎたかもつせんのなみでしばらく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺れていた",
+        "reading": "ゆれていた",
+        "verdict": "correct",
+        "explanation": "小舟受到货船尾波的影响而自身摇晃，句子描写它发生的运动。"
+      },
+      {
+        "id": "b",
+        "text": "揺すっていた",
+        "reading": "ゆすっていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「揺する」会把小舟写成摇动别的东西的施事；这里小舟只是被波浪带动，没有另一个被它摇动的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "停在港内的小船被驶过货船的波浪带得摇晃了一阵。",
+    "explanation": "小舟自身因波浪而摇晃，句子没有说它在摇动别的物体。",
+    "hint": "判断小舟是在受到波浪影响而运动，还是主动让另一个物体摇动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refoaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "lexicalKey": "plum-branch-harvest",
+    "scene": "梅农在树下铺好收获网，摇动低枝让熟梅落下。",
+    "before": [
+      {
+        "text": "梅農家は、木の下に収穫用の網を広げ、熟した梅の実を落とすため低い枝を両手で",
+        "reading": "うめのうかは、きのしたにしゅうかくようのあみをひろげ、じゅくしたうめのみをおとすためひくいえだをりょうてで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺すった",
+        "reading": "ゆすった",
+        "verdict": "correct",
+        "explanation": "梅农是动作发出者，「低い枝を」是他用双手摇动的对象，符合「揺する」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "揺れた",
+        "reading": "ゆれた",
+        "verdict": "ungrammatical",
+        "explanation": "「揺れる」描述枝条自身摇晃，不能把被摇动的枝条写成「枝を」直接对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "梅农在树下铺开收获网，为了让成熟的梅子落下，用双手摇动低枝。",
+    "explanation": "梅农主动摇动枝条，让成熟的果实落下。",
+    "hint": "找出句中发出动作的人，以及被双手作用的物体。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refoaa.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refoaa",
+    "familyId": "verb.refoaa",
+    "lexicalKey": "suspension-bridge-plank",
+    "scene": "一行游客停在峡谷吊桥中央后，脚下桥板仍晃动一阵。",
+    "before": [
+      {
+        "text": "渓谷の吊り橋を渡る一団が中央で足を止めたあとも、床板はしばらく",
+        "reading": "けいこくのつりばしをわたるいちだんがちゅうおうであしをとめたあとも、ゆかいたはしばらく"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "揺れていた",
+        "reading": "ゆれていた",
+        "verdict": "correct",
+        "explanation": "游客停下后，脚下桥板仍在晃动；句子描述桥板自身的运动。"
+      },
+      {
+        "id": "b",
+        "text": "揺すっていた",
+        "reading": "ゆすっていた",
+        "verdict": "meaning-mismatch",
+        "explanation": "「揺する」表示桥板作为施事摇动别的东西，本句没有这种对象，描写的是桥板自身持续摇晃。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "一行游客在峡谷吊桥中央停下脚步后，脚下的桥板仍晃动了一阵。",
+    "explanation": "人群停下后，桥板自身仍在晃动。",
+    "hint": "留意句子的重点是桥板本身的运动，还是桥板让别的物体运动。",
+    "sourceIds": [
+      "haya-pairs"
+    ],
+    "review": "draft"
+  }
+]

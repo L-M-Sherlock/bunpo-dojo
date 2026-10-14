@@ -1,0 +1,194 @@
+[
+  {
+    "id": "verb.refrga.04",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refrga",
+    "familyId": "verb.refrga",
+    "lexicalKey": "治る・治す",
+    "scene": "兽医用抗菌药治好了住院小狗的肺炎。",
+    "before": [
+      {
+        "text": "獣医は入院した子犬の肺炎を抗菌薬で",
+        "reading": "じゅういはにゅういんしたこいぬのはいえんをこうきんやくで"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "治しました",
+        "reading": "なおしました",
+        "verdict": "correct",
+        "explanation": "「子犬の肺炎を」是兽医用药治疗的病症对象，符合「治す」的治疗义。"
+      },
+      {
+        "id": "b",
+        "text": "治りました",
+        "reading": "なおりました",
+        "verdict": "ungrammatical",
+        "explanation": "「治る」描述病症自身恢复，不能接这里的宾语「子犬の肺炎を」；若说肺炎痊愈，应写「肺炎が治る」。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "兽医用抗菌药治好了住院小狗的肺炎。",
+    "explanation": "「子犬の肺炎を」标出兽医治疗的对象。",
+    "hint": "看病症是句中被处理的对象，还是它自身恢复。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsea.01",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "lexicalKey": "照る・照らす",
+    "scene": "台风过境后的次日清晨，云开后久违地出了太阳。",
+    "before": [
+      {
+        "text": "台風が過ぎた翌朝、雲が切れると、久しぶりに日が",
+        "reading": "たいふうがすぎたよくあさ、くもがきれると、ひさしぶりにひが"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "照りました",
+        "reading": "てりました",
+        "verdict": "correct",
+        "explanation": "这里描述雨后太阳自身照耀、天气放晴，符合「日が照る」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "照らしました",
+        "reading": "てらしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「照らす」表示光照亮某个对象；本句是在报告太阳照耀的天气，没有设置被照亮的对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "台风过境后的次日清晨，云层散开，久违地出了太阳。",
+    "explanation": "「日が照る」说明太阳本身在照耀。",
+    "hint": "留意句子是在说日光照耀，还是光线照亮某个对象。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsea.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "lexicalKey": "照る・照らす",
+    "scene": "闭馆后，保安用手电照亮展厅角落。",
+    "before": [
+      {
+        "text": "閉館後、警備員は懐中電灯で展示室の隅を",
+        "reading": "へいかんご、けいびいんはかいちゅうでんとうでてんじしつのすみを"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "照らしました",
+        "reading": "てらしました",
+        "verdict": "correct",
+        "explanation": "「展示室の隅を」是手电光照亮的对象，符合「照らす」的用法。"
+      },
+      {
+        "id": "b",
+        "text": "照りました",
+        "reading": "てりました",
+        "verdict": "ungrammatical",
+        "explanation": "「照る」描述太阳或月亮自身发光，不能把这里由「を」标出的角落当作受光对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "闭馆后，保安用手电照亮了展厅的角落。",
+    "explanation": "「展示室の隅を」是光线作用到的对象。",
+    "hint": "观察光源怎样作用到句中以「を」标出的地方。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "verb.refsea.03",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refsea",
+    "familyId": "verb.refsea",
+    "lexicalKey": "照る・照らす",
+    "scene": "无云的夜晚，满月在夜空中皎洁地照耀。",
+    "before": [
+      {
+        "text": "雲ひとつない晩、満月が夜空にこうこうと",
+        "reading": "くもひとつないばん、まんげつがよぞらにこうこうと"
+      }
+    ],
+    "after": [
+      {
+        "text": "。",
+        "reading": "。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "照りました",
+        "reading": "てりました",
+        "verdict": "correct",
+        "explanation": "「満月が夜空にこうこうと照る」描写月亮本身在夜空中明亮地发光。"
+      },
+      {
+        "id": "b",
+        "text": "照らしました",
+        "reading": "てらしました",
+        "verdict": "meaning-mismatch",
+        "explanation": "「照らす」表示月光照亮某个对象；本句描写的是满月自身在夜空中发亮，没有指出受光对象。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "无云的夜晚，满月在夜空中皎洁地照耀。",
+    "explanation": "这里说的是月亮自身在夜空中发光。",
+    "hint": "判断句子描述的是月亮发光，还是月光照亮某个对象。",
+    "sourceIds": [
+      "haya-pairs",
+      "jf-pairs"
+    ],
+    "review": "draft"
+  }
+]

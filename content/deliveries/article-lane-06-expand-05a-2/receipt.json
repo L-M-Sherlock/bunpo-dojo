@@ -1,0 +1,36 @@
+{
+  "author": "/root/article_author_06a2",
+  "source": "work/content/article-pairs-20261014/lane-06/expand-05a-2.draft.json",
+  "at": "2026-10-14T01:43:58.340Z",
+  "count": 4,
+  "cards": [
+    {
+      "id": "verb.refjaa.04",
+      "hash": "d394bdcc03dee6ca1b386040d7cfc5477ea0577f91ec9f372c26391af38cbd66",
+      "fullSentences": [
+        "出発前、祖父は孫を車の後部座席に乗せた。"
+      ]
+    },
+    {
+      "id": "verb.refpaa.01",
+      "hash": "e11fe98f1914c2228aa8917f379aa4becfaeb73fbb3cc8b56421fc668477072e",
+      "fullSentences": [
+        "締切前の一週間、漫画家は仕事部屋に籠もった。"
+      ]
+    },
+    {
+      "id": "verb.refpaa.02",
+      "hash": "0c993cff49b755d65188086ac6b76340fbe41093170d2e8b740b6633da392675",
+      "fullSentences": [
+        "母は遠足の朝、子どもの弁当に家族への思いを籠めた。"
+      ]
+    },
+    {
+      "id": "verb.refpaa.03",
+      "hash": "de60d5d743682e70a92e0a18aca6b0af38e19845ae38ceddea89f6d666675db1",
+      "fullSentences": [
+        "焼き魚を焼いている間、換気扇が止まった台所には煙が籠もった。"
+      ]
+    }
+  ]
+}

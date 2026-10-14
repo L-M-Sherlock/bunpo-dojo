@@ -1,0 +1,239 @@
+[
+  {
+    "id": "particle.means.02",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "電卓で金額を計算する",
+    "scene": "聚餐负责人用计算器核算每个人应付的金额。",
+    "before": [
+      {
+        "text": "幹事は、割り勘の一人分を電卓",
+        "reading": "かんじは、わりかんのひとりぶんをでんたく"
+      }
+    ],
+    "after": [
+      {
+        "text": "計算した。",
+        "reading": "けいさんした。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "计算器是核算每人分摊金额时使用的工具，用「で」标记。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把计算器读成计算的目标或输入地点；此处它是计算工具。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "聚餐负责人用计算器算出了每人分摊的金额。",
+    "explanation": "计算器是进行计算的工具，用「で」表示手段。",
+    "hint": "判断计算器是计算的目标，还是完成计算时使用的工具。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.03",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "救急車で病院へ搬送する",
+    "scene": "急救人员用救护车把患者送往市立医院。",
+    "before": [
+      {
+        "text": "患者は救急車",
+        "reading": "かんじゃはきゅうきゅうしゃ"
+      }
+    ],
+    "after": [
+      {
+        "text": "市立病院に搬送された。",
+        "reading": "しりつびょういんにはんそうされた。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "救急車是把患者送往医院所用的交通工具，用「で」标方式。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把救护车读成移动目标；句中真正的目的地是市立医院。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "患者由救护车送往市立医院。",
+    "explanation": "救护车是运输患者的交通方式，医院是目的地；分别用「で」和「に」表示。",
+    "hint": "区分送达医院的目的地与运送患者所用的交通工具。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.04",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "刷毛で下地を塗る",
+    "scene": "画家用宽刷子给白墙涂底漆。",
+    "before": [
+      {
+        "text": "画家は白い壁に、幅の広い刷毛",
+        "reading": "がかはしろいかべに、はばのひろいはけ"
+      }
+    ],
+    "after": [
+      {
+        "text": "下地を塗った。",
+        "reading": "したじをぬった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "刷毛是给白墙涂底漆的工具，用「で」标记。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把刷子读成涂料附着的表面；场景中底漆涂在墙上，刷子是工具。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "画家用宽刷子给白墙涂了底漆。",
+    "explanation": "刷子是涂底漆所用的工具，白墙才是涂料附着的表面。",
+    "hint": "白墙是底漆涂到的表面；判断刷子在句中表示什么关系。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.05",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "宅配便でスーツケースを送る",
+    "scene": "旅行者将大行李箱寄到住宿处，使用宅配服务。",
+    "before": [
+      {
+        "text": "旅行者は大きなスーツケースを宿泊先に宅配便",
+        "reading": "りょこうしゃはおおきなスーツケースをしゅくはくさきにたくはいびん"
+      }
+    ],
+    "after": [
+      {
+        "text": "送った。",
+        "reading": "おくった。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "宅配便是把行李寄到住宿处所使用的配送方式，用「で」表示。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把宅配服务读成行李寄送的对象；本句已用「宿泊先に」标出收件目的地。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "旅行者用宅配服务把大行李箱寄到住宿处。",
+    "explanation": "宿泊先是行李的送达地点，宅配便是寄送所用的方式。",
+    "hint": "句中已经说明行李寄到哪里；判断宅配便是目的地还是配送手段。",
+    "sourceIds": [
+      "tufs-case",
+      "tufs-destination"
+    ],
+    "review": "draft"
+  },
+  {
+    "id": "particle.means.06",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "lexicalKey": "金づちで釘を打ち込む",
+    "scene": "木匠用铁锤把钉子钉进木板。",
+    "before": [
+      {
+        "text": "大工は金づち",
+        "reading": "だいくはかなづち"
+      }
+    ],
+    "after": [
+      {
+        "text": "板に釘を打ち込んだ。",
+        "reading": "いたにくぎをうちこんだ。"
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "で",
+        "reading": "で",
+        "verdict": "correct",
+        "explanation": "金づちは把钉子打进木板时使用的工具，用「で」标记。"
+      },
+      {
+        "id": "b",
+        "text": "に",
+        "reading": "に",
+        "verdict": "meaning-mismatch",
+        "explanation": "「に」会把铁锤读成钉入动作的目标；实际被钉入的是木板，铁锤是工具。"
+      }
+    ],
+    "answerIds": [
+      "a"
+    ],
+    "translation": "木匠用锤子把钉子钉进木板。",
+    "explanation": "锤子是敲钉子的工具，木板是钉子进入的目标表面。",
+    "hint": "区分用来敲击的工具与钉子进入的木板。",
+    "sourceIds": [
+      "tufs-case"
+    ],
+    "review": "draft"
+  }
+]

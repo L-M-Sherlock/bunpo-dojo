@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refvaa.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refvaa",
+    "familyId": "verb.refvaa",
+    "pair": {
+      "id": "verb.refvaa",
+      "intransitive": "潤う",
+      "intransitiveReading": "うるおう",
+      "transitive": "潤す",
+      "transitiveReading": "うるおす",
+      "meaning": "辨析「潤う／潤す」的角色与对象",
+      "count": 4,
+      "articleGroup": 22,
+      "articleRow": 1
+    },
+    "direction": "transitive"
+  }
+]

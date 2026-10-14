@@ -1,0 +1,21 @@
+[
+  {
+    "id": "verb.refria.02",
+    "module": "verbs",
+    "courseId": "pairs",
+    "skillId": "verb.refria",
+    "familyId": "verb.refria",
+    "pair": {
+      "id": "verb.refria",
+      "intransitive": "回る",
+      "intransitiveReading": "まわる",
+      "transitive": "回す",
+      "transitiveReading": "まわす",
+      "meaning": "辨析「回る／回す」的角色与对象",
+      "count": 4,
+      "articleGroup": 18,
+      "articleRow": 9
+    },
+    "direction": "transitive"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "author": "/root/article_author_03_6b_recovery",
+  "source": "work/content/article-pairs-20261014/lane-03/expand-06b.draft.json",
+  "at": "2026-10-14T02:06:42.535Z",
+  "count": 5,
+  "cards": [
+    {
+      "id": "verb.refska.04",
+      "hash": "30cd7d6a72c74d32253b88739d99a048171c4fc1806ab1902edf196630ed00c0",
+      "fullSentences": [
+        "紙を節約するため、事務局は会議資料のページ数を三割減らした。"
+      ]
+    },
+    {
+      "id": "verb.reftda.01",
+      "hash": "f99abb30ac561c5609df32f015c08d64d305b30720042784fa28a50a8e0d6e2c",
+      "fullSentences": [
+        "乗馬体験で、子どもが係員に支えられながらポニーに跨がった。"
+      ]
+    },
+    {
+      "id": "verb.reftda.02",
+      "hash": "454cea53b909174a519875a3d47ad6f3be393e8c0375311bd260ebd10b12c3c4",
+      "fullSentences": [
+        "専門誌の校正作業は、月を跨いで続いた。"
+      ]
+    },
+    {
+      "id": "verb.reftda.03",
+      "hash": "9bd0e3e8247786828f7a21659ae417ef7b8002e70a8d3ab5febc2e5161bc75a9",
+      "fullSentences": [
+        "山あいを走るこの鉄道路線は、隣り合う二つの県に跨がっている。"
+      ]
+    },
+    {
+      "id": "verb.reftda.04",
+      "hash": "9f906887f6bc364a4cfadfe516bd9665b6c99c77a33578e0b0dadc8dab8cbbae",
+      "fullSentences": [
+        "町家を改装した工房を訪れた客は、玄関の敷居を跨いで中に入った。"
+      ]
+    }
+  ]
+}

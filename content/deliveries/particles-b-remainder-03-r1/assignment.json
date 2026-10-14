@@ -1,0 +1,16 @@
+[
+  {
+    "id": "particle.means.01",
+    "module": "particles",
+    "courseId": "relations",
+    "skillId": "particle.means",
+    "familyId": "particle.means",
+    "unit": {
+      "id": "particle.means",
+      "courseId": "relations",
+      "title": "工具和交通方式的で",
+      "objective": "工具交通で与目的地に区别",
+      "count": 10
+    }
+  }
+]
