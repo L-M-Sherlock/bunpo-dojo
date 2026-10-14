@@ -14,6 +14,7 @@ import {
   recordHint,
   nextCard,
   mastery,
+  masteryGaps,
   masteredCount,
   targetKey,
   skillProgress,
@@ -32,6 +33,26 @@ const exclusive = navigator.locks
 const routeFor = () => location.hash.slice(1) || "/practice";
 const rate = (n: number, d: number) =>
   d ? `${Math.round((n / d) * 100)}%` : "—";
+const coverageLabels: Record<string, string> = {
+  intransitive: "答对自动词场景",
+  transitive: "答对他动词场景",
+};
+function gapLabels(skill: (typeof SKILLS)[number], stats?: Profile["bySkill"][string]) {
+  const gaps = masteryGaps(skill, stats);
+  return [
+    gaps.attempts ? `独立作答 ${gaps.attempts} 次` : null,
+    gaps.needsAccuracy ? "近期独立正确率达到 85%" : null,
+    gaps.scenes ? `答对 ${gaps.scenes} 个新场景` : null,
+    ...gaps.coverage.map((tag: string) => coverageLabels[tag] ?? null),
+  ].filter((value): value is string => Boolean(value));
+}
+const selectionReasonCopy = {
+  retest: ["独立复测", "间隔已经满足，请换一个场景独立完成整题，确认此前未完成的目标。"],
+  spacing: ["间隔练习", "待复测目标还需要间隔，先练其他目标。"],
+  unmastered: ["补齐达标", "这个用法尚未达标，优先补足独立作答与场景覆盖。"],
+  consolidation: ["巩固练习", "所选课程的目标已经达标，本题用于轮换复习。"],
+  continuation: ["继续作答", "这是升级前已经显示的题目，原始出题原因没有保存。"],
+} as const;
 function Japanese({ parts, reading }: { parts: Part[]; reading: boolean }) {
   return (
     <span lang="ja">
@@ -166,6 +187,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     [busy, setBusy] = useState(false),
     [corrupt, setCorrupt] = useState(initial.corrupt);
   const [answer, setAnswer] = useState(profile.session?.answer ?? ""),
+    [inputNotice, setInputNotice] = useState<string | null>(null),
     [selectedCourses, setSelectedCourses] = useState<string[]>(
       profile.session?.mode === "challenge"
         ? profile.session.courses
@@ -302,6 +324,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
       setBusy(false);
       if (ok) {
         setAnswer("");
+        setInputNotice(null);
         clock.resetAnswer();
         navigate(mode === "challenge" ? "/challenge/play" : "/practice");
       }
@@ -315,6 +338,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     await commit((p) => advanceSession(p, CARDS));
     setBusy(false);
     setAnswer("");
+    setInputNotice(null);
     clock.resetAnswer();
     requestAnimationFrame(() => {
       document
@@ -347,9 +371,12 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
           cards: CARDS,
         });
         if (graded.retry)
-          setNotice(
-            "这个汉字词形可能有不同读法。请用假名输入，以确认本题词对；当前输入未计入题数或成绩。",
+          setInputNotice(
+            graded.result?.kind === "typo"
+              ? "原词可能有一处输入笔误，请核对后重输；本题尚未计入题数或成绩。"
+              : "这个汉字词形可能有不同读法。请用假名输入，以确认本题词对；当前输入未计入题数或成绩。",
           );
+        else setInputNotice(null);
         return graded.profile;
       });
       setBusy(false);
@@ -408,6 +435,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
   ]);
   const saveAnswer = (value: string) => {
     setAnswer(value);
+    setInputNotice(null);
     void commit((p) => {
       if (!p.session || p.session.result) return p;
       return { ...p, session: { ...p.session, answer: value } };
@@ -426,6 +454,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     );
   }
   async function changeAnswerMode(mode: AnswerMode) {
+    setInputNotice(null);
     await commit((p) => ({
       ...p,
       preferences: { ...p.preferences, answerMode: mode },
@@ -435,19 +464,29 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
   async function importFile(event: React.ChangeEvent<HTMLInputElement>) {
     const chosen = event.target.files?.[0];
     if (!chosen) return;
+    event.target.value = "";
     try {
       const p = importProfile(await chosen.text(), CARDS) as Profile;
+      const confirmed = window.confirm(
+        corrupt
+          ? "导入会替换当前无法读取的本地记录。建议先导出原始本地数据。确定继续吗？"
+          : "导入会覆盖当前全部学习进度、统计与待复测。建议先导出当前进度。确定继续吗？",
+      );
+      if (!confirmed) {
+        setNotice("已取消导入，当前进度没有改变。");
+        return;
+      }
       const ok = await commit(() => p, corrupt);
       if (ok) {
         clock.reset();
         setAnswer(p.session?.answer ?? "");
+        setInputNotice(null);
         setNotice("备份已导入，统计与待复测已恢复。");
         navigate("/practice");
       }
     } catch (error) {
       setNotice(error instanceof Error ? error.message : "备份无法读取。");
     }
-    event.target.value = "";
   }
   const finishStart = () =>
     start(
@@ -991,7 +1030,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                 <span>
                   第 {session.index + 1} 题{" "}
                   {session.mode === "practice"
-                    ? "/ 12"
+                    ? "/ 最多 12 题"
                     : `· 已答 ${session.answered} 题`}
                 </span>
                 {session.mode === "practice" && (
@@ -1033,6 +1072,15 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                   {reading ? "隐藏" : "显示"}注音
                 </button>
               </div>
+              {session.mode === "practice" && (() => {
+                const copy = selectionReasonCopy[session.selectionReason];
+                return (
+                  <p className="selection-reason" role="status" aria-live="polite" aria-atomic="true">
+                    <strong>{copy[0]}</strong>
+                    <span>{copy[1]}</span>
+                  </p>
+                );
+              })()}
               <article className="exercise-card" key={session.questionId}>
                 <div className="question-kicker">
                   <span>
@@ -1120,6 +1168,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                       className="answer-input"
                       ref={input}
                       aria-label={card.exerciseType === "verb-role" ? "你的自他类别答案" : "你的日语答案"}
+                      aria-describedby={inputNotice ? "input-notice" : undefined}
                       lang={card.exerciseType === "verb-role" ? undefined : "ja"}
                       value={answer}
                       disabled={!!session.result || busy || blocked}
@@ -1158,6 +1207,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                       </button>
                     </div>
                   )}
+                  {inputNotice && <p id="input-notice" className="input-notice" role="status">{inputNotice}</p>}
                 </form>
                 {!session.result && (
                   <div className="assist-row">
@@ -1302,18 +1352,20 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
 
   function SkillRow({ id }: { id: string }) {
     const skill = SKILL_BY_ID.get(id)!,
-      stats = profile.bySkill[id];
+      stats = profile.bySkill[id],
+      gaps = gapLabels(skill, stats);
     return (
       <div className="skill-row">
         <span>
           <SkillTitle id={id} />
           <small>
             {stats?.attempts
-              ? `${stats.correct} / ${stats.attempts} 次独立答对 · ${stats.scenes.length} 个场景`
+              ? `独立作答 ${stats.attempts} 次 · 答对 ${stats.correct} 次 · 已确认 ${stats.scenes.length} 个场景`
               : "尚未作答"}
           </small>
+          {!mastery(skill, stats) && <small className="skill-gaps">达标还需：{gaps.join(" · ")}</small>}
         </span>
-        <progress value={skillProgress(skill, stats)} max={1} />
+        <progress value={skillProgress(skill, stats)} max={1} aria-label={`${skill.title}掌握进度`} />
         <b>
           {mastery(skill, stats)
             ? "已达标"

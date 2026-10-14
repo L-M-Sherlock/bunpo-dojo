@@ -28,6 +28,12 @@ export type Card = {
 };
 export type Mode = "practice" | "challenge";
 export type AnswerMode = "choice" | "input";
+export type SelectionReason =
+  | "retest"
+  | "spacing"
+  | "unmastered"
+  | "consolidation"
+  | "continuation";
 export type SkillStats = {
   attempts: number;
   correct: number;
@@ -67,6 +73,8 @@ export type Session = {
   hint: boolean;
   result: Result | null;
   finished: boolean;
+  selectionReason: SelectionReason;
+  learningRound: boolean;
 };
 export type Event = {
   id: string;
@@ -114,4 +122,6 @@ export type Profile = {
   session: Session | null;
   preferences: { reading: boolean; answerMode: AnswerMode };
   rotation: number;
+  recentCardIds: string[];
+  recentLexicalKeys: string[];
 };

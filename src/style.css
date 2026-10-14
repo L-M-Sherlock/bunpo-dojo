@@ -437,6 +437,20 @@ button:not(.primary):not(.text-button):not(.options button):not(
 .mode-brief button:last-child {
   margin-left: auto;
 }
+.selection-reason {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  margin: -8px 0 18px;
+  padding: 9px 12px;
+  background: #eef0e5;
+  color: var(--muted);
+  font-size: 12px;
+}
+.selection-reason strong {
+  color: var(--green);
+  white-space: nowrap;
+}
 .exercise-card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -600,6 +614,13 @@ button:not(.primary):not(.text-button):not(.options button):not(
   padding: 15px;
   background: #eef0e5;
   margin-bottom: 0;
+}
+.input-notice {
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  background: #fff0d3;
+  color: #674628;
+  font-size: 12px;
 }
 .feedback {
   margin-top: 25px;
@@ -848,6 +869,11 @@ progress::-moz-progress-bar {
 .skill-row small {
   display: block;
   font-size: 10px;
+}
+.skill-row .skill-gaps {
+  margin-top: 3px;
+  color: #9c4938;
+  line-height: 1.45;
 }
 .skill-row progress {
   width: 100px;
@@ -1098,6 +1124,11 @@ progress::-moz-progress-bar {
   .mode-brief {
     margin-bottom: 15px;
     gap: 9px;
+  }
+  .selection-reason {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2px;
   }
   .exercise-card,
   .single .exercise-card {

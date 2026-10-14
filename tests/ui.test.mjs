@@ -11,6 +11,7 @@ const dom=new JSDOM('<html><body></body></html>',{url:'http://localhost/bunpo-do
 for(const key of ['window','document','navigator','HTMLElement','HTMLInputElement','HTMLButtonElement','StorageEvent','location','localStorage'])Object.defineProperty(globalThis,key,{configurable:true,value:dom.window[key]});
 for(const key of ['requestAnimationFrame','cancelAnimationFrame'])globalThis[key]=dom.window[key].bind(dom.window);
 globalThis.innerHeight=768;globalThis.IS_REACT_ACT_ENVIRONMENT=true;HTMLElement.prototype.scrollIntoView=()=>{};
+let confirmResult=true,confirmCalls=0;dom.window.confirm=()=>{confirmCalls++;return confirmResult;};
 let lockTail=Promise.resolve();Object.defineProperty(navigator,'locks',{configurable:true,value:{request:(_key,fn)=>{const job=lockTail.then(fn);lockTail=job.catch(()=>{});return job;}}});
 const {render,cleanup,fireEvent,waitFor,act}=await import('@testing-library/react');
 const file=new URL('../src/App.tsx',import.meta.url);
@@ -21,7 +22,7 @@ const seed=(course='location',mode='practice')=>{const p=startSession(newProfile
 const mount=cardPool=>render(createElement(App,cardPool?{cards:cardPool}:{}));
 const sentenceText=element=>{const copy=element.cloneNode(true);for(const rt of copy.querySelectorAll('rt'))rt.remove();return copy.textContent;};
 const seedRole=(card,answerMode='choice')=>{window.history.replaceState(null,'','/bunpo-dojo/#/practice');const p=startSession(newProfile(),[card],{courses:['pairs'],answerMode});localStorage.setItem(STORAGE_KEY,JSON.stringify(p));return p;};
-beforeEach(()=>{localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/');lockTail=Promise.resolve();});
+beforeEach(()=>{localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/');lockTail=Promise.resolve();confirmResult=true;confirmCalls=0;});
 afterEach(()=>cleanup());after(()=>dom.window.close());
 
 test('the real page accepts an answer once and records statistics with the result',async()=>{seed();const v=mount(),c=cards.find(c=>c.id===read().session.cardId),o=c.options.find(o=>c.answerIds.includes(o.id));fireEvent.click(v.getByRole('button',{name:new RegExp(`^${o.text} 1$`)}));await waitFor(()=>assert.ok(v.getByRole('button',{name:/检查答案/}).disabled===false));fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.ok(v.getByText('与场景相符！')));assert.equal(read().originalCount,1);assert.equal(read().statistics.questions,1);assert.equal(read().events.length,1);assert.equal(read().bySkill[c.skillId].correct,1);});
@@ -59,6 +60,43 @@ test('home and sidebar adaptive starts include the complete pairs course',async(
   assert.deepEqual(read().session.courses,['location','movement','relations','pairs']);
 });
 test('corrupt local data stays untouched until an explicit valid backup import recovers the page',async()=>{localStorage.setItem(STORAGE_KEY,'{broken');window.history.replaceState(null,'','/bunpo-dojo/#/stats');const v=mount();assert.equal(localStorage.getItem(STORAGE_KEY),'{broken');assert.ok(v.getByRole('button',{name:'导出原始本地数据'}));assert.equal(v.getByRole('button',{name:'导入进度'}).disabled,false);const backup=exportProfile(newProfile());fireEvent.change(v.container.querySelector('input[type="file"]'),{target:{files:[{name:'synthetic.json',text:async()=>backup}]}});await waitFor(()=>assert.equal(read().version,1));await waitFor(()=>assert.ok(v.getByText('备份已导入，统计与待复测已恢复。')));assert.equal(v.queryByRole('button',{name:'导出原始本地数据'}),null);});
+
+test('an invalid import is rejected before asking to overwrite progress',async()=>{
+  seed();window.history.replaceState(null,'','/bunpo-dojo/#/stats');const before=localStorage.getItem(STORAGE_KEY),v=mount();
+  fireEvent.change(v.container.querySelector('input[type="file"]'),{target:{files:[{name:'invalid.json',text:async()=>'{bad'}]}});
+  await waitFor(()=>assert.ok(v.getByText(/Expected property name|备份无法读取/)));assert.equal(confirmCalls,0);assert.equal(localStorage.getItem(STORAGE_KEY),before);
+});
+
+test('a valid import requires confirmation and cancellation preserves the active profile',async()=>{
+  seed();window.history.replaceState(null,'','/bunpo-dojo/#/stats');const before=localStorage.getItem(STORAGE_KEY),v=mount(),backup=exportProfile(newProfile());confirmResult=false;
+  fireEvent.change(v.container.querySelector('input[type="file"]'),{target:{files:[{name:'cancel.json',text:async()=>backup}]}});
+  await waitFor(()=>assert.ok(v.getByText('已取消导入，当前进度没有改变。')));assert.equal(confirmCalls,1);assert.equal(localStorage.getItem(STORAGE_KEY),before);assert.equal(location.hash,'#/stats');
+});
+
+test('practice states why the current question appears and labels the round as a maximum',()=>{
+  seed();const v=mount();assert.ok(v.getByText('补齐达标'));assert.ok(v.getByText('这个用法尚未达标，优先补足独立作答与场景覆盖。'));assert.ok(v.getByText('第 1 题 / 最多 12 题'));
+  const reason=v.container.querySelector('.selection-reason');assert.equal(reason.getAttribute('role'),'status');assert.equal(reason.getAttribute('aria-live'),'polite');
+});
+
+test('the course library explains concrete mastery gaps without exposing internal tags',()=>{
+  window.history.replaceState(null,'','/bunpo-dojo/#/library');const v=mount(),title=v.getByText('開く / 開ける'),row=title.closest('.skill-row');assert.ok(row);
+  assert.match(row.textContent,/达标还需：独立作答 5 次 · 答对 3 个新场景 · 答对自动词场景 · 答对他动词场景/);assert.equal(/intransitive|transitive|context/.test(row.textContent),false);assert.equal(row.querySelector('progress').getAttribute('aria-label'),'開く / 開ける掌握进度');
+});
+
+test('a safe lexical typo stays editable and does not create a score or retest',async()=>{
+  const c=cards.find(card=>card.id==='verb.refbea.01');seedRole(c,'input');const v=mount([c]),input=v.getByRole('textbox',{name:'你的日语答案'});
+  fireEvent.change(input,{target:{value:'かだむきました'}});fireEvent.click(v.getByRole('button',{name:/检查答案/}));
+  await waitFor(()=>assert.ok(v.getByText('原词可能有一处输入笔误，请核对后重输；本题尚未计入题数或成绩。')));assert.equal(read().originalCount,0);assert.equal(read().session.result,null);assert.deepEqual(read().pending,{});assert.equal(input.disabled,false);
+  fireEvent.change(input,{target:{value:'かたむきました'}});await waitFor(()=>assert.equal(v.queryByText(/原词可能有一处输入笔误/),null));fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.equal(read().originalCount,1));assert.equal(read().session.result.correct,true);
+});
+
+test('a successful import clears a transient typo notice from the previous session',async()=>{
+  const c=cards.find(card=>card.id==='verb.refbea.01');seedRole(c,'input');const v=mount([c]),input=v.getByRole('textbox',{name:'你的日语答案'});
+  fireEvent.change(input,{target:{value:'かだむきました'}});fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.ok(v.getByText(/原词可能有一处输入笔误/)));
+  await act(async()=>{location.hash='/stats';fireEvent(window,new window.HashChangeEvent('hashchange'));});const replacement=startSession(newProfile(),[c],{courses:['pairs'],answerMode:'input'});
+  fireEvent.change(v.container.querySelector('input[type="file"]'),{target:{files:[{name:'replacement.json',text:async()=>exportProfile(replacement)}]}});
+  await waitFor(()=>assert.equal(location.hash,'#/practice'));assert.equal(v.queryByText(/原词可能有一处输入笔误/),null);assert.equal(read().originalCount,0);
+});
 
 test('verb-role presents a full Japanese sentence and Chinese category options, including wrong-role feedback',async()=>{
   await withVerbRoleCatalog(async synthetic=>{
