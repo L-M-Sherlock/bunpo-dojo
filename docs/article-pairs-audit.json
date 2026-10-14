@@ -26,5 +26,9 @@
     "jpdb": "2024-10-13",
     "jiten": "Jiten 26-10-09"
   },
+  "optionOrder": {
+    "singleChoice": 827,
+    "positionCoverage": "50% / 50%"
+  },
   "errors": []
 }

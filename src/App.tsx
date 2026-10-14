@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import rawCards from "./data/cards.json";
 import { COURSES, ADAPTIVE_COURSE_IDS, PAIR_COUNT, PAIR_GROUPS, PAIR_GROUP_BY_SKILL, PAIR_CLASSIFICATION_SOURCE_BY_SKILL, SKILL_BY_ID, TRACKED_SKILLS, TRACKED_SKILL_BY_ID, trackingSkillIdForCard, SOURCE_URLS, sourceLabel } from "./lib/catalog.mjs";
@@ -23,6 +23,7 @@ import { createProfileStore } from "./lib/profile-store.mjs";
 import { createStatisticsClock } from "./lib/statistics-clock.mjs";
 import { recordTime } from "./lib/statistics.mjs";
 import { usageSentenceParts } from "./lib/sentence-parts.mjs";
+import { orderedOptions } from "./lib/option-order.mjs";
 import type { Card, Part, Profile, Mode, AnswerMode } from "./types";
 
 const DEFAULT_CARDS = rawCards as Card[];
@@ -211,6 +212,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
         ? route === "/challenge/play"
         : route === "/practice"),
     reading = profile.preferences.reading;
+  const displayOptions = useMemo(() => card && session ? orderedOptions(card, session.questionId) : [], [card, session]);
   const commit = useCallback(
     (update: (p: Profile) => Profile, recover = false) => {
       const operation = writeTail.current.then(async () => {
@@ -412,7 +414,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
         card &&
         /^[1-9]$/.test(e.key)
       ) {
-        const option = card.options[Number(e.key) - 1];
+        const option = displayOptions[Number(e.key) - 1];
         if (option) {
           setAnswer(option.text);
           void commit((p) =>
@@ -432,6 +434,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     blocked,
     session,
     card,
+    displayOptions,
     next,
     submit,
     commit,
@@ -527,7 +530,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
       ...Object.values(profile.bySkill).flatMap((stats) => stats.lexical ?? []),
     ]),
     masteredPairCategories = TRACKED_SKILLS.filter((skill) => skill.courseId === "pairs" && mastery(skill, profile.bySkill[skill.id])).length;
-  const choiceSelected = card?.options.find((o) => o.text === answer);
+  const choiceSelected = displayOptions.find((o) => o.text === answer);
   const modeTitle = session?.mode === "challenge" ? "自由挑战" : "自适应练习";
 
   return (
@@ -1205,8 +1208,8 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                   }}
                 >
                   {session.answerMode === "choice" ? (
-                    <div className={`options ${card.options.length === 2 ? "two-options" : ""}`} role="group" aria-label={card.exerciseType === "verb-role" ? "动词类别" : "候选表达"}>
-                      {card.options.map((o, i) => (
+                    <div className={`options ${displayOptions.length === 2 ? "two-options" : ""}`} role="group" aria-label={card.exerciseType === "verb-role" ? "动词类别" : "候选表达"}>
+                      {displayOptions.map((o, i) => (
                         <button
                           key={o.id}
                           type="button"
@@ -1332,7 +1335,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                     <p>{card.explanation}</p>
                     <details>
                       <summary>{card.exerciseType === "verb-role" ? "查看自他类别的判断依据" : "查看其他选项的含义"}</summary>
-                      {card.options.map((o) => (
+                      {displayOptions.map((o) => (
                         <p key={o.id}>
                           <b lang={card.exerciseType === "verb-role" ? undefined : "ja"}>{o.text}</b> · {o.explanation}
                         </p>

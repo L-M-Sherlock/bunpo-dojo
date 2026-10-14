@@ -3,12 +3,15 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {validateCards,fullSentences,readingAnchorIssues} from '../src/lib/content-validation.mjs';
 import {REQUIREMENTS,SKILLS,TRACKED_SKILLS,PAIR_GROUPS,PAIR_FREQUENCY_BY_SKILL,COURSES} from '../src/lib/catalog.mjs';
+import {orderedOptions} from '../src/lib/option-order.mjs';
 const partial=process.argv.includes('--partial');
 const baseline=JSON.parse(fs.readFileSync('content/baseline.json','utf8'));
 for(const [file,key]of [['content/scope.json','scopeSha256'],['content/requirements.json','requirementsSha256']])if(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==baseline[key])throw new Error(`冻结范围发生变化 ${file}`);
 const cards=JSON.parse(fs.readFileSync('src/data/cards.json','utf8')),index=JSON.parse(fs.readFileSync('content/approved-index.json','utf8'));
 const errors=validateCards(cards,{complete:!partial});
 errors.push(...readingAnchorIssues(cards));
+const singleChoice=cards.filter(card=>card.options.length===2&&card.answerIds.length===1);
+for(const card of singleChoice){const positions=['position-0','position-1'].map(questionId=>orderedOptions(card,questionId).findIndex(option=>card.answerIds.includes(option.id))+1);if(JSON.stringify([...positions].sort())!=='[1,2]')errors.push(`${card.id}: 正确选项不能稳定覆盖两个显示位置`);}
 const reference=JSON.parse(fs.readFileSync('content/references/haya-pairs.json','utf8'));
 const frequencyBytes=fs.readFileSync('content/references/pair-frequency.json'),frequency=JSON.parse(frequencyBytes),frequencyOrder=JSON.parse(fs.readFileSync('content/references/pair-frequency-order.json','utf8')),frequencyIds=frequency.orderedSkillIds;
 if(frequency.coverage?.pairs!==172||frequency.coverage?.lexemes!==344||frequency.coverage?.jpdbExact!==344||frequency.coverage?.jitenExact!==344||frequencyIds.length!==172||new Set(frequencyIds).size!==172)errors.push('词频排序范围不完整');
@@ -31,4 +34,4 @@ for(const c of cards){const proof=index[c.id];if(!proof){errors.push(`${c.id}: �
 }
 if(cards.length!==Object.keys(index).length)errors.push('审核索引与在用题目不一致');
 if(!partial)for(const skill of SKILLS){const pool=cards.filter(c=>c.skillId===skill.id);if(new Set(pool.map(c=>c.id)).size<3)errors.push(`${skill.id}: 缺少三个独立场景`);if(skill.id.startsWith('verb.'))for(const direction of ['intransitive','transitive']){const n=pool.filter(c=>REQUIREMENTS.find(r=>r.id===c.id)?.direction===direction&&c.module==='verbs').length;if(n<2)errors.push(`${skill.id}/${direction}: 基础场景不足两题`);}}
-const result={valid:!errors.length,scope:REQUIREMENTS.length,active:cards.length,approved:cards.filter(c=>index[c.id]).length,open:REQUIREMENTS.filter(r=>!index[r.id]).length,contentSkills:SKILLS.length,trackedSkills:TRACKED_SKILLS.length,courses:Object.fromEntries(COURSES.map(c=>[c.id,cards.filter(q=>q.courseId===c.id).length])),article:{groups:25,rows:160,pairs:165,covered:sourceCoverage.filter(r=>r.covered).length,remaining:sourceCoverage.filter(r=>!r.covered).map(r=>r.skillId)},frequency:{pairs:frequency.coverage.pairs,lexemes:frequency.coverage.lexemes,jpdb:frequency.sources.jpdb.snapshot,jiten:frequency.sources.jiten.revision},errors};console.log(JSON.stringify(result,null,2));if(errors.length)process.exitCode=1;
+const result={valid:!errors.length,scope:REQUIREMENTS.length,active:cards.length,approved:cards.filter(c=>index[c.id]).length,open:REQUIREMENTS.filter(r=>!index[r.id]).length,contentSkills:SKILLS.length,trackedSkills:TRACKED_SKILLS.length,courses:Object.fromEntries(COURSES.map(c=>[c.id,cards.filter(q=>q.courseId===c.id).length])),article:{groups:25,rows:160,pairs:165,covered:sourceCoverage.filter(r=>r.covered).length,remaining:sourceCoverage.filter(r=>!r.covered).map(r=>r.skillId)},frequency:{pairs:frequency.coverage.pairs,lexemes:frequency.coverage.lexemes,jpdb:frequency.sources.jpdb.snapshot,jiten:frequency.sources.jiten.revision},optionOrder:{singleChoice:singleChoice.length,positionCoverage:'50% / 50%'},errors};console.log(JSON.stringify(result,null,2));if(errors.length)process.exitCode=1;
