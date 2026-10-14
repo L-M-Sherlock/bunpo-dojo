@@ -528,6 +528,15 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
             {masteredCount(profile)} / {SKILLS.length}
           </b>
         </span>
+        <a
+          className="github-link"
+          href="https://github.com/L-M-Sherlock/bunpo-dojo"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub 源代码（新标签页打开）"
+        >
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
       </header>
       {notice && (
         <aside className="notice" role="status">

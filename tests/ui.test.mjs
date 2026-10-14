@@ -44,6 +44,13 @@ test('all course pickers show pairs last and keep all five courses visible',()=>
     assert.deepEqual(actual,titles,route);
   }
 });
+test('the header exposes the public GitHub repository in a new tab',()=>{
+  const v=mount(),link=v.getByRole('link',{name:'GitHub 源代码（新标签页打开）'});
+  assert.equal(link.getAttribute('href'),'https://github.com/L-M-Sherlock/bunpo-dojo');
+  assert.equal(link.getAttribute('target'),'_blank');
+  assert.equal(link.getAttribute('rel'),'noopener noreferrer');
+  assert.equal(link.textContent,'GitHub ↗');
+});
 test('home and sidebar adaptive starts include the complete pairs course',async()=>{
   const v=mount();fireEvent.click(v.getByRole('button',{name:'开始自适应练习 →',exact:true}));
   await waitFor(()=>assert.deepEqual(read().session.courses,['location','movement','relations','pairs']));

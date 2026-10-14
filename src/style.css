@@ -147,6 +147,28 @@ small {
   color: var(--ink);
   margin-left: 5px;
 }
+.github-link {
+  min-height: 44px;
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  flex-shrink: 0;
+  background: var(--card);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+.github-link:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--card);
+  text-decoration: none;
+}
 .main {
   max-width: 1400px;
   margin: auto;
@@ -1007,6 +1029,9 @@ progress::-moz-progress-bar {
   }
   .site-header nav a {
     padding: 8px 12px;
+  }
+  .github-link {
+    padding-inline: 10px;
   }
 }
 @media (max-width: 760px) {
