@@ -487,7 +487,9 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#/practice">
-          <span className="brand-mark">文</span>
+          <span className="brand-mark">
+            <span className="brand-glyph">文</span>
+          </span>
           <span>
             <strong>文法道场</strong>
             <small>BUNPŌ PRACTICE</small>

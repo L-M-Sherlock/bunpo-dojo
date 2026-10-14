@@ -112,6 +112,10 @@ small {
   font-size: 26px;
   line-height: 1;
 }
+.brand-glyph {
+  display: block;
+  transform: translateY(-1px);
+}
 .brand strong {
   display: block;
   letter-spacing: 0.09em;
