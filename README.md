@@ -2,6 +2,8 @@
 
 在具体场景中练习日语自动词与他动词、に／で／へ等助词关系。独立网站，复用活用道场的存储保护、有效计时、日语字体和注音对齐。
 
+在线使用：[https://l-m-sherlock.github.io/bunpo-dojo/](https://l-m-sherlock.github.io/bunpo-dojo/)
+
 ## 本地开发
 
 需要Node.js 22.13或以上版本。
