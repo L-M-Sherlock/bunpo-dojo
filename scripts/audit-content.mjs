@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {validateCards,fullSentences,readingAnchorIssues} from '../src/lib/content-validation.mjs';
-import {REQUIREMENTS,SKILLS,COURSES} from '../src/lib/catalog.mjs';
+import {REQUIREMENTS,SKILLS,TRACKED_SKILLS,PAIR_GROUPS,PAIR_FREQUENCY_BY_SKILL,COURSES} from '../src/lib/catalog.mjs';
 const partial=process.argv.includes('--partial');
 const baseline=JSON.parse(fs.readFileSync('content/baseline.json','utf8'));
 for(const [file,key]of [['content/scope.json','scopeSha256'],['content/requirements.json','requirementsSha256']])if(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==baseline[key])throw new Error(`冻结范围发生变化 ${file}`);
@@ -10,6 +10,11 @@ const cards=JSON.parse(fs.readFileSync('src/data/cards.json','utf8')),index=JSON
 const errors=validateCards(cards,{complete:!partial});
 errors.push(...readingAnchorIssues(cards));
 const reference=JSON.parse(fs.readFileSync('content/references/haya-pairs.json','utf8'));
+const frequencyBytes=fs.readFileSync('content/references/pair-frequency.json'),frequency=JSON.parse(frequencyBytes),frequencyOrder=JSON.parse(fs.readFileSync('content/references/pair-frequency-order.json','utf8')),frequencyIds=frequency.orderedSkillIds;
+if(frequency.coverage?.pairs!==172||frequency.coverage?.lexemes!==344||frequency.coverage?.jpdbExact!==344||frequency.coverage?.jitenExact!==344||frequencyIds.length!==172||new Set(frequencyIds).size!==172)errors.push('词频排序范围不完整');
+if(frequencyOrder.sourceSha256!==crypto.createHash('sha256').update(frequencyBytes).digest('hex')||JSON.stringify(frequencyOrder.orderedSkillIds)!==JSON.stringify(frequencyIds))errors.push('运行时词频顺序与审核快照不一致');
+for(const [index,id]of frequencyIds.entries())if(!PAIR_FREQUENCY_BY_SKILL.has(id)||PAIR_FREQUENCY_BY_SKILL.get(id).overallOrder!==index+1)errors.push(`词频排序位置不一致 ${id}`);
+for(const group of PAIR_GROUPS)for(let index=1;index<group.skillIds.length;index++)if(PAIR_FREQUENCY_BY_SKILL.get(group.skillIds[index-1]).overallOrder>PAIR_FREQUENCY_BY_SKILL.get(group.skillIds[index]).overallOrder)errors.push(`类别内词频顺序错误 ${group.id}`);
 for(const [file,expected]of Object.entries(baseline.referencesSha256??{}))if(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==expected)errors.push(`参考范围发生变化 ${file}`);
 const sourceCoverage=reference.mapping.map(row=>{
   const skill=SKILLS.find(s=>s.id===row.skillId);
@@ -26,4 +31,4 @@ for(const c of cards){const proof=index[c.id];if(!proof){errors.push(`${c.id}: �
 }
 if(cards.length!==Object.keys(index).length)errors.push('审核索引与在用题目不一致');
 if(!partial)for(const skill of SKILLS){const pool=cards.filter(c=>c.skillId===skill.id);if(new Set(pool.map(c=>c.id)).size<3)errors.push(`${skill.id}: 缺少三个独立场景`);if(skill.id.startsWith('verb.'))for(const direction of ['intransitive','transitive']){const n=pool.filter(c=>REQUIREMENTS.find(r=>r.id===c.id)?.direction===direction&&c.module==='verbs').length;if(n<2)errors.push(`${skill.id}/${direction}: 基础场景不足两题`);}}
-const result={valid:!errors.length,scope:REQUIREMENTS.length,active:cards.length,approved:cards.filter(c=>index[c.id]).length,open:REQUIREMENTS.filter(r=>!index[r.id]).length,skills:SKILLS.length,courses:Object.fromEntries(COURSES.map(c=>[c.id,cards.filter(q=>q.courseId===c.id).length])),article:{groups:25,rows:160,pairs:165,covered:sourceCoverage.filter(r=>r.covered).length,remaining:sourceCoverage.filter(r=>!r.covered).map(r=>r.skillId)},errors};console.log(JSON.stringify(result,null,2));if(errors.length)process.exitCode=1;
+const result={valid:!errors.length,scope:REQUIREMENTS.length,active:cards.length,approved:cards.filter(c=>index[c.id]).length,open:REQUIREMENTS.filter(r=>!index[r.id]).length,contentSkills:SKILLS.length,trackedSkills:TRACKED_SKILLS.length,courses:Object.fromEntries(COURSES.map(c=>[c.id,cards.filter(q=>q.courseId===c.id).length])),article:{groups:25,rows:160,pairs:165,covered:sourceCoverage.filter(r=>r.covered).length,remaining:sourceCoverage.filter(r=>!r.covered).map(r=>r.skillId)},frequency:{pairs:frequency.coverage.pairs,lexemes:frequency.coverage.lexemes,jpdb:frequency.sources.jpdb.snapshot,jiten:frequency.sources.jiten.revision},errors};console.log(JSON.stringify(result,null,2));if(errors.length)process.exitCode=1;

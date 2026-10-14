@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { FormEvent } from "react";
 import rawCards from "./data/cards.json";
-import { COURSES, ADAPTIVE_COURSE_IDS, PAIR_COUNT, SKILLS, SKILL_BY_ID, SOURCE_URLS } from "./lib/catalog.mjs";
+import { COURSES, ADAPTIVE_COURSE_IDS, PAIR_COUNT, PAIR_GROUPS, PAIR_GROUP_BY_SKILL, PAIR_CLASSIFICATION_SOURCE_BY_SKILL, SKILL_BY_ID, TRACKED_SKILLS, TRACKED_SKILL_BY_ID, trackingSkillIdForCard, SOURCE_URLS, sourceLabel } from "./lib/catalog.mjs";
 import {
   newProfile,
   parseProfile,
@@ -37,19 +37,20 @@ const coverageLabels: Record<string, string> = {
   intransitive: "答对自动词场景",
   transitive: "答对他动词场景",
 };
-function gapLabels(skill: (typeof SKILLS)[number], stats?: Profile["bySkill"][string]) {
+function gapLabels(skill: (typeof TRACKED_SKILLS)[number], stats?: Profile["bySkill"][string]) {
   const gaps = masteryGaps(skill, stats);
   return [
     gaps.attempts ? `独立作答 ${gaps.attempts} 次` : null,
     gaps.needsAccuracy ? "近期独立正确率达到 85%" : null,
     gaps.scenes ? `答对 ${gaps.scenes} 个新场景` : null,
+    gaps.lexical ? `覆盖 ${gaps.lexical} 组新代表词对` : null,
     ...gaps.coverage.map((tag: string) => coverageLabels[tag] ?? null),
   ].filter((value): value is string => Boolean(value));
 }
 const selectionReasonCopy = {
   retest: ["独立复测", "间隔已经满足，请换一个场景独立完成整题，确认此前未完成的目标。"],
   spacing: ["间隔练习", "待复测目标还需要间隔，先练其他目标。"],
-  unmastered: ["补齐达标", "这个用法尚未达标，优先补足独立作答与场景覆盖。"],
+  unmastered: ["补齐达标", "当前目标尚未达标，优先补足独立作答、场景与必要覆盖。"],
   consolidation: ["巩固练习", "所选课程的目标已经达标，本题用于轮换复习。"],
   continuation: ["继续作答", "这是升级前已经显示的题目，原始出题原因没有保存。"],
 } as const;
@@ -72,7 +73,7 @@ function Japanese({ parts, reading }: { parts: Part[]; reading: boolean }) {
   );
 }
 function SkillTitle({ id }: { id: string }) {
-  const text = SKILL_BY_ID.get(id)?.title ?? id;
+  const text = SKILL_BY_ID.get(id)?.title ?? TRACKED_SKILL_BY_ID.get(id)?.title ?? id;
   if (id.startsWith("verb.")) return <span lang="ja">{text}</span>;
   return (
     <>
@@ -201,6 +202,8 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     file = useRef<HTMLInputElement>(null);
   const session = profile.session,
     card = CARDS.find((c) => c.id === session?.cardId),
+    pairGroup = card ? PAIR_GROUP_BY_SKILL.get(card.skillId) : null,
+    pairClassificationSource = card ? PAIR_CLASSIFICATION_SOURCE_BY_SKILL.get(card.skillId) : null,
     playing = route === "/practice" || route === "/challenge/play",
     matchingMode =
       !!session &&
@@ -518,7 +521,12 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
       })
     : null;
   const pending = Object.values(profile.pending),
-    s = profile.statistics;
+    s = profile.statistics,
+    touchedPairIds = new Set([
+      ...profile.events.filter((event) => event.skillId.startsWith("verb.")).map((event) => event.skillId),
+      ...Object.values(profile.bySkill).flatMap((stats) => stats.lexical ?? []),
+    ]),
+    masteredPairCategories = TRACKED_SKILLS.filter((skill) => skill.courseId === "pairs" && mastery(skill, profile.bySkill[skill.id])).length;
   const choiceSelected = card?.options.find((o) => o.text === answer);
   const modeTitle = session?.mode === "challenge" ? "自由挑战" : "自适应练习";
 
@@ -566,7 +574,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
         <span className="header-count">
           已掌握{" "}
           <b>
-            {masteredCount(profile)} / {SKILLS.length}
+            {masteredCount(profile)} / {TRACKED_SKILLS.length}
           </b>
         </span>
         <a
@@ -690,13 +698,13 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
             )}
             <h1>看见用法逐渐清晰。</h1>
             <p className="lede">
-              按实际作答的词对和助词用法记录。辅助练习与独立作答分开统计。
+              按 25 类自他词规律和 10 项助词用法记录。词对作为轮换例词，不需要逐组达标。
             </p>
             <div className="metric-grid">
               {[
                 ["整题作答", s.questions],
                 ["独立正确率", rate(s.independentCorrect, s.independent)],
-                ["已掌握用法", `${masteredCount(profile)} / ${SKILLS.length}`],
+                ["已掌握目标", `${masteredCount(profile)} / ${TRACKED_SKILLS.length}`],
                 ["有效练习时间", `${Math.round(s.activeMs / 60000)} 分钟`],
                 ["独立复测成功率", rate(s.retestCorrect, s.retests)],
                 ["待复测", pending.length],
@@ -707,6 +715,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                 </article>
               ))}
             </div>
+            <p className="stats-scope">自他类别已达标 {masteredPairCategories} / 25 · 已接触词对 {touchedPairIds.size} / {PAIR_COUNT}（例词范围，不是逐组达标清单）</p>
             <h2>最近的练习</h2>
             <div className="activity-chart" aria-label="每日整题数">
               {Object.entries(s.days)
@@ -733,7 +742,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
             </div>
             <h2>已练习的薄弱项</h2>
             <div className="skill-list">
-              {SKILLS.filter(
+              {TRACKED_SKILLS.filter(
                 (k) =>
                   profile.bySkill[k.id]?.attempts &&
                   !mastery(k, profile.bySkill[k.id]),
@@ -746,7 +755,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                 .map((k) => (
                   <SkillRow key={k.id} id={k.id} />
                 ))}
-              {!SKILLS.some(
+              {!TRACKED_SKILLS.some(
                 (k) =>
                   profile.bySkill[k.id]?.attempts &&
                   !mastery(k, profile.bySkill[k.id]),
@@ -851,12 +860,57 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                     练习本课 →
                   </button>
                 </div>
-                {SKILLS.filter((k) => k.courseId === c.id).map((k) => (
+                {c.id === "pairs" ? (
+                  <>
+                    <p className="pair-group-intro">
+                      本课按 25 种词形对应模式达标，每种模式只抽取最多 3 组代表词对，并覆盖自动词与他动词方向；172 组词对用于轮换练习，不要求逐组完成。答错过的具体词对仍须独立复测。每组词对结合
+                      <a href={SOURCE_URLS["jpdb-frequency"]} target="_blank" rel="noreferrer"> JPDBv2㋕</a>
+                      与
+                      <a href={SOURCE_URLS["jiten-frequency"]} target="_blank" rel="noreferrer"> Jiten Global</a>
+                      的词形、读音排名，由常见到较少见排列。查看
+                      <a href={SOURCE_URLS["haya-pairs"]} target="_blank" rel="noreferrer"> 词形分类参考 ↗</a>
+                    </p>
+                    <div className="pair-group-list">
+                      {PAIR_GROUPS.map((group) => {
+                        const category = TRACKED_SKILL_BY_ID.get(group.categoryId)!,
+                          stats = profile.bySkill[group.categoryId],
+                          done = mastery(category, stats),
+                          requiredPairs = "minLexical" in category ? category.minLexical : 0,
+                          categoryPending = pending.filter((row) => row.trackedSkillId === group.categoryId && row.queue === "practice").length,
+                          attempts = stats?.attempts ?? 0,
+                          lexical = stats?.lexical?.length ?? 0,
+                          sampled = Math.min(lexical, requiredPairs),
+                          intransitiveCovered = stats?.coverage?.includes("intransitive"),
+                          transitiveCovered = stats?.coverage?.includes("transitive");
+                        return (
+                          <details key={group.id} className="pair-group">
+                            <summary>
+                              <span className="pair-group-title">
+                                <small>自他词形对应</small>
+                                <strong>{group.label}</strong>
+                                {group.supplementalSkillIds.length > 0 && <em>含补充例词 {group.supplementalSkillIds.length} 组</em>}
+                              </span>
+                              <span className="pair-group-status">{categoryPending ? `待复测 ${categoryPending} 项` : done ? "类别已达标" : `代表词对 ${sampled} / ${requiredPairs}`} <i aria-hidden="true">⌄</i></span>
+                            </summary>
+                            <div className="pair-category-progress">
+                              <span>类别抽样进度：代表词对 {sampled}/{requiredPairs} · 独立作答 {Math.min(attempts, 5)}/5 · 自动词{intransitiveCovered ? "已覆盖" : "待覆盖"} · 他动词{transitiveCovered ? "已覆盖" : "待覆盖"}</span>
+                              <progress value={skillProgress(category, stats)} max={1} aria-label={`${group.label}掌握进度`} />
+                              {!done && <small>达标还需：{gapLabels(category, stats).join(" · ")}</small>}
+                            </div>
+                            <div className="pair-group-items">
+                              {group.skillIds.map((id: string) => <PairExampleRow id={id} key={id} note={group.supplementalSkillIds.includes(id) ? "补充例词" : undefined} />)}
+                            </div>
+                          </details>
+                        );
+                      })}
+                    </div>
+                  </>
+                ) : TRACKED_SKILLS.filter((k) => k.courseId === c.id).map((k) => (
                   <SkillRow id={k.id} key={k.id} />
                 ))}
                 {c.id === "mixed" && (
                   <p>
-                    综合题只评估当前空格的用法，成绩回到相应词对或助词知识点。
+                    综合题只评估当前空格的用法，成绩回到相应自他词类别或助词知识点。
                   </p>
                 )}
               </section>
@@ -866,11 +920,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
             {Object.entries(SOURCE_URLS).map(([id, url]) => (
               <p key={id}>
                 <a href={url} target="_blank" rel="noreferrer">
-                  {id === "jf-pairs"
-                    ? "国际交流基金 自他动词资料"
-                    : id === "tufs-case"
-                      ? "东京外国语大学 格助词说明"
-                      : "东京外国语大学 移动目的地说明"}{" "}
+                  {sourceLabel(id)}{" "}
                   ↗
                 </a>
               </p>
@@ -956,8 +1006,9 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
               <div className="focus-card">
                 <small>下一轮实际重点</small>
                 <strong>
-                  <SkillTitle id={nextFocus.skillId} />
+                  <SkillTitle id={trackingSkillIdForCard(nextFocus)} />
                 </strong>
+                {nextFocus.skillId.startsWith("verb.") && <span>代表词对：<SkillTitle id={nextFocus.skillId} /></span>}
               </div>
             )}
             <button
@@ -996,7 +1047,7 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                   <strong>自适应练习</strong>
                   <span>按当前掌握度继续</span>
                   <b>
-                    {masteredCount(profile)} / {SKILLS.length}
+                    {masteredCount(profile)} / {TRACKED_SKILLS.length}
                   </b>
                 </button>
                 <nav aria-label="练习课程">
@@ -1097,6 +1148,11 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                       ? "选出符合场景的表达"
                       : "填写符合场景的表达"}
                   </span>
+                  {card.courseId === "pairs" && pairGroup && (
+                    <span className="pair-group-kicker">
+                      {pairClassificationSource === "article" ? `自他词形 · ${pairGroup.label}` : `自他词形 · ${pairGroup.label} · 补充例词`}
+                    </span>
+                  )}
                 </div>
                 <p className="scene">
                   <small>场景</small>
@@ -1350,14 +1406,15 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
     </div>
   );
 
-  function SkillRow({ id }: { id: string }) {
-    const skill = SKILL_BY_ID.get(id)!,
+  function SkillRow({ id, note }: { id: string; note?: string }) {
+    const skill = TRACKED_SKILL_BY_ID.get(id)!,
       stats = profile.bySkill[id],
       gaps = gapLabels(skill, stats);
     return (
       <div className="skill-row">
         <span>
           <SkillTitle id={id} />
+          {note && <small className="skill-source-note">{note}</small>}
           <small>
             {stats?.attempts
               ? `独立作答 ${stats.attempts} 次 · 答对 ${stats.correct} 次 · 已确认 ${stats.scenes.length} 个场景`
@@ -1376,6 +1433,23 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
       </div>
     );
   }
+  function PairExampleRow({ id, note }: { id: string; note?: string }) {
+    const group = PAIR_GROUP_BY_SKILL.get(id),
+      stats = group ? profile.bySkill[group.categoryId] : undefined,
+      confirmed = stats?.lexical?.includes(id),
+      waiting = pending.some((row) => row.skillId === id),
+      practiced = confirmed || profile.events.some((event) => event.skillId === id),
+      status = waiting ? "待独立复测" : confirmed ? "已纳入类别样本" : practiced ? "已练习" : "可作为本类例词练习";
+    return (
+      <div className={`pair-example-row ${waiting ? "waiting" : confirmed ? "confirmed" : ""}`}>
+        <span>
+          <SkillTitle id={id} />
+          {note && <small className="skill-source-note">{note}</small>}
+        </span>
+        <small>{status}</small>
+      </div>
+    );
+  }
   function PendingList({ queue }: { queue: Mode }) {
     const rows = pending.filter((v) => v.queue === queue);
     return (
@@ -1387,10 +1461,11 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
         {rows.map((v) => (
           <article key={v.key}>
             <strong>
-              <SkillTitle id={v.skillId} />
+              <SkillTitle id={v.trackedSkillId} />
             </strong>
+            {v.skillId !== v.trackedSkillId && <small>复测词对：<SkillTitle id={v.skillId} /></small>}
             <p>
-              换一个场景独立作答；还需穿插{" "}
+              {v.skillId.startsWith("verb.") ? "用同一词对换一个场景独立作答" : "换一个场景独立作答"}；还需穿插{" "}
               {Math.max(0, 2 - (profile.originalCount - v.lastExposureOrdinal))}{" "}
               道其他目标整题。
             </p>

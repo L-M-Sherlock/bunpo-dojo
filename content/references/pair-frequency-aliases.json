@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "basis": "词频匹配默认使用课程词形与读音的精确组合。仅当课程为假名写法或参考资料采用规范异体字时，按已冻结词义指定词频检索词形，避免同音异义词串频。",
+  "overrides": [
+    {
+      "skillId": "verb.light",
+      "side": "intransitive",
+      "authoredTerm": "つく",
+      "reading": "つく",
+      "lookupTerm": "点く",
+      "reason": "本词对固定为灯或电器开启；不能采用付く、着く等同音义项的频次。"
+    },
+    {
+      "skillId": "verb.light",
+      "side": "transitive",
+      "authoredTerm": "つける",
+      "reading": "つける",
+      "lookupTerm": "点ける",
+      "reason": "本词对固定为打开灯或电器；不能采用付ける等同音义项的频次。"
+    },
+    {
+      "skillId": "verb.refica",
+      "side": "intransitive",
+      "authoredTerm": "汚れる",
+      "reading": "けがれる",
+      "lookupTerm": "穢れる",
+      "reason": "两套词频资料主要以「穢れる」收录けがれる这一义项。"
+    },
+    {
+      "skillId": "verb.refica",
+      "side": "transitive",
+      "authoredTerm": "汚す",
+      "reading": "けがす",
+      "lookupTerm": "穢す",
+      "reason": "两套词频资料以「穢す」区分けがす与常见的汚す／よごす。",
+      "jitenOverride": {
+        "rank": 13946,
+        "wordId": 1178960,
+        "readingIndex": 3,
+        "reason": "Jiten Global CSV 未导出这一读音；官方词条频率接口返回该全局排名。"
+      }
+    },
+    {
+      "skillId": "verb.refceb",
+      "side": "intransitive",
+      "authoredTerm": "解ける",
+      "reading": "とける",
+      "lookupTerm": "解ける",
+      "reason": "Jiten 中同一表记与读音对应两个词义；课程固定为解开、解决这一义项。",
+      "jitenOverride": {
+        "rank": 2656,
+        "wordId": 1198910,
+        "readingIndex": 0,
+        "reason": "选择解开、解决义；不采用融化义的 6953。"
+      }
+    }
+  ]
+}

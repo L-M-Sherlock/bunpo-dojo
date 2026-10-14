@@ -1,4 +1,4 @@
-import {REQUIREMENT_BY_ID,SKILL_BY_ID} from '../../src/lib/catalog.mjs';
+import {REQUIREMENT_BY_ID,SKILL_BY_ID,PAIR_GROUPS,PAIR_GROUP_BY_SKILL} from '../../src/lib/catalog.mjs';
 
 export const rolePair={
   id:'verb.hiraku',intransitive:'開く',intransitiveReading:'ひらく',
@@ -61,15 +61,19 @@ export async function withPotentialRoleCatalog(callback){
 }
 async function withCatalogPair(pair,cards,callback){
   const oldSkill=SKILL_BY_ID.get(pair.id),
+    oldGroup=PAIR_GROUP_BY_SKILL.get(pair.id),
+    group=PAIR_GROUPS.find(candidate=>candidate.order===(pair.id===rolePair.id?25:3)),
     oldRequirements=cards.map(c=>[c.id,REQUIREMENT_BY_ID.get(c.id)]);
   SKILL_BY_ID.set(pair.id,{...pair,courseId:'pairs',title:`${pair.intransitive} / ${pair.transitive}`,
     objective:pair.meaning,prerequisites:[],coverage:['intransitive','transitive']});
+  PAIR_GROUP_BY_SKILL.set(pair.id,group);
   for(const c of cards)REQUIREMENT_BY_ID.set(c.id,{id:c.id,module:c.module,
     courseId:c.courseId,skillId:c.skillId,familyId:c.familyId,pair:{...pair},
     direction:c.answerIds[0]});
   try{return await callback(cards);}
   finally{
     if(oldSkill)SKILL_BY_ID.set(pair.id,oldSkill);else SKILL_BY_ID.delete(pair.id);
+    if(oldGroup)PAIR_GROUP_BY_SKILL.set(pair.id,oldGroup);else PAIR_GROUP_BY_SKILL.delete(pair.id);
     for(const [id,old]of oldRequirements)if(old)REQUIREMENT_BY_ID.set(id,old);else REQUIREMENT_BY_ID.delete(id);
   }
 }

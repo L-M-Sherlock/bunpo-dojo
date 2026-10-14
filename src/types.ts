@@ -41,10 +41,12 @@ export type SkillStats = {
   confidence: number;
   scenes: string[];
   coverage: string[];
+  lexical: string[];
 };
 export type Pending = {
   key: string;
   skillId: string;
+  trackedSkillId: string;
   familyId: string;
   queue: Mode;
   failures: number;
@@ -82,6 +84,7 @@ export type Event = {
   at: string;
   cardId: string;
   skillId: string;
+  trackedSkillId: string;
   courseId: string;
   mode: Mode;
   answerMode: AnswerMode;

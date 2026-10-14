@@ -1,0 +1,8139 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-14",
+  "dataLicenseNotice": "本文件中的 Jiten 排名及其衍生字段依据 CC BY-SA 4.0 提供；筛选、词义消歧和两源合并方法属于本项目改动。完整说明见 content/references/PAIR_FREQUENCY_NOTICE.md。",
+  "method": {
+    "primary": "每套词频均按词形与读音精确匹配。词对先取自动词与他动词中较低频一侧的排名，以 log1p(rank)／log1p(sourceMaxRank+1) 在来源内归一化，再将 JPDB 与 Jiten 等权平均；定点综合分越小越优先。",
+    "tieBreak": "综合分相同时依次比较较差的单源归一化分、JPDB词对排名、Jiten词对排名、假名写法综合分和冻结原顺序；两侧几何平均与各来源顺位保存在结果中供审计。",
+    "kana": "JPDBv2㋕／Jiten 的假名写法排名只作后续平局判定，避免「いる」「つく」等同音词把特定义项误判为高频。",
+    "ambiguity": "0条或多条精确匹配必须在 pair-frequency-aliases.json 中按课程固定词义消歧，生成器不会静默猜测。"
+  },
+  "sources": {
+    "jpdb": {
+      "name": "JPDB v2.2 Frequency Kana",
+      "snapshot": "2024-10-13",
+      "url": "https://raw.githubusercontent.com/Kuuuube/yomitan-dictionaries/b1114cc014f4343d04c387c7dcd3b1171dd31782/data/jpdb_v2.2_freq_list_2024-10-13.csv",
+      "upstream": "https://jpdb.io/",
+      "sha256": "5cf103c1538a2189cda2fe0d462ebfe08eb09f211a48b727f533d387b371c5eb",
+      "rows": 278946,
+      "maxRank": 317299,
+      "redistribution": "原始资料未声明开放许可证；仓库只保存其派生的172项来源顺位，不保存原始排名或原始文件。"
+    },
+    "jiten": {
+      "name": "Jiten Global",
+      "revision": "Jiten 26-10-09",
+      "retrievedAt": "2026-10-14",
+      "url": "https://api.jiten.moe/api/frequency-list/download?downloadType=csv",
+      "documentation": "https://jiten.moe/frequency-dictionaries",
+      "license": "CC BY-SA 4.0",
+      "sha256": "aff679f1ae21dbf7b1c3525c2fd0389d90f6837b4a62b79e1a4ac4a577081004",
+      "rows": 456692,
+      "maxRank": 398255
+    }
+  },
+  "aliases": {
+    "file": "content/references/pair-frequency-aliases.json",
+    "sha256": "359eea7c569efca13b93e039ba4b667d3b10f7b7da6a035c02d0d75bc9970694",
+    "count": 5
+  },
+  "coverage": {
+    "pairs": 172,
+    "lexemes": 344,
+    "jpdbExact": 344,
+    "jitenExact": 344
+  },
+  "orderedSkillIds": [
+    "verb.refnaa",
+    "verb.exit",
+    "verb.enter",
+    "verb.hiraku",
+    "verb.decide",
+    "verb.continue",
+    "verb.change",
+    "verb.refqaa",
+    "verb.start",
+    "verb.remain",
+    "verb.find",
+    "verb.stop",
+    "verb.raise",
+    "verb.refgaa",
+    "verb.refaaba",
+    "verb.fall",
+    "verb.refgda",
+    "verb.move",
+    "verb.refbua",
+    "verb.gather",
+    "verb.refija",
+    "verb.refbpa",
+    "verb.refcfa",
+    "verb.refiba",
+    "verb.off",
+    "verb.refbma",
+    "verb.refiha",
+    "verb.return",
+    "verb.refcba",
+    "verb.end",
+    "verb.refcga",
+    "verb.refrea",
+    "verb.refifa",
+    "verb.refjaa",
+    "verb.refria",
+    "verb.break",
+    "verb.reffba",
+    "verb.refbta",
+    "verb.refbna",
+    "verb.refsha",
+    "verb.refmaa",
+    "verb.refbsa",
+    "verb.lower",
+    "verb.refbda",
+    "verb.line",
+    "verb.refdha",
+    "verb.refefa",
+    "verb.refrka",
+    "verb.reffca",
+    "verb.refjba",
+    "verb.refrba",
+    "verb.refaka",
+    "verb.refraa",
+    "verb.refceb",
+    "verb.refara",
+    "verb.refaafa",
+    "verb.refsja",
+    "verb.refcna",
+    "verb.refiia",
+    "verb.refkaa",
+    "verb.refaha",
+    "verb.refdia",
+    "verb.refcla",
+    "verb.refrbb",
+    "verb.sell",
+    "verb.refhaa",
+    "verb.refala",
+    "verb.refska",
+    "verb.refrga",
+    "verb.refaza",
+    "verb.refaaaa",
+    "verb.refrca",
+    "verb.refika",
+    "verb.refdja",
+    "verb.close",
+    "verb.refbfa",
+    "verb.refiga",
+    "verb.refafa",
+    "verb.refega",
+    "verb.refcaa",
+    "verb.refbha",
+    "verb.reftaa",
+    "verb.refaana",
+    "verb.refcma",
+    "verb.refboa",
+    "verb.refaaoa",
+    "verb.reffaa",
+    "verb.refbxa",
+    "verb.refgca",
+    "verb.refaja",
+    "verb.refbia",
+    "verb.refcca",
+    "verb.refrda",
+    "verb.refeea",
+    "verb.refdfa",
+    "verb.refsba",
+    "verb.refbea",
+    "verb.repair",
+    "verb.refbwa",
+    "verb.refbga",
+    "verb.refdaa",
+    "verb.refaaca",
+    "verb.refaama",
+    "verb.refxaa",
+    "verb.refbja",
+    "verb.refbka",
+    "verb.refsda",
+    "verb.refcda",
+    "verb.refoaa",
+    "verb.refcja",
+    "verb.refaala",
+    "verb.refata",
+    "verb.open",
+    "verb.refaada",
+    "verb.refaaga",
+    "verb.refada",
+    "verb.refuaa",
+    "verb.refavb",
+    "verb.refbra",
+    "verb.refwaa",
+    "verb.refana",
+    "verb.reftca",
+    "verb.refaba",
+    "verb.refeaa",
+    "verb.reftba",
+    "verb.refida",
+    "verb.refsca",
+    "verb.refaea",
+    "verb.refsia",
+    "verb.refeda",
+    "verb.refrfa",
+    "verb.boil",
+    "verb.refaaea",
+    "verb.refdca",
+    "verb.refiaa",
+    "verb.refdda",
+    "verb.refbqa",
+    "verb.refaara",
+    "verb.refaqa",
+    "verb.refdga",
+    "verb.light",
+    "verb.refsla",
+    "verb.refsea",
+    "verb.refaxa",
+    "verb.refaya",
+    "verb.refbaa",
+    "verb.refica",
+    "verb.refaua",
+    "verb.iru",
+    "verb.refaaha",
+    "verb.refvaa",
+    "verb.refaapa",
+    "verb.refdba",
+    "verb.refpaa",
+    "verb.refama",
+    "verb.reftda",
+    "verb.refcea",
+    "verb.refddb",
+    "verb.refbla",
+    "verb.refcka",
+    "verb.refbva",
+    "verb.refcia",
+    "verb.refawa",
+    "verb.refaaqa",
+    "verb.refaaia",
+    "verb.refaga",
+    "verb.refsma",
+    "verb.refsfa",
+    "verb.refsga",
+    "verb.refeba",
+    "verb.refeca",
+    "verb.refcha"
+  ],
+  "pairs": [
+    {
+      "id": "verb.open",
+      "originalOrder": 1,
+      "overallOrder": 113,
+      "intransitive": {
+        "term": "開く",
+        "reading": "あく",
+        "lookupTerm": "開く",
+        "jiten": {
+          "rank": 8409,
+          "kanaRank": 3467,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "開ける",
+        "reading": "あける",
+        "lookupTerm": "開ける",
+        "jiten": {
+          "rank": 444,
+          "kanaRank": 5221,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8409,
+        "geometricMean": 1932.252
+      },
+      "sourceOrder": {
+        "jpdb": 109,
+        "jiten": 121,
+        "jpdbGeometric": 62,
+        "jitenGeometric": 55,
+        "jpdbKana": 9,
+        "jitenKana": 14
+      },
+      "combinedScore": 699322367,
+      "sourceImbalance": 700835976,
+      "kanaTieBreak": 661162980
+    },
+    {
+      "id": "verb.close",
+      "originalOrder": 2,
+      "overallOrder": 75,
+      "intransitive": {
+        "term": "閉まる",
+        "reading": "しまる",
+        "lookupTerm": "閉まる",
+        "jiten": {
+          "rank": 3430,
+          "kanaRank": 19619,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "閉める",
+        "reading": "しめる",
+        "lookupTerm": "閉める",
+        "jiten": {
+          "rank": 1874,
+          "kanaRank": 47129,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3430,
+        "geometricMean": 2535.315
+      },
+      "sourceOrder": {
+        "jpdb": 76,
+        "jiten": 72,
+        "jpdbGeometric": 86,
+        "jitenGeometric": 76,
+        "jpdbKana": 99,
+        "jitenKana": 104
+      },
+      "combinedScore": 640688336,
+      "sourceImbalance": 650069966,
+      "kanaTieBreak": 829646887
+    },
+    {
+      "id": "verb.light",
+      "originalOrder": 3,
+      "overallOrder": 141,
+      "intransitive": {
+        "term": "つく",
+        "reading": "つく",
+        "lookupTerm": "点く",
+        "jiten": {
+          "rank": 15264,
+          "kanaRank": 314,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "つける",
+        "reading": "つける",
+        "lookupTerm": "点ける",
+        "jiten": {
+          "rank": 15513,
+          "kanaRank": 333,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 15513,
+        "geometricMean": 15387.996
+      },
+      "sourceOrder": {
+        "jpdb": 144,
+        "jiten": 141,
+        "jpdbGeometric": 157,
+        "jitenGeometric": 151,
+        "jpdbKana": 2,
+        "jitenKana": 1
+      },
+      "combinedScore": 759487287,
+      "sourceImbalance": 770652879,
+      "kanaTieBreak": 463268646
+    },
+    {
+      "id": "verb.off",
+      "originalOrder": 4,
+      "overallOrder": 25,
+      "intransitive": {
+        "term": "消える",
+        "reading": "きえる",
+        "lookupTerm": "消える",
+        "jiten": {
+          "rank": 425,
+          "kanaRank": 34909,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "消す",
+        "reading": "けす",
+        "lookupTerm": "消す",
+        "jiten": {
+          "rank": 906,
+          "kanaRank": 12240,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 906,
+        "geometricMean": 620.524
+      },
+      "sourceOrder": {
+        "jpdb": 28,
+        "jiten": 22,
+        "jpdbGeometric": 23,
+        "jitenGeometric": 23,
+        "jpdbKana": 91,
+        "jitenKana": 78
+      },
+      "combinedScore": 539609953,
+      "sourceImbalance": 551091159,
+      "kanaTieBreak": 812246829
+    },
+    {
+      "id": "verb.break",
+      "originalOrder": 5,
+      "overallOrder": 36,
+      "intransitive": {
+        "term": "壊れる",
+        "reading": "こわれる",
+        "lookupTerm": "壊れる",
+        "jiten": {
+          "rank": 1145,
+          "kanaRank": 22073,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "壊す",
+        "reading": "こわす",
+        "lookupTerm": "壊す",
+        "jiten": {
+          "rank": 1186,
+          "kanaRank": 24456,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1186,
+        "geometricMean": 1165.32
+      },
+      "sourceOrder": {
+        "jpdb": 38,
+        "jiten": 32,
+        "jpdbGeometric": 54,
+        "jitenGeometric": 43,
+        "jpdbKana": 76,
+        "jitenKana": 59
+      },
+      "combinedScore": 568944999,
+      "sourceImbalance": 588896962,
+      "kanaTieBreak": 787842108
+    },
+    {
+      "id": "verb.fall",
+      "originalOrder": 6,
+      "overallOrder": 16,
+      "intransitive": {
+        "term": "落ちる",
+        "reading": "おちる",
+        "lookupTerm": "落ちる",
+        "jiten": {
+          "rank": 423,
+          "kanaRank": 14159,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "落とす",
+        "reading": "おとす",
+        "lookupTerm": "落とす",
+        "jiten": {
+          "rank": 739,
+          "kanaRank": 27826,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 739,
+        "geometricMean": 559.104
+      },
+      "sourceOrder": {
+        "jpdb": 16,
+        "jiten": 16,
+        "jpdbGeometric": 20,
+        "jitenGeometric": 19,
+        "jpdbKana": 61,
+        "jitenKana": 71
+      },
+      "combinedScore": 519524117,
+      "sourceImbalance": 526700379,
+      "kanaTieBreak": 781496041
+    },
+    {
+      "id": "verb.enter",
+      "originalOrder": 7,
+      "overallOrder": 3,
+      "intransitive": {
+        "term": "入る",
+        "reading": "はいる",
+        "lookupTerm": "入る",
+        "jiten": {
+          "rank": 101,
+          "kanaRank": 3207,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "入れる",
+        "reading": "いれる",
+        "lookupTerm": "入れる",
+        "jiten": {
+          "rank": 223,
+          "kanaRank": 3835,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 223,
+        "geometricMean": 150.077
+      },
+      "sourceOrder": {
+        "jpdb": 4,
+        "jiten": 3,
+        "jpdbGeometric": 3,
+        "jitenGeometric": 4,
+        "jpdbKana": 111,
+        "jitenKana": 9
+      },
+      "combinedScore": 430811401,
+      "sourceImbalance": 441947903,
+      "kanaTieBreak": 738728316
+    },
+    {
+      "id": "verb.exit",
+      "originalOrder": 8,
+      "overallOrder": 2,
+      "intransitive": {
+        "term": "出る",
+        "reading": "でる",
+        "lookupTerm": "出る",
+        "jiten": {
+          "rank": 77,
+          "kanaRank": 4150,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "出す",
+        "reading": "だす",
+        "lookupTerm": "出す",
+        "jiten": {
+          "rank": 137,
+          "kanaRank": 2299,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 137,
+        "geometricMean": 102.708
+      },
+      "sourceOrder": {
+        "jpdb": 2,
+        "jiten": 2,
+        "jpdbGeometric": 2,
+        "jitenGeometric": 2,
+        "jpdbKana": 4,
+        "jitenKana": 11
+      },
+      "combinedScore": 388298807,
+      "sourceImbalance": 394487500,
+      "kanaTieBreak": 603897335
+    },
+    {
+      "id": "verb.start",
+      "originalOrder": 9,
+      "overallOrder": 9,
+      "intransitive": {
+        "term": "始まる",
+        "reading": "はじまる",
+        "lookupTerm": "始まる",
+        "jiten": {
+          "rank": 446,
+          "kanaRank": 9722,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "始める",
+        "reading": "はじめる",
+        "lookupTerm": "始める",
+        "jiten": {
+          "rank": 295,
+          "kanaRank": 3904,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 446,
+        "geometricMean": 362.726
+      },
+      "sourceOrder": {
+        "jpdb": 9,
+        "jiten": 7,
+        "jpdbGeometric": 8,
+        "jitenGeometric": 8,
+        "jpdbKana": 14,
+        "jitenKana": 25
+      },
+      "combinedScore": 472818188,
+      "sourceImbalance": 473255390,
+      "kanaTieBreak": 699987854
+    },
+    {
+      "id": "verb.end",
+      "originalOrder": 10,
+      "overallOrder": 30,
+      "intransitive": {
+        "term": "終わる",
+        "reading": "おわる",
+        "lookupTerm": "終わる",
+        "jiten": {
+          "rank": 183,
+          "kanaRank": 14792,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "終える",
+        "reading": "おえる",
+        "lookupTerm": "終える",
+        "jiten": {
+          "rank": 1431,
+          "kanaRank": 31306,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1431,
+        "geometricMean": 511.735
+      },
+      "sourceOrder": {
+        "jpdb": 20,
+        "jiten": 36,
+        "jpdbGeometric": 13,
+        "jitenGeometric": 18,
+        "jpdbKana": 68,
+        "jitenKana": 75
+      },
+      "combinedScore": 550180263,
+      "sourceImbalance": 563544808,
+      "kanaTieBreak": 794010929
+    },
+    {
+      "id": "verb.decide",
+      "originalOrder": 11,
+      "overallOrder": 5,
+      "intransitive": {
+        "term": "決まる",
+        "reading": "きまる",
+        "lookupTerm": "決まる",
+        "jiten": {
+          "rank": 348,
+          "kanaRank": 15673,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "決める",
+        "reading": "きめる",
+        "lookupTerm": "決める",
+        "jiten": {
+          "rank": 293,
+          "kanaRank": 16601,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 348,
+        "geometricMean": 319.318
+      },
+      "sourceOrder": {
+        "jpdb": 7,
+        "jiten": 5,
+        "jpdbGeometric": 10,
+        "jitenGeometric": 5,
+        "jpdbKana": 35,
+        "jitenKana": 39
+      },
+      "combinedScore": 461598148,
+      "sourceImbalance": 469133577,
+      "kanaTieBreak": 748815571
+    },
+    {
+      "id": "verb.change",
+      "originalOrder": 12,
+      "overallOrder": 7,
+      "intransitive": {
+        "term": "変わる",
+        "reading": "かわる",
+        "lookupTerm": "変わる",
+        "jiten": {
+          "rank": 235,
+          "kanaRank": 9263,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "変える",
+        "reading": "かえる",
+        "lookupTerm": "変える",
+        "jiten": {
+          "rank": 450,
+          "kanaRank": 26385,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 450,
+        "geometricMean": 325.192
+      },
+      "sourceOrder": {
+        "jpdb": 6,
+        "jiten": 8,
+        "jpdbGeometric": 7,
+        "jitenGeometric": 7,
+        "jpdbKana": 21,
+        "jitenKana": 65
+      },
+      "combinedScore": 468750066,
+      "sourceImbalance": 473946266,
+      "kanaTieBreak": 747971690
+    },
+    {
+      "id": "verb.gather",
+      "originalOrder": 13,
+      "overallOrder": 20,
+      "intransitive": {
+        "term": "集まる",
+        "reading": "あつまる",
+        "lookupTerm": "集まる",
+        "jiten": {
+          "rank": 683,
+          "kanaRank": 41162,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "集める",
+        "reading": "あつめる",
+        "lookupTerm": "集める",
+        "jiten": {
+          "rank": 816,
+          "kanaRank": 43132,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 816,
+        "geometricMean": 746.544
+      },
+      "sourceOrder": {
+        "jpdb": 23,
+        "jiten": 18,
+        "jpdbGeometric": 25,
+        "jitenGeometric": 29,
+        "jpdbKana": 90,
+        "jitenKana": 97
+      },
+      "combinedScore": 529886939,
+      "sourceImbalance": 539749401,
+      "kanaTieBreak": 819908249
+    },
+    {
+      "id": "verb.stop",
+      "originalOrder": 14,
+      "overallOrder": 12,
+      "intransitive": {
+        "term": "止まる",
+        "reading": "とまる",
+        "lookupTerm": "止まる",
+        "jiten": {
+          "rank": 547,
+          "kanaRank": 9388,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "止める",
+        "reading": "とめる",
+        "lookupTerm": "止める",
+        "jiten": {
+          "rank": 389,
+          "kanaRank": 8412,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 547,
+        "geometricMean": 461.284
+      },
+      "sourceOrder": {
+        "jpdb": 13,
+        "jiten": 13,
+        "jpdbGeometric": 14,
+        "jitenGeometric": 15,
+        "jpdbKana": 18,
+        "jitenKana": 23
+      },
+      "combinedScore": 500600640,
+      "sourceImbalance": 512147595,
+      "kanaTieBreak": 704131760
+    },
+    {
+      "id": "verb.move",
+      "originalOrder": 15,
+      "overallOrder": 18,
+      "intransitive": {
+        "term": "動く",
+        "reading": "うごく",
+        "lookupTerm": "動く",
+        "jiten": {
+          "rank": 258,
+          "kanaRank": 20134,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "動かす",
+        "reading": "うごかす",
+        "lookupTerm": "動かす",
+        "jiten": {
+          "rank": 977,
+          "kanaRank": 43748,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 977,
+        "geometricMean": 502.062
+      },
+      "sourceOrder": {
+        "jpdb": 14,
+        "jiten": 25,
+        "jpdbGeometric": 12,
+        "jitenGeometric": 17,
+        "jpdbKana": 85,
+        "jitenKana": 100
+      },
+      "combinedScore": 526454880,
+      "sourceImbalance": 533973499,
+      "kanaTieBreak": 818515053
+    },
+    {
+      "id": "verb.raise",
+      "originalOrder": 16,
+      "overallOrder": 13,
+      "intransitive": {
+        "term": "上がる",
+        "reading": "あがる",
+        "lookupTerm": "上がる",
+        "jiten": {
+          "rank": 474,
+          "kanaRank": 3007,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "上げる",
+        "reading": "あげる",
+        "lookupTerm": "上げる",
+        "jiten": {
+          "rank": 686,
+          "kanaRank": 607,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 686,
+        "geometricMean": 570.232
+      },
+      "sourceOrder": {
+        "jpdb": 12,
+        "jiten": 15,
+        "jpdbGeometric": 18,
+        "jitenGeometric": 20,
+        "jpdbKana": 6,
+        "jitenKana": 6
+      },
+      "combinedScore": 507647054,
+      "sourceImbalance": 508709474,
+      "kanaTieBreak": 613161522
+    },
+    {
+      "id": "verb.lower",
+      "originalOrder": 17,
+      "overallOrder": 43,
+      "intransitive": {
+        "term": "下がる",
+        "reading": "さがる",
+        "lookupTerm": "下がる",
+        "jiten": {
+          "rank": 1036,
+          "kanaRank": 19914,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "下げる",
+        "reading": "さげる",
+        "lookupTerm": "下げる",
+        "jiten": {
+          "rank": 1769,
+          "kanaRank": 18293,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1769,
+        "geometricMean": 1353.767
+      },
+      "sourceOrder": {
+        "jpdb": 42,
+        "jiten": 42,
+        "jpdbGeometric": 49,
+        "jitenGeometric": 45,
+        "jpdbKana": 37,
+        "jitenKana": 47
+      },
+      "combinedScore": 588473393,
+      "sourceImbalance": 596968484,
+      "kanaTieBreak": 757415846
+    },
+    {
+      "id": "verb.return",
+      "originalOrder": 18,
+      "overallOrder": 28,
+      "intransitive": {
+        "term": "戻る",
+        "reading": "もどる",
+        "lookupTerm": "戻る",
+        "jiten": {
+          "rank": 160,
+          "kanaRank": 12127,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "戻す",
+        "reading": "もどす",
+        "lookupTerm": "戻す",
+        "jiten": {
+          "rank": 1139,
+          "kanaRank": 37512,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1139,
+        "geometricMean": 426.896
+      },
+      "sourceOrder": {
+        "jpdb": 25,
+        "jiten": 30,
+        "jpdbGeometric": 15,
+        "jitenGeometric": 12,
+        "jpdbKana": 47,
+        "jitenKana": 85
+      },
+      "combinedScore": 547094397,
+      "sourceImbalance": 548328857,
+      "kanaTieBreak": 787942922
+    },
+    {
+      "id": "verb.repair",
+      "originalOrder": 19,
+      "overallOrder": 98,
+      "intransitive": {
+        "term": "直る",
+        "reading": "なおる",
+        "lookupTerm": "直る",
+        "jiten": {
+          "rank": 5136,
+          "kanaRank": 26191,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "直す",
+        "reading": "なおす",
+        "lookupTerm": "直す",
+        "jiten": {
+          "rank": 1247,
+          "kanaRank": 10044,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5136,
+        "geometricMean": 2530.73
+      },
+      "sourceOrder": {
+        "jpdb": 105,
+        "jiten": 93,
+        "jpdbGeometric": 82,
+        "jitenGeometric": 75,
+        "jpdbKana": 49,
+        "jitenKana": 63
+      },
+      "combinedScore": 679065083,
+      "sourceImbalance": 695522793,
+      "kanaTieBreak": 776804261
+    },
+    {
+      "id": "verb.find",
+      "originalOrder": 20,
+      "overallOrder": 11,
+      "intransitive": {
+        "term": "見つかる",
+        "reading": "みつかる",
+        "lookupTerm": "見つかる",
+        "jiten": {
+          "rank": 490,
+          "kanaRank": 22806,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "見つける",
+        "reading": "みつける",
+        "lookupTerm": "見つける",
+        "jiten": {
+          "rank": 340,
+          "kanaRank": 16351,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 490,
+        "geometricMean": 408.167
+      },
+      "sourceOrder": {
+        "jpdb": 10,
+        "jiten": 10,
+        "jpdbGeometric": 11,
+        "jitenGeometric": 9,
+        "jpdbKana": 73,
+        "jitenKana": 55
+      },
+      "combinedScore": 479333970,
+      "sourceImbalance": 480536244,
+      "kanaTieBreak": 784818805
+    },
+    {
+      "id": "verb.sell",
+      "originalOrder": 21,
+      "overallOrder": 65,
+      "intransitive": {
+        "term": "売れる",
+        "reading": "うれる",
+        "lookupTerm": "売れる",
+        "jiten": {
+          "rank": 2602,
+          "kanaRank": 49801,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "売る",
+        "reading": "うる",
+        "lookupTerm": "売る",
+        "jiten": {
+          "rank": 780,
+          "kanaRank": 3593,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2602,
+        "geometricMean": 1424.626
+      },
+      "sourceOrder": {
+        "jpdb": 72,
+        "jiten": 52,
+        "jpdbGeometric": 58,
+        "jitenGeometric": 48,
+        "jpdbKana": 136,
+        "jitenKana": 110
+      },
+      "combinedScore": 627971077,
+      "sourceImbalance": 646053851,
+      "kanaTieBreak": 850915048
+    },
+    {
+      "id": "verb.continue",
+      "originalOrder": 22,
+      "overallOrder": 6,
+      "intransitive": {
+        "term": "続く",
+        "reading": "つづく",
+        "lookupTerm": "続く",
+        "jiten": {
+          "rank": 421,
+          "kanaRank": 15239,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "続ける",
+        "reading": "つづける",
+        "lookupTerm": "続ける",
+        "jiten": {
+          "rank": 250,
+          "kanaRank": 10606,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 421,
+        "geometricMean": 324.423
+      },
+      "sourceOrder": {
+        "jpdb": 5,
+        "jiten": 6,
+        "jpdbGeometric": 5,
+        "jitenGeometric": 6,
+        "jpdbKana": 25,
+        "jitenKana": 36
+      },
+      "combinedScore": 462199206,
+      "sourceImbalance": 468792115,
+      "kanaTieBreak": 730561743
+    },
+    {
+      "id": "verb.remain",
+      "originalOrder": 23,
+      "overallOrder": 10,
+      "intransitive": {
+        "term": "残る",
+        "reading": "のこる",
+        "lookupTerm": "残る",
+        "jiten": {
+          "rank": 317,
+          "kanaRank": 36279,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "残す",
+        "reading": "のこす",
+        "lookupTerm": "残す",
+        "jiten": {
+          "rank": 534,
+          "kanaRank": 43328,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 534,
+        "geometricMean": 411.434
+      },
+      "sourceOrder": {
+        "jpdb": 8,
+        "jiten": 11,
+        "jpdbGeometric": 9,
+        "jitenGeometric": 10,
+        "jpdbKana": 74,
+        "jitenKana": 98
+      },
+      "combinedScore": 478677316,
+      "sourceImbalance": 487191815,
+      "kanaTieBreak": 809856358
+    },
+    {
+      "id": "verb.line",
+      "originalOrder": 24,
+      "overallOrder": 45,
+      "intransitive": {
+        "term": "並ぶ",
+        "reading": "ならぶ",
+        "lookupTerm": "並ぶ",
+        "jiten": {
+          "rank": 1207,
+          "kanaRank": 25243,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "並べる",
+        "reading": "ならべる",
+        "lookupTerm": "並べる",
+        "jiten": {
+          "rank": 2055,
+          "kanaRank": 40892,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2055,
+        "geometricMean": 1574.924
+      },
+      "sourceOrder": {
+        "jpdb": 41,
+        "jiten": 46,
+        "jpdbGeometric": 42,
+        "jitenGeometric": 50,
+        "jpdbKana": 70,
+        "jitenKana": 89
+      },
+      "combinedScore": 593827316,
+      "sourceImbalance": 596060626,
+      "kanaTieBreak": 805855072
+    },
+    {
+      "id": "verb.boil",
+      "originalOrder": 25,
+      "overallOrder": 132,
+      "intransitive": {
+        "term": "沸く",
+        "reading": "わく",
+        "lookupTerm": "沸く",
+        "jiten": {
+          "rank": 6340,
+          "kanaRank": 27905,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "沸かす",
+        "reading": "わかす",
+        "lookupTerm": "沸かす",
+        "jiten": {
+          "rank": 10111,
+          "kanaRank": 52637,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 10111,
+        "geometricMean": 8006.481
+      },
+      "sourceOrder": {
+        "jpdb": 134,
+        "jiten": 129,
+        "jpdbGeometric": 142,
+        "jitenGeometric": 138,
+        "jpdbKana": 130,
+        "jitenKana": 117
+      },
+      "combinedScore": 730043452,
+      "sourceImbalance": 744958297,
+      "kanaTieBreak": 847136863
+    },
+    {
+      "id": "verb.refaba",
+      "originalOrder": 26,
+      "overallOrder": 123,
+      "intransitive": {
+        "term": "温まる",
+        "reading": "あたたまる",
+        "lookupTerm": "温まる",
+        "jiten": {
+          "rank": 8384,
+          "kanaRank": 52480,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "温める",
+        "reading": "あたためる",
+        "lookupTerm": "温める",
+        "jiten": {
+          "rank": 4827,
+          "kanaRank": 30103,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8384,
+        "geometricMean": 6361.57
+      },
+      "sourceOrder": {
+        "jpdb": 130,
+        "jiten": 119,
+        "jpdbGeometric": 137,
+        "jitenGeometric": 126,
+        "jpdbKana": 128,
+        "jitenKana": 116
+      },
+      "combinedScore": 719179284,
+      "sourceImbalance": 737753465,
+      "kanaTieBreak": 845616029
+    },
+    {
+      "id": "verb.refada",
+      "originalOrder": 27,
+      "overallOrder": 116,
+      "intransitive": {
+        "term": "改まる",
+        "reading": "あらたまる",
+        "lookupTerm": "改まる",
+        "jiten": {
+          "rank": 8880,
+          "kanaRank": 35595,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "改める",
+        "reading": "あらためる",
+        "lookupTerm": "改める",
+        "jiten": {
+          "rank": 3869,
+          "kanaRank": 25176,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8880,
+        "geometricMean": 5861.461
+      },
+      "sourceOrder": {
+        "jpdb": 116,
+        "jiten": 122,
+        "jpdbGeometric": 116,
+        "jitenGeometric": 120,
+        "jpdbKana": 95,
+        "jitenKana": 82
+      },
+      "combinedScore": 706890627,
+      "sourceImbalance": 708719351,
+      "kanaTieBreak": 817009431
+    },
+    {
+      "id": "verb.refaea",
+      "originalOrder": 28,
+      "overallOrder": 128,
+      "intransitive": {
+        "term": "受かる",
+        "reading": "うかる",
+        "lookupTerm": "受かる",
+        "jiten": {
+          "rank": 9036,
+          "kanaRank": 52772,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "受ける",
+        "reading": "うける",
+        "lookupTerm": "受ける",
+        "jiten": {
+          "rank": 311,
+          "kanaRank": 11155,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 9036,
+        "geometricMean": 1676.364
+      },
+      "sourceOrder": {
+        "jpdb": 133,
+        "jiten": 126,
+        "jpdbGeometric": 52,
+        "jitenGeometric": 51,
+        "jpdbKana": 151,
+        "jitenKana": 120
+      },
+      "combinedScore": 724118841,
+      "sourceImbalance": 741825388,
+      "kanaTieBreak": 863578425
+    },
+    {
+      "id": "verb.refafa",
+      "originalOrder": 29,
+      "overallOrder": 78,
+      "intransitive": {
+        "term": "埋まる",
+        "reading": "うまる",
+        "lookupTerm": "埋まる",
+        "jiten": {
+          "rank": 3326,
+          "kanaRank": 42309,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "埋める",
+        "reading": "うめる",
+        "lookupTerm": "埋める",
+        "jiten": {
+          "rank": 1971,
+          "kanaRank": 42104,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3326,
+        "geometricMean": 2560.38
+      },
+      "sourceOrder": {
+        "jpdb": 78,
+        "jiten": 69,
+        "jpdbGeometric": 87,
+        "jitenGeometric": 78,
+        "jpdbKana": 126,
+        "jitenKana": 93
+      },
+      "combinedScore": 642497602,
+      "sourceImbalance": 656075558,
+      "kanaTieBreak": 836740698
+    },
+    {
+      "id": "verb.refaga",
+      "originalOrder": 30,
+      "overallOrder": 166,
+      "intransitive": {
+        "term": "植わる",
+        "reading": "うわる",
+        "lookupTerm": "植わる",
+        "jiten": {
+          "rank": 50156,
+          "kanaRank": 50218,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "植える",
+        "reading": "うえる",
+        "lookupTerm": "植える",
+        "jiten": {
+          "rank": 8160,
+          "kanaRank": 45542,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 50156,
+        "geometricMean": 20230.496
+      },
+      "sourceOrder": {
+        "jpdb": 164,
+        "jiten": 163,
+        "jpdbGeometric": 156,
+        "jitenGeometric": 156,
+        "jpdbKana": 137,
+        "jitenKana": 112
+      },
+      "combinedScore": 841086466,
+      "sourceImbalance": 842852505,
+      "kanaTieBreak": 852558999
+    },
+    {
+      "id": "verb.refaha",
+      "originalOrder": 31,
+      "overallOrder": 61,
+      "intransitive": {
+        "term": "収まる",
+        "reading": "おさまる",
+        "lookupTerm": "収まる",
+        "jiten": {
+          "rank": 2301,
+          "kanaRank": 9047,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "収める",
+        "reading": "おさめる",
+        "lookupTerm": "収める",
+        "jiten": {
+          "rank": 3179,
+          "kanaRank": 16580,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3179,
+        "geometricMean": 2704.603
+      },
+      "sourceOrder": {
+        "jpdb": 59,
+        "jiten": 67,
+        "jpdbGeometric": 72,
+        "jitenGeometric": 83,
+        "jpdbKana": 38,
+        "jitenKana": 38
+      },
+      "combinedScore": 625390907,
+      "sourceImbalance": 625415164,
+      "kanaTieBreak": 751213473
+    },
+    {
+      "id": "verb.refaja",
+      "originalOrder": 32,
+      "overallOrder": 90,
+      "intransitive": {
+        "term": "掛かる",
+        "reading": "かかる",
+        "lookupTerm": "掛かる",
+        "jiten": {
+          "rank": 5742,
+          "kanaRank": 337,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "掛ける",
+        "reading": "かける",
+        "lookupTerm": "掛ける",
+        "jiten": {
+          "rank": 3391,
+          "kanaRank": 230,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5742,
+        "geometricMean": 4412.609
+      },
+      "sourceOrder": {
+        "jpdb": 85,
+        "jiten": 96,
+        "jpdbGeometric": 91,
+        "jitenGeometric": 107,
+        "jpdbKana": 1,
+        "jitenKana": 3
+      },
+      "combinedScore": 665753466,
+      "sourceImbalance": 671255200,
+      "kanaTieBreak": 451053506
+    },
+    {
+      "id": "verb.refaka",
+      "originalOrder": 33,
+      "overallOrder": 52,
+      "intransitive": {
+        "term": "重なる",
+        "reading": "かさなる",
+        "lookupTerm": "重なる",
+        "jiten": {
+          "rank": 2564,
+          "kanaRank": 69546,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "重ねる",
+        "reading": "かさねる",
+        "lookupTerm": "重ねる",
+        "jiten": {
+          "rank": 1649,
+          "kanaRank": 55527,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2564,
+        "geometricMean": 2056.219
+      },
+      "sourceOrder": {
+        "jpdb": 53,
+        "jiten": 50,
+        "jpdbGeometric": 53,
+        "jitenGeometric": 59,
+        "jpdbKana": 122,
+        "jitenKana": 141
+      },
+      "combinedScore": 610903542,
+      "sourceImbalance": 613059247,
+      "kanaTieBreak": 853993266
+    },
+    {
+      "id": "verb.refala",
+      "originalOrder": 34,
+      "overallOrder": 67,
+      "intransitive": {
+        "term": "固まる",
+        "reading": "かたまる",
+        "lookupTerm": "固まる",
+        "jiten": {
+          "rank": 2622,
+          "kanaRank": 37686,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "固める",
+        "reading": "かためる",
+        "lookupTerm": "固める",
+        "jiten": {
+          "rank": 3527,
+          "kanaRank": 44286,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3527,
+        "geometricMean": 3041.019
+      },
+      "sourceOrder": {
+        "jpdb": 61,
+        "jiten": 74,
+        "jpdbGeometric": 69,
+        "jitenGeometric": 89,
+        "jpdbKana": 81,
+        "jitenKana": 101
+      },
+      "combinedScore": 630379419,
+      "sourceImbalance": 633468760,
+      "kanaTieBreak": 816233323
+    },
+    {
+      "id": "verb.refama",
+      "originalOrder": 35,
+      "overallOrder": 155,
+      "intransitive": {
+        "term": "被さる",
+        "reading": "かぶさる",
+        "lookupTerm": "被さる",
+        "jiten": {
+          "rank": 30141,
+          "kanaRank": 35902,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "被せる",
+        "reading": "かぶせる",
+        "lookupTerm": "被せる",
+        "jiten": {
+          "rank": 10779,
+          "kanaRank": 9314,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 30141,
+        "geometricMean": 18024.701
+      },
+      "sourceOrder": {
+        "jpdb": 157,
+        "jiten": 153,
+        "jpdbGeometric": 155,
+        "jitenGeometric": 155,
+        "jpdbKana": 84,
+        "jitenKana": 83
+      },
+      "combinedScore": 804166604,
+      "sourceImbalance": 808504393,
+      "kanaTieBreak": 809568173
+    },
+    {
+      "id": "verb.refana",
+      "originalOrder": 36,
+      "overallOrder": 121,
+      "intransitive": {
+        "term": "絡まる",
+        "reading": "からまる",
+        "lookupTerm": "絡まる",
+        "jiten": {
+          "rank": 8228,
+          "kanaRank": 35906,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "絡める",
+        "reading": "からめる",
+        "lookupTerm": "絡める",
+        "jiten": {
+          "rank": 6372,
+          "kanaRank": 27249,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8228,
+        "geometricMean": 7240.775
+      },
+      "sourceOrder": {
+        "jpdb": 123,
+        "jiten": 118,
+        "jpdbGeometric": 136,
+        "jitenGeometric": 133,
+        "jpdbKana": 92,
+        "jitenKana": 84
+      },
+      "combinedScore": 712736698,
+      "sourceImbalance": 726324679,
+      "kanaTieBreak": 815278355
+    },
+    {
+      "id": "verb.refaqa",
+      "originalOrder": 37,
+      "overallOrder": 139,
+      "intransitive": {
+        "term": "極まる",
+        "reading": "きわまる",
+        "lookupTerm": "極まる",
+        "jiten": {
+          "rank": 15310,
+          "kanaRank": 56698,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "極める",
+        "reading": "きわめる",
+        "lookupTerm": "極める",
+        "jiten": {
+          "rank": 5999,
+          "kanaRank": 51302,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 15310,
+        "geometricMean": 9583.564
+      },
+      "sourceOrder": {
+        "jpdb": 136,
+        "jiten": 140,
+        "jpdbGeometric": 139,
+        "jitenGeometric": 141,
+        "jpdbKana": 96,
+        "jitenKana": 127
+      },
+      "combinedScore": 746386498,
+      "sourceImbalance": 747300256,
+      "kanaTieBreak": 835182040
+    },
+    {
+      "id": "verb.refara",
+      "originalOrder": 38,
+      "overallOrder": 55,
+      "intransitive": {
+        "term": "加わる",
+        "reading": "くわわる",
+        "lookupTerm": "加わる",
+        "jiten": {
+          "rank": 2778,
+          "kanaRank": 66285,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "加える",
+        "reading": "くわえる",
+        "lookupTerm": "加える",
+        "jiten": {
+          "rank": 2280,
+          "kanaRank": 9062,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2778,
+        "geometricMean": 2516.712
+      },
+      "sourceOrder": {
+        "jpdb": 55,
+        "jiten": 58,
+        "jpdbGeometric": 56,
+        "jitenGeometric": 73,
+        "jpdbKana": 135,
+        "jitenKana": 137
+      },
+      "combinedScore": 615181144,
+      "sourceImbalance": 615400136,
+      "kanaTieBreak": 861140851
+    },
+    {
+      "id": "verb.refata",
+      "originalOrder": 39,
+      "overallOrder": 112,
+      "intransitive": {
+        "term": "定まる",
+        "reading": "さだまる",
+        "lookupTerm": "定まる",
+        "jiten": {
+          "rank": 7797,
+          "kanaRank": 89776,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "定める",
+        "reading": "さだめる",
+        "lookupTerm": "定める",
+        "jiten": {
+          "rank": 4636,
+          "kanaRank": 60966,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7797,
+        "geometricMean": 6012.229
+      },
+      "sourceOrder": {
+        "jpdb": 113,
+        "jiten": 113,
+        "jpdbGeometric": 112,
+        "jitenGeometric": 123,
+        "jpdbKana": 144,
+        "jitenKana": 153
+      },
+      "combinedScore": 699281059,
+      "sourceImbalance": 703585393,
+      "kanaTieBreak": 881723480
+    },
+    {
+      "id": "verb.refaua",
+      "originalOrder": 40,
+      "overallOrder": 148,
+      "intransitive": {
+        "term": "静まる",
+        "reading": "しずまる",
+        "lookupTerm": "静まる",
+        "jiten": {
+          "rank": 9734,
+          "kanaRank": 72799,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "静める",
+        "reading": "しずめる",
+        "lookupTerm": "静める",
+        "jiten": {
+          "rank": 19124,
+          "kanaRank": 50476,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 19124,
+        "geometricMean": 13643.79
+      },
+      "sourceOrder": {
+        "jpdb": 154,
+        "jiten": 146,
+        "jpdbGeometric": 153,
+        "jitenGeometric": 147,
+        "jpdbKana": 102,
+        "jitenKana": 145
+      },
+      "combinedScore": 778110217,
+      "sourceImbalance": 791671059,
+      "kanaTieBreak": 847084917
+    },
+    {
+      "id": "verb.refavb",
+      "originalOrder": 41,
+      "overallOrder": 118,
+      "intransitive": {
+        "term": "締まる",
+        "reading": "しまる",
+        "lookupTerm": "締まる",
+        "jiten": {
+          "rank": 7653,
+          "kanaRank": 19619,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "締める",
+        "reading": "しめる",
+        "lookupTerm": "締める",
+        "jiten": {
+          "rank": 4162,
+          "kanaRank": 47129,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7653,
+        "geometricMean": 5643.739
+      },
+      "sourceOrder": {
+        "jpdb": 121,
+        "jiten": 110,
+        "jpdbGeometric": 127,
+        "jitenGeometric": 116,
+        "jpdbKana": 100,
+        "jitenKana": 105
+      },
+      "combinedScore": 708545172,
+      "sourceImbalance": 723559071,
+      "kanaTieBreak": 829646887
+    },
+    {
+      "id": "verb.refawa",
+      "originalOrder": 42,
+      "overallOrder": 163,
+      "intransitive": {
+        "term": "窄まる",
+        "reading": "すぼまる",
+        "lookupTerm": "窄まる",
+        "jiten": {
+          "rank": 33781,
+          "kanaRank": 30671,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "窄める",
+        "reading": "すぼめる",
+        "lookupTerm": "窄める",
+        "jiten": {
+          "rank": 36537,
+          "kanaRank": 15814,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 36537,
+        "geometricMean": 35131.985
+      },
+      "sourceOrder": {
+        "jpdb": 166,
+        "jiten": 158,
+        "jpdbGeometric": 170,
+        "jitenGeometric": 168,
+        "jpdbKana": 101,
+        "jitenKana": 73
+      },
+      "combinedScore": 831341478,
+      "sourceImbalance": 847930881,
+      "kanaTieBreak": 813223458
+    },
+    {
+      "id": "verb.refaxa",
+      "originalOrder": 43,
+      "overallOrder": 144,
+      "intransitive": {
+        "term": "据わる",
+        "reading": "すわる",
+        "lookupTerm": "据わる",
+        "jiten": {
+          "rank": 20354,
+          "kanaRank": 24919,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "据える",
+        "reading": "すえる",
+        "lookupTerm": "据える",
+        "jiten": {
+          "rank": 10047,
+          "kanaRank": 27163,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 20354,
+        "geometricMean": 14300.232
+      },
+      "sourceOrder": {
+        "jpdb": 142,
+        "jiten": 148,
+        "jpdbGeometric": 146,
+        "jitenGeometric": 149,
+        "jpdbKana": 65,
+        "jitenKana": 69
+      },
+      "combinedScore": 767583023,
+      "sourceImbalance": 769383103,
+      "kanaTieBreak": 784525128
+    },
+    {
+      "id": "verb.refaya",
+      "originalOrder": 44,
+      "overallOrder": 145,
+      "intransitive": {
+        "term": "狭まる",
+        "reading": "せばまる",
+        "lookupTerm": "狭まる",
+        "jiten": {
+          "rank": 15169,
+          "kanaRank": 94920,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "狭める",
+        "reading": "せばめる",
+        "lookupTerm": "狭める",
+        "jiten": {
+          "rank": 17362,
+          "kanaRank": 82755,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 17362,
+        "geometricMean": 16228.499
+      },
+      "sourceOrder": {
+        "jpdb": 147,
+        "jiten": 143,
+        "jpdbGeometric": 160,
+        "jitenGeometric": 153,
+        "jpdbKana": 154,
+        "jitenKana": 158
+      },
+      "combinedScore": 768108679,
+      "sourceImbalance": 779163598,
+      "kanaTieBreak": 890662878
+    },
+    {
+      "id": "verb.refaza",
+      "originalOrder": 45,
+      "overallOrder": 70,
+      "intransitive": {
+        "term": "染まる",
+        "reading": "そまる",
+        "lookupTerm": "染まる",
+        "jiten": {
+          "rank": 2930,
+          "kanaRank": 52691,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "染める",
+        "reading": "そめる",
+        "lookupTerm": "染める",
+        "jiten": {
+          "rank": 3424,
+          "kanaRank": 46751,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3424,
+        "geometricMean": 3167.384
+      },
+      "sourceOrder": {
+        "jpdb": 71,
+        "jiten": 71,
+        "jpdbGeometric": 77,
+        "jitenGeometric": 91,
+        "jpdbKana": 125,
+        "jitenKana": 119
+      },
+      "combinedScore": 634883480,
+      "sourceImbalance": 638595990,
+      "kanaTieBreak": 844818828
+    },
+    {
+      "id": "verb.refaaaa",
+      "originalOrder": 46,
+      "overallOrder": 71,
+      "intransitive": {
+        "term": "高まる",
+        "reading": "たかまる",
+        "lookupTerm": "高まる",
+        "jiten": {
+          "rank": 3711,
+          "kanaRank": 82829,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "高める",
+        "reading": "たかめる",
+        "lookupTerm": "高める",
+        "jiten": {
+          "rank": 3858,
+          "kanaRank": 110429,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3858,
+        "geometricMean": 3783.786
+      },
+      "sourceOrder": {
+        "jpdb": 66,
+        "jiten": 80,
+        "jpdbGeometric": 89,
+        "jitenGeometric": 100,
+        "jpdbKana": 158,
+        "jitenKana": 162
+      },
+      "combinedScore": 635270154,
+      "sourceImbalance": 640423236,
+      "kanaTieBreak": 898136732
+    },
+    {
+      "id": "verb.refaaba",
+      "originalOrder": 47,
+      "overallOrder": 15,
+      "intransitive": {
+        "term": "助かる",
+        "reading": "たすかる",
+        "lookupTerm": "助かる",
+        "jiten": {
+          "rank": 537,
+          "kanaRank": 38212,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "助ける",
+        "reading": "たすける",
+        "lookupTerm": "助ける",
+        "jiten": {
+          "rank": 321,
+          "kanaRank": 24707,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 537,
+        "geometricMean": 415.183
+      },
+      "sourceOrder": {
+        "jpdb": 19,
+        "jiten": 12,
+        "jpdbGeometric": 19,
+        "jitenGeometric": 11,
+        "jpdbKana": 124,
+        "jitenKana": 87
+      },
+      "combinedScore": 509064906,
+      "sourceImbalance": 530504350,
+      "kanaTieBreak": 831127829
+    },
+    {
+      "id": "verb.refaaca",
+      "originalOrder": 48,
+      "overallOrder": 102,
+      "intransitive": {
+        "term": "溜まる",
+        "reading": "たまる",
+        "lookupTerm": "溜まる",
+        "jiten": {
+          "rank": 4029,
+          "kanaRank": 1945,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "溜める",
+        "reading": "ためる",
+        "lookupTerm": "溜める",
+        "jiten": {
+          "rank": 6665,
+          "kanaRank": 5944,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6665,
+        "geometricMean": 5182.016
+      },
+      "sourceOrder": {
+        "jpdb": 97,
+        "jiten": 103,
+        "jpdbGeometric": 113,
+        "jitenGeometric": 113,
+        "jpdbKana": 23,
+        "jitenKana": 15
+      },
+      "combinedScore": 683533263,
+      "sourceImbalance": 684253361,
+      "kanaTieBreak": 692145916
+    },
+    {
+      "id": "verb.refaada",
+      "originalOrder": 49,
+      "overallOrder": 114,
+      "intransitive": {
+        "term": "縮まる",
+        "reading": "ちぢまる",
+        "lookupTerm": "縮まる",
+        "jiten": {
+          "rank": 7578,
+          "kanaRank": 100558,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "縮める",
+        "reading": "ちぢめる",
+        "lookupTerm": "縮める",
+        "jiten": {
+          "rank": 6125,
+          "kanaRank": 71091,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7578,
+        "geometricMean": 6812.874
+      },
+      "sourceOrder": {
+        "jpdb": 115,
+        "jiten": 108,
+        "jpdbGeometric": 130,
+        "jitenGeometric": 129,
+        "jpdbKana": 152,
+        "jitenKana": 161
+      },
+      "combinedScore": 700307785,
+      "sourceImbalance": 707847946,
+      "kanaTieBreak": 889863879
+    },
+    {
+      "id": "verb.refaaea",
+      "originalOrder": 50,
+      "overallOrder": 133,
+      "intransitive": {
+        "term": "繋がる",
+        "reading": "つながる",
+        "lookupTerm": "繋がる",
+        "jiten": {
+          "rank": 3774,
+          "kanaRank": 1681,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "繋げる",
+        "reading": "つなげる",
+        "lookupTerm": "繋げる",
+        "jiten": {
+          "rank": 11215,
+          "kanaRank": 9614,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 11215,
+        "geometricMean": 6505.798
+      },
+      "sourceOrder": {
+        "jpdb": 129,
+        "jiten": 132,
+        "jpdbGeometric": 123,
+        "jitenGeometric": 128,
+        "jpdbKana": 24,
+        "jitenKana": 24
+      },
+      "combinedScore": 730046421,
+      "sourceImbalance": 736928587,
+      "kanaTieBreak": 710836753
+    },
+    {
+      "id": "verb.refaafa",
+      "originalOrder": 51,
+      "overallOrder": 56,
+      "intransitive": {
+        "term": "詰まる",
+        "reading": "つまる",
+        "lookupTerm": "詰まる",
+        "jiten": {
+          "rank": 2503,
+          "kanaRank": 3019,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "詰める",
+        "reading": "つめる",
+        "lookupTerm": "詰める",
+        "jiten": {
+          "rank": 2639,
+          "kanaRank": 12987,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2639,
+        "geometricMean": 2570.101
+      },
+      "sourceOrder": {
+        "jpdb": 57,
+        "jiten": 53,
+        "jpdbGeometric": 74,
+        "jitenGeometric": 79,
+        "jpdbKana": 32,
+        "jitenKana": 30
+      },
+      "combinedScore": 615340963,
+      "sourceImbalance": 619699055,
+      "kanaTieBreak": 735493003
+    },
+    {
+      "id": "verb.refaaga",
+      "originalOrder": 52,
+      "overallOrder": 115,
+      "intransitive": {
+        "term": "強まる",
+        "reading": "つよまる",
+        "lookupTerm": "強まる",
+        "jiten": {
+          "rank": 8402,
+          "kanaRank": 186040,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "強める",
+        "reading": "つよめる",
+        "lookupTerm": "強める",
+        "jiten": {
+          "rank": 6775,
+          "kanaRank": 133466,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8402,
+        "geometricMean": 7544.77
+      },
+      "sourceOrder": {
+        "jpdb": 114,
+        "jiten": 120,
+        "jpdbGeometric": 115,
+        "jitenGeometric": 135,
+        "jpdbKana": 168,
+        "jitenKana": 170
+      },
+      "combinedScore": 703721153,
+      "sourceImbalance": 706670904,
+      "kanaTieBreak": 940299955
+    },
+    {
+      "id": "verb.refaaha",
+      "originalOrder": 53,
+      "overallOrder": 150,
+      "intransitive": {
+        "term": "連なる",
+        "reading": "つらなる",
+        "lookupTerm": "連なる",
+        "jiten": {
+          "rank": 9593,
+          "kanaRank": 68442,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "連ねる",
+        "reading": "つらねる",
+        "lookupTerm": "連ねる",
+        "jiten": {
+          "rank": 23906,
+          "kanaRank": 79702,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 23906,
+        "geometricMean": 15143.654
+      },
+      "sourceOrder": {
+        "jpdb": 149,
+        "jiten": 150,
+        "jpdbGeometric": 148,
+        "jitenGeometric": 150,
+        "jpdbKana": 118,
+        "jitenKana": 148
+      },
+      "combinedScore": 781305996,
+      "sourceImbalance": 781856663,
+      "kanaTieBreak": 857707783
+    },
+    {
+      "id": "verb.refaaia",
+      "originalOrder": 54,
+      "overallOrder": 165,
+      "intransitive": {
+        "term": "留まる",
+        "reading": "とどまる",
+        "lookupTerm": "留まる",
+        "jiten": {
+          "rank": 15579,
+          "kanaRank": 6737,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "留める",
+        "reading": "とどめる",
+        "lookupTerm": "留める",
+        "jiten": {
+          "rank": 90722,
+          "kanaRank": 5384,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 90722,
+        "geometricMean": 37594.654
+      },
+      "sourceOrder": {
+        "jpdb": 155,
+        "jiten": 171,
+        "jpdbGeometric": 149,
+        "jitenGeometric": 170,
+        "jpdbKana": 20,
+        "jitenKana": 17
+      },
+      "combinedScore": 840407956,
+      "sourceImbalance": 885280845,
+      "kanaTieBreak": 694830106
+    },
+    {
+      "id": "verb.refaala",
+      "originalOrder": 55,
+      "overallOrder": 111,
+      "intransitive": {
+        "term": "広まる",
+        "reading": "ひろまる",
+        "lookupTerm": "広まる",
+        "jiten": {
+          "rank": 4895,
+          "kanaRank": 88001,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "広める",
+        "reading": "ひろめる",
+        "lookupTerm": "広める",
+        "jiten": {
+          "rank": 7676,
+          "kanaRank": 94642,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7676,
+        "geometricMean": 6129.765
+      },
+      "sourceOrder": {
+        "jpdb": 111,
+        "jiten": 111,
+        "jpdbGeometric": 125,
+        "jitenGeometric": 124,
+        "jpdbKana": 141,
+        "jitenKana": 157
+      },
+      "combinedScore": 697542395,
+      "sourceImbalance": 701320831,
+      "kanaTieBreak": 881636175
+    },
+    {
+      "id": "verb.refaama",
+      "originalOrder": 56,
+      "overallOrder": 103,
+      "intransitive": {
+        "term": "深まる",
+        "reading": "ふかまる",
+        "lookupTerm": "深まる",
+        "jiten": {
+          "rank": 6407,
+          "kanaRank": 121798,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "深める",
+        "reading": "ふかめる",
+        "lookupTerm": "深める",
+        "jiten": {
+          "rank": 5087,
+          "kanaRank": 159451,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6407,
+        "geometricMean": 5708.976
+      },
+      "sourceOrder": {
+        "jpdb": 110,
+        "jiten": 101,
+        "jpdbGeometric": 122,
+        "jitenGeometric": 118,
+        "jpdbKana": 165,
+        "jitenKana": 167
+      },
+      "combinedScore": 689195675,
+      "sourceImbalance": 698639310,
+      "kanaTieBreak": 930866455
+    },
+    {
+      "id": "verb.refaana",
+      "originalOrder": 57,
+      "overallOrder": 83,
+      "intransitive": {
+        "term": "曲がる",
+        "reading": "まがる",
+        "lookupTerm": "曲がる",
+        "jiten": {
+          "rank": 3462,
+          "kanaRank": 52929,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "曲げる",
+        "reading": "まげる",
+        "lookupTerm": "曲げる",
+        "jiten": {
+          "rank": 4305,
+          "kanaRank": 44125,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4305,
+        "geometricMean": 3860.558
+      },
+      "sourceOrder": {
+        "jpdb": 82,
+        "jiten": 83,
+        "jpdbGeometric": 99,
+        "jitenGeometric": 102,
+        "jpdbKana": 119,
+        "jitenKana": 121
+      },
+      "combinedScore": 653834738,
+      "sourceImbalance": 658746623,
+      "kanaTieBreak": 842576644
+    },
+    {
+      "id": "verb.refaaoa",
+      "originalOrder": 58,
+      "overallOrder": 86,
+      "intransitive": {
+        "term": "混ざる",
+        "reading": "まざる",
+        "lookupTerm": "混ざる",
+        "jiten": {
+          "rank": 4500,
+          "kanaRank": 31147,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "混ぜる",
+        "reading": "まぜる",
+        "lookupTerm": "混ぜる",
+        "jiten": {
+          "rank": 3647,
+          "kanaRank": 22831,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4500,
+        "geometricMean": 4051.111
+      },
+      "sourceOrder": {
+        "jpdb": 89,
+        "jiten": 85,
+        "jpdbGeometric": 109,
+        "jitenGeometric": 104,
+        "jpdbKana": 98,
+        "jitenKana": 74
+      },
+      "combinedScore": 659324294,
+      "sourceImbalance": 666291015,
+      "kanaTieBreak": 812676530
+    },
+    {
+      "id": "verb.refaapa",
+      "originalOrder": 59,
+      "overallOrder": 152,
+      "intransitive": {
+        "term": "纏まる",
+        "reading": "まとまる",
+        "lookupTerm": "纏まる",
+        "jiten": {
+          "rank": 32163,
+          "kanaRank": 4618,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "纏める",
+        "reading": "まとめる",
+        "lookupTerm": "纏める",
+        "jiten": {
+          "rank": 21305,
+          "kanaRank": 1200,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 32163,
+        "geometricMean": 26176.95
+      },
+      "sourceOrder": {
+        "jpdb": 152,
+        "jiten": 156,
+        "jpdbGeometric": 154,
+        "jitenGeometric": 162,
+        "jpdbKana": 7,
+        "jitenKana": 13
+      },
+      "combinedScore": 796860001,
+      "sourceImbalance": 804864022,
+      "kanaTieBreak": 642776338
+    },
+    {
+      "id": "verb.refaaqa",
+      "originalOrder": 60,
+      "overallOrder": 164,
+      "intransitive": {
+        "term": "茹だる",
+        "reading": "ゆだる",
+        "lookupTerm": "茹だる",
+        "jiten": {
+          "rank": 42623,
+          "kanaRank": 65531,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "茹でる",
+        "reading": "ゆでる",
+        "lookupTerm": "茹でる",
+        "jiten": {
+          "rank": 18571,
+          "kanaRank": 25297,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 42623,
+        "geometricMean": 28134.529
+      },
+      "sourceOrder": {
+        "jpdb": 165,
+        "jiten": 162,
+        "jpdbGeometric": 168,
+        "jitenGeometric": 166,
+        "jpdbKana": 148,
+        "jitenKana": 135
+      },
+      "combinedScore": 836634078,
+      "sourceImbalance": 846568316,
+      "kanaTieBreak": 871642534
+    },
+    {
+      "id": "verb.refaara",
+      "originalOrder": 61,
+      "overallOrder": 138,
+      "intransitive": {
+        "term": "弱まる",
+        "reading": "よわまる",
+        "lookupTerm": "弱まる",
+        "jiten": {
+          "rank": 7445,
+          "kanaRank": 171089,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "弱める",
+        "reading": "よわめる",
+        "lookupTerm": "弱める",
+        "jiten": {
+          "rank": 12986,
+          "kanaRank": 175542,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 12986,
+        "geometricMean": 9832.638
+      },
+      "sourceOrder": {
+        "jpdb": 138,
+        "jiten": 138,
+        "jpdbGeometric": 145,
+        "jitenGeometric": 143,
+        "jpdbKana": 169,
+        "jitenKana": 169
+      },
+      "combinedScore": 744261189,
+      "sourceImbalance": 753988663,
+      "kanaTieBreak": 942272769
+    },
+    {
+      "id": "verb.refbaa",
+      "originalOrder": 62,
+      "overallOrder": 146,
+      "intransitive": {
+        "term": "赤らむ",
+        "reading": "あからむ",
+        "lookupTerm": "赤らむ",
+        "jiten": {
+          "rank": 20057,
+          "kanaRank": 172955,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "赤らめる",
+        "reading": "あからめる",
+        "lookupTerm": "赤らめる",
+        "jiten": {
+          "rank": 10180,
+          "kanaRank": 121710,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 20057,
+        "geometricMean": 14289.166
+      },
+      "sourceOrder": {
+        "jpdb": 145,
+        "jiten": 147,
+        "jpdbGeometric": 151,
+        "jitenGeometric": 148,
+        "jpdbKana": 167,
+        "jitenKana": 168
+      },
+      "combinedScore": 771769364,
+      "sourceImbalance": 775295499,
+      "kanaTieBreak": 936276846
+    },
+    {
+      "id": "verb.refbda",
+      "originalOrder": 63,
+      "overallOrder": 44,
+      "intransitive": {
+        "term": "浮かぶ",
+        "reading": "うかぶ",
+        "lookupTerm": "浮かぶ",
+        "jiten": {
+          "rank": 1555,
+          "kanaRank": 42442,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "浮かべる",
+        "reading": "うかべる",
+        "lookupTerm": "浮かべる",
+        "jiten": {
+          "rank": 2573,
+          "kanaRank": 41899,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2573,
+        "geometricMean": 2000.254
+      },
+      "sourceOrder": {
+        "jpdb": 35,
+        "jiten": 51,
+        "jpdbGeometric": 45,
+        "jitenGeometric": 57,
+        "jpdbKana": 78,
+        "jitenKana": 94
+      },
+      "combinedScore": 590360205,
+      "sourceImbalance": 609019467,
+      "kanaTieBreak": 811104716
+    },
+    {
+      "id": "verb.refbea",
+      "originalOrder": 64,
+      "overallOrder": 97,
+      "intransitive": {
+        "term": "傾く",
+        "reading": "かたむく",
+        "lookupTerm": "傾く",
+        "jiten": {
+          "rank": 4226,
+          "kanaRank": 60311,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "傾ける",
+        "reading": "かたむける",
+        "lookupTerm": "傾ける",
+        "jiten": {
+          "rank": 6060,
+          "kanaRank": 57872,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6060,
+        "geometricMean": 5060.589
+      },
+      "sourceOrder": {
+        "jpdb": 94,
+        "jiten": 98,
+        "jpdbGeometric": 110,
+        "jitenGeometric": 112,
+        "jpdbKana": 123,
+        "jitenKana": 129
+      },
+      "combinedScore": 675071745,
+      "sourceImbalance": 675434626,
+      "kanaTieBreak": 848733260
+    },
+    {
+      "id": "verb.refbfa",
+      "originalOrder": 65,
+      "overallOrder": 76,
+      "intransitive": {
+        "term": "叶う",
+        "reading": "かなう",
+        "lookupTerm": "叶う",
+        "jiten": {
+          "rank": 3293,
+          "kanaRank": 1264,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "叶える",
+        "reading": "かなえる",
+        "lookupTerm": "叶える",
+        "jiten": {
+          "rank": 3583,
+          "kanaRank": 6853,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3583,
+        "geometricMean": 3434.941
+      },
+      "sourceOrder": {
+        "jpdb": 75,
+        "jiten": 76,
+        "jpdbGeometric": 100,
+        "jitenGeometric": 93,
+        "jpdbKana": 28,
+        "jitenKana": 19
+      },
+      "combinedScore": 641768046,
+      "sourceImbalance": 648846042,
+      "kanaTieBreak": 705587535
+    },
+    {
+      "id": "verb.refbga",
+      "originalOrder": 66,
+      "overallOrder": 100,
+      "intransitive": {
+        "term": "絡む",
+        "reading": "からむ",
+        "lookupTerm": "絡む",
+        "jiten": {
+          "rank": 2211,
+          "kanaRank": 14790,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "絡める",
+        "reading": "からめる",
+        "lookupTerm": "絡める",
+        "jiten": {
+          "rank": 6372,
+          "kanaRank": 27249,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6372,
+        "geometricMean": 3753.464
+      },
+      "sourceOrder": {
+        "jpdb": 100,
+        "jiten": 100,
+        "jpdbGeometric": 102,
+        "jitenGeometric": 98,
+        "jpdbKana": 83,
+        "jitenKana": 70
+      },
+      "combinedScore": 683092675,
+      "sourceImbalance": 686858046,
+      "kanaTieBreak": 798745352
+    },
+    {
+      "id": "verb.refbha",
+      "originalOrder": 67,
+      "overallOrder": 81,
+      "intransitive": {
+        "term": "苦しむ",
+        "reading": "くるしむ",
+        "lookupTerm": "苦しむ",
+        "jiten": {
+          "rank": 1638,
+          "kanaRank": 84432,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "苦しめる",
+        "reading": "くるしめる",
+        "lookupTerm": "苦しめる",
+        "jiten": {
+          "rank": 3568,
+          "kanaRank": 110863,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3568,
+        "geometricMean": 2417.516
+      },
+      "sourceOrder": {
+        "jpdb": 88,
+        "jiten": 75,
+        "jpdbGeometric": 70,
+        "jitenGeometric": 68,
+        "jpdbKana": 159,
+        "jitenKana": 163
+      },
+      "combinedScore": 649639947,
+      "sourceImbalance": 664915093,
+      "kanaTieBreak": 902063494
+    },
+    {
+      "id": "verb.refbia",
+      "originalOrder": 68,
+      "overallOrder": 91,
+      "intransitive": {
+        "term": "沈む",
+        "reading": "しずむ",
+        "lookupTerm": "沈む",
+        "jiten": {
+          "rank": 1980,
+          "kanaRank": 49527,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "沈める",
+        "reading": "しずめる",
+        "lookupTerm": "沈める",
+        "jiten": {
+          "rank": 4776,
+          "kanaRank": 50476,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4776,
+        "geometricMean": 3075.139
+      },
+      "sourceOrder": {
+        "jpdb": 93,
+        "jiten": 90,
+        "jpdbGeometric": 94,
+        "jitenGeometric": 90,
+        "jpdbKana": 120,
+        "jitenKana": 113
+      },
+      "combinedScore": 665802518,
+      "sourceImbalance": 674632200,
+      "kanaTieBreak": 840737590
+    },
+    {
+      "id": "verb.refbja",
+      "originalOrder": 69,
+      "overallOrder": 105,
+      "intransitive": {
+        "term": "従う",
+        "reading": "したがう",
+        "lookupTerm": "従う",
+        "jiten": {
+          "rank": 1225,
+          "kanaRank": 11385,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "従える",
+        "reading": "したがえる",
+        "lookupTerm": "従える",
+        "jiten": {
+          "rank": 7373,
+          "kanaRank": 77737,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7373,
+        "geometricMean": 3005.316
+      },
+      "sourceOrder": {
+        "jpdb": 103,
+        "jiten": 107,
+        "jpdbGeometric": 98,
+        "jitenGeometric": 87,
+        "jpdbKana": 132,
+        "jitenKana": 147
+      },
+      "combinedScore": 690245061,
+      "sourceImbalance": 690641120,
+      "kanaTieBreak": 865249434
+    },
+    {
+      "id": "verb.refbka",
+      "originalOrder": 70,
+      "overallOrder": 106,
+      "intransitive": {
+        "term": "退く",
+        "reading": "しりぞく",
+        "lookupTerm": "退く",
+        "jiten": {
+          "rank": 5121,
+          "kanaRank": 80741,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "退ける",
+        "reading": "しりぞける",
+        "lookupTerm": "退ける",
+        "jiten": {
+          "rank": 6936,
+          "kanaRank": 75824,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6936,
+        "geometricMean": 5959.803
+      },
+      "sourceOrder": {
+        "jpdb": 108,
+        "jiten": 105,
+        "jpdbGeometric": 121,
+        "jitenGeometric": 122,
+        "jpdbKana": 134,
+        "jitenKana": 149
+      },
+      "combinedScore": 691459551,
+      "sourceImbalance": 697015601,
+      "kanaTieBreak": 868583089
+    },
+    {
+      "id": "verb.refbla",
+      "originalOrder": 71,
+      "overallOrder": 159,
+      "intransitive": {
+        "term": "竦む",
+        "reading": "すくむ",
+        "lookupTerm": "竦む",
+        "jiten": {
+          "rank": 20699,
+          "kanaRank": 16244,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "竦める",
+        "reading": "すくめる",
+        "lookupTerm": "竦める",
+        "jiten": {
+          "rank": 36975,
+          "kanaRank": 24646,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 36975,
+        "geometricMean": 27664.879
+      },
+      "sourceOrder": {
+        "jpdb": 161,
+        "jiten": 159,
+        "jpdbGeometric": 165,
+        "jitenGeometric": 164,
+        "jpdbKana": 69,
+        "jitenKana": 60
+      },
+      "combinedScore": 818923378,
+      "sourceImbalance": 822170573,
+      "kanaTieBreak": 785486747
+    },
+    {
+      "id": "verb.refbma",
+      "originalOrder": 72,
+      "overallOrder": 26,
+      "intransitive": {
+        "term": "進む",
+        "reading": "すすむ",
+        "lookupTerm": "進む",
+        "jiten": {
+          "rank": 589,
+          "kanaRank": 21795,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "進める",
+        "reading": "すすめる",
+        "lookupTerm": "進める",
+        "jiten": {
+          "rank": 1026,
+          "kanaRank": 14174,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1026,
+        "geometricMean": 777.376
+      },
+      "sourceOrder": {
+        "jpdb": 27,
+        "jiten": 27,
+        "jpdbGeometric": 24,
+        "jitenGeometric": 31,
+        "jpdbKana": 45,
+        "jitenKana": 53
+      },
+      "combinedScore": 543575097,
+      "sourceImbalance": 549385451,
+      "kanaTieBreak": 766325054
+    },
+    {
+      "id": "verb.refbna",
+      "originalOrder": 73,
+      "overallOrder": 39,
+      "intransitive": {
+        "term": "育つ",
+        "reading": "そだつ",
+        "lookupTerm": "育つ",
+        "jiten": {
+          "rank": 1562,
+          "kanaRank": 51261,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "育てる",
+        "reading": "そだてる",
+        "lookupTerm": "育てる",
+        "jiten": {
+          "rank": 1257,
+          "kanaRank": 71373,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1562,
+        "geometricMean": 1401.226
+      },
+      "sourceOrder": {
+        "jpdb": 43,
+        "jiten": 39,
+        "jpdbGeometric": 51,
+        "jitenGeometric": 46,
+        "jpdbKana": 149,
+        "jitenKana": 144
+      },
+      "combinedScore": 585160219,
+      "sourceImbalance": 599987263,
+      "kanaTieBreak": 875176981
+    },
+    {
+      "id": "verb.refboa",
+      "originalOrder": 74,
+      "overallOrder": 85,
+      "intransitive": {
+        "term": "揃う",
+        "reading": "そろう",
+        "lookupTerm": "揃う",
+        "jiten": {
+          "rank": 2801,
+          "kanaRank": 3838,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "揃える",
+        "reading": "そろえる",
+        "lookupTerm": "揃える",
+        "jiten": {
+          "rank": 4684,
+          "kanaRank": 8144,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4684,
+        "geometricMean": 3622.138
+      },
+      "sourceOrder": {
+        "jpdb": 83,
+        "jiten": 88,
+        "jpdbGeometric": 88,
+        "jitenGeometric": 95,
+        "jpdbKana": 22,
+        "jitenKana": 21
+      },
+      "combinedScore": 657404698,
+      "sourceImbalance": 659344667,
+      "kanaTieBreak": 702883351
+    },
+    {
+      "id": "verb.refbpa",
+      "originalOrder": 75,
+      "overallOrder": 22,
+      "intransitive": {
+        "term": "立つ",
+        "reading": "たつ",
+        "lookupTerm": "立つ",
+        "jiten": {
+          "rank": 439,
+          "kanaRank": 31928,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "立てる",
+        "reading": "たてる",
+        "lookupTerm": "立てる",
+        "jiten": {
+          "rank": 914,
+          "kanaRank": 9340,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 914,
+        "geometricMean": 633.44
+      },
+      "sourceOrder": {
+        "jpdb": 22,
+        "jiten": 23,
+        "jpdbGeometric": 16,
+        "jitenGeometric": 24,
+        "jpdbKana": 17,
+        "jitenKana": 76
+      },
+      "combinedScore": 533725149,
+      "sourceImbalance": 538640533,
+      "kanaTieBreak": 748003584
+    },
+    {
+      "id": "verb.refbqa",
+      "originalOrder": 76,
+      "overallOrder": 137,
+      "intransitive": {
+        "term": "違う",
+        "reading": "ちがう",
+        "lookupTerm": "違う",
+        "jiten": {
+          "rank": 108,
+          "kanaRank": 4634,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "違える",
+        "reading": "ちがえる",
+        "lookupTerm": "違える",
+        "jiten": {
+          "rank": 11247,
+          "kanaRank": 95726,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 11247,
+        "geometricMean": 1102.123
+      },
+      "sourceOrder": {
+        "jpdb": 140,
+        "jiten": 133,
+        "jpdbGeometric": 47,
+        "jitenGeometric": 41,
+        "jpdbKana": 171,
+        "jitenKana": 160
+      },
+      "combinedScore": 743194067,
+      "sourceImbalance": 763002939,
+      "kanaTieBreak": 926294818
+    },
+    {
+      "id": "verb.refbra",
+      "originalOrder": 77,
+      "overallOrder": 119,
+      "intransitive": {
+        "term": "縮む",
+        "reading": "ちぢむ",
+        "lookupTerm": "縮む",
+        "jiten": {
+          "rank": 8226,
+          "kanaRank": 70686,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "縮める",
+        "reading": "ちぢめる",
+        "lookupTerm": "縮める",
+        "jiten": {
+          "rank": 6125,
+          "kanaRank": 71091,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8226,
+        "geometricMean": 7098.186
+      },
+      "sourceOrder": {
+        "jpdb": 122,
+        "jiten": 117,
+        "jpdbGeometric": 135,
+        "jitenGeometric": 131,
+        "jpdbKana": 139,
+        "jitenKana": 142
+      },
+      "combinedScore": 711566700,
+      "sourceImbalance": 724003535,
+      "kanaTieBreak": 869058752
+    },
+    {
+      "id": "verb.refbsa",
+      "originalOrder": 78,
+      "overallOrder": 42,
+      "intransitive": {
+        "term": "付く",
+        "reading": "つく",
+        "lookupTerm": "付く",
+        "jiten": {
+          "rank": 1823,
+          "kanaRank": 314,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "付ける",
+        "reading": "つける",
+        "lookupTerm": "付ける",
+        "jiten": {
+          "rank": 1627,
+          "kanaRank": 333,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1823,
+        "geometricMean": 1722.214
+      },
+      "sourceOrder": {
+        "jpdb": 40,
+        "jiten": 43,
+        "jpdbGeometric": 55,
+        "jitenGeometric": 53,
+        "jpdbKana": 3,
+        "jitenKana": 2
+      },
+      "combinedScore": 586965267,
+      "sourceImbalance": 591621664,
+      "kanaTieBreak": 463268646
+    },
+    {
+      "id": "verb.refbta",
+      "originalOrder": 79,
+      "overallOrder": 38,
+      "intransitive": {
+        "term": "届く",
+        "reading": "とどく",
+        "lookupTerm": "届く",
+        "jiten": {
+          "rank": 621,
+          "kanaRank": 27426,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "届ける",
+        "reading": "とどける",
+        "lookupTerm": "届ける",
+        "jiten": {
+          "rank": 1469,
+          "kanaRank": 42040,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1469,
+        "geometricMean": 955.117
+      },
+      "sourceOrder": {
+        "jpdb": 45,
+        "jiten": 37,
+        "jpdbGeometric": 39,
+        "jitenGeometric": 34,
+        "jpdbKana": 97,
+        "jitenKana": 91
+      },
+      "combinedScore": 584614160,
+      "sourceImbalance": 603652443,
+      "kanaTieBreak": 824294475
+    },
+    {
+      "id": "verb.refbua",
+      "originalOrder": 80,
+      "overallOrder": 19,
+      "intransitive": {
+        "term": "向く",
+        "reading": "むく",
+        "lookupTerm": "向く",
+        "jiten": {
+          "rank": 861,
+          "kanaRank": 150349,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "向ける",
+        "reading": "むける",
+        "lookupTerm": "向ける",
+        "jiten": {
+          "rank": 822,
+          "kanaRank": 20533,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 861,
+        "geometricMean": 841.274
+      },
+      "sourceOrder": {
+        "jpdb": 18,
+        "jiten": 21,
+        "jpdbGeometric": 27,
+        "jitenGeometric": 32,
+        "jpdbKana": 114,
+        "jitenKana": 165
+      },
+      "combinedScore": 526525563,
+      "sourceImbalance": 528868696,
+      "kanaTieBreak": 881166935
+    },
+    {
+      "id": "verb.refbva",
+      "originalOrder": 81,
+      "overallOrder": 161,
+      "intransitive": {
+        "term": "止む",
+        "reading": "やむ",
+        "lookupTerm": "止む",
+        "jiten": {
+          "rank": 4732,
+          "kanaRank": 4420,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "止める",
+        "reading": "やめる",
+        "lookupTerm": "止める",
+        "jiten": {
+          "rank": 86863,
+          "kanaRank": 135,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 86863,
+        "geometricMean": 20274.016
+      },
+      "sourceOrder": {
+        "jpdb": 143,
+        "jiten": 170,
+        "jpdbGeometric": 141,
+        "jitenGeometric": 157,
+        "jpdbKana": 10,
+        "jitenKana": 12
+      },
+      "combinedScore": 824503307,
+      "sourceImbalance": 881909947,
+      "kanaTieBreak": 659961633
+    },
+    {
+      "id": "verb.refbwa",
+      "originalOrder": 82,
+      "overallOrder": 99,
+      "intransitive": {
+        "term": "歪む",
+        "reading": "ゆがむ",
+        "lookupTerm": "歪む",
+        "jiten": {
+          "rank": 3790,
+          "kanaRank": 12978,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "歪める",
+        "reading": "ゆがめる",
+        "lookupTerm": "歪める",
+        "jiten": {
+          "rank": 7152,
+          "kanaRank": 25315,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7152,
+        "geometricMean": 5206.35
+      },
+      "sourceOrder": {
+        "jpdb": 91,
+        "jiten": 106,
+        "jpdbGeometric": 106,
+        "jitenGeometric": 114,
+        "jpdbKana": 67,
+        "jitenKana": 61
+      },
+      "combinedScore": 680791582,
+      "sourceImbalance": 688281383,
+      "kanaTieBreak": 782818245
+    },
+    {
+      "id": "verb.refbxa",
+      "originalOrder": 83,
+      "overallOrder": 88,
+      "intransitive": {
+        "term": "緩む",
+        "reading": "ゆるむ",
+        "lookupTerm": "緩む",
+        "jiten": {
+          "rank": 4739,
+          "kanaRank": 17573,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "緩める",
+        "reading": "ゆるめる",
+        "lookupTerm": "緩める",
+        "jiten": {
+          "rank": 5310,
+          "kanaRank": 18725,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5310,
+        "geometricMean": 5016.382
+      },
+      "sourceOrder": {
+        "jpdb": 81,
+        "jiten": 95,
+        "jpdbGeometric": 107,
+        "jitenGeometric": 111,
+        "jpdbKana": 43,
+        "jitenKana": 45
+      },
+      "combinedScore": 661676778,
+      "sourceImbalance": 665190642,
+      "kanaTieBreak": 758560823
+    },
+    {
+      "id": "verb.refcaa",
+      "originalOrder": 84,
+      "overallOrder": 80,
+      "intransitive": {
+        "term": "折れる",
+        "reading": "おれる",
+        "lookupTerm": "折れる",
+        "jiten": {
+          "rank": 2197,
+          "kanaRank": 23164,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "折る",
+        "reading": "おる",
+        "lookupTerm": "折る",
+        "jiten": {
+          "rank": 4199,
+          "kanaRank": 593,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4199,
+        "geometricMean": 3037.302
+      },
+      "sourceOrder": {
+        "jpdb": 74,
+        "jiten": 82,
+        "jpdbGeometric": 83,
+        "jitenGeometric": 88,
+        "jpdbKana": 164,
+        "jitenKana": 56
+      },
+      "combinedScore": 646960089,
+      "sourceImbalance": 646989922,
+      "kanaTieBreak": 845941397
+    },
+    {
+      "id": "verb.refcba",
+      "originalOrder": 85,
+      "overallOrder": 29,
+      "intransitive": {
+        "term": "切れる",
+        "reading": "きれる",
+        "lookupTerm": "切れる",
+        "jiten": {
+          "rank": 1009,
+          "kanaRank": 1238,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "切る",
+        "reading": "きる",
+        "lookupTerm": "切る",
+        "jiten": {
+          "rank": 586,
+          "kanaRank": 2954,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1009,
+        "geometricMean": 768.943
+      },
+      "sourceOrder": {
+        "jpdb": 32,
+        "jiten": 26,
+        "jpdbGeometric": 28,
+        "jitenGeometric": 30,
+        "jpdbKana": 160,
+        "jitenKana": 5
+      },
+      "combinedScore": 549220611,
+      "sourceImbalance": 561970918,
+      "kanaTieBreak": 763143972
+    },
+    {
+      "id": "verb.refcca",
+      "originalOrder": 86,
+      "overallOrder": 92,
+      "intransitive": {
+        "term": "砕ける",
+        "reading": "くだける",
+        "lookupTerm": "砕ける",
+        "jiten": {
+          "rank": 5327,
+          "kanaRank": 39982,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "砕く",
+        "reading": "くだく",
+        "lookupTerm": "砕く",
+        "jiten": {
+          "rank": 5888,
+          "kanaRank": 52662,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5888,
+        "geometricMean": 5600.48
+      },
+      "sourceOrder": {
+        "jpdb": 84,
+        "jiten": 97,
+        "jpdbGeometric": 108,
+        "jitenGeometric": 115,
+        "jpdbKana": 109,
+        "jitenKana": 118
+      },
+      "combinedScore": 666634761,
+      "sourceImbalance": 673202061,
+      "kanaTieBreak": 840100857
+    },
+    {
+      "id": "verb.refcda",
+      "originalOrder": 87,
+      "overallOrder": 108,
+      "intransitive": {
+        "term": "裂ける",
+        "reading": "さける",
+        "lookupTerm": "裂ける",
+        "jiten": {
+          "rank": 7543,
+          "kanaRank": 95556,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "裂く",
+        "reading": "さく",
+        "lookupTerm": "裂く",
+        "jiten": {
+          "rank": 7774,
+          "kanaRank": 94312,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7774,
+        "geometricMean": 7657.629
+      },
+      "sourceOrder": {
+        "jpdb": 104,
+        "jiten": 112,
+        "jpdbGeometric": 120,
+        "jitenGeometric": 137,
+        "jpdbKana": 75,
+        "jitenKana": 159
+      },
+      "combinedScore": 694272278,
+      "sourceImbalance": 694747654,
+      "kanaTieBreak": 840530623
+    },
+    {
+      "id": "verb.refcea",
+      "originalOrder": 88,
+      "overallOrder": 157,
+      "intransitive": {
+        "term": "溶ける",
+        "reading": "とける",
+        "lookupTerm": "溶ける",
+        "jiten": {
+          "rank": 2741,
+          "kanaRank": 16697,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "溶く",
+        "reading": "とく",
+        "lookupTerm": "溶く",
+        "jiten": {
+          "rank": 28378,
+          "kanaRank": 42510,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 28378,
+        "geometricMean": 8819.529
+      },
+      "sourceOrder": {
+        "jpdb": 160,
+        "jiten": 152,
+        "jpdbGeometric": 140,
+        "jitenGeometric": 140,
+        "jpdbKana": 53,
+        "jitenKana": 95
+      },
+      "combinedScore": 806744735,
+      "sourceImbalance": 818334622,
+      "kanaTieBreak": 796285643
+    },
+    {
+      "id": "verb.refceb",
+      "originalOrder": 89,
+      "overallOrder": 54,
+      "intransitive": {
+        "term": "解ける",
+        "reading": "とける",
+        "lookupTerm": "解ける",
+        "jiten": {
+          "rank": 2656,
+          "kanaRank": 16697,
+          "matches": 2,
+          "resolution": {
+            "kind": "api-override",
+            "wordId": 1198910,
+            "readingIndex": 0,
+            "reason": "选择解开、解决义；不采用融化义的 6953。"
+          }
+        }
+      },
+      "transitive": {
+        "term": "解く",
+        "reading": "とく",
+        "lookupTerm": "解く",
+        "jiten": {
+          "rank": 1846,
+          "kanaRank": 42510,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2656,
+        "geometricMean": 2214.266
+      },
+      "sourceOrder": {
+        "jpdb": 56,
+        "jiten": 55,
+        "jpdbGeometric": 64,
+        "jitenGeometric": 62,
+        "jpdbKana": 54,
+        "jitenKana": 96
+      },
+      "combinedScore": 614671704,
+      "sourceImbalance": 617862761,
+      "kanaTieBreak": 796285643
+    },
+    {
+      "id": "verb.refcfa",
+      "originalOrder": 90,
+      "overallOrder": 23,
+      "intransitive": {
+        "term": "取れる",
+        "reading": "とれる",
+        "lookupTerm": "取れる",
+        "jiten": {
+          "rank": 765,
+          "kanaRank": 3217,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "取る",
+        "reading": "とる",
+        "lookupTerm": "取る",
+        "jiten": {
+          "rank": 240,
+          "kanaRank": 757,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 765,
+        "geometricMean": 428.486
+      },
+      "sourceOrder": {
+        "jpdb": 31,
+        "jiten": 17,
+        "jpdbGeometric": 22,
+        "jitenGeometric": 13,
+        "jpdbKana": 161,
+        "jitenKana": 7
+      },
+      "combinedScore": 536093484,
+      "sourceImbalance": 557161145,
+      "kanaTieBreak": 766793442
+    },
+    {
+      "id": "verb.refcga",
+      "originalOrder": 91,
+      "overallOrder": 31,
+      "intransitive": {
+        "term": "抜ける",
+        "reading": "ぬける",
+        "lookupTerm": "抜ける",
+        "jiten": {
+          "rank": 891,
+          "kanaRank": 17221,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "抜く",
+        "reading": "ぬく",
+        "lookupTerm": "抜く",
+        "jiten": {
+          "rank": 1244,
+          "kanaRank": 12216,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1244,
+        "geometricMean": 1052.808
+      },
+      "sourceOrder": {
+        "jpdb": 29,
+        "jiten": 34,
+        "jpdbGeometric": 35,
+        "jitenGeometric": 40,
+        "jpdbKana": 39,
+        "jitenKana": 42
+      },
+      "combinedScore": 553509065,
+      "sourceImbalance": 554325446,
+      "kanaTieBreak": 752699179
+    },
+    {
+      "id": "verb.refcha",
+      "originalOrder": 92,
+      "overallOrder": 172,
+      "intransitive": {
+        "term": "捩れる",
+        "reading": "ねじれる",
+        "lookupTerm": "捩れる",
+        "jiten": {
+          "rank": 53224,
+          "kanaRank": 21069,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "捩じる",
+        "reading": "ねじる",
+        "lookupTerm": "捩じる",
+        "jiten": {
+          "rank": 56576,
+          "kanaRank": 16535,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 56576,
+        "geometricMean": 54874.411
+      },
+      "sourceOrder": {
+        "jpdb": 172,
+        "jiten": 165,
+        "jpdbGeometric": 172,
+        "jitenGeometric": 172,
+        "jpdbKana": 77,
+        "jitenKana": 50
+      },
+      "combinedScore": 922246133,
+      "sourceImbalance": 995831333,
+      "kanaTieBreak": 783115294
+    },
+    {
+      "id": "verb.refcia",
+      "originalOrder": 93,
+      "overallOrder": 162,
+      "intransitive": {
+        "term": "剥げる",
+        "reading": "はげる",
+        "lookupTerm": "剥げる",
+        "jiten": {
+          "rank": 41010,
+          "kanaRank": 48299,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "剥ぐ",
+        "reading": "はぐ",
+        "lookupTerm": "剥ぐ",
+        "jiten": {
+          "rank": 18799,
+          "kanaRank": 13139,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 41010,
+        "geometricMean": 27765.932
+      },
+      "sourceOrder": {
+        "jpdb": 162,
+        "jiten": 161,
+        "jpdbGeometric": 166,
+        "jitenGeometric": 165,
+        "jpdbKana": 72,
+        "jitenKana": 109
+      },
+      "combinedScore": 828945634,
+      "sourceImbalance": 834183098,
+      "kanaTieBreak": 813732213
+    },
+    {
+      "id": "verb.refcja",
+      "originalOrder": 94,
+      "overallOrder": 110,
+      "intransitive": {
+        "term": "弾ける",
+        "reading": "はじける",
+        "lookupTerm": "弾ける",
+        "jiten": {
+          "rank": 6552,
+          "kanaRank": 14136,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "弾く",
+        "reading": "はじく",
+        "lookupTerm": "弾く",
+        "jiten": {
+          "rank": 3586,
+          "kanaRank": 14627,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6552,
+        "geometricMean": 4847.213
+      },
+      "sourceOrder": {
+        "jpdb": 117,
+        "jiten": 102,
+        "jpdbGeometric": 131,
+        "jitenGeometric": 108,
+        "jpdbKana": 163,
+        "jitenKana": 35
+      },
+      "combinedScore": 696751830,
+      "sourceImbalance": 712016375,
+      "kanaTieBreak": 826880150
+    },
+    {
+      "id": "verb.refcka",
+      "originalOrder": 95,
+      "overallOrder": 160,
+      "intransitive": {
+        "term": "剥ける",
+        "reading": "むける",
+        "lookupTerm": "剥ける",
+        "jiten": {
+          "rank": 31890,
+          "kanaRank": 20533,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "剥く",
+        "reading": "むく",
+        "lookupTerm": "剥く",
+        "jiten": {
+          "rank": 14590,
+          "kanaRank": 150349,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 31890,
+        "geometricMean": 21570.236
+      },
+      "sourceOrder": {
+        "jpdb": 163,
+        "jiten": 155,
+        "jpdbGeometric": 162,
+        "jitenGeometric": 159,
+        "jpdbKana": 115,
+        "jitenKana": 166
+      },
+      "combinedScore": 819418028,
+      "sourceImbalance": 834633071,
+      "kanaTieBreak": 881166935
+    },
+    {
+      "id": "verb.refcla",
+      "originalOrder": 96,
+      "overallOrder": 63,
+      "intransitive": {
+        "term": "焼ける",
+        "reading": "やける",
+        "lookupTerm": "焼ける",
+        "jiten": {
+          "rank": 3055,
+          "kanaRank": 21664,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "焼く",
+        "reading": "やく",
+        "lookupTerm": "焼く",
+        "jiten": {
+          "rank": 1492,
+          "kanaRank": 19588,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3055,
+        "geometricMean": 2134.961
+      },
+      "sourceOrder": {
+        "jpdb": 64,
+        "jiten": 65,
+        "jpdbGeometric": 67,
+        "jitenGeometric": 60,
+        "jpdbKana": 89,
+        "jitenKana": 52
+      },
+      "combinedScore": 625571438,
+      "sourceImbalance": 628812223,
+      "kanaTieBreak": 792324080
+    },
+    {
+      "id": "verb.refcma",
+      "originalOrder": 97,
+      "overallOrder": 84,
+      "intransitive": {
+        "term": "破れる",
+        "reading": "やぶれる",
+        "lookupTerm": "破れる",
+        "jiten": {
+          "rank": 4337,
+          "kanaRank": 49928,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "破る",
+        "reading": "やぶる",
+        "lookupTerm": "破る",
+        "jiten": {
+          "rank": 1810,
+          "kanaRank": 32197,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4337,
+        "geometricMean": 2801.78
+      },
+      "sourceOrder": {
+        "jpdb": 87,
+        "jiten": 84,
+        "jpdbGeometric": 95,
+        "jitenGeometric": 84,
+        "jpdbKana": 106,
+        "jitenKana": 111
+      },
+      "combinedScore": 656222319,
+      "sourceImbalance": 662947602,
+      "kanaTieBreak": 835079518
+    },
+    {
+      "id": "verb.refcna",
+      "originalOrder": 98,
+      "overallOrder": 58,
+      "intransitive": {
+        "term": "割れる",
+        "reading": "われる",
+        "lookupTerm": "割れる",
+        "jiten": {
+          "rank": 2287,
+          "kanaRank": 20344,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "割る",
+        "reading": "わる",
+        "lookupTerm": "割る",
+        "jiten": {
+          "rank": 2645,
+          "kanaRank": 10803,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2645,
+        "geometricMean": 2459.495
+      },
+      "sourceOrder": {
+        "jpdb": 58,
+        "jiten": 54,
+        "jpdbGeometric": 73,
+        "jitenGeometric": 70,
+        "jpdbKana": 63,
+        "jitenKana": 48
+      },
+      "combinedScore": 617379670,
+      "sourceImbalance": 623600418,
+      "kanaTieBreak": 770069329
+    },
+    {
+      "id": "verb.refdaa",
+      "originalOrder": 99,
+      "overallOrder": 101,
+      "intransitive": {
+        "term": "明ける",
+        "reading": "あける",
+        "lookupTerm": "明ける",
+        "jiten": {
+          "rank": 6181,
+          "kanaRank": 5221,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "明かす",
+        "reading": "あかす",
+        "lookupTerm": "明かす",
+        "jiten": {
+          "rank": 4005,
+          "kanaRank": 54070,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6181,
+        "geometricMean": 4975.43
+      },
+      "sourceOrder": {
+        "jpdb": 102,
+        "jiten": 99,
+        "jpdbGeometric": 118,
+        "jitenGeometric": 109,
+        "jpdbKana": 117,
+        "jitenKana": 123
+      },
+      "combinedScore": 683300606,
+      "sourceImbalance": 689633645,
+      "kanaTieBreak": 842275482
+    },
+    {
+      "id": "verb.refdba",
+      "originalOrder": 100,
+      "overallOrder": 153,
+      "intransitive": {
+        "term": "枯れる",
+        "reading": "かれる",
+        "lookupTerm": "枯れる",
+        "jiten": {
+          "rank": 5649,
+          "kanaRank": 25025,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "枯らす",
+        "reading": "からす",
+        "lookupTerm": "枯らす",
+        "jiten": {
+          "rank": 26207,
+          "kanaRank": 57385,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 26207,
+        "geometricMean": 12167.306
+      },
+      "sourceOrder": {
+        "jpdb": 158,
+        "jiten": 151,
+        "jpdbGeometric": 150,
+        "jitenGeometric": 146,
+        "jpdbKana": 56,
+        "jitenKana": 128
+      },
+      "combinedScore": 798849098,
+      "sourceImbalance": 808715170,
+      "kanaTieBreak": 808162145
+    },
+    {
+      "id": "verb.refdca",
+      "originalOrder": 101,
+      "overallOrder": 134,
+      "intransitive": {
+        "term": "焦げる",
+        "reading": "こげる",
+        "lookupTerm": "焦げる",
+        "jiten": {
+          "rank": 7086,
+          "kanaRank": 34502,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "焦がす",
+        "reading": "こがす",
+        "lookupTerm": "焦がす",
+        "jiten": {
+          "rank": 10822,
+          "kanaRank": 63510,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 10822,
+        "geometricMean": 8756.98
+      },
+      "sourceOrder": {
+        "jpdb": 132,
+        "jiten": 130,
+        "jpdbGeometric": 143,
+        "jitenGeometric": 139,
+        "jpdbKana": 140,
+        "jitenKana": 134
+      },
+      "combinedScore": 730524589,
+      "sourceImbalance": 740650975,
+      "kanaTieBreak": 864747609
+    },
+    {
+      "id": "verb.refdda",
+      "originalOrder": 102,
+      "overallOrder": 136,
+      "intransitive": {
+        "term": "冷める",
+        "reading": "さめる",
+        "lookupTerm": "冷める",
+        "jiten": {
+          "rank": 2773,
+          "kanaRank": 11434,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "冷ます",
+        "reading": "さます",
+        "lookupTerm": "冷ます",
+        "jiten": {
+          "rank": 11592,
+          "kanaRank": 35566,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 11592,
+        "geometricMean": 5669.622
+      },
+      "sourceOrder": {
+        "jpdb": 139,
+        "jiten": 134,
+        "jpdbGeometric": 132,
+        "jitenGeometric": 117,
+        "jpdbKana": 86,
+        "jitenKana": 80
+      },
+      "combinedScore": 740054367,
+      "sourceImbalance": 754380655,
+      "kanaTieBreak": 811174585
+    },
+    {
+      "id": "verb.refddb",
+      "originalOrder": 103,
+      "overallOrder": 158,
+      "intransitive": {
+        "term": "醒める",
+        "reading": "さめる",
+        "lookupTerm": "醒める",
+        "jiten": {
+          "rank": 13470,
+          "kanaRank": 11434,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "醒ます",
+        "reading": "さます",
+        "lookupTerm": "醒ます",
+        "jiten": {
+          "rank": 35086,
+          "kanaRank": 35566,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 35086,
+        "geometricMean": 21739.559
+      },
+      "sourceOrder": {
+        "jpdb": 156,
+        "jiten": 157,
+        "jpdbGeometric": 158,
+        "jitenGeometric": 160,
+        "jpdbKana": 87,
+        "jitenKana": 81
+      },
+      "combinedScore": 808472199,
+      "sourceImbalance": 811609572,
+      "kanaTieBreak": 811174585
+    },
+    {
+      "id": "verb.refdfa",
+      "originalOrder": 104,
+      "overallOrder": 95,
+      "intransitive": {
+        "term": "溶ける",
+        "reading": "とける",
+        "lookupTerm": "溶ける",
+        "jiten": {
+          "rank": 2741,
+          "kanaRank": 16697,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "溶かす",
+        "reading": "とかす",
+        "lookupTerm": "溶かす",
+        "jiten": {
+          "rank": 5143,
+          "kanaRank": 41479,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5143,
+        "geometricMean": 3754.592
+      },
+      "sourceOrder": {
+        "jpdb": 96,
+        "jiten": 94,
+        "jpdbGeometric": 101,
+        "jitenGeometric": 99,
+        "jpdbKana": 55,
+        "jitenKana": 90
+      },
+      "combinedScore": 671068194,
+      "sourceImbalance": 679423414,
+      "kanaTieBreak": 795333656
+    },
+    {
+      "id": "verb.refdga",
+      "originalOrder": 105,
+      "overallOrder": 140,
+      "intransitive": {
+        "term": "慣れる",
+        "reading": "なれる",
+        "lookupTerm": "慣れる",
+        "jiten": {
+          "rank": 776,
+          "kanaRank": 408,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "慣らす",
+        "reading": "ならす",
+        "lookupTerm": "慣らす",
+        "jiten": {
+          "rank": 14282,
+          "kanaRank": 47530,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 14282,
+        "geometricMean": 3329.089
+      },
+      "sourceOrder": {
+        "jpdb": 146,
+        "jiten": 139,
+        "jpdbGeometric": 103,
+        "jitenGeometric": 92,
+        "jpdbKana": 58,
+        "jitenKana": 107
+      },
+      "combinedScore": 759301749,
+      "sourceImbalance": 776693107,
+      "kanaTieBreak": 801558424
+    },
+    {
+      "id": "verb.refdha",
+      "originalOrder": 106,
+      "overallOrder": 46,
+      "intransitive": {
+        "term": "逃げる",
+        "reading": "にげる",
+        "lookupTerm": "逃げる",
+        "jiten": {
+          "rank": 247,
+          "kanaRank": 23833,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "逃がす",
+        "reading": "にがす",
+        "lookupTerm": "逃がす",
+        "jiten": {
+          "rank": 1730,
+          "kanaRank": 62990,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1730,
+        "geometricMean": 653.69
+      },
+      "sourceOrder": {
+        "jpdb": 50,
+        "jiten": 40,
+        "jpdbGeometric": 31,
+        "jitenGeometric": 25,
+        "jpdbKana": 138,
+        "jitenKana": 132
+      },
+      "combinedScore": 594344995,
+      "sourceImbalance": 610439530,
+      "kanaTieBreak": 864356881
+    },
+    {
+      "id": "verb.refdia",
+      "originalOrder": 107,
+      "overallOrder": 62,
+      "intransitive": {
+        "term": "漏れる",
+        "reading": "もれる",
+        "lookupTerm": "漏れる",
+        "jiten": {
+          "rank": 2259,
+          "kanaRank": 13378,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "漏らす",
+        "reading": "もらす",
+        "lookupTerm": "漏らす",
+        "jiten": {
+          "rank": 2876,
+          "kanaRank": 13006,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2876,
+        "geometricMean": 2548.899
+      },
+      "sourceOrder": {
+        "jpdb": 69,
+        "jiten": 61,
+        "jpdbGeometric": 71,
+        "jitenGeometric": 77,
+        "jpdbKana": 33,
+        "jitenKana": 31
+      },
+      "combinedScore": 625468824,
+      "sourceImbalance": 633287839,
+      "kanaTieBreak": 737769621
+    },
+    {
+      "id": "verb.refdja",
+      "originalOrder": 108,
+      "overallOrder": 74,
+      "intransitive": {
+        "term": "揺れる",
+        "reading": "ゆれる",
+        "lookupTerm": "揺れる",
+        "jiten": {
+          "rank": 1853,
+          "kanaRank": 24250,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "揺らす",
+        "reading": "ゆらす",
+        "lookupTerm": "揺らす",
+        "jiten": {
+          "rank": 3640,
+          "kanaRank": 40525,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3640,
+        "geometricMean": 2597.098
+      },
+      "sourceOrder": {
+        "jpdb": 70,
+        "jiten": 77,
+        "jpdbGeometric": 66,
+        "jitenGeometric": 80,
+        "jpdbKana": 105,
+        "jitenKana": 88
+      },
+      "combinedScore": 636730758,
+      "sourceImbalance": 637547809,
+      "kanaTieBreak": 826782381
+    },
+    {
+      "id": "verb.refeaa",
+      "originalOrder": 109,
+      "overallOrder": 124,
+      "intransitive": {
+        "term": "癒える",
+        "reading": "いえる",
+        "lookupTerm": "癒える",
+        "jiten": {
+          "rank": 9450,
+          "kanaRank": 3339,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "癒す",
+        "reading": "いやす",
+        "lookupTerm": "癒す",
+        "jiten": {
+          "rank": 6168,
+          "kanaRank": 21657,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 9450,
+        "geometricMean": 7634.632
+      },
+      "sourceOrder": {
+        "jpdb": 125,
+        "jiten": 127,
+        "jpdbGeometric": 134,
+        "jitenGeometric": 136,
+        "jpdbKana": 82,
+        "jitenKana": 51
+      },
+      "combinedScore": 720808093,
+      "sourceImbalance": 731730158,
+      "kanaTieBreak": 789534267
+    },
+    {
+      "id": "verb.refeba",
+      "originalOrder": 110,
+      "overallOrder": 170,
+      "intransitive": {
+        "term": "肥える",
+        "reading": "こえる",
+        "lookupTerm": "肥える",
+        "jiten": {
+          "rank": 22075,
+          "kanaRank": 18643,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "肥やす",
+        "reading": "こやす",
+        "lookupTerm": "肥やす",
+        "jiten": {
+          "rank": 61139,
+          "kanaRank": 85476,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 61139,
+        "geometricMean": 36737.493
+      },
+      "sourceOrder": {
+        "jpdb": 169,
+        "jiten": 167,
+        "jpdbGeometric": 169,
+        "jitenGeometric": 169,
+        "jpdbKana": 162,
+        "jitenKana": 151
+      },
+      "combinedScore": 861500421,
+      "sourceImbalance": 868324812,
+      "kanaTieBreak": 894782730
+    },
+    {
+      "id": "verb.refeca",
+      "originalOrder": 111,
+      "overallOrder": 171,
+      "intransitive": {
+        "term": "費える",
+        "reading": "ついえる",
+        "lookupTerm": "費える",
+        "jiten": {
+          "rank": 127834,
+          "kanaRank": 55570,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "費やす",
+        "reading": "ついやす",
+        "lookupTerm": "費やす",
+        "jiten": {
+          "rank": 6858,
+          "kanaRank": 91368,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 127834,
+        "geometricMean": 29608.877
+      },
+      "sourceOrder": {
+        "jpdb": 171,
+        "jiten": 172,
+        "jpdbGeometric": 167,
+        "jitenGeometric": 167,
+        "jpdbKana": 143,
+        "jitenKana": 155
+      },
+      "combinedScore": 916229224,
+      "sourceImbalance": 920583313,
+      "kanaTieBreak": 881937268
+    },
+    {
+      "id": "verb.refeda",
+      "originalOrder": 112,
+      "overallOrder": 130,
+      "intransitive": {
+        "term": "生える",
+        "reading": "はえる",
+        "lookupTerm": "生える",
+        "jiten": {
+          "rank": 2848,
+          "kanaRank": 34832,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "生やす",
+        "reading": "はやす",
+        "lookupTerm": "生やす",
+        "jiten": {
+          "rank": 12156,
+          "kanaRank": 48231,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 12156,
+        "geometricMean": 5883.901
+      },
+      "sourceOrder": {
+        "jpdb": 124,
+        "jiten": 137,
+        "jpdbGeometric": 114,
+        "jitenGeometric": 121,
+        "jpdbKana": 107,
+        "jitenKana": 108
+      },
+      "combinedScore": 728367276,
+      "sourceImbalance": 729412003,
+      "kanaTieBreak": 835181397
+    },
+    {
+      "id": "verb.refeea",
+      "originalOrder": 113,
+      "overallOrder": 94,
+      "intransitive": {
+        "term": "冷える",
+        "reading": "ひえる",
+        "lookupTerm": "冷える",
+        "jiten": {
+          "rank": 2727,
+          "kanaRank": 13025,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "冷やす",
+        "reading": "ひやす",
+        "lookupTerm": "冷やす",
+        "jiten": {
+          "rank": 4505,
+          "kanaRank": 88050,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4505,
+        "geometricMean": 3505.016
+      },
+      "sourceOrder": {
+        "jpdb": 99,
+        "jiten": 86,
+        "jpdbGeometric": 111,
+        "jitenGeometric": 94,
+        "jpdbKana": 147,
+        "jitenKana": 152
+      },
+      "combinedScore": 669459877,
+      "sourceImbalance": 686476081,
+      "kanaTieBreak": 882937182
+    },
+    {
+      "id": "verb.refefa",
+      "originalOrder": 114,
+      "overallOrder": 47,
+      "intransitive": {
+        "term": "増える",
+        "reading": "ふえる",
+        "lookupTerm": "増える",
+        "jiten": {
+          "rank": 748,
+          "kanaRank": 28162,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "増やす",
+        "reading": "ふやす",
+        "lookupTerm": "増やす",
+        "jiten": {
+          "rank": 1845,
+          "kanaRank": 53718,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1845,
+        "geometricMean": 1174.76
+      },
+      "sourceOrder": {
+        "jpdb": 51,
+        "jiten": 44,
+        "jpdbGeometric": 48,
+        "jitenGeometric": 44,
+        "jpdbKana": 127,
+        "jitenKana": 122
+      },
+      "combinedScore": 597846613,
+      "sourceImbalance": 612454586,
+      "kanaTieBreak": 846171377
+    },
+    {
+      "id": "verb.refega",
+      "originalOrder": 115,
+      "overallOrder": 79,
+      "intransitive": {
+        "term": "燃える",
+        "reading": "もえる",
+        "lookupTerm": "燃える",
+        "jiten": {
+          "rank": 1743,
+          "kanaRank": 41124,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "燃やす",
+        "reading": "もやす",
+        "lookupTerm": "燃やす",
+        "jiten": {
+          "rank": 3455,
+          "kanaRank": 44347,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3455,
+        "geometricMean": 2453.99
+      },
+      "sourceOrder": {
+        "jpdb": 79,
+        "jiten": 73,
+        "jpdbGeometric": 84,
+        "jitenGeometric": 69,
+        "jpdbKana": 129,
+        "jitenKana": 102
+      },
+      "combinedScore": 644281916,
+      "sourceImbalance": 656694104,
+      "kanaTieBreak": 840244595
+    },
+    {
+      "id": "verb.reffaa",
+      "originalOrder": 116,
+      "overallOrder": 87,
+      "intransitive": {
+        "term": "閉じる",
+        "reading": "とじる",
+        "lookupTerm": "閉じる",
+        "jiten": {
+          "rank": 1920,
+          "kanaRank": 36786,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "閉ざす",
+        "reading": "とざす",
+        "lookupTerm": "閉ざす",
+        "jiten": {
+          "rank": 4695,
+          "kanaRank": 75503,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4695,
+        "geometricMean": 3002.399
+      },
+      "sourceOrder": {
+        "jpdb": 90,
+        "jiten": 89,
+        "jpdbGeometric": 79,
+        "jitenGeometric": 86,
+        "jpdbKana": 112,
+        "jitenKana": 146
+      },
+      "combinedScore": 661155912,
+      "sourceImbalance": 666665227,
+      "kanaTieBreak": 854361291
+    },
+    {
+      "id": "verb.reffba",
+      "originalOrder": 117,
+      "overallOrder": 37,
+      "intransitive": {
+        "term": "伸びる",
+        "reading": "のびる",
+        "lookupTerm": "伸びる",
+        "jiten": {
+          "rank": 1557,
+          "kanaRank": 12468,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "伸ばす",
+        "reading": "のばす",
+        "lookupTerm": "伸ばす",
+        "jiten": {
+          "rank": 1871,
+          "kanaRank": 14169,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1871,
+        "geometricMean": 1706.794
+      },
+      "sourceOrder": {
+        "jpdb": 36,
+        "jiten": 45,
+        "jpdbGeometric": 44,
+        "jitenGeometric": 52,
+        "jpdbKana": 36,
+        "jitenKana": 34
+      },
+      "combinedScore": 582519572,
+      "sourceImbalance": 584323278,
+      "kanaTieBreak": 743871432
+    },
+    {
+      "id": "verb.reffca",
+      "originalOrder": 118,
+      "overallOrder": 49,
+      "intransitive": {
+        "term": "満ちる",
+        "reading": "みちる",
+        "lookupTerm": "満ちる",
+        "jiten": {
+          "rank": 2327,
+          "kanaRank": 39320,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "満たす",
+        "reading": "みたす",
+        "lookupTerm": "満たす",
+        "jiten": {
+          "rank": 2212,
+          "kanaRank": 51136,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2327,
+        "geometricMean": 2268.771
+      },
+      "sourceOrder": {
+        "jpdb": 47,
+        "jiten": 48,
+        "jpdbGeometric": 61,
+        "jitenGeometric": 65,
+        "jpdbKana": 103,
+        "jitenKana": 115
+      },
+      "combinedScore": 603372326,
+      "sourceImbalance": 605515237,
+      "kanaTieBreak": 834380565
+    },
+    {
+      "id": "verb.refgaa",
+      "originalOrder": 119,
+      "overallOrder": 14,
+      "intransitive": {
+        "term": "起きる",
+        "reading": "おきる",
+        "lookupTerm": "起きる",
+        "jiten": {
+          "rank": 316,
+          "kanaRank": 15856,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "起こす",
+        "reading": "おこす",
+        "lookupTerm": "起こす",
+        "jiten": {
+          "rank": 611,
+          "kanaRank": 16381,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 611,
+        "geometricMean": 439.404
+      },
+      "sourceOrder": {
+        "jpdb": 15,
+        "jiten": 14,
+        "jpdbGeometric": 17,
+        "jitenGeometric": 14,
+        "jpdbKana": 40,
+        "jitenKana": 37
+      },
+      "combinedScore": 508552637,
+      "sourceImbalance": 519485613,
+      "kanaTieBreak": 750772210
+    },
+    {
+      "id": "verb.refgca",
+      "originalOrder": 120,
+      "overallOrder": 89,
+      "intransitive": {
+        "term": "降りる",
+        "reading": "おりる",
+        "lookupTerm": "降りる",
+        "jiten": {
+          "rank": 1080,
+          "kanaRank": 13523,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "降ろす",
+        "reading": "おろす",
+        "lookupTerm": "降ろす",
+        "jiten": {
+          "rank": 4625,
+          "kanaRank": 349396,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4625,
+        "geometricMean": 2234.95
+      },
+      "sourceOrder": {
+        "jpdb": 92,
+        "jiten": 87,
+        "jpdbGeometric": 65,
+        "jitenGeometric": 63,
+        "jpdbKana": 16,
+        "jitenKana": 172
+      },
+      "combinedScore": 663946409,
+      "sourceImbalance": 673410913,
+      "kanaTieBreak": 840170557
+    },
+    {
+      "id": "verb.refgda",
+      "originalOrder": 121,
+      "overallOrder": 17,
+      "intransitive": {
+        "term": "過ぎる",
+        "reading": "すぎる",
+        "lookupTerm": "過ぎる",
+        "jiten": {
+          "rank": 620,
+          "kanaRank": 649,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "過ごす",
+        "reading": "すごす",
+        "lookupTerm": "過ごす",
+        "jiten": {
+          "rank": 839,
+          "kanaRank": 17011,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 839,
+        "geometricMean": 721.235
+      },
+      "sourceOrder": {
+        "jpdb": 17,
+        "jiten": 19,
+        "jpdbGeometric": 30,
+        "jitenGeometric": 27,
+        "jpdbKana": 42,
+        "jitenKana": 41
+      },
+      "combinedScore": 525425755,
+      "sourceImbalance": 528674019,
+      "kanaTieBreak": 754515420
+    },
+    {
+      "id": "verb.refhaa",
+      "originalOrder": 122,
+      "overallOrder": 66,
+      "intransitive": {
+        "term": "尽きる",
+        "reading": "つきる",
+        "lookupTerm": "尽きる",
+        "jiten": {
+          "rank": 3332,
+          "kanaRank": 16936,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "尽くす",
+        "reading": "つくす",
+        "lookupTerm": "尽くす",
+        "jiten": {
+          "rank": 2373,
+          "kanaRank": 11248,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3332,
+        "geometricMean": 2811.91
+      },
+      "sourceOrder": {
+        "jpdb": 65,
+        "jiten": 70,
+        "jpdbGeometric": 80,
+        "jitenGeometric": 85,
+        "jpdbKana": 66,
+        "jitenKana": 40
+      },
+      "combinedScore": 629099920,
+      "sourceImbalance": 629140463,
+      "kanaTieBreak": 767216819
+    },
+    {
+      "id": "verb.refiaa",
+      "originalOrder": 123,
+      "overallOrder": 135,
+      "intransitive": {
+        "term": "現れる",
+        "reading": "あらわれる",
+        "lookupTerm": "現れる",
+        "jiten": {
+          "rank": 650,
+          "kanaRank": 17210,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "現す",
+        "reading": "あらわす",
+        "lookupTerm": "現す",
+        "jiten": {
+          "rank": 10966,
+          "kanaRank": 28331,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 10966,
+        "geometricMean": 2669.813
+      },
+      "sourceOrder": {
+        "jpdb": 131,
+        "jiten": 131,
+        "jpdbGeometric": 78,
+        "jitenGeometric": 81,
+        "jpdbKana": 52,
+        "jitenKana": 72
+      },
+      "combinedScore": 730653017,
+      "sourceImbalance": 739882828,
+      "kanaTieBreak": 780054980
+    },
+    {
+      "id": "verb.refiba",
+      "originalOrder": 124,
+      "overallOrder": 24,
+      "intransitive": {
+        "term": "隠れる",
+        "reading": "かくれる",
+        "lookupTerm": "隠れる",
+        "jiten": {
+          "rank": 955,
+          "kanaRank": 26266,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "隠す",
+        "reading": "かくす",
+        "lookupTerm": "隠す",
+        "jiten": {
+          "rank": 485,
+          "kanaRank": 33273,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 955,
+        "geometricMean": 680.57
+      },
+      "sourceOrder": {
+        "jpdb": 24,
+        "jiten": 24,
+        "jpdbGeometric": 32,
+        "jitenGeometric": 26,
+        "jpdbKana": 48,
+        "jitenKana": 77
+      },
+      "combinedScore": 538916443,
+      "sourceImbalance": 545623793,
+      "kanaTieBreak": 783537291
+    },
+    {
+      "id": "verb.refica",
+      "originalOrder": 125,
+      "overallOrder": 147,
+      "intransitive": {
+        "term": "汚れる",
+        "reading": "けがれる",
+        "lookupTerm": "穢れる",
+        "jiten": {
+          "rank": 18946,
+          "kanaRank": 69208,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "汚す",
+        "reading": "けがす",
+        "lookupTerm": "穢す",
+        "jiten": {
+          "rank": 13946,
+          "kanaRank": 13946,
+          "matches": 0,
+          "resolution": {
+            "kind": "api-override",
+            "wordId": 1178960,
+            "readingIndex": 3,
+            "reason": "Jiten Global CSV 未导出这一读音；官方词条频率接口返回该全局排名。"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 18946,
+        "geometricMean": 16254.874
+      },
+      "sourceOrder": {
+        "jpdb": 150,
+        "jiten": 145,
+        "jpdbGeometric": 161,
+        "jitenGeometric": 154,
+        "jpdbKana": 145,
+        "jitenKana": 140
+      },
+      "combinedScore": 772517088,
+      "sourceImbalance": 781209957,
+      "kanaTieBreak": 873044731
+    },
+    {
+      "id": "verb.refida",
+      "originalOrder": 126,
+      "overallOrder": 126,
+      "intransitive": {
+        "term": "零れる",
+        "reading": "こぼれる",
+        "lookupTerm": "零れる",
+        "jiten": {
+          "rank": 10380,
+          "kanaRank": 3934,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "零す",
+        "reading": "こぼす",
+        "lookupTerm": "零す",
+        "jiten": {
+          "rank": 11794,
+          "kanaRank": 3767,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 11794,
+        "geometricMean": 11064.435
+      },
+      "sourceOrder": {
+        "jpdb": 118,
+        "jiten": 136,
+        "jpdbGeometric": 138,
+        "jitenGeometric": 145,
+        "jpdbKana": 8,
+        "jitenKana": 10
+      },
+      "combinedScore": 721734648,
+      "sourceImbalance": 727067702,
+      "kanaTieBreak": 645209682
+    },
+    {
+      "id": "verb.refifa",
+      "originalOrder": 127,
+      "overallOrder": 33,
+      "intransitive": {
+        "term": "倒れる",
+        "reading": "たおれる",
+        "lookupTerm": "倒れる",
+        "jiten": {
+          "rank": 886,
+          "kanaRank": 43656,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "倒す",
+        "reading": "たおす",
+        "lookupTerm": "倒す",
+        "jiten": {
+          "rank": 1146,
+          "kanaRank": 31978,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1146,
+        "geometricMean": 1007.649
+      },
+      "sourceOrder": {
+        "jpdb": 34,
+        "jiten": 31,
+        "jpdbGeometric": 34,
+        "jitenGeometric": 36,
+        "jpdbKana": 88,
+        "jitenKana": 99
+      },
+      "combinedScore": 557783795,
+      "sourceImbalance": 569232922,
+      "kanaTieBreak": 819142162
+    },
+    {
+      "id": "verb.refiga",
+      "originalOrder": 128,
+      "overallOrder": 77,
+      "intransitive": {
+        "term": "潰れる",
+        "reading": "つぶれる",
+        "lookupTerm": "潰れる",
+        "jiten": {
+          "rank": 3197,
+          "kanaRank": 10427,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "潰す",
+        "reading": "つぶす",
+        "lookupTerm": "潰す",
+        "jiten": {
+          "rank": 1787,
+          "kanaRank": 7796,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3197,
+        "geometricMean": 2390.196
+      },
+      "sourceOrder": {
+        "jpdb": 80,
+        "jiten": 68,
+        "jpdbGeometric": 85,
+        "jitenGeometric": 67,
+        "jpdbKana": 170,
+        "jitenKana": 26
+      },
+      "combinedScore": 641789962,
+      "sourceImbalance": 657727034,
+      "kanaTieBreak": 833890456
+    },
+    {
+      "id": "verb.refiha",
+      "originalOrder": 129,
+      "overallOrder": 27,
+      "intransitive": {
+        "term": "流れる",
+        "reading": "ながれる",
+        "lookupTerm": "流れる",
+        "jiten": {
+          "rank": 959,
+          "kanaRank": 50768,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "流す",
+        "reading": "ながす",
+        "lookupTerm": "流す",
+        "jiten": {
+          "rank": 1069,
+          "kanaRank": 49873,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1069,
+        "geometricMean": 1012.507
+      },
+      "sourceOrder": {
+        "jpdb": 26,
+        "jiten": 28,
+        "jpdbGeometric": 33,
+        "jitenGeometric": 38,
+        "jpdbKana": 104,
+        "jitenKana": 114
+      },
+      "combinedScore": 544902263,
+      "sourceImbalance": 548858922,
+      "kanaTieBreak": 834965458
+    },
+    {
+      "id": "verb.refiia",
+      "originalOrder": 130,
+      "overallOrder": 59,
+      "intransitive": {
+        "term": "逃れる",
+        "reading": "のがれる",
+        "lookupTerm": "逃れる",
+        "jiten": {
+          "rank": 2494,
+          "kanaRank": 55856,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "逃す",
+        "reading": "のがす",
+        "lookupTerm": "逃す",
+        "jiten": {
+          "rank": 2523,
+          "kanaRank": 55365,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2523,
+        "geometricMean": 2508.458
+      },
+      "sourceOrder": {
+        "jpdb": 63,
+        "jiten": 49,
+        "jpdbGeometric": 75,
+        "jitenGeometric": 72,
+        "jpdbKana": 121,
+        "jitenKana": 126
+      },
+      "combinedScore": 618127806,
+      "sourceImbalance": 628757384,
+      "kanaTieBreak": 845300147
+    },
+    {
+      "id": "verb.refija",
+      "originalOrder": 131,
+      "overallOrder": 21,
+      "intransitive": {
+        "term": "離れる",
+        "reading": "はなれる",
+        "lookupTerm": "離れる",
+        "jiten": {
+          "rank": 415,
+          "kanaRank": 12956,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "離す",
+        "reading": "はなす",
+        "lookupTerm": "離す",
+        "jiten": {
+          "rank": 854,
+          "kanaRank": 12117,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 854,
+        "geometricMean": 595.323
+      },
+      "sourceOrder": {
+        "jpdb": 21,
+        "jiten": 20,
+        "jpdbGeometric": 21,
+        "jitenGeometric": 22,
+        "jpdbKana": 41,
+        "jitenKana": 29
+      },
+      "combinedScore": 530793518,
+      "sourceImbalance": 538036936,
+      "kanaTieBreak": 742800666
+    },
+    {
+      "id": "verb.refika",
+      "originalOrder": 132,
+      "overallOrder": 73,
+      "intransitive": {
+        "term": "汚れる",
+        "reading": "よごれる",
+        "lookupTerm": "汚れる",
+        "jiten": {
+          "rank": 2150,
+          "kanaRank": 41083,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "汚す",
+        "reading": "よごす",
+        "lookupTerm": "汚す",
+        "jiten": {
+          "rank": 2906,
+          "kanaRank": 55118,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2906,
+        "geometricMean": 2499.58
+      },
+      "sourceOrder": {
+        "jpdb": 77,
+        "jiten": 62,
+        "jpdbGeometric": 96,
+        "jitenGeometric": 71,
+        "jpdbKana": 133,
+        "jitenKana": 125
+      },
+      "combinedScore": 636202861,
+      "sourceImbalance": 653951443,
+      "kanaTieBreak": 852607588
+    },
+    {
+      "id": "verb.refjaa",
+      "originalOrder": 133,
+      "overallOrder": 34,
+      "intransitive": {
+        "term": "乗る",
+        "reading": "のる",
+        "lookupTerm": "乗る",
+        "jiten": {
+          "rank": 385,
+          "kanaRank": 5238,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "乗せる",
+        "reading": "のせる",
+        "lookupTerm": "乗せる",
+        "jiten": {
+          "rank": 1373,
+          "kanaRank": 6290,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1373,
+        "geometricMean": 727.052
+      },
+      "sourceOrder": {
+        "jpdb": 30,
+        "jiten": 35,
+        "jpdbGeometric": 26,
+        "jitenGeometric": 28,
+        "jpdbKana": 11,
+        "jitenKana": 16
+      },
+      "combinedScore": 558271344,
+      "sourceImbalance": 560338422,
+      "kanaTieBreak": 678379274
+    },
+    {
+      "id": "verb.refjba",
+      "originalOrder": 134,
+      "overallOrder": 50,
+      "intransitive": {
+        "term": "寄る",
+        "reading": "よる",
+        "lookupTerm": "寄る",
+        "jiten": {
+          "rank": 1104,
+          "kanaRank": 25790,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "寄せる",
+        "reading": "よせる",
+        "lookupTerm": "寄せる",
+        "jiten": {
+          "rank": 2804,
+          "kanaRank": 24269,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2804,
+        "geometricMean": 1759.436
+      },
+      "sourceOrder": {
+        "jpdb": 44,
+        "jiten": 59,
+        "jpdbGeometric": 50,
+        "jitenGeometric": 54,
+        "jpdbKana": 51,
+        "jitenKana": 62
+      },
+      "combinedScore": 608598446,
+      "sourceImbalance": 615684331,
+      "kanaTieBreak": 776208473
+    },
+    {
+      "id": "verb.refkaa",
+      "originalOrder": 135,
+      "overallOrder": 60,
+      "intransitive": {
+        "term": "分かれる",
+        "reading": "わかれる",
+        "lookupTerm": "分かれる",
+        "jiten": {
+          "rank": 2859,
+          "kanaRank": 61754,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "分ける",
+        "reading": "わける",
+        "lookupTerm": "分ける",
+        "jiten": {
+          "rank": 1781,
+          "kanaRank": 8930,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2859,
+        "geometricMean": 2256.519
+      },
+      "sourceOrder": {
+        "jpdb": 62,
+        "jiten": 60,
+        "jpdbGeometric": 60,
+        "jitenGeometric": 64,
+        "jpdbKana": 59,
+        "jitenKana": 130
+      },
+      "combinedScore": 622615595,
+      "sourceImbalance": 628040981,
+      "kanaTieBreak": 811732990
+    },
+    {
+      "id": "verb.refmaa",
+      "originalOrder": 136,
+      "overallOrder": 41,
+      "intransitive": {
+        "term": "捕まる",
+        "reading": "つかまる",
+        "lookupTerm": "捕まる",
+        "jiten": {
+          "rank": 1502,
+          "kanaRank": 5357,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "捕まえる",
+        "reading": "つかまえる",
+        "lookupTerm": "捕まえる",
+        "jiten": {
+          "rank": 1345,
+          "kanaRank": 7991,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1502,
+        "geometricMean": 1421.334
+      },
+      "sourceOrder": {
+        "jpdb": 46,
+        "jiten": 38,
+        "jpdbGeometric": 63,
+        "jitenGeometric": 47,
+        "jpdbKana": 19,
+        "jitenKana": 20
+      },
+      "combinedScore": 585738010,
+      "sourceImbalance": 604178472,
+      "kanaTieBreak": 700345372
+    },
+    {
+      "id": "verb.refnaa",
+      "originalOrder": 137,
+      "overallOrder": 1,
+      "intransitive": {
+        "term": "見える",
+        "reading": "みえる",
+        "lookupTerm": "見える",
+        "jiten": {
+          "rank": 133,
+          "kanaRank": 8277,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "見る",
+        "reading": "みる",
+        "lookupTerm": "見る",
+        "jiten": {
+          "rank": 39,
+          "kanaRank": 1108,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 133,
+        "geometricMean": 72.021
+      },
+      "sourceOrder": {
+        "jpdb": 1,
+        "jiten": 1,
+        "jpdbGeometric": 1,
+        "jitenGeometric": 1,
+        "jpdbKana": 13,
+        "jitenKana": 22
+      },
+      "combinedScore": 377881138,
+      "sourceImbalance": 379829058,
+      "kanaTieBreak": 693180992
+    },
+    {
+      "id": "verb.refoaa",
+      "originalOrder": 138,
+      "overallOrder": 109,
+      "intransitive": {
+        "term": "揺れる",
+        "reading": "ゆれる",
+        "lookupTerm": "揺れる",
+        "jiten": {
+          "rank": 1853,
+          "kanaRank": 24250,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "揺する",
+        "reading": "ゆする",
+        "lookupTerm": "揺する",
+        "jiten": {
+          "rank": 7836,
+          "kanaRank": 16832,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7836,
+        "geometricMean": 3810.526
+      },
+      "sourceOrder": {
+        "jpdb": 106,
+        "jiten": 114,
+        "jpdbGeometric": 97,
+        "jitenGeometric": 101,
+        "jpdbKana": 64,
+        "jitenKana": 58
+      },
+      "combinedScore": 695876435,
+      "sourceImbalance": 696389262,
+      "kanaTieBreak": 779469309
+    },
+    {
+      "id": "verb.refpaa",
+      "originalOrder": 139,
+      "overallOrder": 154,
+      "intransitive": {
+        "term": "籠もる",
+        "reading": "こもる",
+        "lookupTerm": "籠もる",
+        "jiten": {
+          "rank": 11199,
+          "kanaRank": 3193,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "籠める",
+        "reading": "こめる",
+        "lookupTerm": "籠める",
+        "jiten": {
+          "rank": 37078,
+          "kanaRank": 6838,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 37078,
+        "geometricMean": 20377.353
+      },
+      "sourceOrder": {
+        "jpdb": 151,
+        "jiten": 160,
+        "jpdbGeometric": 152,
+        "jitenGeometric": 158,
+        "jpdbKana": 12,
+        "jitenKana": 18
+      },
+      "combinedScore": 801114219,
+      "sourceImbalance": 815891907,
+      "kanaTieBreak": 682212699
+    },
+    {
+      "id": "verb.refqaa",
+      "originalOrder": 140,
+      "overallOrder": 8,
+      "intransitive": {
+        "term": "聞こえる",
+        "reading": "きこえる",
+        "lookupTerm": "聞こえる",
+        "jiten": {
+          "rank": 345,
+          "kanaRank": 24026,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "聞く",
+        "reading": "きく",
+        "lookupTerm": "聞く",
+        "jiten": {
+          "rank": 63,
+          "kanaRank": 2730,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 345,
+        "geometricMean": 147.428
+      },
+      "sourceOrder": {
+        "jpdb": 11,
+        "jiten": 4,
+        "jpdbGeometric": 4,
+        "jitenGeometric": 3,
+        "jpdbKana": 46,
+        "jitenKana": 57
+      },
+      "combinedScore": 470708177,
+      "sourceImbalance": 488023139,
+      "kanaTieBreak": 770618200
+    },
+    {
+      "id": "verb.refraa",
+      "originalOrder": 141,
+      "overallOrder": 53,
+      "intransitive": {
+        "term": "移る",
+        "reading": "うつる",
+        "lookupTerm": "移る",
+        "jiten": {
+          "rank": 2355,
+          "kanaRank": 46434,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "移す",
+        "reading": "うつす",
+        "lookupTerm": "移す",
+        "jiten": {
+          "rank": 2699,
+          "kanaRank": 19073,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2699,
+        "geometricMean": 2521.14
+      },
+      "sourceOrder": {
+        "jpdb": 54,
+        "jiten": 57,
+        "jpdbGeometric": 68,
+        "jitenGeometric": 74,
+        "jpdbKana": 62,
+        "jitenKana": 103
+      },
+      "combinedScore": 613076072,
+      "sourceImbalance": 613426495,
+      "kanaTieBreak": 801585681
+    },
+    {
+      "id": "verb.refrba",
+      "originalOrder": 142,
+      "overallOrder": 51,
+      "intransitive": {
+        "term": "返る",
+        "reading": "かえる",
+        "lookupTerm": "返る",
+        "jiten": {
+          "rank": 2663,
+          "kanaRank": 26385,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "返す",
+        "reading": "かえす",
+        "lookupTerm": "返す",
+        "jiten": {
+          "rank": 405,
+          "kanaRank": 20449,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2663,
+        "geometricMean": 1038.516
+      },
+      "sourceOrder": {
+        "jpdb": 48,
+        "jiten": 56,
+        "jpdbGeometric": 38,
+        "jitenGeometric": 39,
+        "jpdbKana": 29,
+        "jitenKana": 66
+      },
+      "combinedScore": 610134579,
+      "sourceImbalance": 611684689,
+      "kanaTieBreak": 759398428
+    },
+    {
+      "id": "verb.refrbb",
+      "originalOrder": 143,
+      "overallOrder": 64,
+      "intransitive": {
+        "term": "帰る",
+        "reading": "かえる",
+        "lookupTerm": "帰る",
+        "jiten": {
+          "rank": 114,
+          "kanaRank": 26385,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "帰す",
+        "reading": "かえす",
+        "lookupTerm": "帰す",
+        "jiten": {
+          "rank": 3043,
+          "kanaRank": 20449,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3043,
+        "geometricMean": 588.984
+      },
+      "sourceOrder": {
+        "jpdb": 67,
+        "jiten": 64,
+        "jpdbGeometric": 29,
+        "jitenGeometric": 21,
+        "jpdbKana": 30,
+        "jitenKana": 67
+      },
+      "combinedScore": 626299808,
+      "sourceImbalance": 630574081,
+      "kanaTieBreak": 759398428
+    },
+    {
+      "id": "verb.refrca",
+      "originalOrder": 144,
+      "overallOrder": 72,
+      "intransitive": {
+        "term": "下る",
+        "reading": "くだる",
+        "lookupTerm": "下る",
+        "jiten": {
+          "rank": 3734,
+          "kanaRank": 8227,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "下す",
+        "reading": "くだす",
+        "lookupTerm": "下す",
+        "jiten": {
+          "rank": 4117,
+          "kanaRank": 18397,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4117,
+        "geometricMean": 3920.826
+      },
+      "sourceOrder": {
+        "jpdb": 60,
+        "jiten": 81,
+        "jpdbGeometric": 81,
+        "jitenGeometric": 103,
+        "jpdbKana": 27,
+        "jitenKana": 44
+      },
+      "combinedScore": 635485277,
+      "sourceImbalance": 645460868,
+      "kanaTieBreak": 743047751
+    },
+    {
+      "id": "verb.refrda",
+      "originalOrder": 145,
+      "overallOrder": 93,
+      "intransitive": {
+        "term": "転がる",
+        "reading": "ころがる",
+        "lookupTerm": "転がる",
+        "jiten": {
+          "rank": 2584,
+          "kanaRank": 44977,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "転がす",
+        "reading": "ころがす",
+        "lookupTerm": "転がす",
+        "jiten": {
+          "rank": 5096,
+          "kanaRank": 55030,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 5096,
+        "geometricMean": 3628.783
+      },
+      "sourceOrder": {
+        "jpdb": 95,
+        "jiten": 92,
+        "jpdbGeometric": 92,
+        "jitenGeometric": 96,
+        "jpdbKana": 116,
+        "jitenKana": 124
+      },
+      "combinedScore": 668538487,
+      "sourceImbalance": 675075822,
+      "kanaTieBreak": 842868349
+    },
+    {
+      "id": "verb.refrea",
+      "originalOrder": 146,
+      "overallOrder": 32,
+      "intransitive": {
+        "term": "通る",
+        "reading": "とおる",
+        "lookupTerm": "通る",
+        "jiten": {
+          "rank": 842,
+          "kanaRank": 31541,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "通す",
+        "reading": "とおす",
+        "lookupTerm": "通す",
+        "jiten": {
+          "rank": 1098,
+          "kanaRank": 37551,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1098,
+        "geometricMean": 961.518
+      },
+      "sourceOrder": {
+        "jpdb": 33,
+        "jiten": 29,
+        "jpdbGeometric": 37,
+        "jitenGeometric": 35,
+        "jpdbKana": 79,
+        "jitenKana": 86
+      },
+      "combinedScore": 553629301,
+      "sourceImbalance": 564239147,
+      "kanaTieBreak": 806358917
+    },
+    {
+      "id": "verb.refrfa",
+      "originalOrder": 147,
+      "overallOrder": 131,
+      "intransitive": {
+        "term": "灯る",
+        "reading": "ともる",
+        "lookupTerm": "灯る",
+        "jiten": {
+          "rank": 8273,
+          "kanaRank": 22248,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "灯す",
+        "reading": "ともす",
+        "lookupTerm": "灯す",
+        "jiten": {
+          "rank": 11599,
+          "kanaRank": 11713,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 11599,
+        "geometricMean": 9795.842
+      },
+      "sourceOrder": {
+        "jpdb": 126,
+        "jiten": 135,
+        "jpdbGeometric": 144,
+        "jitenGeometric": 142,
+        "jpdbKana": 71,
+        "jitenKana": 54
+      },
+      "combinedScore": 728989965,
+      "sourceImbalance": 732205041,
+      "kanaTieBreak": 782618083
+    },
+    {
+      "id": "verb.refrga",
+      "originalOrder": 148,
+      "overallOrder": 69,
+      "intransitive": {
+        "term": "治る",
+        "reading": "なおる",
+        "lookupTerm": "治る",
+        "jiten": {
+          "rank": 1740,
+          "kanaRank": 26191,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "治す",
+        "reading": "なおす",
+        "lookupTerm": "治す",
+        "jiten": {
+          "rank": 3081,
+          "kanaRank": 10044,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3081,
+        "geometricMean": 2315.37
+      },
+      "sourceOrder": {
+        "jpdb": 73,
+        "jiten": 66,
+        "jpdbGeometric": 90,
+        "jitenGeometric": 66,
+        "jpdbKana": 50,
+        "jitenKana": 64
+      },
+      "combinedScore": 634882617,
+      "sourceImbalance": 646777587,
+      "kanaTieBreak": 776804261
+    },
+    {
+      "id": "verb.refria",
+      "originalOrder": 149,
+      "overallOrder": 35,
+      "intransitive": {
+        "term": "回る",
+        "reading": "まわる",
+        "lookupTerm": "回る",
+        "jiten": {
+          "rank": 702,
+          "kanaRank": 6025,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "回す",
+        "reading": "まわす",
+        "lookupTerm": "回す",
+        "jiten": {
+          "rank": 1212,
+          "kanaRank": 10627,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1212,
+        "geometricMean": 922.401
+      },
+      "sourceOrder": {
+        "jpdb": 37,
+        "jiten": 33,
+        "jpdbGeometric": 40,
+        "jitenGeometric": 33,
+        "jpdbKana": 15,
+        "jitenKana": 27
+      },
+      "combinedScore": 566145712,
+      "sourceImbalance": 581618066,
+      "kanaTieBreak": 704171147
+    },
+    {
+      "id": "verb.refrka",
+      "originalOrder": 150,
+      "overallOrder": 48,
+      "intransitive": {
+        "term": "渡る",
+        "reading": "わたる",
+        "lookupTerm": "渡る",
+        "jiten": {
+          "rank": 2107,
+          "kanaRank": 7508,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "渡す",
+        "reading": "わたす",
+        "lookupTerm": "渡す",
+        "jiten": {
+          "rank": 483,
+          "kanaRank": 13863,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 2107,
+        "geometricMean": 1008.802
+      },
+      "sourceOrder": {
+        "jpdb": 49,
+        "jiten": 47,
+        "jpdbGeometric": 41,
+        "jitenGeometric": 37,
+        "jpdbKana": 31,
+        "jitenKana": 33
+      },
+      "combinedScore": 601480451,
+      "sourceImbalance": 609429900,
+      "kanaTieBreak": 737437618
+    },
+    {
+      "id": "verb.refsba",
+      "originalOrder": 151,
+      "overallOrder": 96,
+      "intransitive": {
+        "term": "驚く",
+        "reading": "おどろく",
+        "lookupTerm": "驚く",
+        "jiten": {
+          "rank": 498,
+          "kanaRank": 23213,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "驚かす",
+        "reading": "おどろかす",
+        "lookupTerm": "驚かす",
+        "jiten": {
+          "rank": 4940,
+          "kanaRank": 62997,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 4940,
+        "geometricMean": 1568.477
+      },
+      "sourceOrder": {
+        "jpdb": 98,
+        "jiten": 91,
+        "jpdbGeometric": 43,
+        "jitenGeometric": 49,
+        "jpdbKana": 131,
+        "jitenKana": 133
+      },
+      "combinedScore": 672641887,
+      "sourceImbalance": 685693227,
+      "kanaTieBreak": 854357333
+    },
+    {
+      "id": "verb.refsca",
+      "originalOrder": 152,
+      "overallOrder": 127,
+      "intransitive": {
+        "term": "乾く",
+        "reading": "かわく",
+        "lookupTerm": "乾く",
+        "jiten": {
+          "rank": 4273,
+          "kanaRank": 115161,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "乾かす",
+        "reading": "かわかす",
+        "lookupTerm": "乾かす",
+        "jiten": {
+          "rank": 9496,
+          "kanaRank": 86204,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 9496,
+        "geometricMean": 6369.961
+      },
+      "sourceOrder": {
+        "jpdb": 128,
+        "jiten": 128,
+        "jpdbGeometric": 119,
+        "jitenGeometric": 127,
+        "jpdbKana": 150,
+        "jitenKana": 164
+      },
+      "combinedScore": 722521957,
+      "sourceImbalance": 734781347,
+      "kanaTieBreak": 893778804
+    },
+    {
+      "id": "verb.refsda",
+      "originalOrder": 153,
+      "overallOrder": 107,
+      "intransitive": {
+        "term": "散る",
+        "reading": "ちる",
+        "lookupTerm": "散る",
+        "jiten": {
+          "rank": 3120,
+          "kanaRank": 12112,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "散らす",
+        "reading": "ちらす",
+        "lookupTerm": "散らす",
+        "jiten": {
+          "rank": 7962,
+          "kanaRank": 62282,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7962,
+        "geometricMean": 4984.119
+      },
+      "sourceOrder": {
+        "jpdb": 101,
+        "jiten": 115,
+        "jpdbGeometric": 105,
+        "jitenGeometric": 110,
+        "jpdbKana": 93,
+        "jitenKana": 131
+      },
+      "combinedScore": 693085353,
+      "sourceImbalance": 696600514,
+      "kanaTieBreak": 837245882
+    },
+    {
+      "id": "verb.refsea",
+      "originalOrder": 154,
+      "overallOrder": 143,
+      "intransitive": {
+        "term": "照る",
+        "reading": "てる",
+        "lookupTerm": "照る",
+        "jiten": {
+          "rank": 16499,
+          "kanaRank": 1135,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "照らす",
+        "reading": "てらす",
+        "lookupTerm": "照らす",
+        "jiten": {
+          "rank": 2843,
+          "kanaRank": 66750,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 16499,
+        "geometricMean": 6848.843
+      },
+      "sourceOrder": {
+        "jpdb": 148,
+        "jiten": 142,
+        "jpdbGeometric": 129,
+        "jitenGeometric": 130,
+        "jpdbKana": 108,
+        "jitenKana": 138
+      },
+      "combinedScore": 766137998,
+      "sourceImbalance": 779175840,
+      "kanaTieBreak": 849178965
+    },
+    {
+      "id": "verb.refsfa",
+      "originalOrder": 155,
+      "overallOrder": 168,
+      "intransitive": {
+        "term": "退く",
+        "reading": "どく",
+        "lookupTerm": "退く",
+        "jiten": {
+          "rank": 61683,
+          "kanaRank": 18107,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "退かす",
+        "reading": "どかす",
+        "lookupTerm": "退かす",
+        "jiten": {
+          "rank": 48262,
+          "kanaRank": 13424,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 61683,
+        "geometricMean": 54561.387
+      },
+      "sourceOrder": {
+        "jpdb": 168,
+        "jiten": 168,
+        "jpdbGeometric": 171,
+        "jitenGeometric": 171,
+        "jpdbKana": 60,
+        "jitenKana": 43
+      },
+      "combinedScore": 855634616,
+      "sourceImbalance": 855906241,
+      "kanaTieBreak": 764174551
+    },
+    {
+      "id": "verb.refsga",
+      "originalOrder": 156,
+      "overallOrder": 169,
+      "intransitive": {
+        "term": "轟く",
+        "reading": "とどろく",
+        "lookupTerm": "轟く",
+        "jiten": {
+          "rank": 12145,
+          "kanaRank": 32342,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "轟かす",
+        "reading": "とどろかす",
+        "lookupTerm": "轟かす",
+        "jiten": {
+          "rank": 59466,
+          "kanaRank": 90843,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 59466,
+        "geometricMean": 26874.05
+      },
+      "sourceOrder": {
+        "jpdb": 170,
+        "jiten": 166,
+        "jpdbGeometric": 164,
+        "jitenGeometric": 163,
+        "jpdbKana": 155,
+        "jitenKana": 154
+      },
+      "combinedScore": 860951316,
+      "sourceImbalance": 869378220,
+      "kanaTieBreak": 889331562
+    },
+    {
+      "id": "verb.refsha",
+      "originalOrder": 157,
+      "overallOrder": 40,
+      "intransitive": {
+        "term": "飛ぶ",
+        "reading": "とぶ",
+        "lookupTerm": "飛ぶ",
+        "jiten": {
+          "rank": 749,
+          "kanaRank": 11621,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "飛ばす",
+        "reading": "とばす",
+        "lookupTerm": "飛ばす",
+        "jiten": {
+          "rank": 1756,
+          "kanaRank": 26614,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 1756,
+        "geometricMean": 1146.841
+      },
+      "sourceOrder": {
+        "jpdb": 39,
+        "jiten": 41,
+        "jpdbGeometric": 36,
+        "jitenGeometric": 42,
+        "jpdbKana": 80,
+        "jitenKana": 68
+      },
+      "combinedScore": 585382206,
+      "sourceImbalance": 591357792,
+      "kanaTieBreak": 793180277
+    },
+    {
+      "id": "verb.refsia",
+      "originalOrder": 158,
+      "overallOrder": 129,
+      "intransitive": {
+        "term": "泣く",
+        "reading": "なく",
+        "lookupTerm": "泣く",
+        "jiten": {
+          "rank": 419,
+          "kanaRank": 22879,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "泣かす",
+        "reading": "なかす",
+        "lookupTerm": "泣かす",
+        "jiten": {
+          "rank": 9015,
+          "kanaRank": 65815,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 9015,
+        "geometricMean": 1943.524
+      },
+      "sourceOrder": {
+        "jpdb": 135,
+        "jiten": 125,
+        "jpdbGeometric": 76,
+        "jitenGeometric": 56,
+        "jpdbKana": 157,
+        "jitenKana": 136
+      },
+      "combinedScore": 725802248,
+      "sourceImbalance": 745372623,
+      "kanaTieBreak": 877616216
+    },
+    {
+      "id": "verb.refsja",
+      "originalOrder": 159,
+      "overallOrder": 57,
+      "intransitive": {
+        "term": "鳴る",
+        "reading": "なる",
+        "lookupTerm": "鳴る",
+        "jiten": {
+          "rank": 1592,
+          "kanaRank": 19,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "鳴らす",
+        "reading": "ならす",
+        "lookupTerm": "鳴らす",
+        "jiten": {
+          "rank": 3010,
+          "kanaRank": 47530,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3010,
+        "geometricMean": 2189.045
+      },
+      "sourceOrder": {
+        "jpdb": 52,
+        "jiten": 63,
+        "jpdbGeometric": 59,
+        "jitenGeometric": 61,
+        "jpdbKana": 57,
+        "jitenKana": 106
+      },
+      "combinedScore": 616851111,
+      "sourceImbalance": 621180222,
+      "kanaTieBreak": 801558424
+    },
+    {
+      "id": "verb.refska",
+      "originalOrder": 160,
+      "overallOrder": 68,
+      "intransitive": {
+        "term": "減る",
+        "reading": "へる",
+        "lookupTerm": "減る",
+        "jiten": {
+          "rank": 1099,
+          "kanaRank": 20328,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "減らす",
+        "reading": "へらす",
+        "lookupTerm": "減らす",
+        "jiten": {
+          "rank": 3672,
+          "kanaRank": 66833,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3672,
+        "geometricMean": 2008.862
+      },
+      "sourceOrder": {
+        "jpdb": 68,
+        "jiten": 78,
+        "jpdbGeometric": 57,
+        "jitenGeometric": 58,
+        "jpdbKana": 142,
+        "jitenKana": 139
+      },
+      "combinedScore": 633596593,
+      "sourceImbalance": 636592303,
+      "kanaTieBreak": 868507156
+    },
+    {
+      "id": "verb.refsla",
+      "originalOrder": 161,
+      "overallOrder": 142,
+      "intransitive": {
+        "term": "惑う",
+        "reading": "まどう",
+        "lookupTerm": "惑う",
+        "jiten": {
+          "rank": 18851,
+          "kanaRank": 71228,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "惑わす",
+        "reading": "まどわす",
+        "lookupTerm": "惑わす",
+        "jiten": {
+          "rank": 5644,
+          "kanaRank": 60896,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 18851,
+        "geometricMean": 10314.797
+      },
+      "sourceOrder": {
+        "jpdb": 141,
+        "jiten": 144,
+        "jpdbGeometric": 147,
+        "jitenGeometric": 144,
+        "jpdbKana": 153,
+        "jitenKana": 143
+      },
+      "combinedScore": 764132004,
+      "sourceImbalance": 764829602,
+      "kanaTieBreak": 877933342
+    },
+    {
+      "id": "verb.refsma",
+      "originalOrder": 162,
+      "overallOrder": 167,
+      "intransitive": {
+        "term": "迷う",
+        "reading": "まよう",
+        "lookupTerm": "迷う",
+        "jiten": {
+          "rank": 980,
+          "kanaRank": 50590,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "迷わす",
+        "reading": "まよわす",
+        "lookupTerm": "迷わす",
+        "jiten": {
+          "rank": 56117,
+          "kanaRank": 230451,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 56117,
+        "geometricMean": 7415.838
+      },
+      "sourceOrder": {
+        "jpdb": 167,
+        "jiten": 164,
+        "jpdbGeometric": 133,
+        "jitenGeometric": 134,
+        "jpdbKana": 172,
+        "jitenKana": 171
+      },
+      "combinedScore": 851610292,
+      "sourceImbalance": 855191370,
+      "kanaTieBreak": 978787857
+    },
+    {
+      "id": "verb.reftaa",
+      "originalOrder": 163,
+      "overallOrder": 82,
+      "intransitive": {
+        "term": "刺さる",
+        "reading": "ささる",
+        "lookupTerm": "刺さる",
+        "jiten": {
+          "rank": 3716,
+          "kanaRank": 12081,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "刺す",
+        "reading": "さす",
+        "lookupTerm": "刺す",
+        "jiten": {
+          "rank": 1960,
+          "kanaRank": 2940,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 3716,
+        "geometricMean": 2698.77
+      },
+      "sourceOrder": {
+        "jpdb": 86,
+        "jiten": 79,
+        "jpdbGeometric": 93,
+        "jitenGeometric": 82,
+        "jpdbKana": 166,
+        "jitenKana": 28
+      },
+      "combinedScore": 650071278,
+      "sourceImbalance": 662626773,
+      "kanaTieBreak": 831137001
+    },
+    {
+      "id": "verb.reftba",
+      "originalOrder": 164,
+      "overallOrder": 125,
+      "intransitive": {
+        "term": "挟まる",
+        "reading": "はさまる",
+        "lookupTerm": "挟まる",
+        "jiten": {
+          "rank": 7629,
+          "kanaRank": 42165,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "挟む",
+        "reading": "はさむ",
+        "lookupTerm": "挟む",
+        "jiten": {
+          "rank": 2276,
+          "kanaRank": 13401,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 7629,
+        "geometricMean": 4166.966
+      },
+      "sourceOrder": {
+        "jpdb": 137,
+        "jiten": 109,
+        "jpdbGeometric": 117,
+        "jitenGeometric": 106,
+        "jpdbKana": 113,
+        "jitenKana": 92
+      },
+      "combinedScore": 720859215,
+      "sourceImbalance": 748430708,
+      "kanaTieBreak": 831867158
+    },
+    {
+      "id": "verb.reftca",
+      "originalOrder": 165,
+      "overallOrder": 122,
+      "intransitive": {
+        "term": "塞がる",
+        "reading": "ふさがる",
+        "lookupTerm": "塞がる",
+        "jiten": {
+          "rank": 8952,
+          "kanaRank": 18979,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "塞ぐ",
+        "reading": "ふさぐ",
+        "lookupTerm": "塞ぐ",
+        "jiten": {
+          "rank": 3648,
+          "kanaRank": 8657,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8952,
+        "geometricMean": 5714.621
+      },
+      "sourceOrder": {
+        "jpdb": 127,
+        "jiten": 124,
+        "jpdbGeometric": 126,
+        "jitenGeometric": 119,
+        "jpdbKana": 34,
+        "jitenKana": 46
+      },
+      "combinedScore": 719068436,
+      "sourceImbalance": 732448790,
+      "kanaTieBreak": 753341593
+    },
+    {
+      "id": "verb.reftda",
+      "originalOrder": 166,
+      "overallOrder": 156,
+      "intransitive": {
+        "term": "跨がる",
+        "reading": "またがる",
+        "lookupTerm": "跨がる",
+        "jiten": {
+          "rank": 30238,
+          "kanaRank": 10993,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "跨ぐ",
+        "reading": "またぐ",
+        "lookupTerm": "跨ぐ",
+        "jiten": {
+          "rank": 20756,
+          "kanaRank": 13781,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 30238,
+        "geometricMean": 25052.344
+      },
+      "sourceOrder": {
+        "jpdb": 159,
+        "jiten": 154,
+        "jpdbGeometric": 163,
+        "jitenGeometric": 161,
+        "jpdbKana": 44,
+        "jitenKana": 32
+      },
+      "combinedScore": 805517192,
+      "sourceImbalance": 810956405,
+      "kanaTieBreak": 747775665
+    },
+    {
+      "id": "verb.refuaa",
+      "originalOrder": 167,
+      "overallOrder": 117,
+      "intransitive": {
+        "term": "滅ぶ",
+        "reading": "ほろぶ",
+        "lookupTerm": "滅ぶ",
+        "jiten": {
+          "rank": 8073,
+          "kanaRank": 84835,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "滅ぼす",
+        "reading": "ほろぼす",
+        "lookupTerm": "滅ぼす",
+        "jiten": {
+          "rank": 4811,
+          "kanaRank": 71499,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8073,
+        "geometricMean": 6232.111
+      },
+      "sourceOrder": {
+        "jpdb": 119,
+        "jiten": 116,
+        "jpdbGeometric": 124,
+        "jitenGeometric": 125,
+        "jpdbKana": 146,
+        "jitenKana": 150
+      },
+      "combinedScore": 707231654,
+      "sourceImbalance": 716789248,
+      "kanaTieBreak": 881101504
+    },
+    {
+      "id": "verb.refvaa",
+      "originalOrder": 168,
+      "overallOrder": 151,
+      "intransitive": {
+        "term": "潤う",
+        "reading": "うるおう",
+        "lookupTerm": "潤う",
+        "jiten": {
+          "rank": 12063,
+          "kanaRank": 72685,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "潤す",
+        "reading": "うるおす",
+        "lookupTerm": "潤す",
+        "jiten": {
+          "rank": 21386,
+          "kanaRank": 93038,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 21386,
+        "geometricMean": 16061.735
+      },
+      "sourceOrder": {
+        "jpdb": 153,
+        "jiten": 149,
+        "jpdbGeometric": 159,
+        "jitenGeometric": 152,
+        "jpdbKana": 156,
+        "jitenKana": 156
+      },
+      "combinedScore": 782423868,
+      "sourceImbalance": 791629253,
+      "kanaTieBreak": 890549975
+    },
+    {
+      "id": "verb.refwaa",
+      "originalOrder": 169,
+      "overallOrder": 120,
+      "intransitive": {
+        "term": "無くなる",
+        "reading": "なくなる",
+        "lookupTerm": "無くなる",
+        "jiten": {
+          "rank": 5758,
+          "kanaRank": 362,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "無くす",
+        "reading": "なくす",
+        "lookupTerm": "無くす",
+        "jiten": {
+          "rank": 8899,
+          "kanaRank": 1924,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 8899,
+        "geometricMean": 7158.243
+      },
+      "sourceOrder": {
+        "jpdb": 120,
+        "jiten": 123,
+        "jpdbGeometric": 128,
+        "jitenGeometric": 132,
+        "jpdbKana": 5,
+        "jitenKana": 4
+      },
+      "combinedScore": 712534370,
+      "sourceImbalance": 719841104,
+      "kanaTieBreak": 576102128
+    },
+    {
+      "id": "verb.refxaa",
+      "originalOrder": 170,
+      "overallOrder": 104,
+      "intransitive": {
+        "term": "積もる",
+        "reading": "つもる",
+        "lookupTerm": "積もる",
+        "jiten": {
+          "rank": 6761,
+          "kanaRank": 35441,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "積む",
+        "reading": "つむ",
+        "lookupTerm": "積む",
+        "jiten": {
+          "rank": 2546,
+          "kanaRank": 15852,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 6761,
+        "geometricMean": 4148.916
+      },
+      "sourceOrder": {
+        "jpdb": 107,
+        "jiten": 104,
+        "jpdbGeometric": 104,
+        "jitenGeometric": 105,
+        "jpdbKana": 94,
+        "jitenKana": 79
+      },
+      "combinedScore": 690231269,
+      "sourceImbalance": 696540502,
+      "kanaTieBreak": 815868531
+    },
+    {
+      "id": "verb.hiraku",
+      "originalOrder": 171,
+      "overallOrder": 4,
+      "intransitive": {
+        "term": "開く",
+        "reading": "ひらく",
+        "lookupTerm": "開く",
+        "jiten": {
+          "rank": 464,
+          "kanaRank": 20926,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "開く",
+        "reading": "ひらく",
+        "lookupTerm": "開く",
+        "jiten": {
+          "rank": 464,
+          "kanaRank": 20926,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 464,
+        "geometricMean": 464
+      },
+      "sourceOrder": {
+        "jpdb": 3,
+        "jiten": 9,
+        "jpdbGeometric": 6,
+        "jitenGeometric": 16,
+        "jpdbKana": 26,
+        "jitenKana": 49
+      },
+      "combinedScore": 457030842,
+      "sourceImbalance": 476316985,
+      "kanaTieBreak": 746415362
+    },
+    {
+      "id": "verb.iru",
+      "originalOrder": 172,
+      "overallOrder": 149,
+      "intransitive": {
+        "term": "入る",
+        "reading": "いる",
+        "lookupTerm": "入る",
+        "jiten": {
+          "rank": 62494,
+          "kanaRank": 37,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "transitive": {
+        "term": "入れる",
+        "reading": "いれる",
+        "lookupTerm": "入れる",
+        "jiten": {
+          "rank": 223,
+          "kanaRank": 3835,
+          "matches": 1,
+          "resolution": {
+            "kind": "csv-exact"
+          }
+        }
+      },
+      "jitenPair": {
+        "worstRank": 62494,
+        "geometricMean": 3733.117
+      },
+      "sourceOrder": {
+        "jpdb": 112,
+        "jiten": 169,
+        "jpdbGeometric": 46,
+        "jitenGeometric": 97,
+        "jpdbKana": 110,
+        "jitenKana": 8
+      },
+      "combinedScore": 779852900,
+      "sourceImbalance": 856375951,
+      "kanaTieBreak": 738728316
+    }
+  ]
+}

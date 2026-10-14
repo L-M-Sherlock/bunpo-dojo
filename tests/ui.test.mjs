@@ -6,6 +6,7 @@ import {JSDOM} from 'jsdom';
 import {createElement} from 'react';
 import cards from '../src/data/cards.json' with {type:'json'};
 import {newProfile,startSession,STORAGE_KEY,targetKey,exportProfile} from '../src/lib/engine.mjs';
+import {trackingSkillIdForCard} from '../src/lib/catalog.mjs';
 import {withVerbRoleCatalog,withPotentialRoleCatalog} from './fixtures/verb-role.mjs';
 const dom=new JSDOM('<html><body></body></html>',{url:'http://localhost/bunpo-dojo/',pretendToBeVisual:true});
 for(const key of ['window','document','navigator','HTMLElement','HTMLInputElement','HTMLButtonElement','StorageEvent','location','localStorage'])Object.defineProperty(globalThis,key,{configurable:true,value:dom.window[key]});
@@ -74,13 +75,22 @@ test('a valid import requires confirmation and cancellation preserves the active
 });
 
 test('practice states why the current question appears and labels the round as a maximum',()=>{
-  seed();const v=mount();assert.ok(v.getByText('补齐达标'));assert.ok(v.getByText('这个用法尚未达标，优先补足独立作答与场景覆盖。'));assert.ok(v.getByText('第 1 题 / 最多 12 题'));
+  seed();const v=mount();assert.ok(v.getByText('补齐达标'));assert.ok(v.getByText('当前目标尚未达标，优先补足独立作答、场景与必要覆盖。'));assert.ok(v.getByText('第 1 题 / 最多 12 题'));
   const reason=v.container.querySelector('.selection-reason');assert.equal(reason.getAttribute('role'),'status');assert.equal(reason.getAttribute('aria-live'),'polite');
 });
 
-test('the course library explains concrete mastery gaps without exposing internal tags',()=>{
-  window.history.replaceState(null,'','/bunpo-dojo/#/library');const v=mount(),title=v.getByText('開く / 開ける'),row=title.closest('.skill-row');assert.ok(row);
-  assert.match(row.textContent,/达标还需：独立作答 5 次 · 答对 3 个新场景 · 答对自动词场景 · 答对他动词场景/);assert.equal(/intransitive|transitive|context/.test(row.textContent),false);assert.equal(row.querySelector('progress').getAttribute('aria-label'),'開く / 開ける掌握进度');
+test('the course library makes categories gating and concrete pairs a non-gating example pool',()=>{
+  window.history.replaceState(null,'','/bunpo-dojo/#/library');const v=mount(),title=v.getByText('開く / 開ける'),row=title.closest('.pair-example-row');assert.ok(row);
+  assert.match(row.textContent,/可作为本类例词练习/);assert.equal(row.querySelector('progress'),null);assert.equal(/达标还需/.test(row.textContent),false);
+  const group=v.getByText('自动 -u（五段）／ 他动 -eru（一段）').closest('.pair-group'),progress=group.querySelector('.pair-category-progress');assert.match(progress.textContent,/代表词对 0\/3 · 独立作答 0\/5 · 自动词待覆盖 · 他动词待覆盖/);assert.match(progress.textContent,/达标还需：独立作答 5 次 · 答对 3 个新场景 · 覆盖 3 组新代表词对 · 答对自动词场景 · 答对他动词场景/);assert.equal(/intransitive|transitive|context/.test(progress.textContent),false);assert.equal(progress.querySelector('progress').getAttribute('aria-label'),'自动 -u（五段）／ 他动 -eru（一段）掌握进度');
+});
+
+test('the pair course renders the source categories and labels pair questions with their category',async()=>{
+  window.history.replaceState(null,'','/bunpo-dojo/#/library');let v=mount();assert.equal(v.container.querySelectorAll('.pair-group').length,25);
+  assert.equal(v.queryByText(/原文第 \d+ 类/),null);assert.ok(v.getByText('自动 -aru（五段）／ 他动 -eru（一段）'));assert.ok(v.getByText('自动词与他动词同形（均为五段）'));assert.equal(v.getAllByText('补充例词').length,7);assert.equal(v.getAllByText(/含补充例词 1 组/).length,4);assert.ok(v.getByText(/含补充例词 3 组/));
+  const source=[...v.getAllByRole('link')].find(link=>link.textContent.includes('哈呀《日语自动词与他动词的所有对应形式》'));assert.ok(source);assert.equal(source.getAttribute('href'),'https://zhuanlan.zhihu.com/p/58662766');
+  cleanup();localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/#/practice');seed('pairs');v=mount();assert.ok(v.getByText(/自他词形 · 自动 -aru（五段）／ 他动 -eru（一段）/));
+  cleanup();localStorage.clear();const supplemental=cards.find(card=>card.skillId==='verb.find'),profile=startSession(newProfile(),[supplemental],{courses:['pairs']});localStorage.setItem(STORAGE_KEY,JSON.stringify(profile));v=mount([supplemental]);assert.ok(v.getByText(/自他词形 · 自动 -aru（五段）／ 他动 -eru（一段） · 补充例词/));
 });
 
 test('a safe lexical typo stays editable and does not create a score or retest',async()=>{
@@ -178,7 +188,7 @@ test('a potential-form ambiguous pair reuses the real category UI with its direc
     await waitFor(()=>assert.equal(v.getByRole('button',{name:/检查答案/}).disabled,false));
     fireEvent.click(v.getByRole('button',{name:/检查答案/}));
     await waitFor(()=>assert.ok(v.getByText('自他类别判断正确！')));
-    assert.equal(read().bySkill[c.skillId].correct,1);
+    assert.equal(read().bySkill[trackingSkillIdForCard(c)].correct,1);
     assert.equal(sentenceText(v.container.querySelector('.feedback .sentence')),expected);
     assert.equal(read().session.result.optionId,'transitive');
   });

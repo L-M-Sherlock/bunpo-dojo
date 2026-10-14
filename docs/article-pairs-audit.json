@@ -4,7 +4,8 @@
   "active": 858,
   "approved": 858,
   "open": 0,
-  "skills": 182,
+  "contentSkills": 182,
+  "trackedSkills": 35,
   "courses": {
     "location": 40,
     "movement": 40,
@@ -18,6 +19,12 @@
     "pairs": 165,
     "covered": 165,
     "remaining": []
+  },
+  "frequency": {
+    "pairs": 172,
+    "lexemes": 344,
+    "jpdb": "2024-10-13",
+    "jiten": "Jiten 26-10-09"
   },
   "errors": []
 }

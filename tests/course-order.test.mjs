@@ -1,11 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import cards from '../src/data/cards.json' with {type:'json'};
-import {COURSES,ADAPTIVE_COURSE_IDS,SKILLS,SKILL_BY_ID} from '../src/lib/catalog.mjs';
+import {COURSES,ADAPTIVE_COURSE_IDS,TRACKED_SKILLS,SKILL_BY_ID,trackingSkillIdForCard} from '../src/lib/catalog.mjs';
 import {newProfile,startSession,nextCard,grade,targetKey,parseProfile} from '../src/lib/engine.mjs';
 
 const markCourseMastered=(profile,courseId)=>{
-  for(const skill of SKILLS.filter(s=>s.courseId===courseId))profile.bySkill[skill.id]={attempts:5,correct:5,accuracy:1,confidence:1,scenes:cards.filter(c=>c.skillId===skill.id).slice(0,3).map(c=>c.id),coverage:[...skill.coverage]};
+  for(const skill of TRACKED_SKILLS.filter(s=>s.courseId===courseId)){const pool=cards.filter(c=>trackingSkillIdForCard(c)===skill.id);profile.bySkill[skill.id]={attempts:5,correct:5,accuracy:1,confidence:1,scenes:pool.slice(0,3).map(c=>c.id),coverage:[...skill.coverage],lexical:skill.minLexical?[...new Set(pool.map(c=>c.skillId))].slice(0,skill.minLexical):[]};}
 };
 const correct=c=>c.options.find(o=>c.answerIds.includes(o.id)).text;
 
@@ -13,7 +13,7 @@ test('course order keeps pairs last and a new adaptive session retains every ful
   assert.deepEqual(COURSES.map(c=>c.id),['location','movement','relations','mixed','pairs']);
   const p=startSession(newProfile(),cards);
   assert.deepEqual(p.session.courses,['location','movement','relations','pairs']);
-  for(const skill of SKILLS)assert.ok(cards.some(c=>p.session.courses.includes(c.courseId)&&c.skillId===skill.id),skill.id);
+  for(const skill of TRACKED_SKILLS)assert.ok(cards.some(c=>p.session.courses.includes(c.courseId)&&trackingSkillIdForCard(c)===skill.id),skill.id);
 });
 
 test('normal practice advances through particle courses before pairs even in mixed scenes',()=>{

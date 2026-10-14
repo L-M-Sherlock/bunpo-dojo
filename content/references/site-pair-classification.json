@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "basis": "按哈呀文章的25类词尾对应，将不在原文清单中的本站高频词对归入相同形式类别；这些条目继续标记为本站补充，不冒充原文词例。",
+  "assignments": [
+    {"skillId": "verb.find", "group": 1, "pair": "見つかる／見つける", "pattern": "-aru／-eru"},
+    {"skillId": "verb.light", "group": 2, "pair": "つく／つける", "pattern": "-u／-eru"},
+    {"skillId": "verb.continue", "group": 2, "pair": "続く／続ける", "pattern": "-u／-eru"},
+    {"skillId": "verb.line", "group": 2, "pair": "並ぶ／並べる", "pattern": "-u／-eru"},
+    {"skillId": "verb.sell", "group": 3, "pair": "売れる／売る", "pattern": "-eru／-u"},
+    {"skillId": "verb.repair", "group": 18, "pair": "直る／直す", "pattern": "-ru／-su"},
+    {"skillId": "verb.boil", "group": 19, "pair": "沸く／沸かす", "pattern": "-u／-asu"}
+  ]
+}

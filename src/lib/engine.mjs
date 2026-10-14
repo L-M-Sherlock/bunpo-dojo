@@ -1,4 +1,4 @@
-import {SKILLS,SKILL_BY_ID,COURSES,ADAPTIVE_COURSE_IDS,REQUIREMENT_BY_ID} from './catalog.mjs';
+import {SKILLS,SKILL_BY_ID,TRACKED_SKILLS,TRACKED_SKILL_BY_ID,COURSES,ADAPTIVE_COURSE_IDS,REQUIREMENT_BY_ID,trackingSkillIdForCard,trackingSkillForCard,PAIR_GROUP_BY_SKILL,PAIR_FREQUENCY_BY_SKILL} from './catalog.mjs';
 import {emptyStatistics,recordStatistics} from './statistics.mjs';
 
 export const STORAGE_KEY='bunpo-dojo-profile-v1';
@@ -9,26 +9,32 @@ export const MASTERY_ACCURACY_TARGET=.85;
 export const RECENT_LEXICAL_LIMIT=36;
 export const SELECTION_REASONS=['retest','spacing','unmastered','consolidation','continuation'];
 export const normalizeAnswer=s=>s.normalize('NFKC').replace(/\s+/gu,'').trim();
-export const blankStats=()=>({attempts:0,correct:0,accuracy:null,confidence:0,scenes:[],coverage:[]});
+export const blankStats=()=>({attempts:0,correct:0,accuracy:null,confidence:0,scenes:[],coverage:[],lexical:[]});
 
 export function mastery(skill,stats){
-  return !!stats&&stats.confidence>=1&&stats.scenes.length>=MASTERY_MIN_SCENES&&skill.coverage.every(tag=>stats.coverage.includes(tag));
+  return !!stats&&stats.confidence>=1&&stats.scenes.length>=MASTERY_MIN_SCENES&&skill.coverage.every(tag=>stats.coverage.includes(tag))&&(stats.lexical?.length??0)>=(skill.minLexical??0);
 }
 
 export function masteryGaps(skill,stats){
-  const attempts=stats?.attempts??0,scenes=stats?.scenes?.length??0,accuracy=stats?.accuracy;
+  const attempts=stats?.attempts??0,scenes=stats?.scenes?.length??0,accuracy=stats?.accuracy,lexical=stats?.lexical?.length??0;
   return {
     attempts:Math.max(0,MASTERY_MIN_ATTEMPTS-attempts),
     scenes:Math.max(0,MASTERY_MIN_SCENES-scenes),
     coverage:skill.coverage.filter(tag=>!(stats?.coverage??[]).includes(tag)),
+    lexical:Math.max(0,(skill.minLexical??0)-lexical),
     needsAccuracy:attempts>=MASTERY_MIN_ATTEMPTS&&(accuracy??0)<MASTERY_ACCURACY_TARGET,
     accuracy,
   };
 }
 
-export function skillProgress(skill,stats){return mastery(skill,stats)?1:Math.min(stats?.confidence??0,.99);}
-export function masteredCount(profile){return SKILLS.filter(s=>mastery(s,profile.bySkill[s.id])).length;}
-export function newProfile(){return {version:1,catalogVersion:1,bySkill:{},assisted:{},pending:{},suspended:{},originalCount:0,events:[],statistics:emptyStatistics(),session:null,preferences:{reading:true,answerMode:'choice'},rotation:0,recentCardIds:[],recentLexicalKeys:[]};}
+export function skillProgress(skill,stats){
+  if(mastery(skill,stats))return 1;
+  const confidence=stats?.confidence??0,scenes=Math.min((stats?.scenes?.length??0)/MASTERY_MIN_SCENES,1),coverage=skill.coverage.length?skill.coverage.filter(tag=>(stats?.coverage??[]).includes(tag)).length/skill.coverage.length:1,
+    lexical=skill.minLexical?Math.min((stats?.lexical?.length??0)/skill.minLexical,1):1;
+  return Math.min(confidence,scenes,coverage,lexical,.99);
+}
+export function masteredCount(profile){return TRACKED_SKILLS.filter(s=>mastery(s,profile.bySkill[s.id])).length;}
+export function newProfile(){return {version:1,catalogVersion:2,bySkill:{},assisted:{},pending:{},suspended:{},originalCount:0,events:[],statistics:emptyStatistics(),session:null,preferences:{reading:true,answerMode:'choice'},rotation:0,recentCardIds:[],recentLexicalKeys:[]};}
 
 function commonPrefix(a,b){
   const left=Array.from(normalizeAnswer(a)),right=Array.from(normalizeAnswer(b));let index=0;
@@ -102,7 +108,9 @@ export function classifyAnswer(card,answer,{requireReading=false,cards=[]}={}){
   return {correct:false,option:null,kind:'unknown'};
 }
 
-export const targetKey=card=>`${card.skillId}/${card.familyId}/${card.skillId.startsWith('verb.')?REQUIREMENT_BY_ID.get(card.id)?.direction??'contrast':'relation'}`;
+const coverageTag=card=>card.skillId.startsWith('verb.')?REQUIREMENT_BY_ID.get(card.id)?.direction??'contrast':'context';
+// Mastery is shared by category, while a mistake remains tied to the concrete pair and direction.
+export const targetKey=card=>`${card.skillId}/${card.familyId}/${card.skillId.startsWith('verb.')?coverageTag(card):'relation'}`;
 export function isRetestReady(pending,card,profile,cards){
   if(!pending||targetKey(card)!==pending.key||profile.originalCount-pending.lastExposureOrdinal<2)return false;
   const pool=cards.filter(c=>targetKey(c)===pending.key);
@@ -115,56 +123,64 @@ export function isRetestReady(pending,card,profile,cards){
 function updateStats(stats,correct,card){
   const s=structuredClone(stats??blankStats()),evidence=Number(correct);s.attempts++;s.correct+=evidence;
   s.accuracy=s.accuracy===null?evidence:s.accuracy+.2*(evidence-s.accuracy);s.confidence=Math.min(s.accuracy/MASTERY_ACCURACY_TARGET*Math.min(s.attempts/MASTERY_MIN_ATTEMPTS,1),1);
-  if(correct){s.scenes=[...new Set([...s.scenes,card.id])];const req=REQUIREMENT_BY_ID.get(card.id);s.coverage=[...new Set([...s.coverage,req?.direction&&card.skillId.startsWith('verb.')?req.direction:'context'])];}
+  s.lexical??=[];
+  if(correct){s.scenes=[...new Set([...s.scenes,card.id])];s.coverage=[...new Set([...s.coverage,coverageTag(card)])];if(card.skillId.startsWith('verb.'))s.lexical=[...new Set([...s.lexical,card.skillId])];}
   return s;
 }
 
 export function recordHint(profile,card,questionId,mode){
-  const p=structuredClone(profile),key=targetKey(card),old=p.pending[key];
-  p.pending[key]={...old,key,skillId:card.skillId,familyId:card.familyId,queue:old?.queue==='practice'?'practice':mode,failures:old?.failures??0,lastExposureOrdinal:p.originalCount,lastCardId:card.id,lastLexicalKey:card.lexicalKey};
+  const p=structuredClone(profile),key=targetKey(card),old=p.pending[key],trackedSkillId=trackingSkillIdForCard(card);
+  p.pending[key]={...old,key,skillId:card.skillId,trackedSkillId,familyId:card.familyId,queue:old?.queue==='practice'?'practice':mode,failures:old?.failures??0,lastExposureOrdinal:p.originalCount,lastCardId:card.id,lastLexicalKey:card.lexicalKey};
   if(p.session?.questionId===questionId)p.session.hint=true;
   return p;
 }
 
 export function grade(profile,card,{questionId,answer,revealed=false,hint=false,answerMode='choice',mode='practice',cards=/** @type {any[]} */([]),at=new Date().toISOString()}){
   if(profile.events.some(e=>e.questionId===questionId))return {profile,result:null,duplicate:true};
-  const result=revealed?{correct:false,option:null,kind:'revealed'}:classifyAnswer(card,answer,{requireReading:answerMode==='input',cards}),p=structuredClone(profile),key=targetKey(card),old=p.pending[key];
+  const result=revealed?{correct:false,option:null,kind:'revealed'}:classifyAnswer(card,answer,{requireReading:answerMode==='input',cards}),p=structuredClone(profile),key=targetKey(card),old=p.pending[key],trackedSkillId=trackingSkillIdForCard(card);
   if(result.retry)return {profile,result,duplicate:false,retry:true};
   const retestPool=profile.session?.questionId===questionId?cards.filter(candidate=>profile.session.courses.includes(candidate.courseId)):cards;
   const relevant=old&&old.queue===mode,ready=relevant&&isRetestReady(old,card,profile,retestPool),independent=!hint&&!revealed&&(!relevant||ready);
-  const event={id:questionId,questionId,at,cardId:card.id,skillId:card.skillId,courseId:card.courseId,mode,answerMode,answer,correct:result.correct,kind:result.kind,independent,retest:!!(old&&ready),hintUsed:hint,revealed};
+  const event={id:questionId,questionId,at,cardId:card.id,skillId:card.skillId,trackedSkillId,courseId:card.courseId,mode,answerMode,answer,correct:result.correct,kind:result.kind,independent,retest:!!(old&&ready),hintUsed:hint,revealed};
   p.originalCount++;
   p.recentCardIds=[...(p.recentCardIds??[]),card.id].slice(-RECENT_LEXICAL_LIMIT);
   p.recentLexicalKeys=[...(p.recentLexicalKeys??[]),card.lexicalKey].slice(-RECENT_LEXICAL_LIMIT);
-  if(independent&&result.kind!=='unknown')p.bySkill[card.skillId]=updateStats(p.bySkill[card.skillId],result.correct,card);
-  else{const a=p.assisted[card.skillId]??={attempts:0,correct:0};if(result.kind!=='unknown'){a.attempts++;a.correct+=Number(result.correct);}}
+  if(independent&&result.kind!=='unknown')p.bySkill[trackedSkillId]=updateStats(p.bySkill[trackedSkillId],result.correct,card);
+  else{const a=p.assisted[trackedSkillId]??={attempts:0,correct:0};if(result.kind!=='unknown'){a.attempts++;a.correct+=Number(result.correct);}}
   if(result.correct&&independent&&old&&ready)delete p.pending[key];
-  else if(!result.correct||hint||relevant){p.pending[key]={...old,key,skillId:card.skillId,familyId:card.familyId,queue:old?.queue==='practice'?'practice':mode,failures:(old?.failures??0)+Number(!result.correct),lastExposureOrdinal:p.originalCount,lastCardId:card.id,lastLexicalKey:card.lexicalKey};}
+  else if(!result.correct||hint||relevant){p.pending[key]={...old,key,skillId:card.skillId,trackedSkillId,familyId:card.familyId,queue:old?.queue==='practice'?'practice':mode,failures:(old?.failures??0)+Number(!result.correct),lastExposureOrdinal:p.originalCount,lastCardId:card.id,lastLexicalKey:card.lexicalKey};}
   p.events=[...p.events,event].slice(-500);p.statistics=recordStatistics(p.statistics,event);
   if(p.session?.questionId===questionId){p.session.result={...result,optionId:result.option?.id??null,independent,retest:event.retest};delete p.session.result.option;p.session.answer=answer;p.session.answered++;p.session.correct+=Number(result.correct);p.session.recent=[...p.session.recent,card.id].slice(-36);}
   return {profile:p,result:{...result,independent,retest:event.retest},duplicate:false};
 }
 
 const relevantPending=(p,mode,courses,cards)=>Object.values(p.pending).filter(v=>v.queue===mode&&cards.some(c=>courses.includes(c.courseId)&&targetKey(c)===v.key));
-const coverageTag=card=>card.skillId.startsWith('verb.')?REQUIREMENT_BY_ID.get(card.id)?.direction??'contrast':'context';
 function advancesMastery(profile,card){
-  const skill=SKILL_BY_ID.get(card.skillId),stats=profile.bySkill[card.skillId];
+  const skill=trackingSkillForCard(card),stats=profile.bySkill[trackingSkillIdForCard(card)];
   if(!skill||mastery(skill,stats))return false;
   if(!stats||stats.confidence<1)return true;
   if(stats.scenes.length<MASTERY_MIN_SCENES&&!stats.scenes.includes(card.id))return true;
-  return !stats.coverage.includes(coverageTag(card));
+  if(!stats.coverage.includes(coverageTag(card)))return true;
+  return (stats.lexical?.length??0)<(skill.minLexical??0)&&!stats.lexical?.includes(card.skillId);
 }
 
 function historyPosition(history,value){const index=history.lastIndexOf(value);return index<0?-999:index;}
+function lexicalRank(card,stats){
+  const minimum=trackingSkillForCard(card)?.minLexical??0;if(!minimum)return 0;
+  const lexical=stats?.lexical??[],included=lexical.includes(card.skillId);
+  return lexical.length<minimum?Number(included):Number(!included);
+}
 function orderCards(cards,{profile,historyCards,historyLexical,roundRecent=[]}){
   return [...cards].sort((a,b)=>{
-    const aStats=profile.bySkill[a.skillId],bStats=profile.bySkill[b.skillId];
+    const aStats=profile.bySkill[trackingSkillIdForCard(a)],bStats=profile.bySkill[trackingSkillIdForCard(b)];
     const aMissing=!(aStats?.coverage??[]).includes(coverageTag(a)),bMissing=!(bStats?.coverage??[]).includes(coverageTag(b));
     return Number(bMissing)-Number(aMissing)
+      ||lexicalRank(a,aStats)-lexicalRank(b,bStats)
       ||Number(roundRecent.includes(a.id))-Number(roundRecent.includes(b.id))
       ||historyPosition(historyCards,a.id)-historyPosition(historyCards,b.id)
       ||historyPosition(historyLexical,a.lexicalKey)-historyPosition(historyLexical,b.lexicalKey)
       ||Number(aStats?.scenes.includes(a.id))-Number(bStats?.scenes.includes(b.id))
+      ||(PAIR_FREQUENCY_BY_SKILL.get(a.skillId)?.overallOrder??Number.MAX_SAFE_INTEGER)-(PAIR_FREQUENCY_BY_SKILL.get(b.skillId)?.overallOrder??Number.MAX_SAFE_INTEGER)
       ||a.id.localeCompare(b.id);
   });
 }
@@ -194,11 +210,11 @@ export function planNextCard(profile,cards,{mode='practice',courses=COURSES.map(
   if(mode==='practice'){
     let learning=available.filter(c=>advancesMastery(profile,c));
     if(learning.length){
-      const earliestCourse=ADAPTIVE_COURSE_IDS.find(id=>learning.some(c=>SKILL_BY_ID.get(c.skillId).courseId===id));
-      if(earliestCourse)learning=learning.filter(c=>SKILL_BY_ID.get(c.skillId).courseId===earliestCourse);
-      const ids=[...new Set(learning.map(c=>c.skillId))].sort((a,b)=>(profile.bySkill[a]?.confidence??0)-(profile.bySkill[b]?.confidence??0)||SKILLS.findIndex(s=>s.id===a)-SKILLS.findIndex(s=>s.id===b));
+      const earliestCourse=ADAPTIVE_COURSE_IDS.find(id=>learning.some(c=>trackingSkillForCard(c)?.courseId===id));
+      if(earliestCourse)learning=learning.filter(c=>trackingSkillForCard(c)?.courseId===earliestCourse);
+      const ids=[...new Set(learning.map(trackingSkillIdForCard))].sort((a,b)=>(profile.bySkill[a]?.confidence??0)-(profile.bySkill[b]?.confidence??0)||TRACKED_SKILLS.findIndex(s=>s.id===a)-TRACKED_SKILLS.findIndex(s=>s.id===b));
       const focus=ids[0],target=(index+1)%4===0&&ids.length>1?ids[1+(Math.floor(index/4)+profile.rotation)%(ids.length-1)]:focus;
-      const targetCards=learning.filter(c=>c.skillId===target),unseenTarget=targetCards.filter(c=>!roundRecent.includes(c.id)),unseenLearning=learning.filter(c=>!roundRecent.includes(c.id));
+      const targetCards=learning.filter(c=>trackingSkillIdForCard(c)===target),unseenTarget=targetCards.filter(c=>!roundRecent.includes(c.id)),unseenLearning=learning.filter(c=>!roundRecent.includes(c.id));
       available=learningOnly?(unseenTarget.length?unseenTarget:unseenLearning):(targetCards.length?targetCards:learning);
       if(!available.length&&pending.length)available=(spacing.length?spacing:otherTargets).filter(card=>!roundRecent.includes(card.id));
       if(!available.length)return {card:null,reason:pending.length?'spacing':'unmastered'};
@@ -211,8 +227,8 @@ export function planNextCard(profile,cards,{mode='practice',courses=COURSES.map(
   }else{
     const courseIds=courses.filter(id=>available.some(c=>c.courseId===id)),course=courseIds[index%courseIds.length];
     available=available.filter(c=>c.courseId===course);
-    const targets=[...new Set(available.map(c=>c.skillId))],target=targets[Math.floor(index/courseIds.length)%targets.length];
-    available=available.filter(c=>c.skillId===target);
+    const targets=[...new Set(available.map(trackingSkillIdForCard))].sort((a,b)=>TRACKED_SKILLS.findIndex(skill=>skill.id===a)-TRACKED_SKILLS.findIndex(skill=>skill.id===b)),target=targets[Math.floor(index/courseIds.length)%targets.length];
+    available=available.filter(c=>trackingSkillIdForCard(c)===target);
   }
   return {card:orderCards(available,{profile,historyCards,historyLexical,roundRecent})[0]??null,reason};
 }
@@ -250,16 +266,50 @@ export function reconcileProfile(profile,cards){
 
 function checkNumber(value){return typeof value==='number'&&Number.isFinite(value)&&value>=0;}
 function hasControlCharacters(value){return Array.from(value).some(char=>{const code=char.codePointAt(0);return code!==undefined&&(code<32||code===127);});}
+function trackedIdFromRawSkillId(id){return id.startsWith('particle.')?id:PAIR_GROUP_BY_SKILL.get(id)?.categoryId;}
+function validStats(id,s,ids){return ids.has(id)&&Number.isSafeInteger(s?.attempts)&&Number.isSafeInteger(s?.correct)&&s.correct>=0&&s.correct<=s.attempts&&checkNumber(s.confidence)&&s.confidence<=1&&(s.accuracy===null||checkNumber(s.accuracy)&&s.accuracy<=1)&&Array.isArray(s.scenes)&&Array.isArray(s.coverage);}
+
+function migrateCatalogV1(profile){
+  const p=structuredClone(profile),bySkill={},accuracyWeights={};
+  for(const [id,stats]of Object.entries(p.bySkill)){
+    const trackedId=trackedIdFromRawSkillId(id);if(!trackedId)continue;
+    const target=bySkill[trackedId]??=blankStats(),weight=stats.accuracy===null?0:stats.attempts;
+    target.attempts+=stats.attempts;target.correct+=stats.correct;
+    target.scenes=[...new Set([...target.scenes,...stats.scenes])];target.coverage=[...new Set([...target.coverage,...stats.coverage])];
+    if(id.startsWith('verb.')&&stats.scenes.length)target.lexical=[...new Set([...target.lexical,id])];
+    const aggregate=accuracyWeights[trackedId]??={sum:0,weight:0};aggregate.sum+=(stats.accuracy??0)*weight;aggregate.weight+=weight;accuracyWeights[trackedId]=aggregate;
+  }
+  for(const [id,stats]of Object.entries(bySkill)){
+    const aggregate=accuracyWeights[id];stats.accuracy=aggregate?.weight?aggregate.sum/aggregate.weight:null;
+    stats.confidence=stats.accuracy===null?0:Math.min(stats.accuracy/MASTERY_ACCURACY_TARGET*Math.min(stats.attempts/MASTERY_MIN_ATTEMPTS,1),1);
+  }
+  p.bySkill=bySkill;
+  const assisted={};for(const [id,row]of Object.entries(p.assisted)){const trackedId=trackedIdFromRawSkillId(id);if(!trackedId)continue;const target=assisted[trackedId]??={attempts:0,correct:0};target.attempts+=row.attempts;target.correct+=row.correct;}p.assisted=assisted;
+  for(const collection of [p.pending,p.suspended])for(const entry of Object.values(collection))entry.trackedSkillId=trackedIdFromRawSkillId(entry.skillId);
+  p.events=p.events.map(event=>({...event,trackedSkillId:trackedIdFromRawSkillId(event.skillId)}));
+  p.catalogVersion=2;return p;
+}
+
 export function parseProfile(value,cards=[]){
-  const p=typeof value==='string'?JSON.parse(value):structuredClone(value);
-  if(p?.version!==1||p?.catalogVersion!==1||!Number.isSafeInteger(p.originalCount)||p.originalCount<0||!Array.isArray(p.events)||p.events.length>500||!p.bySkill||!p.pending||!p.statistics||!p.preferences||!p.assisted||!p.suspended||!Number.isSafeInteger(p.rotation))throw new Error('备份不完整或版本不受支持。');
+  let p=typeof value==='string'?JSON.parse(value):structuredClone(value);
+  if(p?.version!==1||![1,2].includes(p?.catalogVersion)||!Number.isSafeInteger(p.originalCount)||p.originalCount<0||!Array.isArray(p.events)||p.events.length>500||!p.bySkill||!p.pending||!p.statistics||!p.preferences||!p.assisted||!p.suspended||!Number.isSafeInteger(p.rotation))throw new Error('备份不完整或版本不受支持。');
+  const legacy=p.catalogVersion===1,allowedStats=legacy?new Set(SKILLS.map(skill=>skill.id)):new Set(TRACKED_SKILLS.map(skill=>skill.id));
+  for(const [id,s]of Object.entries(p.bySkill))if(!validStats(id,s,allowedStats))throw new Error('掌握度数据无效。');
+  for(const [id,row]of Object.entries(p.assisted))if(!allowedStats.has(id)||!Number.isSafeInteger(row?.attempts)||!Number.isSafeInteger(row?.correct)||row.correct<0||row.correct>row.attempts)throw new Error('辅助练习数据无效。');
+  if(legacy)p=migrateCatalogV1(p);
+  for(const s of Object.values(p.bySkill))s.lexical??=[];
   if(p.recentCardIds===undefined)p.recentCardIds=p.events.map(event=>event.cardId).filter(Boolean).slice(-RECENT_LEXICAL_LIMIT);
   if(p.recentLexicalKeys===undefined)p.recentLexicalKeys=p.events.map(event=>cards.find(card=>card.id===event.cardId)?.lexicalKey).filter(Boolean).slice(-RECENT_LEXICAL_LIMIT);
   if(!Array.isArray(p.recentCardIds)||p.recentCardIds.length>RECENT_LEXICAL_LIMIT||p.recentCardIds.some(id=>typeof id!=='string'||!id.trim()||id.length>256||hasControlCharacters(id)))throw new Error('最近题目记录无效。');
   if(!Array.isArray(p.recentLexicalKeys)||p.recentLexicalKeys.length>RECENT_LEXICAL_LIMIT||p.recentLexicalKeys.some(key=>typeof key!=='string'||!key.trim()||key.length>256||hasControlCharacters(key)))throw new Error('最近题目记录无效。');
-  for(const [id,s]of Object.entries(p.bySkill))if(!SKILL_BY_ID.has(id)||!Number.isSafeInteger(s.attempts)||!Number.isSafeInteger(s.correct)||s.correct<0||s.correct>s.attempts||!checkNumber(s.confidence)||s.confidence>1||s.accuracy!==null&&(!checkNumber(s.accuracy)||s.accuracy>1)||!Array.isArray(s.scenes)||!Array.isArray(s.coverage))throw new Error('掌握度数据无效。');
-  const eventIds=new Set();for(const e of p.events){if(typeof e.questionId!=='string'||eventIds.has(e.questionId)||!['practice','challenge'].includes(e.mode)||!['input','choice'].includes(e.answerMode)||!SKILL_BY_ID.has(e.skillId)||!Number.isFinite(Date.parse(e.at)))throw new Error('作答记录无效。');eventIds.add(e.questionId);}
-  for(const [key,v]of Object.entries({...p.pending,...p.suspended}))if(key!==v.key||!['practice','challenge'].includes(v.queue)||!SKILL_BY_ID.has(v.skillId)||!Number.isSafeInteger(v.lastExposureOrdinal)||v.lastExposureOrdinal<0||v.lastExposureOrdinal>p.originalCount||!Number.isSafeInteger(v.failures)||v.failures<0)throw new Error('复测数据无效。');
+  const trackedIds=new Set(TRACKED_SKILLS.map(skill=>skill.id));
+  for(const [id,s]of Object.entries(p.bySkill)){
+    if(!validStats(id,s,trackedIds)||!Array.isArray(s.lexical))throw new Error('掌握度数据无效。');
+    const skill=TRACKED_SKILL_BY_ID.get(id),lexical=new Set(s.lexical);
+    if(lexical.size!==s.lexical.length||s.coverage.some(tag=>!skill.coverage.includes(tag))||s.lexical.some(pairId=>!skill.pairSkillIds?.includes(pairId)))throw new Error('掌握度数据无效。');
+  }
+  const eventIds=new Set();for(const e of p.events){e.trackedSkillId??=trackedIdFromRawSkillId(e.skillId);if(typeof e.questionId!=='string'||eventIds.has(e.questionId)||!['practice','challenge'].includes(e.mode)||!['input','choice'].includes(e.answerMode)||!SKILL_BY_ID.has(e.skillId)||!TRACKED_SKILL_BY_ID.has(e.trackedSkillId)||e.trackedSkillId!==trackedIdFromRawSkillId(e.skillId)||!Number.isFinite(Date.parse(e.at)))throw new Error('作答记录无效。');eventIds.add(e.questionId);}
+  for(const [key,v]of Object.entries({...p.pending,...p.suspended})){v.trackedSkillId??=trackedIdFromRawSkillId(v.skillId);if(key!==v.key||!['practice','challenge'].includes(v.queue)||!SKILL_BY_ID.has(v.skillId)||!TRACKED_SKILL_BY_ID.has(v.trackedSkillId)||v.trackedSkillId!==trackedIdFromRawSkillId(v.skillId)||!Number.isSafeInteger(v.lastExposureOrdinal)||v.lastExposureOrdinal<0||v.lastExposureOrdinal>p.originalCount||!Number.isSafeInteger(v.failures)||v.failures<0)throw new Error('复测数据无效。');}
   for(const k of ['questions','correct','independent','independentCorrect','assisted','retests','retestCorrect','activeMs','choice','input'])if(!checkNumber(p.statistics[k]))throw new Error('统计数据无效。');
   if(p.statistics.questions!==p.originalCount||p.statistics.correct>p.originalCount||p.statistics.independentCorrect>p.statistics.independent||p.statistics.retestCorrect>p.statistics.retests)throw new Error('统计与题数不一致。');
   if(p.events.length>p.originalCount||p.statistics.independent+p.statistics.assisted!==p.originalCount||p.statistics.choice+p.statistics.input!==p.originalCount)throw new Error('作答分类与总量不一致。');

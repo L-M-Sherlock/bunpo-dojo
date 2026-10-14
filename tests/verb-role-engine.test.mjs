@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {classifyAnswer,newProfile,startSession,grade,parseProfile,targetKey} from '../src/lib/engine.mjs';
+import {trackingSkillIdForCard} from '../src/lib/catalog.mjs';
 import {roleCard,withVerbRoleCatalog} from './fixtures/verb-role.mjs';
 
 test('verb-role accepts Chinese categories and their reviewed readings in both directions',()=>{
@@ -26,8 +27,8 @@ test('verb-role grading records only the requested category target and preserves
     assert.equal(scored.result.kind,'meaning-mismatch');
     assert.equal(scored.profile.statistics.questions,1);
     assert.equal(scored.profile.statistics.input,1);
-    assert.deepEqual(Object.keys(scored.profile.bySkill),[c.skillId]);
-    assert.equal(scored.profile.bySkill[c.skillId].correct,0);
+    const trackedId=trackingSkillIdForCard(c);assert.deepEqual(Object.keys(scored.profile.bySkill),[trackedId]);
+    assert.equal(scored.profile.bySkill[trackedId].correct,0);
     assert.equal(scored.profile.pending[targetKey(c)].failures,1);
     assert.equal(scored.profile.session.result.optionId,wrong.id);
     assert.deepEqual(parseProfile(scored.profile,cards),scored.profile);

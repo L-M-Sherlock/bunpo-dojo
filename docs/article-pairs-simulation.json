@@ -1,18 +1,28 @@
 {
   "perfect": {
     "completed": true,
-    "questions": 910,
-    "mastered": 182,
+    "questions": 175,
+    "rounds": 15,
+    "shortRounds": 1,
+    "mastered": 35,
     "pending": 0,
+    "sampledPairs": 48,
+    "pairSampleOverrun": 0,
     "longestTargetRun": 2,
-    "repeatedScenes": 152
+    "repeatedScenes": 12,
+    "withinRoundDuplicates": 0
   },
   "firstWrongThenCorrect": {
     "completed": true,
-    "questions": 1820,
-    "mastered": 182,
+    "questions": 350,
+    "rounds": 30,
+    "shortRounds": 1,
+    "mastered": 35,
     "pending": 0,
+    "sampledPairs": 48,
+    "pairSampleOverrun": 0,
     "longestTargetRun": 2,
-    "repeatedScenes": 1015
+    "repeatedScenes": 91,
+    "withinRoundDuplicates": 0
   }
 }
