@@ -9,7 +9,7 @@ export const COURSES=[
   {id:'movement',title:'移动与路径',subtitle:'に · へ · を',description:'辨析目的地、乘坐对象、离开位置与经过路径。',group:'particles'},
   {id:'relations',title:'时间与其他关系',subtitle:'に · で',description:'辨析时间、接受者、工具和移动目的。',group:'particles'},
   {id:'mixed',title:'综合用法辨析',subtitle:'在完整场景中选择',description:'结合施事、对象、地点和目的地，辨析当前目标。',group:'mixed'},
-  {id:'pairs',title:'自动词与他动词',subtitle:'25 种词形对应 · 语境辨析',description:`按25种常见词形对应整理；${PAIR_COUNT-articleReference.mapping.length}组高频补充词对也归入相应模式。`,group:'verbs'},
+  {id:'pairs',title:'自动词与他动词',subtitle:'25 种词形对应 · 语境辨析',description:`按 25 种常见词形对应整理；${PAIR_COUNT-articleReference.mapping.length} 组高频补充词对也归入相应模式。`,group:'verbs'},
 ];
 // Mixed is a selectable scene set; its targets belong to the four full courses.
 export const ADAPTIVE_COURSE_IDS=COURSES.filter(c=>c.group!=='mixed').map(c=>c.id);

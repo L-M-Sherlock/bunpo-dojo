@@ -881,12 +881,12 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                 {c.id === "pairs" ? (
                   <>
                     <p className="pair-group-intro">
-                      本课按 25 种词形对应模式达标，每种模式只抽取最多 3 组代表词对，并覆盖自动词与他动词方向；172 组词对用于轮换练习，不要求逐组完成。答错过的具体词对仍须独立复测。每组词对结合
-                      <a href={SOURCE_URLS["jpdb-frequency"]} target="_blank" rel="noreferrer"> JPDBv2㋕</a>
-                      与
-                      <a href={SOURCE_URLS["jiten-frequency"]} target="_blank" rel="noreferrer"> Jiten Global</a>
-                      的词形、读音排名，由常见到较少见排列。查看
-                      <a href={SOURCE_URLS["haya-pairs"]} target="_blank" rel="noreferrer"> 词形分类参考 ↗</a>
+                      本课按 25 种词形对应模式达标，每种模式只抽取最多 3 组代表词对，并覆盖自动词与他动词方向；172 组词对用于轮换练习，不要求逐组完成。答错过的具体词对仍须独立复测。每组词对结合{" "}
+                      <a href={SOURCE_URLS["jpdb-frequency"]} target="_blank" rel="noreferrer">JPDBv2㋕</a>
+                      {" 与 "}
+                      <a href={SOURCE_URLS["jiten-frequency"]} target="_blank" rel="noreferrer">Jiten Global</a>
+                      {" "}的词形、读音排名，由常见到较少见排列。查看{" "}
+                      <a href={SOURCE_URLS["haya-pairs"]} target="_blank" rel="noreferrer">词形分类参考 ↗</a>
                     </p>
                     <div className="pair-group-list">
                       {PAIR_GROUPS.map((group) => {
