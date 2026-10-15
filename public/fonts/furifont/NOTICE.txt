@@ -1,0 +1,30 @@
+Bunpo Furifont Sans
+
+This is a Bunpo Dojo custom derivative of Source Han Sans JP VF.
+Font outlines: Copyright 2014-2025 Adobe. Licensed under the SIL Open Font
+License 1.1. The reserved name 'Source' is not used as this derivative's family.
+See OFL.txt for the complete font license.
+
+Base font pinned to adobe-fonts/source-han-sans commit:
+a4f7cf94edfb9d7ffbdfc4841de276358bd7e0f2
+Base SHA-256:
+4acc34926098472741bbb7be5949b80afa7fc08f41ea3cd80dc34f12f7d55bbc
+
+Font generation uses Furifont 0.1.2, Copyright (c) 2025-PRESENT Anthony Fu,
+under the MIT License. See FURIFONT-LICENSE.md.
+Upstream release: https://github.com/antfu/furifont/releases/tag/v0.1.2
+Upstream source commit: e971bb5f0f371355ed3ea0dffcd5df6cf823c2af
+
+The text, word boundaries and readings come exclusively from Bunpo Dojo's
+reviewed src/data/ruby-layouts.json. The upstream Furifont dictionary, JMdict,
+JmdictFurigana and other upstream dictionary datasets were not used.
+
+Rebuild: npm ci; npm run build:furifont
+Audit the shipped font: npm run audit:furifont
+The build downloads and checksums the pinned base only when its system
+temporary-directory cache is absent. No upstream source checkout is needed.
+The font has a real variable weight axis (250-900), and the reviewed pairs
+are drawn with explicit, one-based salt selectors without text mutations.
+The full machine-readable provenance and content/asset hashes are in
+src/data/furifont-manifest.json. audit.json records the delivered WOFF2's
+HarfBuzz shaping and literal glyph-component checks.

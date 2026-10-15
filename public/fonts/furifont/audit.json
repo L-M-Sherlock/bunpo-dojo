@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "ok": true,
+  "sourceSha256": "c7710c92847ee3d8bb6e5235b248b003924242aaa27a05f08024c2aa4240b563",
+  "fontSha256": "8d9de9497b4d11db15aa480b5bcdc24be03f8c753ccee2552e503226d9a96c9c",
+  "pairs": 2472,
+  "layouts": 1842,
+  "shapes": 9888,
+  "weights": [
+    250,
+    400,
+    700,
+    900
+  ],
+  "inkAuditWeights": [
+    250,
+    299.98779296875,
+    350.0152587890625,
+    400,
+    400.0030517578125,
+    500.018310546875,
+    700,
+    700.0091552734375,
+    900
+  ],
+  "componentsChecked": 13745,
+  "sourceGlyphsVerified": 1339,
+  "harfbuzz": "14.6.0",
+  "readingSource": "reviewed-ruby-layouts-only",
+  "dictionaryUsed": false,
+  "failures": 0
+}

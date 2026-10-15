@@ -29,6 +29,35 @@ const seedRole=(card,answerMode='choice')=>{window.history.replaceState(null,'',
 beforeEach(()=>{localStorage.clear();window.history.replaceState(null,'','/bunpo-dojo/');lockTail=Promise.resolve();confirmResult=true;confirmCalls=0;});
 afterEach(()=>cleanup());after(()=>dom.window.close());
 
+test('a failed annotation-font download retains native ruby in the real page',async()=>{
+  const fonts=Object.getOwnPropertyDescriptor(document,'fonts'),fontFace=Object.getOwnPropertyDescriptor(globalThis,'FontFace');
+  let loads=0,adds=0;
+  class FailedFontFace{load(){loads++;return Promise.reject(new Error('simulated font request failure'));}}
+  Object.defineProperty(document,'fonts',{configurable:true,value:{check:()=>true,load:async()=>[],add:()=>adds++}});
+  Object.defineProperty(globalThis,'FontFace',{configurable:true,value:FailedFontFace});
+  try{
+    const card=cards.find(card=>card.id==='particle.time.01');
+    window.history.replaceState(null,'','/bunpo-dojo/#/practice');
+    localStorage.setItem(STORAGE_KEY,JSON.stringify(startSession(newProfile(),[card],{courses:[card.courseId]})));
+    const view=mount([card]),sentence=view.container.querySelector('.exercise-card .sentence'),expected=sentenceText(sentence);
+    await act(async()=>{});
+    assert.equal(loads,1);
+    assert.equal(adds,0);
+    assert.equal(view.container.querySelector('.furifont-ruby'),null);
+    assert.ok(sentence.querySelector('ruby'));
+    assert.equal(sentenceText(sentence),expected);
+    fireEvent.click(view.getByRole('button',{name:'隐藏注音'}));
+    await waitFor(()=>assert.equal(view.container.querySelectorAll('.exercise-card .sentence ruby').length,0));
+    fireEvent.click(view.getByRole('button',{name:'显示注音'}));
+    await waitFor(()=>assert.ok(view.container.querySelector('.exercise-card .sentence ruby')));
+    assert.equal(sentenceText(view.container.querySelector('.exercise-card .sentence')),expected);
+  }finally{
+    cleanup();
+    if(fonts)Object.defineProperty(document,'fonts',fonts);else delete document.fonts;
+    if(fontFace)Object.defineProperty(globalThis,'FontFace',fontFace);else delete globalThis.FontFace;
+  }
+});
+
 test('the real page accepts an answer once and records statistics with the result',async()=>{seed();const v=mount(),c=cards.find(c=>c.id===read().session.cardId),o=c.options.find(o=>c.answerIds.includes(o.id));fireEvent.click(optionButton(v,c,o));await waitFor(()=>assert.ok(v.getByRole('button',{name:/检查答案/}).disabled===false));fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.ok(v.getByText('与场景相符！')));assert.equal(read().originalCount,1);assert.equal(read().statistics.questions,1);assert.equal(read().events.length,1);assert.equal(read().bySkill[c.skillId].correct,1);});
 test('answer feedback uniformly shows inflected options, dictionary forms and transitivity with Japanese ruby',async()=>{
   const card=cards.find(card=>card.id==='verb.reftca.02');seedRole(card);const v=mount([card]);

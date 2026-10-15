@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import type { FormEvent } from "react";
 import rawCards from "./data/cards.json";
 import rawVerbRoleFocus from "./data/verb-role-focus.json";
@@ -24,6 +24,7 @@ import { createProfileStore } from "./lib/profile-store.mjs";
 import { createStatisticsClock } from "./lib/statistics-clock.mjs";
 import { recordTime } from "./lib/statistics.mjs";
 import { usageSentenceParts } from "./lib/sentence-parts.mjs";
+import { furifontEntry, furifontStyle, getFurifontLoader } from "./lib/furifont.mjs";
 import { orderedOptions } from "./lib/option-order.mjs";
 import { optionVerbDetails } from "./lib/verb-option-details.mjs";
 import type { Card, Part, Profile, Mode, AnswerMode } from "./types";
@@ -64,6 +65,8 @@ const selectionReasonCopy = {
   continuation: ["继续作答", "这是升级前已经显示的题目，原始出题原因没有保存。"],
 } as const;
 function Japanese({ parts, reading, highlight, highlightReading, omitLeadingPunctuation = false }: { parts: Part[]; reading: boolean; highlight?: string; highlightReading?: string; omitLeadingPunctuation?: boolean }) {
+  const fontLoader = getFurifontLoader();
+  const fontReady = useSyncExternalStore(fontLoader.subscribe,fontLoader.getSnapshot,fontLoader.getSnapshot);
   const aligned = parts.flatMap((part, index) => usageSentenceParts(part, {omitLeadingPunctuation: omitLeadingPunctuation && index === 0})),
     fullText = aligned.map((part) => part.text).join(""),
     highlightStart = highlight ? fullText.indexOf(highlight) : -1,
@@ -72,9 +75,13 @@ function Japanese({ parts, reading, highlight, highlightReading, omitLeadingPunc
       const start = rows.at(-1)?.end ?? 0;
       return [...rows, {part, index, start, end: start + part.text.length}];
     }, []);
-  const renderPart = (part: Part) => part.reading && reading ? (
-    <ruby>{part.text}<rt>{part.reading}</rt></ruby>
-  ) : part.text;
+  const renderPart = (part: Part) => {
+    if(!part.reading || !reading)return part.text;
+    const entry = fontReady ? furifontEntry(part) : undefined;
+    return entry ? (
+      <span className="furifont-ruby" data-reading={part.reading} role="term" aria-label={`${part.text}（${part.reading}）`} style={furifontStyle(entry)}>{part.text}</span>
+    ) : <ruby>{part.text}<rt>{part.reading}</rt></ruby>;
+  };
   return (
     <span lang="ja">
       {located.flatMap(({part, index, start, end}) => {
@@ -84,8 +91,8 @@ function Japanese({ parts, reading, highlight, highlightReading, omitLeadingPunc
         if(part.reading&&reading){
           const readingStart=highlightReading&&localEnd===part.text.length?part.reading.lastIndexOf(highlightReading):-1;
           if(readingStart>=0){
-            if(localStart)result.push(<ruby key={`${index}-before`}>{part.text.slice(0,localStart)}<rt>{part.reading.slice(0,readingStart)}</rt></ruby>);
-            result.push(<strong className="focus-verb" key={`${index}-focus`}><ruby>{part.text.slice(localStart,localEnd)}<rt>{part.reading.slice(readingStart)}</rt></ruby></strong>);
+            if(localStart)result.push(<span key={`${index}-before`}>{renderPart({text:part.text.slice(0,localStart),reading:part.reading.slice(0,readingStart)})}</span>);
+            result.push(<strong className="focus-verb" key={`${index}-focus`}>{renderPart({text:part.text.slice(localStart,localEnd),reading:part.reading.slice(readingStart)})}</strong>);
             return result;
           }
           return <strong className="focus-verb" key={index}>{renderPart(part)}</strong>;

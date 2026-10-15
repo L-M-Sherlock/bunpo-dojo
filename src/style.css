@@ -64,6 +64,14 @@ summary:focus-visible {
 :lang(ja) {
   font-family: var(--jp);
 }
+.furifont-ruby {
+  /* Separate shaping runs preserve word boundaries. Per-entry inline padding
+     reserves the font's measured ink overhang without spacing every word. */
+  display: inline-block;
+  white-space: nowrap;
+  font-variant-ligatures: normal;
+  vertical-align: baseline;
+}
 h1,
 h2,
 p {
