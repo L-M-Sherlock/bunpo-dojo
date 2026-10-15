@@ -19,6 +19,7 @@ import functools
 import importlib.metadata
 import json
 import re
+import subprocess
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
@@ -262,17 +263,19 @@ def compact(parts):
 
 def collect_parts(cards):
     unique = {}
-    for card in cards:
-        parts = [*card.get("before", []), *card.get("after", [])]
-        if card.get("exerciseType") == "verb-role":
-            if card.get("focusVerb"):
-                parts.append(card["focusVerb"])
-        else:
-            parts.extend(card.get("options", []))
-        for part in parts:
-            text, reading = part.get("text", ""), part.get("reading")
-            if reading and HAN.search(text):
-                unique[(text, reading)] = None
+    # Share the renderer's source list, including dictionary forms, with the audit.
+    source = subprocess.run(
+        ["node", "--input-type=module", "-e",
+         "import {rubySourceParts} from './src/lib/ruby-source-parts.mjs';"
+         "process.stdin.setEncoding('utf8');let input='';for await(const chunk of process.stdin)input+=chunk;"
+         "console.log(JSON.stringify(rubySourceParts(JSON.parse(input))));"],
+        input=json.dumps(cards, ensure_ascii=False), text=True,
+        capture_output=True, check=True,
+    )
+    for part in json.loads(source.stdout):
+        text, reading = part.get("text", ""), part.get("reading")
+        if reading and HAN.search(text):
+            unique[(text, reading)] = None
     return sorted(unique)
 
 

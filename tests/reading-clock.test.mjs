@@ -4,6 +4,7 @@ import {hasUnresolvedRuby,rubyLayoutMetadata,usageSentenceParts} from '../src/li
 import {createStatisticsClock} from '../src/lib/statistics-clock.mjs';
 import {validateCards} from '../src/lib/content-validation.mjs';
 import cards from '../src/data/cards.json' with {type:'json'};
+import {rubySourceParts} from '../src/lib/ruby-source-parts.mjs';
 test('Japanese reading anchors align reviewed ambiguous phrases by word',()=>{
   assert.deepEqual(usageSentenceParts({text:'母は来週、眼科',reading:'はははらいしゅう、がんか'}),[
     {text:'母',reading:'はは'},{text:'は'},{text:'来週',reading:'らいしゅう'},{text:'、'},{text:'眼科',reading:'がんか'}]);
@@ -43,11 +44,8 @@ test('moving leading sentence punctuation beside the answer keeps the reviewed r
   assert.equal(checked,15);
 });
 test('every active authored phrase has a safe reading alignment',()=>{
-  assert.deepEqual(rubyLayoutMetadata,{version:1,policy:'word-boundary-ruby',cards:858,count:1558,generator:{sudachipy:'0.6.10',sudachidictCore:'20250825'}});
-  for(const card of cards){
-    const parts=[...card.before,...card.after,...(card.exerciseType==='verb-role'?(card.focusVerb?[card.focusVerb]:[]):card.options)];
-    for(const part of parts)assert.equal(hasUnresolvedRuby(part),false,`${card.id}: ${part.text}`);
-  }
+  assert.deepEqual(rubyLayoutMetadata,{version:1,policy:'word-boundary-ruby',cards:858,count:1842,generator:{sudachipy:'0.6.10',sudachidictCore:'20250825'}});
+  for(const part of rubySourceParts(cards))assert.equal(hasUnresolvedRuby(part),false,part.text);
 });
 test('the entire active catalog satisfies the frozen structural requirements',()=>{assert.deepEqual(validateCards(cards),[]);});
 test('the inherited active clock pauses outside practice and after idle without changing evidence',()=>{let t=0;const wall=()=>new Date(2026,9,13,12,0,0,t),clock=createStatisticsClock({now:()=>t,wall});clock.setContext({enabled:true,answering:true,domain:'particles',courseId:'location'});t=1000;assert.equal(clock.answerDuration(),1000);clock.setContext({enabled:false});t=6000;assert.equal(clock.answerDuration(),1000);clock.setContext({enabled:true,answering:false});t=80000;const fragments=clock.drain();assert.equal(fragments.reduce((sum,f)=>sum+f.ms,0),61000);assert.equal(clock.answerDuration(),1000);});

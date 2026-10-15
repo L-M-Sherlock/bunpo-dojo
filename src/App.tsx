@@ -25,6 +25,7 @@ import { createStatisticsClock } from "./lib/statistics-clock.mjs";
 import { recordTime } from "./lib/statistics.mjs";
 import { usageSentenceParts } from "./lib/sentence-parts.mjs";
 import { orderedOptions } from "./lib/option-order.mjs";
+import { optionVerbDetails } from "./lib/verb-option-details.mjs";
 import type { Card, Part, Profile, Mode, AnswerMode } from "./types";
 
 const DEFAULT_CARDS = rawCards as Card[];
@@ -1352,11 +1353,19 @@ export default function App({ cards: CARDS = DEFAULT_CARDS }: { cards?: Card[] }
                     <p>{card.explanation}</p>
                     <details>
                       <summary>{card.exerciseType === "verb-role" ? "查看自他类别的判断依据" : "查看其他选项的含义"}</summary>
-                      {displayOptions.map((o) => (
-                        <p key={o.id}>
-                          <b lang={card.exerciseType === "verb-role" ? undefined : "ja"}>{o.text}</b> · {o.explanation}
-                        </p>
-                      ))}
+                      {displayOptions.map((o) => {
+                        const verb = optionVerbDetails(card, o);
+                        return (
+                          <p key={o.id} className={verb ? "verb-option-explanation" : undefined}>
+                            <b>{card.exerciseType === "verb-role" ? o.text : <Japanese parts={[o]} reading={reading} />}</b>
+                            {verb && (card.exerciseType === "verb-role" ? (
+                              <>（本题原形：<Japanese parts={[verb.lemma]} reading={reading} />）</>
+                            ) : (
+                              <> ← <Japanese parts={[verb.lemma]} reading={reading} />（{verb.label}）</>
+                            ))} · {o.explanation}
+                          </p>
+                        );
+                      })}
                     </details>
                     <p className="evidence-note">
                       {session.result.independent

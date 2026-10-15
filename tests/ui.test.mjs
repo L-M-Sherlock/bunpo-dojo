@@ -30,6 +30,30 @@ beforeEach(()=>{localStorage.clear();window.history.replaceState(null,'','/bunpo
 afterEach(()=>cleanup());after(()=>dom.window.close());
 
 test('the real page accepts an answer once and records statistics with the result',async()=>{seed();const v=mount(),c=cards.find(c=>c.id===read().session.cardId),o=c.options.find(o=>c.answerIds.includes(o.id));fireEvent.click(optionButton(v,c,o));await waitFor(()=>assert.ok(v.getByRole('button',{name:/检查答案/}).disabled===false));fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.ok(v.getByText('与场景相符！')));assert.equal(read().originalCount,1);assert.equal(read().statistics.questions,1);assert.equal(read().events.length,1);assert.equal(read().bySkill[c.skillId].correct,1);});
+test('answer feedback uniformly shows inflected options, dictionary forms and transitivity with Japanese ruby',async()=>{
+  const card=cards.find(card=>card.id==='verb.reftca.02');seedRole(card);const v=mount([card]);
+  assert.equal(v.container.querySelector('.verb-option-explanation'),null);
+  fireEvent.click(optionButton(v,card,card.options.find(option=>option.text==='塞がった')));
+  await waitFor(()=>assert.equal(v.getByRole('button',{name:/检查答案/}).disabled,false));
+  fireEvent.click(v.getByRole('button',{name:/检查答案/}));
+  await waitFor(()=>assert.equal(v.container.querySelectorAll('.verb-option-explanation').length,2));
+  const rows=[...v.container.querySelectorAll('.verb-option-explanation')];
+  assert.ok(rows.some(row=>sentenceText(row).startsWith('塞がった ← 塞がる（自动词）')));
+  assert.ok(rows.some(row=>sentenceText(row).startsWith('塞いだ ← 塞ぐ（他动词）')));
+  for(const row of rows){assert.equal(row.querySelectorAll('ruby').length,2);assert.ok(row.querySelector('span[lang="ja"]'));}
+  fireEvent.click(v.getByRole('button',{name:'隐藏注音'}));
+  await waitFor(()=>assert.equal(v.container.querySelectorAll('.verb-option-explanation ruby').length,0));
+  assert.ok([...v.container.querySelectorAll('.verb-option-explanation')].some(row=>row.textContent.startsWith('塞いだ ← 塞ぐ（他动词）')));
+});
+test('role feedback names the given dictionary form without turning the rejected category into another verb',async()=>{
+  const card=cards.find(card=>card.exerciseType==='verb-role');
+  assert.ok(card);seedRole(card);const v=mount([card]);
+  fireEvent.click(optionButton(v,card,card.options.find(option=>card.answerIds.includes(option.id))));
+  await waitFor(()=>assert.equal(v.getByRole('button',{name:/检查答案/}).disabled,false));
+  fireEvent.click(v.getByRole('button',{name:/检查答案/}));
+  await waitFor(()=>assert.equal(v.container.querySelectorAll('.verb-option-explanation').length,2));
+  for(const row of v.container.querySelectorAll('.verb-option-explanation')){assert.ok(sentenceText(row).includes(`（本题原形：${card.focusVerb.text}）`));assert.equal(row.textContent.includes('←'),false);}
+});
 test('help survives remount and cannot become an independent correct answer',async()=>{seed();let v=mount();fireEvent.click(v.getByRole('button',{name:'看一条提示'}));await waitFor(()=>assert.equal(read().session.hint,true));assert.equal(read().originalCount,0);cleanup();v=mount();assert.ok(v.getByText('已使用提示'));const c=cards.find(c=>c.id===read().session.cardId),o=c.options.find(o=>c.answerIds.includes(o.id));fireEvent.click(optionButton(v,c,o));await waitFor(()=>assert.equal(v.getByRole('button',{name:/检查答案/}).disabled,false));fireEvent.click(v.getByRole('button',{name:/检查答案/}));await waitFor(()=>assert.ok(v.getByText(/本次作为辅助练习记录/)));assert.equal(read().bySkill[c.skillId],undefined);assert.ok(read().pending[targetKey(c)]);});
 test('statistics navigation preserves the unsubmitted input and ignores answer shortcuts',async()=>{seed();const v=mount();fireEvent.click(v.getByRole('button',{name:'输入',exact:true}));await waitFor(()=>assert.ok(v.getByRole('textbox',{name:'你的日语答案'})));fireEvent.change(v.getByRole('textbox',{name:'你的日语答案'}),{target:{value:'に'}});await waitFor(()=>assert.equal(read().session.answer,'に'));await act(async()=>{location.hash='/stats';fireEvent(window,new window.HashChangeEvent('hashchange'));});assert.ok(v.getByText('学习统计'));fireEvent.keyDown(window,{key:'Enter'});assert.equal(read().originalCount,0);await act(async()=>{location.hash='/practice';fireEvent(window,new window.HashChangeEvent('hashchange'));});assert.equal(v.getByRole('textbox',{name:'你的日语答案'}).value,'に');});
 test('challenge has its own active navigation and hides the learning sidebar',()=>{seed('pairs','challenge');window.history.replaceState(null,'','/bunpo-dojo/#/challenge/play');const v=mount();assert.equal(v.container.querySelector('.practice-sidebar'),null);assert.equal(v.container.querySelector('.site-header a.active').textContent,'自由挑战');assert.equal(v.container.querySelector('progress'),null);});

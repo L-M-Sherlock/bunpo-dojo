@@ -1,6 +1,7 @@
 import cards from '../src/data/cards.json' with {type:'json'};
 import data from '../src/data/ruby-layouts.json' with {type:'json'};
 import {hasUnresolvedRuby} from '../src/lib/sentence-parts.mjs';
+import {rubySourceParts} from '../src/lib/ruby-source-parts.mjs';
 
 const han=/[\u3400-\u9fff々〇]/u,pureHan=/^[\u3400-\u9fff々〇]+$/u,unsafeStart=/^[ぁぃぅぇぉゃゅょっゎー]/u;
 const normalize=text=>text.normalize('NFKC').replace(/[ァ-ヶ]/g,char=>String.fromCharCode(char.charCodeAt(0)-0x60)).replace(/\s/g,'').replace(/,/g,'、').replace(/\./g,'。');
@@ -8,12 +9,7 @@ const key=part=>`${part.text}\u0000${part.reading}`;
 
 function activeParts(){
   const result=new Map();
-  for(const card of cards){
-    const parts=[...(card.before??[]),...(card.after??[])];
-    if(card.exerciseType==='verb-role'){if(card.focusVerb)parts.push(card.focusVerb);}
-    else parts.push(...(card.options??[]));
-    for(const part of parts)if(part.reading&&han.test(part.text))result.set(key(part),part);
-  }
+  for(const part of rubySourceParts(cards))if(part.reading&&han.test(part.text))result.set(key(part),part);
   return result;
 }
 
